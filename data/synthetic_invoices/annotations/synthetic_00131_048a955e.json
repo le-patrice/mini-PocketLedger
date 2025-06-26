@@ -1,0 +1,204 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-400259",
+    "2025-02-16",
+    "Parrish, Cross and Vaughn",
+    "Professional PHOTO/MAP/PRINT/PUBLICATION- CARTOGRAPHY Kit",
+    "1",
+    "$247.93",
+    "$247.93",
+    "SUPPORT- PROFESSIONAL: HUMAN RESOURCES",
+    "14",
+    "$375.40",
+    "$5255.60",
+    "Industrial TRANSPORTATION/TRAVEL/RELOCATION- TRAVEL/LODGING/RECRUITMENT System",
+    "3",
+    "$398.89",
+    "$1196.67",
+    "$6700.20",
+    "$670.02",
+    "$7370.22"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      181,
+      169
+    ],
+    [
+      55,
+      222,
+      388,
+      232
+    ],
+    [
+      452,
+      222,
+      458,
+      232
+    ],
+    [
+      556,
+      222,
+      596,
+      233
+    ],
+    [
+      653,
+      222,
+      693,
+      233
+    ],
+    [
+      55,
+      267,
+      319,
+      277
+    ],
+    [
+      449,
+      267,
+      461,
+      277
+    ],
+    [
+      556,
+      267,
+      596,
+      278
+    ],
+    [
+      647,
+      267,
+      693,
+      278
+    ],
+    [
+      55,
+      292,
+      325,
+      302
+    ],
+    [
+      452,
+      292,
+      458,
+      302
+    ],
+    [
+      556,
+      292,
+      596,
+      303
+    ],
+    [
+      648,
+      292,
+      693,
+      303
+    ],
+    [
+      654,
+      367,
+      700,
+      378
+    ],
+    [
+      660,
+      392,
+      700,
+      403
+    ],
+    [
+      641,
+      430,
+      700,
+      444
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Human Resources Services",
+  "document_portfolio": "Knowledge Based Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "PHOTO/MAP/PRINT/PUBLICATION- CARTOGRAPHY",
+      "spendCategoryTitle": "Business administration services",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "Professional PHOTO/MAP/PRINT/PUBLICATION- CARTOGRAPHY Kit",
+      "line_total": 247.93
+    },
+    {
+      "psc": "",
+      "shortName": "SUPPORT- PROFESSIONAL: HUMAN RESOURCES",
+      "spendCategoryTitle": "Human Resources Services",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "SUPPORT- PROFESSIONAL: HUMAN RESOURCES",
+      "line_total": 5255.6
+    },
+    {
+      "psc": "",
+      "shortName": "TRANSPORTATION/TRAVEL/RELOCATION- TRAVEL/LODGING/RECRUITMENT: LODGING, HOTEL/MOTEL",
+      "spendCategoryTitle": "Passenger Travel",
+      "portfolioGroup": "Transportation Services",
+      "description": "Industrial TRANSPORTATION/TRAVEL/RELOCATION- TRAVEL/LODGING/RECRUITMENT System",
+      "line_total": 1196.67
+    }
+  ],
+  "psc_breakdown": {
+    "Business administration services": 247.93,
+    "Human Resources Services": 5255.6,
+    "Passenger Travel": 1196.67
+  },
+  "portfolio_breakdown": {
+    "Knowledge Based Services": 5503.530000000001,
+    "Transportation Services": 1196.67
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-400259",
+    "date": "2025-02-16",
+    "vendor_name": "Parrish, Cross and Vaughn",
+    "total_amount": 7370.22
+  }
+}

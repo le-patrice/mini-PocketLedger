@@ -1,0 +1,163 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-754510",
+    "2024-07-29",
+    "Marshall PLC",
+    "RADAR EQUIPMENT, AIRBORNE Package",
+    "8",
+    "$823.55",
+    "$6588.40",
+    "Standard DENTAL INSTRUMENTS, EQUIPMENT, AND SUPPLIES Kit",
+    "9",
+    "$466.59",
+    "$4199.31",
+    "$10787.71",
+    "$539.39",
+    "$11327.10"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      126,
+      191
+    ],
+    [
+      65,
+      251,
+      280,
+      263
+    ],
+    [
+      482,
+      251,
+      488,
+      261
+    ],
+    [
+      593,
+      251,
+      633,
+      262
+    ],
+    [
+      689,
+      251,
+      735,
+      262
+    ],
+    [
+      65,
+      278,
+      409,
+      290
+    ],
+    [
+      482,
+      278,
+      488,
+      288
+    ],
+    [
+      593,
+      278,
+      633,
+      289
+    ],
+    [
+      689,
+      278,
+      735,
+      289
+    ],
+    [
+      688,
+      335,
+      740,
+      346
+    ],
+    [
+      700,
+      362,
+      740,
+      373
+    ],
+    [
+      675,
+      402,
+      740,
+      416
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Detection & Coherent Radiation Eq",
+  "document_portfolio": "Electronic & Communication Equipment",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "RADAR EQUIPMENT, AIRBORNE",
+      "spendCategoryTitle": "Detection & Coherent Radiation Eq",
+      "portfolioGroup": "Electronic & Communication Equipment",
+      "description": "RADAR EQUIPMENT, AIRBORNE Package",
+      "line_total": 6588.4
+    },
+    {
+      "psc": "",
+      "shortName": "DENTAL INSTRUMENTS, EQUIPMENT, AND SUPPLIES",
+      "spendCategoryTitle": "Medical Equipment and Accessories and Supplies",
+      "portfolioGroup": "Clothing, Textiles & Subsistence S&E",
+      "description": "Standard DENTAL INSTRUMENTS, EQUIPMENT, AND SUPPLIES Kit",
+      "line_total": 4199.31
+    }
+  ],
+  "psc_breakdown": {
+    "Detection & Coherent Radiation Eq": 6588.4,
+    "Medical Equipment and Accessories and Supplies": 4199.31
+  },
+  "portfolio_breakdown": {
+    "Electronic & Communication Equipment": 6588.4,
+    "Clothing, Textiles & Subsistence S&E": 4199.31
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-754510",
+    "date": "2024-07-29",
+    "vendor_name": "Marshall PLC",
+    "total_amount": 11327.1
+  }
+}

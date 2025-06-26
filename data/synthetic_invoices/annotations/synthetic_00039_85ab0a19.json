@@ -1,0 +1,163 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-612123",
+    "2025-05-09",
+    "Pugh, Hunter and Miller",
+    "Standard LEASE/RENTAL OF AMMUNITION STORAGE BUILDINGS Assembly",
+    "12",
+    "$267.78",
+    "$3213.36",
+    "Standard DRUGS AND BIOLOGICALS Assembly",
+    "11",
+    "$749.47",
+    "$8244.17",
+    "$11457.53",
+    "$572.88",
+    "$12030.41"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      166,
+      169
+    ],
+    [
+      55,
+      222,
+      394,
+      232
+    ],
+    [
+      449,
+      222,
+      461,
+      232
+    ],
+    [
+      556,
+      222,
+      596,
+      233
+    ],
+    [
+      647,
+      222,
+      693,
+      233
+    ],
+    [
+      55,
+      267,
+      296,
+      279
+    ],
+    [
+      450,
+      267,
+      461,
+      277
+    ],
+    [
+      556,
+      267,
+      596,
+      278
+    ],
+    [
+      647,
+      267,
+      693,
+      278
+    ],
+    [
+      649,
+      322,
+      700,
+      333
+    ],
+    [
+      660,
+      347,
+      700,
+      358
+    ],
+    [
+      634,
+      385,
+      700,
+      399
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Drugs and Pharmaceutical Products",
+  "document_portfolio": "Clothing, Textiles & Subsistence S&E",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "LEASE/RENTAL OF AMMUNITION STORAGE BUILDINGS",
+      "spendCategoryTitle": "Facilities Purchase & Lease",
+      "portfolioGroup": "Facility Related Services",
+      "description": "Standard LEASE/RENTAL OF AMMUNITION STORAGE BUILDINGS Assembly",
+      "line_total": 3213.36
+    },
+    {
+      "psc": "",
+      "shortName": "DRUGS AND BIOLOGICALS",
+      "spendCategoryTitle": "Drugs and Pharmaceutical Products",
+      "portfolioGroup": "Clothing, Textiles & Subsistence S&E",
+      "description": "Standard DRUGS AND BIOLOGICALS Assembly",
+      "line_total": 8244.17
+    }
+  ],
+  "psc_breakdown": {
+    "Facilities Purchase & Lease": 3213.36,
+    "Drugs and Pharmaceutical Products": 8244.17
+  },
+  "portfolio_breakdown": {
+    "Facility Related Services": 3213.36,
+    "Clothing, Textiles & Subsistence S&E": 8244.17
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-612123",
+    "date": "2025-05-09",
+    "vendor_name": "Pugh, Hunter and Miller",
+    "total_amount": 12030.41
+  }
+}

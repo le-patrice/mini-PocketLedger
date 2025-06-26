@@ -1,0 +1,288 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-861296",
+    "2024-11-24",
+    "Pollard-Howe",
+    "Standard PAPER AND PAPERBOARD Kit",
+    "10",
+    "$70.09",
+    "$700.90",
+    "Industrial WOODWORKING MACHINES System",
+    "5",
+    "$276.16",
+    "$1380.80",
+    "Premium PAINTS, DOPES, VARNISHES, AND RELATED PRODUCTS Kit",
+    "2",
+    "$140.67",
+    "$281.34",
+    "PHOTO/MAP/PRINT/PUBLICATION- TOPOGRAPHY Assembly",
+    "6",
+    "$137.58",
+    "$825.48",
+    "Industrial INSTALLATION OF EQUIPMENT- MISCELLANEOUS",
+    "6",
+    "$541.06",
+    "$3246.36",
+    "$6434.88",
+    "$643.49",
+    "$7078.37"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      126,
+      191
+    ],
+    [
+      65,
+      251,
+      270,
+      261
+    ],
+    [
+      479,
+      251,
+      491,
+      261
+    ],
+    [
+      599,
+      251,
+      633,
+      262
+    ],
+    [
+      695,
+      251,
+      735,
+      262
+    ],
+    [
+      65,
+      278,
+      303,
+      290
+    ],
+    [
+      482,
+      278,
+      488,
+      288
+    ],
+    [
+      593,
+      278,
+      633,
+      289
+    ],
+    [
+      689,
+      278,
+      735,
+      289
+    ],
+    [
+      65,
+      305,
+      427,
+      317
+    ],
+    [
+      482,
+      305,
+      488,
+      315
+    ],
+    [
+      593,
+      305,
+      633,
+      316
+    ],
+    [
+      695,
+      305,
+      735,
+      316
+    ],
+    [
+      65,
+      332,
+      377,
+      344
+    ],
+    [
+      482,
+      332,
+      488,
+      342
+    ],
+    [
+      593,
+      332,
+      633,
+      343
+    ],
+    [
+      695,
+      332,
+      735,
+      343
+    ],
+    [
+      65,
+      359,
+      376,
+      370
+    ],
+    [
+      482,
+      359,
+      488,
+      369
+    ],
+    [
+      593,
+      359,
+      633,
+      370
+    ],
+    [
+      689,
+      359,
+      735,
+      370
+    ],
+    [
+      694,
+      416,
+      740,
+      427
+    ],
+    [
+      700,
+      443,
+      740,
+      454
+    ],
+    [
+      681,
+      483,
+      740,
+      497
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Installation of Equipment",
+  "document_portfolio": "Equipment Related Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "PAPER AND PAPERBOARD",
+      "spendCategoryTitle": "Materials",
+      "portfolioGroup": "Sustainment S&E",
+      "description": "Standard PAPER AND PAPERBOARD Kit",
+      "line_total": 700.9
+    },
+    {
+      "psc": "",
+      "shortName": "WOODWORKING MACHINES",
+      "spendCategoryTitle": "Machinery & Components",
+      "portfolioGroup": "Facilities S&E",
+      "description": "Industrial WOODWORKING MACHINES System",
+      "line_total": 1380.8
+    },
+    {
+      "psc": "",
+      "shortName": "PAINTS, DOPES, VARNISHES, AND RELATED PRODUCTS",
+      "spendCategoryTitle": "Facility Related Materials",
+      "portfolioGroup": "Sustainment S&E",
+      "description": "Premium PAINTS, DOPES, VARNISHES, AND RELATED PRODUCTS Kit",
+      "line_total": 281.34
+    },
+    {
+      "psc": "",
+      "shortName": "PHOTO/MAP/PRINT/PUBLICATION- TOPOGRAPHY",
+      "spendCategoryTitle": "Business administration services",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "PHOTO/MAP/PRINT/PUBLICATION- TOPOGRAPHY Assembly",
+      "line_total": 825.48
+    },
+    {
+      "psc": "",
+      "shortName": "INSTALLATION OF EQUIPMENT- MISCELLANEOUS",
+      "spendCategoryTitle": "Installation of Equipment",
+      "portfolioGroup": "Equipment Related Services",
+      "description": "Industrial INSTALLATION OF EQUIPMENT- MISCELLANEOUS",
+      "line_total": 3246.36
+    }
+  ],
+  "psc_breakdown": {
+    "Materials": 700.9,
+    "Machinery & Components": 1380.8,
+    "Facility Related Materials": 281.34,
+    "Business administration services": 825.48,
+    "Installation of Equipment": 3246.36
+  },
+  "portfolio_breakdown": {
+    "Sustainment S&E": 982.24,
+    "Facilities S&E": 1380.8,
+    "Knowledge Based Services": 825.48,
+    "Equipment Related Services": 3246.36
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-861296",
+    "date": "2024-11-24",
+    "vendor_name": "Pollard-Howe",
+    "total_amount": 7078.37
+  }
+}

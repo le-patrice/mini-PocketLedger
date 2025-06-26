@@ -1,0 +1,287 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-678070",
+    "2024-06-29",
+    "Hull-Thomas",
+    "Industrial OTHER QC/TEST/INSPECT- ALARM System",
+    "4",
+    "$689.87",
+    "$2759.48",
+    "Professional HARDWARE, WEAPON SYSTEM Assembly",
+    "11",
+    "$424.78",
+    "$4672.58",
+    "Industrial COMMUNICATIONS SECURITY EQUIPMENT AND COMPONENTS",
+    "7",
+    "$369.05",
+    "$2583.35",
+    "PACKING AND GASKET MATERIALS Assembly",
+    "3",
+    "$74.16",
+    "$222.48",
+    "Standard COMMERCIAL AND INDUSTRIAL GAS CYLINDERS Assembly",
+    "5",
+    "$556.67",
+    "$2783.35",
+    "$13021.24",
+    "$1041.70",
+    "$14062.94"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      113,
+      167
+    ],
+    [
+      55,
+      222,
+      326,
+      234
+    ],
+    [
+      452,
+      222,
+      458,
+      232
+    ],
+    [
+      556,
+      222,
+      596,
+      233
+    ],
+    [
+      647,
+      222,
+      693,
+      233
+    ],
+    [
+      55,
+      247,
+      336,
+      259
+    ],
+    [
+      450,
+      247,
+      461,
+      257
+    ],
+    [
+      556,
+      247,
+      596,
+      258
+    ],
+    [
+      647,
+      247,
+      693,
+      258
+    ],
+    [
+      55,
+      272,
+      357,
+      283
+    ],
+    [
+      452,
+      272,
+      458,
+      282
+    ],
+    [
+      556,
+      272,
+      596,
+      283
+    ],
+    [
+      647,
+      272,
+      693,
+      283
+    ],
+    [
+      55,
+      317,
+      292,
+      329
+    ],
+    [
+      452,
+      317,
+      458,
+      327
+    ],
+    [
+      562,
+      317,
+      596,
+      328
+    ],
+    [
+      653,
+      317,
+      693,
+      328
+    ],
+    [
+      55,
+      342,
+      363,
+      352
+    ],
+    [
+      452,
+      342,
+      458,
+      352
+    ],
+    [
+      556,
+      342,
+      596,
+      353
+    ],
+    [
+      647,
+      342,
+      693,
+      353
+    ],
+    [
+      648,
+      417,
+      700,
+      428
+    ],
+    [
+      654,
+      442,
+      700,
+      453
+    ],
+    [
+      634,
+      480,
+      700,
+      494
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Supply Parts",
+  "document_portfolio": "Sustainment S&E",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "OTHER QC/TEST/INSPECT- ALARM, SIGNAL, AND SECURITY DETECTION SYSTEMS",
+      "spendCategoryTitle": "Equipment Maintenance",
+      "portfolioGroup": "Electronic & Communication Services",
+      "description": "Industrial OTHER QC/TEST/INSPECT- ALARM System",
+      "line_total": 2759.48
+    },
+    {
+      "psc": "",
+      "shortName": "HARDWARE, WEAPON SYSTEM",
+      "spendCategoryTitle": "Supply Parts",
+      "portfolioGroup": "Sustainment S&E",
+      "description": "Professional HARDWARE, WEAPON SYSTEM Assembly",
+      "line_total": 4672.58
+    },
+    {
+      "psc": "",
+      "shortName": "COMMUNICATIONS SECURITY EQUIPMENT AND COMPONENTS",
+      "spendCategoryTitle": "",
+      "portfolioGroup": "Electronic & Communication Equipment",
+      "description": "Industrial COMMUNICATIONS SECURITY EQUIPMENT AND COMPONENTS",
+      "line_total": 2583.35
+    },
+    {
+      "psc": "",
+      "shortName": "PACKING AND GASKET MATERIALS",
+      "spendCategoryTitle": "Hardware & Tools",
+      "portfolioGroup": "Sustainment S&E",
+      "description": "PACKING AND GASKET MATERIALS Assembly",
+      "line_total": 222.48
+    },
+    {
+      "psc": "",
+      "shortName": "COMMERCIAL AND INDUSTRIAL GAS CYLINDERS",
+      "spendCategoryTitle": "Package Delivery & Packaging",
+      "portfolioGroup": "Sustainment S&E",
+      "description": "Standard COMMERCIAL AND INDUSTRIAL GAS CYLINDERS Assembly",
+      "line_total": 2783.35
+    }
+  ],
+  "psc_breakdown": {
+    "Equipment Maintenance": 2759.48,
+    "Supply Parts": 4672.58,
+    "": 2583.35,
+    "Hardware & Tools": 222.48,
+    "Package Delivery & Packaging": 2783.35
+  },
+  "portfolio_breakdown": {
+    "Electronic & Communication Services": 2759.48,
+    "Sustainment S&E": 7678.41,
+    "Electronic & Communication Equipment": 2583.35
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-678070",
+    "date": "2024-06-29",
+    "vendor_name": "Hull-Thomas",
+    "total_amount": 14062.94
+  }
+}

@@ -1,0 +1,245 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-417421",
+    "2025-05-01",
+    "Peterson, Johnson and Boyd",
+    "Industrial FIRE CONTROL DESIGNATING AND INDICATING EQUIPMENT Package",
+    "6",
+    "$768.11",
+    "$4608.66",
+    "Premium FIRE CONTROL SYSTEMS, COMPLETE Assembly",
+    "15",
+    "$636.01",
+    "$9540.15",
+    "Standard COMMUNICATION TRAINING DEVICES Kit",
+    "6",
+    "$545.53",
+    "$3273.18",
+    "Standard LEASE OR RENTAL OF EQUIPMENT- ELECTRICAL Kit",
+    "12",
+    "$763.98",
+    "$9167.76",
+    "$26589.75",
+    "$1329.49",
+    "$27919.24"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      191,
+      169
+    ],
+    [
+      55,
+      222,
+      354,
+      232
+    ],
+    [
+      452,
+      222,
+      458,
+      232
+    ],
+    [
+      557,
+      222,
+      596,
+      233
+    ],
+    [
+      647,
+      222,
+      693,
+      233
+    ],
+    [
+      55,
+      267,
+      357,
+      279
+    ],
+    [
+      449,
+      267,
+      461,
+      277
+    ],
+    [
+      556,
+      267,
+      596,
+      278
+    ],
+    [
+      647,
+      267,
+      693,
+      278
+    ],
+    [
+      55,
+      292,
+      320,
+      302
+    ],
+    [
+      452,
+      292,
+      458,
+      302
+    ],
+    [
+      556,
+      292,
+      596,
+      303
+    ],
+    [
+      647,
+      292,
+      693,
+      303
+    ],
+    [
+      55,
+      317,
+      379,
+      328
+    ],
+    [
+      449,
+      317,
+      461,
+      327
+    ],
+    [
+      556,
+      317,
+      596,
+      328
+    ],
+    [
+      647,
+      317,
+      693,
+      328
+    ],
+    [
+      648,
+      372,
+      700,
+      383
+    ],
+    [
+      654,
+      397,
+      700,
+      408
+    ],
+    [
+      634,
+      435,
+      700,
+      449
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Fire Control",
+  "document_portfolio": "Weapons & Ammunition",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "FIRE CONTROL DESIGNATING AND INDICATING EQUIPMENT",
+      "spendCategoryTitle": "Fire Control",
+      "portfolioGroup": "Weapons & Ammunition",
+      "description": "Industrial FIRE CONTROL DESIGNATING AND INDICATING EQUIPMENT Package",
+      "line_total": 4608.66
+    },
+    {
+      "psc": "",
+      "shortName": "FIRE CONTROL SYSTEMS, COMPLETE",
+      "spendCategoryTitle": "Fire Control",
+      "portfolioGroup": "Weapons & Ammunition",
+      "description": "Premium FIRE CONTROL SYSTEMS, COMPLETE Assembly",
+      "line_total": 9540.15
+    },
+    {
+      "psc": "",
+      "shortName": "COMMUNICATION TRAINING DEVICES",
+      "spendCategoryTitle": "Training Aids and Devices",
+      "portfolioGroup": "Sustainment S&E",
+      "description": "Standard COMMUNICATION TRAINING DEVICES Kit",
+      "line_total": 3273.18
+    },
+    {
+      "psc": "",
+      "shortName": "LEASE OR RENTAL OF EQUIPMENT- ELECTRICAL AND ELECTRONIC EQUIPMENT COMPONENTS",
+      "spendCategoryTitle": "Equipment Leases",
+      "portfolioGroup": "Electronic & Communication Services",
+      "description": "Standard LEASE OR RENTAL OF EQUIPMENT- ELECTRICAL Kit",
+      "line_total": 9167.76
+    }
+  ],
+  "psc_breakdown": {
+    "Fire Control": 14148.81,
+    "Training Aids and Devices": 3273.18,
+    "Equipment Leases": 9167.76
+  },
+  "portfolio_breakdown": {
+    "Weapons & Ammunition": 14148.81,
+    "Sustainment S&E": 3273.18,
+    "Electronic & Communication Services": 9167.76
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-417421",
+    "date": "2025-05-01",
+    "vendor_name": "Peterson, Johnson and Boyd",
+    "total_amount": 27919.24
+  }
+}

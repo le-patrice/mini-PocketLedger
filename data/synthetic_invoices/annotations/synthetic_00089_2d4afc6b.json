@@ -1,0 +1,247 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-554636",
+    "2025-03-01",
+    "Wagner and Sons",
+    "Premium PHARMACY SERVICES Assembly",
+    "2",
+    "$75.35",
+    "$150.70",
+    "NIGHT VISION EQUIPMENT, EMITTED AND REFLECTED RADIATION Package",
+    "7",
+    "$40.35",
+    "$282.45",
+    "Industrial CARGO AND TANKER VESSELS Assembly",
+    "4",
+    "$477.56",
+    "$1910.24",
+    "Professional TRANSPORTATION/TRAVEL/RELOCATION- OTHER: OTHER System",
+    "15",
+    "$714.97",
+    "$10724.55",
+    "$13067.94",
+    "$1633.49",
+    "$14701.43"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      148,
+      193
+    ],
+    [
+      65,
+      251,
+      283,
+      263
+    ],
+    [
+      482,
+      251,
+      488,
+      261
+    ],
+    [
+      599,
+      251,
+      633,
+      262
+    ],
+    [
+      695,
+      251,
+      735,
+      262
+    ],
+    [
+      65,
+      278,
+      417,
+      290
+    ],
+    [
+      482,
+      278,
+      488,
+      288
+    ],
+    [
+      599,
+      278,
+      633,
+      289
+    ],
+    [
+      695,
+      278,
+      735,
+      289
+    ],
+    [
+      65,
+      327,
+      329,
+      339
+    ],
+    [
+      482,
+      327,
+      488,
+      337
+    ],
+    [
+      593,
+      327,
+      633,
+      338
+    ],
+    [
+      689,
+      327,
+      735,
+      338
+    ],
+    [
+      65,
+      354,
+      395,
+      364
+    ],
+    [
+      479,
+      354,
+      491,
+      364
+    ],
+    [
+      593,
+      354,
+      633,
+      365
+    ],
+    [
+      683,
+      354,
+      735,
+      365
+    ],
+    [
+      688,
+      433,
+      740,
+      444
+    ],
+    [
+      694,
+      460,
+      740,
+      471
+    ],
+    [
+      674,
+      500,
+      740,
+      514
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Passenger Travel",
+  "document_portfolio": "Transportation Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "PHARMACY SERVICES",
+      "spendCategoryTitle": "Healthcare Services",
+      "portfolioGroup": "Medical Services",
+      "description": "Premium PHARMACY SERVICES Assembly",
+      "line_total": 150.7
+    },
+    {
+      "psc": "",
+      "shortName": "NIGHT VISION EQUIPMENT, EMITTED AND REFLECTED RADIATION",
+      "spendCategoryTitle": "Night Vision Eq",
+      "portfolioGroup": "Electronic & Communication Equipment",
+      "description": "NIGHT VISION EQUIPMENT, EMITTED AND REFLECTED RADIATION Package",
+      "line_total": 282.45
+    },
+    {
+      "psc": "",
+      "shortName": "CARGO AND TANKER VESSELS",
+      "spendCategoryTitle": "Ships & Submarines",
+      "portfolioGroup": "Aircraft, Ships/Submarines & Land Vehicles",
+      "description": "Industrial CARGO AND TANKER VESSELS Assembly",
+      "line_total": 1910.24
+    },
+    {
+      "psc": "",
+      "shortName": "TRANSPORTATION/TRAVEL/RELOCATION- OTHER: OTHER",
+      "spendCategoryTitle": "Passenger Travel",
+      "portfolioGroup": "Transportation Services",
+      "description": "Professional TRANSPORTATION/TRAVEL/RELOCATION- OTHER: OTHER System",
+      "line_total": 10724.55
+    }
+  ],
+  "psc_breakdown": {
+    "Healthcare Services": 150.7,
+    "Night Vision Eq": 282.45,
+    "Ships & Submarines": 1910.24,
+    "Passenger Travel": 10724.55
+  },
+  "portfolio_breakdown": {
+    "Medical Services": 150.7,
+    "Electronic & Communication Equipment": 282.45,
+    "Aircraft, Ships/Submarines & Land Vehicles": 1910.24,
+    "Transportation Services": 10724.55
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-554636",
+    "date": "2025-03-01",
+    "vendor_name": "Wagner and Sons",
+    "total_amount": 14701.43
+  }
+}

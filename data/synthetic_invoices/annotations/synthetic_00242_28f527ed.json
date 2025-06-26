@@ -1,0 +1,163 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-622259",
+    "2024-07-29",
+    "Wilson, Harris and Armstrong",
+    "Standard SUPPORT- MANAGEMENT: DEBT COLLECTION System",
+    "10",
+    "$618.73",
+    "$6187.30",
+    "Industrial INSTALLATION OF EQUIPMENT- CHEMICALS AND CHEMICAL PRODUCTS",
+    "9",
+    "$629.14",
+    "$5662.26",
+    "$11849.56",
+    "$1184.96",
+    "$13034.52"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      203,
+      193
+    ],
+    [
+      65,
+      251,
+      398,
+      263
+    ],
+    [
+      479,
+      251,
+      491,
+      261
+    ],
+    [
+      593,
+      251,
+      633,
+      262
+    ],
+    [
+      689,
+      251,
+      735,
+      262
+    ],
+    [
+      65,
+      278,
+      372,
+      289
+    ],
+    [
+      482,
+      278,
+      488,
+      288
+    ],
+    [
+      593,
+      278,
+      633,
+      289
+    ],
+    [
+      689,
+      278,
+      735,
+      289
+    ],
+    [
+      689,
+      357,
+      740,
+      368
+    ],
+    [
+      695,
+      384,
+      740,
+      395
+    ],
+    [
+      674,
+      424,
+      740,
+      438
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Legal Services",
+  "document_portfolio": "Knowledge Based Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "SUPPORT- MANAGEMENT: DEBT COLLECTION",
+      "spendCategoryTitle": "Legal Services",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "Standard SUPPORT- MANAGEMENT: DEBT COLLECTION System",
+      "line_total": 6187.3
+    },
+    {
+      "psc": "",
+      "shortName": "INSTALLATION OF EQUIPMENT- CHEMICALS AND CHEMICAL PRODUCTS",
+      "spendCategoryTitle": "Installation of Equipment",
+      "portfolioGroup": "Equipment Related Services",
+      "description": "Industrial INSTALLATION OF EQUIPMENT- CHEMICALS AND CHEMICAL PRODUCTS",
+      "line_total": 5662.26
+    }
+  ],
+  "psc_breakdown": {
+    "Legal Services": 6187.3,
+    "Installation of Equipment": 5662.26
+  },
+  "portfolio_breakdown": {
+    "Knowledge Based Services": 6187.3,
+    "Equipment Related Services": 5662.26
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-622259",
+    "date": "2024-07-29",
+    "vendor_name": "Wilson, Harris and Armstrong",
+    "total_amount": 13034.52
+  }
+}

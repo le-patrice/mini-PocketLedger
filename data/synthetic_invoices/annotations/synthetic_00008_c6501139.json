@@ -1,0 +1,163 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-781470",
+    "2024-11-10",
+    "Davis, Mccullough and Castro",
+    "Industrial PURCHASE OF UNIMPROVED REAL PROPERTY (LAND) Package",
+    "9",
+    "$762.91",
+    "$6866.19",
+    "Professional LEASE OR RENTAL OF EQUIPMENT- ELECTRICAL Package",
+    "1",
+    "$727.34",
+    "$727.34",
+    "$7593.53",
+    "$759.35",
+    "$8352.88"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      196,
+      169
+    ],
+    [
+      55,
+      222,
+      394,
+      234
+    ],
+    [
+      452,
+      222,
+      458,
+      232
+    ],
+    [
+      556,
+      222,
+      596,
+      233
+    ],
+    [
+      647,
+      222,
+      693,
+      233
+    ],
+    [
+      55,
+      267,
+      380,
+      278
+    ],
+    [
+      452,
+      267,
+      458,
+      277
+    ],
+    [
+      556,
+      267,
+      596,
+      278
+    ],
+    [
+      653,
+      267,
+      693,
+      278
+    ],
+    [
+      654,
+      342,
+      700,
+      353
+    ],
+    [
+      660,
+      367,
+      700,
+      378
+    ],
+    [
+      641,
+      405,
+      700,
+      419
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Facilities Purchase & Lease",
+  "document_portfolio": "Facility Related Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "PURCHASE OF UNIMPROVED REAL PROPERTY (LAND)",
+      "spendCategoryTitle": "Facilities Purchase & Lease",
+      "portfolioGroup": "Facility Related Services",
+      "description": "Industrial PURCHASE OF UNIMPROVED REAL PROPERTY (LAND) Package",
+      "line_total": 6866.19
+    },
+    {
+      "psc": "",
+      "shortName": "LEASE OR RENTAL OF EQUIPMENT- ELECTRICAL AND ELECTRONIC EQUIPMENT COMPONENTS",
+      "spendCategoryTitle": "Equipment Leases",
+      "portfolioGroup": "Electronic & Communication Services",
+      "description": "Professional LEASE OR RENTAL OF EQUIPMENT- ELECTRICAL Package",
+      "line_total": 727.34
+    }
+  ],
+  "psc_breakdown": {
+    "Facilities Purchase & Lease": 6866.19,
+    "Equipment Leases": 727.34
+  },
+  "portfolio_breakdown": {
+    "Facility Related Services": 6866.19,
+    "Electronic & Communication Services": 727.34
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-781470",
+    "date": "2024-11-10",
+    "vendor_name": "Davis, Mccullough and Castro",
+    "total_amount": 8352.88
+  }
+}

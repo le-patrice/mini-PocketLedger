@@ -1,0 +1,289 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-632943",
+    "2024-09-07",
+    "Harrison-Oliver",
+    "Standard SUPPORT- PROFESSIONAL: COMMUNICATIONS Assembly",
+    "7",
+    "$717.63",
+    "$5023.41",
+    "Industrial COMBAT, ASSAULT, AND TACTICAL VEHICLES, WHEELED System",
+    "5",
+    "$411.12",
+    "$2055.60",
+    "Professional MISCELLANEOUS WAXES, OILS, AND FATS",
+    "10",
+    "$166.23",
+    "$1662.30",
+    "Industrial LABORATORY EQUIPMENT AND SUPPLIES Package",
+    "3",
+    "$82.61",
+    "$247.83",
+    "Professional SOCIAL- SOCIAL REHABILITATION System",
+    "8",
+    "$493.08",
+    "$3944.64",
+    "$12933.78",
+    "$1616.72",
+    "$14550.50"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      134,
+      191
+    ],
+    [
+      65,
+      251,
+      416,
+      263
+    ],
+    [
+      482,
+      251,
+      488,
+      261
+    ],
+    [
+      593,
+      251,
+      633,
+      262
+    ],
+    [
+      689,
+      251,
+      735,
+      262
+    ],
+    [
+      65,
+      278,
+      413,
+      290
+    ],
+    [
+      482,
+      278,
+      488,
+      288
+    ],
+    [
+      594,
+      278,
+      633,
+      289
+    ],
+    [
+      689,
+      278,
+      735,
+      289
+    ],
+    [
+      65,
+      327,
+      354,
+      339
+    ],
+    [
+      479,
+      327,
+      491,
+      337
+    ],
+    [
+      593,
+      327,
+      633,
+      338
+    ],
+    [
+      689,
+      327,
+      735,
+      338
+    ],
+    [
+      65,
+      354,
+      383,
+      366
+    ],
+    [
+      482,
+      354,
+      488,
+      364
+    ],
+    [
+      599,
+      354,
+      633,
+      365
+    ],
+    [
+      695,
+      354,
+      735,
+      365
+    ],
+    [
+      65,
+      381,
+      347,
+      393
+    ],
+    [
+      482,
+      381,
+      488,
+      391
+    ],
+    [
+      593,
+      381,
+      633,
+      392
+    ],
+    [
+      689,
+      381,
+      735,
+      392
+    ],
+    [
+      688,
+      438,
+      740,
+      449
+    ],
+    [
+      694,
+      465,
+      740,
+      476
+    ],
+    [
+      674,
+      505,
+      740,
+      519
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Public Relations and Professional Communications Services",
+  "document_portfolio": "Electronic & Communication Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "SUPPORT- PROFESSIONAL: COMMUNICATIONS",
+      "spendCategoryTitle": "Public Relations and Professional Communications Services",
+      "portfolioGroup": "Electronic & Communication Services",
+      "description": "Standard SUPPORT- PROFESSIONAL: COMMUNICATIONS Assembly",
+      "line_total": 5023.41
+    },
+    {
+      "psc": "",
+      "shortName": "COMBAT, ASSAULT, AND TACTICAL VEHICLES, WHEELED",
+      "spendCategoryTitle": "Land Combat Vehicles",
+      "portfolioGroup": "Aircraft, Ships/Submarines & Land Vehicles",
+      "description": "Industrial COMBAT, ASSAULT, AND TACTICAL VEHICLES, WHEELED System",
+      "line_total": 2055.6
+    },
+    {
+      "psc": "",
+      "shortName": "MISCELLANEOUS WAXES, OILS, AND FATS",
+      "spendCategoryTitle": "Oils, Lubricants, and Waxes",
+      "portfolioGroup": "Sustainment S&E",
+      "description": "Professional MISCELLANEOUS WAXES, OILS, AND FATS",
+      "line_total": 1662.3
+    },
+    {
+      "psc": "",
+      "shortName": "LABORATORY EQUIPMENT AND SUPPLIES",
+      "spendCategoryTitle": "Test & Measurement Supplies",
+      "portfolioGroup": "Facilities S&E",
+      "description": "Industrial LABORATORY EQUIPMENT AND SUPPLIES Package",
+      "line_total": 247.83
+    },
+    {
+      "psc": "",
+      "shortName": "SOCIAL- SOCIAL REHABILITATION",
+      "spendCategoryTitle": "Social Services",
+      "portfolioGroup": "Facility Related Services",
+      "description": "Professional SOCIAL- SOCIAL REHABILITATION System",
+      "line_total": 3944.64
+    }
+  ],
+  "psc_breakdown": {
+    "Public Relations and Professional Communications Services": 5023.41,
+    "Land Combat Vehicles": 2055.6,
+    "Oils, Lubricants, and Waxes": 1662.3,
+    "Test & Measurement Supplies": 247.83,
+    "Social Services": 3944.64
+  },
+  "portfolio_breakdown": {
+    "Electronic & Communication Services": 5023.41,
+    "Aircraft, Ships/Submarines & Land Vehicles": 2055.6,
+    "Sustainment S&E": 1662.3,
+    "Facilities S&E": 247.83,
+    "Facility Related Services": 3944.64
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-632943",
+    "date": "2024-09-07",
+    "vendor_name": "Harrison-Oliver",
+    "total_amount": 14550.5
+  }
+}

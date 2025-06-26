@@ -1,0 +1,289 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-814399",
+    "2025-04-16",
+    "Ray Inc",
+    "Premium ARMAMENT TRAINING DEVICES",
+    "2",
+    "$213.71",
+    "$427.42",
+    "Standard SALVAGE- AIRCRAFT Assembly",
+    "9",
+    "$699.83",
+    "$6298.47",
+    "RIGHT-OF-WAY CONSTRUCTION Kit",
+    "9",
+    "$222.48",
+    "$2002.32",
+    "MISCELLANEOUS FIRE CONTROL EQUIPMENT Kit",
+    "4",
+    "$161.33",
+    "$645.32",
+    "Industrial OPERATION OF OTHER WAREHOUSE BUILDINGS",
+    "6",
+    "$525.05",
+    "$3150.30",
+    "$12523.83",
+    "$1565.48",
+    "$14089.31"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      98,
+      193
+    ],
+    [
+      65,
+      251,
+      281,
+      261
+    ],
+    [
+      482,
+      251,
+      488,
+      261
+    ],
+    [
+      593,
+      251,
+      633,
+      262
+    ],
+    [
+      695,
+      251,
+      735,
+      262
+    ],
+    [
+      65,
+      278,
+      274,
+      290
+    ],
+    [
+      482,
+      278,
+      488,
+      288
+    ],
+    [
+      593,
+      278,
+      633,
+      289
+    ],
+    [
+      689,
+      278,
+      735,
+      289
+    ],
+    [
+      65,
+      305,
+      252,
+      315
+    ],
+    [
+      482,
+      305,
+      488,
+      315
+    ],
+    [
+      593,
+      305,
+      633,
+      316
+    ],
+    [
+      689,
+      305,
+      735,
+      316
+    ],
+    [
+      65,
+      332,
+      327,
+      343
+    ],
+    [
+      482,
+      332,
+      488,
+      342
+    ],
+    [
+      593,
+      332,
+      633,
+      343
+    ],
+    [
+      695,
+      332,
+      735,
+      343
+    ],
+    [
+      65,
+      359,
+      374,
+      369
+    ],
+    [
+      482,
+      359,
+      488,
+      369
+    ],
+    [
+      593,
+      359,
+      633,
+      370
+    ],
+    [
+      689,
+      359,
+      735,
+      370
+    ],
+    [
+      688,
+      416,
+      740,
+      427
+    ],
+    [
+      694,
+      443,
+      740,
+      454
+    ],
+    [
+      674,
+      483,
+      740,
+      497
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Salvage Services",
+  "document_portfolio": "Equipment Related Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "ARMAMENT TRAINING DEVICES",
+      "spendCategoryTitle": "Training Aids and Devices",
+      "portfolioGroup": "Sustainment S&E",
+      "description": "Premium ARMAMENT TRAINING DEVICES",
+      "line_total": 427.42
+    },
+    {
+      "psc": "",
+      "shortName": "SALVAGE- AIRCRAFT",
+      "spendCategoryTitle": "Salvage Services",
+      "portfolioGroup": "Equipment Related Services",
+      "description": "Standard SALVAGE- AIRCRAFT Assembly",
+      "line_total": 6298.47
+    },
+    {
+      "psc": "",
+      "shortName": "RIGHT-OF-WAY CONSTRUCTION AND MAINTENANCE EQUIPMENT, RAILROAD",
+      "spendCategoryTitle": "Transportation Equipment",
+      "portfolioGroup": "Facilities S&E",
+      "description": "RIGHT-OF-WAY CONSTRUCTION Kit",
+      "line_total": 2002.32
+    },
+    {
+      "psc": "",
+      "shortName": "MISCELLANEOUS FIRE CONTROL EQUIPMENT",
+      "spendCategoryTitle": "Fire Control",
+      "portfolioGroup": "Weapons & Ammunition",
+      "description": "MISCELLANEOUS FIRE CONTROL EQUIPMENT Kit",
+      "line_total": 645.32
+    },
+    {
+      "psc": "",
+      "shortName": "OPERATION OF OTHER WAREHOUSE BUILDINGS",
+      "spendCategoryTitle": "Logistics Support Services",
+      "portfolioGroup": "Facility Related Services",
+      "description": "Industrial OPERATION OF OTHER WAREHOUSE BUILDINGS",
+      "line_total": 3150.3
+    }
+  ],
+  "psc_breakdown": {
+    "Training Aids and Devices": 427.42,
+    "Salvage Services": 6298.47,
+    "Transportation Equipment": 2002.32,
+    "Fire Control": 645.32,
+    "Logistics Support Services": 3150.3
+  },
+  "portfolio_breakdown": {
+    "Sustainment S&E": 427.42,
+    "Equipment Related Services": 6298.47,
+    "Facilities S&E": 2002.32,
+    "Weapons & Ammunition": 645.32,
+    "Facility Related Services": 3150.3
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-814399",
+    "date": "2025-04-16",
+    "vendor_name": "Ray Inc",
+    "total_amount": 14089.31
+  }
+}

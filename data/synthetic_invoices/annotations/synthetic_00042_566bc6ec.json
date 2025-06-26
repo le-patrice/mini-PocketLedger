@@ -1,0 +1,247 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-458515",
+    "2024-08-23",
+    "Rodriguez-Franklin",
+    "Premium FAMILY & INTERNAL MEDICINE SERVICES Assembly",
+    "7",
+    "$508.56",
+    "$3559.92",
+    "Standard ARMAMENT TRAINING DEVICES System",
+    "3",
+    "$700.49",
+    "$2101.47",
+    "Industrial COMBAT SHIPS AND LANDING VESSELS Package",
+    "10",
+    "$777.73",
+    "$7777.30",
+    "LABORATORY EQUIPMENT AND SUPPLIES System",
+    "4",
+    "$287.11",
+    "$1148.44",
+    "$14587.13",
+    "$1823.39",
+    "$16410.52"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      143,
+      169
+    ],
+    [
+      55,
+      222,
+      374,
+      234
+    ],
+    [
+      452,
+      222,
+      458,
+      232
+    ],
+    [
+      556,
+      222,
+      596,
+      233
+    ],
+    [
+      647,
+      222,
+      693,
+      233
+    ],
+    [
+      55,
+      247,
+      311,
+      259
+    ],
+    [
+      452,
+      247,
+      458,
+      257
+    ],
+    [
+      556,
+      247,
+      596,
+      258
+    ],
+    [
+      647,
+      247,
+      693,
+      258
+    ],
+    [
+      55,
+      272,
+      362,
+      284
+    ],
+    [
+      449,
+      272,
+      461,
+      282
+    ],
+    [
+      556,
+      272,
+      596,
+      283
+    ],
+    [
+      647,
+      272,
+      693,
+      283
+    ],
+    [
+      55,
+      297,
+      319,
+      309
+    ],
+    [
+      452,
+      297,
+      458,
+      307
+    ],
+    [
+      557,
+      297,
+      596,
+      308
+    ],
+    [
+      648,
+      297,
+      693,
+      308
+    ],
+    [
+      648,
+      352,
+      700,
+      363
+    ],
+    [
+      654,
+      377,
+      700,
+      388
+    ],
+    [
+      634,
+      415,
+      700,
+      429
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Ships & Submarines",
+  "document_portfolio": "Aircraft, Ships/Submarines & Land Vehicles",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "FAMILY & INTERNAL MEDICINE SERVICES",
+      "spendCategoryTitle": "Healthcare Services",
+      "portfolioGroup": "Medical Services",
+      "description": "Premium FAMILY & INTERNAL MEDICINE SERVICES Assembly",
+      "line_total": 3559.92
+    },
+    {
+      "psc": "",
+      "shortName": "ARMAMENT TRAINING DEVICES",
+      "spendCategoryTitle": "Training Aids and Devices",
+      "portfolioGroup": "Sustainment S&E",
+      "description": "Standard ARMAMENT TRAINING DEVICES System",
+      "line_total": 2101.47
+    },
+    {
+      "psc": "",
+      "shortName": "COMBAT SHIPS AND LANDING VESSELS",
+      "spendCategoryTitle": "Ships & Submarines",
+      "portfolioGroup": "Aircraft, Ships/Submarines & Land Vehicles",
+      "description": "Industrial COMBAT SHIPS AND LANDING VESSELS Package",
+      "line_total": 7777.3
+    },
+    {
+      "psc": "",
+      "shortName": "LABORATORY EQUIPMENT AND SUPPLIES",
+      "spendCategoryTitle": "Test & Measurement Supplies",
+      "portfolioGroup": "Facilities S&E",
+      "description": "LABORATORY EQUIPMENT AND SUPPLIES System",
+      "line_total": 1148.44
+    }
+  ],
+  "psc_breakdown": {
+    "Healthcare Services": 3559.92,
+    "Training Aids and Devices": 2101.47,
+    "Ships & Submarines": 7777.3,
+    "Test & Measurement Supplies": 1148.44
+  },
+  "portfolio_breakdown": {
+    "Medical Services": 3559.92,
+    "Sustainment S&E": 2101.47,
+    "Aircraft, Ships/Submarines & Land Vehicles": 7777.3,
+    "Facilities S&E": 1148.44
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-458515",
+    "date": "2024-08-23",
+    "vendor_name": "Rodriguez-Franklin",
+    "total_amount": 16410.52
+  }
+}

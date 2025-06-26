@@ -1,0 +1,121 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-454255",
+    "2025-01-19",
+    "Dudley, Weber and Garcia",
+    "Industrial SUPPORT- PROFESSIONAL: SIMULATION System",
+    "15",
+    "$368.82",
+    "$5532.30",
+    "$5532.30",
+    "$276.62",
+    "$5808.92"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      189,
+      193
+    ],
+    [
+      65,
+      251,
+      370,
+      263
+    ],
+    [
+      479,
+      251,
+      491,
+      261
+    ],
+    [
+      593,
+      251,
+      633,
+      262
+    ],
+    [
+      689,
+      251,
+      735,
+      262
+    ],
+    [
+      694,
+      308,
+      740,
+      319
+    ],
+    [
+      700,
+      335,
+      740,
+      346
+    ],
+    [
+      681,
+      375,
+      740,
+      389
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Technical and Engineering Services (non-IT)",
+  "document_portfolio": "Knowledge Based Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "SUPPORT- PROFESSIONAL: SIMULATION",
+      "spendCategoryTitle": "Technical and Engineering Services (non-IT)",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "Industrial SUPPORT- PROFESSIONAL: SIMULATION System",
+      "line_total": 5532.3
+    }
+  ],
+  "psc_breakdown": {
+    "Technical and Engineering Services (non-IT)": 5532.3
+  },
+  "portfolio_breakdown": {
+    "Knowledge Based Services": 5532.3
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-454255",
+    "date": "2025-01-19",
+    "vendor_name": "Dudley, Weber and Garcia",
+    "total_amount": 5808.92
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-812716",
+    "2024-11-03",
+    "Simon, White and Fox",
+    "Industrial NUCLEAR REACTORS",
+    "7",
+    "$848.17",
+    "$5937.19",
+    "Professional LEASE OR RENTAL OF EQUIPMENT- ELECTRICAL System",
+    "12",
+    "$206.78",
+    "$2481.36",
+    "$8418.55",
+    "$1052.32",
+    "$9470.87"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      159,
+      169
+    ],
+    [
+      55,
+      222,
+      219,
+      232
+    ],
+    [
+      452,
+      222,
+      458,
+      232
+    ],
+    [
+      556,
+      222,
+      596,
+      233
+    ],
+    [
+      647,
+      222,
+      693,
+      233
+    ],
+    [
+      55,
+      247,
+      380,
+      258
+    ],
+    [
+      449,
+      247,
+      461,
+      257
+    ],
+    [
+      556,
+      247,
+      596,
+      258
+    ],
+    [
+      647,
+      247,
+      693,
+      258
+    ],
+    [
+      654,
+      322,
+      700,
+      333
+    ],
+    [
+      654,
+      347,
+      700,
+      358
+    ],
+    [
+      641,
+      385,
+      700,
+      399
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Ships & Submarines",
+  "document_portfolio": "Aircraft, Ships/Submarines & Land Vehicles",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "NUCLEAR REACTORS",
+      "spendCategoryTitle": "Ships & Submarines",
+      "portfolioGroup": "Aircraft, Ships/Submarines & Land Vehicles",
+      "description": "Industrial NUCLEAR REACTORS",
+      "line_total": 5937.19
+    },
+    {
+      "psc": "",
+      "shortName": "LEASE OR RENTAL OF EQUIPMENT- ELECTRICAL AND ELECTRONIC EQUIPMENT COMPONENTS",
+      "spendCategoryTitle": "Equipment Leases",
+      "portfolioGroup": "Electronic & Communication Services",
+      "description": "Professional LEASE OR RENTAL OF EQUIPMENT- ELECTRICAL System",
+      "line_total": 2481.36
+    }
+  ],
+  "psc_breakdown": {
+    "Ships & Submarines": 5937.19,
+    "Equipment Leases": 2481.36
+  },
+  "portfolio_breakdown": {
+    "Aircraft, Ships/Submarines & Land Vehicles": 5937.19,
+    "Electronic & Communication Services": 2481.36
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-812716",
+    "date": "2024-11-03",
+    "vendor_name": "Simon, White and Fox",
+    "total_amount": 9470.87
+  }
+}

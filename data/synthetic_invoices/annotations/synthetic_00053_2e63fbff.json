@@ -1,0 +1,245 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-485715",
+    "2024-06-24",
+    "Nielsen, Taylor and Hernandez",
+    "Industrial EQUIPMENT System",
+    "13",
+    "$364.07",
+    "$4732.91",
+    "Industrial QUALITY CONTROL- HOUSEHOLD",
+    "10",
+    "$785.45",
+    "$7854.50",
+    "Standard FOOD, OILS AND FATS System",
+    "4",
+    "$268.87",
+    "$1075.48",
+    "Industrial INSTALLATION OF EQUIPMENT- OFFICE SUPPLIES AND DEVICES Kit",
+    "9",
+    "$120.75",
+    "$1086.75",
+    "$14749.64",
+    "$737.48",
+    "$15487.12"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      211,
+      193
+    ],
+    [
+      65,
+      251,
+      218,
+      263
+    ],
+    [
+      479,
+      251,
+      491,
+      261
+    ],
+    [
+      593,
+      251,
+      633,
+      262
+    ],
+    [
+      689,
+      251,
+      735,
+      262
+    ],
+    [
+      65,
+      278,
+      293,
+      289
+    ],
+    [
+      479,
+      278,
+      491,
+      288
+    ],
+    [
+      593,
+      278,
+      633,
+      289
+    ],
+    [
+      689,
+      278,
+      735,
+      289
+    ],
+    [
+      65,
+      305,
+      271,
+      317
+    ],
+    [
+      482,
+      305,
+      488,
+      315
+    ],
+    [
+      593,
+      305,
+      633,
+      316
+    ],
+    [
+      689,
+      305,
+      735,
+      316
+    ],
+    [
+      65,
+      332,
+      405,
+      343
+    ],
+    [
+      482,
+      332,
+      488,
+      342
+    ],
+    [
+      593,
+      332,
+      633,
+      343
+    ],
+    [
+      689,
+      332,
+      735,
+      343
+    ],
+    [
+      688,
+      411,
+      740,
+      422
+    ],
+    [
+      700,
+      438,
+      740,
+      449
+    ],
+    [
+      674,
+      478,
+      740,
+      492
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Furniture",
+  "document_portfolio": "Facility Related Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "EQUIPMENT AND MATERIALS TESTING- BOOKS, MAPS, AND OTHER PUBLICATIONS",
+      "spendCategoryTitle": "Quality Control",
+      "portfolioGroup": "Facility Related Services",
+      "description": "Industrial EQUIPMENT System",
+      "line_total": 4732.91
+    },
+    {
+      "psc": "",
+      "shortName": "QUALITY CONTROL- HOUSEHOLD AND COMMERCIAL FURNISHINGS AND APPLIANCES",
+      "spendCategoryTitle": "Furniture",
+      "portfolioGroup": "Facility Related Services",
+      "description": "Industrial QUALITY CONTROL- HOUSEHOLD",
+      "line_total": 7854.5
+    },
+    {
+      "psc": "",
+      "shortName": "FOOD, OILS AND FATS",
+      "spendCategoryTitle": "Subsistence",
+      "portfolioGroup": "Clothing, Textiles & Subsistence S&E",
+      "description": "Standard FOOD, OILS AND FATS System",
+      "line_total": 1075.48
+    },
+    {
+      "psc": "",
+      "shortName": "INSTALLATION OF EQUIPMENT- OFFICE SUPPLIES AND DEVICES",
+      "spendCategoryTitle": "Office Management Services",
+      "portfolioGroup": "Facility Related Services",
+      "description": "Industrial INSTALLATION OF EQUIPMENT- OFFICE SUPPLIES AND DEVICES Kit",
+      "line_total": 1086.75
+    }
+  ],
+  "psc_breakdown": {
+    "Quality Control": 4732.91,
+    "Furniture": 7854.5,
+    "Subsistence": 1075.48,
+    "Office Management Services": 1086.75
+  },
+  "portfolio_breakdown": {
+    "Facility Related Services": 13674.16,
+    "Clothing, Textiles & Subsistence S&E": 1075.48
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-485715",
+    "date": "2024-06-24",
+    "vendor_name": "Nielsen, Taylor and Hernandez",
+    "total_amount": 15487.12
+  }
+}

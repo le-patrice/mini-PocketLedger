@@ -1,0 +1,287 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-612969",
+    "2025-03-11",
+    "Sandoval PLC",
+    "Standard LIVE ANIMALS, RAISED FOR FOOD Assembly",
+    "7",
+    "$70.36",
+    "$492.52",
+    "SUPPORT- PROFESSIONAL: LAND SURVEYS-CADASTRAL (NON-CONSTRUCT Assembly",
+    "5",
+    "$589.28",
+    "$2946.40",
+    "SUPPORT- PROFESSIONAL: LEGAL Assembly",
+    "10",
+    "$546.01",
+    "$5460.10",
+    "Professional HARDWARE, WEAPON SYSTEM Package",
+    "13",
+    "$203.12",
+    "$2640.56",
+    "Premium DYES Assembly",
+    "10",
+    "$336.80",
+    "$3368.00",
+    "$14907.58",
+    "$1863.45",
+    "$16771.03"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      130,
+      191
+    ],
+    [
+      65,
+      251,
+      346,
+      263
+    ],
+    [
+      482,
+      251,
+      488,
+      261
+    ],
+    [
+      599,
+      251,
+      633,
+      262
+    ],
+    [
+      695,
+      251,
+      735,
+      262
+    ],
+    [
+      65,
+      278,
+      370,
+      288
+    ],
+    [
+      482,
+      278,
+      488,
+      288
+    ],
+    [
+      593,
+      278,
+      633,
+      289
+    ],
+    [
+      689,
+      278,
+      735,
+      289
+    ],
+    [
+      65,
+      327,
+      302,
+      339
+    ],
+    [
+      479,
+      327,
+      491,
+      337
+    ],
+    [
+      593,
+      327,
+      633,
+      338
+    ],
+    [
+      689,
+      327,
+      735,
+      338
+    ],
+    [
+      65,
+      354,
+      342,
+      366
+    ],
+    [
+      479,
+      354,
+      491,
+      364
+    ],
+    [
+      593,
+      354,
+      633,
+      365
+    ],
+    [
+      689,
+      354,
+      735,
+      365
+    ],
+    [
+      65,
+      381,
+      193,
+      393
+    ],
+    [
+      479,
+      381,
+      491,
+      391
+    ],
+    [
+      593,
+      381,
+      633,
+      392
+    ],
+    [
+      689,
+      381,
+      735,
+      392
+    ],
+    [
+      688,
+      438,
+      740,
+      449
+    ],
+    [
+      694,
+      465,
+      740,
+      476
+    ],
+    [
+      674,
+      505,
+      740,
+      519
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Legal services",
+  "document_portfolio": "Knowledge Based Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "LIVE ANIMALS, RAISED FOR FOOD",
+      "spendCategoryTitle": "Subsistence",
+      "portfolioGroup": "Clothing, Textiles & Subsistence S&E",
+      "description": "Standard LIVE ANIMALS, RAISED FOR FOOD Assembly",
+      "line_total": 492.52
+    },
+    {
+      "psc": "",
+      "shortName": "SUPPORT- PROFESSIONAL: LAND SURVEYS-CADASTRAL (NON-CONSTRUCTION)",
+      "spendCategoryTitle": "Real Estate Services",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "SUPPORT- PROFESSIONAL: LAND SURVEYS-CADASTRAL (NON-CONSTRUCT Assembly",
+      "line_total": 2946.4
+    },
+    {
+      "psc": "",
+      "shortName": "SUPPORT- PROFESSIONAL: LEGAL",
+      "spendCategoryTitle": "Legal services",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "SUPPORT- PROFESSIONAL: LEGAL Assembly",
+      "line_total": 5460.1
+    },
+    {
+      "psc": "",
+      "shortName": "HARDWARE, WEAPON SYSTEM",
+      "spendCategoryTitle": "Supply Parts",
+      "portfolioGroup": "Sustainment S&E",
+      "description": "Professional HARDWARE, WEAPON SYSTEM Package",
+      "line_total": 2640.56
+    },
+    {
+      "psc": "",
+      "shortName": "DYES",
+      "spendCategoryTitle": "Basic Materials",
+      "portfolioGroup": "Sustainment S&E",
+      "description": "Premium DYES Assembly",
+      "line_total": 3368.0
+    }
+  ],
+  "psc_breakdown": {
+    "Subsistence": 492.52,
+    "Real Estate Services": 2946.4,
+    "Legal services": 5460.1,
+    "Supply Parts": 2640.56,
+    "Basic Materials": 3368.0
+  },
+  "portfolio_breakdown": {
+    "Clothing, Textiles & Subsistence S&E": 492.52,
+    "Knowledge Based Services": 8406.5,
+    "Sustainment S&E": 6008.5599999999995
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-612969",
+    "date": "2025-03-11",
+    "vendor_name": "Sandoval PLC",
+    "total_amount": 16771.03
+  }
+}

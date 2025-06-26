@@ -1,0 +1,162 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-731269",
+    "2024-06-28",
+    "Lowe-Brooks",
+    "Industrial SALVAGE- AIRCRAFT Kit",
+    "11",
+    "$726.23",
+    "$7988.53",
+    "Industrial MAINT/REPAIR/REBUILD OF EQUIPMENT- SPACE VEHICLES System",
+    "14",
+    "$731.24",
+    "$10237.36",
+    "$18225.89",
+    "$1458.07",
+    "$19683.96"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      125,
+      191
+    ],
+    [
+      65,
+      251,
+      239,
+      261
+    ],
+    [
+      479,
+      251,
+      490,
+      261
+    ],
+    [
+      593,
+      251,
+      633,
+      262
+    ],
+    [
+      689,
+      251,
+      735,
+      262
+    ],
+    [
+      65,
+      278,
+      428,
+      289
+    ],
+    [
+      479,
+      278,
+      491,
+      288
+    ],
+    [
+      593,
+      278,
+      633,
+      289
+    ],
+    [
+      683,
+      278,
+      735,
+      289
+    ],
+    [
+      688,
+      357,
+      740,
+      368
+    ],
+    [
+      694,
+      384,
+      740,
+      395
+    ],
+    [
+      674,
+      424,
+      740,
+      438
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Maintenance, Repair and Overhaul",
+  "document_portfolio": "Equipment Related Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "SALVAGE- AIRCRAFT",
+      "spendCategoryTitle": "Salvage Services",
+      "portfolioGroup": "Equipment Related Services",
+      "description": "Industrial SALVAGE- AIRCRAFT Kit",
+      "line_total": 7988.53
+    },
+    {
+      "psc": "",
+      "shortName": "MAINT/REPAIR/REBUILD OF EQUIPMENT- SPACE VEHICLES",
+      "spendCategoryTitle": "Maintenance, Repair and Overhaul",
+      "portfolioGroup": "Equipment Related Services",
+      "description": "Industrial MAINT/REPAIR/REBUILD OF EQUIPMENT- SPACE VEHICLES System",
+      "line_total": 10237.36
+    }
+  ],
+  "psc_breakdown": {
+    "Salvage Services": 7988.53,
+    "Maintenance, Repair and Overhaul": 10237.36
+  },
+  "portfolio_breakdown": {
+    "Equipment Related Services": 18225.89
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-731269",
+    "date": "2024-06-28",
+    "vendor_name": "Lowe-Brooks",
+    "total_amount": 19683.96
+  }
+}

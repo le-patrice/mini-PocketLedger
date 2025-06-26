@@ -1,0 +1,205 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-527921",
+    "2024-09-08",
+    "Douglas Inc",
+    "Professional HARDWARE, WEAPON SYSTEM System",
+    "10",
+    "$355.49",
+    "$3554.90",
+    "SPECIAL STUDIES/ANALYSIS- TRADE ISSUE Kit",
+    "9",
+    "$728.42",
+    "$6555.78",
+    "Professional FIRE CONTROL COMPUTING SIGHTS AND DEVICES",
+    "3",
+    "$373.29",
+    "$1119.87",
+    "$11230.55",
+    "$1123.06",
+    "$12353.61"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      109,
+      169
+    ],
+    [
+      55,
+      222,
+      325,
+      234
+    ],
+    [
+      449,
+      222,
+      461,
+      232
+    ],
+    [
+      556,
+      222,
+      596,
+      233
+    ],
+    [
+      647,
+      222,
+      693,
+      233
+    ],
+    [
+      55,
+      247,
+      304,
+      257
+    ],
+    [
+      452,
+      247,
+      458,
+      257
+    ],
+    [
+      556,
+      247,
+      596,
+      258
+    ],
+    [
+      647,
+      247,
+      693,
+      258
+    ],
+    [
+      55,
+      272,
+      391,
+      282
+    ],
+    [
+      452,
+      272,
+      458,
+      282
+    ],
+    [
+      556,
+      272,
+      596,
+      283
+    ],
+    [
+      649,
+      272,
+      693,
+      283
+    ],
+    [
+      649,
+      327,
+      700,
+      338
+    ],
+    [
+      655,
+      352,
+      700,
+      363
+    ],
+    [
+      634,
+      390,
+      700,
+      404
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Trade Policy and Services",
+  "document_portfolio": "Knowledge Based Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "HARDWARE, WEAPON SYSTEM",
+      "spendCategoryTitle": "Supply Parts",
+      "portfolioGroup": "Sustainment S&E",
+      "description": "Professional HARDWARE, WEAPON SYSTEM System",
+      "line_total": 3554.9
+    },
+    {
+      "psc": "",
+      "shortName": "SPECIAL STUDIES/ANALYSIS- TRADE ISSUE",
+      "spendCategoryTitle": "Trade Policy and Services",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "SPECIAL STUDIES/ANALYSIS- TRADE ISSUE Kit",
+      "line_total": 6555.78
+    },
+    {
+      "psc": "",
+      "shortName": "FIRE CONTROL COMPUTING SIGHTS AND DEVICES",
+      "spendCategoryTitle": "Fire Control",
+      "portfolioGroup": "Weapons & Ammunition",
+      "description": "Professional FIRE CONTROL COMPUTING SIGHTS AND DEVICES",
+      "line_total": 1119.87
+    }
+  ],
+  "psc_breakdown": {
+    "Supply Parts": 3554.9,
+    "Trade Policy and Services": 6555.78,
+    "Fire Control": 1119.87
+  },
+  "portfolio_breakdown": {
+    "Sustainment S&E": 3554.9,
+    "Knowledge Based Services": 6555.78,
+    "Weapons & Ammunition": 1119.87
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-527921",
+    "date": "2024-09-08",
+    "vendor_name": "Douglas Inc",
+    "total_amount": 12353.61
+  }
+}

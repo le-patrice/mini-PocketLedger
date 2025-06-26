@@ -1,0 +1,286 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-623627",
+    "2024-10-15",
+    "Fisher Ltd",
+    "Professional INSTALLATION OF EQUIPMENT- ENGINES, TURBINES, AND COMPONENTS Kit",
+    "12",
+    "$363.83",
+    "$4365.96",
+    "Premium COMMUNICATION TRAINING DEVICES Kit",
+    "10",
+    "$595.30",
+    "$5953.00",
+    "Premium QUALITY CONTROL- GROUND EFFECT VEHICLES Assembly",
+    "9",
+    "$229.03",
+    "$2061.27",
+    "Standard LIQUID PROPELLANTS AND FUELS, PETROLEUM BASE Kit",
+    "1",
+    "$407.21",
+    "$407.21",
+    "Professional BUOYS Assembly",
+    "4",
+    "$636.17",
+    "$2544.68",
+    "$15332.12",
+    "$1916.51",
+    "$17248.63"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      109,
+      191
+    ],
+    [
+      65,
+      251,
+      412,
+      263
+    ],
+    [
+      479,
+      251,
+      491,
+      261
+    ],
+    [
+      593,
+      251,
+      633,
+      262
+    ],
+    [
+      689,
+      251,
+      735,
+      262
+    ],
+    [
+      65,
+      300,
+      329,
+      310
+    ],
+    [
+      479,
+      300,
+      491,
+      310
+    ],
+    [
+      593,
+      300,
+      633,
+      311
+    ],
+    [
+      689,
+      300,
+      735,
+      311
+    ],
+    [
+      65,
+      327,
+      425,
+      339
+    ],
+    [
+      482,
+      327,
+      488,
+      337
+    ],
+    [
+      593,
+      327,
+      633,
+      338
+    ],
+    [
+      689,
+      327,
+      735,
+      338
+    ],
+    [
+      65,
+      354,
+      420,
+      366
+    ],
+    [
+      482,
+      354,
+      488,
+      364
+    ],
+    [
+      593,
+      354,
+      633,
+      365
+    ],
+    [
+      695,
+      354,
+      735,
+      365
+    ],
+    [
+      65,
+      381,
+      218,
+      393
+    ],
+    [
+      482,
+      381,
+      488,
+      391
+    ],
+    [
+      593,
+      381,
+      633,
+      392
+    ],
+    [
+      689,
+      381,
+      735,
+      392
+    ],
+    [
+      688,
+      438,
+      740,
+      449
+    ],
+    [
+      694,
+      465,
+      740,
+      476
+    ],
+    [
+      674,
+      505,
+      740,
+      519
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Training Aids and Devices",
+  "document_portfolio": "Sustainment S&E",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "INSTALLATION OF EQUIPMENT- ENGINES, TURBINES, AND COMPONENTS",
+      "spendCategoryTitle": "Installation of Equipment",
+      "portfolioGroup": "Equipment Related Services",
+      "description": "Professional INSTALLATION OF EQUIPMENT- ENGINES, TURBINES, AND COMPONENTS Kit",
+      "line_total": 4365.96
+    },
+    {
+      "psc": "",
+      "shortName": "COMMUNICATION TRAINING DEVICES",
+      "spendCategoryTitle": "Training Aids and Devices",
+      "portfolioGroup": "Sustainment S&E",
+      "description": "Premium COMMUNICATION TRAINING DEVICES Kit",
+      "line_total": 5953.0
+    },
+    {
+      "psc": "",
+      "shortName": "QUALITY CONTROL- GROUND EFFECT VEHICLES, MOTOR VEHICLES, TRAILERS, AND CYCLES",
+      "spendCategoryTitle": "Motor Vehicles",
+      "portfolioGroup": "Equipment Related Services",
+      "description": "Premium QUALITY CONTROL- GROUND EFFECT VEHICLES Assembly",
+      "line_total": 2061.27
+    },
+    {
+      "psc": "",
+      "shortName": "LIQUID PROPELLANTS AND FUELS, PETROLEUM BASE",
+      "spendCategoryTitle": "Fuels",
+      "portfolioGroup": "Sustainment S&E",
+      "description": "Standard LIQUID PROPELLANTS AND FUELS, PETROLEUM BASE Kit",
+      "line_total": 407.21
+    },
+    {
+      "psc": "",
+      "shortName": "BUOYS",
+      "spendCategoryTitle": "Engines, Components & Spt Eq",
+      "portfolioGroup": "Sustainment S&E",
+      "description": "Professional BUOYS Assembly",
+      "line_total": 2544.68
+    }
+  ],
+  "psc_breakdown": {
+    "Installation of Equipment": 4365.96,
+    "Training Aids and Devices": 5953.0,
+    "Motor Vehicles": 2061.27,
+    "Fuels": 407.21,
+    "Engines, Components & Spt Eq": 2544.68
+  },
+  "portfolio_breakdown": {
+    "Equipment Related Services": 6427.23,
+    "Sustainment S&E": 8904.89
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-623627",
+    "date": "2024-10-15",
+    "vendor_name": "Fisher Ltd",
+    "total_amount": 17248.63
+  }
+}

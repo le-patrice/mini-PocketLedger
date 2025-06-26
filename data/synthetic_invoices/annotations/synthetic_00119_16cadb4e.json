@@ -1,0 +1,205 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-151906",
+    "2025-02-14",
+    "Knapp, Stewart and Bautista",
+    "Industrial UNMANNED AIRCRAFT System",
+    "12",
+    "$707.81",
+    "$8493.72",
+    "Premium SUPPORT- PROFESSIONAL: SIMULATION Assembly",
+    "2",
+    "$510.78",
+    "$1021.56",
+    "Professional ANALYSIS INSTRUMENTS, MEDICAL LABORATORY USE Assembly",
+    "3",
+    "$778.50",
+    "$2335.50",
+    "$11850.78",
+    "$948.06",
+    "$12798.84"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      190,
+      169
+    ],
+    [
+      55,
+      222,
+      263,
+      234
+    ],
+    [
+      449,
+      222,
+      461,
+      232
+    ],
+    [
+      556,
+      222,
+      596,
+      233
+    ],
+    [
+      647,
+      222,
+      693,
+      233
+    ],
+    [
+      55,
+      247,
+      370,
+      259
+    ],
+    [
+      452,
+      247,
+      458,
+      257
+    ],
+    [
+      556,
+      247,
+      596,
+      258
+    ],
+    [
+      647,
+      247,
+      693,
+      258
+    ],
+    [
+      55,
+      272,
+      386,
+      284
+    ],
+    [
+      452,
+      272,
+      458,
+      282
+    ],
+    [
+      556,
+      272,
+      596,
+      283
+    ],
+    [
+      647,
+      272,
+      693,
+      283
+    ],
+    [
+      649,
+      347,
+      700,
+      358
+    ],
+    [
+      660,
+      372,
+      700,
+      383
+    ],
+    [
+      634,
+      410,
+      700,
+      424
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Drones",
+  "document_portfolio": "Sustainment S&E",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "UNMANNED AIRCRAFT",
+      "spendCategoryTitle": "Drones",
+      "portfolioGroup": "Sustainment S&E",
+      "description": "Industrial UNMANNED AIRCRAFT System",
+      "line_total": 8493.72
+    },
+    {
+      "psc": "",
+      "shortName": "SUPPORT- PROFESSIONAL: SIMULATION",
+      "spendCategoryTitle": "Technical and Engineering Services (non-IT)",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "Premium SUPPORT- PROFESSIONAL: SIMULATION Assembly",
+      "line_total": 1021.56
+    },
+    {
+      "psc": "",
+      "shortName": "ANALYSIS INSTRUMENTS, MEDICAL LABORATORY USE",
+      "spendCategoryTitle": "Medical Equipment and Accessories and Supplies",
+      "portfolioGroup": "",
+      "description": "Professional ANALYSIS INSTRUMENTS, MEDICAL LABORATORY USE Assembly",
+      "line_total": 2335.5
+    }
+  ],
+  "psc_breakdown": {
+    "Drones": 8493.72,
+    "Technical and Engineering Services (non-IT)": 1021.56,
+    "Medical Equipment and Accessories and Supplies": 2335.5
+  },
+  "portfolio_breakdown": {
+    "Sustainment S&E": 8493.72,
+    "Knowledge Based Services": 1021.56,
+    "": 2335.5
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-151906",
+    "date": "2025-02-14",
+    "vendor_name": "Knapp, Stewart and Bautista",
+    "total_amount": 12798.84
+  }
+}

@@ -1,0 +1,289 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-716406",
+    "2025-04-20",
+    "Long, Lang and Owens",
+    "Premium MAINT/REPAIR/REBUILD OF EQUIPMENT- BEARINGS System",
+    "8",
+    "$772.63",
+    "$6181.04",
+    "Professional OILS AND GREASES: CUTTING, LUBRICATING, AND HYDRAULIC Package",
+    "15",
+    "$253.90",
+    "$3808.50",
+    "Industrial PUNCHING AND SHEARING MACHINES",
+    "4",
+    "$455.80",
+    "$1823.20",
+    "Industrial TRANSPORTATION/TRAVEL/RELOCATION- TRAVEL/LODGING/RECRUITMENT Kit",
+    "10",
+    "$815.38",
+    "$8153.80",
+    "Industrial LEASE OR RENTAL OF EQUIPMENT- OFFICE MACHINES",
+    "15",
+    "$528.04",
+    "$7920.60",
+    "$27887.14",
+    "$3485.89",
+    "$31373.03"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      164,
+      169
+    ],
+    [
+      55,
+      222,
+      380,
+      233
+    ],
+    [
+      452,
+      222,
+      458,
+      232
+    ],
+    [
+      556,
+      222,
+      596,
+      233
+    ],
+    [
+      647,
+      222,
+      693,
+      233
+    ],
+    [
+      55,
+      267,
+      389,
+      279
+    ],
+    [
+      449,
+      267,
+      461,
+      277
+    ],
+    [
+      556,
+      267,
+      596,
+      278
+    ],
+    [
+      647,
+      267,
+      693,
+      278
+    ],
+    [
+      55,
+      312,
+      309,
+      322
+    ],
+    [
+      452,
+      312,
+      458,
+      322
+    ],
+    [
+      556,
+      312,
+      596,
+      323
+    ],
+    [
+      647,
+      312,
+      693,
+      323
+    ],
+    [
+      55,
+      337,
+      325,
+      347
+    ],
+    [
+      449,
+      337,
+      461,
+      347
+    ],
+    [
+      556,
+      337,
+      596,
+      348
+    ],
+    [
+      647,
+      337,
+      693,
+      348
+    ],
+    [
+      55,
+      382,
+      397,
+      393
+    ],
+    [
+      449,
+      382,
+      461,
+      392
+    ],
+    [
+      556,
+      382,
+      596,
+      393
+    ],
+    [
+      647,
+      382,
+      693,
+      393
+    ],
+    [
+      648,
+      437,
+      700,
+      448
+    ],
+    [
+      654,
+      462,
+      700,
+      473
+    ],
+    [
+      634,
+      500,
+      700,
+      514
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Passenger Travel",
+  "document_portfolio": "Transportation Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "MAINT/REPAIR/REBUILD OF EQUIPMENT- BEARINGS",
+      "spendCategoryTitle": "Maintenance, Repair and Overhaul",
+      "portfolioGroup": "Equipment Related Services",
+      "description": "Premium MAINT/REPAIR/REBUILD OF EQUIPMENT- BEARINGS System",
+      "line_total": 6181.04
+    },
+    {
+      "psc": "",
+      "shortName": "OILS AND GREASES: CUTTING, LUBRICATING, AND HYDRAULIC",
+      "spendCategoryTitle": "Oils, Lubricants, and Waxes",
+      "portfolioGroup": "Sustainment S&E",
+      "description": "Professional OILS AND GREASES: CUTTING, LUBRICATING, AND HYDRAULIC Package",
+      "line_total": 3808.5
+    },
+    {
+      "psc": "",
+      "shortName": "PUNCHING AND SHEARING MACHINES",
+      "spendCategoryTitle": "Machinery & Components",
+      "portfolioGroup": "Facilities S&E",
+      "description": "Industrial PUNCHING AND SHEARING MACHINES",
+      "line_total": 1823.2
+    },
+    {
+      "psc": "",
+      "shortName": "TRANSPORTATION/TRAVEL/RELOCATION- TRAVEL/LODGING/RECRUITMENT: PASSENGER MARINE CHARTER",
+      "spendCategoryTitle": "Passenger Travel",
+      "portfolioGroup": "Transportation Services",
+      "description": "Industrial TRANSPORTATION/TRAVEL/RELOCATION- TRAVEL/LODGING/RECRUITMENT Kit",
+      "line_total": 8153.8
+    },
+    {
+      "psc": "",
+      "shortName": "LEASE OR RENTAL OF EQUIPMENT- OFFICE MACHINES, TEXT PROCESSING SYSTEMS, AND VISIBLE RECORD EQUIPMENT",
+      "spendCategoryTitle": "Office Management Services",
+      "portfolioGroup": "Facility Related Services",
+      "description": "Industrial LEASE OR RENTAL OF EQUIPMENT- OFFICE MACHINES",
+      "line_total": 7920.6
+    }
+  ],
+  "psc_breakdown": {
+    "Maintenance, Repair and Overhaul": 6181.04,
+    "Oils, Lubricants, and Waxes": 3808.5,
+    "Machinery & Components": 1823.2,
+    "Passenger Travel": 8153.8,
+    "Office Management Services": 7920.6
+  },
+  "portfolio_breakdown": {
+    "Equipment Related Services": 6181.04,
+    "Sustainment S&E": 3808.5,
+    "Facilities S&E": 1823.2,
+    "Transportation Services": 8153.8,
+    "Facility Related Services": 7920.6
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-716406",
+    "date": "2025-04-20",
+    "vendor_name": "Long, Lang and Owens",
+    "total_amount": 31373.03
+  }
+}

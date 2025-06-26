@@ -1,0 +1,163 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-146148",
+    "2024-10-16",
+    "Thomas, Davis and Johnson",
+    "Industrial IT AND TELECOM - NETWORK SUPPORT SERVICES (LABOR) Kit",
+    "7",
+    "$333.71",
+    "$2335.97",
+    "BUSHINGS, RINGS, SHIMS, AND SPACERS System",
+    "5",
+    "$801.69",
+    "$4008.45",
+    "$6344.42",
+    "$507.55",
+    "$6851.97"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      190,
+      169
+    ],
+    [
+      55,
+      222,
+      374,
+      232
+    ],
+    [
+      452,
+      222,
+      458,
+      232
+    ],
+    [
+      556,
+      222,
+      596,
+      233
+    ],
+    [
+      647,
+      222,
+      693,
+      233
+    ],
+    [
+      55,
+      267,
+      318,
+      279
+    ],
+    [
+      452,
+      267,
+      458,
+      277
+    ],
+    [
+      556,
+      267,
+      596,
+      278
+    ],
+    [
+      647,
+      267,
+      693,
+      278
+    ],
+    [
+      654,
+      322,
+      700,
+      333
+    ],
+    [
+      660,
+      347,
+      700,
+      358
+    ],
+    [
+      641,
+      385,
+      700,
+      399
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Hardware & Tools",
+  "document_portfolio": "Sustainment S&E",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "IT AND TELECOM - NETWORK SUPPORT SERVICES (LABOR)",
+      "spendCategoryTitle": "IT Professional Service (Labor)",
+      "portfolioGroup": "",
+      "description": "Industrial IT AND TELECOM - NETWORK SUPPORT SERVICES (LABOR) Kit",
+      "line_total": 2335.97
+    },
+    {
+      "psc": "",
+      "shortName": "BUSHINGS, RINGS, SHIMS, AND SPACERS",
+      "spendCategoryTitle": "Hardware & Tools",
+      "portfolioGroup": "Sustainment S&E",
+      "description": "BUSHINGS, RINGS, SHIMS, AND SPACERS System",
+      "line_total": 4008.45
+    }
+  ],
+  "psc_breakdown": {
+    "IT Professional Service (Labor)": 2335.97,
+    "Hardware & Tools": 4008.45
+  },
+  "portfolio_breakdown": {
+    "": 2335.97,
+    "Sustainment S&E": 4008.45
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-146148",
+    "date": "2024-10-16",
+    "vendor_name": "Thomas, Davis and Johnson",
+    "total_amount": 6851.97
+  }
+}

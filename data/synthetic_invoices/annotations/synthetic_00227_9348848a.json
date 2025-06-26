@@ -1,0 +1,121 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-868655",
+    "2024-11-08",
+    "Parks PLC",
+    "Premium AMMUNITION, THROUGH 30MM Package",
+    "14",
+    "$524.17",
+    "$7338.38",
+    "$7338.38",
+    "$917.30",
+    "$8255.68"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      103,
+      167
+    ],
+    [
+      55,
+      222,
+      313,
+      234
+    ],
+    [
+      449,
+      222,
+      461,
+      232
+    ],
+    [
+      556,
+      222,
+      596,
+      233
+    ],
+    [
+      647,
+      222,
+      693,
+      233
+    ],
+    [
+      654,
+      277,
+      700,
+      288
+    ],
+    [
+      660,
+      302,
+      700,
+      313
+    ],
+    [
+      641,
+      340,
+      700,
+      354
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Ammunition & Explosives",
+  "document_portfolio": "Weapons & Ammunition",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "AMMUNITION, THROUGH 30MM",
+      "spendCategoryTitle": "Ammunition & Explosives",
+      "portfolioGroup": "Weapons & Ammunition",
+      "description": "Premium AMMUNITION, THROUGH 30MM Package",
+      "line_total": 7338.38
+    }
+  ],
+  "psc_breakdown": {
+    "Ammunition & Explosives": 7338.38
+  },
+  "portfolio_breakdown": {
+    "Weapons & Ammunition": 7338.38
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-868655",
+    "date": "2024-11-08",
+    "vendor_name": "Parks PLC",
+    "total_amount": 8255.68
+  }
+}

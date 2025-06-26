@@ -1,0 +1,163 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-339435",
+    "2024-10-05",
+    "Hurley, Benton and Welch",
+    "Professional SUPPORT- PROFESSIONAL: LEGAL",
+    "2",
+    "$710.83",
+    "$1421.66",
+    "Professional CABINETS, LOCKERS, BINS, AND SHELVING Package",
+    "9",
+    "$838.27",
+    "$7544.43",
+    "$8966.09",
+    "$1120.76",
+    "$10086.85"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      187,
+      193
+    ],
+    [
+      65,
+      251,
+      315,
+      261
+    ],
+    [
+      482,
+      251,
+      488,
+      261
+    ],
+    [
+      593,
+      251,
+      633,
+      262
+    ],
+    [
+      689,
+      251,
+      735,
+      262
+    ],
+    [
+      65,
+      278,
+      407,
+      290
+    ],
+    [
+      482,
+      278,
+      488,
+      288
+    ],
+    [
+      593,
+      278,
+      633,
+      289
+    ],
+    [
+      689,
+      278,
+      735,
+      289
+    ],
+    [
+      694,
+      335,
+      740,
+      346
+    ],
+    [
+      695,
+      362,
+      740,
+      373
+    ],
+    [
+      674,
+      402,
+      740,
+      416
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Office Management Products",
+  "document_portfolio": "Facilities S&E",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "SUPPORT- PROFESSIONAL: LEGAL",
+      "spendCategoryTitle": "Legal services",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "Professional SUPPORT- PROFESSIONAL: LEGAL",
+      "line_total": 1421.66
+    },
+    {
+      "psc": "",
+      "shortName": "CABINETS, LOCKERS, BINS, AND SHELVING",
+      "spendCategoryTitle": "Office Management Products",
+      "portfolioGroup": "Facilities S&E",
+      "description": "Professional CABINETS, LOCKERS, BINS, AND SHELVING Package",
+      "line_total": 7544.43
+    }
+  ],
+  "psc_breakdown": {
+    "Legal services": 1421.66,
+    "Office Management Products": 7544.43
+  },
+  "portfolio_breakdown": {
+    "Knowledge Based Services": 1421.66,
+    "Facilities S&E": 7544.43
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-339435",
+    "date": "2024-10-05",
+    "vendor_name": "Hurley, Benton and Welch",
+    "total_amount": 10086.85
+  }
+}

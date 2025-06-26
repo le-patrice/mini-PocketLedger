@@ -1,0 +1,121 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-799784",
+    "2024-08-06",
+    "Jordan PLC",
+    "Standard LEASE OR RENTAL OF EQUIPMENT- ORES Assembly",
+    "12",
+    "$507.26",
+    "$6087.12",
+    "$6087.12",
+    "$760.89",
+    "$6848.01"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      108,
+      167
+    ],
+    [
+      55,
+      222,
+      378,
+      234
+    ],
+    [
+      449,
+      222,
+      461,
+      232
+    ],
+    [
+      556,
+      222,
+      596,
+      233
+    ],
+    [
+      647,
+      222,
+      693,
+      233
+    ],
+    [
+      654,
+      277,
+      700,
+      288
+    ],
+    [
+      660,
+      302,
+      700,
+      313
+    ],
+    [
+      642,
+      340,
+      700,
+      354
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Purchases & Leases",
+  "document_portfolio": "Equipment Related Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "LEASE OR RENTAL OF EQUIPMENT- ORES, MINERALS, AND THEIR PRIMARY PRODUCTS",
+      "spendCategoryTitle": "Purchases & Leases",
+      "portfolioGroup": "Equipment Related Services",
+      "description": "Standard LEASE OR RENTAL OF EQUIPMENT- ORES Assembly",
+      "line_total": 6087.12
+    }
+  ],
+  "psc_breakdown": {
+    "Purchases & Leases": 6087.12
+  },
+  "portfolio_breakdown": {
+    "Equipment Related Services": 6087.12
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-799784",
+    "date": "2024-08-06",
+    "vendor_name": "Jordan PLC",
+    "total_amount": 6848.01
+  }
+}

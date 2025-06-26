@@ -1,0 +1,163 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-727725",
+    "2025-04-24",
+    "Davis, Wolf and Stevens",
+    "GUNS, 75MM THROUGH 125MM",
+    "14",
+    "$187.44",
+    "$2624.16",
+    "Standard NATURAL RESOURCES/CONSERVATION- OTHER WILDLIFE MANAGEMENT Assembly",
+    "11",
+    "$404.60",
+    "$4450.60",
+    "$7074.76",
+    "$565.98",
+    "$7640.74"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      180,
+      193
+    ],
+    [
+      65,
+      251,
+      232,
+      263
+    ],
+    [
+      479,
+      251,
+      491,
+      261
+    ],
+    [
+      593,
+      251,
+      633,
+      262
+    ],
+    [
+      689,
+      251,
+      735,
+      262
+    ],
+    [
+      65,
+      278,
+      424,
+      288
+    ],
+    [
+      479,
+      278,
+      490,
+      288
+    ],
+    [
+      593,
+      278,
+      633,
+      289
+    ],
+    [
+      689,
+      278,
+      735,
+      289
+    ],
+    [
+      694,
+      357,
+      740,
+      368
+    ],
+    [
+      700,
+      384,
+      740,
+      395
+    ],
+    [
+      681,
+      424,
+      740,
+      438
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Facility Related Services",
+  "document_portfolio": "Facility Related Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "GUNS, 75MM THROUGH 125MM",
+      "spendCategoryTitle": "Guns",
+      "portfolioGroup": "Weapons & Ammunition",
+      "description": "GUNS, 75MM THROUGH 125MM",
+      "line_total": 2624.16
+    },
+    {
+      "psc": "",
+      "shortName": "NATURAL RESOURCES/CONSERVATION- OTHER WILDLIFE MANAGEMENT",
+      "spendCategoryTitle": "Facility Related Services",
+      "portfolioGroup": "Facility Related Services",
+      "description": "Standard NATURAL RESOURCES/CONSERVATION- OTHER WILDLIFE MANAGEMENT Assembly",
+      "line_total": 4450.6
+    }
+  ],
+  "psc_breakdown": {
+    "Guns": 2624.16,
+    "Facility Related Services": 4450.6
+  },
+  "portfolio_breakdown": {
+    "Weapons & Ammunition": 2624.16,
+    "Facility Related Services": 4450.6
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-727725",
+    "date": "2025-04-24",
+    "vendor_name": "Davis, Wolf and Stevens",
+    "total_amount": 7640.74
+  }
+}

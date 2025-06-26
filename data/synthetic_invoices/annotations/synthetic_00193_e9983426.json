@@ -1,0 +1,121 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-611122",
+    "2024-09-27",
+    "Barnes PLC",
+    "MISCELLANEOUS PREFABRICATED STRUCTURES System",
+    "9",
+    "$543.73",
+    "$4893.57",
+    "$4893.57",
+    "$244.68",
+    "$5138.25"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      107,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      109,
+      167
+    ],
+    [
+      55,
+      222,
+      360,
+      234
+    ],
+    [
+      452,
+      222,
+      458,
+      232
+    ],
+    [
+      556,
+      222,
+      596,
+      233
+    ],
+    [
+      647,
+      222,
+      693,
+      233
+    ],
+    [
+      654,
+      277,
+      700,
+      288
+    ],
+    [
+      660,
+      302,
+      700,
+      313
+    ],
+    [
+      641,
+      340,
+      700,
+      354
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Construction Related Materials",
+  "document_portfolio": "Facilities S&E",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "MISCELLANEOUS PREFABRICATED STRUCTURES",
+      "spendCategoryTitle": "Construction Related Materials",
+      "portfolioGroup": "Facilities S&E",
+      "description": "MISCELLANEOUS PREFABRICATED STRUCTURES System",
+      "line_total": 4893.57
+    }
+  ],
+  "psc_breakdown": {
+    "Construction Related Materials": 4893.57
+  },
+  "portfolio_breakdown": {
+    "Facilities S&E": 4893.57
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-611122",
+    "date": "2024-09-27",
+    "vendor_name": "Barnes PLC",
+    "total_amount": 5138.25
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-368213",
+    "2025-02-17",
+    "Green-Williams",
+    "OUTERWEAR, WOMEN'S Package",
+    "2",
+    "$509.83",
+    "$1019.66",
+    "$1019.66",
+    "$127.46",
+    "$1147.12"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      136,
+      191
+    ],
+    [
+      65,
+      251,
+      241,
+      263
+    ],
+    [
+      482,
+      251,
+      488,
+      261
+    ],
+    [
+      593,
+      251,
+      633,
+      262
+    ],
+    [
+      689,
+      251,
+      735,
+      262
+    ],
+    [
+      694,
+      308,
+      740,
+      319
+    ],
+    [
+      700,
+      335,
+      740,
+      346
+    ],
+    [
+      682,
+      375,
+      740,
+      389
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Textiles, Clothing & Equipage",
+  "document_portfolio": "Clothing, Textiles & Subsistence S&E",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "OUTERWEAR, WOMEN'S",
+      "spendCategoryTitle": "Textiles, Clothing & Equipage",
+      "portfolioGroup": "Clothing, Textiles & Subsistence S&E",
+      "description": "OUTERWEAR, WOMEN'S Package",
+      "line_total": 1019.66
+    }
+  ],
+  "psc_breakdown": {
+    "Textiles, Clothing & Equipage": 1019.66
+  },
+  "portfolio_breakdown": {
+    "Clothing, Textiles & Subsistence S&E": 1019.66
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-368213",
+    "date": "2025-02-17",
+    "vendor_name": "Green-Williams",
+    "total_amount": 1147.12
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-927138",
+    "2025-04-06",
+    "Williams-Craig",
+    "Premium SPECIAL STUDIES/ANALYSIS- REGULATORY Package",
+    "7",
+    "$257.81",
+    "$1804.67",
+    "SUPPORT- PROFESSIONAL: ENGINEERING/TECHNICAL System",
+    "4",
+    "$169.39",
+    "$677.56",
+    "Standard DENTAL INSTRUMENTS, EQUIPMENT, AND SUPPLIES Kit",
+    "12",
+    "$828.22",
+    "$9938.64",
+    "Premium DRUMS AND CANS",
+    "10",
+    "$254.37",
+    "$2543.70",
+    "$14964.57",
+    "$1496.46",
+    "$16461.03"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      131,
+      193
+    ],
+    [
+      65,
+      251,
+      392,
+      263
+    ],
+    [
+      482,
+      251,
+      488,
+      261
+    ],
+    [
+      593,
+      251,
+      633,
+      262
+    ],
+    [
+      689,
+      251,
+      735,
+      262
+    ],
+    [
+      65,
+      278,
+      398,
+      290
+    ],
+    [
+      482,
+      278,
+      488,
+      288
+    ],
+    [
+      593,
+      278,
+      633,
+      289
+    ],
+    [
+      695,
+      278,
+      735,
+      289
+    ],
+    [
+      65,
+      305,
+      409,
+      317
+    ],
+    [
+      479,
+      305,
+      491,
+      315
+    ],
+    [
+      593,
+      305,
+      633,
+      316
+    ],
+    [
+      689,
+      305,
+      735,
+      316
+    ],
+    [
+      65,
+      332,
+      212,
+      342
+    ],
+    [
+      479,
+      332,
+      491,
+      342
+    ],
+    [
+      593,
+      332,
+      633,
+      343
+    ],
+    [
+      689,
+      332,
+      735,
+      343
+    ],
+    [
+      688,
+      389,
+      740,
+      400
+    ],
+    [
+      694,
+      416,
+      740,
+      427
+    ],
+    [
+      674,
+      456,
+      740,
+      470
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Medical Equipment and Accessories and Supplies",
+  "document_portfolio": "Clothing, Textiles & Subsistence S&E",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "SPECIAL STUDIES/ANALYSIS- REGULATORY",
+      "spendCategoryTitle": "Management Advisory Services",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "Premium SPECIAL STUDIES/ANALYSIS- REGULATORY Package",
+      "line_total": 1804.67
+    },
+    {
+      "psc": "",
+      "shortName": "SUPPORT- PROFESSIONAL: ENGINEERING/TECHNICAL",
+      "spendCategoryTitle": "Technical and Engineering Services (non-IT)",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "SUPPORT- PROFESSIONAL: ENGINEERING/TECHNICAL System",
+      "line_total": 677.56
+    },
+    {
+      "psc": "",
+      "shortName": "DENTAL INSTRUMENTS, EQUIPMENT, AND SUPPLIES",
+      "spendCategoryTitle": "Medical Equipment and Accessories and Supplies",
+      "portfolioGroup": "Clothing, Textiles & Subsistence S&E",
+      "description": "Standard DENTAL INSTRUMENTS, EQUIPMENT, AND SUPPLIES Kit",
+      "line_total": 9938.64
+    },
+    {
+      "psc": "",
+      "shortName": "DRUMS AND CANS",
+      "spendCategoryTitle": "Package Delivery & Packaging",
+      "portfolioGroup": "Sustainment S&E",
+      "description": "Premium DRUMS AND CANS",
+      "line_total": 2543.7
+    }
+  ],
+  "psc_breakdown": {
+    "Management Advisory Services": 1804.67,
+    "Technical and Engineering Services (non-IT)": 677.56,
+    "Medical Equipment and Accessories and Supplies": 9938.64,
+    "Package Delivery & Packaging": 2543.7
+  },
+  "portfolio_breakdown": {
+    "Knowledge Based Services": 2482.23,
+    "Clothing, Textiles & Subsistence S&E": 9938.64,
+    "Sustainment S&E": 2543.7
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-927138",
+    "date": "2025-04-06",
+    "vendor_name": "Williams-Craig",
+    "total_amount": 16461.03
+  }
+}

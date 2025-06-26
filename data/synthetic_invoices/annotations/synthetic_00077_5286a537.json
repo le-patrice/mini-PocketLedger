@@ -1,0 +1,288 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-935452",
+    "2025-03-22",
+    "Carrillo-Burton",
+    "Standard REPAIR OR ALTERATION OF EPG FACILITIES - NUCLEAR Assembly",
+    "12",
+    "$136.04",
+    "$1632.48",
+    "FUZES AND PRIMERS Kit",
+    "3",
+    "$674.17",
+    "$2022.51",
+    "Premium CARGO AND TANKER VESSELS Kit",
+    "10",
+    "$720.60",
+    "$7206.00",
+    "Industrial LAUNCHERS, ROCKET AND PYROTECHNIC System",
+    "5",
+    "$684.96",
+    "$3424.80",
+    "Professional EQUIPMENT Assembly",
+    "1",
+    "$821.11",
+    "$821.11",
+    "$15106.90",
+    "$755.35",
+    "$15862.25"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      121,
+      167
+    ],
+    [
+      55,
+      222,
+      401,
+      232
+    ],
+    [
+      449,
+      222,
+      461,
+      232
+    ],
+    [
+      556,
+      222,
+      596,
+      233
+    ],
+    [
+      647,
+      222,
+      693,
+      233
+    ],
+    [
+      55,
+      267,
+      186,
+      277
+    ],
+    [
+      452,
+      267,
+      458,
+      277
+    ],
+    [
+      556,
+      267,
+      596,
+      278
+    ],
+    [
+      647,
+      267,
+      693,
+      278
+    ],
+    [
+      55,
+      292,
+      284,
+      302
+    ],
+    [
+      449,
+      292,
+      461,
+      302
+    ],
+    [
+      556,
+      292,
+      596,
+      303
+    ],
+    [
+      647,
+      292,
+      693,
+      303
+    ],
+    [
+      55,
+      317,
+      371,
+      329
+    ],
+    [
+      452,
+      317,
+      458,
+      327
+    ],
+    [
+      556,
+      317,
+      596,
+      328
+    ],
+    [
+      647,
+      317,
+      693,
+      328
+    ],
+    [
+      55,
+      342,
+      234,
+      354
+    ],
+    [
+      452,
+      342,
+      458,
+      352
+    ],
+    [
+      557,
+      342,
+      596,
+      353
+    ],
+    [
+      654,
+      342,
+      693,
+      353
+    ],
+    [
+      648,
+      397,
+      700,
+      408
+    ],
+    [
+      660,
+      422,
+      700,
+      433
+    ],
+    [
+      634,
+      460,
+      700,
+      474
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Ships & Submarines",
+  "document_portfolio": "Aircraft, Ships/Submarines & Land Vehicles",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "REPAIR OR ALTERATION OF EPG FACILITIES - NUCLEAR",
+      "spendCategoryTitle": "Facility Related Services",
+      "portfolioGroup": "Facility Related Services",
+      "description": "Standard REPAIR OR ALTERATION OF EPG FACILITIES - NUCLEAR Assembly",
+      "line_total": 1632.48
+    },
+    {
+      "psc": "",
+      "shortName": "FUZES AND PRIMERS",
+      "spendCategoryTitle": "Ammunition & Explosives",
+      "portfolioGroup": "Weapons & Ammunition",
+      "description": "FUZES AND PRIMERS Kit",
+      "line_total": 2022.51
+    },
+    {
+      "psc": "",
+      "shortName": "CARGO AND TANKER VESSELS",
+      "spendCategoryTitle": "Ships & Submarines",
+      "portfolioGroup": "Aircraft, Ships/Submarines & Land Vehicles",
+      "description": "Premium CARGO AND TANKER VESSELS Kit",
+      "line_total": 7206.0
+    },
+    {
+      "psc": "",
+      "shortName": "LAUNCHERS, ROCKET AND PYROTECHNIC",
+      "spendCategoryTitle": "Weapons",
+      "portfolioGroup": "Weapons & Ammunition",
+      "description": "Industrial LAUNCHERS, ROCKET AND PYROTECHNIC System",
+      "line_total": 3424.8
+    },
+    {
+      "psc": "",
+      "shortName": "EQUIPMENT AND MATERIALS TESTING- ALARM, SIGNAL, AND SECURITY DETECTION SYSTEMS",
+      "spendCategoryTitle": "Equipment Maintenance",
+      "portfolioGroup": "Electronic & Communication Services",
+      "description": "Professional EQUIPMENT Assembly",
+      "line_total": 821.11
+    }
+  ],
+  "psc_breakdown": {
+    "Facility Related Services": 1632.48,
+    "Ammunition & Explosives": 2022.51,
+    "Ships & Submarines": 7206.0,
+    "Weapons": 3424.8,
+    "Equipment Maintenance": 821.11
+  },
+  "portfolio_breakdown": {
+    "Facility Related Services": 1632.48,
+    "Weapons & Ammunition": 5447.31,
+    "Aircraft, Ships/Submarines & Land Vehicles": 7206.0,
+    "Electronic & Communication Services": 821.11
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-935452",
+    "date": "2025-03-22",
+    "vendor_name": "Carrillo-Burton",
+    "total_amount": 15862.25
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-997322",
+    "2024-08-14",
+    "Taylor-Wong",
+    "Standard CAMERAS, STILL PICTURE Kit",
+    "12",
+    "$147.68",
+    "$1772.16",
+    "Professional MAINT/REPAIR/REBUILD OF EQUIPMENT- FOOD PREPARATION Kit",
+    "8",
+    "$615.04",
+    "$4920.32",
+    "$6692.48",
+    "$669.25",
+    "$7361.73"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      122,
+      193
+    ],
+    [
+      65,
+      251,
+      270,
+      263
+    ],
+    [
+      479,
+      251,
+      491,
+      261
+    ],
+    [
+      593,
+      251,
+      633,
+      262
+    ],
+    [
+      689,
+      251,
+      735,
+      262
+    ],
+    [
+      65,
+      278,
+      382,
+      289
+    ],
+    [
+      482,
+      278,
+      488,
+      288
+    ],
+    [
+      593,
+      278,
+      633,
+      289
+    ],
+    [
+      689,
+      278,
+      735,
+      289
+    ],
+    [
+      694,
+      357,
+      740,
+      368
+    ],
+    [
+      700,
+      384,
+      740,
+      395
+    ],
+    [
+      681,
+      424,
+      740,
+      438
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Industrial Products Install / Maintenance / Repair",
+  "document_portfolio": "Facility Related Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "CAMERAS, STILL PICTURE",
+      "spendCategoryTitle": "Security Systems",
+      "portfolioGroup": "Facilities S&E",
+      "description": "Standard CAMERAS, STILL PICTURE Kit",
+      "line_total": 1772.16
+    },
+    {
+      "psc": "",
+      "shortName": "MAINT/REPAIR/REBUILD OF EQUIPMENT- FOOD PREPARATION AND SERVING EQUIPMENT",
+      "spendCategoryTitle": "Industrial Products Install / Maintenance / Repair",
+      "portfolioGroup": "Facility Related Services",
+      "description": "Professional MAINT/REPAIR/REBUILD OF EQUIPMENT- FOOD PREPARATION Kit",
+      "line_total": 4920.32
+    }
+  ],
+  "psc_breakdown": {
+    "Security Systems": 1772.16,
+    "Industrial Products Install / Maintenance / Repair": 4920.32
+  },
+  "portfolio_breakdown": {
+    "Facilities S&E": 1772.16,
+    "Facility Related Services": 4920.32
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-997322",
+    "date": "2024-08-14",
+    "vendor_name": "Taylor-Wong",
+    "total_amount": 7361.73
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-905573",
+    "2025-05-02",
+    "Douglas-Marshall",
+    "Industrial SPECIAL STUDIES/ANALYSIS- TRADE ISSUE Package",
+    "9",
+    "$160.44",
+    "$1443.96",
+    "Industrial NIGHT VISION EQUIPMENT, EMITTED AND REFLECTED RADIATION Kit",
+    "9",
+    "$848.01",
+    "$7632.09",
+    "Standard INSTALLATION OF EQUIPMENT- BEARINGS Package",
+    "15",
+    "$36.99",
+    "$554.85",
+    "Premium CAMERAS, STILL PICTURE Kit",
+    "4",
+    "$401.97",
+    "$1607.88",
+    "Standard ELECTRONIC COUNTERMEASURES Assembly",
+    "15",
+    "$202.99",
+    "$3044.85",
+    "$14283.63",
+    "$714.18",
+    "$14997.81"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      146,
+      193
+    ],
+    [
+      65,
+      251,
+      391,
+      263
+    ],
+    [
+      482,
+      251,
+      488,
+      261
+    ],
+    [
+      593,
+      251,
+      633,
+      262
+    ],
+    [
+      689,
+      251,
+      735,
+      262
+    ],
+    [
+      65,
+      278,
+      403,
+      290
+    ],
+    [
+      482,
+      278,
+      488,
+      288
+    ],
+    [
+      593,
+      278,
+      633,
+      289
+    ],
+    [
+      689,
+      278,
+      735,
+      289
+    ],
+    [
+      65,
+      327,
+      385,
+      339
+    ],
+    [
+      479,
+      327,
+      491,
+      337
+    ],
+    [
+      599,
+      327,
+      633,
+      338
+    ],
+    [
+      695,
+      327,
+      735,
+      338
+    ],
+    [
+      65,
+      354,
+      269,
+      366
+    ],
+    [
+      482,
+      354,
+      488,
+      364
+    ],
+    [
+      593,
+      354,
+      633,
+      365
+    ],
+    [
+      689,
+      354,
+      735,
+      365
+    ],
+    [
+      65,
+      381,
+      353,
+      393
+    ],
+    [
+      479,
+      381,
+      491,
+      391
+    ],
+    [
+      593,
+      381,
+      633,
+      392
+    ],
+    [
+      689,
+      381,
+      735,
+      392
+    ],
+    [
+      688,
+      438,
+      740,
+      449
+    ],
+    [
+      700,
+      465,
+      740,
+      476
+    ],
+    [
+      674,
+      505,
+      740,
+      519
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Night Vision Eq",
+  "document_portfolio": "Electronic & Communication Equipment",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "SPECIAL STUDIES/ANALYSIS- TRADE ISSUE",
+      "spendCategoryTitle": "Trade Policy and Services",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "Industrial SPECIAL STUDIES/ANALYSIS- TRADE ISSUE Package",
+      "line_total": 1443.96
+    },
+    {
+      "psc": "",
+      "shortName": "NIGHT VISION EQUIPMENT, EMITTED AND REFLECTED RADIATION",
+      "spendCategoryTitle": "Night Vision Eq",
+      "portfolioGroup": "Electronic & Communication Equipment",
+      "description": "Industrial NIGHT VISION EQUIPMENT, EMITTED AND REFLECTED RADIATION Kit",
+      "line_total": 7632.09
+    },
+    {
+      "psc": "",
+      "shortName": "INSTALLATION OF EQUIPMENT- BEARINGS",
+      "spendCategoryTitle": "Installation of Equipment",
+      "portfolioGroup": "Equipment Related Services",
+      "description": "Standard INSTALLATION OF EQUIPMENT- BEARINGS Package",
+      "line_total": 554.85
+    },
+    {
+      "psc": "",
+      "shortName": "CAMERAS, STILL PICTURE",
+      "spendCategoryTitle": "Security Systems",
+      "portfolioGroup": "Facilities S&E",
+      "description": "Premium CAMERAS, STILL PICTURE Kit",
+      "line_total": 1607.88
+    },
+    {
+      "psc": "",
+      "shortName": "ELECTRONIC COUNTERMEASURES, COUNTER-COUNTERMEASURES AND QUICK REACTION CAPABILITY EQUIPMENT",
+      "spendCategoryTitle": "Detection & Coherent Radiation Eq",
+      "portfolioGroup": "Electronic & Communication Equipment",
+      "description": "Standard ELECTRONIC COUNTERMEASURES Assembly",
+      "line_total": 3044.85
+    }
+  ],
+  "psc_breakdown": {
+    "Trade Policy and Services": 1443.96,
+    "Night Vision Eq": 7632.09,
+    "Installation of Equipment": 554.85,
+    "Security Systems": 1607.88,
+    "Detection & Coherent Radiation Eq": 3044.85
+  },
+  "portfolio_breakdown": {
+    "Knowledge Based Services": 1443.96,
+    "Electronic & Communication Equipment": 10676.94,
+    "Equipment Related Services": 554.85,
+    "Facilities S&E": 1607.88
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-905573",
+    "date": "2025-05-02",
+    "vendor_name": "Douglas-Marshall",
+    "total_amount": 14997.81
+  }
+}

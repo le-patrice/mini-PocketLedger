@@ -1,0 +1,247 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-878440",
+    "2025-04-22",
+    "Andrews Inc",
+    "CARGO AND TANKER VESSELS",
+    "15",
+    "$442.69",
+    "$6640.35",
+    "Premium IT System",
+    "8",
+    "$750.81",
+    "$6006.48",
+    "SUPPORT- MANAGEMENT: ADVERTISING Package",
+    "15",
+    "$574.93",
+    "$8623.95",
+    "CONSTRUCTION OF MINE FIRE CONTROL FACILITIES Kit",
+    "7",
+    "$162.35",
+    "$1136.45",
+    "$22407.23",
+    "$1792.58",
+    "$24199.81"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      121,
+      191
+    ],
+    [
+      65,
+      251,
+      231,
+      261
+    ],
+    [
+      479,
+      251,
+      491,
+      261
+    ],
+    [
+      593,
+      251,
+      633,
+      262
+    ],
+    [
+      689,
+      251,
+      735,
+      262
+    ],
+    [
+      65,
+      278,
+      161,
+      290
+    ],
+    [
+      482,
+      278,
+      488,
+      288
+    ],
+    [
+      593,
+      278,
+      633,
+      289
+    ],
+    [
+      689,
+      278,
+      735,
+      289
+    ],
+    [
+      65,
+      305,
+      328,
+      317
+    ],
+    [
+      479,
+      305,
+      491,
+      315
+    ],
+    [
+      593,
+      305,
+      633,
+      316
+    ],
+    [
+      689,
+      305,
+      735,
+      316
+    ],
+    [
+      65,
+      332,
+      364,
+      342
+    ],
+    [
+      482,
+      332,
+      488,
+      342
+    ],
+    [
+      593,
+      332,
+      633,
+      343
+    ],
+    [
+      690,
+      332,
+      735,
+      343
+    ],
+    [
+      688,
+      389,
+      740,
+      400
+    ],
+    [
+      694,
+      416,
+      740,
+      427
+    ],
+    [
+      674,
+      456,
+      740,
+      470
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Marketing and Distribution",
+  "document_portfolio": "Knowledge Based Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "CARGO AND TANKER VESSELS",
+      "spendCategoryTitle": "Ships & Submarines",
+      "portfolioGroup": "Aircraft, Ships/Submarines & Land Vehicles",
+      "description": "CARGO AND TANKER VESSELS",
+      "line_total": 6640.35
+    },
+    {
+      "psc": "",
+      "shortName": "IT AND TELECOM - MOBILE DEVICE PRODUCTS (HARDWARE AND PERPETUAL LICENSE SOFTWARE)",
+      "spendCategoryTitle": "Product",
+      "portfolioGroup": "",
+      "description": "Premium IT System",
+      "line_total": 6006.48
+    },
+    {
+      "psc": "",
+      "shortName": "SUPPORT- MANAGEMENT: ADVERTISING",
+      "spendCategoryTitle": "Marketing and Distribution",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "SUPPORT- MANAGEMENT: ADVERTISING Package",
+      "line_total": 8623.95
+    },
+    {
+      "psc": "",
+      "shortName": "CONSTRUCTION OF MINE FIRE CONTROL FACILITIES",
+      "spendCategoryTitle": "Construction Related Services",
+      "portfolioGroup": "Construction Services",
+      "description": "CONSTRUCTION OF MINE FIRE CONTROL FACILITIES Kit",
+      "line_total": 1136.45
+    }
+  ],
+  "psc_breakdown": {
+    "Ships & Submarines": 6640.35,
+    "Product": 6006.48,
+    "Marketing and Distribution": 8623.95,
+    "Construction Related Services": 1136.45
+  },
+  "portfolio_breakdown": {
+    "Aircraft, Ships/Submarines & Land Vehicles": 6640.35,
+    "": 6006.48,
+    "Knowledge Based Services": 8623.95,
+    "Construction Services": 1136.45
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-878440",
+    "date": "2025-04-22",
+    "vendor_name": "Andrews Inc",
+    "total_amount": 24199.81
+  }
+}

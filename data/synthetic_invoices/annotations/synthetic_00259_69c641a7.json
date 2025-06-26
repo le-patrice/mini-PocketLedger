@@ -1,0 +1,163 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-222661",
+    "2024-09-16",
+    "Ibarra, Griffin and Alexander",
+    "Standard LEASE OR RENTAL OF EQUIPMENT- ELECTRICAL Package",
+    "13",
+    "$185.13",
+    "$2406.69",
+    "ARCHITECT Assembly",
+    "11",
+    "$338.48",
+    "$3723.28",
+    "$6129.97",
+    "$613.00",
+    "$6742.97"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      188,
+      169
+    ],
+    [
+      55,
+      222,
+      364,
+      233
+    ],
+    [
+      449,
+      222,
+      461,
+      232
+    ],
+    [
+      556,
+      222,
+      596,
+      233
+    ],
+    [
+      647,
+      222,
+      693,
+      233
+    ],
+    [
+      55,
+      267,
+      168,
+      279
+    ],
+    [
+      450,
+      267,
+      461,
+      277
+    ],
+    [
+      556,
+      267,
+      596,
+      278
+    ],
+    [
+      647,
+      267,
+      693,
+      278
+    ],
+    [
+      654,
+      322,
+      700,
+      333
+    ],
+    [
+      660,
+      347,
+      700,
+      358
+    ],
+    [
+      641,
+      385,
+      700,
+      399
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Construction Related Services",
+  "document_portfolio": "Facility Related Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "LEASE OR RENTAL OF EQUIPMENT- ELECTRICAL AND ELECTRONIC EQUIPMENT COMPONENTS",
+      "spendCategoryTitle": "Equipment Leases",
+      "portfolioGroup": "Electronic & Communication Services",
+      "description": "Standard LEASE OR RENTAL OF EQUIPMENT- ELECTRICAL Package",
+      "line_total": 2406.69
+    },
+    {
+      "psc": "",
+      "shortName": "ARCHITECT AND ENGINEERING- CONSTRUCTION: OTHER CONSERVATION AND DEVELOPMENT FACILITIES",
+      "spendCategoryTitle": "Construction Related Services",
+      "portfolioGroup": "Facility Related Services",
+      "description": "ARCHITECT Assembly",
+      "line_total": 3723.28
+    }
+  ],
+  "psc_breakdown": {
+    "Equipment Leases": 2406.69,
+    "Construction Related Services": 3723.28
+  },
+  "portfolio_breakdown": {
+    "Electronic & Communication Services": 2406.69,
+    "Facility Related Services": 3723.28
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-222661",
+    "date": "2024-09-16",
+    "vendor_name": "Ibarra, Griffin and Alexander",
+    "total_amount": 6742.97
+  }
+}

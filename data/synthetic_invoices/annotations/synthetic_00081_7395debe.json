@@ -1,0 +1,121 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-946401",
+    "2024-10-10",
+    "Lee-Hernandez",
+    "Premium SUPPORT- ADMINISTRATIVE: COURT REPORTING System",
+    "9",
+    "$551.22",
+    "$4960.98",
+    "$4960.98",
+    "$248.05",
+    "$5209.03"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      136,
+      191
+    ],
+    [
+      65,
+      251,
+      415,
+      263
+    ],
+    [
+      482,
+      251,
+      488,
+      261
+    ],
+    [
+      593,
+      251,
+      633,
+      262
+    ],
+    [
+      689,
+      251,
+      735,
+      262
+    ],
+    [
+      694,
+      308,
+      740,
+      319
+    ],
+    [
+      700,
+      335,
+      740,
+      346
+    ],
+    [
+      681,
+      375,
+      740,
+      389
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Legal Services",
+  "document_portfolio": "Knowledge Based Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "SUPPORT- ADMINISTRATIVE: COURT REPORTING",
+      "spendCategoryTitle": "Legal Services",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "Premium SUPPORT- ADMINISTRATIVE: COURT REPORTING System",
+      "line_total": 4960.98
+    }
+  ],
+  "psc_breakdown": {
+    "Legal Services": 4960.98
+  },
+  "portfolio_breakdown": {
+    "Knowledge Based Services": 4960.98
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-946401",
+    "date": "2024-10-10",
+    "vendor_name": "Lee-Hernandez",
+    "total_amount": 5209.03
+  }
+}

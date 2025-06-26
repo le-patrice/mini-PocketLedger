@@ -1,0 +1,163 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-542407",
+    "2025-05-25",
+    "Reeves Group",
+    "Standard MISCELLANEOUS CRUDE ANIMAL PRODUCTS, INEDIBLE System",
+    "8",
+    "$75.98",
+    "$607.84",
+    "Professional EQUIPMENT",
+    "13",
+    "$171.16",
+    "$2225.08",
+    "$2832.92",
+    "$226.63",
+    "$3059.55"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      121,
+      169
+    ],
+    [
+      55,
+      222,
+      349,
+      234
+    ],
+    [
+      452,
+      222,
+      458,
+      232
+    ],
+    [
+      562,
+      222,
+      596,
+      233
+    ],
+    [
+      653,
+      222,
+      693,
+      233
+    ],
+    [
+      55,
+      267,
+      184,
+      278
+    ],
+    [
+      449,
+      267,
+      461,
+      277
+    ],
+    [
+      556,
+      267,
+      596,
+      278
+    ],
+    [
+      647,
+      267,
+      693,
+      278
+    ],
+    [
+      654,
+      322,
+      700,
+      333
+    ],
+    [
+      660,
+      347,
+      700,
+      358
+    ],
+    [
+      641,
+      385,
+      700,
+      399
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Quality Control",
+  "document_portfolio": "Facility Related Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "MISCELLANEOUS CRUDE ANIMAL PRODUCTS, INEDIBLE",
+      "spendCategoryTitle": "Materials",
+      "portfolioGroup": "Sustainment S&E",
+      "description": "Standard MISCELLANEOUS CRUDE ANIMAL PRODUCTS, INEDIBLE System",
+      "line_total": 607.84
+    },
+    {
+      "psc": "",
+      "shortName": "EQUIPMENT AND MATERIALS TESTING- MATERIALS HANDLING EQUIPMENT",
+      "spendCategoryTitle": "Quality Control",
+      "portfolioGroup": "Facility Related Services",
+      "description": "Professional EQUIPMENT",
+      "line_total": 2225.08
+    }
+  ],
+  "psc_breakdown": {
+    "Materials": 607.84,
+    "Quality Control": 2225.08
+  },
+  "portfolio_breakdown": {
+    "Sustainment S&E": 607.84,
+    "Facility Related Services": 2225.08
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-542407",
+    "date": "2025-05-25",
+    "vendor_name": "Reeves Group",
+    "total_amount": 3059.55
+  }
+}

@@ -1,0 +1,247 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-815356",
+    "2025-03-14",
+    "Hanna, Murphy and Bishop",
+    "DRUGS AND BIOLOGICALS Kit",
+    "15",
+    "$292.47",
+    "$4387.05",
+    "Industrial EDUCATION/TRAINING- VOCATIONAL/TECHNICAL Assembly",
+    "5",
+    "$131.77",
+    "$658.85",
+    "Standard ARCHITECT System",
+    "8",
+    "$613.18",
+    "$4905.44",
+    "Premium BARS AND RODS, NONFERROUS BASE METAL",
+    "6",
+    "$104.87",
+    "$629.22",
+    "$10580.56",
+    "$846.44",
+    "$11427.00"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      183,
+      169
+    ],
+    [
+      55,
+      222,
+      213,
+      232
+    ],
+    [
+      449,
+      222,
+      461,
+      232
+    ],
+    [
+      556,
+      222,
+      596,
+      233
+    ],
+    [
+      647,
+      222,
+      693,
+      233
+    ],
+    [
+      55,
+      247,
+      365,
+      257
+    ],
+    [
+      452,
+      247,
+      458,
+      257
+    ],
+    [
+      556,
+      247,
+      596,
+      258
+    ],
+    [
+      653,
+      247,
+      693,
+      258
+    ],
+    [
+      55,
+      292,
+      205,
+      304
+    ],
+    [
+      452,
+      292,
+      458,
+      302
+    ],
+    [
+      556,
+      292,
+      596,
+      303
+    ],
+    [
+      647,
+      292,
+      693,
+      303
+    ],
+    [
+      55,
+      317,
+      348,
+      329
+    ],
+    [
+      452,
+      317,
+      458,
+      327
+    ],
+    [
+      556,
+      317,
+      596,
+      328
+    ],
+    [
+      653,
+      317,
+      693,
+      328
+    ],
+    [
+      648,
+      372,
+      700,
+      383
+    ],
+    [
+      660,
+      397,
+      700,
+      408
+    ],
+    [
+      635,
+      435,
+      700,
+      449
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Construction Related Services",
+  "document_portfolio": "Facility Related Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "DRUGS AND BIOLOGICALS",
+      "spendCategoryTitle": "Drugs and Pharmaceutical Products",
+      "portfolioGroup": "Clothing, Textiles & Subsistence S&E",
+      "description": "DRUGS AND BIOLOGICALS Kit",
+      "line_total": 4387.05
+    },
+    {
+      "psc": "",
+      "shortName": "EDUCATION/TRAINING- VOCATIONAL/TECHNICAL",
+      "spendCategoryTitle": "Vocational Training",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "Industrial EDUCATION/TRAINING- VOCATIONAL/TECHNICAL Assembly",
+      "line_total": 658.85
+    },
+    {
+      "psc": "",
+      "shortName": "ARCHITECT AND ENGINEERING- CONSTRUCTION: MINE SUBSIDENCE CONTROL FACILITIES",
+      "spendCategoryTitle": "Construction Related Services",
+      "portfolioGroup": "Facility Related Services",
+      "description": "Standard ARCHITECT System",
+      "line_total": 4905.44
+    },
+    {
+      "psc": "",
+      "shortName": "BARS AND RODS, NONFERROUS BASE METAL",
+      "spendCategoryTitle": "Basic Materials",
+      "portfolioGroup": "Sustainment S&E",
+      "description": "Premium BARS AND RODS, NONFERROUS BASE METAL",
+      "line_total": 629.22
+    }
+  ],
+  "psc_breakdown": {
+    "Drugs and Pharmaceutical Products": 4387.05,
+    "Vocational Training": 658.85,
+    "Construction Related Services": 4905.44,
+    "Basic Materials": 629.22
+  },
+  "portfolio_breakdown": {
+    "Clothing, Textiles & Subsistence S&E": 4387.05,
+    "Knowledge Based Services": 658.85,
+    "Facility Related Services": 4905.44,
+    "Sustainment S&E": 629.22
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-815356",
+    "date": "2025-03-14",
+    "vendor_name": "Hanna, Murphy and Bishop",
+    "total_amount": 11427.0
+  }
+}

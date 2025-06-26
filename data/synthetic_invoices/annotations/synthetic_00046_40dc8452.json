@@ -1,0 +1,247 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-958246",
+    "2024-10-24",
+    "Carroll PLC",
+    "Standard CLOTHING, SPECIAL PURPOSE Kit",
+    "4",
+    "$181.04",
+    "$724.16",
+    "Professional TECHNICAL REPRESENTATIVE- CLEANING EQUIPMENT AND SUPPLIES",
+    "11",
+    "$665.72",
+    "$7322.92",
+    "Premium INSTALLATION OF EQUIPMENT- SHIPS Kit",
+    "13",
+    "$607.56",
+    "$7898.28",
+    "Industrial IT AND TELECOM - NETWORK AS A SERVICE Package",
+    "1",
+    "$290.96",
+    "$290.96",
+    "$16236.32",
+    "$811.82",
+    "$17048.14"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      117,
+      191
+    ],
+    [
+      65,
+      251,
+      295,
+      263
+    ],
+    [
+      482,
+      251,
+      488,
+      261
+    ],
+    [
+      593,
+      251,
+      633,
+      262
+    ],
+    [
+      695,
+      251,
+      735,
+      262
+    ],
+    [
+      65,
+      278,
+      423,
+      289
+    ],
+    [
+      479,
+      278,
+      490,
+      288
+    ],
+    [
+      593,
+      278,
+      633,
+      289
+    ],
+    [
+      689,
+      278,
+      735,
+      289
+    ],
+    [
+      65,
+      327,
+      331,
+      338
+    ],
+    [
+      479,
+      327,
+      491,
+      337
+    ],
+    [
+      593,
+      327,
+      633,
+      338
+    ],
+    [
+      689,
+      327,
+      735,
+      338
+    ],
+    [
+      65,
+      354,
+      393,
+      366
+    ],
+    [
+      482,
+      354,
+      488,
+      364
+    ],
+    [
+      593,
+      354,
+      633,
+      365
+    ],
+    [
+      695,
+      354,
+      735,
+      365
+    ],
+    [
+      688,
+      411,
+      740,
+      422
+    ],
+    [
+      701,
+      438,
+      740,
+      449
+    ],
+    [
+      674,
+      478,
+      740,
+      492
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Installation of Equipment",
+  "document_portfolio": "Equipment Related Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "CLOTHING, SPECIAL PURPOSE",
+      "spendCategoryTitle": "Textiles, Clothing & Equipage",
+      "portfolioGroup": "Clothing, Textiles & Subsistence S&E",
+      "description": "Standard CLOTHING, SPECIAL PURPOSE Kit",
+      "line_total": 724.16
+    },
+    {
+      "psc": "",
+      "shortName": "TECHNICAL REPRESENTATIVE- CLEANING EQUIPMENT AND SUPPLIES",
+      "spendCategoryTitle": "Technical Representative Services",
+      "portfolioGroup": "Facility Related Services",
+      "description": "Professional TECHNICAL REPRESENTATIVE- CLEANING EQUIPMENT AND SUPPLIES",
+      "line_total": 7322.92
+    },
+    {
+      "psc": "",
+      "shortName": "INSTALLATION OF EQUIPMENT- SHIPS, SMALL CRAFT, PONTOONS, AND FLOATING DOCKS",
+      "spendCategoryTitle": "Installation of Equipment",
+      "portfolioGroup": "Equipment Related Services",
+      "description": "Premium INSTALLATION OF EQUIPMENT- SHIPS Kit",
+      "line_total": 7898.28
+    },
+    {
+      "psc": "",
+      "shortName": "IT AND TELECOM - NETWORK AS A SERVICE",
+      "spendCategoryTitle": "Capability As a Service",
+      "portfolioGroup": "",
+      "description": "Industrial IT AND TELECOM - NETWORK AS A SERVICE Package",
+      "line_total": 290.96
+    }
+  ],
+  "psc_breakdown": {
+    "Textiles, Clothing & Equipage": 724.16,
+    "Technical Representative Services": 7322.92,
+    "Installation of Equipment": 7898.28,
+    "Capability As a Service": 290.96
+  },
+  "portfolio_breakdown": {
+    "Clothing, Textiles & Subsistence S&E": 724.16,
+    "Facility Related Services": 7322.92,
+    "Equipment Related Services": 7898.28,
+    "": 290.96
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-958246",
+    "date": "2024-10-24",
+    "vendor_name": "Carroll PLC",
+    "total_amount": 17048.14
+  }
+}

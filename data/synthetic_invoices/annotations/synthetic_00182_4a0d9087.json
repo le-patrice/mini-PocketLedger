@@ -1,0 +1,205 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-339584",
+    "2025-01-02",
+    "Jordan Inc",
+    "Professional LIQUID PROPELLANT FUELS AND OXIDIZERS, CHEMICAL BASE",
+    "2",
+    "$148.75",
+    "$297.50",
+    "Standard SUPPORT – ADMINISTRATIVE: PHYSICAL RECORDS MANAGEMENT SERVIC Kit",
+    "13",
+    "$137.69",
+    "$1789.97",
+    "Premium LAUNCHERS, ROCKET AND PYROTECHNIC Kit",
+    "2",
+    "$679.05",
+    "$1358.10",
+    "$3445.57",
+    "$275.65",
+    "$3721.22"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      112,
+      191
+    ],
+    [
+      65,
+      251,
+      371,
+      263
+    ],
+    [
+      482,
+      251,
+      488,
+      261
+    ],
+    [
+      593,
+      251,
+      633,
+      262
+    ],
+    [
+      695,
+      251,
+      735,
+      262
+    ],
+    [
+      65,
+      300,
+      387,
+      310
+    ],
+    [
+      479,
+      300,
+      491,
+      310
+    ],
+    [
+      593,
+      300,
+      633,
+      311
+    ],
+    [
+      689,
+      300,
+      735,
+      311
+    ],
+    [
+      65,
+      349,
+      356,
+      361
+    ],
+    [
+      482,
+      349,
+      488,
+      359
+    ],
+    [
+      593,
+      349,
+      633,
+      360
+    ],
+    [
+      689,
+      349,
+      735,
+      360
+    ],
+    [
+      694,
+      406,
+      740,
+      417
+    ],
+    [
+      700,
+      433,
+      740,
+      444
+    ],
+    [
+      681,
+      473,
+      740,
+      487
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Office Management Services",
+  "document_portfolio": "",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "LIQUID PROPELLANT FUELS AND OXIDIZERS, CHEMICAL BASE",
+      "spendCategoryTitle": "Fuels",
+      "portfolioGroup": "Sustainment S&E",
+      "description": "Professional LIQUID PROPELLANT FUELS AND OXIDIZERS, CHEMICAL BASE",
+      "line_total": 297.5
+    },
+    {
+      "psc": "",
+      "shortName": "SUPPORT – ADMINISTRATIVE: PHYSICAL RECORDS MANAGEMENT SERVICES",
+      "spendCategoryTitle": "Office Management Services",
+      "portfolioGroup": "",
+      "description": "Standard SUPPORT – ADMINISTRATIVE: PHYSICAL RECORDS MANAGEMENT SERVIC Kit",
+      "line_total": 1789.97
+    },
+    {
+      "psc": "",
+      "shortName": "LAUNCHERS, ROCKET AND PYROTECHNIC",
+      "spendCategoryTitle": "Weapons",
+      "portfolioGroup": "Weapons & Ammunition",
+      "description": "Premium LAUNCHERS, ROCKET AND PYROTECHNIC Kit",
+      "line_total": 1358.1
+    }
+  ],
+  "psc_breakdown": {
+    "Fuels": 297.5,
+    "Office Management Services": 1789.97,
+    "Weapons": 1358.1
+  },
+  "portfolio_breakdown": {
+    "Sustainment S&E": 297.5,
+    "": 1789.97,
+    "Weapons & Ammunition": 1358.1
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-339584",
+    "date": "2025-01-02",
+    "vendor_name": "Jordan Inc",
+    "total_amount": 3721.22
+  }
+}

@@ -1,0 +1,245 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-254025",
+    "2025-01-30",
+    "Brown and Sons",
+    "Industrial LEASE OR RENTAL OF EQUIPMENT- TOILETRIES Kit",
+    "3",
+    "$621.72",
+    "$1865.16",
+    "Standard SUPPORT- ADMINISTRATIVE:- PERSONAL PROPERTY MANAGEMENT System",
+    "8",
+    "$723.23",
+    "$5785.84",
+    "FIRE CONTROL SYSTEMS, COMPLETE Assembly",
+    "14",
+    "$547.72",
+    "$7668.08",
+    "Professional SUPPORT- ADMINISTRATIVE: TRANSLATION AND INTERPRETING",
+    "11",
+    "$452.00",
+    "$4972.00",
+    "$20291.08",
+    "$1623.29",
+    "$21914.37"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      131,
+      167
+    ],
+    [
+      55,
+      222,
+      376,
+      233
+    ],
+    [
+      452,
+      222,
+      458,
+      232
+    ],
+    [
+      556,
+      222,
+      596,
+      233
+    ],
+    [
+      647,
+      222,
+      693,
+      233
+    ],
+    [
+      55,
+      247,
+      386,
+      257
+    ],
+    [
+      452,
+      247,
+      458,
+      257
+    ],
+    [
+      556,
+      247,
+      596,
+      258
+    ],
+    [
+      647,
+      247,
+      693,
+      258
+    ],
+    [
+      55,
+      292,
+      309,
+      304
+    ],
+    [
+      449,
+      292,
+      461,
+      302
+    ],
+    [
+      556,
+      292,
+      596,
+      303
+    ],
+    [
+      647,
+      292,
+      693,
+      303
+    ],
+    [
+      55,
+      317,
+      376,
+      327
+    ],
+    [
+      450,
+      317,
+      461,
+      327
+    ],
+    [
+      556,
+      317,
+      596,
+      328
+    ],
+    [
+      647,
+      317,
+      693,
+      328
+    ],
+    [
+      648,
+      392,
+      700,
+      403
+    ],
+    [
+      654,
+      417,
+      700,
+      428
+    ],
+    [
+      634,
+      455,
+      700,
+      469
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Business administration services",
+  "document_portfolio": "Knowledge Based Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "LEASE OR RENTAL OF EQUIPMENT- TOILETRIES",
+      "spendCategoryTitle": "S&E Not Classifed Elsewhere",
+      "portfolioGroup": "Facility Related Services",
+      "description": "Industrial LEASE OR RENTAL OF EQUIPMENT- TOILETRIES Kit",
+      "line_total": 1865.16
+    },
+    {
+      "psc": "",
+      "shortName": "SUPPORT- ADMINISTRATIVE:- PERSONAL PROPERTY MANAGEMENT",
+      "spendCategoryTitle": "Business administration services",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "Standard SUPPORT- ADMINISTRATIVE:- PERSONAL PROPERTY MANAGEMENT System",
+      "line_total": 5785.84
+    },
+    {
+      "psc": "",
+      "shortName": "FIRE CONTROL SYSTEMS, COMPLETE",
+      "spendCategoryTitle": "Fire Control",
+      "portfolioGroup": "Weapons & Ammunition",
+      "description": "FIRE CONTROL SYSTEMS, COMPLETE Assembly",
+      "line_total": 7668.08
+    },
+    {
+      "psc": "",
+      "shortName": "SUPPORT- ADMINISTRATIVE: TRANSLATION AND INTERPRETING",
+      "spendCategoryTitle": "Business administration services",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "Professional SUPPORT- ADMINISTRATIVE: TRANSLATION AND INTERPRETING",
+      "line_total": 4972.0
+    }
+  ],
+  "psc_breakdown": {
+    "S&E Not Classifed Elsewhere": 1865.16,
+    "Business administration services": 10757.84,
+    "Fire Control": 7668.08
+  },
+  "portfolio_breakdown": {
+    "Facility Related Services": 1865.16,
+    "Knowledge Based Services": 10757.84,
+    "Weapons & Ammunition": 7668.08
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-254025",
+    "date": "2025-01-30",
+    "vendor_name": "Brown and Sons",
+    "total_amount": 21914.37
+  }
+}

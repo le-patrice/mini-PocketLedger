@@ -1,0 +1,289 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-909748",
+    "2024-08-31",
+    "Johnson-Brown",
+    "Professional HOUSEHOLD FURNISHINGS",
+    "8",
+    "$705.97",
+    "$5647.76",
+    "Standard LEASE OR RENTAL OF EQUIPMENT- VALVES Kit",
+    "5",
+    "$512.57",
+    "$2562.85",
+    "Premium VISIBLE AND INVISIBLE LIGHT COMMUNICATION EQUIPMENT Package",
+    "9",
+    "$526.93",
+    "$4742.37",
+    "Industrial SUPPORT- PROFESSIONAL: HUMAN RESOURCES Assembly",
+    "7",
+    "$28.62",
+    "$200.34",
+    "Premium GUIDED MISSILE SUBSYSTEMS Kit",
+    "14",
+    "$238.11",
+    "$3333.54",
+    "$16486.86",
+    "$824.34",
+    "$17311.20"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      126,
+      167
+    ],
+    [
+      55,
+      222,
+      267,
+      232
+    ],
+    [
+      452,
+      222,
+      458,
+      232
+    ],
+    [
+      556,
+      222,
+      596,
+      233
+    ],
+    [
+      647,
+      222,
+      693,
+      233
+    ],
+    [
+      55,
+      247,
+      353,
+      258
+    ],
+    [
+      452,
+      247,
+      458,
+      257
+    ],
+    [
+      556,
+      247,
+      596,
+      258
+    ],
+    [
+      647,
+      247,
+      693,
+      258
+    ],
+    [
+      55,
+      272,
+      358,
+      282
+    ],
+    [
+      452,
+      272,
+      458,
+      282
+    ],
+    [
+      556,
+      272,
+      596,
+      283
+    ],
+    [
+      647,
+      272,
+      693,
+      283
+    ],
+    [
+      55,
+      317,
+      367,
+      327
+    ],
+    [
+      452,
+      317,
+      458,
+      327
+    ],
+    [
+      562,
+      317,
+      596,
+      328
+    ],
+    [
+      653,
+      317,
+      693,
+      328
+    ],
+    [
+      55,
+      362,
+      286,
+      372
+    ],
+    [
+      449,
+      362,
+      461,
+      372
+    ],
+    [
+      557,
+      362,
+      596,
+      373
+    ],
+    [
+      647,
+      362,
+      693,
+      373
+    ],
+    [
+      648,
+      417,
+      700,
+      428
+    ],
+    [
+      660,
+      442,
+      700,
+      453
+    ],
+    [
+      635,
+      480,
+      700,
+      494
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Furniture",
+  "document_portfolio": "Facilities S&E",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "HOUSEHOLD FURNISHINGS",
+      "spendCategoryTitle": "Furniture",
+      "portfolioGroup": "Facilities S&E",
+      "description": "Professional HOUSEHOLD FURNISHINGS",
+      "line_total": 5647.76
+    },
+    {
+      "psc": "",
+      "shortName": "LEASE OR RENTAL OF EQUIPMENT- VALVES",
+      "spendCategoryTitle": "Purchases & Leases",
+      "portfolioGroup": "Equipment Related Services",
+      "description": "Standard LEASE OR RENTAL OF EQUIPMENT- VALVES Kit",
+      "line_total": 2562.85
+    },
+    {
+      "psc": "",
+      "shortName": "VISIBLE AND INVISIBLE LIGHT COMMUNICATION EQUIPMENT",
+      "spendCategoryTitle": "Detection & Coherent Radiation Eq",
+      "portfolioGroup": "Electronic & Communication Equipment",
+      "description": "Premium VISIBLE AND INVISIBLE LIGHT COMMUNICATION EQUIPMENT Package",
+      "line_total": 4742.37
+    },
+    {
+      "psc": "",
+      "shortName": "SUPPORT- PROFESSIONAL: HUMAN RESOURCES",
+      "spendCategoryTitle": "Human Resources Services",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "Industrial SUPPORT- PROFESSIONAL: HUMAN RESOURCES Assembly",
+      "line_total": 200.34
+    },
+    {
+      "psc": "",
+      "shortName": "GUIDED MISSILE SUBSYSTEMS",
+      "spendCategoryTitle": "Guided Missiles",
+      "portfolioGroup": "Weapons & Ammunition",
+      "description": "Premium GUIDED MISSILE SUBSYSTEMS Kit",
+      "line_total": 3333.54
+    }
+  ],
+  "psc_breakdown": {
+    "Furniture": 5647.76,
+    "Purchases & Leases": 2562.85,
+    "Detection & Coherent Radiation Eq": 4742.37,
+    "Human Resources Services": 200.34,
+    "Guided Missiles": 3333.54
+  },
+  "portfolio_breakdown": {
+    "Facilities S&E": 5647.76,
+    "Equipment Related Services": 2562.85,
+    "Electronic & Communication Equipment": 4742.37,
+    "Knowledge Based Services": 200.34,
+    "Weapons & Ammunition": 3333.54
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-909748",
+    "date": "2024-08-31",
+    "vendor_name": "Johnson-Brown",
+    "total_amount": 17311.2
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-523791",
+    "2024-10-07",
+    "Barker PLC",
+    "Standard SALVAGE- PREPARATION AND DISPOSAL OF EXCESS/SURPLUS PROPERTY Assembly",
+    "15",
+    "$25.02",
+    "$375.30",
+    "$375.30",
+    "$46.91",
+    "$422.21"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      117,
+      191
+    ],
+    [
+      65,
+      251,
+      349,
+      261
+    ],
+    [
+      479,
+      251,
+      491,
+      261
+    ],
+    [
+      599,
+      251,
+      633,
+      262
+    ],
+    [
+      695,
+      251,
+      735,
+      262
+    ],
+    [
+      700,
+      330,
+      740,
+      341
+    ],
+    [
+      706,
+      357,
+      740,
+      368
+    ],
+    [
+      689,
+      397,
+      740,
+      411
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Salvage Services",
+  "document_portfolio": "Equipment Related Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "SALVAGE- PREPARATION AND DISPOSAL OF EXCESS/SURPLUS PROPERTY",
+      "spendCategoryTitle": "Salvage Services",
+      "portfolioGroup": "Equipment Related Services",
+      "description": "Standard SALVAGE- PREPARATION AND DISPOSAL OF EXCESS/SURPLUS PROPERTY Assembly",
+      "line_total": 375.3
+    }
+  ],
+  "psc_breakdown": {
+    "Salvage Services": 375.3
+  },
+  "portfolio_breakdown": {
+    "Equipment Related Services": 375.3
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-523791",
+    "date": "2024-10-07",
+    "vendor_name": "Barker PLC",
+    "total_amount": 422.21
+  }
+}

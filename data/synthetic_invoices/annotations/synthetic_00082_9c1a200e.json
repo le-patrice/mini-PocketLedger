@@ -1,0 +1,205 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-386437",
+    "2025-01-11",
+    "Rice, Hanna and Miles",
+    "SUPPORT- PROFESSIONAL: PATENT AND TRADEMARK Assembly",
+    "6",
+    "$180.76",
+    "$1084.56",
+    "Standard HAZARDOUS MATERIAL SPILL CONTAINMENT Assembly",
+    "13",
+    "$706.99",
+    "$9190.87",
+    "Standard TRAINING AIDS System",
+    "8",
+    "$291.67",
+    "$2333.36",
+    "$12608.79",
+    "$630.44",
+    "$13239.23"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      171,
+      193
+    ],
+    [
+      65,
+      251,
+      406,
+      263
+    ],
+    [
+      482,
+      251,
+      488,
+      261
+    ],
+    [
+      593,
+      251,
+      633,
+      262
+    ],
+    [
+      689,
+      251,
+      735,
+      262
+    ],
+    [
+      65,
+      278,
+      405,
+      290
+    ],
+    [
+      479,
+      278,
+      491,
+      288
+    ],
+    [
+      593,
+      278,
+      633,
+      289
+    ],
+    [
+      689,
+      278,
+      735,
+      289
+    ],
+    [
+      65,
+      305,
+      233,
+      317
+    ],
+    [
+      482,
+      305,
+      488,
+      315
+    ],
+    [
+      593,
+      305,
+      633,
+      316
+    ],
+    [
+      689,
+      305,
+      735,
+      316
+    ],
+    [
+      688,
+      362,
+      740,
+      373
+    ],
+    [
+      700,
+      389,
+      740,
+      400
+    ],
+    [
+      674,
+      429,
+      740,
+      443
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Fire/Rescue/Safety/Environmental Protection Equipment",
+  "document_portfolio": "Facilities S&E",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "SUPPORT- PROFESSIONAL: PATENT AND TRADEMARK",
+      "spendCategoryTitle": "Legal Services",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "SUPPORT- PROFESSIONAL: PATENT AND TRADEMARK Assembly",
+      "line_total": 1084.56
+    },
+    {
+      "psc": "",
+      "shortName": "HAZARDOUS MATERIAL SPILL CONTAINMENT AND CLEAN-UP EQUIPMENT AND MATERIAL",
+      "spendCategoryTitle": "Fire/Rescue/Safety/Environmental Protection Equipment",
+      "portfolioGroup": "Facilities S&E",
+      "description": "Standard HAZARDOUS MATERIAL SPILL CONTAINMENT Assembly",
+      "line_total": 9190.87
+    },
+    {
+      "psc": "",
+      "shortName": "TRAINING AIDS",
+      "spendCategoryTitle": "Training Aids and Devices",
+      "portfolioGroup": "Sustainment S&E",
+      "description": "Standard TRAINING AIDS System",
+      "line_total": 2333.36
+    }
+  ],
+  "psc_breakdown": {
+    "Legal Services": 1084.56,
+    "Fire/Rescue/Safety/Environmental Protection Equipment": 9190.87,
+    "Training Aids and Devices": 2333.36
+  },
+  "portfolio_breakdown": {
+    "Knowledge Based Services": 1084.56,
+    "Facilities S&E": 9190.87,
+    "Sustainment S&E": 2333.36
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-386437",
+    "date": "2025-01-11",
+    "vendor_name": "Rice, Hanna and Miles",
+    "total_amount": 13239.23
+  }
+}

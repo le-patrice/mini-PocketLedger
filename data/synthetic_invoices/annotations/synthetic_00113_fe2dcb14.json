@@ -1,0 +1,287 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-300453",
+    "2024-11-10",
+    "Watts, Sosa and Ward",
+    "Premium DREDGES",
+    "1",
+    "$285.21",
+    "$285.21",
+    "Standard SUPPORT- ADMINISTRATIVE: COURT REPORTING Assembly",
+    "6",
+    "$605.13",
+    "$3630.78",
+    "Professional MISCELLANEOUS WAXES, OILS, AND FATS System",
+    "1",
+    "$798.91",
+    "$798.91",
+    "Premium PHOTO/MAP/PRINT/PUBLICATION- AERIAL PHOTOGRAPHIC System",
+    "5",
+    "$591.65",
+    "$2958.25",
+    "Premium SEEDS AND NURSERY STOCK Kit",
+    "7",
+    "$640.87",
+    "$4486.09",
+    "$12159.24",
+    "$607.96",
+    "$12767.20"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      159,
+      169
+    ],
+    [
+      55,
+      222,
+      156,
+      232
+    ],
+    [
+      452,
+      222,
+      458,
+      232
+    ],
+    [
+      556,
+      222,
+      596,
+      233
+    ],
+    [
+      653,
+      222,
+      693,
+      233
+    ],
+    [
+      55,
+      247,
+      366,
+      257
+    ],
+    [
+      452,
+      247,
+      458,
+      257
+    ],
+    [
+      556,
+      247,
+      596,
+      258
+    ],
+    [
+      647,
+      247,
+      693,
+      258
+    ],
+    [
+      55,
+      292,
+      384,
+      304
+    ],
+    [
+      452,
+      292,
+      458,
+      302
+    ],
+    [
+      556,
+      292,
+      596,
+      303
+    ],
+    [
+      653,
+      292,
+      693,
+      303
+    ],
+    [
+      55,
+      317,
+      325,
+      327
+    ],
+    [
+      452,
+      317,
+      458,
+      327
+    ],
+    [
+      556,
+      317,
+      596,
+      328
+    ],
+    [
+      647,
+      317,
+      693,
+      328
+    ],
+    [
+      55,
+      362,
+      278,
+      372
+    ],
+    [
+      452,
+      362,
+      458,
+      372
+    ],
+    [
+      556,
+      362,
+      596,
+      373
+    ],
+    [
+      647,
+      362,
+      693,
+      373
+    ],
+    [
+      648,
+      417,
+      700,
+      428
+    ],
+    [
+      660,
+      442,
+      700,
+      453
+    ],
+    [
+      634,
+      480,
+      700,
+      494
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Security Animals & Related Svcs",
+  "document_portfolio": "Knowledge Based Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "DREDGES",
+      "spendCategoryTitle": "Support Ships & Small Craft",
+      "portfolioGroup": "Sustainment S&E",
+      "description": "Premium DREDGES",
+      "line_total": 285.21
+    },
+    {
+      "psc": "",
+      "shortName": "SUPPORT- ADMINISTRATIVE: COURT REPORTING",
+      "spendCategoryTitle": "Legal Services",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "Standard SUPPORT- ADMINISTRATIVE: COURT REPORTING Assembly",
+      "line_total": 3630.78
+    },
+    {
+      "psc": "",
+      "shortName": "MISCELLANEOUS WAXES, OILS, AND FATS",
+      "spendCategoryTitle": "Oils, Lubricants, and Waxes",
+      "portfolioGroup": "Sustainment S&E",
+      "description": "Professional MISCELLANEOUS WAXES, OILS, AND FATS System",
+      "line_total": 798.91
+    },
+    {
+      "psc": "",
+      "shortName": "PHOTO/MAP/PRINT/PUBLICATION- AERIAL PHOTOGRAPHIC",
+      "spendCategoryTitle": "Business administration services",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "Premium PHOTO/MAP/PRINT/PUBLICATION- AERIAL PHOTOGRAPHIC System",
+      "line_total": 2958.25
+    },
+    {
+      "psc": "",
+      "shortName": "SEEDS AND NURSERY STOCK",
+      "spendCategoryTitle": "Security Animals & Related Svcs",
+      "portfolioGroup": "Facilities S&E",
+      "description": "Premium SEEDS AND NURSERY STOCK Kit",
+      "line_total": 4486.09
+    }
+  ],
+  "psc_breakdown": {
+    "Support Ships & Small Craft": 285.21,
+    "Legal Services": 3630.78,
+    "Oils, Lubricants, and Waxes": 798.91,
+    "Business administration services": 2958.25,
+    "Security Animals & Related Svcs": 4486.09
+  },
+  "portfolio_breakdown": {
+    "Sustainment S&E": 1084.12,
+    "Knowledge Based Services": 6589.030000000001,
+    "Facilities S&E": 4486.09
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-300453",
+    "date": "2024-11-10",
+    "vendor_name": "Watts, Sosa and Ward",
+    "total_amount": 12767.2
+  }
+}

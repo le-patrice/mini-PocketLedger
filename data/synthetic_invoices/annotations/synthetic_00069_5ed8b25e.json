@@ -1,0 +1,121 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-688436",
+    "2024-10-28",
+    "Walsh, Shannon and Snyder",
+    "Industrial SUPPORT- MANAGEMENT: ACCOUNTING",
+    "11",
+    "$409.52",
+    "$4504.72",
+    "$4504.72",
+    "$450.47",
+    "$4955.19"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      190,
+      169
+    ],
+    [
+      55,
+      222,
+      319,
+      232
+    ],
+    [
+      450,
+      222,
+      461,
+      232
+    ],
+    [
+      556,
+      222,
+      596,
+      233
+    ],
+    [
+      647,
+      222,
+      693,
+      233
+    ],
+    [
+      654,
+      277,
+      700,
+      288
+    ],
+    [
+      660,
+      302,
+      700,
+      313
+    ],
+    [
+      641,
+      340,
+      700,
+      354
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Business Administration Services",
+  "document_portfolio": "Knowledge Based Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "SUPPORT- MANAGEMENT: ACCOUNTING",
+      "spendCategoryTitle": "Business Administration Services",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "Industrial SUPPORT- MANAGEMENT: ACCOUNTING",
+      "line_total": 4504.72
+    }
+  ],
+  "psc_breakdown": {
+    "Business Administration Services": 4504.72
+  },
+  "portfolio_breakdown": {
+    "Knowledge Based Services": 4504.72
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-688436",
+    "date": "2024-10-28",
+    "vendor_name": "Walsh, Shannon and Snyder",
+    "total_amount": 4955.19
+  }
+}

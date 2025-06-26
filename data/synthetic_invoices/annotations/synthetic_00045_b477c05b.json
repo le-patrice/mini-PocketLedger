@@ -1,0 +1,121 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-566754",
+    "2024-12-09",
+    "Morgan Ltd",
+    "Standard SOCIAL- GOVERNMENT INSURANCE PROGRAMS: OTHER System",
+    "5",
+    "$467.86",
+    "$2339.30",
+    "$2339.30",
+    "$292.41",
+    "$2631.71"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      106,
+      169
+    ],
+    [
+      55,
+      222,
+      367,
+      232
+    ],
+    [
+      452,
+      222,
+      458,
+      232
+    ],
+    [
+      556,
+      222,
+      596,
+      233
+    ],
+    [
+      647,
+      222,
+      693,
+      233
+    ],
+    [
+      654,
+      297,
+      700,
+      308
+    ],
+    [
+      660,
+      322,
+      700,
+      333
+    ],
+    [
+      642,
+      360,
+      700,
+      374
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Financial Services",
+  "document_portfolio": "Facility Related Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "SOCIAL- GOVERNMENT INSURANCE PROGRAMS: OTHER",
+      "spendCategoryTitle": "Financial Services",
+      "portfolioGroup": "Facility Related Services",
+      "description": "Standard SOCIAL- GOVERNMENT INSURANCE PROGRAMS: OTHER System",
+      "line_total": 2339.3
+    }
+  ],
+  "psc_breakdown": {
+    "Financial Services": 2339.3
+  },
+  "portfolio_breakdown": {
+    "Facility Related Services": 2339.3
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-566754",
+    "date": "2024-12-09",
+    "vendor_name": "Morgan Ltd",
+    "total_amount": 2631.71
+  }
+}

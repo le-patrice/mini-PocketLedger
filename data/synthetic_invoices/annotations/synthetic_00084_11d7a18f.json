@@ -1,0 +1,205 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-319148",
+    "2024-12-11",
+    "Harris, Daugherty and Maxwell",
+    "GENERAL SCIENCE",
+    "13",
+    "$262.30",
+    "$3409.90",
+    "Professional NIGHT VISION EQUIPMENT, EMITTED AND REFLECTED RADIATION Package",
+    "4",
+    "$233.44",
+    "$933.76",
+    "MAINT/REPAIR/REBUILD OF EQUIPMENT- ENGINES Kit",
+    "12",
+    "$286.16",
+    "$3433.92",
+    "$7777.58",
+    "$777.76",
+    "$8555.34"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      200,
+      169
+    ],
+    [
+      55,
+      222,
+      159,
+      232
+    ],
+    [
+      449,
+      222,
+      461,
+      232
+    ],
+    [
+      556,
+      222,
+      596,
+      233
+    ],
+    [
+      647,
+      222,
+      693,
+      233
+    ],
+    [
+      55,
+      247,
+      340,
+      259
+    ],
+    [
+      452,
+      247,
+      458,
+      257
+    ],
+    [
+      556,
+      247,
+      596,
+      258
+    ],
+    [
+      653,
+      247,
+      693,
+      258
+    ],
+    [
+      55,
+      292,
+      342,
+      303
+    ],
+    [
+      449,
+      292,
+      461,
+      302
+    ],
+    [
+      556,
+      292,
+      596,
+      303
+    ],
+    [
+      647,
+      292,
+      693,
+      303
+    ],
+    [
+      654,
+      347,
+      700,
+      358
+    ],
+    [
+      660,
+      372,
+      700,
+      383
+    ],
+    [
+      641,
+      410,
+      700,
+      424
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Maintenance, Repair and Overhaul",
+  "document_portfolio": "Equipment Related Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "GENERAL SCIENCE AND TECHNOLOGY R&D SERVICES; GENERAL SCIENCE AND TECHNOLOGY; BASIC RESEARCH",
+      "spendCategoryTitle": "",
+      "portfolioGroup": "Research and Development",
+      "description": "GENERAL SCIENCE",
+      "line_total": 3409.9
+    },
+    {
+      "psc": "",
+      "shortName": "NIGHT VISION EQUIPMENT, EMITTED AND REFLECTED RADIATION",
+      "spendCategoryTitle": "Night Vision Eq",
+      "portfolioGroup": "Electronic & Communication Equipment",
+      "description": "Professional NIGHT VISION EQUIPMENT, EMITTED AND REFLECTED RADIATION Package",
+      "line_total": 933.76
+    },
+    {
+      "psc": "",
+      "shortName": "MAINT/REPAIR/REBUILD OF EQUIPMENT- ENGINES, TURBINES, AND COMPONENTS",
+      "spendCategoryTitle": "Maintenance, Repair and Overhaul",
+      "portfolioGroup": "Equipment Related Services",
+      "description": "MAINT/REPAIR/REBUILD OF EQUIPMENT- ENGINES Kit",
+      "line_total": 3433.92
+    }
+  ],
+  "psc_breakdown": {
+    "": 3409.9,
+    "Night Vision Eq": 933.76,
+    "Maintenance, Repair and Overhaul": 3433.92
+  },
+  "portfolio_breakdown": {
+    "Research and Development": 3409.9,
+    "Electronic & Communication Equipment": 933.76,
+    "Equipment Related Services": 3433.92
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-319148",
+    "date": "2024-12-11",
+    "vendor_name": "Harris, Daugherty and Maxwell",
+    "total_amount": 8555.34
+  }
+}

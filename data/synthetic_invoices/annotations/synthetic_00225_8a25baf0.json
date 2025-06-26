@@ -1,0 +1,288 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-193692",
+    "2025-05-15",
+    "Salazar and Sons",
+    "Standard ACCESSORIES FOR SECONDARY METALWORKING MACHINERY System",
+    "12",
+    "$531.10",
+    "$6373.20",
+    "Premium TRANSPORTATION/TRAVEL/RELOCATION- MOTOR POOL Package",
+    "11",
+    "$122.98",
+    "$1352.78",
+    "Premium COMBAT, ASSAULT, AND TACTICAL VEHICLES, WHEELED Package",
+    "14",
+    "$407.78",
+    "$5708.92",
+    "Premium NEWSPAPERS AND PERIODICALS Kit",
+    "13",
+    "$406.92",
+    "$5289.96",
+    "LEASE OR RENTAL OF EQUIPMENT- WEAPONS Assembly",
+    "4",
+    "$750.28",
+    "$3001.12",
+    "$21725.98",
+    "$2172.60",
+    "$23898.58"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      147,
+      191
+    ],
+    [
+      65,
+      251,
+      382,
+      261
+    ],
+    [
+      479,
+      251,
+      491,
+      261
+    ],
+    [
+      593,
+      251,
+      633,
+      262
+    ],
+    [
+      689,
+      251,
+      735,
+      262
+    ],
+    [
+      65,
+      300,
+      411,
+      310
+    ],
+    [
+      479,
+      300,
+      490,
+      310
+    ],
+    [
+      593,
+      300,
+      633,
+      311
+    ],
+    [
+      689,
+      300,
+      735,
+      311
+    ],
+    [
+      65,
+      349,
+      412,
+      361
+    ],
+    [
+      479,
+      349,
+      491,
+      359
+    ],
+    [
+      593,
+      349,
+      633,
+      360
+    ],
+    [
+      689,
+      349,
+      735,
+      360
+    ],
+    [
+      65,
+      398,
+      308,
+      408
+    ],
+    [
+      479,
+      398,
+      491,
+      408
+    ],
+    [
+      593,
+      398,
+      633,
+      409
+    ],
+    [
+      689,
+      398,
+      735,
+      409
+    ],
+    [
+      65,
+      425,
+      365,
+      437
+    ],
+    [
+      482,
+      425,
+      488,
+      435
+    ],
+    [
+      593,
+      425,
+      633,
+      436
+    ],
+    [
+      689,
+      425,
+      735,
+      436
+    ],
+    [
+      688,
+      482,
+      740,
+      493
+    ],
+    [
+      694,
+      509,
+      740,
+      520
+    ],
+    [
+      674,
+      549,
+      740,
+      563
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Machinery & Components",
+  "document_portfolio": "Facilities S&E",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "ACCESSORIES FOR SECONDARY METALWORKING MACHINERY",
+      "spendCategoryTitle": "Machinery & Components",
+      "portfolioGroup": "Facilities S&E",
+      "description": "Standard ACCESSORIES FOR SECONDARY METALWORKING MACHINERY System",
+      "line_total": 6373.2
+    },
+    {
+      "psc": "",
+      "shortName": "TRANSPORTATION/TRAVEL/RELOCATION- MOTOR POOL AND PACKING/CRATING: GBL/GTR PROCS",
+      "spendCategoryTitle": "Logistics Support Services",
+      "portfolioGroup": "Transportation Services",
+      "description": "Premium TRANSPORTATION/TRAVEL/RELOCATION- MOTOR POOL Package",
+      "line_total": 1352.78
+    },
+    {
+      "psc": "",
+      "shortName": "COMBAT, ASSAULT, AND TACTICAL VEHICLES, WHEELED",
+      "spendCategoryTitle": "Land Combat Vehicles",
+      "portfolioGroup": "Aircraft, Ships/Submarines & Land Vehicles",
+      "description": "Premium COMBAT, ASSAULT, AND TACTICAL VEHICLES, WHEELED Package",
+      "line_total": 5708.92
+    },
+    {
+      "psc": "",
+      "shortName": "NEWSPAPERS AND PERIODICALS",
+      "spendCategoryTitle": "S&E Not Classifed Elsewhere",
+      "portfolioGroup": "Facilities S&E",
+      "description": "Premium NEWSPAPERS AND PERIODICALS Kit",
+      "line_total": 5289.96
+    },
+    {
+      "psc": "",
+      "shortName": "LEASE OR RENTAL OF EQUIPMENT- WEAPONS",
+      "spendCategoryTitle": "Purchases & Leases",
+      "portfolioGroup": "Equipment Related Services",
+      "description": "LEASE OR RENTAL OF EQUIPMENT- WEAPONS Assembly",
+      "line_total": 3001.12
+    }
+  ],
+  "psc_breakdown": {
+    "Machinery & Components": 6373.2,
+    "Logistics Support Services": 1352.78,
+    "Land Combat Vehicles": 5708.92,
+    "S&E Not Classifed Elsewhere": 5289.96,
+    "Purchases & Leases": 3001.12
+  },
+  "portfolio_breakdown": {
+    "Facilities S&E": 11663.16,
+    "Transportation Services": 1352.78,
+    "Aircraft, Ships/Submarines & Land Vehicles": 5708.92,
+    "Equipment Related Services": 3001.12
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-193692",
+    "date": "2025-05-15",
+    "vendor_name": "Salazar and Sons",
+    "total_amount": 23898.58
+  }
+}

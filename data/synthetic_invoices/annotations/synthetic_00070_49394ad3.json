@@ -1,0 +1,246 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-942659",
+    "2025-03-11",
+    "Schwartz-Knight",
+    "Industrial SUPPORT- ADMINISTRATIVE: POST OFFICE",
+    "15",
+    "$277.94",
+    "$4169.10",
+    "Professional SUPPORT- MANAGEMENT: PUBLIC RELATIONS Package",
+    "15",
+    "$587.32",
+    "$8809.80",
+    "FUELS, SOLID",
+    "14",
+    "$599.78",
+    "$8396.92",
+    "Premium SOCIAL- GOVERNMENT LIFE INSURANCE PROGRAMS System",
+    "5",
+    "$46.42",
+    "$232.10",
+    "$21607.92",
+    "$1080.40",
+    "$22688.32"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      130,
+      169
+    ],
+    [
+      55,
+      222,
+      332,
+      232
+    ],
+    [
+      449,
+      222,
+      461,
+      232
+    ],
+    [
+      556,
+      222,
+      596,
+      233
+    ],
+    [
+      647,
+      222,
+      693,
+      233
+    ],
+    [
+      55,
+      247,
+      366,
+      257
+    ],
+    [
+      449,
+      247,
+      461,
+      257
+    ],
+    [
+      556,
+      247,
+      596,
+      258
+    ],
+    [
+      647,
+      247,
+      693,
+      258
+    ],
+    [
+      55,
+      292,
+      130,
+      304
+    ],
+    [
+      449,
+      292,
+      461,
+      302
+    ],
+    [
+      556,
+      292,
+      596,
+      303
+    ],
+    [
+      647,
+      292,
+      693,
+      303
+    ],
+    [
+      55,
+      317,
+      389,
+      327
+    ],
+    [
+      452,
+      317,
+      458,
+      327
+    ],
+    [
+      562,
+      317,
+      596,
+      328
+    ],
+    [
+      653,
+      317,
+      693,
+      328
+    ],
+    [
+      648,
+      392,
+      700,
+      403
+    ],
+    [
+      654,
+      417,
+      700,
+      428
+    ],
+    [
+      634,
+      455,
+      700,
+      469
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Public Relations and Professional Communications Services",
+  "document_portfolio": "Knowledge Based Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "SUPPORT- ADMINISTRATIVE: POST OFFICE",
+      "spendCategoryTitle": "Package Delivery & Packaging",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "Industrial SUPPORT- ADMINISTRATIVE: POST OFFICE",
+      "line_total": 4169.1
+    },
+    {
+      "psc": "",
+      "shortName": "SUPPORT- MANAGEMENT: PUBLIC RELATIONS",
+      "spendCategoryTitle": "Public Relations and Professional Communications Services",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "Professional SUPPORT- MANAGEMENT: PUBLIC RELATIONS Package",
+      "line_total": 8809.8
+    },
+    {
+      "psc": "",
+      "shortName": "FUELS, SOLID",
+      "spendCategoryTitle": "Fuels",
+      "portfolioGroup": "Sustainment S&E",
+      "description": "FUELS, SOLID",
+      "line_total": 8396.92
+    },
+    {
+      "psc": "",
+      "shortName": "SOCIAL- GOVERNMENT LIFE INSURANCE PROGRAMS",
+      "spendCategoryTitle": "Financial Services",
+      "portfolioGroup": "Facility Related Services",
+      "description": "Premium SOCIAL- GOVERNMENT LIFE INSURANCE PROGRAMS System",
+      "line_total": 232.1
+    }
+  ],
+  "psc_breakdown": {
+    "Package Delivery & Packaging": 4169.1,
+    "Public Relations and Professional Communications Services": 8809.8,
+    "Fuels": 8396.92,
+    "Financial Services": 232.1
+  },
+  "portfolio_breakdown": {
+    "Knowledge Based Services": 12978.9,
+    "Sustainment S&E": 8396.92,
+    "Facility Related Services": 232.1
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-942659",
+    "date": "2025-03-11",
+    "vendor_name": "Schwartz-Knight",
+    "total_amount": 22688.32
+  }
+}

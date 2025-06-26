@@ -1,0 +1,203 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-533614",
+    "2024-10-16",
+    "Bell Group",
+    "Premium SALVAGE- PREPARATION AND DISPOSAL OF EXCESS/SURPLUS PROPERTY Package",
+    "8",
+    "$494.31",
+    "$3954.48",
+    "Premium SUPPORT- ADMINISTRATIVE: COURT REPORTING Package",
+    "12",
+    "$441.55",
+    "$5298.60",
+    "Standard SALVAGE- PREPARATION AND DISPOSAL OF EXCESS/SURPLUS PROPERTY Kit",
+    "8",
+    "$546.44",
+    "$4371.52",
+    "$13624.60",
+    "$1703.08",
+    "$15327.68"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      102,
+      169
+    ],
+    [
+      55,
+      222,
+      338,
+      232
+    ],
+    [
+      452,
+      222,
+      458,
+      232
+    ],
+    [
+      556,
+      222,
+      596,
+      233
+    ],
+    [
+      647,
+      222,
+      693,
+      233
+    ],
+    [
+      55,
+      267,
+      365,
+      277
+    ],
+    [
+      449,
+      267,
+      461,
+      277
+    ],
+    [
+      556,
+      267,
+      596,
+      278
+    ],
+    [
+      647,
+      267,
+      693,
+      278
+    ],
+    [
+      55,
+      312,
+      339,
+      322
+    ],
+    [
+      452,
+      312,
+      458,
+      322
+    ],
+    [
+      556,
+      312,
+      596,
+      323
+    ],
+    [
+      647,
+      312,
+      693,
+      323
+    ],
+    [
+      648,
+      387,
+      700,
+      398
+    ],
+    [
+      654,
+      412,
+      700,
+      423
+    ],
+    [
+      634,
+      450,
+      700,
+      464
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Salvage Services",
+  "document_portfolio": "Equipment Related Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "SALVAGE- PREPARATION AND DISPOSAL OF EXCESS/SURPLUS PROPERTY",
+      "spendCategoryTitle": "Salvage Services",
+      "portfolioGroup": "Equipment Related Services",
+      "description": "Premium SALVAGE- PREPARATION AND DISPOSAL OF EXCESS/SURPLUS PROPERTY Package",
+      "line_total": 3954.48
+    },
+    {
+      "psc": "",
+      "shortName": "SUPPORT- ADMINISTRATIVE: COURT REPORTING",
+      "spendCategoryTitle": "Legal Services",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "Premium SUPPORT- ADMINISTRATIVE: COURT REPORTING Package",
+      "line_total": 5298.6
+    },
+    {
+      "psc": "",
+      "shortName": "SALVAGE- PREPARATION AND DISPOSAL OF EXCESS/SURPLUS PROPERTY",
+      "spendCategoryTitle": "Salvage Services",
+      "portfolioGroup": "Equipment Related Services",
+      "description": "Standard SALVAGE- PREPARATION AND DISPOSAL OF EXCESS/SURPLUS PROPERTY Kit",
+      "line_total": 4371.52
+    }
+  ],
+  "psc_breakdown": {
+    "Salvage Services": 8326.0,
+    "Legal Services": 5298.6
+  },
+  "portfolio_breakdown": {
+    "Equipment Related Services": 8326.0,
+    "Knowledge Based Services": 5298.6
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-533614",
+    "date": "2024-10-16",
+    "vendor_name": "Bell Group",
+    "total_amount": 15327.68
+  }
+}

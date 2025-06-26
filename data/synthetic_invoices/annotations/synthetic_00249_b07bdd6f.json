@@ -1,0 +1,205 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-612268",
+    "2024-11-30",
+    "Leonard, Chambers and Wilson",
+    "Standard BOXES, CARTONS, AND CRATES Package",
+    "12",
+    "$229.00",
+    "$2748.00",
+    "Professional LEASE OR RENTAL OF EQUIPMENT- ELECTRICAL Kit",
+    "2",
+    "$288.43",
+    "$576.86",
+    "Industrial INSTALLATION OF EQUIPMENT- FURNITURE",
+    "7",
+    "$710.15",
+    "$4971.05",
+    "$8295.91",
+    "$414.80",
+    "$8710.71"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      215,
+      193
+    ],
+    [
+      65,
+      251,
+      332,
+      263
+    ],
+    [
+      479,
+      251,
+      491,
+      261
+    ],
+    [
+      593,
+      251,
+      633,
+      262
+    ],
+    [
+      689,
+      251,
+      735,
+      262
+    ],
+    [
+      65,
+      278,
+      405,
+      289
+    ],
+    [
+      482,
+      278,
+      488,
+      288
+    ],
+    [
+      593,
+      278,
+      633,
+      289
+    ],
+    [
+      695,
+      278,
+      735,
+      289
+    ],
+    [
+      65,
+      305,
+      346,
+      316
+    ],
+    [
+      482,
+      305,
+      488,
+      315
+    ],
+    [
+      593,
+      305,
+      633,
+      316
+    ],
+    [
+      689,
+      305,
+      735,
+      316
+    ],
+    [
+      694,
+      362,
+      740,
+      373
+    ],
+    [
+      700,
+      389,
+      740,
+      400
+    ],
+    [
+      682,
+      429,
+      740,
+      443
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Furniture",
+  "document_portfolio": "Facility Related Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "BOXES, CARTONS, AND CRATES",
+      "spendCategoryTitle": "Package Delivery & Packaging",
+      "portfolioGroup": "Sustainment S&E",
+      "description": "Standard BOXES, CARTONS, AND CRATES Package",
+      "line_total": 2748.0
+    },
+    {
+      "psc": "",
+      "shortName": "LEASE OR RENTAL OF EQUIPMENT- ELECTRICAL AND ELECTRONIC EQUIPMENT COMPONENTS",
+      "spendCategoryTitle": "Equipment Leases",
+      "portfolioGroup": "Electronic & Communication Services",
+      "description": "Professional LEASE OR RENTAL OF EQUIPMENT- ELECTRICAL Kit",
+      "line_total": 576.86
+    },
+    {
+      "psc": "",
+      "shortName": "INSTALLATION OF EQUIPMENT- FURNITURE",
+      "spendCategoryTitle": "Furniture",
+      "portfolioGroup": "Facility Related Services",
+      "description": "Industrial INSTALLATION OF EQUIPMENT- FURNITURE",
+      "line_total": 4971.05
+    }
+  ],
+  "psc_breakdown": {
+    "Package Delivery & Packaging": 2748.0,
+    "Equipment Leases": 576.86,
+    "Furniture": 4971.05
+  },
+  "portfolio_breakdown": {
+    "Sustainment S&E": 2748.0,
+    "Electronic & Communication Services": 576.86,
+    "Facility Related Services": 4971.05
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-612268",
+    "date": "2024-11-30",
+    "vendor_name": "Leonard, Chambers and Wilson",
+    "total_amount": 8710.71
+  }
+}

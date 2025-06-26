@@ -1,0 +1,205 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-448483",
+    "2024-12-23",
+    "Pena, Lawson and Oneal",
+    "Standard TELETYPE AND FACSIMILE EQUIPMENT",
+    "9",
+    "$313.47",
+    "$2821.23",
+    "Industrial SUPPORT- PROFESSIONAL: SIMULATION Kit",
+    "5",
+    "$525.63",
+    "$2628.15",
+    "Industrial LEASE OR RENTAL OF EQUIPMENT- OFFICE MACHINES Assembly",
+    "3",
+    "$153.23",
+    "$459.69",
+    "$5909.07",
+    "$295.45",
+    "$6204.52"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      184,
+      193
+    ],
+    [
+      65,
+      251,
+      324,
+      262
+    ],
+    [
+      482,
+      251,
+      488,
+      261
+    ],
+    [
+      593,
+      251,
+      633,
+      262
+    ],
+    [
+      689,
+      251,
+      735,
+      262
+    ],
+    [
+      65,
+      278,
+      346,
+      288
+    ],
+    [
+      482,
+      278,
+      488,
+      288
+    ],
+    [
+      593,
+      278,
+      633,
+      289
+    ],
+    [
+      689,
+      278,
+      735,
+      289
+    ],
+    [
+      65,
+      305,
+      407,
+      316
+    ],
+    [
+      482,
+      305,
+      488,
+      315
+    ],
+    [
+      593,
+      305,
+      633,
+      316
+    ],
+    [
+      695,
+      305,
+      735,
+      316
+    ],
+    [
+      694,
+      384,
+      740,
+      395
+    ],
+    [
+      700,
+      411,
+      740,
+      422
+    ],
+    [
+      681,
+      451,
+      740,
+      465
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Office Management Products",
+  "document_portfolio": "Electronic & Communication Equipment",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "TELETYPE AND FACSIMILE EQUIPMENT",
+      "spendCategoryTitle": "Office Management Products",
+      "portfolioGroup": "Electronic & Communication Equipment",
+      "description": "Standard TELETYPE AND FACSIMILE EQUIPMENT",
+      "line_total": 2821.23
+    },
+    {
+      "psc": "",
+      "shortName": "SUPPORT- PROFESSIONAL: SIMULATION",
+      "spendCategoryTitle": "Technical and Engineering Services (non-IT)",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "Industrial SUPPORT- PROFESSIONAL: SIMULATION Kit",
+      "line_total": 2628.15
+    },
+    {
+      "psc": "",
+      "shortName": "LEASE OR RENTAL OF EQUIPMENT- OFFICE MACHINES, TEXT PROCESSING SYSTEMS, AND VISIBLE RECORD EQUIPMENT",
+      "spendCategoryTitle": "Office Management Services",
+      "portfolioGroup": "Facility Related Services",
+      "description": "Industrial LEASE OR RENTAL OF EQUIPMENT- OFFICE MACHINES Assembly",
+      "line_total": 459.69
+    }
+  ],
+  "psc_breakdown": {
+    "Office Management Products": 2821.23,
+    "Technical and Engineering Services (non-IT)": 2628.15,
+    "Office Management Services": 459.69
+  },
+  "portfolio_breakdown": {
+    "Electronic & Communication Equipment": 2821.23,
+    "Knowledge Based Services": 2628.15,
+    "Facility Related Services": 459.69
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-448483",
+    "date": "2024-12-23",
+    "vendor_name": "Pena, Lawson and Oneal",
+    "total_amount": 6204.52
+  }
+}

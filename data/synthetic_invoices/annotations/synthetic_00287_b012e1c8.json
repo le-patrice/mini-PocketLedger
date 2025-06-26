@@ -1,0 +1,289 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-812569",
+    "2025-03-20",
+    "Sanders, Howell and Campbell",
+    "Premium IT AND TELECOM - DATA CENTER AS A SERVICE Assembly",
+    "15",
+    "$107.15",
+    "$1607.25",
+    "COMBAT, ASSAULT, AND TACTICAL VEHICLES, WHEELED Assembly",
+    "5",
+    "$614.88",
+    "$3074.40",
+    "Industrial MAINT/REPAIR/REBUILD OF EQUIPMENT- TRAINING AIDS AND DEVICES",
+    "12",
+    "$709.97",
+    "$8519.64",
+    "Industrial TRANSPORTATION/TRAVEL/RELOCATION- TRAVEL/LODGING/RECRUITMENT System",
+    "10",
+    "$473.50",
+    "$4735.00",
+    "TECHNICAL REPRESENTATIVE- OFFICE MACHINES/TEXT PROCESSING SY System",
+    "9",
+    "$415.42",
+    "$3738.78",
+    "$21675.07",
+    "$1734.01",
+    "$23409.08"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      211,
+      193
+    ],
+    [
+      65,
+      251,
+      417,
+      263
+    ],
+    [
+      479,
+      251,
+      491,
+      261
+    ],
+    [
+      593,
+      251,
+      633,
+      262
+    ],
+    [
+      689,
+      251,
+      735,
+      262
+    ],
+    [
+      65,
+      278,
+      416,
+      290
+    ],
+    [
+      482,
+      278,
+      488,
+      288
+    ],
+    [
+      593,
+      278,
+      633,
+      289
+    ],
+    [
+      689,
+      278,
+      735,
+      289
+    ],
+    [
+      65,
+      305,
+      414,
+      316
+    ],
+    [
+      479,
+      305,
+      491,
+      315
+    ],
+    [
+      593,
+      305,
+      633,
+      316
+    ],
+    [
+      689,
+      305,
+      735,
+      316
+    ],
+    [
+      65,
+      354,
+      335,
+      364
+    ],
+    [
+      479,
+      354,
+      491,
+      364
+    ],
+    [
+      593,
+      354,
+      633,
+      365
+    ],
+    [
+      689,
+      354,
+      735,
+      365
+    ],
+    [
+      65,
+      403,
+      367,
+      413
+    ],
+    [
+      482,
+      403,
+      488,
+      413
+    ],
+    [
+      593,
+      403,
+      633,
+      414
+    ],
+    [
+      689,
+      403,
+      735,
+      414
+    ],
+    [
+      688,
+      482,
+      740,
+      493
+    ],
+    [
+      694,
+      509,
+      740,
+      520
+    ],
+    [
+      674,
+      549,
+      740,
+      563
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Maintenance, Repair and Overhaul",
+  "document_portfolio": "Equipment Related Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "IT AND TELECOM - DATA CENTER AS A SERVICE",
+      "spendCategoryTitle": "Capability As a Service",
+      "portfolioGroup": "",
+      "description": "Premium IT AND TELECOM - DATA CENTER AS A SERVICE Assembly",
+      "line_total": 1607.25
+    },
+    {
+      "psc": "",
+      "shortName": "COMBAT, ASSAULT, AND TACTICAL VEHICLES, WHEELED",
+      "spendCategoryTitle": "Land Combat Vehicles",
+      "portfolioGroup": "Aircraft, Ships/Submarines & Land Vehicles",
+      "description": "COMBAT, ASSAULT, AND TACTICAL VEHICLES, WHEELED Assembly",
+      "line_total": 3074.4
+    },
+    {
+      "psc": "",
+      "shortName": "MAINT/REPAIR/REBUILD OF EQUIPMENT- TRAINING AIDS AND DEVICES",
+      "spendCategoryTitle": "Maintenance, Repair and Overhaul",
+      "portfolioGroup": "Equipment Related Services",
+      "description": "Industrial MAINT/REPAIR/REBUILD OF EQUIPMENT- TRAINING AIDS AND DEVICES",
+      "line_total": 8519.64
+    },
+    {
+      "psc": "",
+      "shortName": "TRANSPORTATION/TRAVEL/RELOCATION- TRAVEL/LODGING/RECRUITMENT: MILITARY PERSONNEL RECRUITMENT",
+      "spendCategoryTitle": "Passenger Travel",
+      "portfolioGroup": "Transportation Services",
+      "description": "Industrial TRANSPORTATION/TRAVEL/RELOCATION- TRAVEL/LODGING/RECRUITMENT System",
+      "line_total": 4735.0
+    },
+    {
+      "psc": "",
+      "shortName": "TECHNICAL REPRESENTATIVE- OFFICE MACHINES/TEXT PROCESSING SYS/VISIBLE RECORD EQUIPMENT",
+      "spendCategoryTitle": "Office Management Services",
+      "portfolioGroup": "Facility Related Services",
+      "description": "TECHNICAL REPRESENTATIVE- OFFICE MACHINES/TEXT PROCESSING SY System",
+      "line_total": 3738.78
+    }
+  ],
+  "psc_breakdown": {
+    "Capability As a Service": 1607.25,
+    "Land Combat Vehicles": 3074.4,
+    "Maintenance, Repair and Overhaul": 8519.64,
+    "Passenger Travel": 4735.0,
+    "Office Management Services": 3738.78
+  },
+  "portfolio_breakdown": {
+    "": 1607.25,
+    "Aircraft, Ships/Submarines & Land Vehicles": 3074.4,
+    "Equipment Related Services": 8519.64,
+    "Transportation Services": 4735.0,
+    "Facility Related Services": 3738.78
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-812569",
+    "date": "2025-03-20",
+    "vendor_name": "Sanders, Howell and Campbell",
+    "total_amount": 23409.08
+  }
+}

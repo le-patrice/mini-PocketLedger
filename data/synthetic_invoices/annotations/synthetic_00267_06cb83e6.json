@@ -1,0 +1,288 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-266728",
+    "2025-05-18",
+    "Keller Group",
+    "Industrial SPECIAL STUDIES/ANALYSIS- AERONAUTICAL/SPACE Assembly",
+    "1",
+    "$645.57",
+    "$645.57",
+    "Professional VISIBLE AND INVISIBLE LIGHT COMMUNICATION EQUIPMENT Package",
+    "9",
+    "$380.72",
+    "$3426.48",
+    "Industrial PHOTO/MAP/PRINT/PUBLICATION- GENERAL PHOTOGRAPHIC: STILL Kit",
+    "7",
+    "$528.99",
+    "$3702.93",
+    "Standard SALVAGE- OTHER",
+    "5",
+    "$225.32",
+    "$1126.60",
+    "Standard SOCIAL- GOVERNMENT LIFE INSURANCE PROGRAMS System",
+    "12",
+    "$782.19",
+    "$9386.28",
+    "$18287.86",
+    "$914.39",
+    "$19202.25"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      122,
+      193
+    ],
+    [
+      65,
+      251,
+      397,
+      261
+    ],
+    [
+      482,
+      251,
+      488,
+      261
+    ],
+    [
+      593,
+      251,
+      633,
+      262
+    ],
+    [
+      695,
+      251,
+      735,
+      262
+    ],
+    [
+      65,
+      300,
+      385,
+      310
+    ],
+    [
+      482,
+      300,
+      488,
+      310
+    ],
+    [
+      593,
+      300,
+      633,
+      311
+    ],
+    [
+      689,
+      300,
+      735,
+      311
+    ],
+    [
+      65,
+      349,
+      350,
+      359
+    ],
+    [
+      482,
+      349,
+      488,
+      359
+    ],
+    [
+      593,
+      349,
+      633,
+      360
+    ],
+    [
+      689,
+      349,
+      735,
+      360
+    ],
+    [
+      65,
+      398,
+      208,
+      408
+    ],
+    [
+      482,
+      398,
+      488,
+      408
+    ],
+    [
+      593,
+      398,
+      633,
+      409
+    ],
+    [
+      690,
+      398,
+      735,
+      409
+    ],
+    [
+      65,
+      425,
+      400,
+      435
+    ],
+    [
+      479,
+      425,
+      491,
+      435
+    ],
+    [
+      593,
+      425,
+      633,
+      436
+    ],
+    [
+      689,
+      425,
+      735,
+      436
+    ],
+    [
+      688,
+      504,
+      740,
+      515
+    ],
+    [
+      700,
+      531,
+      740,
+      542
+    ],
+    [
+      674,
+      571,
+      740,
+      585
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Financial Services",
+  "document_portfolio": "Facility Related Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "SPECIAL STUDIES/ANALYSIS- AERONAUTICAL/SPACE",
+      "spendCategoryTitle": "Management Advisory Services",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "Industrial SPECIAL STUDIES/ANALYSIS- AERONAUTICAL/SPACE Assembly",
+      "line_total": 645.57
+    },
+    {
+      "psc": "",
+      "shortName": "VISIBLE AND INVISIBLE LIGHT COMMUNICATION EQUIPMENT",
+      "spendCategoryTitle": "Detection & Coherent Radiation Eq",
+      "portfolioGroup": "Electronic & Communication Equipment",
+      "description": "Professional VISIBLE AND INVISIBLE LIGHT COMMUNICATION EQUIPMENT Package",
+      "line_total": 3426.48
+    },
+    {
+      "psc": "",
+      "shortName": "PHOTO/MAP/PRINT/PUBLICATION- GENERAL PHOTOGRAPHIC: STILL",
+      "spendCategoryTitle": "Business administration services",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "Industrial PHOTO/MAP/PRINT/PUBLICATION- GENERAL PHOTOGRAPHIC: STILL Kit",
+      "line_total": 3702.93
+    },
+    {
+      "psc": "",
+      "shortName": "SALVAGE- OTHER",
+      "spendCategoryTitle": "Salvage Services",
+      "portfolioGroup": "Equipment Related Services",
+      "description": "Standard SALVAGE- OTHER",
+      "line_total": 1126.6
+    },
+    {
+      "psc": "",
+      "shortName": "SOCIAL- GOVERNMENT LIFE INSURANCE PROGRAMS",
+      "spendCategoryTitle": "Financial Services",
+      "portfolioGroup": "Facility Related Services",
+      "description": "Standard SOCIAL- GOVERNMENT LIFE INSURANCE PROGRAMS System",
+      "line_total": 9386.28
+    }
+  ],
+  "psc_breakdown": {
+    "Management Advisory Services": 645.57,
+    "Detection & Coherent Radiation Eq": 3426.48,
+    "Business administration services": 3702.93,
+    "Salvage Services": 1126.6,
+    "Financial Services": 9386.28
+  },
+  "portfolio_breakdown": {
+    "Knowledge Based Services": 4348.5,
+    "Electronic & Communication Equipment": 3426.48,
+    "Equipment Related Services": 1126.6,
+    "Facility Related Services": 9386.28
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-266728",
+    "date": "2025-05-18",
+    "vendor_name": "Keller Group",
+    "total_amount": 19202.25
+  }
+}

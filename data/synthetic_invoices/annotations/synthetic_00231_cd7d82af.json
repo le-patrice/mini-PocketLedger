@@ -1,0 +1,121 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-612539",
+    "2024-12-21",
+    "Peterson Group",
+    "Industrial SUPPORT- PROFESSIONAL: ENGINEERING/TECHNICAL Kit",
+    "12",
+    "$668.83",
+    "$8025.96",
+    "$8025.96",
+    "$1003.25",
+    "$9029.21"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      138,
+      193
+    ],
+    [
+      65,
+      251,
+      422,
+      261
+    ],
+    [
+      479,
+      251,
+      491,
+      261
+    ],
+    [
+      593,
+      251,
+      633,
+      262
+    ],
+    [
+      689,
+      251,
+      735,
+      262
+    ],
+    [
+      694,
+      308,
+      740,
+      319
+    ],
+    [
+      694,
+      335,
+      740,
+      346
+    ],
+    [
+      682,
+      375,
+      740,
+      389
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Technical and Engineering Services (non-IT)",
+  "document_portfolio": "Knowledge Based Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "SUPPORT- PROFESSIONAL: ENGINEERING/TECHNICAL",
+      "spendCategoryTitle": "Technical and Engineering Services (non-IT)",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "Industrial SUPPORT- PROFESSIONAL: ENGINEERING/TECHNICAL Kit",
+      "line_total": 8025.96
+    }
+  ],
+  "psc_breakdown": {
+    "Technical and Engineering Services (non-IT)": 8025.96
+  },
+  "portfolio_breakdown": {
+    "Knowledge Based Services": 8025.96
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-612539",
+    "date": "2024-12-21",
+    "vendor_name": "Peterson Group",
+    "total_amount": 9029.21
+  }
+}

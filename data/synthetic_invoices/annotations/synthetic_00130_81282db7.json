@@ -1,0 +1,205 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-141717",
+    "2024-08-28",
+    "Banks Ltd",
+    "Premium MODIFICATION OF EQUIPMENT- FOOD PREPARATION",
+    "3",
+    "$332.64",
+    "$997.92",
+    "Industrial VISIBLE AND INVISIBLE LIGHT COMMUNICATION EQUIPMENT Package",
+    "8",
+    "$64.78",
+    "$518.24",
+    "Standard HEALTH R&D SERVICES Kit",
+    "4",
+    "$216.32",
+    "$865.28",
+    "$2381.44",
+    "$119.07",
+    "$2500.51"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      109,
+      191
+    ],
+    [
+      65,
+      251,
+      396,
+      262
+    ],
+    [
+      482,
+      251,
+      488,
+      261
+    ],
+    [
+      593,
+      251,
+      633,
+      262
+    ],
+    [
+      695,
+      251,
+      735,
+      262
+    ],
+    [
+      65,
+      278,
+      369,
+      288
+    ],
+    [
+      482,
+      278,
+      488,
+      288
+    ],
+    [
+      599,
+      278,
+      633,
+      289
+    ],
+    [
+      695,
+      278,
+      735,
+      289
+    ],
+    [
+      65,
+      327,
+      256,
+      337
+    ],
+    [
+      482,
+      327,
+      488,
+      337
+    ],
+    [
+      593,
+      327,
+      633,
+      338
+    ],
+    [
+      695,
+      327,
+      735,
+      338
+    ],
+    [
+      694,
+      384,
+      740,
+      395
+    ],
+    [
+      701,
+      411,
+      740,
+      422
+    ],
+    [
+      682,
+      451,
+      740,
+      465
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Industrial Products Install / Maintenance / Repair",
+  "document_portfolio": "Facility Related Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "MODIFICATION OF EQUIPMENT- FOOD PREPARATION AND SERVING EQUIPMENT",
+      "spendCategoryTitle": "Industrial Products Install / Maintenance / Repair",
+      "portfolioGroup": "Facility Related Services",
+      "description": "Premium MODIFICATION OF EQUIPMENT- FOOD PREPARATION",
+      "line_total": 997.92
+    },
+    {
+      "psc": "",
+      "shortName": "VISIBLE AND INVISIBLE LIGHT COMMUNICATION EQUIPMENT",
+      "spendCategoryTitle": "Detection & Coherent Radiation Eq",
+      "portfolioGroup": "Electronic & Communication Equipment",
+      "description": "Industrial VISIBLE AND INVISIBLE LIGHT COMMUNICATION EQUIPMENT Package",
+      "line_total": 518.24
+    },
+    {
+      "psc": "",
+      "shortName": "HEALTH R&D SERVICES; CONSUMER AND OCCUPATIONAL HEALTH AND SAFETY; BASIC RESEARCH",
+      "spendCategoryTitle": "",
+      "portfolioGroup": "Research and Development",
+      "description": "Standard HEALTH R&D SERVICES Kit",
+      "line_total": 865.28
+    }
+  ],
+  "psc_breakdown": {
+    "Industrial Products Install / Maintenance / Repair": 997.92,
+    "Detection & Coherent Radiation Eq": 518.24,
+    "": 865.28
+  },
+  "portfolio_breakdown": {
+    "Facility Related Services": 997.92,
+    "Electronic & Communication Equipment": 518.24,
+    "Research and Development": 865.28
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-141717",
+    "date": "2024-08-28",
+    "vendor_name": "Banks Ltd",
+    "total_amount": 2500.51
+  }
+}

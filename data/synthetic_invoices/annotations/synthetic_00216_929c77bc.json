@@ -1,0 +1,121 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-306224",
+    "2024-06-25",
+    "Berg LLC",
+    "Industrial EDUCATION/TRAINING- LECTURES Kit",
+    "10",
+    "$401.28",
+    "$4012.80",
+    "$4012.80",
+    "$401.28",
+    "$4414.08"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      97,
+      169
+    ],
+    [
+      55,
+      222,
+      304,
+      232
+    ],
+    [
+      449,
+      222,
+      461,
+      232
+    ],
+    [
+      556,
+      222,
+      596,
+      233
+    ],
+    [
+      647,
+      222,
+      693,
+      233
+    ],
+    [
+      654,
+      277,
+      700,
+      288
+    ],
+    [
+      660,
+      302,
+      700,
+      313
+    ],
+    [
+      641,
+      340,
+      700,
+      354
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Specialized educational services",
+  "document_portfolio": "Knowledge Based Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "EDUCATION/TRAINING- LECTURES",
+      "spendCategoryTitle": "Specialized educational services",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "Industrial EDUCATION/TRAINING- LECTURES Kit",
+      "line_total": 4012.8
+    }
+  ],
+  "psc_breakdown": {
+    "Specialized educational services": 4012.8
+  },
+  "portfolio_breakdown": {
+    "Knowledge Based Services": 4012.8
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-306224",
+    "date": "2024-06-25",
+    "vendor_name": "Berg LLC",
+    "total_amount": 4414.08
+  }
+}

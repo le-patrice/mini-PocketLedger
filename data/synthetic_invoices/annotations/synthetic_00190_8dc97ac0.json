@@ -1,0 +1,205 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-252539",
+    "2025-05-10",
+    "Paul, Carter and Harris",
+    "Premium SOCIAL- NON-GOVERNMENT INSURANCE PROGRAMS System",
+    "8",
+    "$128.45",
+    "$1027.60",
+    "Premium CUTLERY AND FLATWARE Assembly",
+    "7",
+    "$440.31",
+    "$3082.17",
+    "Industrial SUPPORT- PROFESSIONAL: LEGAL Package",
+    "5",
+    "$830.89",
+    "$4154.45",
+    "$8264.22",
+    "$413.21",
+    "$8677.43"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      173,
+      193
+    ],
+    [
+      65,
+      251,
+      401,
+      261
+    ],
+    [
+      482,
+      251,
+      488,
+      261
+    ],
+    [
+      593,
+      251,
+      633,
+      262
+    ],
+    [
+      689,
+      251,
+      735,
+      262
+    ],
+    [
+      65,
+      300,
+      301,
+      312
+    ],
+    [
+      482,
+      300,
+      488,
+      310
+    ],
+    [
+      593,
+      300,
+      633,
+      311
+    ],
+    [
+      689,
+      300,
+      735,
+      311
+    ],
+    [
+      65,
+      327,
+      345,
+      339
+    ],
+    [
+      482,
+      327,
+      488,
+      337
+    ],
+    [
+      593,
+      327,
+      633,
+      338
+    ],
+    [
+      689,
+      327,
+      735,
+      338
+    ],
+    [
+      694,
+      384,
+      740,
+      395
+    ],
+    [
+      700,
+      411,
+      740,
+      422
+    ],
+    [
+      681,
+      451,
+      740,
+      465
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Legal services",
+  "document_portfolio": "Knowledge Based Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "SOCIAL- NON-GOVERNMENT INSURANCE PROGRAMS",
+      "spendCategoryTitle": "Financial Services",
+      "portfolioGroup": "Facility Related Services",
+      "description": "Premium SOCIAL- NON-GOVERNMENT INSURANCE PROGRAMS System",
+      "line_total": 1027.6
+    },
+    {
+      "psc": "",
+      "shortName": "CUTLERY AND FLATWARE",
+      "spendCategoryTitle": "Office Management Products",
+      "portfolioGroup": "Facilities S&E",
+      "description": "Premium CUTLERY AND FLATWARE Assembly",
+      "line_total": 3082.17
+    },
+    {
+      "psc": "",
+      "shortName": "SUPPORT- PROFESSIONAL: LEGAL",
+      "spendCategoryTitle": "Legal services",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "Industrial SUPPORT- PROFESSIONAL: LEGAL Package",
+      "line_total": 4154.45
+    }
+  ],
+  "psc_breakdown": {
+    "Financial Services": 1027.6,
+    "Office Management Products": 3082.17,
+    "Legal services": 4154.45
+  },
+  "portfolio_breakdown": {
+    "Facility Related Services": 1027.6,
+    "Facilities S&E": 3082.17,
+    "Knowledge Based Services": 4154.45
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-252539",
+    "date": "2025-05-10",
+    "vendor_name": "Paul, Carter and Harris",
+    "total_amount": 8677.43
+  }
+}

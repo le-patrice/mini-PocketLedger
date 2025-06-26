@@ -1,0 +1,245 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-709392",
+    "2024-09-17",
+    "Parker-Harper",
+    "Industrial SUPPORT- MANAGEMENT: DATA COLLECTION Kit",
+    "6",
+    "$573.92",
+    "$3443.52",
+    "Professional MISCELLANEOUS WAXES, OILS, AND FATS Kit",
+    "3",
+    "$176.49",
+    "$529.47",
+    "Professional TRANSPORTATION/TRAVEL/RELOCATION- TRAVEL/LODGING/RECRUITMENT Pac...",
+    "12",
+    "$247.66",
+    "$2971.92",
+    "MISCELLANEOUS WAXES, OILS, AND FATS Kit",
+    "2",
+    "$779.23",
+    "$1558.46",
+    "$8503.37",
+    "$425.17",
+    "$8928.54"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      130,
+      193
+    ],
+    [
+      65,
+      251,
+      372,
+      261
+    ],
+    [
+      482,
+      251,
+      488,
+      261
+    ],
+    [
+      593,
+      251,
+      633,
+      262
+    ],
+    [
+      689,
+      251,
+      735,
+      262
+    ],
+    [
+      65,
+      278,
+      370,
+      290
+    ],
+    [
+      482,
+      278,
+      488,
+      288
+    ],
+    [
+      593,
+      278,
+      633,
+      289
+    ],
+    [
+      695,
+      278,
+      735,
+      289
+    ],
+    [
+      65,
+      305,
+      351,
+      315
+    ],
+    [
+      479,
+      305,
+      491,
+      315
+    ],
+    [
+      593,
+      305,
+      633,
+      316
+    ],
+    [
+      689,
+      305,
+      735,
+      316
+    ],
+    [
+      65,
+      354,
+      307,
+      366
+    ],
+    [
+      482,
+      354,
+      488,
+      364
+    ],
+    [
+      593,
+      354,
+      633,
+      365
+    ],
+    [
+      689,
+      354,
+      735,
+      365
+    ],
+    [
+      694,
+      411,
+      740,
+      422
+    ],
+    [
+      700,
+      438,
+      740,
+      449
+    ],
+    [
+      681,
+      478,
+      740,
+      492
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Business Administration Services",
+  "document_portfolio": "Knowledge Based Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "SUPPORT- MANAGEMENT: DATA COLLECTION",
+      "spendCategoryTitle": "Business Administration Services",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "Industrial SUPPORT- MANAGEMENT: DATA COLLECTION Kit",
+      "line_total": 3443.52
+    },
+    {
+      "psc": "",
+      "shortName": "MISCELLANEOUS WAXES, OILS, AND FATS",
+      "spendCategoryTitle": "Oils, Lubricants, and Waxes",
+      "portfolioGroup": "Sustainment S&E",
+      "description": "Professional MISCELLANEOUS WAXES, OILS, AND FATS Kit",
+      "line_total": 529.47
+    },
+    {
+      "psc": "",
+      "shortName": "TRANSPORTATION/TRAVEL/RELOCATION- TRAVEL/LODGING/RECRUITMENT: NAVIGATIONAL AID AND PILOTAGE",
+      "spendCategoryTitle": "Passenger Travel",
+      "portfolioGroup": "Transportation Services",
+      "description": "Professional TRANSPORTATION/TRAVEL/RELOCATION- TRAVEL/LODGING/RECRUITMENT Pac...",
+      "line_total": 2971.92
+    },
+    {
+      "psc": "",
+      "shortName": "MISCELLANEOUS WAXES, OILS, AND FATS",
+      "spendCategoryTitle": "Oils, Lubricants, and Waxes",
+      "portfolioGroup": "Sustainment S&E",
+      "description": "MISCELLANEOUS WAXES, OILS, AND FATS Kit",
+      "line_total": 1558.46
+    }
+  ],
+  "psc_breakdown": {
+    "Business Administration Services": 3443.52,
+    "Oils, Lubricants, and Waxes": 2087.9300000000003,
+    "Passenger Travel": 2971.92
+  },
+  "portfolio_breakdown": {
+    "Knowledge Based Services": 3443.52,
+    "Sustainment S&E": 2087.9300000000003,
+    "Transportation Services": 2971.92
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-709392",
+    "date": "2024-09-17",
+    "vendor_name": "Parker-Harper",
+    "total_amount": 8928.54
+  }
+}

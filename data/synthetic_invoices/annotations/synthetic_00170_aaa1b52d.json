@@ -1,0 +1,163 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-739612",
+    "2025-01-07",
+    "Rodriguez, Green and Stewart",
+    "Professional INSTALLATION OF EQUIPMENT- GROUND EFFECT VEHICLES Package",
+    "14",
+    "$668.25",
+    "$9355.50",
+    "Standard LEASE/RENTAL OF AIR TRAFFIC CONTROL TRAINING FACILITIES System",
+    "1",
+    "$53.36",
+    "$53.36",
+    "$9408.86",
+    "$470.44",
+    "$9879.30"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      199,
+      169
+    ],
+    [
+      55,
+      222,
+      383,
+      233
+    ],
+    [
+      449,
+      222,
+      461,
+      232
+    ],
+    [
+      556,
+      222,
+      596,
+      233
+    ],
+    [
+      647,
+      222,
+      693,
+      233
+    ],
+    [
+      55,
+      267,
+      384,
+      277
+    ],
+    [
+      452,
+      267,
+      458,
+      277
+    ],
+    [
+      562,
+      267,
+      596,
+      278
+    ],
+    [
+      659,
+      267,
+      693,
+      278
+    ],
+    [
+      654,
+      342,
+      700,
+      353
+    ],
+    [
+      660,
+      367,
+      700,
+      378
+    ],
+    [
+      641,
+      405,
+      700,
+      419
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Motor Vehicles",
+  "document_portfolio": "Equipment Related Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "INSTALLATION OF EQUIPMENT- GROUND EFFECT VEHICLES, MOTOR VEHICLES, TRAILERS, AND CYCLES",
+      "spendCategoryTitle": "Motor Vehicles",
+      "portfolioGroup": "Equipment Related Services",
+      "description": "Professional INSTALLATION OF EQUIPMENT- GROUND EFFECT VEHICLES Package",
+      "line_total": 9355.5
+    },
+    {
+      "psc": "",
+      "shortName": "LEASE/RENTAL OF AIR TRAFFIC CONTROL TRAINING FACILITIES",
+      "spendCategoryTitle": "Facilities Purchase & Lease",
+      "portfolioGroup": "Facility Related Services",
+      "description": "Standard LEASE/RENTAL OF AIR TRAFFIC CONTROL TRAINING FACILITIES System",
+      "line_total": 53.36
+    }
+  ],
+  "psc_breakdown": {
+    "Motor Vehicles": 9355.5,
+    "Facilities Purchase & Lease": 53.36
+  },
+  "portfolio_breakdown": {
+    "Equipment Related Services": 9355.5,
+    "Facility Related Services": 53.36
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-739612",
+    "date": "2025-01-07",
+    "vendor_name": "Rodriguez, Green and Stewart",
+    "total_amount": 9879.3
+  }
+}

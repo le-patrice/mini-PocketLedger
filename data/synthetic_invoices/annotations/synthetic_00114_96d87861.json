@@ -1,0 +1,163 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-945841",
+    "2024-07-23",
+    "Davis-Nelson",
+    "Industrial SAFETY AND RESCUE EQUIPMENT Package",
+    "14",
+    "$103.75",
+    "$1452.50",
+    "Premium INSPECTION- COMMUNICATION Assembly",
+    "10",
+    "$549.27",
+    "$5492.70",
+    "$6945.20",
+    "$694.52",
+    "$7639.72"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      115,
+      167
+    ],
+    [
+      55,
+      222,
+      334,
+      234
+    ],
+    [
+      449,
+      222,
+      461,
+      232
+    ],
+    [
+      556,
+      222,
+      596,
+      233
+    ],
+    [
+      647,
+      222,
+      693,
+      233
+    ],
+    [
+      55,
+      247,
+      321,
+      259
+    ],
+    [
+      449,
+      247,
+      461,
+      257
+    ],
+    [
+      556,
+      247,
+      596,
+      258
+    ],
+    [
+      647,
+      247,
+      693,
+      258
+    ],
+    [
+      654,
+      302,
+      700,
+      313
+    ],
+    [
+      660,
+      327,
+      700,
+      338
+    ],
+    [
+      641,
+      365,
+      700,
+      379
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Equipment Maintenance",
+  "document_portfolio": "Electronic & Communication Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "SAFETY AND RESCUE EQUIPMENT",
+      "spendCategoryTitle": "Fire/Rescue/Safety/Environmental Protection Equipment",
+      "portfolioGroup": "Facilities S&E",
+      "description": "Industrial SAFETY AND RESCUE EQUIPMENT Package",
+      "line_total": 1452.5
+    },
+    {
+      "psc": "",
+      "shortName": "INSPECTION- COMMUNICATION, DETECTION, AND COHERENT RADIATION EQUIPMENT",
+      "spendCategoryTitle": "Equipment Maintenance",
+      "portfolioGroup": "Electronic & Communication Services",
+      "description": "Premium INSPECTION- COMMUNICATION Assembly",
+      "line_total": 5492.7
+    }
+  ],
+  "psc_breakdown": {
+    "Fire/Rescue/Safety/Environmental Protection Equipment": 1452.5,
+    "Equipment Maintenance": 5492.7
+  },
+  "portfolio_breakdown": {
+    "Facilities S&E": 1452.5,
+    "Electronic & Communication Services": 5492.7
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-945841",
+    "date": "2024-07-23",
+    "vendor_name": "Davis-Nelson",
+    "total_amount": 7639.72
+  }
+}

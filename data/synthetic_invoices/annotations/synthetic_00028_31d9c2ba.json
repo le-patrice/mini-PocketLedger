@@ -1,0 +1,289 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-169520",
+    "2025-04-06",
+    "Luna-Young",
+    "Standard TRANSPORTATION/TRAVEL/RELOCATION- TRAVEL/LODGING/RECRUITMENT Kit",
+    "10",
+    "$75.00",
+    "$750.00",
+    "Standard COMBAT, ASSAULT, AND TACTICAL VEHICLES, WHEELED System",
+    "5",
+    "$821.23",
+    "$4106.15",
+    "Standard SUPPORT- MANAGEMENT: ACCOUNTING",
+    "6",
+    "$684.33",
+    "$4105.98",
+    "Industrial NIGHT VISION EQUIPMENT, EMITTED AND REFLECTED RADIATION Assembly",
+    "10",
+    "$645.93",
+    "$6459.30",
+    "Industrial DAIRY FOODS AND EGGS",
+    "2",
+    "$62.52",
+    "$125.04",
+    "$15546.47",
+    "$1243.72",
+    "$16790.19"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      119,
+      193
+    ],
+    [
+      65,
+      251,
+      335,
+      261
+    ],
+    [
+      479,
+      251,
+      491,
+      261
+    ],
+    [
+      599,
+      251,
+      633,
+      262
+    ],
+    [
+      695,
+      251,
+      735,
+      262
+    ],
+    [
+      65,
+      300,
+      413,
+      312
+    ],
+    [
+      482,
+      300,
+      488,
+      310
+    ],
+    [
+      593,
+      300,
+      633,
+      311
+    ],
+    [
+      689,
+      300,
+      735,
+      311
+    ],
+    [
+      65,
+      349,
+      329,
+      359
+    ],
+    [
+      482,
+      349,
+      488,
+      359
+    ],
+    [
+      593,
+      349,
+      633,
+      360
+    ],
+    [
+      689,
+      349,
+      735,
+      360
+    ],
+    [
+      65,
+      376,
+      403,
+      388
+    ],
+    [
+      479,
+      376,
+      491,
+      386
+    ],
+    [
+      593,
+      376,
+      633,
+      387
+    ],
+    [
+      689,
+      376,
+      735,
+      387
+    ],
+    [
+      65,
+      425,
+      249,
+      435
+    ],
+    [
+      482,
+      425,
+      488,
+      435
+    ],
+    [
+      599,
+      425,
+      633,
+      436
+    ],
+    [
+      695,
+      425,
+      735,
+      436
+    ],
+    [
+      688,
+      482,
+      740,
+      493
+    ],
+    [
+      694,
+      509,
+      740,
+      520
+    ],
+    [
+      674,
+      549,
+      740,
+      563
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Night Vision Eq",
+  "document_portfolio": "Electronic & Communication Equipment",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "TRANSPORTATION/TRAVEL/RELOCATION- TRAVEL/LODGING/RECRUITMENT: PASSENGER AIR CHARTER",
+      "spendCategoryTitle": "Passenger Travel",
+      "portfolioGroup": "Transportation Services",
+      "description": "Standard TRANSPORTATION/TRAVEL/RELOCATION- TRAVEL/LODGING/RECRUITMENT Kit",
+      "line_total": 750.0
+    },
+    {
+      "psc": "",
+      "shortName": "COMBAT, ASSAULT, AND TACTICAL VEHICLES, WHEELED",
+      "spendCategoryTitle": "Land Combat Vehicles",
+      "portfolioGroup": "Aircraft, Ships/Submarines & Land Vehicles",
+      "description": "Standard COMBAT, ASSAULT, AND TACTICAL VEHICLES, WHEELED System",
+      "line_total": 4106.15
+    },
+    {
+      "psc": "",
+      "shortName": "SUPPORT- MANAGEMENT: ACCOUNTING",
+      "spendCategoryTitle": "Business Administration Services",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "Standard SUPPORT- MANAGEMENT: ACCOUNTING",
+      "line_total": 4105.98
+    },
+    {
+      "psc": "",
+      "shortName": "NIGHT VISION EQUIPMENT, EMITTED AND REFLECTED RADIATION",
+      "spendCategoryTitle": "Night Vision Eq",
+      "portfolioGroup": "Electronic & Communication Equipment",
+      "description": "Industrial NIGHT VISION EQUIPMENT, EMITTED AND REFLECTED RADIATION Assembly",
+      "line_total": 6459.3
+    },
+    {
+      "psc": "",
+      "shortName": "DAIRY FOODS AND EGGS",
+      "spendCategoryTitle": "Subsistence",
+      "portfolioGroup": "Clothing, Textiles & Subsistence S&E",
+      "description": "Industrial DAIRY FOODS AND EGGS",
+      "line_total": 125.04
+    }
+  ],
+  "psc_breakdown": {
+    "Passenger Travel": 750.0,
+    "Land Combat Vehicles": 4106.15,
+    "Business Administration Services": 4105.98,
+    "Night Vision Eq": 6459.3,
+    "Subsistence": 125.04
+  },
+  "portfolio_breakdown": {
+    "Transportation Services": 750.0,
+    "Aircraft, Ships/Submarines & Land Vehicles": 4106.15,
+    "Knowledge Based Services": 4105.98,
+    "Electronic & Communication Equipment": 6459.3,
+    "Clothing, Textiles & Subsistence S&E": 125.04
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-169520",
+    "date": "2025-04-06",
+    "vendor_name": "Luna-Young",
+    "total_amount": 16790.19
+  }
+}

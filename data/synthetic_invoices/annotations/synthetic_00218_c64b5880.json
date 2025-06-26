@@ -1,0 +1,121 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-558997",
+    "2025-04-03",
+    "Gross, Baker and Lee",
+    "Professional IT Package",
+    "1",
+    "$506.82",
+    "$506.82",
+    "$506.82",
+    "$25.34",
+    "$532.16"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      157,
+      169
+    ],
+    [
+      55,
+      222,
+      174,
+      234
+    ],
+    [
+      452,
+      222,
+      458,
+      232
+    ],
+    [
+      556,
+      222,
+      596,
+      233
+    ],
+    [
+      653,
+      222,
+      693,
+      233
+    ],
+    [
+      660,
+      277,
+      700,
+      288
+    ],
+    [
+      666,
+      302,
+      700,
+      313
+    ],
+    [
+      649,
+      340,
+      700,
+      354
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Product",
+  "document_portfolio": "",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "IT AND TELECOM - NETWORK: SATELLITE AND RF COMMUNICATIONS PRODUCTS (HW, PERPETUAL LICENSE SOFTWARE)",
+      "spendCategoryTitle": "Product",
+      "portfolioGroup": "",
+      "description": "Professional IT Package",
+      "line_total": 506.82
+    }
+  ],
+  "psc_breakdown": {
+    "Product": 506.82
+  },
+  "portfolio_breakdown": {
+    "": 506.82
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-558997",
+    "date": "2025-04-03",
+    "vendor_name": "Gross, Baker and Lee",
+    "total_amount": 532.16
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-721876",
+    "2024-09-29",
+    "Combs, Wood and Thompson",
+    "Standard CUTTING TOOLS FOR MACHINE TOOLS Assembly",
+    "6",
+    "$470.63",
+    "$2823.78",
+    "Standard LEASE OR RENTAL OF EQUIPMENT- METAL BARS, SHEETS, AND SHAPES System",
+    "1",
+    "$517.56",
+    "$517.56",
+    "$3341.34",
+    "$167.07",
+    "$3508.41"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      206,
+      193
+    ],
+    [
+      65,
+      251,
+      372,
+      263
+    ],
+    [
+      482,
+      251,
+      488,
+      261
+    ],
+    [
+      593,
+      251,
+      633,
+      262
+    ],
+    [
+      689,
+      251,
+      735,
+      262
+    ],
+    [
+      65,
+      278,
+      428,
+      290
+    ],
+    [
+      482,
+      278,
+      488,
+      288
+    ],
+    [
+      593,
+      278,
+      633,
+      289
+    ],
+    [
+      695,
+      278,
+      735,
+      289
+    ],
+    [
+      694,
+      357,
+      740,
+      368
+    ],
+    [
+      700,
+      384,
+      740,
+      395
+    ],
+    [
+      682,
+      424,
+      740,
+      438
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Machinery & Components",
+  "document_portfolio": "Facilities S&E",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "CUTTING TOOLS FOR MACHINE TOOLS",
+      "spendCategoryTitle": "Machinery & Components",
+      "portfolioGroup": "Facilities S&E",
+      "description": "Standard CUTTING TOOLS FOR MACHINE TOOLS Assembly",
+      "line_total": 2823.78
+    },
+    {
+      "psc": "",
+      "shortName": "LEASE OR RENTAL OF EQUIPMENT- METAL BARS, SHEETS, AND SHAPES",
+      "spendCategoryTitle": "Basic Materials",
+      "portfolioGroup": "Equipment Related Services",
+      "description": "Standard LEASE OR RENTAL OF EQUIPMENT- METAL BARS, SHEETS, AND SHAPES System",
+      "line_total": 517.56
+    }
+  ],
+  "psc_breakdown": {
+    "Machinery & Components": 2823.78,
+    "Basic Materials": 517.56
+  },
+  "portfolio_breakdown": {
+    "Facilities S&E": 2823.78,
+    "Equipment Related Services": 517.56
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-721876",
+    "date": "2024-09-29",
+    "vendor_name": "Combs, Wood and Thompson",
+    "total_amount": 3508.41
+  }
+}

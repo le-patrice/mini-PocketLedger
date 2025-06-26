@@ -1,0 +1,289 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-373483",
+    "2024-12-01",
+    "Mack Ltd",
+    "SPECIAL STUDIES/ANALYSIS- MEDICAL/HEALTH Kit",
+    "11",
+    "$320.37",
+    "$3524.07",
+    "Standard ARMAMENT TRAINING DEVICES Package",
+    "8",
+    "$847.41",
+    "$6779.28",
+    "Standard IT AND TELECOM - DATA CENTER AS A SERVICE System",
+    "4",
+    "$254.39",
+    "$1017.56",
+    "Standard SEEDS AND NURSERY STOCK Assembly",
+    "7",
+    "$235.15",
+    "$1646.05",
+    "IMAGING EQUIPMENT AND SUPPLIES: MEDICAL, DENTAL, VETERINARY Package",
+    "12",
+    "$121.07",
+    "$1452.84",
+    "$14419.80",
+    "$1441.98",
+    "$15861.78"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      105,
+      191
+    ],
+    [
+      65,
+      251,
+      335,
+      261
+    ],
+    [
+      479,
+      251,
+      490,
+      261
+    ],
+    [
+      593,
+      251,
+      633,
+      262
+    ],
+    [
+      689,
+      251,
+      735,
+      262
+    ],
+    [
+      65,
+      278,
+      328,
+      290
+    ],
+    [
+      482,
+      278,
+      488,
+      288
+    ],
+    [
+      593,
+      278,
+      633,
+      289
+    ],
+    [
+      689,
+      278,
+      735,
+      289
+    ],
+    [
+      65,
+      305,
+      406,
+      317
+    ],
+    [
+      482,
+      305,
+      488,
+      315
+    ],
+    [
+      593,
+      305,
+      633,
+      316
+    ],
+    [
+      689,
+      305,
+      735,
+      316
+    ],
+    [
+      65,
+      332,
+      324,
+      344
+    ],
+    [
+      482,
+      332,
+      488,
+      342
+    ],
+    [
+      593,
+      332,
+      633,
+      343
+    ],
+    [
+      689,
+      332,
+      735,
+      343
+    ],
+    [
+      65,
+      359,
+      370,
+      371
+    ],
+    [
+      479,
+      359,
+      491,
+      369
+    ],
+    [
+      593,
+      359,
+      633,
+      370
+    ],
+    [
+      689,
+      359,
+      735,
+      370
+    ],
+    [
+      688,
+      438,
+      740,
+      449
+    ],
+    [
+      694,
+      465,
+      740,
+      476
+    ],
+    [
+      674,
+      505,
+      740,
+      519
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Training Aids and Devices",
+  "document_portfolio": "Sustainment S&E",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "SPECIAL STUDIES/ANALYSIS- MEDICAL/HEALTH",
+      "spendCategoryTitle": "Management Advisory Services",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "SPECIAL STUDIES/ANALYSIS- MEDICAL/HEALTH Kit",
+      "line_total": 3524.07
+    },
+    {
+      "psc": "",
+      "shortName": "ARMAMENT TRAINING DEVICES",
+      "spendCategoryTitle": "Training Aids and Devices",
+      "portfolioGroup": "Sustainment S&E",
+      "description": "Standard ARMAMENT TRAINING DEVICES Package",
+      "line_total": 6779.28
+    },
+    {
+      "psc": "",
+      "shortName": "IT AND TELECOM - DATA CENTER AS A SERVICE",
+      "spendCategoryTitle": "Capability As a Service",
+      "portfolioGroup": "",
+      "description": "Standard IT AND TELECOM - DATA CENTER AS A SERVICE System",
+      "line_total": 1017.56
+    },
+    {
+      "psc": "",
+      "shortName": "SEEDS AND NURSERY STOCK",
+      "spendCategoryTitle": "Security Animals & Related Svcs",
+      "portfolioGroup": "Facilities S&E",
+      "description": "Standard SEEDS AND NURSERY STOCK Assembly",
+      "line_total": 1646.05
+    },
+    {
+      "psc": "",
+      "shortName": "IMAGING EQUIPMENT AND SUPPLIES: MEDICAL, DENTAL, VETERINARY",
+      "spendCategoryTitle": "Medical Equipment and Accessories and Supplies",
+      "portfolioGroup": "Clothing, Textiles & Subsistence S&E",
+      "description": "IMAGING EQUIPMENT AND SUPPLIES: MEDICAL, DENTAL, VETERINARY Package",
+      "line_total": 1452.84
+    }
+  ],
+  "psc_breakdown": {
+    "Management Advisory Services": 3524.07,
+    "Training Aids and Devices": 6779.28,
+    "Capability As a Service": 1017.56,
+    "Security Animals & Related Svcs": 1646.05,
+    "Medical Equipment and Accessories and Supplies": 1452.84
+  },
+  "portfolio_breakdown": {
+    "Knowledge Based Services": 3524.07,
+    "Sustainment S&E": 6779.28,
+    "": 1017.56,
+    "Facilities S&E": 1646.05,
+    "Clothing, Textiles & Subsistence S&E": 1452.84
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-373483",
+    "date": "2024-12-01",
+    "vendor_name": "Mack Ltd",
+    "total_amount": 15861.78
+  }
+}

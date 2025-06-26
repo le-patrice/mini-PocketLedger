@@ -1,0 +1,288 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-409484",
+    "2025-02-17",
+    "Lee, Lopez and Miller",
+    "BEVERAGES, ALCOHOLIC",
+    "6",
+    "$689.43",
+    "$4136.58",
+    "Industrial KITCHEN HAND TOOLS AND UTENSILS",
+    "5",
+    "$131.26",
+    "$656.30",
+    "LEASE/RENTAL OF MISSILE SYSTEM FACILITIES",
+    "15",
+    "$33.02",
+    "$495.30",
+    "Professional HEMATOLOGY & ONCOLOGY System",
+    "11",
+    "$533.28",
+    "$5866.08",
+    "Professional SADDLERY, HARNESS, WHIPS, AND RELATED ANIMAL FURNISHINGS System",
+    "8",
+    "$598.06",
+    "$4784.48",
+    "$15938.74",
+    "$1992.34",
+    "$17931.08"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      156,
+      169
+    ],
+    [
+      55,
+      222,
+      192,
+      234
+    ],
+    [
+      452,
+      222,
+      458,
+      232
+    ],
+    [
+      556,
+      222,
+      596,
+      233
+    ],
+    [
+      647,
+      222,
+      693,
+      233
+    ],
+    [
+      55,
+      247,
+      308,
+      257
+    ],
+    [
+      452,
+      247,
+      458,
+      257
+    ],
+    [
+      556,
+      247,
+      596,
+      258
+    ],
+    [
+      653,
+      247,
+      693,
+      258
+    ],
+    [
+      55,
+      272,
+      310,
+      282
+    ],
+    [
+      449,
+      272,
+      461,
+      282
+    ],
+    [
+      562,
+      272,
+      596,
+      283
+    ],
+    [
+      653,
+      272,
+      693,
+      283
+    ],
+    [
+      55,
+      297,
+      312,
+      309
+    ],
+    [
+      450,
+      297,
+      461,
+      307
+    ],
+    [
+      556,
+      297,
+      596,
+      308
+    ],
+    [
+      647,
+      297,
+      693,
+      308
+    ],
+    [
+      55,
+      322,
+      360,
+      334
+    ],
+    [
+      452,
+      322,
+      458,
+      332
+    ],
+    [
+      556,
+      322,
+      596,
+      333
+    ],
+    [
+      647,
+      322,
+      693,
+      333
+    ],
+    [
+      648,
+      397,
+      700,
+      408
+    ],
+    [
+      654,
+      422,
+      700,
+      433
+    ],
+    [
+      634,
+      460,
+      700,
+      474
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Healthcare Services",
+  "document_portfolio": "Medical Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "BEVERAGES, ALCOHOLIC",
+      "spendCategoryTitle": "Subsistence",
+      "portfolioGroup": "Clothing, Textiles & Subsistence S&E",
+      "description": "BEVERAGES, ALCOHOLIC",
+      "line_total": 4136.58
+    },
+    {
+      "psc": "",
+      "shortName": "KITCHEN HAND TOOLS AND UTENSILS",
+      "spendCategoryTitle": "Office Management Products",
+      "portfolioGroup": "Facilities S&E",
+      "description": "Industrial KITCHEN HAND TOOLS AND UTENSILS",
+      "line_total": 656.3
+    },
+    {
+      "psc": "",
+      "shortName": "LEASE/RENTAL OF MISSILE SYSTEM FACILITIES",
+      "spendCategoryTitle": "Facilities Purchase & Lease",
+      "portfolioGroup": "Facility Related Services",
+      "description": "LEASE/RENTAL OF MISSILE SYSTEM FACILITIES",
+      "line_total": 495.3
+    },
+    {
+      "psc": "",
+      "shortName": "HEMATOLOGY & ONCOLOGY",
+      "spendCategoryTitle": "Healthcare Services",
+      "portfolioGroup": "Medical Services",
+      "description": "Professional HEMATOLOGY & ONCOLOGY System",
+      "line_total": 5866.08
+    },
+    {
+      "psc": "",
+      "shortName": "SADDLERY, HARNESS, WHIPS, AND RELATED ANIMAL FURNISHINGS",
+      "spendCategoryTitle": "Security Animals & Related Svcs",
+      "portfolioGroup": "Facilities S&E",
+      "description": "Professional SADDLERY, HARNESS, WHIPS, AND RELATED ANIMAL FURNISHINGS System",
+      "line_total": 4784.48
+    }
+  ],
+  "psc_breakdown": {
+    "Subsistence": 4136.58,
+    "Office Management Products": 656.3,
+    "Facilities Purchase & Lease": 495.3,
+    "Healthcare Services": 5866.08,
+    "Security Animals & Related Svcs": 4784.48
+  },
+  "portfolio_breakdown": {
+    "Clothing, Textiles & Subsistence S&E": 4136.58,
+    "Facilities S&E": 5440.78,
+    "Facility Related Services": 495.3,
+    "Medical Services": 5866.08
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-409484",
+    "date": "2025-02-17",
+    "vendor_name": "Lee, Lopez and Miller",
+    "total_amount": 17931.08
+  }
+}

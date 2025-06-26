@@ -1,0 +1,204 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-237585",
+    "2024-10-22",
+    "Lee Inc",
+    "SUPPORT- MANAGEMENT: DEBT COLLECTION Assembly",
+    "9",
+    "$382.72",
+    "$3444.48",
+    "Standard OSCILLATORS AND PIEZOELECTRIC CRYSTALS Package",
+    "3",
+    "$422.60",
+    "$1267.80",
+    "Standard EDUCATION/TRAINING- GENERAL Assembly",
+    "3",
+    "$428.45",
+    "$1285.35",
+    "$5997.63",
+    "$599.76",
+    "$6597.39"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      97,
+      191
+    ],
+    [
+      65,
+      251,
+      361,
+      263
+    ],
+    [
+      482,
+      251,
+      488,
+      261
+    ],
+    [
+      593,
+      251,
+      633,
+      262
+    ],
+    [
+      689,
+      251,
+      735,
+      262
+    ],
+    [
+      65,
+      278,
+      411,
+      290
+    ],
+    [
+      482,
+      278,
+      488,
+      288
+    ],
+    [
+      593,
+      278,
+      633,
+      289
+    ],
+    [
+      689,
+      278,
+      735,
+      289
+    ],
+    [
+      65,
+      305,
+      342,
+      317
+    ],
+    [
+      482,
+      305,
+      488,
+      315
+    ],
+    [
+      593,
+      305,
+      633,
+      316
+    ],
+    [
+      689,
+      305,
+      735,
+      316
+    ],
+    [
+      694,
+      362,
+      740,
+      373
+    ],
+    [
+      700,
+      389,
+      740,
+      400
+    ],
+    [
+      681,
+      429,
+      740,
+      443
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Legal Services",
+  "document_portfolio": "Knowledge Based Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "SUPPORT- MANAGEMENT: DEBT COLLECTION",
+      "spendCategoryTitle": "Legal Services",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "SUPPORT- MANAGEMENT: DEBT COLLECTION Assembly",
+      "line_total": 3444.48
+    },
+    {
+      "psc": "",
+      "shortName": "OSCILLATORS AND PIEZOELECTRIC CRYSTALS",
+      "spendCategoryTitle": "Electrical & Electronics Equipment",
+      "portfolioGroup": "Electronic & Communication Equipment",
+      "description": "Standard OSCILLATORS AND PIEZOELECTRIC CRYSTALS Package",
+      "line_total": 1267.8
+    },
+    {
+      "psc": "",
+      "shortName": "EDUCATION/TRAINING- GENERAL",
+      "spendCategoryTitle": "Specialized educational services",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "Standard EDUCATION/TRAINING- GENERAL Assembly",
+      "line_total": 1285.35
+    }
+  ],
+  "psc_breakdown": {
+    "Legal Services": 3444.48,
+    "Electrical & Electronics Equipment": 1267.8,
+    "Specialized educational services": 1285.35
+  },
+  "portfolio_breakdown": {
+    "Knowledge Based Services": 4729.83,
+    "Electronic & Communication Equipment": 1267.8
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-237585",
+    "date": "2024-10-22",
+    "vendor_name": "Lee Inc",
+    "total_amount": 6597.39
+  }
+}

@@ -1,0 +1,289 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-638742",
+    "2025-02-11",
+    "Little-Vargas",
+    "Premium PLYWOOD AND VENEER System",
+    "6",
+    "$524.46",
+    "$3146.76",
+    "Professional WEAPONS SYSTEMS SPECIFIC VEHICULAR ACCESSORIES System",
+    "8",
+    "$811.74",
+    "$6493.92",
+    "Standard GENERAL SCIENCE Kit",
+    "4",
+    "$766.72",
+    "$3066.88",
+    "Industrial IT Package",
+    "11",
+    "$836.40",
+    "$9200.40",
+    "Premium OPERATION OF OTHER AIRFIELD STRUCTURES Kit",
+    "10",
+    "$755.11",
+    "$7551.10",
+    "$29459.06",
+    "$1472.95",
+    "$30932.01"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      121,
+      193
+    ],
+    [
+      65,
+      251,
+      281,
+      263
+    ],
+    [
+      482,
+      251,
+      488,
+      261
+    ],
+    [
+      593,
+      251,
+      633,
+      262
+    ],
+    [
+      689,
+      251,
+      735,
+      262
+    ],
+    [
+      65,
+      278,
+      360,
+      288
+    ],
+    [
+      482,
+      278,
+      488,
+      288
+    ],
+    [
+      594,
+      278,
+      633,
+      289
+    ],
+    [
+      689,
+      278,
+      735,
+      289
+    ],
+    [
+      65,
+      327,
+      233,
+      337
+    ],
+    [
+      482,
+      327,
+      488,
+      337
+    ],
+    [
+      593,
+      327,
+      633,
+      338
+    ],
+    [
+      689,
+      327,
+      735,
+      338
+    ],
+    [
+      65,
+      354,
+      168,
+      366
+    ],
+    [
+      479,
+      354,
+      490,
+      364
+    ],
+    [
+      593,
+      354,
+      633,
+      365
+    ],
+    [
+      689,
+      354,
+      735,
+      365
+    ],
+    [
+      65,
+      381,
+      382,
+      391
+    ],
+    [
+      479,
+      381,
+      491,
+      391
+    ],
+    [
+      594,
+      381,
+      633,
+      392
+    ],
+    [
+      689,
+      381,
+      735,
+      392
+    ],
+    [
+      688,
+      438,
+      740,
+      449
+    ],
+    [
+      694,
+      465,
+      740,
+      476
+    ],
+    [
+      674,
+      505,
+      740,
+      519
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "IT Professional Service (Labor)",
+  "document_portfolio": "",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "PLYWOOD AND VENEER",
+      "spendCategoryTitle": "Construction Related Materials",
+      "portfolioGroup": "Facilities S&E",
+      "description": "Premium PLYWOOD AND VENEER System",
+      "line_total": 3146.76
+    },
+    {
+      "psc": "",
+      "shortName": "WEAPONS SYSTEMS SPECIFIC VEHICULAR ACCESSORIES",
+      "spendCategoryTitle": "Engines, Components & Spt Eq",
+      "portfolioGroup": "Sustainment S&E",
+      "description": "Professional WEAPONS SYSTEMS SPECIFIC VEHICULAR ACCESSORIES System",
+      "line_total": 6493.92
+    },
+    {
+      "psc": "",
+      "shortName": "GENERAL SCIENCE AND TECHNOLOGY R&D SERVICES; GENERAL SCIENCE AND TECHNOLOGY; BASIC RESEARCH",
+      "spendCategoryTitle": "",
+      "portfolioGroup": "Research and Development",
+      "description": "Standard GENERAL SCIENCE Kit",
+      "line_total": 3066.88
+    },
+    {
+      "psc": "",
+      "shortName": "IT AND TELECOM - SERVICE DELIVERY SUPPORT SERVICES: ITSM, OPERATIONS CENTER, PROJECT/PM (LABOR)",
+      "spendCategoryTitle": "IT Professional Service (Labor)",
+      "portfolioGroup": "",
+      "description": "Industrial IT Package",
+      "line_total": 9200.4
+    },
+    {
+      "psc": "",
+      "shortName": "OPERATION OF OTHER AIRFIELD STRUCTURES",
+      "spendCategoryTitle": "Facility Related Services",
+      "portfolioGroup": "Facility Related Services",
+      "description": "Premium OPERATION OF OTHER AIRFIELD STRUCTURES Kit",
+      "line_total": 7551.1
+    }
+  ],
+  "psc_breakdown": {
+    "Construction Related Materials": 3146.76,
+    "Engines, Components & Spt Eq": 6493.92,
+    "": 3066.88,
+    "IT Professional Service (Labor)": 9200.4,
+    "Facility Related Services": 7551.1
+  },
+  "portfolio_breakdown": {
+    "Facilities S&E": 3146.76,
+    "Sustainment S&E": 6493.92,
+    "Research and Development": 3066.88,
+    "": 9200.4,
+    "Facility Related Services": 7551.1
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-638742",
+    "date": "2025-02-11",
+    "vendor_name": "Little-Vargas",
+    "total_amount": 30932.01
+  }
+}

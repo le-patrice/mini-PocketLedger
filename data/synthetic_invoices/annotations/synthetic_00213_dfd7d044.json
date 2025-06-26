@@ -1,0 +1,245 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-697735",
+    "2024-09-26",
+    "Powell, Reyes and Larsen",
+    "INSTALLATION OF EQUIPMENT- GROUND EFFECT VEHICLES",
+    "10",
+    "$136.71",
+    "$1367.10",
+    "Professional QUALITY CONTROL- GROUND EFFECT VEHICLES",
+    "6",
+    "$217.61",
+    "$1305.66",
+    "Premium LIVE ANIMALS, NOT RAISED FOR FOOD Package",
+    "5",
+    "$370.73",
+    "$1853.65",
+    "Standard LIQUID PROPELLANTS AND FUELS, PETROLEUM BASE System",
+    "2",
+    "$349.96",
+    "$699.92",
+    "$5226.33",
+    "$653.29",
+    "$5879.62"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      178,
+      169
+    ],
+    [
+      55,
+      222,
+      377,
+      233
+    ],
+    [
+      449,
+      222,
+      461,
+      232
+    ],
+    [
+      556,
+      222,
+      596,
+      233
+    ],
+    [
+      647,
+      222,
+      693,
+      233
+    ],
+    [
+      55,
+      247,
+      381,
+      258
+    ],
+    [
+      452,
+      247,
+      458,
+      257
+    ],
+    [
+      556,
+      247,
+      596,
+      258
+    ],
+    [
+      647,
+      247,
+      693,
+      258
+    ],
+    [
+      55,
+      272,
+      357,
+      284
+    ],
+    [
+      452,
+      272,
+      458,
+      282
+    ],
+    [
+      556,
+      272,
+      596,
+      283
+    ],
+    [
+      647,
+      272,
+      693,
+      283
+    ],
+    [
+      55,
+      297,
+      394,
+      309
+    ],
+    [
+      452,
+      297,
+      458,
+      307
+    ],
+    [
+      556,
+      297,
+      596,
+      308
+    ],
+    [
+      653,
+      297,
+      693,
+      308
+    ],
+    [
+      654,
+      372,
+      700,
+      383
+    ],
+    [
+      660,
+      397,
+      700,
+      408
+    ],
+    [
+      641,
+      435,
+      700,
+      449
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Motor Vehicles",
+  "document_portfolio": "Equipment Related Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "INSTALLATION OF EQUIPMENT- GROUND EFFECT VEHICLES, MOTOR VEHICLES, TRAILERS, AND CYCLES",
+      "spendCategoryTitle": "Motor Vehicles",
+      "portfolioGroup": "Equipment Related Services",
+      "description": "INSTALLATION OF EQUIPMENT- GROUND EFFECT VEHICLES",
+      "line_total": 1367.1
+    },
+    {
+      "psc": "",
+      "shortName": "QUALITY CONTROL- GROUND EFFECT VEHICLES, MOTOR VEHICLES, TRAILERS, AND CYCLES",
+      "spendCategoryTitle": "Motor Vehicles",
+      "portfolioGroup": "Equipment Related Services",
+      "description": "Professional QUALITY CONTROL- GROUND EFFECT VEHICLES",
+      "line_total": 1305.66
+    },
+    {
+      "psc": "",
+      "shortName": "LIVE ANIMALS, NOT RAISED FOR FOOD",
+      "spendCategoryTitle": "Security Animals & Related Svcs",
+      "portfolioGroup": "Facilities S&E",
+      "description": "Premium LIVE ANIMALS, NOT RAISED FOR FOOD Package",
+      "line_total": 1853.65
+    },
+    {
+      "psc": "",
+      "shortName": "LIQUID PROPELLANTS AND FUELS, PETROLEUM BASE",
+      "spendCategoryTitle": "Fuels",
+      "portfolioGroup": "Sustainment S&E",
+      "description": "Standard LIQUID PROPELLANTS AND FUELS, PETROLEUM BASE System",
+      "line_total": 699.92
+    }
+  ],
+  "psc_breakdown": {
+    "Motor Vehicles": 2672.76,
+    "Security Animals & Related Svcs": 1853.65,
+    "Fuels": 699.92
+  },
+  "portfolio_breakdown": {
+    "Equipment Related Services": 2672.76,
+    "Facilities S&E": 1853.65,
+    "Sustainment S&E": 699.92
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-697735",
+    "date": "2024-09-26",
+    "vendor_name": "Powell, Reyes and Larsen",
+    "total_amount": 5879.62
+  }
+}

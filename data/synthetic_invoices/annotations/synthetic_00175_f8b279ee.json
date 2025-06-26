@@ -1,0 +1,163 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-576741",
+    "2024-07-05",
+    "Jensen-Dixon",
+    "Professional EDUCATION/TRAINING- SECURITY Assembly",
+    "10",
+    "$64.15",
+    "$641.50",
+    "BARGES AND LIGHTERS, SPECIAL PURPOSE",
+    "8",
+    "$321.97",
+    "$2575.76",
+    "$3217.26",
+    "$160.86",
+    "$3378.12"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      117,
+      167
+    ],
+    [
+      55,
+      222,
+      351,
+      234
+    ],
+    [
+      449,
+      222,
+      461,
+      232
+    ],
+    [
+      562,
+      222,
+      596,
+      233
+    ],
+    [
+      653,
+      222,
+      693,
+      233
+    ],
+    [
+      55,
+      247,
+      294,
+      259
+    ],
+    [
+      452,
+      247,
+      458,
+      257
+    ],
+    [
+      556,
+      247,
+      596,
+      258
+    ],
+    [
+      647,
+      247,
+      693,
+      258
+    ],
+    [
+      654,
+      302,
+      700,
+      313
+    ],
+    [
+      660,
+      327,
+      700,
+      338
+    ],
+    [
+      641,
+      365,
+      700,
+      379
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Support Ships & Small Craft",
+  "document_portfolio": "Sustainment S&E",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "EDUCATION/TRAINING- SECURITY",
+      "spendCategoryTitle": "Specialized educational services",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "Professional EDUCATION/TRAINING- SECURITY Assembly",
+      "line_total": 641.5
+    },
+    {
+      "psc": "",
+      "shortName": "BARGES AND LIGHTERS, SPECIAL PURPOSE",
+      "spendCategoryTitle": "Support Ships & Small Craft",
+      "portfolioGroup": "Sustainment S&E",
+      "description": "BARGES AND LIGHTERS, SPECIAL PURPOSE",
+      "line_total": 2575.76
+    }
+  ],
+  "psc_breakdown": {
+    "Specialized educational services": 641.5,
+    "Support Ships & Small Craft": 2575.76
+  },
+  "portfolio_breakdown": {
+    "Knowledge Based Services": 641.5,
+    "Sustainment S&E": 2575.76
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-576741",
+    "date": "2024-07-05",
+    "vendor_name": "Jensen-Dixon",
+    "total_amount": 3378.12
+  }
+}

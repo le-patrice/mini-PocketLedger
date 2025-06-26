@@ -1,0 +1,246 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-974382",
+    "2024-11-29",
+    "Lee-Robinson",
+    "Standard MISCELLANEOUS OFFICE MACHINES System",
+    "15",
+    "$95.11",
+    "$1426.65",
+    "Standard MISCELLANEOUS PREFABRICATED STRUCTURES Assembly",
+    "8",
+    "$163.82",
+    "$1310.56",
+    "Industrial SUPPORT – ADMINISTRATIVE: ELECTRONIC RECORDS MANAGEMENT SERV Package",
+    "15",
+    "$226.26",
+    "$3393.90",
+    "Industrial GUIDED MISSILE HANDLING AND SERVICING EQUIPMENT Package",
+    "1",
+    "$321.07",
+    "$321.07",
+    "$6452.18",
+    "$645.22",
+    "$7097.40"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      129,
+      191
+    ],
+    [
+      65,
+      251,
+      351,
+      263
+    ],
+    [
+      479,
+      251,
+      491,
+      261
+    ],
+    [
+      600,
+      251,
+      633,
+      262
+    ],
+    [
+      689,
+      251,
+      735,
+      262
+    ],
+    [
+      65,
+      278,
+      429,
+      290
+    ],
+    [
+      482,
+      278,
+      488,
+      288
+    ],
+    [
+      593,
+      278,
+      633,
+      289
+    ],
+    [
+      689,
+      278,
+      735,
+      289
+    ],
+    [
+      65,
+      305,
+      404,
+      315
+    ],
+    [
+      479,
+      305,
+      491,
+      315
+    ],
+    [
+      593,
+      305,
+      633,
+      316
+    ],
+    [
+      689,
+      305,
+      735,
+      316
+    ],
+    [
+      65,
+      354,
+      420,
+      365
+    ],
+    [
+      482,
+      354,
+      488,
+      364
+    ],
+    [
+      593,
+      354,
+      633,
+      365
+    ],
+    [
+      695,
+      354,
+      735,
+      365
+    ],
+    [
+      694,
+      433,
+      740,
+      444
+    ],
+    [
+      700,
+      460,
+      740,
+      471
+    ],
+    [
+      681,
+      500,
+      740,
+      514
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Office Management Services",
+  "document_portfolio": "",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "MISCELLANEOUS OFFICE MACHINES",
+      "spendCategoryTitle": "Office Management Products",
+      "portfolioGroup": "Facilities S&E",
+      "description": "Standard MISCELLANEOUS OFFICE MACHINES System",
+      "line_total": 1426.65
+    },
+    {
+      "psc": "",
+      "shortName": "MISCELLANEOUS PREFABRICATED STRUCTURES",
+      "spendCategoryTitle": "Construction Related Materials",
+      "portfolioGroup": "Facilities S&E",
+      "description": "Standard MISCELLANEOUS PREFABRICATED STRUCTURES Assembly",
+      "line_total": 1310.56
+    },
+    {
+      "psc": "",
+      "shortName": "SUPPORT – ADMINISTRATIVE: ELECTRONIC RECORDS MANAGEMENT SERVICES",
+      "spendCategoryTitle": "Office Management Services",
+      "portfolioGroup": "",
+      "description": "Industrial SUPPORT – ADMINISTRATIVE: ELECTRONIC RECORDS MANAGEMENT SERV Package",
+      "line_total": 3393.9
+    },
+    {
+      "psc": "",
+      "shortName": "GUIDED MISSILE HANDLING AND SERVICING EQUIPMENT",
+      "spendCategoryTitle": "Guided Missiles",
+      "portfolioGroup": "Weapons & Ammunition",
+      "description": "Industrial GUIDED MISSILE HANDLING AND SERVICING EQUIPMENT Package",
+      "line_total": 321.07
+    }
+  ],
+  "psc_breakdown": {
+    "Office Management Products": 1426.65,
+    "Construction Related Materials": 1310.56,
+    "Office Management Services": 3393.9,
+    "Guided Missiles": 321.07
+  },
+  "portfolio_breakdown": {
+    "Facilities S&E": 2737.21,
+    "": 3393.9,
+    "Weapons & Ammunition": 321.07
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-974382",
+    "date": "2024-11-29",
+    "vendor_name": "Lee-Robinson",
+    "total_amount": 7097.4
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-544946",
+    "2025-05-27",
+    "Singh-Wood",
+    "Professional CAMERAS, STILL PICTURE Package",
+    "14",
+    "$403.73",
+    "$5652.22",
+    "Standard STORAGE TANKS Kit",
+    "10",
+    "$282.64",
+    "$2826.40",
+    "MEDICAL TRANSCRIPTIONS Kit",
+    "14",
+    "$806.42",
+    "$11289.88",
+    "$19768.50",
+    "$988.43",
+    "$20756.93"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      110,
+      169
+    ],
+    [
+      55,
+      222,
+      305,
+      234
+    ],
+    [
+      449,
+      222,
+      461,
+      232
+    ],
+    [
+      556,
+      222,
+      596,
+      233
+    ],
+    [
+      647,
+      222,
+      693,
+      233
+    ],
+    [
+      55,
+      247,
+      211,
+      257
+    ],
+    [
+      449,
+      247,
+      461,
+      257
+    ],
+    [
+      556,
+      247,
+      596,
+      258
+    ],
+    [
+      647,
+      247,
+      693,
+      258
+    ],
+    [
+      55,
+      272,
+      219,
+      282
+    ],
+    [
+      449,
+      272,
+      461,
+      282
+    ],
+    [
+      556,
+      272,
+      596,
+      283
+    ],
+    [
+      642,
+      272,
+      693,
+      283
+    ],
+    [
+      648,
+      327,
+      700,
+      338
+    ],
+    [
+      660,
+      352,
+      700,
+      363
+    ],
+    [
+      634,
+      390,
+      700,
+      404
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Healthcare Services",
+  "document_portfolio": "",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "CAMERAS, STILL PICTURE",
+      "spendCategoryTitle": "Security Systems",
+      "portfolioGroup": "Facilities S&E",
+      "description": "Professional CAMERAS, STILL PICTURE Package",
+      "line_total": 5652.22
+    },
+    {
+      "psc": "",
+      "shortName": "STORAGE TANKS",
+      "spendCategoryTitle": "Construction Related Materials",
+      "portfolioGroup": "Facilities S&E",
+      "description": "Standard STORAGE TANKS Kit",
+      "line_total": 2826.4
+    },
+    {
+      "psc": "",
+      "shortName": "MEDICAL TRANSCRIPTIONS",
+      "spendCategoryTitle": "Healthcare Services",
+      "portfolioGroup": "",
+      "description": "MEDICAL TRANSCRIPTIONS Kit",
+      "line_total": 11289.88
+    }
+  ],
+  "psc_breakdown": {
+    "Security Systems": 5652.22,
+    "Construction Related Materials": 2826.4,
+    "Healthcare Services": 11289.88
+  },
+  "portfolio_breakdown": {
+    "Facilities S&E": 8478.62,
+    "": 11289.88
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-544946",
+    "date": "2025-05-27",
+    "vendor_name": "Singh-Wood",
+    "total_amount": 20756.93
+  }
+}

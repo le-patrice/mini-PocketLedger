@@ -1,0 +1,246 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-975549",
+    "2024-08-11",
+    "Washington Inc",
+    "Standard LEASE OR RENTAL OF EQUIPMENT- SHIP AND MARINE EQUIPMENT System",
+    "5",
+    "$316.87",
+    "$1584.35",
+    "Industrial LEASE OR RENTAL OF EQUIPMENT- ENGINES Package",
+    "4",
+    "$507.67",
+    "$2030.68",
+    "Industrial KITCHEN EQUIPMENT AND APPLIANCES Assembly",
+    "12",
+    "$458.25",
+    "$5499.00",
+    "Industrial GUNS, OVER 30MM UP TO 75MM Kit",
+    "9",
+    "$622.80",
+    "$5605.20",
+    "$14719.23",
+    "$1471.92",
+    "$16191.15"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      136,
+      193
+    ],
+    [
+      65,
+      251,
+      403,
+      262
+    ],
+    [
+      482,
+      251,
+      488,
+      261
+    ],
+    [
+      593,
+      251,
+      633,
+      262
+    ],
+    [
+      689,
+      251,
+      735,
+      262
+    ],
+    [
+      65,
+      300,
+      401,
+      312
+    ],
+    [
+      482,
+      300,
+      488,
+      310
+    ],
+    [
+      593,
+      300,
+      633,
+      311
+    ],
+    [
+      689,
+      300,
+      735,
+      311
+    ],
+    [
+      65,
+      327,
+      377,
+      339
+    ],
+    [
+      479,
+      327,
+      491,
+      337
+    ],
+    [
+      593,
+      327,
+      633,
+      338
+    ],
+    [
+      689,
+      327,
+      735,
+      338
+    ],
+    [
+      65,
+      354,
+      301,
+      366
+    ],
+    [
+      482,
+      354,
+      488,
+      364
+    ],
+    [
+      593,
+      354,
+      633,
+      365
+    ],
+    [
+      689,
+      354,
+      735,
+      365
+    ],
+    [
+      688,
+      411,
+      740,
+      422
+    ],
+    [
+      694,
+      438,
+      740,
+      449
+    ],
+    [
+      674,
+      478,
+      740,
+      492
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Guns",
+  "document_portfolio": "Weapons & Ammunition",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "LEASE OR RENTAL OF EQUIPMENT- SHIP AND MARINE EQUIPMENT",
+      "spendCategoryTitle": "Purchases & Leases",
+      "portfolioGroup": "Equipment Related Services",
+      "description": "Standard LEASE OR RENTAL OF EQUIPMENT- SHIP AND MARINE EQUIPMENT System",
+      "line_total": 1584.35
+    },
+    {
+      "psc": "",
+      "shortName": "LEASE OR RENTAL OF EQUIPMENT- ENGINES, TURBINES, AND COMPONENTS",
+      "spendCategoryTitle": "Transportation Equipment",
+      "portfolioGroup": "Equipment Related Services",
+      "description": "Industrial LEASE OR RENTAL OF EQUIPMENT- ENGINES Package",
+      "line_total": 2030.68
+    },
+    {
+      "psc": "",
+      "shortName": "KITCHEN EQUIPMENT AND APPLIANCES",
+      "spendCategoryTitle": "Office Management Products",
+      "portfolioGroup": "Facilities S&E",
+      "description": "Industrial KITCHEN EQUIPMENT AND APPLIANCES Assembly",
+      "line_total": 5499.0
+    },
+    {
+      "psc": "",
+      "shortName": "GUNS, OVER 30MM UP TO 75MM",
+      "spendCategoryTitle": "Guns",
+      "portfolioGroup": "Weapons & Ammunition",
+      "description": "Industrial GUNS, OVER 30MM UP TO 75MM Kit",
+      "line_total": 5605.2
+    }
+  ],
+  "psc_breakdown": {
+    "Purchases & Leases": 1584.35,
+    "Transportation Equipment": 2030.68,
+    "Office Management Products": 5499.0,
+    "Guns": 5605.2
+  },
+  "portfolio_breakdown": {
+    "Equipment Related Services": 3615.0299999999997,
+    "Facilities S&E": 5499.0,
+    "Weapons & Ammunition": 5605.2
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-975549",
+    "date": "2024-08-11",
+    "vendor_name": "Washington Inc",
+    "total_amount": 16191.15
+  }
+}

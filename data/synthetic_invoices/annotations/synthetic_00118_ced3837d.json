@@ -1,0 +1,121 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-863840",
+    "2024-08-19",
+    "Gomez-Lara",
+    "Industrial SUPPORT- PROFESSIONAL: REAL ESTATE BROKERAGE Package",
+    "6",
+    "$400.33",
+    "$2401.98",
+    "$2401.98",
+    "$240.20",
+    "$2642.18"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      111,
+      167
+    ],
+    [
+      55,
+      222,
+      399,
+      232
+    ],
+    [
+      452,
+      222,
+      458,
+      232
+    ],
+    [
+      556,
+      222,
+      596,
+      233
+    ],
+    [
+      647,
+      222,
+      693,
+      233
+    ],
+    [
+      654,
+      297,
+      700,
+      308
+    ],
+    [
+      660,
+      322,
+      700,
+      333
+    ],
+    [
+      641,
+      360,
+      700,
+      374
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Real Estate Services",
+  "document_portfolio": "Knowledge Based Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "SUPPORT- PROFESSIONAL: REAL ESTATE BROKERAGE",
+      "spendCategoryTitle": "Real Estate Services",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "Industrial SUPPORT- PROFESSIONAL: REAL ESTATE BROKERAGE Package",
+      "line_total": 2401.98
+    }
+  ],
+  "psc_breakdown": {
+    "Real Estate Services": 2401.98
+  },
+  "portfolio_breakdown": {
+    "Knowledge Based Services": 2401.98
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-863840",
+    "date": "2024-08-19",
+    "vendor_name": "Gomez-Lara",
+    "total_amount": 2642.18
+  }
+}

@@ -1,0 +1,3619 @@
+{
+  "dataset_info": {
+    "name": "Synthetic Invoice Dataset with PSC Classification",
+    "version": "1.0",
+    "generated_date": "2025-06-22T18:26:10.270426",
+    "total_samples": 500,
+    "format": "LayoutLMv2 compatible"
+  },
+  "samples": [
+    {
+      "image_path": "images/synthetic_00102_f66718b7.png",
+      "annotation_path": "annotations/synthetic_00102_f66718b7.json",
+      "document_psc": "",
+      "document_category": "Aircraft",
+      "document_portfolio": "Aircraft, Ships/Submarines & Land Vehicles"
+    },
+    {
+      "image_path": "images/synthetic_00031_e56964b5.png",
+      "annotation_path": "annotations/synthetic_00031_e56964b5.json",
+      "document_psc": "",
+      "document_category": "Maintenance, Repair and Overhaul",
+      "document_portfolio": "Equipment Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00245_72789760.png",
+      "annotation_path": "annotations/synthetic_00245_72789760.json",
+      "document_psc": "",
+      "document_category": "Construction Related Materials",
+      "document_portfolio": "Facilities S&E"
+    },
+    {
+      "image_path": "images/synthetic_00237_20e4c96e.png",
+      "annotation_path": "annotations/synthetic_00237_20e4c96e.json",
+      "document_psc": "",
+      "document_category": "Communication Equipment",
+      "document_portfolio": "Electronic & Communication Equipment"
+    },
+    {
+      "image_path": "images/synthetic_00488_4664ddd2.png",
+      "annotation_path": "annotations/synthetic_00488_4664ddd2.json",
+      "document_psc": "",
+      "document_category": "Legal services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00309_849c406d.png",
+      "annotation_path": "annotations/synthetic_00309_849c406d.json",
+      "document_psc": "",
+      "document_category": "Detection & Coherent Radiation Eq",
+      "document_portfolio": "Electronic & Communication Equipment"
+    },
+    {
+      "image_path": "images/synthetic_00108_1a7b4cdc.png",
+      "annotation_path": "annotations/synthetic_00108_1a7b4cdc.json",
+      "document_psc": "",
+      "document_category": "Training Aids and Devices",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00352_86e73d18.png",
+      "annotation_path": "annotations/synthetic_00352_86e73d18.json",
+      "document_psc": "",
+      "document_category": "Test & Measurement Supplies",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00099_566d303c.png",
+      "annotation_path": "annotations/synthetic_00099_566d303c.json",
+      "document_psc": "",
+      "document_category": "Night Vision Eq",
+      "document_portfolio": "Electronic & Communication Equipment"
+    },
+    {
+      "image_path": "images/synthetic_00183_d65223e1.png",
+      "annotation_path": "annotations/synthetic_00183_d65223e1.json",
+      "document_psc": "",
+      "document_category": "Guided Missiles",
+      "document_portfolio": "Weapons & Ammunition"
+    },
+    {
+      "image_path": "images/synthetic_00440_c571f6f4.png",
+      "annotation_path": "annotations/synthetic_00440_c571f6f4.json",
+      "document_psc": "",
+      "document_category": "Textiles, Clothing & Equipage",
+      "document_portfolio": "Clothing, Textiles & Subsistence S&E"
+    },
+    {
+      "image_path": "images/synthetic_00258_8fbe3507.png",
+      "annotation_path": "annotations/synthetic_00258_8fbe3507.json",
+      "document_psc": "",
+      "document_category": "Equipment Leases",
+      "document_portfolio": "Electronic & Communication Services"
+    },
+    {
+      "image_path": "images/synthetic_00358_12a2861f.png",
+      "annotation_path": "annotations/synthetic_00358_12a2861f.json",
+      "document_psc": "",
+      "document_category": "Trade Policy and Services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00420_ee1312a7.png",
+      "annotation_path": "annotations/synthetic_00420_ee1312a7.json",
+      "document_psc": "",
+      "document_category": "Guided Missiles",
+      "document_portfolio": "Weapons & Ammunition"
+    },
+    {
+      "image_path": "images/synthetic_00299_5aca1093.png",
+      "annotation_path": "annotations/synthetic_00299_5aca1093.json",
+      "document_psc": "",
+      "document_category": "Fire/Rescue/Safety/Environmental Protection Equipment",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00107_e53f080a.png",
+      "annotation_path": "annotations/synthetic_00107_e53f080a.json",
+      "document_psc": "",
+      "document_category": "Public Relations and Professional Communications Services",
+      "document_portfolio": "Electronic & Communication Services"
+    },
+    {
+      "image_path": "images/synthetic_00334_99b7574f.png",
+      "annotation_path": "annotations/synthetic_00334_99b7574f.json",
+      "document_psc": "",
+      "document_category": "Equipment Modification",
+      "document_portfolio": "Equipment Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00007_b3ad5bdf.png",
+      "annotation_path": "annotations/synthetic_00007_b3ad5bdf.json",
+      "document_psc": "",
+      "document_category": "Trade Policy and Services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00239_326d92a5.png",
+      "annotation_path": "annotations/synthetic_00239_326d92a5.json",
+      "document_psc": "",
+      "document_category": "Aircraft",
+      "document_portfolio": "Aircraft, Ships/Submarines & Land Vehicles"
+    },
+    {
+      "image_path": "images/synthetic_00098_0ad9396b.png",
+      "annotation_path": "annotations/synthetic_00098_0ad9396b.json",
+      "document_psc": "",
+      "document_category": "IT Professional Service (Labor)",
+      "document_portfolio": ""
+    },
+    {
+      "image_path": "images/synthetic_00343_73cd43e8.png",
+      "annotation_path": "annotations/synthetic_00343_73cd43e8.json",
+      "document_psc": "",
+      "document_category": "Communication Equipment",
+      "document_portfolio": "Electronic & Communication Equipment"
+    },
+    {
+      "image_path": "images/synthetic_00067_93631eea.png",
+      "annotation_path": "annotations/synthetic_00067_93631eea.json",
+      "document_psc": "",
+      "document_category": "Fire/Rescue/Safety/Environmental Protection Equipment",
+      "document_portfolio": "Facilities S&E"
+    },
+    {
+      "image_path": "images/synthetic_00427_6bd3892d.png",
+      "annotation_path": "annotations/synthetic_00427_6bd3892d.json",
+      "document_psc": "",
+      "document_category": "Medical Equipment and Accessories and Supplies",
+      "document_portfolio": "Clothing, Textiles & Subsistence S&E"
+    },
+    {
+      "image_path": "images/synthetic_00198_eb31737d.png",
+      "annotation_path": "annotations/synthetic_00198_eb31737d.json",
+      "document_psc": "",
+      "document_category": "Business administration services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00402_a5820bc9.png",
+      "annotation_path": "annotations/synthetic_00402_a5820bc9.json",
+      "document_psc": "",
+      "document_category": "Lodging",
+      "document_portfolio": "Transportation Services"
+    },
+    {
+      "image_path": "images/synthetic_00254_bf7f8fe3.png",
+      "annotation_path": "annotations/synthetic_00254_bf7f8fe3.json",
+      "document_psc": "",
+      "document_category": "Aircraft",
+      "document_portfolio": ""
+    },
+    {
+      "image_path": "images/synthetic_00161_75613da0.png",
+      "annotation_path": "annotations/synthetic_00161_75613da0.json",
+      "document_psc": "",
+      "document_category": "Training Aids and Devices",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00341_3c3fd74e.png",
+      "annotation_path": "annotations/synthetic_00341_3c3fd74e.json",
+      "document_psc": "",
+      "document_category": "Business Administration Services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00250_882825cf.png",
+      "annotation_path": "annotations/synthetic_00250_882825cf.json",
+      "document_psc": "",
+      "document_category": "Guns",
+      "document_portfolio": "Weapons & Ammunition"
+    },
+    {
+      "image_path": "images/synthetic_00224_df6e7f39.png",
+      "annotation_path": "annotations/synthetic_00224_df6e7f39.json",
+      "document_psc": "",
+      "document_category": "Legal services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00452_2d6c0afa.png",
+      "annotation_path": "annotations/synthetic_00452_2d6c0afa.json",
+      "document_psc": "",
+      "document_category": "Supply Parts",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00316_6fe9acd1.png",
+      "annotation_path": "annotations/synthetic_00316_6fe9acd1.json",
+      "document_psc": "",
+      "document_category": "Construction Related Services",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00281_08501e44.png",
+      "annotation_path": "annotations/synthetic_00281_08501e44.json",
+      "document_psc": "",
+      "document_category": "Installation of Equipment",
+      "document_portfolio": "Equipment Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00490_123ffc1a.png",
+      "annotation_path": "annotations/synthetic_00490_123ffc1a.json",
+      "document_psc": "",
+      "document_category": "Vocational Training",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00143_cc59e54d.png",
+      "annotation_path": "annotations/synthetic_00143_cc59e54d.json",
+      "document_psc": "",
+      "document_category": "",
+      "document_portfolio": "Research and Development"
+    },
+    {
+      "image_path": "images/synthetic_00335_aee1c881.png",
+      "annotation_path": "annotations/synthetic_00335_aee1c881.json",
+      "document_psc": "",
+      "document_category": "S&E Not Classifed Elsewhere",
+      "document_portfolio": "Facilities S&E"
+    },
+    {
+      "image_path": "images/synthetic_00166_a0562f98.png",
+      "annotation_path": "annotations/synthetic_00166_a0562f98.json",
+      "document_psc": "",
+      "document_category": "Electrical & Electronics Equipment",
+      "document_portfolio": "Electronic & Communication Equipment"
+    },
+    {
+      "image_path": "images/synthetic_00039_85ab0a19.png",
+      "annotation_path": "annotations/synthetic_00039_85ab0a19.json",
+      "document_psc": "",
+      "document_category": "Drugs and Pharmaceutical Products",
+      "document_portfolio": "Clothing, Textiles & Subsistence S&E"
+    },
+    {
+      "image_path": "images/synthetic_00232_6233ef65.png",
+      "annotation_path": "annotations/synthetic_00232_6233ef65.json",
+      "document_psc": "",
+      "document_category": "Basic Materials",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00408_5b824832.png",
+      "annotation_path": "annotations/synthetic_00408_5b824832.json",
+      "document_psc": "",
+      "document_category": "IT Professional Service (Labor)",
+      "document_portfolio": ""
+    },
+    {
+      "image_path": "images/synthetic_00401_05896822.png",
+      "annotation_path": "annotations/synthetic_00401_05896822.json",
+      "document_psc": "",
+      "document_category": "Ships & Submarines",
+      "document_portfolio": "Aircraft, Ships/Submarines & Land Vehicles"
+    },
+    {
+      "image_path": "images/synthetic_00100_ced1150d.png",
+      "annotation_path": "annotations/synthetic_00100_ced1150d.json",
+      "document_psc": "",
+      "document_category": "Business Administration Services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00447_49ecab2c.png",
+      "annotation_path": "annotations/synthetic_00447_49ecab2c.json",
+      "document_psc": "",
+      "document_category": "Quality Control",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00016_45e4f40d.png",
+      "annotation_path": "annotations/synthetic_00016_45e4f40d.json",
+      "document_psc": "",
+      "document_category": "S&E Not Classifed Elsewhere",
+      "document_portfolio": "Facilities S&E"
+    },
+    {
+      "image_path": "images/synthetic_00466_5ae8730f.png",
+      "annotation_path": "annotations/synthetic_00466_5ae8730f.json",
+      "document_psc": "",
+      "document_category": "Nuclear Ordnance",
+      "document_portfolio": "Weapons & Ammunition"
+    },
+    {
+      "image_path": "images/synthetic_00216_929c77bc.png",
+      "annotation_path": "annotations/synthetic_00216_929c77bc.json",
+      "document_psc": "",
+      "document_category": "Specialized educational services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00136_9e4b0698.png",
+      "annotation_path": "annotations/synthetic_00136_9e4b0698.json",
+      "document_psc": "",
+      "document_category": "Textiles, Clothing & Equipage",
+      "document_portfolio": "Clothing, Textiles & Subsistence S&E"
+    },
+    {
+      "image_path": "images/synthetic_00322_4522fe05.png",
+      "annotation_path": "annotations/synthetic_00322_4522fe05.json",
+      "document_psc": "",
+      "document_category": "Healthcare Services",
+      "document_portfolio": "Medical Services"
+    },
+    {
+      "image_path": "images/synthetic_00138_fa37963f.png",
+      "annotation_path": "annotations/synthetic_00138_fa37963f.json",
+      "document_psc": "",
+      "document_category": "Furniture",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00137_fcb1466f.png",
+      "annotation_path": "annotations/synthetic_00137_fcb1466f.json",
+      "document_psc": "",
+      "document_category": "Equipment Modification",
+      "document_portfolio": "Equipment Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00400_272da059.png",
+      "annotation_path": "annotations/synthetic_00400_272da059.json",
+      "document_psc": "",
+      "document_category": "Ammunition & Explosives",
+      "document_portfolio": "Weapons & Ammunition"
+    },
+    {
+      "image_path": "images/synthetic_00063_8f0e1552.png",
+      "annotation_path": "annotations/synthetic_00063_8f0e1552.json",
+      "document_psc": "",
+      "document_category": "Logistics Support Services",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00379_28a955bc.png",
+      "annotation_path": "annotations/synthetic_00379_28a955bc.json",
+      "document_psc": "",
+      "document_category": "Equipment Modification",
+      "document_portfolio": "Equipment Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00061_878a55c0.png",
+      "annotation_path": "annotations/synthetic_00061_878a55c0.json",
+      "document_psc": "",
+      "document_category": "Security Animals & Related Svcs",
+      "document_portfolio": "Facilities S&E"
+    },
+    {
+      "image_path": "images/synthetic_00118_ced3837d.png",
+      "annotation_path": "annotations/synthetic_00118_ced3837d.json",
+      "document_psc": "",
+      "document_category": "Real Estate Services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00168_960b7de7.png",
+      "annotation_path": "annotations/synthetic_00168_960b7de7.json",
+      "document_psc": "",
+      "document_category": "Legal Services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00294_f7ddbedf.png",
+      "annotation_path": "annotations/synthetic_00294_f7ddbedf.json",
+      "document_psc": "",
+      "document_category": "S&E Not Classifed Elsewhere",
+      "document_portfolio": "Facilities S&E"
+    },
+    {
+      "image_path": "images/synthetic_00065_6808906f.png",
+      "annotation_path": "annotations/synthetic_00065_6808906f.json",
+      "document_psc": "",
+      "document_category": "Drugs and Pharmaceutical Products",
+      "document_portfolio": "Clothing, Textiles & Subsistence S&E"
+    },
+    {
+      "image_path": "images/synthetic_00295_1c5e3670.png",
+      "annotation_path": "annotations/synthetic_00295_1c5e3670.json",
+      "document_psc": "",
+      "document_category": "Materials",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00053_2e63fbff.png",
+      "annotation_path": "annotations/synthetic_00053_2e63fbff.json",
+      "document_psc": "",
+      "document_category": "Furniture",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00362_5afc0863.png",
+      "annotation_path": "annotations/synthetic_00362_5afc0863.json",
+      "document_psc": "",
+      "document_category": "Engines, Components & Spt Eq",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00117_17103d23.png",
+      "annotation_path": "annotations/synthetic_00117_17103d23.json",
+      "document_psc": "",
+      "document_category": "Business Administration Services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00244_731291e5.png",
+      "annotation_path": "annotations/synthetic_00244_731291e5.json",
+      "document_psc": "",
+      "document_category": "Construction Related Materials",
+      "document_portfolio": "Facilities S&E"
+    },
+    {
+      "image_path": "images/synthetic_00390_288cf252.png",
+      "annotation_path": "annotations/synthetic_00390_288cf252.json",
+      "document_psc": "",
+      "document_category": "Security Systems",
+      "document_portfolio": "Facilities S&E"
+    },
+    {
+      "image_path": "images/synthetic_00175_f8b279ee.png",
+      "annotation_path": "annotations/synthetic_00175_f8b279ee.json",
+      "document_psc": "",
+      "document_category": "Support Ships & Small Craft",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00104_ded8e822.png",
+      "annotation_path": "annotations/synthetic_00104_ded8e822.json",
+      "document_psc": "",
+      "document_category": "Passenger Travel",
+      "document_portfolio": "Transportation Services"
+    },
+    {
+      "image_path": "images/synthetic_00405_884d4a13.png",
+      "annotation_path": "annotations/synthetic_00405_884d4a13.json",
+      "document_psc": "",
+      "document_category": "Ships & Submarines",
+      "document_portfolio": "Aircraft, Ships/Submarines & Land Vehicles"
+    },
+    {
+      "image_path": "images/synthetic_00024_82b56377.png",
+      "annotation_path": "annotations/synthetic_00024_82b56377.json",
+      "document_psc": "",
+      "document_category": "Equipment Maintenance",
+      "document_portfolio": "Electronic & Communication Services"
+    },
+    {
+      "image_path": "images/synthetic_00038_c8414002.png",
+      "annotation_path": "annotations/synthetic_00038_c8414002.json",
+      "document_psc": "",
+      "document_category": "Oils, Lubricants, and Waxes",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00274_d105ef92.png",
+      "annotation_path": "annotations/synthetic_00274_d105ef92.json",
+      "document_psc": "",
+      "document_category": "Construction Related Materials",
+      "document_portfolio": "Facilities S&E"
+    },
+    {
+      "image_path": "images/synthetic_00489_656dd891.png",
+      "annotation_path": "annotations/synthetic_00489_656dd891.json",
+      "document_psc": "",
+      "document_category": "Subsistence",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00068_3de01d75.png",
+      "annotation_path": "annotations/synthetic_00068_3de01d75.json",
+      "document_psc": "",
+      "document_category": "Machinery & Components",
+      "document_portfolio": "Facilities S&E"
+    },
+    {
+      "image_path": "images/synthetic_00285_6492ecb1.png",
+      "annotation_path": "annotations/synthetic_00285_6492ecb1.json",
+      "document_psc": "",
+      "document_category": "Travel Agent & Misc Svcs",
+      "document_portfolio": "Transportation Services"
+    },
+    {
+      "image_path": "images/synthetic_00378_7f7c4b9c.png",
+      "annotation_path": "annotations/synthetic_00378_7f7c4b9c.json",
+      "document_psc": "",
+      "document_category": "Real Estate Services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00396_7b670b8b.png",
+      "annotation_path": "annotations/synthetic_00396_7b670b8b.json",
+      "document_psc": "",
+      "document_category": "Transportation of Things",
+      "document_portfolio": "Transportation Services"
+    },
+    {
+      "image_path": "images/synthetic_00360_3e1a0426.png",
+      "annotation_path": "annotations/synthetic_00360_3e1a0426.json",
+      "document_psc": "",
+      "document_category": "Ammunition & Explosives",
+      "document_portfolio": "Weapons & Ammunition"
+    },
+    {
+      "image_path": "images/synthetic_00350_18ba1962.png",
+      "annotation_path": "annotations/synthetic_00350_18ba1962.json",
+      "document_psc": "",
+      "document_category": "Hardware & Tools",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00453_b39a87b7.png",
+      "annotation_path": "annotations/synthetic_00453_b39a87b7.json",
+      "document_psc": "",
+      "document_category": "Product",
+      "document_portfolio": ""
+    },
+    {
+      "image_path": "images/synthetic_00079_5a18b57d.png",
+      "annotation_path": "annotations/synthetic_00079_5a18b57d.json",
+      "document_psc": "",
+      "document_category": "Trade Policy and Services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00076_60cf1667.png",
+      "annotation_path": "annotations/synthetic_00076_60cf1667.json",
+      "document_psc": "",
+      "document_category": "Healthcare Services",
+      "document_portfolio": "Medical Services"
+    },
+    {
+      "image_path": "images/synthetic_00151_1194a79a.png",
+      "annotation_path": "annotations/synthetic_00151_1194a79a.json",
+      "document_psc": "",
+      "document_category": "Salvage Services",
+      "document_portfolio": "Equipment Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00017_653847d5.png",
+      "annotation_path": "annotations/synthetic_00017_653847d5.json",
+      "document_psc": "",
+      "document_category": "Night Vision Eq",
+      "document_portfolio": "Electronic & Communication Equipment"
+    },
+    {
+      "image_path": "images/synthetic_00121_00ee5951.png",
+      "annotation_path": "annotations/synthetic_00121_00ee5951.json",
+      "document_psc": "",
+      "document_category": "Capability As a Service",
+      "document_portfolio": ""
+    },
+    {
+      "image_path": "images/synthetic_00287_b012e1c8.png",
+      "annotation_path": "annotations/synthetic_00287_b012e1c8.json",
+      "document_psc": "",
+      "document_category": "Maintenance, Repair and Overhaul",
+      "document_portfolio": "Equipment Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00442_5d58e8d4.png",
+      "annotation_path": "annotations/synthetic_00442_5d58e8d4.json",
+      "document_psc": "",
+      "document_category": "Supply Parts",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00468_81f29e5a.png",
+      "annotation_path": "annotations/synthetic_00468_81f29e5a.json",
+      "document_psc": "",
+      "document_category": "Financial Services",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00048_462c822a.png",
+      "annotation_path": "annotations/synthetic_00048_462c822a.json",
+      "document_psc": "",
+      "document_category": "Construction Related Services",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00156_681b2e29.png",
+      "annotation_path": "annotations/synthetic_00156_681b2e29.json",
+      "document_psc": "",
+      "document_category": "Legal services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00415_b28741f4.png",
+      "annotation_path": "annotations/synthetic_00415_b28741f4.json",
+      "document_psc": "",
+      "document_category": "Night Vision Eq",
+      "document_portfolio": "Electronic & Communication Equipment"
+    },
+    {
+      "image_path": "images/synthetic_00069_5ed8b25e.png",
+      "annotation_path": "annotations/synthetic_00069_5ed8b25e.json",
+      "document_psc": "",
+      "document_category": "Business Administration Services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00481_6ba1b7f8.png",
+      "annotation_path": "annotations/synthetic_00481_6ba1b7f8.json",
+      "document_psc": "",
+      "document_category": "Facility Related Services",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00253_45932e6b.png",
+      "annotation_path": "annotations/synthetic_00253_45932e6b.json",
+      "document_psc": "",
+      "document_category": "Equipment Maintenance",
+      "document_portfolio": "Electronic & Communication Services"
+    },
+    {
+      "image_path": "images/synthetic_00348_653525ab.png",
+      "annotation_path": "annotations/synthetic_00348_653525ab.json",
+      "document_psc": "",
+      "document_category": "Technical Representative Services",
+      "document_portfolio": "Equipment Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00361_986a17a7.png",
+      "annotation_path": "annotations/synthetic_00361_986a17a7.json",
+      "document_psc": "",
+      "document_category": "Office Management Products",
+      "document_portfolio": "Facilities S&E"
+    },
+    {
+      "image_path": "images/synthetic_00170_aaa1b52d.png",
+      "annotation_path": "annotations/synthetic_00170_aaa1b52d.json",
+      "document_psc": "",
+      "document_category": "Motor Vehicles",
+      "document_portfolio": "Equipment Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00154_062ff9b4.png",
+      "annotation_path": "annotations/synthetic_00154_062ff9b4.json",
+      "document_psc": "",
+      "document_category": "Industrial Products Install / Maintenance / Repair",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00432_e5994ff1.png",
+      "annotation_path": "annotations/synthetic_00432_e5994ff1.json",
+      "document_psc": "",
+      "document_category": "Nuclear Ordnance",
+      "document_portfolio": "Weapons & Ammunition"
+    },
+    {
+      "image_path": "images/synthetic_00303_036f31b2.png",
+      "annotation_path": "annotations/synthetic_00303_036f31b2.json",
+      "document_psc": "",
+      "document_category": "Quality Control",
+      "document_portfolio": "Equipment Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00059_3e3266eb.png",
+      "annotation_path": "annotations/synthetic_00059_3e3266eb.json",
+      "document_psc": "",
+      "document_category": "Electrical & Electronics Equipment",
+      "document_portfolio": "Electronic & Communication Equipment"
+    },
+    {
+      "image_path": "images/synthetic_00095_d80f8fa7.png",
+      "annotation_path": "annotations/synthetic_00095_d80f8fa7.json",
+      "document_psc": "",
+      "document_category": "Healthcare Services",
+      "document_portfolio": "Medical Services"
+    },
+    {
+      "image_path": "images/synthetic_00261_b35b1a5f.png",
+      "annotation_path": "annotations/synthetic_00261_b35b1a5f.json",
+      "document_psc": "",
+      "document_category": "Human Resources Services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00313_8666ba67.png",
+      "annotation_path": "annotations/synthetic_00313_8666ba67.json",
+      "document_psc": "",
+      "document_category": "Transportation of Things",
+      "document_portfolio": "Transportation Services"
+    },
+    {
+      "image_path": "images/synthetic_00194_d319efcb.png",
+      "annotation_path": "annotations/synthetic_00194_d319efcb.json",
+      "document_psc": "",
+      "document_category": "Fire/Rescue/Safety/Environmental Protection Equipment",
+      "document_portfolio": "Facilities S&E"
+    },
+    {
+      "image_path": "images/synthetic_00221_6cc208fe.png",
+      "annotation_path": "annotations/synthetic_00221_6cc208fe.json",
+      "document_psc": "",
+      "document_category": "Drones",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00081_7395debe.png",
+      "annotation_path": "annotations/synthetic_00081_7395debe.json",
+      "document_psc": "",
+      "document_category": "Legal Services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00434_6067a792.png",
+      "annotation_path": "annotations/synthetic_00434_6067a792.json",
+      "document_psc": "",
+      "document_category": "Construction Related Services",
+      "document_portfolio": "Construction Services"
+    },
+    {
+      "image_path": "images/synthetic_00413_d74fb2c6.png",
+      "annotation_path": "annotations/synthetic_00413_d74fb2c6.json",
+      "document_psc": "",
+      "document_category": "Supply Parts",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00247_69c738a4.png",
+      "annotation_path": "annotations/synthetic_00247_69c738a4.json",
+      "document_psc": "",
+      "document_category": "Equipment Modification",
+      "document_portfolio": "Equipment Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00284_0129abb1.png",
+      "annotation_path": "annotations/synthetic_00284_0129abb1.json",
+      "document_psc": "",
+      "document_category": "Office Management Products",
+      "document_portfolio": "Facilities S&E"
+    },
+    {
+      "image_path": "images/synthetic_00428_c25b1ef4.png",
+      "annotation_path": "annotations/synthetic_00428_c25b1ef4.json",
+      "document_psc": "",
+      "document_category": "Financial services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00090_1b1f26e5.png",
+      "annotation_path": "annotations/synthetic_00090_1b1f26e5.json",
+      "document_psc": "",
+      "document_category": "Financial services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00229_7cb9f2f6.png",
+      "annotation_path": "annotations/synthetic_00229_7cb9f2f6.json",
+      "document_psc": "",
+      "document_category": "Communication Equipment",
+      "document_portfolio": "Electronic & Communication Equipment"
+    },
+    {
+      "image_path": "images/synthetic_00493_43a0334a.png",
+      "annotation_path": "annotations/synthetic_00493_43a0334a.json",
+      "document_psc": "",
+      "document_category": "Product",
+      "document_portfolio": ""
+    },
+    {
+      "image_path": "images/synthetic_00073_0d22dfea.png",
+      "annotation_path": "annotations/synthetic_00073_0d22dfea.json",
+      "document_psc": "",
+      "document_category": "Legal services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00047_37d872e5.png",
+      "annotation_path": "annotations/synthetic_00047_37d872e5.json",
+      "document_psc": "",
+      "document_category": "Machinery & Components",
+      "document_portfolio": "Facilities S&E"
+    },
+    {
+      "image_path": "images/synthetic_00110_d1fbe307.png",
+      "annotation_path": "annotations/synthetic_00110_d1fbe307.json",
+      "document_psc": "",
+      "document_category": "Ammunition & Explosives",
+      "document_portfolio": "Weapons & Ammunition"
+    },
+    {
+      "image_path": "images/synthetic_00388_3985266b.png",
+      "annotation_path": "annotations/synthetic_00388_3985266b.json",
+      "document_psc": "",
+      "document_category": "Hardware & Tools",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00376_97afb7b7.png",
+      "annotation_path": "annotations/synthetic_00376_97afb7b7.json",
+      "document_psc": "",
+      "document_category": "Facility Related Services",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00392_6a4c9a73.png",
+      "annotation_path": "annotations/synthetic_00392_6a4c9a73.json",
+      "document_psc": "",
+      "document_category": "Test & Measurement Supplies",
+      "document_portfolio": "Facilities S&E"
+    },
+    {
+      "image_path": "images/synthetic_00342_468484b5.png",
+      "annotation_path": "annotations/synthetic_00342_468484b5.json",
+      "document_psc": "",
+      "document_category": "Ammunition & Explosives",
+      "document_portfolio": "Weapons & Ammunition"
+    },
+    {
+      "image_path": "images/synthetic_00207_829c761b.png",
+      "annotation_path": "annotations/synthetic_00207_829c761b.json",
+      "document_psc": "",
+      "document_category": "Medical Equipment and Accessories and Supplies",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00000_a0df9813.png",
+      "annotation_path": "annotations/synthetic_00000_a0df9813.json",
+      "document_psc": "",
+      "document_category": "Land Combat Vehicles",
+      "document_portfolio": "Aircraft, Ships/Submarines & Land Vehicles"
+    },
+    {
+      "image_path": "images/synthetic_00259_69c641a7.png",
+      "annotation_path": "annotations/synthetic_00259_69c641a7.json",
+      "document_psc": "",
+      "document_category": "Construction Related Services",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00116_801237a3.png",
+      "annotation_path": "annotations/synthetic_00116_801237a3.json",
+      "document_psc": "",
+      "document_category": "Land Combat Vehicles",
+      "document_portfolio": "Aircraft, Ships/Submarines & Land Vehicles"
+    },
+    {
+      "image_path": "images/synthetic_00340_51530deb.png",
+      "annotation_path": "annotations/synthetic_00340_51530deb.json",
+      "document_psc": "",
+      "document_category": "Office Management Products",
+      "document_portfolio": "Facilities S&E"
+    },
+    {
+      "image_path": "images/synthetic_00331_8f443ed5.png",
+      "annotation_path": "annotations/synthetic_00331_8f443ed5.json",
+      "document_psc": "",
+      "document_category": "Quality Control",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00457_ff6ede28.png",
+      "annotation_path": "annotations/synthetic_00457_ff6ede28.json",
+      "document_psc": "",
+      "document_category": "S&E Not Classifed Elsewhere",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00025_f0e0354b.png",
+      "annotation_path": "annotations/synthetic_00025_f0e0354b.json",
+      "document_psc": "",
+      "document_category": "Lodging",
+      "document_portfolio": "Transportation Services"
+    },
+    {
+      "image_path": "images/synthetic_00002_a0dd6f71.png",
+      "annotation_path": "annotations/synthetic_00002_a0dd6f71.json",
+      "document_psc": "",
+      "document_category": "Facilities Purchase & Lease",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00465_58454781.png",
+      "annotation_path": "annotations/synthetic_00465_58454781.json",
+      "document_psc": "",
+      "document_category": "Ships & Submarines",
+      "document_portfolio": "Aircraft, Ships/Submarines & Land Vehicles"
+    },
+    {
+      "image_path": "images/synthetic_00275_21f269cf.png",
+      "annotation_path": "annotations/synthetic_00275_21f269cf.json",
+      "document_psc": "",
+      "document_category": "Technical Representative Services",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00425_c778a1c5.png",
+      "annotation_path": "annotations/synthetic_00425_c778a1c5.json",
+      "document_psc": "",
+      "document_category": "Nuclear Ordnance",
+      "document_portfolio": "Weapons & Ammunition"
+    },
+    {
+      "image_path": "images/synthetic_00093_d64905c2.png",
+      "annotation_path": "annotations/synthetic_00093_d64905c2.json",
+      "document_psc": "",
+      "document_category": "Technical Representative Services",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00008_c6501139.png",
+      "annotation_path": "annotations/synthetic_00008_c6501139.json",
+      "document_psc": "",
+      "document_category": "Facilities Purchase & Lease",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00353_155a84fb.png",
+      "annotation_path": "annotations/synthetic_00353_155a84fb.json",
+      "document_psc": "",
+      "document_category": "Support Ships & Small Craft",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00026_c78d4179.png",
+      "annotation_path": "annotations/synthetic_00026_c78d4179.json",
+      "document_psc": "",
+      "document_category": "Quality Control",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00217_2a16ea9e.png",
+      "annotation_path": "annotations/synthetic_00217_2a16ea9e.json",
+      "document_psc": "",
+      "document_category": "Machinery & Components",
+      "document_portfolio": "Facilities S&E"
+    },
+    {
+      "image_path": "images/synthetic_00380_006a79a5.png",
+      "annotation_path": "annotations/synthetic_00380_006a79a5.json",
+      "document_psc": "",
+      "document_category": "Construction Related Services",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00382_e98683cc.png",
+      "annotation_path": "annotations/synthetic_00382_e98683cc.json",
+      "document_psc": "",
+      "document_category": "Night Vision Eq",
+      "document_portfolio": "Electronic & Communication Equipment"
+    },
+    {
+      "image_path": "images/synthetic_00492_56c5455f.png",
+      "annotation_path": "annotations/synthetic_00492_56c5455f.json",
+      "document_psc": "",
+      "document_category": "Office Management Services",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00410_06cdfa73.png",
+      "annotation_path": "annotations/synthetic_00410_06cdfa73.json",
+      "document_psc": "",
+      "document_category": "Ships & Submarines",
+      "document_portfolio": "Aircraft, Ships/Submarines & Land Vehicles"
+    },
+    {
+      "image_path": "images/synthetic_00153_3b77110d.png",
+      "annotation_path": "annotations/synthetic_00153_3b77110d.json",
+      "document_psc": "",
+      "document_category": "Maintenance, Repair and Overhaul",
+      "document_portfolio": "Equipment Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00436_d6450ef5.png",
+      "annotation_path": "annotations/synthetic_00436_d6450ef5.json",
+      "document_psc": "",
+      "document_category": "Purchases & Leases",
+      "document_portfolio": "Equipment Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00147_8a520ce8.png",
+      "annotation_path": "annotations/synthetic_00147_8a520ce8.json",
+      "document_psc": "",
+      "document_category": "Medical Equipment and Accessories and Supplies",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00160_22492725.png",
+      "annotation_path": "annotations/synthetic_00160_22492725.json",
+      "document_psc": "",
+      "document_category": "Legal Services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00004_0691ae70.png",
+      "annotation_path": "annotations/synthetic_00004_0691ae70.json",
+      "document_psc": "",
+      "document_category": "Facility Related Services",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00087_3f554671.png",
+      "annotation_path": "annotations/synthetic_00087_3f554671.json",
+      "document_psc": "",
+      "document_category": "Marketing and Distribution",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00441_6c0422b5.png",
+      "annotation_path": "annotations/synthetic_00441_6c0422b5.json",
+      "document_psc": "",
+      "document_category": "Industrial Products Install / Maintenance / Repair",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00302_c3ce3ec0.png",
+      "annotation_path": "annotations/synthetic_00302_c3ce3ec0.json",
+      "document_psc": "",
+      "document_category": "Equipment Maintenance",
+      "document_portfolio": "Electronic & Communication Services"
+    },
+    {
+      "image_path": "images/synthetic_00125_8b566241.png",
+      "annotation_path": "annotations/synthetic_00125_8b566241.json",
+      "document_psc": "",
+      "document_category": "Communication Equipment",
+      "document_portfolio": "Electronic & Communication Equipment"
+    },
+    {
+      "image_path": "images/synthetic_00391_eaba1aca.png",
+      "annotation_path": "annotations/synthetic_00391_eaba1aca.json",
+      "document_psc": "",
+      "document_category": "Fire/Rescue/Safety/Environmental Protection Equipment",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00249_b07bdd6f.png",
+      "annotation_path": "annotations/synthetic_00249_b07bdd6f.json",
+      "document_psc": "",
+      "document_category": "Furniture",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00327_3de7c5ce.png",
+      "annotation_path": "annotations/synthetic_00327_3de7c5ce.json",
+      "document_psc": "",
+      "document_category": "Hardware & Tools",
+      "document_portfolio": "Equipment Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00365_67bf2db3.png",
+      "annotation_path": "annotations/synthetic_00365_67bf2db3.json",
+      "document_psc": "",
+      "document_category": "Fuels",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00345_349be1bc.png",
+      "annotation_path": "annotations/synthetic_00345_349be1bc.json",
+      "document_psc": "",
+      "document_category": "Logistics Support Services",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00234_018d5c5e.png",
+      "annotation_path": "annotations/synthetic_00234_018d5c5e.json",
+      "document_psc": "",
+      "document_category": "Equipment Leases",
+      "document_portfolio": "Electronic & Communication Services"
+    },
+    {
+      "image_path": "images/synthetic_00050_07d27d70.png",
+      "annotation_path": "annotations/synthetic_00050_07d27d70.json",
+      "document_psc": "",
+      "document_category": "Maintenance, Repair and Overhaul",
+      "document_portfolio": "Equipment Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00459_38507841.png",
+      "annotation_path": "annotations/synthetic_00459_38507841.json",
+      "document_psc": "",
+      "document_category": "Ships & Submarines",
+      "document_portfolio": "Aircraft, Ships/Submarines & Land Vehicles"
+    },
+    {
+      "image_path": "images/synthetic_00178_59157ec8.png",
+      "annotation_path": "annotations/synthetic_00178_59157ec8.json",
+      "document_psc": "",
+      "document_category": "Materials",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00215_3a596d2f.png",
+      "annotation_path": "annotations/synthetic_00215_3a596d2f.json",
+      "document_psc": "",
+      "document_category": "Legal services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00307_adcfc33c.png",
+      "annotation_path": "annotations/synthetic_00307_adcfc33c.json",
+      "document_psc": "",
+      "document_category": "Installation of Equipment",
+      "document_portfolio": "Equipment Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00011_dd0acf86.png",
+      "annotation_path": "annotations/synthetic_00011_dd0acf86.json",
+      "document_psc": "",
+      "document_category": "Public Relations and Professional Communications Services",
+      "document_portfolio": "Electronic & Communication Services"
+    },
+    {
+      "image_path": "images/synthetic_00133_1e8a2694.png",
+      "annotation_path": "annotations/synthetic_00133_1e8a2694.json",
+      "document_psc": "",
+      "document_category": "Support Ships & Small Craft",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00297_bdcb0009.png",
+      "annotation_path": "annotations/synthetic_00297_bdcb0009.json",
+      "document_psc": "",
+      "document_category": "Detection & Coherent Radiation Eq",
+      "document_portfolio": "Electronic & Communication Equipment"
+    },
+    {
+      "image_path": "images/synthetic_00296_09e4e5cf.png",
+      "annotation_path": "annotations/synthetic_00296_09e4e5cf.json",
+      "document_psc": "",
+      "document_category": "Medical Equipment and Accessories and Supplies",
+      "document_portfolio": "Clothing, Textiles & Subsistence S&E"
+    },
+    {
+      "image_path": "images/synthetic_00329_be0e4763.png",
+      "annotation_path": "annotations/synthetic_00329_be0e4763.json",
+      "document_psc": "",
+      "document_category": "Materials",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00171_835d7973.png",
+      "annotation_path": "annotations/synthetic_00171_835d7973.json",
+      "document_psc": "",
+      "document_category": "Facility Related Materials",
+      "document_portfolio": "Electronic & Communication Equipment"
+    },
+    {
+      "image_path": "images/synthetic_00277_267921ca.png",
+      "annotation_path": "annotations/synthetic_00277_267921ca.json",
+      "document_psc": "",
+      "document_category": "Industrial Products Install / Maintenance / Repair",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00439_ca56ff34.png",
+      "annotation_path": "annotations/synthetic_00439_ca56ff34.json",
+      "document_psc": "",
+      "document_category": "Engines, Components & Spt Eq",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00326_0e19ddf0.png",
+      "annotation_path": "annotations/synthetic_00326_0e19ddf0.json",
+      "document_psc": "",
+      "document_category": "Public Relations and Professional Communications Services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00262_20af79cb.png",
+      "annotation_path": "annotations/synthetic_00262_20af79cb.json",
+      "document_psc": "",
+      "document_category": "Logistics Support Services",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00045_b477c05b.png",
+      "annotation_path": "annotations/synthetic_00045_b477c05b.json",
+      "document_psc": "",
+      "document_category": "Financial Services",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00114_96d87861.png",
+      "annotation_path": "annotations/synthetic_00114_96d87861.json",
+      "document_psc": "",
+      "document_category": "Equipment Maintenance",
+      "document_portfolio": "Electronic & Communication Services"
+    },
+    {
+      "image_path": "images/synthetic_00165_74e0634a.png",
+      "annotation_path": "annotations/synthetic_00165_74e0634a.json",
+      "document_psc": "",
+      "document_category": "Transportation Equipment",
+      "document_portfolio": "Aircraft, Ships/Submarines & Land Vehicles"
+    },
+    {
+      "image_path": "images/synthetic_00398_8b3e27dc.png",
+      "annotation_path": "annotations/synthetic_00398_8b3e27dc.json",
+      "document_psc": "",
+      "document_category": "Quality Control",
+      "document_portfolio": "Equipment Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00122_fe03dd80.png",
+      "annotation_path": "annotations/synthetic_00122_fe03dd80.json",
+      "document_psc": "",
+      "document_category": "Drones",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00135_f57b7cd3.png",
+      "annotation_path": "annotations/synthetic_00135_f57b7cd3.json",
+      "document_psc": "",
+      "document_category": "Technical Representative Services",
+      "document_portfolio": "Equipment Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00474_c703152b.png",
+      "annotation_path": "annotations/synthetic_00474_c703152b.json",
+      "document_psc": "",
+      "document_category": "Communication Equipment",
+      "document_portfolio": "Electronic & Communication Equipment"
+    },
+    {
+      "image_path": "images/synthetic_00418_07d5036e.png",
+      "annotation_path": "annotations/synthetic_00418_07d5036e.json",
+      "document_psc": "",
+      "document_category": "Management Advisory Services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00212_f10bc573.png",
+      "annotation_path": "annotations/synthetic_00212_f10bc573.json",
+      "document_psc": "",
+      "document_category": "Construction Related Services",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00394_ce9b6957.png",
+      "annotation_path": "annotations/synthetic_00394_ce9b6957.json",
+      "document_psc": "",
+      "document_category": "Technical and Engineering Services (non-IT)",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00037_900934c7.png",
+      "annotation_path": "annotations/synthetic_00037_900934c7.json",
+      "document_psc": "",
+      "document_category": "Logistics Support Services",
+      "document_portfolio": "Transportation Services"
+    },
+    {
+      "image_path": "images/synthetic_00270_a81616e4.png",
+      "annotation_path": "annotations/synthetic_00270_a81616e4.json",
+      "document_psc": "",
+      "document_category": "Purchases & Leases",
+      "document_portfolio": "Equipment Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00483_1f3fe74d.png",
+      "annotation_path": "annotations/synthetic_00483_1f3fe74d.json",
+      "document_psc": "",
+      "document_category": "Security Systems",
+      "document_portfolio": "Electronic & Communication Equipment"
+    },
+    {
+      "image_path": "images/synthetic_00478_f5cdcf2a.png",
+      "annotation_path": "annotations/synthetic_00478_f5cdcf2a.json",
+      "document_psc": "",
+      "document_category": "Marketing and Distribution",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00288_8c9a7b2d.png",
+      "annotation_path": "annotations/synthetic_00288_8c9a7b2d.json",
+      "document_psc": "",
+      "document_category": "Fire Control",
+      "document_portfolio": "Weapons & Ammunition"
+    },
+    {
+      "image_path": "images/synthetic_00280_9a65b78d.png",
+      "annotation_path": "annotations/synthetic_00280_9a65b78d.json",
+      "document_psc": "",
+      "document_category": "S&E Not Classifed Elsewhere",
+      "document_portfolio": "Facilities S&E"
+    },
+    {
+      "image_path": "images/synthetic_00252_fb8806cf.png",
+      "annotation_path": "annotations/synthetic_00252_fb8806cf.json",
+      "document_psc": "",
+      "document_category": "Electrical & Electronics Equipment",
+      "document_portfolio": "Electronic & Communication Equipment"
+    },
+    {
+      "image_path": "images/synthetic_00111_f15814e1.png",
+      "annotation_path": "annotations/synthetic_00111_f15814e1.json",
+      "document_psc": "",
+      "document_category": "Guided Missiles",
+      "document_portfolio": "Weapons & Ammunition"
+    },
+    {
+      "image_path": "images/synthetic_00192_9c43a803.png",
+      "annotation_path": "annotations/synthetic_00192_9c43a803.json",
+      "document_psc": "",
+      "document_category": "Guns",
+      "document_portfolio": "Weapons & Ammunition"
+    },
+    {
+      "image_path": "images/synthetic_00080_a1c123fa.png",
+      "annotation_path": "annotations/synthetic_00080_a1c123fa.json",
+      "document_psc": "",
+      "document_category": "Guided Missiles",
+      "document_portfolio": "Weapons & Ammunition"
+    },
+    {
+      "image_path": "images/synthetic_00355_7172be5c.png",
+      "annotation_path": "annotations/synthetic_00355_7172be5c.json",
+      "document_psc": "",
+      "document_category": "Business administration services",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00074_76fe5a3b.png",
+      "annotation_path": "annotations/synthetic_00074_76fe5a3b.json",
+      "document_psc": "",
+      "document_category": "Specialized educational services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00219_be57b8ea.png",
+      "annotation_path": "annotations/synthetic_00219_be57b8ea.json",
+      "document_psc": "",
+      "document_category": "Furniture",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00003_667ca0c7.png",
+      "annotation_path": "annotations/synthetic_00003_667ca0c7.json",
+      "document_psc": "",
+      "document_category": "Fire/Rescue/Safety/Environmental Protection Equipment",
+      "document_portfolio": "Facilities S&E"
+    },
+    {
+      "image_path": "images/synthetic_00140_3e78d586.png",
+      "annotation_path": "annotations/synthetic_00140_3e78d586.json",
+      "document_psc": "",
+      "document_category": "Industrial Products Install / Maintenance / Repair",
+      "document_portfolio": "Electronic & Communication Services"
+    },
+    {
+      "image_path": "images/synthetic_00163_402fdcab.png",
+      "annotation_path": "annotations/synthetic_00163_402fdcab.json",
+      "document_psc": "",
+      "document_category": "Ammunition & Explosives",
+      "document_portfolio": "Weapons & Ammunition"
+    },
+    {
+      "image_path": "images/synthetic_00283_64d6e32e.png",
+      "annotation_path": "annotations/synthetic_00283_64d6e32e.json",
+      "document_psc": "",
+      "document_category": "Salvage Services",
+      "document_portfolio": "Equipment Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00028_31d9c2ba.png",
+      "annotation_path": "annotations/synthetic_00028_31d9c2ba.json",
+      "document_psc": "",
+      "document_category": "Night Vision Eq",
+      "document_portfolio": "Electronic & Communication Equipment"
+    },
+    {
+      "image_path": "images/synthetic_00305_ff35eaab.png",
+      "annotation_path": "annotations/synthetic_00305_ff35eaab.json",
+      "document_psc": "",
+      "document_category": "Salvage Services",
+      "document_portfolio": "Equipment Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00197_fdc74193.png",
+      "annotation_path": "annotations/synthetic_00197_fdc74193.json",
+      "document_psc": "",
+      "document_category": "Office Management Products",
+      "document_portfolio": "Facilities S&E"
+    },
+    {
+      "image_path": "images/synthetic_00128_fd2f20f4.png",
+      "annotation_path": "annotations/synthetic_00128_fd2f20f4.json",
+      "document_psc": "",
+      "document_category": "Medical Equipment and Accessories and Supplies",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00141_c7afd7b6.png",
+      "annotation_path": "annotations/synthetic_00141_c7afd7b6.json",
+      "document_psc": "",
+      "document_category": "Equipment Modification",
+      "document_portfolio": "Equipment Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00172_81e280aa.png",
+      "annotation_path": "annotations/synthetic_00172_81e280aa.json",
+      "document_psc": "",
+      "document_category": "Detection & Coherent Radiation Eq",
+      "document_portfolio": "Electronic & Communication Equipment"
+    },
+    {
+      "image_path": "images/synthetic_00292_7d050636.png",
+      "annotation_path": "annotations/synthetic_00292_7d050636.json",
+      "document_psc": "",
+      "document_category": "Materials",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00467_60b049ec.png",
+      "annotation_path": "annotations/synthetic_00467_60b049ec.json",
+      "document_psc": "",
+      "document_category": "IT Professional Service (Labor)",
+      "document_portfolio": ""
+    },
+    {
+      "image_path": "images/synthetic_00130_81282db7.png",
+      "annotation_path": "annotations/synthetic_00130_81282db7.json",
+      "document_psc": "",
+      "document_category": "Industrial Products Install / Maintenance / Repair",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00083_0eb605f2.png",
+      "annotation_path": "annotations/synthetic_00083_0eb605f2.json",
+      "document_psc": "",
+      "document_category": "Product",
+      "document_portfolio": ""
+    },
+    {
+      "image_path": "images/synthetic_00426_9646d3ea.png",
+      "annotation_path": "annotations/synthetic_00426_9646d3ea.json",
+      "document_psc": "",
+      "document_category": "Support Ships & Small Craft",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00475_386df9b8.png",
+      "annotation_path": "annotations/synthetic_00475_386df9b8.json",
+      "document_psc": "",
+      "document_category": "Industrial Products Install / Maintenance / Repair",
+      "document_portfolio": "Equipment Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00046_40dc8452.png",
+      "annotation_path": "annotations/synthetic_00046_40dc8452.json",
+      "document_psc": "",
+      "document_category": "Installation of Equipment",
+      "document_portfolio": "Equipment Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00062_e887c8a9.png",
+      "annotation_path": "annotations/synthetic_00062_e887c8a9.json",
+      "document_psc": "",
+      "document_category": "Transportation of Things",
+      "document_portfolio": "Transportation Services"
+    },
+    {
+      "image_path": "images/synthetic_00470_fb588fe5.png",
+      "annotation_path": "annotations/synthetic_00470_fb588fe5.json",
+      "document_psc": "",
+      "document_category": "Equipment Leases",
+      "document_portfolio": "Electronic & Communication Services"
+    },
+    {
+      "image_path": "images/synthetic_00023_f7df63d5.png",
+      "annotation_path": "annotations/synthetic_00023_f7df63d5.json",
+      "document_psc": "",
+      "document_category": "Vocational Training",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00022_de8ac38c.png",
+      "annotation_path": "annotations/synthetic_00022_de8ac38c.json",
+      "document_psc": "",
+      "document_category": "Legal Services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00430_fc07293c.png",
+      "annotation_path": "annotations/synthetic_00430_fc07293c.json",
+      "document_psc": "",
+      "document_category": "Training Aids and Devices",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00021_420fb43a.png",
+      "annotation_path": "annotations/synthetic_00021_420fb43a.json",
+      "document_psc": "",
+      "document_category": "Transportation Equipment",
+      "document_portfolio": "Facilities S&E"
+    },
+    {
+      "image_path": "images/synthetic_00195_3f92927f.png",
+      "annotation_path": "annotations/synthetic_00195_3f92927f.json",
+      "document_psc": "",
+      "document_category": "Drones",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00406_20426ab1.png",
+      "annotation_path": "annotations/synthetic_00406_20426ab1.json",
+      "document_psc": "",
+      "document_category": "Supply Parts",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00201_145fc172.png",
+      "annotation_path": "annotations/synthetic_00201_145fc172.json",
+      "document_psc": "",
+      "document_category": "Installation of Equipment",
+      "document_portfolio": "Equipment Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00236_8fb31ea8.png",
+      "annotation_path": "annotations/synthetic_00236_8fb31ea8.json",
+      "document_psc": "",
+      "document_category": "Travel Agent & Misc Svcs",
+      "document_portfolio": "Transportation Services"
+    },
+    {
+      "image_path": "images/synthetic_00164_85666a0d.png",
+      "annotation_path": "annotations/synthetic_00164_85666a0d.json",
+      "document_psc": "",
+      "document_category": "Communication Equipment",
+      "document_portfolio": "Electronic & Communication Equipment"
+    },
+    {
+      "image_path": "images/synthetic_00437_8bcb82bc.png",
+      "annotation_path": "annotations/synthetic_00437_8bcb82bc.json",
+      "document_psc": "",
+      "document_category": "Nuclear Ordnance",
+      "document_portfolio": "Weapons & Ammunition"
+    },
+    {
+      "image_path": "images/synthetic_00366_3a15f36f.png",
+      "annotation_path": "annotations/synthetic_00366_3a15f36f.json",
+      "document_psc": "",
+      "document_category": "Fuels",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00336_990ef2c9.png",
+      "annotation_path": "annotations/synthetic_00336_990ef2c9.json",
+      "document_psc": "",
+      "document_category": "Motor Vehicles",
+      "document_portfolio": "Equipment Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00188_8bea9fd0.png",
+      "annotation_path": "annotations/synthetic_00188_8bea9fd0.json",
+      "document_psc": "",
+      "document_category": "Construction Related Services",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00186_1895236d.png",
+      "annotation_path": "annotations/synthetic_00186_1895236d.json",
+      "document_psc": "",
+      "document_category": "Facilities Purchase & Lease",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00064_bd6e75b0.png",
+      "annotation_path": "annotations/synthetic_00064_bd6e75b0.json",
+      "document_psc": "",
+      "document_category": "Business Administration Services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00498_a3ae7857.png",
+      "annotation_path": "annotations/synthetic_00498_a3ae7857.json",
+      "document_psc": "",
+      "document_category": "Specialized educational services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00058_30eb63ef.png",
+      "annotation_path": "annotations/synthetic_00058_30eb63ef.json",
+      "document_psc": "",
+      "document_category": "Purchases & Leases",
+      "document_portfolio": "Equipment Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00231_cd7d82af.png",
+      "annotation_path": "annotations/synthetic_00231_cd7d82af.json",
+      "document_psc": "",
+      "document_category": "Technical and Engineering Services (non-IT)",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00374_2d907978.png",
+      "annotation_path": "annotations/synthetic_00374_2d907978.json",
+      "document_psc": "",
+      "document_category": "IT Professional Service (Labor)",
+      "document_portfolio": ""
+    },
+    {
+      "image_path": "images/synthetic_00119_16cadb4e.png",
+      "annotation_path": "annotations/synthetic_00119_16cadb4e.json",
+      "document_psc": "",
+      "document_category": "Drones",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00213_dfd7d044.png",
+      "annotation_path": "annotations/synthetic_00213_dfd7d044.json",
+      "document_psc": "",
+      "document_category": "Motor Vehicles",
+      "document_portfolio": "Equipment Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00368_0bcb6fbf.png",
+      "annotation_path": "annotations/synthetic_00368_0bcb6fbf.json",
+      "document_psc": "",
+      "document_category": "Test & Measurement Supplies",
+      "document_portfolio": "Facilities S&E"
+    },
+    {
+      "image_path": "images/synthetic_00272_232b1e07.png",
+      "annotation_path": "annotations/synthetic_00272_232b1e07.json",
+      "document_psc": "",
+      "document_category": "Transportation of Things",
+      "document_portfolio": "Transportation Services"
+    },
+    {
+      "image_path": "images/synthetic_00223_f5950e9e.png",
+      "annotation_path": "annotations/synthetic_00223_f5950e9e.json",
+      "document_psc": "",
+      "document_category": "Furniture",
+      "document_portfolio": "Facilities S&E"
+    },
+    {
+      "image_path": "images/synthetic_00218_c64b5880.png",
+      "annotation_path": "annotations/synthetic_00218_c64b5880.json",
+      "document_psc": "",
+      "document_category": "Product",
+      "document_portfolio": ""
+    },
+    {
+      "image_path": "images/synthetic_00246_92c8965f.png",
+      "annotation_path": "annotations/synthetic_00246_92c8965f.json",
+      "document_psc": "",
+      "document_category": "Fuels",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00112_45f66aea.png",
+      "annotation_path": "annotations/synthetic_00112_45f66aea.json",
+      "document_psc": "",
+      "document_category": "Maintenance, Repair and Overhaul",
+      "document_portfolio": "Equipment Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00169_e2284c02.png",
+      "annotation_path": "annotations/synthetic_00169_e2284c02.json",
+      "document_psc": "",
+      "document_category": "Marketing and Distribution",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00148_82f89fdf.png",
+      "annotation_path": "annotations/synthetic_00148_82f89fdf.json",
+      "document_psc": "",
+      "document_category": "Subsistence",
+      "document_portfolio": "Clothing, Textiles & Subsistence S&E"
+    },
+    {
+      "image_path": "images/synthetic_00279_ab0293ba.png",
+      "annotation_path": "annotations/synthetic_00279_ab0293ba.json",
+      "document_psc": "",
+      "document_category": "Legal services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00443_ac444a56.png",
+      "annotation_path": "annotations/synthetic_00443_ac444a56.json",
+      "document_psc": "",
+      "document_category": "Guided Missiles",
+      "document_portfolio": "Weapons & Ammunition"
+    },
+    {
+      "image_path": "images/synthetic_00094_326982a6.png",
+      "annotation_path": "annotations/synthetic_00094_326982a6.json",
+      "document_psc": "",
+      "document_category": "Support Ships & Small Craft",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00182_4a0d9087.png",
+      "annotation_path": "annotations/synthetic_00182_4a0d9087.json",
+      "document_psc": "",
+      "document_category": "Office Management Services",
+      "document_portfolio": ""
+    },
+    {
+      "image_path": "images/synthetic_00157_1414af8c.png",
+      "annotation_path": "annotations/synthetic_00157_1414af8c.json",
+      "document_psc": "",
+      "document_category": "Test & Measurement Supplies",
+      "document_portfolio": "Facilities S&E"
+    },
+    {
+      "image_path": "images/synthetic_00256_3d58ca7a.png",
+      "annotation_path": "annotations/synthetic_00256_3d58ca7a.json",
+      "document_psc": "",
+      "document_category": "Lodging",
+      "document_portfolio": "Transportation Services"
+    },
+    {
+      "image_path": "images/synthetic_00397_90e8f929.png",
+      "annotation_path": "annotations/synthetic_00397_90e8f929.json",
+      "document_psc": "",
+      "document_category": "Machinery & Components",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00273_21ea3e6a.png",
+      "annotation_path": "annotations/synthetic_00273_21ea3e6a.json",
+      "document_psc": "",
+      "document_category": "Specialized educational services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00043_6e1a1e73.png",
+      "annotation_path": "annotations/synthetic_00043_6e1a1e73.json",
+      "document_psc": "",
+      "document_category": "Purchases & Leases",
+      "document_portfolio": "Equipment Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00487_abd48de0.png",
+      "annotation_path": "annotations/synthetic_00487_abd48de0.json",
+      "document_psc": "",
+      "document_category": "Legal services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00293_4251e46e.png",
+      "annotation_path": "annotations/synthetic_00293_4251e46e.json",
+      "document_psc": "",
+      "document_category": "Equipment Maintenance",
+      "document_portfolio": "Electronic & Communication Services"
+    },
+    {
+      "image_path": "images/synthetic_00150_49a8352b.png",
+      "annotation_path": "annotations/synthetic_00150_49a8352b.json",
+      "document_psc": "",
+      "document_category": "Security Systems",
+      "document_portfolio": "Facilities S&E"
+    },
+    {
+      "image_path": "images/synthetic_00495_4bbcdede.png",
+      "annotation_path": "annotations/synthetic_00495_4bbcdede.json",
+      "document_psc": "",
+      "document_category": "Industrial Products Install / Maintenance / Repair",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00132_df643160.png",
+      "annotation_path": "annotations/synthetic_00132_df643160.json",
+      "document_psc": "",
+      "document_category": "Supply Parts",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00144_9f7b1723.png",
+      "annotation_path": "annotations/synthetic_00144_9f7b1723.json",
+      "document_psc": "",
+      "document_category": "Business administration services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00337_8cda488d.png",
+      "annotation_path": "annotations/synthetic_00337_8cda488d.json",
+      "document_psc": "",
+      "document_category": "Fuels",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00412_1ec2edd1.png",
+      "annotation_path": "annotations/synthetic_00412_1ec2edd1.json",
+      "document_psc": "",
+      "document_category": "Materials",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00120_2b5e4bd9.png",
+      "annotation_path": "annotations/synthetic_00120_2b5e4bd9.json",
+      "document_psc": "",
+      "document_category": "Specialized educational services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00435_1ddf8eea.png",
+      "annotation_path": "annotations/synthetic_00435_1ddf8eea.json",
+      "document_psc": "",
+      "document_category": "Drugs and Pharmaceutical Products",
+      "document_portfolio": "Clothing, Textiles & Subsistence S&E"
+    },
+    {
+      "image_path": "images/synthetic_00332_ee9643bc.png",
+      "annotation_path": "annotations/synthetic_00332_ee9643bc.json",
+      "document_psc": "",
+      "document_category": "Transportation of Things",
+      "document_portfolio": "Transportation Services"
+    },
+    {
+      "image_path": "images/synthetic_00446_c44b28da.png",
+      "annotation_path": "annotations/synthetic_00446_c44b28da.json",
+      "document_psc": "",
+      "document_category": "Human Resources Services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00399_c996e884.png",
+      "annotation_path": "annotations/synthetic_00399_c996e884.json",
+      "document_psc": "",
+      "document_category": "Training Aids and Devices",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00393_385e19a7.png",
+      "annotation_path": "annotations/synthetic_00393_385e19a7.json",
+      "document_psc": "",
+      "document_category": "Aircraft",
+      "document_portfolio": ""
+    },
+    {
+      "image_path": "images/synthetic_00027_19da641b.png",
+      "annotation_path": "annotations/synthetic_00027_19da641b.json",
+      "document_psc": "",
+      "document_category": "Drones",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00308_2c9791ef.png",
+      "annotation_path": "annotations/synthetic_00308_2c9791ef.json",
+      "document_psc": "",
+      "document_category": "Drones",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00190_8dc97ac0.png",
+      "annotation_path": "annotations/synthetic_00190_8dc97ac0.json",
+      "document_psc": "",
+      "document_category": "Legal services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00032_225b531e.png",
+      "annotation_path": "annotations/synthetic_00032_225b531e.json",
+      "document_psc": "",
+      "document_category": "Installation of Equipment",
+      "document_portfolio": "Equipment Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00222_76508801.png",
+      "annotation_path": "annotations/synthetic_00222_76508801.json",
+      "document_psc": "",
+      "document_category": "IT Professional Service (Labor)",
+      "document_portfolio": ""
+    },
+    {
+      "image_path": "images/synthetic_00282_8674ec6d.png",
+      "annotation_path": "annotations/synthetic_00282_8674ec6d.json",
+      "document_psc": "",
+      "document_category": "Trade Policy and Services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00319_439926e8.png",
+      "annotation_path": "annotations/synthetic_00319_439926e8.json",
+      "document_psc": "",
+      "document_category": "Hardware & Tools",
+      "document_portfolio": "Facilities S&E"
+    },
+    {
+      "image_path": "images/synthetic_00009_f80a1b4c.png",
+      "annotation_path": "annotations/synthetic_00009_f80a1b4c.json",
+      "document_psc": "",
+      "document_category": "Support Ships & Small Craft",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00371_4ef74570.png",
+      "annotation_path": "annotations/synthetic_00371_4ef74570.json",
+      "document_psc": "",
+      "document_category": "Training Aids and Devices",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00049_1846d143.png",
+      "annotation_path": "annotations/synthetic_00049_1846d143.json",
+      "document_psc": "",
+      "document_category": "Detection & Coherent Radiation Eq",
+      "document_portfolio": "Electronic & Communication Equipment"
+    },
+    {
+      "image_path": "images/synthetic_00356_1b4734d1.png",
+      "annotation_path": "annotations/synthetic_00356_1b4734d1.json",
+      "document_psc": "",
+      "document_category": "Construction Related Services",
+      "document_portfolio": "Construction Services"
+    },
+    {
+      "image_path": "images/synthetic_00333_d172ae15.png",
+      "annotation_path": "annotations/synthetic_00333_d172ae15.json",
+      "document_psc": "",
+      "document_category": "Transportation of Things",
+      "document_portfolio": "Transportation Services"
+    },
+    {
+      "image_path": "images/synthetic_00387_0e49151f.png",
+      "annotation_path": "annotations/synthetic_00387_0e49151f.json",
+      "document_psc": "",
+      "document_category": "Business administration services",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00276_faba87a9.png",
+      "annotation_path": "annotations/synthetic_00276_faba87a9.json",
+      "document_psc": "",
+      "document_category": "Travel Agent & Misc Svcs",
+      "document_portfolio": "Transportation Services"
+    },
+    {
+      "image_path": "images/synthetic_00386_b8b98679.png",
+      "annotation_path": "annotations/synthetic_00386_b8b98679.json",
+      "document_psc": "",
+      "document_category": "Aircraft",
+      "document_portfolio": "Aircraft, Ships/Submarines & Land Vehicles"
+    },
+    {
+      "image_path": "images/synthetic_00123_e95303cd.png",
+      "annotation_path": "annotations/synthetic_00123_e95303cd.json",
+      "document_psc": "",
+      "document_category": "Supply Parts",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00268_473474d8.png",
+      "annotation_path": "annotations/synthetic_00268_473474d8.json",
+      "document_psc": "",
+      "document_category": "Guided Missiles",
+      "document_portfolio": "Weapons & Ammunition"
+    },
+    {
+      "image_path": "images/synthetic_00431_9d8fd26e.png",
+      "annotation_path": "annotations/synthetic_00431_9d8fd26e.json",
+      "document_psc": "",
+      "document_category": "Construction Related Materials",
+      "document_portfolio": "Facilities S&E"
+    },
+    {
+      "image_path": "images/synthetic_00225_8a25baf0.png",
+      "annotation_path": "annotations/synthetic_00225_8a25baf0.json",
+      "document_psc": "",
+      "document_category": "Machinery & Components",
+      "document_portfolio": "Facilities S&E"
+    },
+    {
+      "image_path": "images/synthetic_00238_85bf4a65.png",
+      "annotation_path": "annotations/synthetic_00238_85bf4a65.json",
+      "document_psc": "",
+      "document_category": "Detection & Coherent Radiation Eq",
+      "document_portfolio": "Electronic & Communication Equipment"
+    },
+    {
+      "image_path": "images/synthetic_00066_69a1a50c.png",
+      "annotation_path": "annotations/synthetic_00066_69a1a50c.json",
+      "document_psc": "",
+      "document_category": "Security Services",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00460_df90e938.png",
+      "annotation_path": "annotations/synthetic_00460_df90e938.json",
+      "document_psc": "",
+      "document_category": "Security Systems",
+      "document_portfolio": "Electronic & Communication Equipment"
+    },
+    {
+      "image_path": "images/synthetic_00077_5286a537.png",
+      "annotation_path": "annotations/synthetic_00077_5286a537.json",
+      "document_psc": "",
+      "document_category": "Ships & Submarines",
+      "document_portfolio": "Aircraft, Ships/Submarines & Land Vehicles"
+    },
+    {
+      "image_path": "images/synthetic_00271_c5b4b15d.png",
+      "annotation_path": "annotations/synthetic_00271_c5b4b15d.json",
+      "document_psc": "",
+      "document_category": "Fire/Rescue/Safety/Environmental Protection Equipment",
+      "document_portfolio": "Facilities S&E"
+    },
+    {
+      "image_path": "images/synthetic_00369_fbdd442c.png",
+      "annotation_path": "annotations/synthetic_00369_fbdd442c.json",
+      "document_psc": "",
+      "document_category": "Facilities Purchase & Lease",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00286_f57aa9ed.png",
+      "annotation_path": "annotations/synthetic_00286_f57aa9ed.json",
+      "document_psc": "",
+      "document_category": "Night Vision Eq",
+      "document_portfolio": "Electronic & Communication Equipment"
+    },
+    {
+      "image_path": "images/synthetic_00085_52b7deb8.png",
+      "annotation_path": "annotations/synthetic_00085_52b7deb8.json",
+      "document_psc": "",
+      "document_category": "",
+      "document_portfolio": "Research and Development"
+    },
+    {
+      "image_path": "images/synthetic_00230_6651c440.png",
+      "annotation_path": "annotations/synthetic_00230_6651c440.json",
+      "document_psc": "",
+      "document_category": "Quality Control",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00184_285f68f2.png",
+      "annotation_path": "annotations/synthetic_00184_285f68f2.json",
+      "document_psc": "",
+      "document_category": "Facility Related Services",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00131_048a955e.png",
+      "annotation_path": "annotations/synthetic_00131_048a955e.json",
+      "document_psc": "",
+      "document_category": "Human Resources Services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00404_32f21382.png",
+      "annotation_path": "annotations/synthetic_00404_32f21382.json",
+      "document_psc": "",
+      "document_category": "Materials",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00103_377834c1.png",
+      "annotation_path": "annotations/synthetic_00103_377834c1.json",
+      "document_psc": "",
+      "document_category": "Test & Measurement Supplies",
+      "document_portfolio": "Facilities S&E"
+    },
+    {
+      "image_path": "images/synthetic_00499_344b1032.png",
+      "annotation_path": "annotations/synthetic_00499_344b1032.json",
+      "document_psc": "",
+      "document_category": "Healthcare Services",
+      "document_portfolio": ""
+    },
+    {
+      "image_path": "images/synthetic_00476_098e3f6b.png",
+      "annotation_path": "annotations/synthetic_00476_098e3f6b.json",
+      "document_psc": "",
+      "document_category": "Security Services",
+      "document_portfolio": "Electronic & Communication Services"
+    },
+    {
+      "image_path": "images/synthetic_00191_ad5a6e28.png",
+      "annotation_path": "annotations/synthetic_00191_ad5a6e28.json",
+      "document_psc": "",
+      "document_category": "Training Aids and Devices",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00015_d6432f96.png",
+      "annotation_path": "annotations/synthetic_00015_d6432f96.json",
+      "document_psc": "",
+      "document_category": "Ships & Submarines",
+      "document_portfolio": "Aircraft, Ships/Submarines & Land Vehicles"
+    },
+    {
+      "image_path": "images/synthetic_00155_84691877.png",
+      "annotation_path": "annotations/synthetic_00155_84691877.json",
+      "document_psc": "",
+      "document_category": "Equipment Modification",
+      "document_portfolio": "Equipment Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00423_9e9f6995.png",
+      "annotation_path": "annotations/synthetic_00423_9e9f6995.json",
+      "document_psc": "",
+      "document_category": "Ammunition & Explosives",
+      "document_portfolio": "Weapons & Ammunition"
+    },
+    {
+      "image_path": "images/synthetic_00036_db0a6de3.png",
+      "annotation_path": "annotations/synthetic_00036_db0a6de3.json",
+      "document_psc": "",
+      "document_category": "Oils, Lubricants, and Waxes",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00264_76750cbd.png",
+      "annotation_path": "annotations/synthetic_00264_76750cbd.json",
+      "document_psc": "",
+      "document_category": "Healthcare Services",
+      "document_portfolio": "Medical Services"
+    },
+    {
+      "image_path": "images/synthetic_00060_9e6d2b82.png",
+      "annotation_path": "annotations/synthetic_00060_9e6d2b82.json",
+      "document_psc": "",
+      "document_category": "Drones",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00339_095c7a35.png",
+      "annotation_path": "annotations/synthetic_00339_095c7a35.json",
+      "document_psc": "",
+      "document_category": "Guns",
+      "document_portfolio": "Weapons & Ammunition"
+    },
+    {
+      "image_path": "images/synthetic_00173_b703691f.png",
+      "annotation_path": "annotations/synthetic_00173_b703691f.json",
+      "document_psc": "",
+      "document_category": "Equipment Maintenance",
+      "document_portfolio": "Electronic & Communication Services"
+    },
+    {
+      "image_path": "images/synthetic_00189_2e5d5d23.png",
+      "annotation_path": "annotations/synthetic_00189_2e5d5d23.json",
+      "document_psc": "",
+      "document_category": "Maintenance, Repair and Overhaul",
+      "document_portfolio": "Equipment Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00205_159fec6f.png",
+      "annotation_path": "annotations/synthetic_00205_159fec6f.json",
+      "document_psc": "",
+      "document_category": "Medical Equipment and Accessories and Supplies",
+      "document_portfolio": "Clothing, Textiles & Subsistence S&E"
+    },
+    {
+      "image_path": "images/synthetic_00001_b5c31629.png",
+      "annotation_path": "annotations/synthetic_00001_b5c31629.json",
+      "document_psc": "",
+      "document_category": "Guided Missiles",
+      "document_portfolio": "Weapons & Ammunition"
+    },
+    {
+      "image_path": "images/synthetic_00445_13c158c8.png",
+      "annotation_path": "annotations/synthetic_00445_13c158c8.json",
+      "document_psc": "",
+      "document_category": "Support Ships & Small Craft",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00056_2048a7bd.png",
+      "annotation_path": "annotations/synthetic_00056_2048a7bd.json",
+      "document_psc": "",
+      "document_category": "Technical and Engineering Services (non-IT)",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00034_92ce4896.png",
+      "annotation_path": "annotations/synthetic_00034_92ce4896.json",
+      "document_psc": "",
+      "document_category": "Legal services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00364_159fb878.png",
+      "annotation_path": "annotations/synthetic_00364_159fb878.json",
+      "document_psc": "",
+      "document_category": "Capability As a Service",
+      "document_portfolio": ""
+    },
+    {
+      "image_path": "images/synthetic_00455_b234e1cf.png",
+      "annotation_path": "annotations/synthetic_00455_b234e1cf.json",
+      "document_psc": "",
+      "document_category": "Engines, Components & Spt Eq",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00105_f24a80ad.png",
+      "annotation_path": "annotations/synthetic_00105_f24a80ad.json",
+      "document_psc": "",
+      "document_category": "Construction Related Services",
+      "document_portfolio": "Construction Services"
+    },
+    {
+      "image_path": "images/synthetic_00035_6cefaff8.png",
+      "annotation_path": "annotations/synthetic_00035_6cefaff8.json",
+      "document_psc": "",
+      "document_category": "Security Systems",
+      "document_portfolio": "Facilities S&E"
+    },
+    {
+      "image_path": "images/synthetic_00485_d506a10b.png",
+      "annotation_path": "annotations/synthetic_00485_d506a10b.json",
+      "document_psc": "",
+      "document_category": "Capability As a Service",
+      "document_portfolio": ""
+    },
+    {
+      "image_path": "images/synthetic_00429_dbc74738.png",
+      "annotation_path": "annotations/synthetic_00429_dbc74738.json",
+      "document_psc": "",
+      "document_category": "Financial Services",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00029_cde2b657.png",
+      "annotation_path": "annotations/synthetic_00029_cde2b657.json",
+      "document_psc": "",
+      "document_category": "IT Professional Service (Labor)",
+      "document_portfolio": ""
+    },
+    {
+      "image_path": "images/synthetic_00185_9e8b99bc.png",
+      "annotation_path": "annotations/synthetic_00185_9e8b99bc.json",
+      "document_psc": "",
+      "document_category": "Public Relations and Professional Communications Services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00106_af212835.png",
+      "annotation_path": "annotations/synthetic_00106_af212835.json",
+      "document_psc": "",
+      "document_category": "Industrial Products Install / Maintenance / Repair",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00070_49394ad3.png",
+      "annotation_path": "annotations/synthetic_00070_49394ad3.json",
+      "document_psc": "",
+      "document_category": "Public Relations and Professional Communications Services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00449_65732ac1.png",
+      "annotation_path": "annotations/synthetic_00449_65732ac1.json",
+      "document_psc": "",
+      "document_category": "Guns",
+      "document_portfolio": "Weapons & Ammunition"
+    },
+    {
+      "image_path": "images/synthetic_00323_c96fa14e.png",
+      "annotation_path": "annotations/synthetic_00323_c96fa14e.json",
+      "document_psc": "",
+      "document_category": "Trade Policy and Services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00409_731981bb.png",
+      "annotation_path": "annotations/synthetic_00409_731981bb.json",
+      "document_psc": "",
+      "document_category": "Guns",
+      "document_portfolio": "Weapons & Ammunition"
+    },
+    {
+      "image_path": "images/synthetic_00152_1d11207a.png",
+      "annotation_path": "annotations/synthetic_00152_1d11207a.json",
+      "document_psc": "",
+      "document_category": "Drugs and Pharmaceutical Products",
+      "document_portfolio": "Clothing, Textiles & Subsistence S&E"
+    },
+    {
+      "image_path": "images/synthetic_00370_5bdc64b3.png",
+      "annotation_path": "annotations/synthetic_00370_5bdc64b3.json",
+      "document_psc": "",
+      "document_category": "Business Administration Services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00010_0824aebf.png",
+      "annotation_path": "annotations/synthetic_00010_0824aebf.json",
+      "document_psc": "",
+      "document_category": "Support Ships & Small Craft",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00091_7bbb70fa.png",
+      "annotation_path": "annotations/synthetic_00091_7bbb70fa.json",
+      "document_psc": "",
+      "document_category": "Financial Services",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00040_c3dcc169.png",
+      "annotation_path": "annotations/synthetic_00040_c3dcc169.json",
+      "document_psc": "",
+      "document_category": "Office Management Services",
+      "document_portfolio": ""
+    },
+    {
+      "image_path": "images/synthetic_00304_72bdab60.png",
+      "annotation_path": "annotations/synthetic_00304_72bdab60.json",
+      "document_psc": "",
+      "document_category": "Support Ships & Small Craft",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00381_9353f9d7.png",
+      "annotation_path": "annotations/synthetic_00381_9353f9d7.json",
+      "document_psc": "",
+      "document_category": "Public Relations and Professional Communications Services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00233_af60b390.png",
+      "annotation_path": "annotations/synthetic_00233_af60b390.json",
+      "document_psc": "",
+      "document_category": "Drugs and Pharmaceutical Products",
+      "document_portfolio": "Clothing, Textiles & Subsistence S&E"
+    },
+    {
+      "image_path": "images/synthetic_00255_7acef5ed.png",
+      "annotation_path": "annotations/synthetic_00255_7acef5ed.json",
+      "document_psc": "",
+      "document_category": "Office Management Products",
+      "document_portfolio": "Electronic & Communication Equipment"
+    },
+    {
+      "image_path": "images/synthetic_00491_b0868a3b.png",
+      "annotation_path": "annotations/synthetic_00491_b0868a3b.json",
+      "document_psc": "",
+      "document_category": "Vocational Training",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00461_fdf17a7c.png",
+      "annotation_path": "annotations/synthetic_00461_fdf17a7c.json",
+      "document_psc": "",
+      "document_category": "Product",
+      "document_portfolio": ""
+    },
+    {
+      "image_path": "images/synthetic_00377_758ec7f2.png",
+      "annotation_path": "annotations/synthetic_00377_758ec7f2.json",
+      "document_psc": "",
+      "document_category": "Trade Policy and Services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00438_74f0b4db.png",
+      "annotation_path": "annotations/synthetic_00438_74f0b4db.json",
+      "document_psc": "",
+      "document_category": "Lodging",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00463_4b4a4a43.png",
+      "annotation_path": "annotations/synthetic_00463_4b4a4a43.json",
+      "document_psc": "",
+      "document_category": "Medical Equipment and Accessories and Supplies",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00479_87d65e04.png",
+      "annotation_path": "annotations/synthetic_00479_87d65e04.json",
+      "document_psc": "",
+      "document_category": "Support Ships & Small Craft",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00044_323ed695.png",
+      "annotation_path": "annotations/synthetic_00044_323ed695.json",
+      "document_psc": "",
+      "document_category": "Training Aids and Devices",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00072_674eb992.png",
+      "annotation_path": "annotations/synthetic_00072_674eb992.json",
+      "document_psc": "",
+      "document_category": "Management Advisory Services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00312_11323deb.png",
+      "annotation_path": "annotations/synthetic_00312_11323deb.json",
+      "document_psc": "",
+      "document_category": "IT Professional Service (Labor)",
+      "document_portfolio": ""
+    },
+    {
+      "image_path": "images/synthetic_00088_4063aa30.png",
+      "annotation_path": "annotations/synthetic_00088_4063aa30.json",
+      "document_psc": "",
+      "document_category": "Capability As a Service",
+      "document_portfolio": ""
+    },
+    {
+      "image_path": "images/synthetic_00324_90a2f62c.png",
+      "annotation_path": "annotations/synthetic_00324_90a2f62c.json",
+      "document_psc": "",
+      "document_category": "Trade Policy and Services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00033_a342cb69.png",
+      "annotation_path": "annotations/synthetic_00033_a342cb69.json",
+      "document_psc": "",
+      "document_category": "Detection & Coherent Radiation Eq",
+      "document_portfolio": "Electronic & Communication Equipment"
+    },
+    {
+      "image_path": "images/synthetic_00075_8329a067.png",
+      "annotation_path": "annotations/synthetic_00075_8329a067.json",
+      "document_psc": "",
+      "document_category": "Travel Agent & Misc Svcs",
+      "document_portfolio": "Transportation Services"
+    },
+    {
+      "image_path": "images/synthetic_00018_89b31608.png",
+      "annotation_path": "annotations/synthetic_00018_89b31608.json",
+      "document_psc": "",
+      "document_category": "Transportation of Things",
+      "document_portfolio": "Transportation Services"
+    },
+    {
+      "image_path": "images/synthetic_00242_28f527ed.png",
+      "annotation_path": "annotations/synthetic_00242_28f527ed.json",
+      "document_psc": "",
+      "document_category": "Legal Services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00263_becc8e0b.png",
+      "annotation_path": "annotations/synthetic_00263_becc8e0b.json",
+      "document_psc": "",
+      "document_category": "Support Ships & Small Craft",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00494_0b48038f.png",
+      "annotation_path": "annotations/synthetic_00494_0b48038f.json",
+      "document_psc": "",
+      "document_category": "Quality Control",
+      "document_portfolio": "Equipment Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00310_f0f54f96.png",
+      "annotation_path": "annotations/synthetic_00310_f0f54f96.json",
+      "document_psc": "",
+      "document_category": "Office Management Products",
+      "document_portfolio": "Facilities S&E"
+    },
+    {
+      "image_path": "images/synthetic_00149_fe2b9495.png",
+      "annotation_path": "annotations/synthetic_00149_fe2b9495.json",
+      "document_psc": "",
+      "document_category": "Business administration services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00373_49793863.png",
+      "annotation_path": "annotations/synthetic_00373_49793863.json",
+      "document_psc": "",
+      "document_category": "Office Management Products",
+      "document_portfolio": "Facilities S&E"
+    },
+    {
+      "image_path": "images/synthetic_00127_6d9ef6f8.png",
+      "annotation_path": "annotations/synthetic_00127_6d9ef6f8.json",
+      "document_psc": "",
+      "document_category": "Motor Vehicles",
+      "document_portfolio": "Equipment Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00471_c85b7718.png",
+      "annotation_path": "annotations/synthetic_00471_c85b7718.json",
+      "document_psc": "",
+      "document_category": "Materials",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00417_9f4c3d29.png",
+      "annotation_path": "annotations/synthetic_00417_9f4c3d29.json",
+      "document_psc": "",
+      "document_category": "Capability As a Service",
+      "document_portfolio": ""
+    },
+    {
+      "image_path": "images/synthetic_00251_fe135d40.png",
+      "annotation_path": "annotations/synthetic_00251_fe135d40.json",
+      "document_psc": "",
+      "document_category": "Salvage Services",
+      "document_portfolio": "Equipment Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00497_038c5612.png",
+      "annotation_path": "annotations/synthetic_00497_038c5612.json",
+      "document_psc": "",
+      "document_category": "Test & Measurement Supplies",
+      "document_portfolio": "Facilities S&E"
+    },
+    {
+      "image_path": "images/synthetic_00193_e9983426.png",
+      "annotation_path": "annotations/synthetic_00193_e9983426.json",
+      "document_psc": "",
+      "document_category": "Construction Related Materials",
+      "document_portfolio": "Facilities S&E"
+    },
+    {
+      "image_path": "images/synthetic_00109_6c39e88b.png",
+      "annotation_path": "annotations/synthetic_00109_6c39e88b.json",
+      "document_psc": "",
+      "document_category": "Purchases & Leases",
+      "document_portfolio": "Equipment Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00454_396f25ec.png",
+      "annotation_path": "annotations/synthetic_00454_396f25ec.json",
+      "document_psc": "",
+      "document_category": "Legal Services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00416_19e44101.png",
+      "annotation_path": "annotations/synthetic_00416_19e44101.json",
+      "document_psc": "",
+      "document_category": "Industrial Products Install / Maintenance / Repair",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00414_48e9c9ea.png",
+      "annotation_path": "annotations/synthetic_00414_48e9c9ea.json",
+      "document_psc": "",
+      "document_category": "Facilities Purchase & Lease",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00208_9e4901c9.png",
+      "annotation_path": "annotations/synthetic_00208_9e4901c9.json",
+      "document_psc": "",
+      "document_category": "Basic Materials",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00484_e6aba9a8.png",
+      "annotation_path": "annotations/synthetic_00484_e6aba9a8.json",
+      "document_psc": "",
+      "document_category": "Human Resources Services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00266_b14a3552.png",
+      "annotation_path": "annotations/synthetic_00266_b14a3552.json",
+      "document_psc": "",
+      "document_category": "Office Management Services",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00301_420b5166.png",
+      "annotation_path": "annotations/synthetic_00301_420b5166.json",
+      "document_psc": "",
+      "document_category": "Facilities Purchase & Lease",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00200_7ed42259.png",
+      "annotation_path": "annotations/synthetic_00200_7ed42259.json",
+      "document_psc": "",
+      "document_category": "Facility Related Materials",
+      "document_portfolio": "Facilities S&E"
+    },
+    {
+      "image_path": "images/synthetic_00315_33e541df.png",
+      "annotation_path": "annotations/synthetic_00315_33e541df.json",
+      "document_psc": "",
+      "document_category": "Passenger Travel",
+      "document_portfolio": "Transportation Services"
+    },
+    {
+      "image_path": "images/synthetic_00289_e3ea001e.png",
+      "annotation_path": "annotations/synthetic_00289_e3ea001e.json",
+      "document_psc": "",
+      "document_category": "Furniture",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00055_68f6ffd9.png",
+      "annotation_path": "annotations/synthetic_00055_68f6ffd9.json",
+      "document_psc": "",
+      "document_category": "Equipment Maintenance",
+      "document_portfolio": "Electronic & Communication Services"
+    },
+    {
+      "image_path": "images/synthetic_00421_7f2a5a4f.png",
+      "annotation_path": "annotations/synthetic_00421_7f2a5a4f.json",
+      "document_psc": "",
+      "document_category": "IT Professional Service (Labor)",
+      "document_portfolio": ""
+    },
+    {
+      "image_path": "images/synthetic_00092_ba1a355e.png",
+      "annotation_path": "annotations/synthetic_00092_ba1a355e.json",
+      "document_psc": "",
+      "document_category": "Equipment Modification",
+      "document_portfolio": "Equipment Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00005_06b95988.png",
+      "annotation_path": "annotations/synthetic_00005_06b95988.json",
+      "document_psc": "",
+      "document_category": "Product",
+      "document_portfolio": ""
+    },
+    {
+      "image_path": "images/synthetic_00228_584b0dd0.png",
+      "annotation_path": "annotations/synthetic_00228_584b0dd0.json",
+      "document_psc": "",
+      "document_category": "Fire Control",
+      "document_portfolio": "Weapons & Ammunition"
+    },
+    {
+      "image_path": "images/synthetic_00177_eb20c4d0.png",
+      "annotation_path": "annotations/synthetic_00177_eb20c4d0.json",
+      "document_psc": "",
+      "document_category": "Purchases & Leases",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00267_06cb83e6.png",
+      "annotation_path": "annotations/synthetic_00267_06cb83e6.json",
+      "document_psc": "",
+      "document_category": "Financial Services",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00372_a22f313b.png",
+      "annotation_path": "annotations/synthetic_00372_a22f313b.json",
+      "document_psc": "",
+      "document_category": "Fuels",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00311_2d150794.png",
+      "annotation_path": "annotations/synthetic_00311_2d150794.json",
+      "document_psc": "",
+      "document_category": "Financial Services",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00206_79b4585c.png",
+      "annotation_path": "annotations/synthetic_00206_79b4585c.json",
+      "document_psc": "",
+      "document_category": "Electrical & Electronics Equipment",
+      "document_portfolio": "Electronic & Communication Equipment"
+    },
+    {
+      "image_path": "images/synthetic_00214_d7a253d5.png",
+      "annotation_path": "annotations/synthetic_00214_d7a253d5.json",
+      "document_psc": "",
+      "document_category": "Aircraft",
+      "document_portfolio": ""
+    },
+    {
+      "image_path": "images/synthetic_00142_ecd15ed4.png",
+      "annotation_path": "annotations/synthetic_00142_ecd15ed4.json",
+      "document_psc": "",
+      "document_category": "Package Delivery & Packaging",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00357_f55e70b6.png",
+      "annotation_path": "annotations/synthetic_00357_f55e70b6.json",
+      "document_psc": "",
+      "document_category": "Equipment Leases",
+      "document_portfolio": "Electronic & Communication Services"
+    },
+    {
+      "image_path": "images/synthetic_00314_8bf84f7c.png",
+      "annotation_path": "annotations/synthetic_00314_8bf84f7c.json",
+      "document_psc": "",
+      "document_category": "Public Relations and Professional Communications Services",
+      "document_portfolio": "Electronic & Communication Services"
+    },
+    {
+      "image_path": "images/synthetic_00407_191204cb.png",
+      "annotation_path": "annotations/synthetic_00407_191204cb.json",
+      "document_psc": "",
+      "document_category": "Test & Measurement Supplies",
+      "document_portfolio": "Facilities S&E"
+    },
+    {
+      "image_path": "images/synthetic_00220_67d18e76.png",
+      "annotation_path": "annotations/synthetic_00220_67d18e76.json",
+      "document_psc": "",
+      "document_category": "Management Advisory Services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00257_97a4abcb.png",
+      "annotation_path": "annotations/synthetic_00257_97a4abcb.json",
+      "document_psc": "",
+      "document_category": "Security Systems",
+      "document_portfolio": "Electronic & Communication Equipment"
+    },
+    {
+      "image_path": "images/synthetic_00078_1450e04b.png",
+      "annotation_path": "annotations/synthetic_00078_1450e04b.json",
+      "document_psc": "",
+      "document_category": "Public Relations and Professional Communications Services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00395_f11326d8.png",
+      "annotation_path": "annotations/synthetic_00395_f11326d8.json",
+      "document_psc": "",
+      "document_category": "Financial services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00030_ef692080.png",
+      "annotation_path": "annotations/synthetic_00030_ef692080.json",
+      "document_psc": "",
+      "document_category": "Financial services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00367_3967aad4.png",
+      "annotation_path": "annotations/synthetic_00367_3967aad4.json",
+      "document_psc": "",
+      "document_category": "Motor Vehicles",
+      "document_portfolio": "Equipment Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00126_d09fae34.png",
+      "annotation_path": "annotations/synthetic_00126_d09fae34.json",
+      "document_psc": "",
+      "document_category": "Fire/Rescue/Safety/Environmental Protection Equipment",
+      "document_portfolio": "Facilities S&E"
+    },
+    {
+      "image_path": "images/synthetic_00012_f50a657f.png",
+      "annotation_path": "annotations/synthetic_00012_f50a657f.json",
+      "document_psc": "",
+      "document_category": "Training Aids and Devices",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00204_59932312.png",
+      "annotation_path": "annotations/synthetic_00204_59932312.json",
+      "document_psc": "",
+      "document_category": "Machinery & Components",
+      "document_portfolio": "Facilities S&E"
+    },
+    {
+      "image_path": "images/synthetic_00473_4eaa067e.png",
+      "annotation_path": "annotations/synthetic_00473_4eaa067e.json",
+      "document_psc": "",
+      "document_category": "Aircraft",
+      "document_portfolio": "Aircraft, Ships/Submarines & Land Vehicles"
+    },
+    {
+      "image_path": "images/synthetic_00181_31dbd6cd.png",
+      "annotation_path": "annotations/synthetic_00181_31dbd6cd.json",
+      "document_psc": "",
+      "document_category": "Maintenance, Repair and Overhaul",
+      "document_portfolio": "Equipment Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00450_9dc077e9.png",
+      "annotation_path": "annotations/synthetic_00450_9dc077e9.json",
+      "document_psc": "",
+      "document_category": "Motor Vehicles",
+      "document_portfolio": "Equipment Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00496_fc8dbd6b.png",
+      "annotation_path": "annotations/synthetic_00496_fc8dbd6b.json",
+      "document_psc": "",
+      "document_category": "Healthcare Services",
+      "document_portfolio": "Medical Services"
+    },
+    {
+      "image_path": "images/synthetic_00477_bb8817e0.png",
+      "annotation_path": "annotations/synthetic_00477_bb8817e0.json",
+      "document_psc": "",
+      "document_category": "Business administration services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00389_6c1b3608.png",
+      "annotation_path": "annotations/synthetic_00389_6c1b3608.json",
+      "document_psc": "",
+      "document_category": "Detection & Coherent Radiation Eq",
+      "document_portfolio": "Electronic & Communication Equipment"
+    },
+    {
+      "image_path": "images/synthetic_00291_32195e60.png",
+      "annotation_path": "annotations/synthetic_00291_32195e60.json",
+      "document_psc": "",
+      "document_category": "Supply Parts",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00359_2ea442e2.png",
+      "annotation_path": "annotations/synthetic_00359_2ea442e2.json",
+      "document_psc": "",
+      "document_category": "Furniture",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00203_97b54cc7.png",
+      "annotation_path": "annotations/synthetic_00203_97b54cc7.json",
+      "document_psc": "",
+      "document_category": "S&E Not Classifed Elsewhere",
+      "document_portfolio": "Facilities S&E"
+    },
+    {
+      "image_path": "images/synthetic_00129_65297c6e.png",
+      "annotation_path": "annotations/synthetic_00129_65297c6e.json",
+      "document_psc": "",
+      "document_category": "Night Vision Eq",
+      "document_portfolio": "Electronic & Communication Equipment"
+    },
+    {
+      "image_path": "images/synthetic_00089_2d4afc6b.png",
+      "annotation_path": "annotations/synthetic_00089_2d4afc6b.json",
+      "document_psc": "",
+      "document_category": "Passenger Travel",
+      "document_portfolio": "Transportation Services"
+    },
+    {
+      "image_path": "images/synthetic_00330_00b75df7.png",
+      "annotation_path": "annotations/synthetic_00330_00b75df7.json",
+      "document_psc": "",
+      "document_category": "Business administration services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00084_11d7a18f.png",
+      "annotation_path": "annotations/synthetic_00084_11d7a18f.json",
+      "document_psc": "",
+      "document_category": "Maintenance, Repair and Overhaul",
+      "document_portfolio": "Equipment Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00351_0d27c265.png",
+      "annotation_path": "annotations/synthetic_00351_0d27c265.json",
+      "document_psc": "",
+      "document_category": "IT Professional Service (Labor)",
+      "document_portfolio": ""
+    },
+    {
+      "image_path": "images/synthetic_00146_de06d37c.png",
+      "annotation_path": "annotations/synthetic_00146_de06d37c.json",
+      "document_psc": "",
+      "document_category": "Healthcare Services",
+      "document_portfolio": "Medical Services"
+    },
+    {
+      "image_path": "images/synthetic_00226_ba76009a.png",
+      "annotation_path": "annotations/synthetic_00226_ba76009a.json",
+      "document_psc": "",
+      "document_category": "Drones",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00354_cf45f6b1.png",
+      "annotation_path": "annotations/synthetic_00354_cf45f6b1.json",
+      "document_psc": "",
+      "document_category": "Transportation of Things",
+      "document_portfolio": "Transportation Services"
+    },
+    {
+      "image_path": "images/synthetic_00338_7b2a065e.png",
+      "annotation_path": "annotations/synthetic_00338_7b2a065e.json",
+      "document_psc": "",
+      "document_category": "Aircraft",
+      "document_portfolio": ""
+    },
+    {
+      "image_path": "images/synthetic_00115_1c365b06.png",
+      "annotation_path": "annotations/synthetic_00115_1c365b06.json",
+      "document_psc": "",
+      "document_category": "Financial services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00202_2558fe60.png",
+      "annotation_path": "annotations/synthetic_00202_2558fe60.json",
+      "document_psc": "",
+      "document_category": "Test & Measurement Supplies",
+      "document_portfolio": "Facilities S&E"
+    },
+    {
+      "image_path": "images/synthetic_00167_6f020673.png",
+      "annotation_path": "annotations/synthetic_00167_6f020673.json",
+      "document_psc": "",
+      "document_category": "Drones",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00265_a82c6e96.png",
+      "annotation_path": "annotations/synthetic_00265_a82c6e96.json",
+      "document_psc": "",
+      "document_category": "Technical Representative Services",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00042_566bc6ec.png",
+      "annotation_path": "annotations/synthetic_00042_566bc6ec.json",
+      "document_psc": "",
+      "document_category": "Ships & Submarines",
+      "document_portfolio": "Aircraft, Ships/Submarines & Land Vehicles"
+    },
+    {
+      "image_path": "images/synthetic_00318_e520b4e5.png",
+      "annotation_path": "annotations/synthetic_00318_e520b4e5.json",
+      "document_psc": "",
+      "document_category": "Salvage Services",
+      "document_portfolio": "Equipment Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00086_17965b7a.png",
+      "annotation_path": "annotations/synthetic_00086_17965b7a.json",
+      "document_psc": "",
+      "document_category": "Travel Agent & Misc Svcs",
+      "document_portfolio": "Transportation Services"
+    },
+    {
+      "image_path": "images/synthetic_00248_79b319fc.png",
+      "annotation_path": "annotations/synthetic_00248_79b319fc.json",
+      "document_psc": "",
+      "document_category": "Vocational Training",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00124_0dc02aab.png",
+      "annotation_path": "annotations/synthetic_00124_0dc02aab.json",
+      "document_psc": "",
+      "document_category": "Guided Missiles",
+      "document_portfolio": "Weapons & Ammunition"
+    },
+    {
+      "image_path": "images/synthetic_00113_fe2dcb14.png",
+      "annotation_path": "annotations/synthetic_00113_fe2dcb14.json",
+      "document_psc": "",
+      "document_category": "Security Animals & Related Svcs",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00346_0355a41c.png",
+      "annotation_path": "annotations/synthetic_00346_0355a41c.json",
+      "document_psc": "",
+      "document_category": "Textiles, Clothing & Equipage",
+      "document_portfolio": "Clothing, Textiles & Subsistence S&E"
+    },
+    {
+      "image_path": "images/synthetic_00180_5f32ab32.png",
+      "annotation_path": "annotations/synthetic_00180_5f32ab32.json",
+      "document_psc": "",
+      "document_category": "Vocational Training",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00472_6e5fb476.png",
+      "annotation_path": "annotations/synthetic_00472_6e5fb476.json",
+      "document_psc": "",
+      "document_category": "Oils, Lubricants, and Waxes",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00317_cda26217.png",
+      "annotation_path": "annotations/synthetic_00317_cda26217.json",
+      "document_psc": "",
+      "document_category": "Capability As a Service",
+      "document_portfolio": ""
+    },
+    {
+      "image_path": "images/synthetic_00290_1472fe5f.png",
+      "annotation_path": "annotations/synthetic_00290_1472fe5f.json",
+      "document_psc": "",
+      "document_category": "Materials",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00458_f258d4b1.png",
+      "annotation_path": "annotations/synthetic_00458_f258d4b1.json",
+      "document_psc": "",
+      "document_category": "Logistics Support Services",
+      "document_portfolio": "Transportation Services"
+    },
+    {
+      "image_path": "images/synthetic_00057_1c08a3ca.png",
+      "annotation_path": "annotations/synthetic_00057_1c08a3ca.json",
+      "document_psc": "",
+      "document_category": "Facility Related Services",
+      "document_portfolio": ""
+    },
+    {
+      "image_path": "images/synthetic_00298_f7f10952.png",
+      "annotation_path": "annotations/synthetic_00298_f7f10952.json",
+      "document_psc": "",
+      "document_category": "Management Advisory Services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00375_8f928ad0.png",
+      "annotation_path": "annotations/synthetic_00375_8f928ad0.json",
+      "document_psc": "",
+      "document_category": "Detection & Coherent Radiation Eq",
+      "document_portfolio": "Electronic & Communication Equipment"
+    },
+    {
+      "image_path": "images/synthetic_00349_57204c70.png",
+      "annotation_path": "annotations/synthetic_00349_57204c70.json",
+      "document_psc": "",
+      "document_category": "Marketing and Distribution",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00211_8bc09036.png",
+      "annotation_path": "annotations/synthetic_00211_8bc09036.json",
+      "document_psc": "",
+      "document_category": "Detection & Coherent Radiation Eq",
+      "document_portfolio": "Electronic & Communication Equipment"
+    },
+    {
+      "image_path": "images/synthetic_00145_6b6e0d49.png",
+      "annotation_path": "annotations/synthetic_00145_6b6e0d49.json",
+      "document_psc": "",
+      "document_category": "Legal Services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00096_bc0d61ea.png",
+      "annotation_path": "annotations/synthetic_00096_bc0d61ea.json",
+      "document_psc": "",
+      "document_category": "Business Administration Services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00179_6ee55a4e.png",
+      "annotation_path": "annotations/synthetic_00179_6ee55a4e.json",
+      "document_psc": "",
+      "document_category": "Technical and Engineering Services (non-IT)",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00260_1015832c.png",
+      "annotation_path": "annotations/synthetic_00260_1015832c.json",
+      "document_psc": "",
+      "document_category": "Financial services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00320_02a48eaa.png",
+      "annotation_path": "annotations/synthetic_00320_02a48eaa.json",
+      "document_psc": "",
+      "document_category": "Aircraft",
+      "document_portfolio": "Aircraft, Ships/Submarines & Land Vehicles"
+    },
+    {
+      "image_path": "images/synthetic_00134_55d69def.png",
+      "annotation_path": "annotations/synthetic_00134_55d69def.json",
+      "document_psc": "",
+      "document_category": "Installation of Equipment",
+      "document_portfolio": "Equipment Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00480_bcbd284a.png",
+      "annotation_path": "annotations/synthetic_00480_bcbd284a.json",
+      "document_psc": "",
+      "document_category": "Training Aids and Devices",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00243_cd06e576.png",
+      "annotation_path": "annotations/synthetic_00243_cd06e576.json",
+      "document_psc": "",
+      "document_category": "Business Administration Services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00054_0d54f6a8.png",
+      "annotation_path": "annotations/synthetic_00054_0d54f6a8.json",
+      "document_psc": "",
+      "document_category": "Business administration services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00187_5e7bd1fb.png",
+      "annotation_path": "annotations/synthetic_00187_5e7bd1fb.json",
+      "document_psc": "",
+      "document_category": "Management Advisory Services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00174_dffd9644.png",
+      "annotation_path": "annotations/synthetic_00174_dffd9644.json",
+      "document_psc": "",
+      "document_category": "Test & Measurement Supplies",
+      "document_portfolio": "Facilities S&E"
+    },
+    {
+      "image_path": "images/synthetic_00235_354b7bbf.png",
+      "annotation_path": "annotations/synthetic_00235_354b7bbf.json",
+      "document_psc": "",
+      "document_category": "Office Management Products",
+      "document_portfolio": "Facilities S&E"
+    },
+    {
+      "image_path": "images/synthetic_00209_ceff838d.png",
+      "annotation_path": "annotations/synthetic_00209_ceff838d.json",
+      "document_psc": "",
+      "document_category": "Capability As a Service",
+      "document_portfolio": ""
+    },
+    {
+      "image_path": "images/synthetic_00052_c02c36eb.png",
+      "annotation_path": "annotations/synthetic_00052_c02c36eb.json",
+      "document_psc": "",
+      "document_category": "Public Relations and Professional Communications Services",
+      "document_portfolio": "Electronic & Communication Services"
+    },
+    {
+      "image_path": "images/synthetic_00424_41887f27.png",
+      "annotation_path": "annotations/synthetic_00424_41887f27.json",
+      "document_psc": "",
+      "document_category": "Equipment Modification",
+      "document_portfolio": "Equipment Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00082_9c1a200e.png",
+      "annotation_path": "annotations/synthetic_00082_9c1a200e.json",
+      "document_psc": "",
+      "document_category": "Fire/Rescue/Safety/Environmental Protection Equipment",
+      "document_portfolio": "Facilities S&E"
+    },
+    {
+      "image_path": "images/synthetic_00019_13cbcc73.png",
+      "annotation_path": "annotations/synthetic_00019_13cbcc73.json",
+      "document_psc": "",
+      "document_category": "Hardware & Tools",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00269_f0098159.png",
+      "annotation_path": "annotations/synthetic_00269_f0098159.json",
+      "document_psc": "",
+      "document_category": "Quality Control",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00411_c2e3f6e2.png",
+      "annotation_path": "annotations/synthetic_00411_c2e3f6e2.json",
+      "document_psc": "",
+      "document_category": "Construction Related Services",
+      "document_portfolio": "Construction Services"
+    },
+    {
+      "image_path": "images/synthetic_00241_7cb37946.png",
+      "annotation_path": "annotations/synthetic_00241_7cb37946.json",
+      "document_psc": "",
+      "document_category": "Business Administration Services",
+      "document_portfolio": "Electronic & Communication Services"
+    },
+    {
+      "image_path": "images/synthetic_00469_1995a891.png",
+      "annotation_path": "annotations/synthetic_00469_1995a891.json",
+      "document_psc": "",
+      "document_category": "Drugs and Pharmaceutical Products",
+      "document_portfolio": "Clothing, Textiles & Subsistence S&E"
+    },
+    {
+      "image_path": "images/synthetic_00325_6836bd1c.png",
+      "annotation_path": "annotations/synthetic_00325_6836bd1c.json",
+      "document_psc": "",
+      "document_category": "Technical and Engineering Services (non-IT)",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00041_e56be5e4.png",
+      "annotation_path": "annotations/synthetic_00041_e56be5e4.json",
+      "document_psc": "",
+      "document_category": "Marketing and Distribution",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00240_5748e87d.png",
+      "annotation_path": "annotations/synthetic_00240_5748e87d.json",
+      "document_psc": "",
+      "document_category": "Electrical & Electronics Equipment",
+      "document_portfolio": "Electronic & Communication Equipment"
+    },
+    {
+      "image_path": "images/synthetic_00306_9e8c35ee.png",
+      "annotation_path": "annotations/synthetic_00306_9e8c35ee.json",
+      "document_psc": "",
+      "document_category": "Basic Materials",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00448_0ccd693c.png",
+      "annotation_path": "annotations/synthetic_00448_0ccd693c.json",
+      "document_psc": "",
+      "document_category": "Office Management Services",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00363_d5737414.png",
+      "annotation_path": "annotations/synthetic_00363_d5737414.json",
+      "document_psc": "",
+      "document_category": "Healthcare Services",
+      "document_portfolio": "Medical Services"
+    },
+    {
+      "image_path": "images/synthetic_00344_64bd4b27.png",
+      "annotation_path": "annotations/synthetic_00344_64bd4b27.json",
+      "document_psc": "",
+      "document_category": "Subsistence",
+      "document_portfolio": "Clothing, Textiles & Subsistence S&E"
+    },
+    {
+      "image_path": "images/synthetic_00139_32f8eb44.png",
+      "annotation_path": "annotations/synthetic_00139_32f8eb44.json",
+      "document_psc": "",
+      "document_category": "Textiles, Clothing & Equipage",
+      "document_portfolio": "Clothing, Textiles & Subsistence S&E"
+    },
+    {
+      "image_path": "images/synthetic_00464_191fef41.png",
+      "annotation_path": "annotations/synthetic_00464_191fef41.json",
+      "document_psc": "",
+      "document_category": "Purchases & Leases",
+      "document_portfolio": "Equipment Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00384_5a93746d.png",
+      "annotation_path": "annotations/synthetic_00384_5a93746d.json",
+      "document_psc": "",
+      "document_category": "Installation of Equipment",
+      "document_portfolio": "Equipment Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00199_35ea485b.png",
+      "annotation_path": "annotations/synthetic_00199_35ea485b.json",
+      "document_psc": "",
+      "document_category": "Real Estate Services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00196_6c93b947.png",
+      "annotation_path": "annotations/synthetic_00196_6c93b947.json",
+      "document_psc": "",
+      "document_category": "Test & Measurement Supplies",
+      "document_portfolio": "Facilities S&E"
+    },
+    {
+      "image_path": "images/synthetic_00444_8d789938.png",
+      "annotation_path": "annotations/synthetic_00444_8d789938.json",
+      "document_psc": "",
+      "document_category": "Management Advisory Services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00300_de71dd58.png",
+      "annotation_path": "annotations/synthetic_00300_de71dd58.json",
+      "document_psc": "",
+      "document_category": "Installation of Equipment",
+      "document_portfolio": "Equipment Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00328_7bae2b45.png",
+      "annotation_path": "annotations/synthetic_00328_7bae2b45.json",
+      "document_psc": "",
+      "document_category": "Fire/Rescue/Safety/Environmental Protection Equipment",
+      "document_portfolio": "Weapons & Ammunition"
+    },
+    {
+      "image_path": "images/synthetic_00383_4cd5e725.png",
+      "annotation_path": "annotations/synthetic_00383_4cd5e725.json",
+      "document_psc": "",
+      "document_category": "Industrial Products Install / Maintenance / Repair",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00321_0c9e501e.png",
+      "annotation_path": "annotations/synthetic_00321_0c9e501e.json",
+      "document_psc": "",
+      "document_category": "Communication Equipment",
+      "document_portfolio": "Electronic & Communication Equipment"
+    },
+    {
+      "image_path": "images/synthetic_00347_7a21df3d.png",
+      "annotation_path": "annotations/synthetic_00347_7a21df3d.json",
+      "document_psc": "",
+      "document_category": "Drugs and Pharmaceutical Products",
+      "document_portfolio": "Clothing, Textiles & Subsistence S&E"
+    },
+    {
+      "image_path": "images/synthetic_00101_862a3844.png",
+      "annotation_path": "annotations/synthetic_00101_862a3844.json",
+      "document_psc": "",
+      "document_category": "Equipment Leases",
+      "document_portfolio": "Electronic & Communication Services"
+    },
+    {
+      "image_path": "images/synthetic_00210_a237e6a7.png",
+      "annotation_path": "annotations/synthetic_00210_a237e6a7.json",
+      "document_psc": "",
+      "document_category": "Textiles, Clothing & Equipage",
+      "document_portfolio": "Clothing, Textiles & Subsistence S&E"
+    },
+    {
+      "image_path": "images/synthetic_00020_86ac3732.png",
+      "annotation_path": "annotations/synthetic_00020_86ac3732.json",
+      "document_psc": "",
+      "document_category": "Facilities Purchase & Lease",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00403_5fdfb021.png",
+      "annotation_path": "annotations/synthetic_00403_5fdfb021.json",
+      "document_psc": "",
+      "document_category": "S&E Not Classifed Elsewhere",
+      "document_portfolio": "Facilities S&E"
+    },
+    {
+      "image_path": "images/synthetic_00278_92446aee.png",
+      "annotation_path": "annotations/synthetic_00278_92446aee.json",
+      "document_psc": "",
+      "document_category": "Engines, Components & Spt Eq",
+      "document_portfolio": ""
+    },
+    {
+      "image_path": "images/synthetic_00159_c9aa7b39.png",
+      "annotation_path": "annotations/synthetic_00159_c9aa7b39.json",
+      "document_psc": "",
+      "document_category": "",
+      "document_portfolio": "Research and Development"
+    },
+    {
+      "image_path": "images/synthetic_00013_702189d6.png",
+      "annotation_path": "annotations/synthetic_00013_702189d6.json",
+      "document_psc": "",
+      "document_category": "Package Delivery & Packaging",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00482_3cce9850.png",
+      "annotation_path": "annotations/synthetic_00482_3cce9850.json",
+      "document_psc": "",
+      "document_category": "Logistics Support Services",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00456_012938a8.png",
+      "annotation_path": "annotations/synthetic_00456_012938a8.json",
+      "document_psc": "",
+      "document_category": "Facilities Purchase & Lease",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00433_89c31d88.png",
+      "annotation_path": "annotations/synthetic_00433_89c31d88.json",
+      "document_psc": "",
+      "document_category": "Business administration services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00097_108e9041.png",
+      "annotation_path": "annotations/synthetic_00097_108e9041.json",
+      "document_psc": "",
+      "document_category": "Healthcare Services",
+      "document_portfolio": ""
+    },
+    {
+      "image_path": "images/synthetic_00462_dab0b133.png",
+      "annotation_path": "annotations/synthetic_00462_dab0b133.json",
+      "document_psc": "",
+      "document_category": "Salvage Services",
+      "document_portfolio": "Equipment Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00051_f5313f51.png",
+      "annotation_path": "annotations/synthetic_00051_f5313f51.json",
+      "document_psc": "",
+      "document_category": "Construction Related Materials",
+      "document_portfolio": "Facilities S&E"
+    },
+    {
+      "image_path": "images/synthetic_00071_6d808352.png",
+      "annotation_path": "annotations/synthetic_00071_6d808352.json",
+      "document_psc": "",
+      "document_category": "Technical Representative Services",
+      "document_portfolio": "Equipment Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00451_3859e52a.png",
+      "annotation_path": "annotations/synthetic_00451_3859e52a.json",
+      "document_psc": "",
+      "document_category": "Salvage Services",
+      "document_portfolio": "Equipment Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00385_a53cb474.png",
+      "annotation_path": "annotations/synthetic_00385_a53cb474.json",
+      "document_psc": "",
+      "document_category": "Fuels",
+      "document_portfolio": "Sustainment S&E"
+    },
+    {
+      "image_path": "images/synthetic_00014_17d5b57d.png",
+      "annotation_path": "annotations/synthetic_00014_17d5b57d.json",
+      "document_psc": "",
+      "document_category": "Business administration services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00422_c5b40ba3.png",
+      "annotation_path": "annotations/synthetic_00422_c5b40ba3.json",
+      "document_psc": "",
+      "document_category": "Industrial Products Install / Maintenance / Repair",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00176_aaf54507.png",
+      "annotation_path": "annotations/synthetic_00176_aaf54507.json",
+      "document_psc": "",
+      "document_category": "Facility Related Services",
+      "document_portfolio": "Facility Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00227_9348848a.png",
+      "annotation_path": "annotations/synthetic_00227_9348848a.json",
+      "document_psc": "",
+      "document_category": "Ammunition & Explosives",
+      "document_portfolio": "Weapons & Ammunition"
+    },
+    {
+      "image_path": "images/synthetic_00006_ff1fb796.png",
+      "annotation_path": "annotations/synthetic_00006_ff1fb796.json",
+      "document_psc": "",
+      "document_category": "Textiles, Clothing & Equipage",
+      "document_portfolio": "Clothing, Textiles & Subsistence S&E"
+    },
+    {
+      "image_path": "images/synthetic_00419_bb0b2193.png",
+      "annotation_path": "annotations/synthetic_00419_bb0b2193.json",
+      "document_psc": "",
+      "document_category": "Trade Policy and Services",
+      "document_portfolio": "Knowledge Based Services"
+    },
+    {
+      "image_path": "images/synthetic_00158_e1899602.png",
+      "annotation_path": "annotations/synthetic_00158_e1899602.json",
+      "document_psc": "",
+      "document_category": "Salvage Services",
+      "document_portfolio": "Equipment Related Services"
+    },
+    {
+      "image_path": "images/synthetic_00162_981e7df5.png",
+      "annotation_path": "annotations/synthetic_00162_981e7df5.json",
+      "document_psc": "",
+      "document_category": "Security Systems",
+      "document_portfolio": "Facilities S&E"
+    },
+    {
+      "image_path": "images/synthetic_00486_c8e36398.png",
+      "annotation_path": "annotations/synthetic_00486_c8e36398.json",
+      "document_psc": "",
+      "document_category": "Business administration services",
+      "document_portfolio": "Knowledge Based Services"
+    }
+  ],
+  "statistics": {
+    "psc_distribution": {
+      "": 500
+    },
+    "category_distribution": {
+      "Aircraft": 9,
+      "Maintenance, Repair and Overhaul": 8,
+      "Construction Related Materials": 6,
+      "Communication Equipment": 7,
+      "Legal services": 9,
+      "Detection & Coherent Radiation Eq": 9,
+      "Training Aids and Devices": 9,
+      "Test & Measurement Supplies": 10,
+      "Night Vision Eq": 7,
+      "Guided Missiles": 8,
+      "Textiles, Clothing & Equipage": 6,
+      "Equipment Leases": 5,
+      "Trade Policy and Services": 8,
+      "Fire/Rescue/Safety/Environmental Protection Equipment": 9,
+      "Public Relations and Professional Communications Services": 9,
+      "Equipment Modification": 8,
+      "IT Professional Service (Labor)": 9,
+      "Medical Equipment and Accessories and Supplies": 7,
+      "Business administration services": 11,
+      "Lodging": 4,
+      "Business Administration Services": 9,
+      "Guns": 5,
+      "Supply Parts": 7,
+      "Construction Related Services": 10,
+      "Installation of Equipment": 8,
+      "Vocational Training": 5,
+      "": 3,
+      "S&E Not Classifed Elsewhere": 7,
+      "Electrical & Electronics Equipment": 5,
+      "Drugs and Pharmaceutical Products": 7,
+      "Basic Materials": 3,
+      "Ships & Submarines": 8,
+      "Quality Control": 8,
+      "Nuclear Ordnance": 4,
+      "Specialized educational services": 5,
+      "Healthcare Services": 9,
+      "Furniture": 7,
+      "Ammunition & Explosives": 7,
+      "Logistics Support Services": 6,
+      "Security Animals & Related Svcs": 2,
+      "Real Estate Services": 3,
+      "Legal Services": 7,
+      "Materials": 8,
+      "Engines, Components & Spt Eq": 4,
+      "Security Systems": 7,
+      "Support Ships & Small Craft": 11,
+      "Passenger Travel": 3,
+      "Equipment Maintenance": 7,
+      "Oils, Lubricants, and Waxes": 3,
+      "Subsistence": 3,
+      "Machinery & Components": 6,
+      "Travel Agent & Misc Svcs": 5,
+      "Transportation of Things": 8,
+      "Hardware & Tools": 5,
+      "Product": 6,
+      "Salvage Services": 8,
+      "Capability As a Service": 7,
+      "Financial Services": 6,
+      "Facility Related Services": 6,
+      "Technical Representative Services": 6,
+      "Office Management Products": 8,
+      "Motor Vehicles": 6,
+      "Industrial Products Install / Maintenance / Repair": 11,
+      "Human Resources Services": 4,
+      "Drones": 9,
+      "Financial services": 6,
+      "Land Combat Vehicles": 2,
+      "Facilities Purchase & Lease": 8,
+      "Office Management Services": 5,
+      "Purchases & Leases": 7,
+      "Marketing and Distribution": 5,
+      "Fuels": 6,
+      "Facility Related Materials": 2,
+      "Transportation Equipment": 2,
+      "Management Advisory Services": 6,
+      "Technical and Engineering Services (non-IT)": 5,
+      "Fire Control": 2,
+      "Security Services": 2,
+      "Package Delivery & Packaging": 2
+    },
+    "portfolio_distribution": {
+      "Aircraft, Ships/Submarines & Land Vehicles": 16,
+      "Equipment Related Services": 52,
+      "Facilities S&E": 48,
+      "Electronic & Communication Equipment": 33,
+      "Knowledge Based Services": 90,
+      "Sustainment S&E": 63,
+      "Facility Related Services": 67,
+      "Weapons & Ammunition": 27,
+      "Clothing, Textiles & Subsistence S&E": 18,
+      "Electronic & Communication Services": 19,
+      "": 32,
+      "Transportation Services": 21,
+      "Research and Development": 3,
+      "Medical Services": 7,
+      "Construction Services": 4
+    }
+  },
+  "psc_metadata": {
+    "total_unique_pscs": 1,
+    "total_categories": 79,
+    "total_portfolios": 15
+  }
+}

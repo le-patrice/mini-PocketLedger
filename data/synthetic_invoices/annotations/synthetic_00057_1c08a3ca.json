@@ -1,0 +1,121 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-266001",
+    "2024-10-29",
+    "James, Harper and Schwartz",
+    "Standard HEALTHCARE ENVIRONMENTAL CLEANING",
+    "10",
+    "$726.06",
+    "$7260.60",
+    "$7260.60",
+    "$580.85",
+    "$7841.45"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      202,
+      193
+    ],
+    [
+      65,
+      251,
+      342,
+      261
+    ],
+    [
+      479,
+      251,
+      491,
+      261
+    ],
+    [
+      593,
+      251,
+      633,
+      262
+    ],
+    [
+      689,
+      251,
+      735,
+      262
+    ],
+    [
+      694,
+      308,
+      740,
+      319
+    ],
+    [
+      700,
+      335,
+      740,
+      346
+    ],
+    [
+      681,
+      375,
+      740,
+      389
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Facility Related Services",
+  "document_portfolio": "",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "HEALTHCARE ENVIRONMENTAL CLEANING",
+      "spendCategoryTitle": "Facility Related Services",
+      "portfolioGroup": "",
+      "description": "Standard HEALTHCARE ENVIRONMENTAL CLEANING",
+      "line_total": 7260.6
+    }
+  ],
+  "psc_breakdown": {
+    "Facility Related Services": 7260.6
+  },
+  "portfolio_breakdown": {
+    "": 7260.6
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-266001",
+    "date": "2024-10-29",
+    "vendor_name": "James, Harper and Schwartz",
+    "total_amount": 7841.45
+  }
+}

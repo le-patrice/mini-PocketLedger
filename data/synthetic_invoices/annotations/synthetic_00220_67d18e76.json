@@ -1,0 +1,121 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-251922",
+    "2024-08-05",
+    "Hutchinson Group",
+    "Industrial SPECIAL STUDIES/ANALYSIS- ACCOUNTING/FINANCIAL MANAGEMENT System",
+    "15",
+    "$200.89",
+    "$3013.35",
+    "$3013.35",
+    "$301.33",
+    "$3314.68"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      149,
+      193
+    ],
+    [
+      65,
+      251,
+      406,
+      261
+    ],
+    [
+      479,
+      251,
+      491,
+      261
+    ],
+    [
+      593,
+      251,
+      633,
+      262
+    ],
+    [
+      689,
+      251,
+      735,
+      262
+    ],
+    [
+      694,
+      330,
+      740,
+      341
+    ],
+    [
+      700,
+      357,
+      740,
+      368
+    ],
+    [
+      681,
+      397,
+      740,
+      411
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Management Advisory Services",
+  "document_portfolio": "Knowledge Based Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "SPECIAL STUDIES/ANALYSIS- ACCOUNTING/FINANCIAL MANAGEMENT",
+      "spendCategoryTitle": "Management Advisory Services",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "Industrial SPECIAL STUDIES/ANALYSIS- ACCOUNTING/FINANCIAL MANAGEMENT System",
+      "line_total": 3013.35
+    }
+  ],
+  "psc_breakdown": {
+    "Management Advisory Services": 3013.35
+  },
+  "portfolio_breakdown": {
+    "Knowledge Based Services": 3013.35
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-251922",
+    "date": "2024-08-05",
+    "vendor_name": "Hutchinson Group",
+    "total_amount": 3314.68
+  }
+}

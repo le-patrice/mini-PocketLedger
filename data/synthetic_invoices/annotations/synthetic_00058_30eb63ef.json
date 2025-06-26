@@ -1,0 +1,285 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-890295",
+    "2025-01-30",
+    "Yoder, Ferrell and Luna",
+    "Standard LEASE OR RENTAL OF EQUIPMENT- WEAPONS System",
+    "1",
+    "$799.55",
+    "$799.55",
+    "ORES Package",
+    "2",
+    "$331.05",
+    "$662.10",
+    "Premium LEASE OR RENTAL OF EQUIPMENT- NONMETALLIC CRUDE MATERIALS",
+    "4",
+    "$419.43",
+    "$1677.72",
+    "Professional LEASE OR RENTAL OF EQUIPMENT- CHEMICALS System",
+    "10",
+    "$356.33",
+    "$3563.30",
+    "Professional REPAIR OR ALTERATION OF AIRPORT TERMINALS Package",
+    "14",
+    "$195.84",
+    "$2741.76",
+    "$9444.43",
+    "$472.22",
+    "$9916.65"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      164,
+      169
+    ],
+    [
+      55,
+      222,
+      392,
+      234
+    ],
+    [
+      452,
+      222,
+      458,
+      232
+    ],
+    [
+      556,
+      222,
+      596,
+      233
+    ],
+    [
+      653,
+      222,
+      693,
+      233
+    ],
+    [
+      55,
+      247,
+      132,
+      259
+    ],
+    [
+      452,
+      247,
+      458,
+      257
+    ],
+    [
+      556,
+      247,
+      596,
+      258
+    ],
+    [
+      653,
+      247,
+      693,
+      258
+    ],
+    [
+      55,
+      272,
+      373,
+      283
+    ],
+    [
+      452,
+      272,
+      458,
+      282
+    ],
+    [
+      556,
+      272,
+      596,
+      283
+    ],
+    [
+      647,
+      272,
+      693,
+      283
+    ],
+    [
+      55,
+      317,
+      376,
+      328
+    ],
+    [
+      449,
+      317,
+      461,
+      327
+    ],
+    [
+      556,
+      317,
+      596,
+      328
+    ],
+    [
+      647,
+      317,
+      693,
+      328
+    ],
+    [
+      55,
+      362,
+      383,
+      372
+    ],
+    [
+      449,
+      362,
+      461,
+      372
+    ],
+    [
+      556,
+      362,
+      596,
+      373
+    ],
+    [
+      647,
+      362,
+      693,
+      373
+    ],
+    [
+      654,
+      437,
+      700,
+      448
+    ],
+    [
+      660,
+      462,
+      700,
+      473
+    ],
+    [
+      641,
+      500,
+      700,
+      514
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Purchases & Leases",
+  "document_portfolio": "Equipment Related Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "LEASE OR RENTAL OF EQUIPMENT- WEAPONS",
+      "spendCategoryTitle": "Purchases & Leases",
+      "portfolioGroup": "Equipment Related Services",
+      "description": "Standard LEASE OR RENTAL OF EQUIPMENT- WEAPONS System",
+      "line_total": 799.55
+    },
+    {
+      "psc": "",
+      "shortName": "ORES",
+      "spendCategoryTitle": "Basic Materials",
+      "portfolioGroup": "Sustainment S&E",
+      "description": "ORES Package",
+      "line_total": 662.1
+    },
+    {
+      "psc": "",
+      "shortName": "LEASE OR RENTAL OF EQUIPMENT- NONMETALLIC CRUDE MATERIALS",
+      "spendCategoryTitle": "Purchases & Leases",
+      "portfolioGroup": "Equipment Related Services",
+      "description": "Premium LEASE OR RENTAL OF EQUIPMENT- NONMETALLIC CRUDE MATERIALS",
+      "line_total": 1677.72
+    },
+    {
+      "psc": "",
+      "shortName": "LEASE OR RENTAL OF EQUIPMENT- CHEMICALS AND CHEMICAL PRODUCTS",
+      "spendCategoryTitle": "Purchases & Leases",
+      "portfolioGroup": "Equipment Related Services",
+      "description": "Professional LEASE OR RENTAL OF EQUIPMENT- CHEMICALS System",
+      "line_total": 3563.3
+    },
+    {
+      "psc": "",
+      "shortName": "REPAIR OR ALTERATION OF AIRPORT TERMINALS",
+      "spendCategoryTitle": "Facility Related Services",
+      "portfolioGroup": "Facility Related Services",
+      "description": "Professional REPAIR OR ALTERATION OF AIRPORT TERMINALS Package",
+      "line_total": 2741.76
+    }
+  ],
+  "psc_breakdown": {
+    "Purchases & Leases": 6040.57,
+    "Basic Materials": 662.1,
+    "Facility Related Services": 2741.76
+  },
+  "portfolio_breakdown": {
+    "Equipment Related Services": 6040.57,
+    "Sustainment S&E": 662.1,
+    "Facility Related Services": 2741.76
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-890295",
+    "date": "2025-01-30",
+    "vendor_name": "Yoder, Ferrell and Luna",
+    "total_amount": 9916.65
+  }
+}

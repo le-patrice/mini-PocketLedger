@@ -1,0 +1,121 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-567162",
+    "2025-05-06",
+    "Morrow, Preston and Tanner",
+    "Premium SUPPORT- PROFESSIONAL: EXPERT WITNESS Assembly",
+    "4",
+    "$513.93",
+    "$2055.72",
+    "$2055.72",
+    "$205.57",
+    "$2261.29"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      198,
+      193
+    ],
+    [
+      65,
+      251,
+      410,
+      263
+    ],
+    [
+      482,
+      251,
+      488,
+      261
+    ],
+    [
+      593,
+      251,
+      633,
+      262
+    ],
+    [
+      689,
+      251,
+      735,
+      262
+    ],
+    [
+      694,
+      308,
+      740,
+      319
+    ],
+    [
+      700,
+      335,
+      740,
+      346
+    ],
+    [
+      681,
+      375,
+      740,
+      389
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Legal services",
+  "document_portfolio": "Knowledge Based Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "SUPPORT- PROFESSIONAL: EXPERT WITNESS",
+      "spendCategoryTitle": "Legal services",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "Premium SUPPORT- PROFESSIONAL: EXPERT WITNESS Assembly",
+      "line_total": 2055.72
+    }
+  ],
+  "psc_breakdown": {
+    "Legal services": 2055.72
+  },
+  "portfolio_breakdown": {
+    "Knowledge Based Services": 2055.72
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-567162",
+    "date": "2025-05-06",
+    "vendor_name": "Morrow, Preston and Tanner",
+    "total_amount": 2261.29
+  }
+}

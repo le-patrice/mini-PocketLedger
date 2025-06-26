@@ -1,0 +1,205 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-759032",
+    "2024-07-10",
+    "Long-Singleton",
+    "Standard TRAINING AIDS Kit",
+    "12",
+    "$105.85",
+    "$1270.20",
+    "Industrial OFFICE DEVICES AND ACCESSORIES",
+    "4",
+    "$436.63",
+    "$1746.52",
+    "Standard GUNS, OVER 150MM THROUGH 200MM Package",
+    "12",
+    "$118.36",
+    "$1420.32",
+    "$4437.04",
+    "$354.96",
+    "$4792.00"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      134,
+      193
+    ],
+    [
+      65,
+      251,
+      209,
+      261
+    ],
+    [
+      479,
+      251,
+      491,
+      261
+    ],
+    [
+      593,
+      251,
+      633,
+      262
+    ],
+    [
+      689,
+      251,
+      735,
+      262
+    ],
+    [
+      65,
+      278,
+      312,
+      288
+    ],
+    [
+      482,
+      278,
+      488,
+      288
+    ],
+    [
+      593,
+      278,
+      633,
+      289
+    ],
+    [
+      689,
+      278,
+      735,
+      289
+    ],
+    [
+      65,
+      305,
+      366,
+      317
+    ],
+    [
+      479,
+      305,
+      491,
+      315
+    ],
+    [
+      594,
+      305,
+      633,
+      316
+    ],
+    [
+      689,
+      305,
+      735,
+      316
+    ],
+    [
+      694,
+      362,
+      740,
+      373
+    ],
+    [
+      700,
+      389,
+      740,
+      400
+    ],
+    [
+      681,
+      429,
+      740,
+      443
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Office Management Products",
+  "document_portfolio": "Facilities S&E",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "TRAINING AIDS",
+      "spendCategoryTitle": "Training Aids and Devices",
+      "portfolioGroup": "Sustainment S&E",
+      "description": "Standard TRAINING AIDS Kit",
+      "line_total": 1270.2
+    },
+    {
+      "psc": "",
+      "shortName": "OFFICE DEVICES AND ACCESSORIES",
+      "spendCategoryTitle": "Office Management Products",
+      "portfolioGroup": "Facilities S&E",
+      "description": "Industrial OFFICE DEVICES AND ACCESSORIES",
+      "line_total": 1746.52
+    },
+    {
+      "psc": "",
+      "shortName": "GUNS, OVER 150MM THROUGH 200MM",
+      "spendCategoryTitle": "Guns",
+      "portfolioGroup": "Weapons & Ammunition",
+      "description": "Standard GUNS, OVER 150MM THROUGH 200MM Package",
+      "line_total": 1420.32
+    }
+  ],
+  "psc_breakdown": {
+    "Training Aids and Devices": 1270.2,
+    "Office Management Products": 1746.52,
+    "Guns": 1420.32
+  },
+  "portfolio_breakdown": {
+    "Sustainment S&E": 1270.2,
+    "Facilities S&E": 1746.52,
+    "Weapons & Ammunition": 1420.32
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-759032",
+    "date": "2024-07-10",
+    "vendor_name": "Long-Singleton",
+    "total_amount": 4792.0
+  }
+}

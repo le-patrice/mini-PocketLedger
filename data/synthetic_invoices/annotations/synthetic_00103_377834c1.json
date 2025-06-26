@@ -1,0 +1,247 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-534183",
+    "2025-03-14",
+    "Mcintyre-White",
+    "Professional GUIDED MISSILE SYSTEMS, COMPLETE Assembly",
+    "9",
+    "$463.21",
+    "$4168.89",
+    "Professional NAVIGATIONAL INSTRUMENTS Assembly",
+    "15",
+    "$367.38",
+    "$5510.70",
+    "Standard MISCELLANEOUS VESSELS Assembly",
+    "15",
+    "$56.28",
+    "$844.20",
+    "Premium AIRCRAFT, FIXED WING Package",
+    "8",
+    "$282.26",
+    "$2258.08",
+    "$12781.87",
+    "$1278.19",
+    "$14060.06"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      123,
+      169
+    ],
+    [
+      55,
+      222,
+      381,
+      234
+    ],
+    [
+      452,
+      222,
+      458,
+      232
+    ],
+    [
+      556,
+      222,
+      596,
+      233
+    ],
+    [
+      647,
+      222,
+      693,
+      233
+    ],
+    [
+      55,
+      247,
+      331,
+      259
+    ],
+    [
+      449,
+      247,
+      461,
+      257
+    ],
+    [
+      556,
+      247,
+      596,
+      258
+    ],
+    [
+      647,
+      247,
+      693,
+      258
+    ],
+    [
+      55,
+      272,
+      300,
+      284
+    ],
+    [
+      449,
+      272,
+      461,
+      282
+    ],
+    [
+      562,
+      272,
+      596,
+      283
+    ],
+    [
+      653,
+      272,
+      693,
+      283
+    ],
+    [
+      55,
+      297,
+      273,
+      309
+    ],
+    [
+      452,
+      297,
+      458,
+      307
+    ],
+    [
+      556,
+      297,
+      596,
+      308
+    ],
+    [
+      647,
+      297,
+      693,
+      308
+    ],
+    [
+      648,
+      352,
+      700,
+      363
+    ],
+    [
+      654,
+      377,
+      700,
+      388
+    ],
+    [
+      634,
+      415,
+      700,
+      429
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Test & Measurement Supplies",
+  "document_portfolio": "Facilities S&E",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "GUIDED MISSILE SYSTEMS, COMPLETE",
+      "spendCategoryTitle": "Guided Missiles",
+      "portfolioGroup": "Weapons & Ammunition",
+      "description": "Professional GUIDED MISSILE SYSTEMS, COMPLETE Assembly",
+      "line_total": 4168.89
+    },
+    {
+      "psc": "",
+      "shortName": "NAVIGATIONAL INSTRUMENTS",
+      "spendCategoryTitle": "Test & Measurement Supplies",
+      "portfolioGroup": "Facilities S&E",
+      "description": "Professional NAVIGATIONAL INSTRUMENTS Assembly",
+      "line_total": 5510.7
+    },
+    {
+      "psc": "",
+      "shortName": "MISCELLANEOUS VESSELS",
+      "spendCategoryTitle": "Support Ships & Small Craft",
+      "portfolioGroup": "Sustainment S&E",
+      "description": "Standard MISCELLANEOUS VESSELS Assembly",
+      "line_total": 844.2
+    },
+    {
+      "psc": "",
+      "shortName": "AIRCRAFT, FIXED WING",
+      "spendCategoryTitle": "Aircraft",
+      "portfolioGroup": "Aircraft, Ships/Submarines & Land Vehicles",
+      "description": "Premium AIRCRAFT, FIXED WING Package",
+      "line_total": 2258.08
+    }
+  ],
+  "psc_breakdown": {
+    "Guided Missiles": 4168.89,
+    "Test & Measurement Supplies": 5510.7,
+    "Support Ships & Small Craft": 844.2,
+    "Aircraft": 2258.08
+  },
+  "portfolio_breakdown": {
+    "Weapons & Ammunition": 4168.89,
+    "Facilities S&E": 5510.7,
+    "Sustainment S&E": 844.2,
+    "Aircraft, Ships/Submarines & Land Vehicles": 2258.08
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-534183",
+    "date": "2025-03-14",
+    "vendor_name": "Mcintyre-White",
+    "total_amount": 14060.06
+  }
+}

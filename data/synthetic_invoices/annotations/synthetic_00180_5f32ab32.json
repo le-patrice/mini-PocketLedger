@@ -1,0 +1,121 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-569946",
+    "2024-09-15",
+    "Nolan, Wright and Lopez",
+    "Premium EDUCATION/TRAINING- VOCATIONAL/TECHNICAL Assembly",
+    "12",
+    "$305.55",
+    "$3666.60",
+    "$3666.60",
+    "$183.33",
+    "$3849.93"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      171,
+      169
+    ],
+    [
+      55,
+      222,
+      364,
+      232
+    ],
+    [
+      449,
+      222,
+      461,
+      232
+    ],
+    [
+      556,
+      222,
+      596,
+      233
+    ],
+    [
+      647,
+      222,
+      693,
+      233
+    ],
+    [
+      654,
+      297,
+      700,
+      308
+    ],
+    [
+      660,
+      322,
+      700,
+      333
+    ],
+    [
+      641,
+      360,
+      700,
+      374
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Vocational Training",
+  "document_portfolio": "Knowledge Based Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "EDUCATION/TRAINING- VOCATIONAL/TECHNICAL",
+      "spendCategoryTitle": "Vocational Training",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "Premium EDUCATION/TRAINING- VOCATIONAL/TECHNICAL Assembly",
+      "line_total": 3666.6
+    }
+  ],
+  "psc_breakdown": {
+    "Vocational Training": 3666.6
+  },
+  "portfolio_breakdown": {
+    "Knowledge Based Services": 3666.6
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-569946",
+    "date": "2024-09-15",
+    "vendor_name": "Nolan, Wright and Lopez",
+    "total_amount": 3849.93
+  }
+}

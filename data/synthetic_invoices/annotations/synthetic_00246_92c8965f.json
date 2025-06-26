@@ -1,0 +1,163 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-463136",
+    "2024-11-01",
+    "Lewis-Brown",
+    "Premium MISCELLANEOUS ALARM, SIGNAL, AND SECURITY DETECTION SYSTEMS",
+    "5",
+    "$666.19",
+    "$3330.95",
+    "LIQUID PROPELLANTS AND FUELS, PETROLEUM BASE Package",
+    "13",
+    "$414.35",
+    "$5386.55",
+    "$8717.50",
+    "$697.40",
+    "$9414.90"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      123,
+      191
+    ],
+    [
+      65,
+      251,
+      381,
+      263
+    ],
+    [
+      482,
+      251,
+      488,
+      261
+    ],
+    [
+      593,
+      251,
+      633,
+      262
+    ],
+    [
+      689,
+      251,
+      735,
+      262
+    ],
+    [
+      65,
+      300,
+      402,
+      312
+    ],
+    [
+      479,
+      300,
+      491,
+      310
+    ],
+    [
+      593,
+      300,
+      633,
+      311
+    ],
+    [
+      689,
+      300,
+      735,
+      311
+    ],
+    [
+      694,
+      357,
+      740,
+      368
+    ],
+    [
+      700,
+      384,
+      740,
+      395
+    ],
+    [
+      681,
+      424,
+      740,
+      438
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Fuels",
+  "document_portfolio": "Sustainment S&E",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "MISCELLANEOUS ALARM, SIGNAL, AND SECURITY DETECTION SYSTEMS",
+      "spendCategoryTitle": "Security Systems",
+      "portfolioGroup": "Electronic & Communication Equipment",
+      "description": "Premium MISCELLANEOUS ALARM, SIGNAL, AND SECURITY DETECTION SYSTEMS",
+      "line_total": 3330.95
+    },
+    {
+      "psc": "",
+      "shortName": "LIQUID PROPELLANTS AND FUELS, PETROLEUM BASE",
+      "spendCategoryTitle": "Fuels",
+      "portfolioGroup": "Sustainment S&E",
+      "description": "LIQUID PROPELLANTS AND FUELS, PETROLEUM BASE Package",
+      "line_total": 5386.55
+    }
+  ],
+  "psc_breakdown": {
+    "Security Systems": 3330.95,
+    "Fuels": 5386.55
+  },
+  "portfolio_breakdown": {
+    "Electronic & Communication Equipment": 3330.95,
+    "Sustainment S&E": 5386.55
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-463136",
+    "date": "2024-11-01",
+    "vendor_name": "Lewis-Brown",
+    "total_amount": 9414.9
+  }
+}

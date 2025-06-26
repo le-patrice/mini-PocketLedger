@@ -1,0 +1,205 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-176458",
+    "2025-05-07",
+    "Walter-Patton",
+    "Industrial GUIDED MISSILE SYSTEMS, COMPLETE Kit",
+    "9",
+    "$579.28",
+    "$5213.52",
+    "Industrial SPECIAL STUDIES/ANALYSIS- TRADE ISSUE",
+    "13",
+    "$112.97",
+    "$1468.61",
+    "Professional SETS System",
+    "1",
+    "$156.50",
+    "$156.50",
+    "$6838.63",
+    "$854.83",
+    "$7693.46"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      117,
+      167
+    ],
+    [
+      55,
+      222,
+      330,
+      234
+    ],
+    [
+      452,
+      222,
+      458,
+      232
+    ],
+    [
+      556,
+      222,
+      596,
+      233
+    ],
+    [
+      647,
+      222,
+      693,
+      233
+    ],
+    [
+      55,
+      247,
+      336,
+      257
+    ],
+    [
+      449,
+      247,
+      461,
+      257
+    ],
+    [
+      557,
+      247,
+      596,
+      258
+    ],
+    [
+      647,
+      247,
+      693,
+      258
+    ],
+    [
+      55,
+      272,
+      187,
+      284
+    ],
+    [
+      452,
+      272,
+      458,
+      282
+    ],
+    [
+      556,
+      272,
+      596,
+      283
+    ],
+    [
+      653,
+      272,
+      693,
+      283
+    ],
+    [
+      654,
+      327,
+      700,
+      338
+    ],
+    [
+      660,
+      352,
+      700,
+      363
+    ],
+    [
+      641,
+      390,
+      700,
+      404
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Guided Missiles",
+  "document_portfolio": "Weapons & Ammunition",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "GUIDED MISSILE SYSTEMS, COMPLETE",
+      "spendCategoryTitle": "Guided Missiles",
+      "portfolioGroup": "Weapons & Ammunition",
+      "description": "Industrial GUIDED MISSILE SYSTEMS, COMPLETE Kit",
+      "line_total": 5213.52
+    },
+    {
+      "psc": "",
+      "shortName": "SPECIAL STUDIES/ANALYSIS- TRADE ISSUE",
+      "spendCategoryTitle": "Trade Policy and Services",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "Industrial SPECIAL STUDIES/ANALYSIS- TRADE ISSUE",
+      "line_total": 1468.61
+    },
+    {
+      "psc": "",
+      "shortName": "SETS, KITS, OUTFITS AND MODULES, FOOD PREPERATION AND SERVING",
+      "spendCategoryTitle": "Office Management Products",
+      "portfolioGroup": "Facilities S&E",
+      "description": "Professional SETS System",
+      "line_total": 156.5
+    }
+  ],
+  "psc_breakdown": {
+    "Guided Missiles": 5213.52,
+    "Trade Policy and Services": 1468.61,
+    "Office Management Products": 156.5
+  },
+  "portfolio_breakdown": {
+    "Weapons & Ammunition": 5213.52,
+    "Knowledge Based Services": 1468.61,
+    "Facilities S&E": 156.5
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-176458",
+    "date": "2025-05-07",
+    "vendor_name": "Walter-Patton",
+    "total_amount": 7693.46
+  }
+}

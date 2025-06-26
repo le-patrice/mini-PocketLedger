@@ -1,0 +1,205 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-919592",
+    "2025-05-16",
+    "Sellers-Wood",
+    "Professional FENCING, FENCES, GATES AND COMPONENTS",
+    "7",
+    "$115.25",
+    "$806.75",
+    "Premium EQUIPMENT/MATERIALS TESTING- OFFICE MACHINES Assembly",
+    "12",
+    "$112.88",
+    "$1354.56",
+    "Industrial SALVAGE- OTHER Package",
+    "8",
+    "$46.94",
+    "$375.52",
+    "$2536.83",
+    "$317.10",
+    "$2853.93"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      116,
+      167
+    ],
+    [
+      55,
+      222,
+      369,
+      234
+    ],
+    [
+      452,
+      222,
+      458,
+      232
+    ],
+    [
+      557,
+      222,
+      596,
+      233
+    ],
+    [
+      653,
+      222,
+      693,
+      233
+    ],
+    [
+      55,
+      247,
+      391,
+      258
+    ],
+    [
+      449,
+      247,
+      461,
+      257
+    ],
+    [
+      557,
+      247,
+      596,
+      258
+    ],
+    [
+      647,
+      247,
+      693,
+      258
+    ],
+    [
+      55,
+      292,
+      244,
+      304
+    ],
+    [
+      452,
+      292,
+      458,
+      302
+    ],
+    [
+      562,
+      292,
+      596,
+      303
+    ],
+    [
+      653,
+      292,
+      693,
+      303
+    ],
+    [
+      654,
+      347,
+      700,
+      358
+    ],
+    [
+      660,
+      372,
+      700,
+      383
+    ],
+    [
+      641,
+      410,
+      700,
+      424
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Office Management Services",
+  "document_portfolio": "Facility Related Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "FENCING, FENCES, GATES AND COMPONENTS",
+      "spendCategoryTitle": "Security Systems",
+      "portfolioGroup": "Facilities S&E",
+      "description": "Professional FENCING, FENCES, GATES AND COMPONENTS",
+      "line_total": 806.75
+    },
+    {
+      "psc": "",
+      "shortName": "EQUIPMENT/MATERIALS TESTING- OFFICE MACHINES, TEXT PROCESSING SYSTEMS, AND VISIBLE RECORD EQUIPMENT",
+      "spendCategoryTitle": "Office Management Services",
+      "portfolioGroup": "Facility Related Services",
+      "description": "Premium EQUIPMENT/MATERIALS TESTING- OFFICE MACHINES Assembly",
+      "line_total": 1354.56
+    },
+    {
+      "psc": "",
+      "shortName": "SALVAGE- OTHER",
+      "spendCategoryTitle": "Salvage Services",
+      "portfolioGroup": "Equipment Related Services",
+      "description": "Industrial SALVAGE- OTHER Package",
+      "line_total": 375.52
+    }
+  ],
+  "psc_breakdown": {
+    "Security Systems": 806.75,
+    "Office Management Services": 1354.56,
+    "Salvage Services": 375.52
+  },
+  "portfolio_breakdown": {
+    "Facilities S&E": 806.75,
+    "Facility Related Services": 1354.56,
+    "Equipment Related Services": 375.52
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-919592",
+    "date": "2025-05-16",
+    "vendor_name": "Sellers-Wood",
+    "total_amount": 2853.93
+  }
+}

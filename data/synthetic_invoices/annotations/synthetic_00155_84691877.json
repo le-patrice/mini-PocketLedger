@@ -1,0 +1,247 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-777358",
+    "2024-11-14",
+    "Hunt Ltd",
+    "AIRCRAFT GUNNERY FIRE CONTROL COMPONENTS Package",
+    "9",
+    "$692.90",
+    "$6236.10",
+    "Industrial PLYWOOD AND VENEER",
+    "15",
+    "$351.07",
+    "$5266.05",
+    "Standard RADIO NAVIGATION EQUIPMENT, AIRBORNE System",
+    "12",
+    "$368.76",
+    "$4425.12",
+    "Professional MODIFICATION OF EQUIPMENT- TRACTORS Package",
+    "11",
+    "$725.50",
+    "$7980.50",
+    "$23907.77",
+    "$1912.62",
+    "$25820.39"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      92,
+      167
+    ],
+    [
+      55,
+      222,
+      380,
+      234
+    ],
+    [
+      452,
+      222,
+      458,
+      232
+    ],
+    [
+      556,
+      222,
+      596,
+      233
+    ],
+    [
+      647,
+      222,
+      693,
+      233
+    ],
+    [
+      55,
+      247,
+      232,
+      257
+    ],
+    [
+      449,
+      247,
+      461,
+      257
+    ],
+    [
+      556,
+      247,
+      596,
+      258
+    ],
+    [
+      647,
+      247,
+      693,
+      258
+    ],
+    [
+      55,
+      272,
+      377,
+      284
+    ],
+    [
+      449,
+      272,
+      461,
+      282
+    ],
+    [
+      556,
+      272,
+      596,
+      283
+    ],
+    [
+      647,
+      272,
+      693,
+      283
+    ],
+    [
+      55,
+      297,
+      397,
+      309
+    ],
+    [
+      450,
+      297,
+      461,
+      307
+    ],
+    [
+      556,
+      297,
+      596,
+      308
+    ],
+    [
+      647,
+      297,
+      693,
+      308
+    ],
+    [
+      648,
+      352,
+      700,
+      363
+    ],
+    [
+      654,
+      377,
+      700,
+      388
+    ],
+    [
+      634,
+      415,
+      700,
+      429
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Equipment Modification",
+  "document_portfolio": "Equipment Related Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "AIRCRAFT GUNNERY FIRE CONTROL COMPONENTS",
+      "spendCategoryTitle": "Fire Control",
+      "portfolioGroup": "Weapons & Ammunition",
+      "description": "AIRCRAFT GUNNERY FIRE CONTROL COMPONENTS Package",
+      "line_total": 6236.1
+    },
+    {
+      "psc": "",
+      "shortName": "PLYWOOD AND VENEER",
+      "spendCategoryTitle": "Construction Related Materials",
+      "portfolioGroup": "Facilities S&E",
+      "description": "Industrial PLYWOOD AND VENEER",
+      "line_total": 5266.05
+    },
+    {
+      "psc": "",
+      "shortName": "RADIO NAVIGATION EQUIPMENT, AIRBORNE",
+      "spendCategoryTitle": "Communication Equipment",
+      "portfolioGroup": "Electronic & Communication Equipment",
+      "description": "Standard RADIO NAVIGATION EQUIPMENT, AIRBORNE System",
+      "line_total": 4425.12
+    },
+    {
+      "psc": "",
+      "shortName": "MODIFICATION OF EQUIPMENT- TRACTORS",
+      "spendCategoryTitle": "Equipment Modification",
+      "portfolioGroup": "Equipment Related Services",
+      "description": "Professional MODIFICATION OF EQUIPMENT- TRACTORS Package",
+      "line_total": 7980.5
+    }
+  ],
+  "psc_breakdown": {
+    "Fire Control": 6236.1,
+    "Construction Related Materials": 5266.05,
+    "Communication Equipment": 4425.12,
+    "Equipment Modification": 7980.5
+  },
+  "portfolio_breakdown": {
+    "Weapons & Ammunition": 6236.1,
+    "Facilities S&E": 5266.05,
+    "Electronic & Communication Equipment": 4425.12,
+    "Equipment Related Services": 7980.5
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-777358",
+    "date": "2024-11-14",
+    "vendor_name": "Hunt Ltd",
+    "total_amount": 25820.39
+  }
+}

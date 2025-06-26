@@ -1,0 +1,205 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-250939",
+    "2024-12-28",
+    "Mccann, Taylor and Clark",
+    "Professional MISCELLANEOUS CONSTRUCTION EQUIPMENT Kit",
+    "9",
+    "$164.03",
+    "$1476.27",
+    "Premium SPACE VEHICLE COMPONENTS Package",
+    "14",
+    "$484.85",
+    "$6787.90",
+    "FIRE CONTROL STABILIZING MECHANISMS Assembly",
+    "15",
+    "$138.56",
+    "$2078.40",
+    "$10342.57",
+    "$1034.26",
+    "$11376.83"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      174,
+      169
+    ],
+    [
+      55,
+      222,
+      388,
+      233
+    ],
+    [
+      452,
+      222,
+      458,
+      232
+    ],
+    [
+      556,
+      222,
+      596,
+      233
+    ],
+    [
+      647,
+      222,
+      693,
+      233
+    ],
+    [
+      55,
+      247,
+      317,
+      259
+    ],
+    [
+      449,
+      247,
+      461,
+      257
+    ],
+    [
+      556,
+      247,
+      596,
+      258
+    ],
+    [
+      647,
+      247,
+      693,
+      258
+    ],
+    [
+      55,
+      272,
+      334,
+      284
+    ],
+    [
+      449,
+      272,
+      461,
+      282
+    ],
+    [
+      556,
+      272,
+      596,
+      283
+    ],
+    [
+      647,
+      272,
+      693,
+      283
+    ],
+    [
+      648,
+      327,
+      700,
+      338
+    ],
+    [
+      654,
+      352,
+      700,
+      363
+    ],
+    [
+      635,
+      390,
+      700,
+      404
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Engines, Components & Spt Eq",
+  "document_portfolio": "",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "MISCELLANEOUS CONSTRUCTION EQUIPMENT",
+      "spendCategoryTitle": "Construction Related Materials",
+      "portfolioGroup": "Facilities S&E",
+      "description": "Professional MISCELLANEOUS CONSTRUCTION EQUIPMENT Kit",
+      "line_total": 1476.27
+    },
+    {
+      "psc": "",
+      "shortName": "SPACE VEHICLE COMPONENTS",
+      "spendCategoryTitle": "Engines, Components & Spt Eq",
+      "portfolioGroup": "",
+      "description": "Premium SPACE VEHICLE COMPONENTS Package",
+      "line_total": 6787.9
+    },
+    {
+      "psc": "",
+      "shortName": "FIRE CONTROL STABILIZING MECHANISMS",
+      "spendCategoryTitle": "Fire Control",
+      "portfolioGroup": "Weapons & Ammunition",
+      "description": "FIRE CONTROL STABILIZING MECHANISMS Assembly",
+      "line_total": 2078.4
+    }
+  ],
+  "psc_breakdown": {
+    "Construction Related Materials": 1476.27,
+    "Engines, Components & Spt Eq": 6787.9,
+    "Fire Control": 2078.4
+  },
+  "portfolio_breakdown": {
+    "Facilities S&E": 1476.27,
+    "": 6787.9,
+    "Weapons & Ammunition": 2078.4
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-250939",
+    "date": "2024-12-28",
+    "vendor_name": "Mccann, Taylor and Clark",
+    "total_amount": 11376.83
+  }
+}

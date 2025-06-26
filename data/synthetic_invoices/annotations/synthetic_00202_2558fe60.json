@@ -1,0 +1,205 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-457793",
+    "2024-09-13",
+    "Gomez, Lopez and Roberts",
+    "COMBINATION AND MISCELLANEOUS INSTRUMENTS Package",
+    "11",
+    "$264.23",
+    "$2906.53",
+    "EDUCATION/TRAINING- INFORMATION TECHNOLOGY/TELECOMMUNICATION System",
+    "3",
+    "$573.33",
+    "$1719.99",
+    "Professional HOSPITAL Package",
+    "1",
+    "$381.55",
+    "$381.55",
+    "$5008.07",
+    "$250.40",
+    "$5258.47"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      185,
+      169
+    ],
+    [
+      55,
+      222,
+      383,
+      234
+    ],
+    [
+      450,
+      222,
+      461,
+      232
+    ],
+    [
+      556,
+      222,
+      596,
+      233
+    ],
+    [
+      647,
+      222,
+      693,
+      233
+    ],
+    [
+      55,
+      247,
+      258,
+      257
+    ],
+    [
+      452,
+      247,
+      458,
+      257
+    ],
+    [
+      556,
+      247,
+      596,
+      258
+    ],
+    [
+      647,
+      247,
+      693,
+      258
+    ],
+    [
+      55,
+      292,
+      218,
+      304
+    ],
+    [
+      452,
+      292,
+      458,
+      302
+    ],
+    [
+      556,
+      292,
+      596,
+      303
+    ],
+    [
+      653,
+      292,
+      693,
+      303
+    ],
+    [
+      654,
+      347,
+      700,
+      358
+    ],
+    [
+      660,
+      372,
+      700,
+      383
+    ],
+    [
+      641,
+      410,
+      700,
+      424
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Test & Measurement Supplies",
+  "document_portfolio": "Facilities S&E",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "COMBINATION AND MISCELLANEOUS INSTRUMENTS",
+      "spendCategoryTitle": "Test & Measurement Supplies",
+      "portfolioGroup": "Facilities S&E",
+      "description": "COMBINATION AND MISCELLANEOUS INSTRUMENTS Package",
+      "line_total": 2906.53
+    },
+    {
+      "psc": "",
+      "shortName": "EDUCATION/TRAINING- INFORMATION TECHNOLOGY/TELECOMMUNICATIONS TRAINING",
+      "spendCategoryTitle": "Specialized educational services",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "EDUCATION/TRAINING- INFORMATION TECHNOLOGY/TELECOMMUNICATION System",
+      "line_total": 1719.99
+    },
+    {
+      "psc": "",
+      "shortName": "HOSPITAL AND SURGICAL CLOTHING AND RELATED SPECIAL PURPOSE ITEMS",
+      "spendCategoryTitle": "Medical Equipment and Accessories and Supplies",
+      "portfolioGroup": "Clothing, Textiles & Subsistence S&E",
+      "description": "Professional HOSPITAL Package",
+      "line_total": 381.55
+    }
+  ],
+  "psc_breakdown": {
+    "Test & Measurement Supplies": 2906.53,
+    "Specialized educational services": 1719.99,
+    "Medical Equipment and Accessories and Supplies": 381.55
+  },
+  "portfolio_breakdown": {
+    "Facilities S&E": 2906.53,
+    "Knowledge Based Services": 1719.99,
+    "Clothing, Textiles & Subsistence S&E": 381.55
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-457793",
+    "date": "2024-09-13",
+    "vendor_name": "Gomez, Lopez and Roberts",
+    "total_amount": 5258.47
+  }
+}

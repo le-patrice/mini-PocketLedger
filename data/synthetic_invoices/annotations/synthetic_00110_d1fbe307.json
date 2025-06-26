@@ -1,0 +1,247 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-328587",
+    "2025-01-17",
+    "Murphy, Petty and Nolan",
+    "Industrial FREIGHT CONTAINERS Assembly",
+    "4",
+    "$336.18",
+    "$1344.72",
+    "Industrial IT Kit",
+    "5",
+    "$273.02",
+    "$1365.10",
+    "Professional SUPPORT- PROFESSIONAL: HUMAN RESOURCES Kit",
+    "3",
+    "$562.40",
+    "$1687.20",
+    "Standard AMMUNITION, THROUGH 30MM System",
+    "5",
+    "$597.11",
+    "$2985.55",
+    "$7382.57",
+    "$738.26",
+    "$8120.83"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      180,
+      193
+    ],
+    [
+      65,
+      251,
+      286,
+      263
+    ],
+    [
+      482,
+      251,
+      488,
+      261
+    ],
+    [
+      593,
+      251,
+      633,
+      262
+    ],
+    [
+      689,
+      251,
+      735,
+      262
+    ],
+    [
+      65,
+      278,
+      138,
+      288
+    ],
+    [
+      482,
+      278,
+      488,
+      288
+    ],
+    [
+      593,
+      278,
+      633,
+      289
+    ],
+    [
+      689,
+      278,
+      735,
+      289
+    ],
+    [
+      65,
+      305,
+      408,
+      315
+    ],
+    [
+      482,
+      305,
+      488,
+      315
+    ],
+    [
+      593,
+      305,
+      633,
+      316
+    ],
+    [
+      689,
+      305,
+      735,
+      316
+    ],
+    [
+      65,
+      332,
+      318,
+      344
+    ],
+    [
+      482,
+      332,
+      488,
+      342
+    ],
+    [
+      594,
+      332,
+      633,
+      343
+    ],
+    [
+      689,
+      332,
+      735,
+      343
+    ],
+    [
+      694,
+      389,
+      740,
+      400
+    ],
+    [
+      700,
+      416,
+      740,
+      427
+    ],
+    [
+      681,
+      456,
+      740,
+      470
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Ammunition & Explosives",
+  "document_portfolio": "Weapons & Ammunition",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "FREIGHT CONTAINERS",
+      "spendCategoryTitle": "Package Delivery & Packaging",
+      "portfolioGroup": "Sustainment S&E",
+      "description": "Industrial FREIGHT CONTAINERS Assembly",
+      "line_total": 1344.72
+    },
+    {
+      "psc": "",
+      "shortName": "IT AND TELECOM - COMPUTE: SERVERS (HARDWARE AND PERPETUAL LICENSE SOFTWARE)",
+      "spendCategoryTitle": "Product",
+      "portfolioGroup": "",
+      "description": "Industrial IT Kit",
+      "line_total": 1365.1
+    },
+    {
+      "psc": "",
+      "shortName": "SUPPORT- PROFESSIONAL: HUMAN RESOURCES",
+      "spendCategoryTitle": "Human Resources Services",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "Professional SUPPORT- PROFESSIONAL: HUMAN RESOURCES Kit",
+      "line_total": 1687.2
+    },
+    {
+      "psc": "",
+      "shortName": "AMMUNITION, THROUGH 30MM",
+      "spendCategoryTitle": "Ammunition & Explosives",
+      "portfolioGroup": "Weapons & Ammunition",
+      "description": "Standard AMMUNITION, THROUGH 30MM System",
+      "line_total": 2985.55
+    }
+  ],
+  "psc_breakdown": {
+    "Package Delivery & Packaging": 1344.72,
+    "Product": 1365.1,
+    "Human Resources Services": 1687.2,
+    "Ammunition & Explosives": 2985.55
+  },
+  "portfolio_breakdown": {
+    "Sustainment S&E": 1344.72,
+    "": 1365.1,
+    "Knowledge Based Services": 1687.2,
+    "Weapons & Ammunition": 2985.55
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-328587",
+    "date": "2025-01-17",
+    "vendor_name": "Murphy, Petty and Nolan",
+    "total_amount": 8120.83
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-523500",
+    "2024-11-12",
+    "Evans, Stevens and Rodriguez",
+    "Industrial LEASE OR RENTAL OF EQUIPMENT- AIRCRAFT Assembly",
+    "4",
+    "$621.61",
+    "$2486.44",
+    "Premium CHEMICALS System",
+    "2",
+    "$618.14",
+    "$1236.28",
+    "MISCELLANEOUS WAXES, OILS, AND FATS Kit",
+    "3",
+    "$598.00",
+    "$1794.00",
+    "Standard TIME MEASURING INSTRUMENTS",
+    "3",
+    "$455.03",
+    "$1365.09",
+    "$6881.81",
+    "$550.54",
+    "$7432.35"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      202,
+      169
+    ],
+    [
+      55,
+      222,
+      401,
+      234
+    ],
+    [
+      452,
+      222,
+      458,
+      232
+    ],
+    [
+      556,
+      222,
+      596,
+      233
+    ],
+    [
+      647,
+      222,
+      693,
+      233
+    ],
+    [
+      55,
+      247,
+      206,
+      259
+    ],
+    [
+      452,
+      247,
+      458,
+      257
+    ],
+    [
+      556,
+      247,
+      596,
+      258
+    ],
+    [
+      647,
+      247,
+      693,
+      258
+    ],
+    [
+      55,
+      272,
+      297,
+      284
+    ],
+    [
+      452,
+      272,
+      458,
+      282
+    ],
+    [
+      556,
+      272,
+      596,
+      283
+    ],
+    [
+      647,
+      272,
+      693,
+      283
+    ],
+    [
+      55,
+      297,
+      281,
+      307
+    ],
+    [
+      452,
+      297,
+      458,
+      307
+    ],
+    [
+      556,
+      297,
+      596,
+      308
+    ],
+    [
+      647,
+      297,
+      693,
+      308
+    ],
+    [
+      654,
+      352,
+      700,
+      363
+    ],
+    [
+      660,
+      377,
+      700,
+      388
+    ],
+    [
+      641,
+      415,
+      700,
+      429
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Purchases & Leases",
+  "document_portfolio": "Sustainment S&E",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "LEASE OR RENTAL OF EQUIPMENT- AIRCRAFT AND AIRFRAME STRUCTURAL COMPONENTS",
+      "spendCategoryTitle": "Purchases & Leases",
+      "portfolioGroup": "Equipment Related Services",
+      "description": "Industrial LEASE OR RENTAL OF EQUIPMENT- AIRCRAFT Assembly",
+      "line_total": 2486.44
+    },
+    {
+      "psc": "",
+      "shortName": "CHEMICALS",
+      "spendCategoryTitle": "Basic Materials",
+      "portfolioGroup": "Sustainment S&E",
+      "description": "Premium CHEMICALS System",
+      "line_total": 1236.28
+    },
+    {
+      "psc": "",
+      "shortName": "MISCELLANEOUS WAXES, OILS, AND FATS",
+      "spendCategoryTitle": "Oils, Lubricants, and Waxes",
+      "portfolioGroup": "Sustainment S&E",
+      "description": "MISCELLANEOUS WAXES, OILS, AND FATS Kit",
+      "line_total": 1794.0
+    },
+    {
+      "psc": "",
+      "shortName": "TIME MEASURING INSTRUMENTS",
+      "spendCategoryTitle": "Test & Measurement Supplies",
+      "portfolioGroup": "Facilities S&E",
+      "description": "Standard TIME MEASURING INSTRUMENTS",
+      "line_total": 1365.09
+    }
+  ],
+  "psc_breakdown": {
+    "Purchases & Leases": 2486.44,
+    "Basic Materials": 1236.28,
+    "Oils, Lubricants, and Waxes": 1794.0,
+    "Test & Measurement Supplies": 1365.09
+  },
+  "portfolio_breakdown": {
+    "Equipment Related Services": 2486.44,
+    "Sustainment S&E": 3030.2799999999997,
+    "Facilities S&E": 1365.09
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-523500",
+    "date": "2024-11-12",
+    "vendor_name": "Evans, Stevens and Rodriguez",
+    "total_amount": 7432.35
+  }
+}

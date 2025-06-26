@@ -1,0 +1,205 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-430576",
+    "2025-03-14",
+    "Hampton-Frank",
+    "Premium ELECTRIC PORTABLE AND HAND LIGHTING EQUIPMENT System",
+    "4",
+    "$449.94",
+    "$1799.76",
+    "Premium MISCELLANEOUS WAXES, OILS, AND FATS Assembly",
+    "3",
+    "$126.45",
+    "$379.35",
+    "Standard SUPPORT- PROFESSIONAL: REAL ESTATE BROKERAGE Package",
+    "5",
+    "$259.87",
+    "$1299.35",
+    "$3478.46",
+    "$173.92",
+    "$3652.38"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      137,
+      193
+    ],
+    [
+      65,
+      251,
+      411,
+      262
+    ],
+    [
+      482,
+      251,
+      488,
+      261
+    ],
+    [
+      593,
+      251,
+      633,
+      262
+    ],
+    [
+      689,
+      251,
+      735,
+      262
+    ],
+    [
+      65,
+      300,
+      388,
+      312
+    ],
+    [
+      482,
+      300,
+      488,
+      310
+    ],
+    [
+      593,
+      300,
+      633,
+      311
+    ],
+    [
+      695,
+      300,
+      735,
+      311
+    ],
+    [
+      65,
+      327,
+      409,
+      337
+    ],
+    [
+      482,
+      327,
+      488,
+      337
+    ],
+    [
+      593,
+      327,
+      633,
+      338
+    ],
+    [
+      689,
+      327,
+      735,
+      338
+    ],
+    [
+      694,
+      406,
+      740,
+      417
+    ],
+    [
+      700,
+      433,
+      740,
+      444
+    ],
+    [
+      681,
+      473,
+      740,
+      487
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Facility Related Materials",
+  "document_portfolio": "Electronic & Communication Equipment",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "ELECTRIC PORTABLE AND HAND LIGHTING EQUIPMENT",
+      "spendCategoryTitle": "Facility Related Materials",
+      "portfolioGroup": "Electronic & Communication Equipment",
+      "description": "Premium ELECTRIC PORTABLE AND HAND LIGHTING EQUIPMENT System",
+      "line_total": 1799.76
+    },
+    {
+      "psc": "",
+      "shortName": "MISCELLANEOUS WAXES, OILS, AND FATS",
+      "spendCategoryTitle": "Oils, Lubricants, and Waxes",
+      "portfolioGroup": "Sustainment S&E",
+      "description": "Premium MISCELLANEOUS WAXES, OILS, AND FATS Assembly",
+      "line_total": 379.35
+    },
+    {
+      "psc": "",
+      "shortName": "SUPPORT- PROFESSIONAL: REAL ESTATE BROKERAGE",
+      "spendCategoryTitle": "Real Estate Services",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "Standard SUPPORT- PROFESSIONAL: REAL ESTATE BROKERAGE Package",
+      "line_total": 1299.35
+    }
+  ],
+  "psc_breakdown": {
+    "Facility Related Materials": 1799.76,
+    "Oils, Lubricants, and Waxes": 379.35,
+    "Real Estate Services": 1299.35
+  },
+  "portfolio_breakdown": {
+    "Electronic & Communication Equipment": 1799.76,
+    "Sustainment S&E": 379.35,
+    "Knowledge Based Services": 1299.35
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-430576",
+    "date": "2025-03-14",
+    "vendor_name": "Hampton-Frank",
+    "total_amount": 3652.38
+  }
+}

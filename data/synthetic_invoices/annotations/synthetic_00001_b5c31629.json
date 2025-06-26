@@ -1,0 +1,163 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-332478",
+    "2025-06-17",
+    "Blair and Sons",
+    "Professional EDUCATION/TRAINING- VOCATIONAL/TECHNICAL",
+    "13",
+    "$423.53",
+    "$5505.89",
+    "Standard GUIDED MISSILE SYSTEMS, COMPLETE Kit",
+    "12",
+    "$787.34",
+    "$9448.08",
+    "$14953.97",
+    "$1869.25",
+    "$16823.22"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      122,
+      167
+    ],
+    [
+      55,
+      222,
+      380,
+      232
+    ],
+    [
+      449,
+      222,
+      461,
+      232
+    ],
+    [
+      556,
+      222,
+      596,
+      233
+    ],
+    [
+      647,
+      222,
+      693,
+      233
+    ],
+    [
+      55,
+      247,
+      330,
+      259
+    ],
+    [
+      449,
+      247,
+      461,
+      257
+    ],
+    [
+      556,
+      247,
+      596,
+      258
+    ],
+    [
+      647,
+      247,
+      693,
+      258
+    ],
+    [
+      648,
+      302,
+      700,
+      313
+    ],
+    [
+      654,
+      327,
+      700,
+      338
+    ],
+    [
+      634,
+      365,
+      700,
+      379
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Guided Missiles",
+  "document_portfolio": "Weapons & Ammunition",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "EDUCATION/TRAINING- VOCATIONAL/TECHNICAL",
+      "spendCategoryTitle": "Vocational Training",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "Professional EDUCATION/TRAINING- VOCATIONAL/TECHNICAL",
+      "line_total": 5505.89
+    },
+    {
+      "psc": "",
+      "shortName": "GUIDED MISSILE SYSTEMS, COMPLETE",
+      "spendCategoryTitle": "Guided Missiles",
+      "portfolioGroup": "Weapons & Ammunition",
+      "description": "Standard GUIDED MISSILE SYSTEMS, COMPLETE Kit",
+      "line_total": 9448.08
+    }
+  ],
+  "psc_breakdown": {
+    "Vocational Training": 5505.89,
+    "Guided Missiles": 9448.08
+  },
+  "portfolio_breakdown": {
+    "Knowledge Based Services": 5505.89,
+    "Weapons & Ammunition": 9448.08
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-332478",
+    "date": "2025-06-17",
+    "vendor_name": "Blair and Sons",
+    "total_amount": 16823.22
+  }
+}

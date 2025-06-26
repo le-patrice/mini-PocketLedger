@@ -1,0 +1,205 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-572897",
+    "2025-05-28",
+    "Rodriguez Inc",
+    "Industrial INTERCOMMUNICATION AND PUBLIC ADDRESS SYSTEMS, AIRBORNE System",
+    "3",
+    "$689.02",
+    "$2067.06",
+    "Standard COMBAT, ASSAULT, AND TACTICAL VEHICLES, TRACKED Kit",
+    "2",
+    "$110.05",
+    "$220.10",
+    "Industrial ARMAMENT TRAINING DEVICES Package",
+    "7",
+    "$49.80",
+    "$348.60",
+    "$2635.76",
+    "$210.86",
+    "$2846.62"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      118,
+      169
+    ],
+    [
+      55,
+      222,
+      354,
+      232
+    ],
+    [
+      452,
+      222,
+      458,
+      232
+    ],
+    [
+      556,
+      222,
+      596,
+      233
+    ],
+    [
+      647,
+      222,
+      693,
+      233
+    ],
+    [
+      55,
+      267,
+      401,
+      279
+    ],
+    [
+      452,
+      267,
+      458,
+      277
+    ],
+    [
+      557,
+      267,
+      596,
+      278
+    ],
+    [
+      653,
+      267,
+      693,
+      278
+    ],
+    [
+      55,
+      312,
+      318,
+      324
+    ],
+    [
+      452,
+      312,
+      458,
+      322
+    ],
+    [
+      562,
+      312,
+      596,
+      323
+    ],
+    [
+      653,
+      312,
+      693,
+      323
+    ],
+    [
+      654,
+      367,
+      700,
+      378
+    ],
+    [
+      660,
+      392,
+      700,
+      403
+    ],
+    [
+      641,
+      430,
+      700,
+      444
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Communication Equipment",
+  "document_portfolio": "Electronic & Communication Equipment",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "INTERCOMMUNICATION AND PUBLIC ADDRESS SYSTEMS, AIRBORNE",
+      "spendCategoryTitle": "Communication Equipment",
+      "portfolioGroup": "Electronic & Communication Equipment",
+      "description": "Industrial INTERCOMMUNICATION AND PUBLIC ADDRESS SYSTEMS, AIRBORNE System",
+      "line_total": 2067.06
+    },
+    {
+      "psc": "",
+      "shortName": "COMBAT, ASSAULT, AND TACTICAL VEHICLES, TRACKED",
+      "spendCategoryTitle": "Land Combat Vehicles",
+      "portfolioGroup": "Aircraft, Ships/Submarines & Land Vehicles",
+      "description": "Standard COMBAT, ASSAULT, AND TACTICAL VEHICLES, TRACKED Kit",
+      "line_total": 220.1
+    },
+    {
+      "psc": "",
+      "shortName": "ARMAMENT TRAINING DEVICES",
+      "spendCategoryTitle": "Training Aids and Devices",
+      "portfolioGroup": "Sustainment S&E",
+      "description": "Industrial ARMAMENT TRAINING DEVICES Package",
+      "line_total": 348.6
+    }
+  ],
+  "psc_breakdown": {
+    "Communication Equipment": 2067.06,
+    "Land Combat Vehicles": 220.1,
+    "Training Aids and Devices": 348.6
+  },
+  "portfolio_breakdown": {
+    "Electronic & Communication Equipment": 2067.06,
+    "Aircraft, Ships/Submarines & Land Vehicles": 220.1,
+    "Sustainment S&E": 348.6
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-572897",
+    "date": "2025-05-28",
+    "vendor_name": "Rodriguez Inc",
+    "total_amount": 2846.62
+  }
+}

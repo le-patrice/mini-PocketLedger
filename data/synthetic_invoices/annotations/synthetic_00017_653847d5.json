@@ -1,0 +1,247 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-514127",
+    "2024-10-27",
+    "Moore-Conner",
+    "Industrial SEEDS AND NURSERY STOCK",
+    "14",
+    "$177.93",
+    "$2491.02",
+    "Standard SUPPORT- PROFESSIONAL: PERSONAL CARE (NON-MEDICAL) System",
+    "15",
+    "$412.11",
+    "$6181.65",
+    "Standard AIRCRAFT AIR CONDITIONING Assembly",
+    "13",
+    "$434.74",
+    "$5651.62",
+    "Professional NIGHT VISION EQUIPMENT, EMITTED AND REFLECTED RADIATION Assembly",
+    "13",
+    "$509.57",
+    "$6624.41",
+    "$20948.70",
+    "$1675.90",
+    "$22624.60"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      121,
+      167
+    ],
+    [
+      55,
+      222,
+      264,
+      232
+    ],
+    [
+      449,
+      222,
+      461,
+      232
+    ],
+    [
+      556,
+      222,
+      596,
+      233
+    ],
+    [
+      647,
+      222,
+      693,
+      233
+    ],
+    [
+      55,
+      247,
+      347,
+      257
+    ],
+    [
+      449,
+      247,
+      461,
+      257
+    ],
+    [
+      557,
+      247,
+      596,
+      258
+    ],
+    [
+      647,
+      247,
+      693,
+      258
+    ],
+    [
+      55,
+      292,
+      313,
+      304
+    ],
+    [
+      449,
+      292,
+      461,
+      302
+    ],
+    [
+      556,
+      292,
+      596,
+      303
+    ],
+    [
+      647,
+      292,
+      693,
+      303
+    ],
+    [
+      55,
+      317,
+      340,
+      329
+    ],
+    [
+      449,
+      317,
+      461,
+      327
+    ],
+    [
+      556,
+      317,
+      596,
+      328
+    ],
+    [
+      647,
+      317,
+      693,
+      328
+    ],
+    [
+      648,
+      392,
+      700,
+      403
+    ],
+    [
+      654,
+      417,
+      700,
+      428
+    ],
+    [
+      634,
+      455,
+      700,
+      469
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Night Vision Eq",
+  "document_portfolio": "Electronic & Communication Equipment",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "SEEDS AND NURSERY STOCK",
+      "spendCategoryTitle": "Security Animals & Related Svcs",
+      "portfolioGroup": "Facilities S&E",
+      "description": "Industrial SEEDS AND NURSERY STOCK",
+      "line_total": 2491.02
+    },
+    {
+      "psc": "",
+      "shortName": "SUPPORT- PROFESSIONAL: PERSONAL CARE (NON-MEDICAL)",
+      "spendCategoryTitle": "Social Services",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "Standard SUPPORT- PROFESSIONAL: PERSONAL CARE (NON-MEDICAL) System",
+      "line_total": 6181.65
+    },
+    {
+      "psc": "",
+      "shortName": "AIRCRAFT AIR CONDITIONING, HEATING, AND PRESSURIZING EQUIPMENT",
+      "spendCategoryTitle": "Engines, Components & Spt Eq",
+      "portfolioGroup": "Sustainment S&E",
+      "description": "Standard AIRCRAFT AIR CONDITIONING Assembly",
+      "line_total": 5651.62
+    },
+    {
+      "psc": "",
+      "shortName": "NIGHT VISION EQUIPMENT, EMITTED AND REFLECTED RADIATION",
+      "spendCategoryTitle": "Night Vision Eq",
+      "portfolioGroup": "Electronic & Communication Equipment",
+      "description": "Professional NIGHT VISION EQUIPMENT, EMITTED AND REFLECTED RADIATION Assembly",
+      "line_total": 6624.41
+    }
+  ],
+  "psc_breakdown": {
+    "Security Animals & Related Svcs": 2491.02,
+    "Social Services": 6181.65,
+    "Engines, Components & Spt Eq": 5651.62,
+    "Night Vision Eq": 6624.41
+  },
+  "portfolio_breakdown": {
+    "Facilities S&E": 2491.02,
+    "Knowledge Based Services": 6181.65,
+    "Sustainment S&E": 5651.62,
+    "Electronic & Communication Equipment": 6624.41
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-514127",
+    "date": "2024-10-27",
+    "vendor_name": "Moore-Conner",
+    "total_amount": 22624.6
+  }
+}

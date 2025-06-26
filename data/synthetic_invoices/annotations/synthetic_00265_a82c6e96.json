@@ -1,0 +1,204 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-201785",
+    "2024-09-23",
+    "Allen Ltd",
+    "TECHNICAL REPRESENTATIVE- METALWORKING MACHINERY Package",
+    "7",
+    "$708.38",
+    "$4958.66",
+    "Premium SUPPORT- MANAGEMENT: ADVERTISING Package",
+    "10",
+    "$193.40",
+    "$1934.00",
+    "Standard EQUIPMENT AND MATERIALS TESTING- SUBSISTENCE System",
+    "5",
+    "$301.36",
+    "$1506.80",
+    "$8399.46",
+    "$1049.93",
+    "$9449.39"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      103,
+      191
+    ],
+    [
+      65,
+      251,
+      393,
+      261
+    ],
+    [
+      482,
+      251,
+      488,
+      261
+    ],
+    [
+      593,
+      251,
+      633,
+      262
+    ],
+    [
+      689,
+      251,
+      735,
+      262
+    ],
+    [
+      65,
+      300,
+      375,
+      312
+    ],
+    [
+      479,
+      300,
+      491,
+      310
+    ],
+    [
+      593,
+      300,
+      633,
+      311
+    ],
+    [
+      689,
+      300,
+      735,
+      311
+    ],
+    [
+      65,
+      327,
+      403,
+      338
+    ],
+    [
+      482,
+      327,
+      488,
+      337
+    ],
+    [
+      593,
+      327,
+      633,
+      338
+    ],
+    [
+      689,
+      327,
+      735,
+      338
+    ],
+    [
+      694,
+      406,
+      740,
+      417
+    ],
+    [
+      694,
+      433,
+      740,
+      444
+    ],
+    [
+      681,
+      473,
+      740,
+      487
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Technical Representative Services",
+  "document_portfolio": "Facility Related Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "TECHNICAL REPRESENTATIVE- METALWORKING MACHINERY",
+      "spendCategoryTitle": "Technical Representative Services",
+      "portfolioGroup": "Facility Related Services",
+      "description": "TECHNICAL REPRESENTATIVE- METALWORKING MACHINERY Package",
+      "line_total": 4958.66
+    },
+    {
+      "psc": "",
+      "shortName": "SUPPORT- MANAGEMENT: ADVERTISING",
+      "spendCategoryTitle": "Marketing and Distribution",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "Premium SUPPORT- MANAGEMENT: ADVERTISING Package",
+      "line_total": 1934.0
+    },
+    {
+      "psc": "",
+      "shortName": "EQUIPMENT AND MATERIALS TESTING- SUBSISTENCE",
+      "spendCategoryTitle": "Subsistence",
+      "portfolioGroup": "Facility Related Services",
+      "description": "Standard EQUIPMENT AND MATERIALS TESTING- SUBSISTENCE System",
+      "line_total": 1506.8
+    }
+  ],
+  "psc_breakdown": {
+    "Technical Representative Services": 4958.66,
+    "Marketing and Distribution": 1934.0,
+    "Subsistence": 1506.8
+  },
+  "portfolio_breakdown": {
+    "Facility Related Services": 6465.46,
+    "Knowledge Based Services": 1934.0
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-201785",
+    "date": "2024-09-23",
+    "vendor_name": "Allen Ltd",
+    "total_amount": 9449.39
+  }
+}

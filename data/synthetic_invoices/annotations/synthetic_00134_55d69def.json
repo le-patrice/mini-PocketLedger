@@ -1,0 +1,247 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-396747",
+    "2024-10-12",
+    "Williams-Le",
+    "Standard WRAPPING AND PACKAGING MACHINERY Package",
+    "9",
+    "$128.80",
+    "$1159.20",
+    "INSTALLATION OF EQUIPMENT- FIRE CONTROL EQUIPMENT System",
+    "13",
+    "$739.52",
+    "$9613.76",
+    "Standard INSPECTION- LIGHTING FIXTURES AND LAMPS Assembly",
+    "10",
+    "$633.65",
+    "$6336.50",
+    "PRESERVATIVE AND SEALING COMPOUNDS Kit",
+    "9",
+    "$266.62",
+    "$2399.58",
+    "$19509.04",
+    "$1950.90",
+    "$21459.94"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      107,
+      167
+    ],
+    [
+      55,
+      222,
+      371,
+      234
+    ],
+    [
+      452,
+      222,
+      458,
+      232
+    ],
+    [
+      556,
+      222,
+      596,
+      233
+    ],
+    [
+      648,
+      222,
+      693,
+      233
+    ],
+    [
+      55,
+      247,
+      375,
+      258
+    ],
+    [
+      449,
+      247,
+      461,
+      257
+    ],
+    [
+      556,
+      247,
+      596,
+      258
+    ],
+    [
+      647,
+      247,
+      693,
+      258
+    ],
+    [
+      55,
+      292,
+      352,
+      302
+    ],
+    [
+      449,
+      292,
+      461,
+      302
+    ],
+    [
+      556,
+      292,
+      596,
+      303
+    ],
+    [
+      647,
+      292,
+      693,
+      303
+    ],
+    [
+      55,
+      337,
+      306,
+      347
+    ],
+    [
+      452,
+      337,
+      458,
+      347
+    ],
+    [
+      556,
+      337,
+      596,
+      348
+    ],
+    [
+      647,
+      337,
+      693,
+      348
+    ],
+    [
+      648,
+      392,
+      700,
+      403
+    ],
+    [
+      654,
+      417,
+      700,
+      428
+    ],
+    [
+      634,
+      455,
+      700,
+      469
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Installation of Equipment",
+  "document_portfolio": "Equipment Related Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "WRAPPING AND PACKAGING MACHINERY",
+      "spendCategoryTitle": "Machinery & Components",
+      "portfolioGroup": "Facilities S&E",
+      "description": "Standard WRAPPING AND PACKAGING MACHINERY Package",
+      "line_total": 1159.2
+    },
+    {
+      "psc": "",
+      "shortName": "INSTALLATION OF EQUIPMENT- FIRE CONTROL EQUIPMENT",
+      "spendCategoryTitle": "Installation of Equipment",
+      "portfolioGroup": "Equipment Related Services",
+      "description": "INSTALLATION OF EQUIPMENT- FIRE CONTROL EQUIPMENT System",
+      "line_total": 9613.76
+    },
+    {
+      "psc": "",
+      "shortName": "INSPECTION- LIGHTING FIXTURES AND LAMPS",
+      "spendCategoryTitle": "Equipment Maintenance",
+      "portfolioGroup": "Electronic & Communication Services",
+      "description": "Standard INSPECTION- LIGHTING FIXTURES AND LAMPS Assembly",
+      "line_total": 6336.5
+    },
+    {
+      "psc": "",
+      "shortName": "PRESERVATIVE AND SEALING COMPOUNDS",
+      "spendCategoryTitle": "Facility Related Materials",
+      "portfolioGroup": "Sustainment S&E",
+      "description": "PRESERVATIVE AND SEALING COMPOUNDS Kit",
+      "line_total": 2399.58
+    }
+  ],
+  "psc_breakdown": {
+    "Machinery & Components": 1159.2,
+    "Installation of Equipment": 9613.76,
+    "Equipment Maintenance": 6336.5,
+    "Facility Related Materials": 2399.58
+  },
+  "portfolio_breakdown": {
+    "Facilities S&E": 1159.2,
+    "Equipment Related Services": 9613.76,
+    "Electronic & Communication Services": 6336.5,
+    "Sustainment S&E": 2399.58
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-396747",
+    "date": "2024-10-12",
+    "vendor_name": "Williams-Le",
+    "total_amount": 21459.94
+  }
+}

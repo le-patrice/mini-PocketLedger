@@ -1,0 +1,205 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-682621",
+    "2024-12-17",
+    "Nelson PLC",
+    "Premium INSTALLATION OF EQUIPMENT- AIRCRAFT COMPONENTS Assembly",
+    "11",
+    "$802.41",
+    "$8826.51",
+    "Professional SUPPORT- MANAGEMENT: BANKING Package",
+    "5",
+    "$178.93",
+    "$894.65",
+    "Professional GUNS, OVER 300MM Kit",
+    "4",
+    "$702.39",
+    "$2809.56",
+    "$12530.72",
+    "$626.54",
+    "$13157.26"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      109,
+      167
+    ],
+    [
+      55,
+      222,
+      326,
+      233
+    ],
+    [
+      450,
+      222,
+      461,
+      232
+    ],
+    [
+      556,
+      222,
+      596,
+      233
+    ],
+    [
+      647,
+      222,
+      693,
+      233
+    ],
+    [
+      55,
+      267,
+      357,
+      279
+    ],
+    [
+      452,
+      267,
+      458,
+      277
+    ],
+    [
+      556,
+      267,
+      596,
+      278
+    ],
+    [
+      653,
+      267,
+      693,
+      278
+    ],
+    [
+      55,
+      292,
+      243,
+      304
+    ],
+    [
+      452,
+      292,
+      458,
+      302
+    ],
+    [
+      556,
+      292,
+      596,
+      303
+    ],
+    [
+      647,
+      292,
+      693,
+      303
+    ],
+    [
+      648,
+      347,
+      700,
+      358
+    ],
+    [
+      660,
+      372,
+      700,
+      383
+    ],
+    [
+      634,
+      410,
+      700,
+      424
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Installation of Equipment",
+  "document_portfolio": "Equipment Related Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "INSTALLATION OF EQUIPMENT- AIRCRAFT COMPONENTS AND ACCESSORIES",
+      "spendCategoryTitle": "Installation of Equipment",
+      "portfolioGroup": "Equipment Related Services",
+      "description": "Premium INSTALLATION OF EQUIPMENT- AIRCRAFT COMPONENTS Assembly",
+      "line_total": 8826.51
+    },
+    {
+      "psc": "",
+      "shortName": "SUPPORT- MANAGEMENT: BANKING",
+      "spendCategoryTitle": "Financial services",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "Professional SUPPORT- MANAGEMENT: BANKING Package",
+      "line_total": 894.65
+    },
+    {
+      "psc": "",
+      "shortName": "GUNS, OVER 300MM",
+      "spendCategoryTitle": "Guns",
+      "portfolioGroup": "Weapons & Ammunition",
+      "description": "Professional GUNS, OVER 300MM Kit",
+      "line_total": 2809.56
+    }
+  ],
+  "psc_breakdown": {
+    "Installation of Equipment": 8826.51,
+    "Financial services": 894.65,
+    "Guns": 2809.56
+  },
+  "portfolio_breakdown": {
+    "Equipment Related Services": 8826.51,
+    "Knowledge Based Services": 894.65,
+    "Weapons & Ammunition": 2809.56
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-682621",
+    "date": "2024-12-17",
+    "vendor_name": "Nelson PLC",
+    "total_amount": 13157.26
+  }
+}

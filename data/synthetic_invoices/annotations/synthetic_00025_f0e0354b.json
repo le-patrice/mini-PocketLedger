@@ -1,0 +1,121 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-309803",
+    "2024-12-22",
+    "Schwartz, Pace and Black",
+    "TRANSPORTATION/TRAVEL/RELOCATION- TRAVEL/LODGING/RECRUITMENT Assembly",
+    "15",
+    "$453.33",
+    "$6799.95",
+    "$6799.95",
+    "$544.00",
+    "$7343.95"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      178,
+      169
+    ],
+    [
+      55,
+      222,
+      277,
+      232
+    ],
+    [
+      449,
+      222,
+      461,
+      232
+    ],
+    [
+      556,
+      222,
+      596,
+      233
+    ],
+    [
+      647,
+      222,
+      693,
+      233
+    ],
+    [
+      654,
+      297,
+      700,
+      308
+    ],
+    [
+      660,
+      322,
+      700,
+      333
+    ],
+    [
+      641,
+      360,
+      700,
+      374
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Lodging",
+  "document_portfolio": "Transportation Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "TRANSPORTATION/TRAVEL/RELOCATION- TRAVEL/LODGING/RECRUITMENT: RAIL PASSENGER",
+      "spendCategoryTitle": "Lodging",
+      "portfolioGroup": "Transportation Services",
+      "description": "TRANSPORTATION/TRAVEL/RELOCATION- TRAVEL/LODGING/RECRUITMENT Assembly",
+      "line_total": 6799.95
+    }
+  ],
+  "psc_breakdown": {
+    "Lodging": 6799.95
+  },
+  "portfolio_breakdown": {
+    "Transportation Services": 6799.95
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-309803",
+    "date": "2024-12-22",
+    "vendor_name": "Schwartz, Pace and Black",
+    "total_amount": 7343.95
+  }
+}

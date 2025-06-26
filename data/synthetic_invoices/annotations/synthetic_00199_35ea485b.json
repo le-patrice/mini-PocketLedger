@@ -1,0 +1,288 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-812593",
+    "2024-12-06",
+    "Huber PLC",
+    "Industrial SPECIAL STUDIES/ANALYSIS- MATHEMATICAL/STATISTICAL Package",
+    "8",
+    "$174.99",
+    "$1399.92",
+    "Industrial FUZING AND FIRING DEVICES, NUCLEAR ORDNANCE",
+    "12",
+    "$476.16",
+    "$5713.92",
+    "Standard DRUGS AND BIOLOGICALS",
+    "13",
+    "$525.41",
+    "$6830.33",
+    "SUPPORT- PROFESSIONAL: LAND SURVEYS-CADASTRAL (NON-CONSTRUCT System",
+    "12",
+    "$695.06",
+    "$8340.72",
+    "IT Package",
+    "5",
+    "$766.21",
+    "$3831.05",
+    "$26115.94",
+    "$2611.59",
+    "$28727.53"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      115,
+      191
+    ],
+    [
+      65,
+      251,
+      428,
+      261
+    ],
+    [
+      482,
+      251,
+      488,
+      261
+    ],
+    [
+      593,
+      251,
+      633,
+      262
+    ],
+    [
+      689,
+      251,
+      735,
+      262
+    ],
+    [
+      65,
+      300,
+      396,
+      312
+    ],
+    [
+      479,
+      300,
+      491,
+      310
+    ],
+    [
+      593,
+      300,
+      633,
+      311
+    ],
+    [
+      689,
+      300,
+      735,
+      311
+    ],
+    [
+      65,
+      327,
+      255,
+      337
+    ],
+    [
+      479,
+      327,
+      491,
+      337
+    ],
+    [
+      593,
+      327,
+      633,
+      338
+    ],
+    [
+      689,
+      327,
+      735,
+      338
+    ],
+    [
+      65,
+      354,
+      370,
+      364
+    ],
+    [
+      479,
+      354,
+      491,
+      364
+    ],
+    [
+      593,
+      354,
+      633,
+      365
+    ],
+    [
+      689,
+      354,
+      735,
+      365
+    ],
+    [
+      65,
+      403,
+      120,
+      415
+    ],
+    [
+      482,
+      403,
+      488,
+      413
+    ],
+    [
+      593,
+      403,
+      633,
+      414
+    ],
+    [
+      689,
+      403,
+      735,
+      414
+    ],
+    [
+      689,
+      460,
+      740,
+      471
+    ],
+    [
+      695,
+      487,
+      740,
+      498
+    ],
+    [
+      674,
+      527,
+      740,
+      541
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Real Estate Services",
+  "document_portfolio": "Knowledge Based Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "SPECIAL STUDIES/ANALYSIS- MATHEMATICAL/STATISTICAL",
+      "spendCategoryTitle": "Management Advisory Services",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "Industrial SPECIAL STUDIES/ANALYSIS- MATHEMATICAL/STATISTICAL Package",
+      "line_total": 1399.92
+    },
+    {
+      "psc": "",
+      "shortName": "FUZING AND FIRING DEVICES, NUCLEAR ORDNANCE",
+      "spendCategoryTitle": "Nuclear Ordnance",
+      "portfolioGroup": "Weapons & Ammunition",
+      "description": "Industrial FUZING AND FIRING DEVICES, NUCLEAR ORDNANCE",
+      "line_total": 5713.92
+    },
+    {
+      "psc": "",
+      "shortName": "DRUGS AND BIOLOGICALS",
+      "spendCategoryTitle": "Drugs and Pharmaceutical Products",
+      "portfolioGroup": "Clothing, Textiles & Subsistence S&E",
+      "description": "Standard DRUGS AND BIOLOGICALS",
+      "line_total": 6830.33
+    },
+    {
+      "psc": "",
+      "shortName": "SUPPORT- PROFESSIONAL: LAND SURVEYS-CADASTRAL (NON-CONSTRUCTION)",
+      "spendCategoryTitle": "Real Estate Services",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "SUPPORT- PROFESSIONAL: LAND SURVEYS-CADASTRAL (NON-CONSTRUCT System",
+      "line_total": 8340.72
+    },
+    {
+      "psc": "",
+      "shortName": "IT AND TELECOM - PLATFORM SUPPORT SERVICES: DATABASE, MAINFRAME, MIDDLEWARE (LABOR)",
+      "spendCategoryTitle": "IT Professional Service (Labor)",
+      "portfolioGroup": "",
+      "description": "IT Package",
+      "line_total": 3831.05
+    }
+  ],
+  "psc_breakdown": {
+    "Management Advisory Services": 1399.92,
+    "Nuclear Ordnance": 5713.92,
+    "Drugs and Pharmaceutical Products": 6830.33,
+    "Real Estate Services": 8340.72,
+    "IT Professional Service (Labor)": 3831.05
+  },
+  "portfolio_breakdown": {
+    "Knowledge Based Services": 9740.64,
+    "Weapons & Ammunition": 5713.92,
+    "Clothing, Textiles & Subsistence S&E": 6830.33,
+    "": 3831.05
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-812593",
+    "date": "2024-12-06",
+    "vendor_name": "Huber PLC",
+    "total_amount": 28727.53
+  }
+}

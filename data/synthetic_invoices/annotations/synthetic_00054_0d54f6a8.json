@@ -1,0 +1,205 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-170474",
+    "2025-06-16",
+    "Rose-Fernandez",
+    "Industrial SUPPORT- ADMINISTRATIVE: OTHER",
+    "9",
+    "$720.10",
+    "$6480.90",
+    "Standard TRANSPORTATION/TRAVEL/RELOCATION- TRANSPORTATION: OTHER Assembly",
+    "13",
+    "$45.78",
+    "$595.14",
+    "INSTALLATION OF EQUIPMENT- VEHICULAR EQUIPMENT COMPONENTS Package",
+    "2",
+    "$185.88",
+    "$371.76",
+    "$7447.80",
+    "$595.82",
+    "$8043.62"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      142,
+      191
+    ],
+    [
+      65,
+      251,
+      307,
+      261
+    ],
+    [
+      482,
+      251,
+      488,
+      261
+    ],
+    [
+      593,
+      251,
+      633,
+      262
+    ],
+    [
+      689,
+      251,
+      735,
+      262
+    ],
+    [
+      65,
+      278,
+      335,
+      288
+    ],
+    [
+      479,
+      278,
+      491,
+      288
+    ],
+    [
+      599,
+      278,
+      633,
+      289
+    ],
+    [
+      695,
+      278,
+      735,
+      289
+    ],
+    [
+      65,
+      327,
+      366,
+      338
+    ],
+    [
+      482,
+      327,
+      488,
+      337
+    ],
+    [
+      593,
+      327,
+      633,
+      338
+    ],
+    [
+      695,
+      327,
+      735,
+      338
+    ],
+    [
+      694,
+      406,
+      740,
+      417
+    ],
+    [
+      700,
+      433,
+      740,
+      444
+    ],
+    [
+      681,
+      473,
+      740,
+      487
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Business administration services",
+  "document_portfolio": "Knowledge Based Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "SUPPORT- ADMINISTRATIVE: OTHER",
+      "spendCategoryTitle": "Business administration services",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "Industrial SUPPORT- ADMINISTRATIVE: OTHER",
+      "line_total": 6480.9
+    },
+    {
+      "psc": "",
+      "shortName": "TRANSPORTATION/TRAVEL/RELOCATION- TRANSPORTATION: OTHER",
+      "spendCategoryTitle": "Transportation of Things",
+      "portfolioGroup": "Transportation Services",
+      "description": "Standard TRANSPORTATION/TRAVEL/RELOCATION- TRANSPORTATION: OTHER Assembly",
+      "line_total": 595.14
+    },
+    {
+      "psc": "",
+      "shortName": "INSTALLATION OF EQUIPMENT- VEHICULAR EQUIPMENT COMPONENTS",
+      "spendCategoryTitle": "Installation of Equipment",
+      "portfolioGroup": "Equipment Related Services",
+      "description": "INSTALLATION OF EQUIPMENT- VEHICULAR EQUIPMENT COMPONENTS Package",
+      "line_total": 371.76
+    }
+  ],
+  "psc_breakdown": {
+    "Business administration services": 6480.9,
+    "Transportation of Things": 595.14,
+    "Installation of Equipment": 371.76
+  },
+  "portfolio_breakdown": {
+    "Knowledge Based Services": 6480.9,
+    "Transportation Services": 595.14,
+    "Equipment Related Services": 371.76
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-170474",
+    "date": "2025-06-16",
+    "vendor_name": "Rose-Fernandez",
+    "total_amount": 8043.62
+  }
+}

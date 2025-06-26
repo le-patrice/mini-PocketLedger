@@ -1,0 +1,163 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-252830",
+    "2025-03-25",
+    "Martinez, Lowery and Morgan",
+    "Premium FUR MATERIALS",
+    "6",
+    "$458.99",
+    "$2753.94",
+    "Premium PRESERVATIVE AND SEALING COMPOUNDS Assembly",
+    "4",
+    "$351.68",
+    "$1406.72",
+    "$4160.66",
+    "$332.85",
+    "$4493.51"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      196,
+      169
+    ],
+    [
+      55,
+      222,
+      189,
+      232
+    ],
+    [
+      452,
+      222,
+      458,
+      232
+    ],
+    [
+      556,
+      222,
+      596,
+      233
+    ],
+    [
+      647,
+      222,
+      693,
+      233
+    ],
+    [
+      55,
+      247,
+      388,
+      259
+    ],
+    [
+      452,
+      247,
+      458,
+      257
+    ],
+    [
+      556,
+      247,
+      596,
+      258
+    ],
+    [
+      647,
+      247,
+      693,
+      258
+    ],
+    [
+      654,
+      302,
+      700,
+      313
+    ],
+    [
+      660,
+      327,
+      700,
+      338
+    ],
+    [
+      642,
+      365,
+      700,
+      379
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Textiles, Clothing & Equipage",
+  "document_portfolio": "Clothing, Textiles & Subsistence S&E",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "FUR MATERIALS",
+      "spendCategoryTitle": "Textiles, Clothing & Equipage",
+      "portfolioGroup": "Clothing, Textiles & Subsistence S&E",
+      "description": "Premium FUR MATERIALS",
+      "line_total": 2753.94
+    },
+    {
+      "psc": "",
+      "shortName": "PRESERVATIVE AND SEALING COMPOUNDS",
+      "spendCategoryTitle": "Facility Related Materials",
+      "portfolioGroup": "Sustainment S&E",
+      "description": "Premium PRESERVATIVE AND SEALING COMPOUNDS Assembly",
+      "line_total": 1406.72
+    }
+  ],
+  "psc_breakdown": {
+    "Textiles, Clothing & Equipage": 2753.94,
+    "Facility Related Materials": 1406.72
+  },
+  "portfolio_breakdown": {
+    "Clothing, Textiles & Subsistence S&E": 2753.94,
+    "Sustainment S&E": 1406.72
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-252830",
+    "date": "2025-03-25",
+    "vendor_name": "Martinez, Lowery and Morgan",
+    "total_amount": 4493.51
+  }
+}

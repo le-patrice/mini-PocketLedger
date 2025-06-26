@@ -1,0 +1,245 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-987142",
+    "2024-09-24",
+    "Mcdaniel Inc",
+    "Premium HARDWARE, WEAPON SYSTEM Package",
+    "4",
+    "$110.78",
+    "$443.12",
+    "Premium GUIDED MISSILE SUBSYSTEMS System",
+    "9",
+    "$806.38",
+    "$7257.42",
+    "Premium LIQUID PROPELLANTS AND FUELS, PETROLEUM BASE",
+    "11",
+    "$191.96",
+    "$2111.56",
+    "Standard ADDITIVE METAL MATERIALS Package",
+    "6",
+    "$492.22",
+    "$2953.32",
+    "$12765.42",
+    "$638.27",
+    "$13403.69"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      122,
+      191
+    ],
+    [
+      65,
+      251,
+      325,
+      263
+    ],
+    [
+      482,
+      251,
+      488,
+      261
+    ],
+    [
+      594,
+      251,
+      633,
+      262
+    ],
+    [
+      695,
+      251,
+      735,
+      262
+    ],
+    [
+      65,
+      278,
+      319,
+      290
+    ],
+    [
+      482,
+      278,
+      488,
+      288
+    ],
+    [
+      593,
+      278,
+      633,
+      289
+    ],
+    [
+      689,
+      278,
+      735,
+      289
+    ],
+    [
+      65,
+      305,
+      403,
+      317
+    ],
+    [
+      479,
+      305,
+      490,
+      315
+    ],
+    [
+      593,
+      305,
+      633,
+      316
+    ],
+    [
+      691,
+      305,
+      735,
+      316
+    ],
+    [
+      65,
+      332,
+      312,
+      344
+    ],
+    [
+      482,
+      332,
+      488,
+      342
+    ],
+    [
+      593,
+      332,
+      633,
+      343
+    ],
+    [
+      689,
+      332,
+      735,
+      343
+    ],
+    [
+      688,
+      389,
+      740,
+      400
+    ],
+    [
+      700,
+      416,
+      740,
+      427
+    ],
+    [
+      674,
+      456,
+      740,
+      470
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Guided Missiles",
+  "document_portfolio": "Weapons & Ammunition",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "HARDWARE, WEAPON SYSTEM",
+      "spendCategoryTitle": "Supply Parts",
+      "portfolioGroup": "Sustainment S&E",
+      "description": "Premium HARDWARE, WEAPON SYSTEM Package",
+      "line_total": 443.12
+    },
+    {
+      "psc": "",
+      "shortName": "GUIDED MISSILE SUBSYSTEMS",
+      "spendCategoryTitle": "Guided Missiles",
+      "portfolioGroup": "Weapons & Ammunition",
+      "description": "Premium GUIDED MISSILE SUBSYSTEMS System",
+      "line_total": 7257.42
+    },
+    {
+      "psc": "",
+      "shortName": "LIQUID PROPELLANTS AND FUELS, PETROLEUM BASE",
+      "spendCategoryTitle": "Fuels",
+      "portfolioGroup": "Sustainment S&E",
+      "description": "Premium LIQUID PROPELLANTS AND FUELS, PETROLEUM BASE",
+      "line_total": 2111.56
+    },
+    {
+      "psc": "",
+      "shortName": "ADDITIVE METAL MATERIALS",
+      "spendCategoryTitle": "Basic Materials",
+      "portfolioGroup": "Sustainment S&E",
+      "description": "Standard ADDITIVE METAL MATERIALS Package",
+      "line_total": 2953.32
+    }
+  ],
+  "psc_breakdown": {
+    "Supply Parts": 443.12,
+    "Guided Missiles": 7257.42,
+    "Fuels": 2111.56,
+    "Basic Materials": 2953.32
+  },
+  "portfolio_breakdown": {
+    "Sustainment S&E": 5508.0,
+    "Weapons & Ammunition": 7257.42
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-987142",
+    "date": "2024-09-24",
+    "vendor_name": "Mcdaniel Inc",
+    "total_amount": 13403.69
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-647220",
+    "2024-10-13",
+    "Beck PLC",
+    "Premium SALVAGE- MARINE VESSELS Kit",
+    "6",
+    "$631.99",
+    "$3791.94",
+    "SUPPORT- PROFESSIONAL: REAL PROPERTY APPRAISALS Assembly",
+    "7",
+    "$754.44",
+    "$5281.08",
+    "Premium NIGHT VISION EQUIPMENT, EMITTED AND REFLECTED RADIATION",
+    "13",
+    "$699.22",
+    "$9089.86",
+    "$18162.88",
+    "$908.14",
+    "$19071.02"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      109,
+      191
+    ],
+    [
+      65,
+      251,
+      281,
+      261
+    ],
+    [
+      482,
+      251,
+      488,
+      261
+    ],
+    [
+      593,
+      251,
+      633,
+      262
+    ],
+    [
+      689,
+      251,
+      735,
+      262
+    ],
+    [
+      65,
+      278,
+      429,
+      290
+    ],
+    [
+      482,
+      278,
+      488,
+      288
+    ],
+    [
+      593,
+      278,
+      633,
+      289
+    ],
+    [
+      689,
+      278,
+      735,
+      289
+    ],
+    [
+      65,
+      305,
+      402,
+      317
+    ],
+    [
+      479,
+      305,
+      491,
+      315
+    ],
+    [
+      593,
+      305,
+      633,
+      316
+    ],
+    [
+      689,
+      305,
+      735,
+      316
+    ],
+    [
+      688,
+      384,
+      740,
+      395
+    ],
+    [
+      700,
+      411,
+      740,
+      422
+    ],
+    [
+      674,
+      451,
+      740,
+      465
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Night Vision Eq",
+  "document_portfolio": "Electronic & Communication Equipment",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "SALVAGE- MARINE VESSELS",
+      "spendCategoryTitle": "Salvage Services",
+      "portfolioGroup": "Equipment Related Services",
+      "description": "Premium SALVAGE- MARINE VESSELS Kit",
+      "line_total": 3791.94
+    },
+    {
+      "psc": "",
+      "shortName": "SUPPORT- PROFESSIONAL: REAL PROPERTY APPRAISALS",
+      "spendCategoryTitle": "Real Estate Services",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "SUPPORT- PROFESSIONAL: REAL PROPERTY APPRAISALS Assembly",
+      "line_total": 5281.08
+    },
+    {
+      "psc": "",
+      "shortName": "NIGHT VISION EQUIPMENT, EMITTED AND REFLECTED RADIATION",
+      "spendCategoryTitle": "Night Vision Eq",
+      "portfolioGroup": "Electronic & Communication Equipment",
+      "description": "Premium NIGHT VISION EQUIPMENT, EMITTED AND REFLECTED RADIATION",
+      "line_total": 9089.86
+    }
+  ],
+  "psc_breakdown": {
+    "Salvage Services": 3791.94,
+    "Real Estate Services": 5281.08,
+    "Night Vision Eq": 9089.86
+  },
+  "portfolio_breakdown": {
+    "Equipment Related Services": 3791.94,
+    "Knowledge Based Services": 5281.08,
+    "Electronic & Communication Equipment": 9089.86
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-647220",
+    "date": "2024-10-13",
+    "vendor_name": "Beck PLC",
+    "total_amount": 19071.02
+  }
+}

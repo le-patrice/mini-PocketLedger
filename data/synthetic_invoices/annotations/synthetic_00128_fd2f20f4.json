@@ -1,0 +1,162 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-164477",
+    "2024-10-22",
+    "Kennedy-Melton",
+    "Professional INSTALLATION OF EQUIPMENT- MEDICAL System",
+    "10",
+    "$589.53",
+    "$5895.30",
+    "Standard MAINT/REPAIR/REBUILD OF EQUIPMENT- CONSTRUCTION/MINING/EXCAV",
+    "2",
+    "$327.49",
+    "$654.98",
+    "$6550.28",
+    "$524.02",
+    "$7074.30"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      130,
+      169
+    ],
+    [
+      55,
+      222,
+      376,
+      234
+    ],
+    [
+      449,
+      222,
+      461,
+      232
+    ],
+    [
+      556,
+      222,
+      596,
+      233
+    ],
+    [
+      647,
+      222,
+      693,
+      233
+    ],
+    [
+      55,
+      247,
+      321,
+      258
+    ],
+    [
+      452,
+      247,
+      458,
+      257
+    ],
+    [
+      556,
+      247,
+      596,
+      258
+    ],
+    [
+      653,
+      247,
+      693,
+      258
+    ],
+    [
+      654,
+      322,
+      700,
+      333
+    ],
+    [
+      660,
+      347,
+      700,
+      358
+    ],
+    [
+      641,
+      385,
+      700,
+      399
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Medical Equipment and Accessories and Supplies",
+  "document_portfolio": "Facility Related Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "INSTALLATION OF EQUIPMENT- MEDICAL, DENTAL, AND VETERINARY EQUIPMENT AND SUPPLIES",
+      "spendCategoryTitle": "Medical Equipment and Accessories and Supplies",
+      "portfolioGroup": "Facility Related Services",
+      "description": "Professional INSTALLATION OF EQUIPMENT- MEDICAL System",
+      "line_total": 5895.3
+    },
+    {
+      "psc": "",
+      "shortName": "MAINT/REPAIR/REBUILD OF EQUIPMENT- CONSTRUCTION/MINING/EXCAVATING/HIGHWAY MAINTENANCE EQUIPMENT",
+      "spendCategoryTitle": "Industrial Products Install / Maintenance / Repair",
+      "portfolioGroup": "Facility Related Services",
+      "description": "Standard MAINT/REPAIR/REBUILD OF EQUIPMENT- CONSTRUCTION/MINING/EXCAV",
+      "line_total": 654.98
+    }
+  ],
+  "psc_breakdown": {
+    "Medical Equipment and Accessories and Supplies": 5895.3,
+    "Industrial Products Install / Maintenance / Repair": 654.98
+  },
+  "portfolio_breakdown": {
+    "Facility Related Services": 6550.280000000001
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-164477",
+    "date": "2024-10-22",
+    "vendor_name": "Kennedy-Melton",
+    "total_amount": 7074.3
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-275203",
+    "2025-02-24",
+    "Wallace-Marshall",
+    "LEASE OR RENTAL OF EQUIPMENT- SHIP AND MARINE EQUIPMENT Assembly",
+    "6",
+    "$257.70",
+    "$1546.20",
+    "$1546.20",
+    "$77.31",
+    "$1623.51"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      144,
+      191
+    ],
+    [
+      65,
+      251,
+      424,
+      262
+    ],
+    [
+      482,
+      251,
+      488,
+      261
+    ],
+    [
+      593,
+      251,
+      633,
+      262
+    ],
+    [
+      689,
+      251,
+      735,
+      262
+    ],
+    [
+      694,
+      330,
+      740,
+      341
+    ],
+    [
+      706,
+      357,
+      740,
+      368
+    ],
+    [
+      682,
+      397,
+      740,
+      411
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Purchases & Leases",
+  "document_portfolio": "Equipment Related Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "LEASE OR RENTAL OF EQUIPMENT- SHIP AND MARINE EQUIPMENT",
+      "spendCategoryTitle": "Purchases & Leases",
+      "portfolioGroup": "Equipment Related Services",
+      "description": "LEASE OR RENTAL OF EQUIPMENT- SHIP AND MARINE EQUIPMENT Assembly",
+      "line_total": 1546.2
+    }
+  ],
+  "psc_breakdown": {
+    "Purchases & Leases": 1546.2
+  },
+  "portfolio_breakdown": {
+    "Equipment Related Services": 1546.2
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-275203",
+    "date": "2025-02-24",
+    "vendor_name": "Wallace-Marshall",
+    "total_amount": 1623.51
+  }
+}

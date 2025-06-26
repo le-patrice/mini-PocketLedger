@@ -1,0 +1,288 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-864659",
+    "2024-11-10",
+    "Miller LLC",
+    "Industrial RADIO NAVIGATION EQUIPMENT, EXCEPT AIRBORNE Package",
+    "1",
+    "$224.46",
+    "$224.46",
+    "Professional DIGITAL MAPS, CHARTS AND GEODETIC PRODUCTS Package",
+    "14",
+    "$77.99",
+    "$1091.86",
+    "Industrial TOILETRY PAPER PRODUCTS Kit",
+    "7",
+    "$605.84",
+    "$4240.88",
+    "Premium COILS AND TRANSFORMERS",
+    "11",
+    "$588.33",
+    "$6471.63",
+    "SALVAGE- AIRCRAFT Assembly",
+    "10",
+    "$318.78",
+    "$3187.80",
+    "$15216.63",
+    "$760.83",
+    "$15977.46"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      110,
+      191
+    ],
+    [
+      65,
+      251,
+      394,
+      263
+    ],
+    [
+      482,
+      251,
+      488,
+      261
+    ],
+    [
+      593,
+      251,
+      633,
+      262
+    ],
+    [
+      695,
+      251,
+      735,
+      262
+    ],
+    [
+      65,
+      300,
+      407,
+      312
+    ],
+    [
+      479,
+      300,
+      491,
+      310
+    ],
+    [
+      599,
+      300,
+      633,
+      311
+    ],
+    [
+      689,
+      300,
+      735,
+      311
+    ],
+    [
+      65,
+      349,
+      286,
+      359
+    ],
+    [
+      482,
+      349,
+      488,
+      359
+    ],
+    [
+      593,
+      349,
+      633,
+      360
+    ],
+    [
+      689,
+      349,
+      735,
+      360
+    ],
+    [
+      65,
+      376,
+      266,
+      386
+    ],
+    [
+      479,
+      376,
+      490,
+      386
+    ],
+    [
+      593,
+      376,
+      633,
+      387
+    ],
+    [
+      689,
+      376,
+      735,
+      387
+    ],
+    [
+      65,
+      403,
+      226,
+      415
+    ],
+    [
+      479,
+      403,
+      491,
+      413
+    ],
+    [
+      593,
+      403,
+      633,
+      414
+    ],
+    [
+      689,
+      403,
+      735,
+      414
+    ],
+    [
+      688,
+      460,
+      740,
+      471
+    ],
+    [
+      700,
+      487,
+      740,
+      498
+    ],
+    [
+      674,
+      527,
+      740,
+      541
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Electrical & Electronics Equipment",
+  "document_portfolio": "Electronic & Communication Equipment",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "RADIO NAVIGATION EQUIPMENT, EXCEPT AIRBORNE",
+      "spendCategoryTitle": "Communication Equipment",
+      "portfolioGroup": "Electronic & Communication Equipment",
+      "description": "Industrial RADIO NAVIGATION EQUIPMENT, EXCEPT AIRBORNE Package",
+      "line_total": 224.46
+    },
+    {
+      "psc": "",
+      "shortName": "DIGITAL MAPS, CHARTS AND GEODETIC PRODUCTS",
+      "spendCategoryTitle": "S&E Not Classifed Elsewhere",
+      "portfolioGroup": "Facilities S&E",
+      "description": "Professional DIGITAL MAPS, CHARTS AND GEODETIC PRODUCTS Package",
+      "line_total": 1091.86
+    },
+    {
+      "psc": "",
+      "shortName": "TOILETRY PAPER PRODUCTS",
+      "spendCategoryTitle": "Textiles, Clothing & Equipage",
+      "portfolioGroup": "Clothing, Textiles & Subsistence S&E",
+      "description": "Industrial TOILETRY PAPER PRODUCTS Kit",
+      "line_total": 4240.88
+    },
+    {
+      "psc": "",
+      "shortName": "COILS AND TRANSFORMERS",
+      "spendCategoryTitle": "Electrical & Electronics Equipment",
+      "portfolioGroup": "Electronic & Communication Equipment",
+      "description": "Premium COILS AND TRANSFORMERS",
+      "line_total": 6471.63
+    },
+    {
+      "psc": "",
+      "shortName": "SALVAGE- AIRCRAFT",
+      "spendCategoryTitle": "Salvage Services",
+      "portfolioGroup": "Equipment Related Services",
+      "description": "SALVAGE- AIRCRAFT Assembly",
+      "line_total": 3187.8
+    }
+  ],
+  "psc_breakdown": {
+    "Communication Equipment": 224.46,
+    "S&E Not Classifed Elsewhere": 1091.86,
+    "Textiles, Clothing & Equipage": 4240.88,
+    "Electrical & Electronics Equipment": 6471.63,
+    "Salvage Services": 3187.8
+  },
+  "portfolio_breakdown": {
+    "Electronic & Communication Equipment": 6696.09,
+    "Facilities S&E": 1091.86,
+    "Clothing, Textiles & Subsistence S&E": 4240.88,
+    "Equipment Related Services": 3187.8
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-864659",
+    "date": "2024-11-10",
+    "vendor_name": "Miller LLC",
+    "total_amount": 15977.46
+  }
+}

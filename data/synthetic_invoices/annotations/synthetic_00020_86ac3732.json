@@ -1,0 +1,247 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-570557",
+    "2024-08-08",
+    "Smith, Wilson and Kaiser",
+    "DRILL BITS, COUNTERBORES, AND COUNTERSINKS: HAND AND MACHINE Package",
+    "12",
+    "$255.85",
+    "$3070.20",
+    "LEASE/RENTAL OF CONFERENCE SPACE AND FACILITIES Kit",
+    "6",
+    "$705.96",
+    "$4235.76",
+    "Professional LEASE OR RENTAL OF EQUIPMENT- AIRCRAFT LAUNCHING System",
+    "2",
+    "$566.87",
+    "$1133.74",
+    "CONSTRUCTION OF OTHER EDUCATIONAL BUILDINGS Kit",
+    "4",
+    "$680.25",
+    "$2721.00",
+    "$11160.70",
+    "$892.86",
+    "$12053.56"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      173,
+      169
+    ],
+    [
+      55,
+      222,
+      395,
+      234
+    ],
+    [
+      449,
+      222,
+      461,
+      232
+    ],
+    [
+      556,
+      222,
+      596,
+      233
+    ],
+    [
+      647,
+      222,
+      693,
+      233
+    ],
+    [
+      55,
+      267,
+      376,
+      277
+    ],
+    [
+      452,
+      267,
+      458,
+      277
+    ],
+    [
+      556,
+      267,
+      596,
+      278
+    ],
+    [
+      647,
+      267,
+      693,
+      278
+    ],
+    [
+      55,
+      292,
+      367,
+      303
+    ],
+    [
+      452,
+      292,
+      458,
+      302
+    ],
+    [
+      556,
+      292,
+      596,
+      303
+    ],
+    [
+      648,
+      292,
+      693,
+      303
+    ],
+    [
+      55,
+      337,
+      362,
+      347
+    ],
+    [
+      452,
+      337,
+      458,
+      347
+    ],
+    [
+      556,
+      337,
+      596,
+      348
+    ],
+    [
+      647,
+      337,
+      693,
+      348
+    ],
+    [
+      650,
+      392,
+      700,
+      403
+    ],
+    [
+      660,
+      417,
+      700,
+      428
+    ],
+    [
+      634,
+      455,
+      700,
+      469
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Facilities Purchase & Lease",
+  "document_portfolio": "Facility Related Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "DRILL BITS, COUNTERBORES, AND COUNTERSINKS: HAND AND MACHINE",
+      "spendCategoryTitle": "Hardware & Tools",
+      "portfolioGroup": "Facilities S&E",
+      "description": "DRILL BITS, COUNTERBORES, AND COUNTERSINKS: HAND AND MACHINE Package",
+      "line_total": 3070.2
+    },
+    {
+      "psc": "",
+      "shortName": "LEASE/RENTAL OF CONFERENCE SPACE AND FACILITIES",
+      "spendCategoryTitle": "Facilities Purchase & Lease",
+      "portfolioGroup": "Facility Related Services",
+      "description": "LEASE/RENTAL OF CONFERENCE SPACE AND FACILITIES Kit",
+      "line_total": 4235.76
+    },
+    {
+      "psc": "",
+      "shortName": "LEASE OR RENTAL OF EQUIPMENT- AIRCRAFT LAUNCHING, LANDING, AND GROUND HANDLING EQUIPMENT",
+      "spendCategoryTitle": "Purchases & Leases",
+      "portfolioGroup": "Equipment Related Services",
+      "description": "Professional LEASE OR RENTAL OF EQUIPMENT- AIRCRAFT LAUNCHING System",
+      "line_total": 1133.74
+    },
+    {
+      "psc": "",
+      "shortName": "CONSTRUCTION OF OTHER EDUCATIONAL BUILDINGS",
+      "spendCategoryTitle": "Construction Related Services",
+      "portfolioGroup": "Construction Services",
+      "description": "CONSTRUCTION OF OTHER EDUCATIONAL BUILDINGS Kit",
+      "line_total": 2721.0
+    }
+  ],
+  "psc_breakdown": {
+    "Hardware & Tools": 3070.2,
+    "Facilities Purchase & Lease": 4235.76,
+    "Purchases & Leases": 1133.74,
+    "Construction Related Services": 2721.0
+  },
+  "portfolio_breakdown": {
+    "Facilities S&E": 3070.2,
+    "Facility Related Services": 4235.76,
+    "Equipment Related Services": 1133.74,
+    "Construction Services": 2721.0
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-570557",
+    "date": "2024-08-08",
+    "vendor_name": "Smith, Wilson and Kaiser",
+    "total_amount": 12053.56
+  }
+}

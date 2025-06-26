@@ -1,0 +1,204 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-556264",
+    "2025-03-18",
+    "Williams-Johns",
+    "Industrial FOOTWEAR, WOMEN'S",
+    "1",
+    "$101.41",
+    "$101.41",
+    "Standard INSTALLATION OF EQUIPMENT- ORES",
+    "11",
+    "$231.32",
+    "$2544.52",
+    "MAINT/REPAIR/REBUILD OF EQUIPMENT- VEHICULAR EQUIPMENT COMPO System",
+    "3",
+    "$489.59",
+    "$1468.77",
+    "$4114.70",
+    "$205.74",
+    "$4320.44"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      134,
+      191
+    ],
+    [
+      65,
+      251,
+      235,
+      263
+    ],
+    [
+      482,
+      251,
+      488,
+      261
+    ],
+    [
+      593,
+      251,
+      633,
+      262
+    ],
+    [
+      695,
+      251,
+      735,
+      262
+    ],
+    [
+      65,
+      278,
+      314,
+      289
+    ],
+    [
+      479,
+      278,
+      490,
+      288
+    ],
+    [
+      593,
+      278,
+      633,
+      289
+    ],
+    [
+      689,
+      278,
+      735,
+      289
+    ],
+    [
+      65,
+      305,
+      418,
+      316
+    ],
+    [
+      482,
+      305,
+      488,
+      315
+    ],
+    [
+      593,
+      305,
+      633,
+      316
+    ],
+    [
+      689,
+      305,
+      735,
+      316
+    ],
+    [
+      695,
+      384,
+      740,
+      395
+    ],
+    [
+      700,
+      411,
+      740,
+      422
+    ],
+    [
+      681,
+      451,
+      740,
+      465
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Installation of Equipment",
+  "document_portfolio": "Equipment Related Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "FOOTWEAR, WOMEN'S",
+      "spendCategoryTitle": "Textiles, Clothing & Equipage",
+      "portfolioGroup": "Clothing, Textiles & Subsistence S&E",
+      "description": "Industrial FOOTWEAR, WOMEN'S",
+      "line_total": 101.41
+    },
+    {
+      "psc": "",
+      "shortName": "INSTALLATION OF EQUIPMENT- ORES, MINERALS, AND THEIR PRIMARY PRODUCTS",
+      "spendCategoryTitle": "Installation of Equipment",
+      "portfolioGroup": "Equipment Related Services",
+      "description": "Standard INSTALLATION OF EQUIPMENT- ORES",
+      "line_total": 2544.52
+    },
+    {
+      "psc": "",
+      "shortName": "MAINT/REPAIR/REBUILD OF EQUIPMENT- VEHICULAR EQUIPMENT COMPONENTS",
+      "spendCategoryTitle": "Maintenance, Repair and Overhaul",
+      "portfolioGroup": "Equipment Related Services",
+      "description": "MAINT/REPAIR/REBUILD OF EQUIPMENT- VEHICULAR EQUIPMENT COMPO System",
+      "line_total": 1468.77
+    }
+  ],
+  "psc_breakdown": {
+    "Textiles, Clothing & Equipage": 101.41,
+    "Installation of Equipment": 2544.52,
+    "Maintenance, Repair and Overhaul": 1468.77
+  },
+  "portfolio_breakdown": {
+    "Clothing, Textiles & Subsistence S&E": 101.41,
+    "Equipment Related Services": 4013.29
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-556264",
+    "date": "2025-03-18",
+    "vendor_name": "Williams-Johns",
+    "total_amount": 4320.44
+  }
+}

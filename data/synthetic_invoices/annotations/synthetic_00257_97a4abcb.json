@@ -1,0 +1,163 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-135087",
+    "2025-01-13",
+    "Whitehead, Vasquez and Campos",
+    "Industrial LAUNCHERS, TORPEDO AND DEPTH CHARGE Assembly",
+    "13",
+    "$335.64",
+    "$4363.32",
+    "Premium MISCELLANEOUS ALARM, SIGNAL, AND SECURITY DETECTION SYSTEMS Assembly",
+    "10",
+    "$468.49",
+    "$4684.90",
+    "$9048.22",
+    "$452.41",
+    "$9500.63"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      227,
+      193
+    ],
+    [
+      65,
+      251,
+      407,
+      263
+    ],
+    [
+      479,
+      251,
+      491,
+      261
+    ],
+    [
+      593,
+      251,
+      633,
+      262
+    ],
+    [
+      689,
+      251,
+      735,
+      262
+    ],
+    [
+      65,
+      278,
+      381,
+      290
+    ],
+    [
+      479,
+      278,
+      491,
+      288
+    ],
+    [
+      593,
+      278,
+      633,
+      289
+    ],
+    [
+      689,
+      278,
+      735,
+      289
+    ],
+    [
+      694,
+      357,
+      740,
+      368
+    ],
+    [
+      700,
+      384,
+      740,
+      395
+    ],
+    [
+      681,
+      424,
+      740,
+      438
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Security Systems",
+  "document_portfolio": "Electronic & Communication Equipment",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "LAUNCHERS, TORPEDO AND DEPTH CHARGE",
+      "spendCategoryTitle": "Weapons",
+      "portfolioGroup": "Weapons & Ammunition",
+      "description": "Industrial LAUNCHERS, TORPEDO AND DEPTH CHARGE Assembly",
+      "line_total": 4363.32
+    },
+    {
+      "psc": "",
+      "shortName": "MISCELLANEOUS ALARM, SIGNAL, AND SECURITY DETECTION SYSTEMS",
+      "spendCategoryTitle": "Security Systems",
+      "portfolioGroup": "Electronic & Communication Equipment",
+      "description": "Premium MISCELLANEOUS ALARM, SIGNAL, AND SECURITY DETECTION SYSTEMS Assembly",
+      "line_total": 4684.9
+    }
+  ],
+  "psc_breakdown": {
+    "Weapons": 4363.32,
+    "Security Systems": 4684.9
+  },
+  "portfolio_breakdown": {
+    "Weapons & Ammunition": 4363.32,
+    "Electronic & Communication Equipment": 4684.9
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-135087",
+    "date": "2025-01-13",
+    "vendor_name": "Whitehead, Vasquez and Campos",
+    "total_amount": 9500.63
+  }
+}

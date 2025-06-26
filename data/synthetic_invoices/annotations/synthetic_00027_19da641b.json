@@ -1,0 +1,163 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-915671",
+    "2025-04-30",
+    "Torres-Lopez",
+    "UNMANNED AIRCRAFT Package",
+    "8",
+    "$208.28",
+    "$1666.24",
+    "Premium CAMOUFLAGE AND DECEPTION EQUIPMENT Assembly",
+    "4",
+    "$202.46",
+    "$809.84",
+    "$2476.08",
+    "$309.51",
+    "$2785.59"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      125,
+      193
+    ],
+    [
+      65,
+      251,
+      232,
+      263
+    ],
+    [
+      482,
+      251,
+      488,
+      261
+    ],
+    [
+      593,
+      251,
+      633,
+      262
+    ],
+    [
+      689,
+      251,
+      735,
+      262
+    ],
+    [
+      65,
+      278,
+      401,
+      290
+    ],
+    [
+      482,
+      278,
+      488,
+      288
+    ],
+    [
+      593,
+      278,
+      633,
+      289
+    ],
+    [
+      695,
+      278,
+      735,
+      289
+    ],
+    [
+      694,
+      335,
+      740,
+      346
+    ],
+    [
+      700,
+      362,
+      740,
+      373
+    ],
+    [
+      681,
+      402,
+      740,
+      416
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Drones",
+  "document_portfolio": "Sustainment S&E",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "UNMANNED AIRCRAFT",
+      "spendCategoryTitle": "Drones",
+      "portfolioGroup": "Sustainment S&E",
+      "description": "UNMANNED AIRCRAFT Package",
+      "line_total": 1666.24
+    },
+    {
+      "psc": "",
+      "shortName": "CAMOUFLAGE AND DECEPTION EQUIPMENT",
+      "spendCategoryTitle": "Weapons",
+      "portfolioGroup": "Weapons & Ammunition",
+      "description": "Premium CAMOUFLAGE AND DECEPTION EQUIPMENT Assembly",
+      "line_total": 809.84
+    }
+  ],
+  "psc_breakdown": {
+    "Drones": 1666.24,
+    "Weapons": 809.84
+  },
+  "portfolio_breakdown": {
+    "Sustainment S&E": 1666.24,
+    "Weapons & Ammunition": 809.84
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-915671",
+    "date": "2025-04-30",
+    "vendor_name": "Torres-Lopez",
+    "total_amount": 2785.59
+  }
+}

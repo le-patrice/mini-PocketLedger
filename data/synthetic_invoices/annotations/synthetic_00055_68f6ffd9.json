@@ -1,0 +1,247 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-273826",
+    "2024-12-09",
+    "Pham PLC",
+    "Premium SOCIAL- NON-GOVERNMENT INSURANCE PROGRAMS Kit",
+    "5",
+    "$319.98",
+    "$1599.90",
+    "Professional OTHER QC/TEST/INSPECT- ELECTRICAL Assembly",
+    "8",
+    "$483.57",
+    "$3868.56",
+    "Premium OFFICE SUPPLIES System",
+    "1",
+    "$818.97",
+    "$818.97",
+    "Premium NIGHT VISION EQUIPMENT, EMITTED AND REFLECTED RADIATION System",
+    "7",
+    "$492.46",
+    "$3447.22",
+    "$9734.65",
+    "$973.47",
+    "$10708.12"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      113,
+      191
+    ],
+    [
+      65,
+      251,
+      417,
+      261
+    ],
+    [
+      482,
+      251,
+      488,
+      261
+    ],
+    [
+      593,
+      251,
+      633,
+      262
+    ],
+    [
+      689,
+      251,
+      735,
+      262
+    ],
+    [
+      65,
+      278,
+      393,
+      290
+    ],
+    [
+      482,
+      278,
+      488,
+      288
+    ],
+    [
+      593,
+      278,
+      633,
+      289
+    ],
+    [
+      689,
+      278,
+      735,
+      289
+    ],
+    [
+      65,
+      305,
+      249,
+      317
+    ],
+    [
+      482,
+      305,
+      488,
+      315
+    ],
+    [
+      593,
+      305,
+      633,
+      316
+    ],
+    [
+      695,
+      305,
+      735,
+      316
+    ],
+    [
+      65,
+      332,
+      402,
+      344
+    ],
+    [
+      482,
+      332,
+      488,
+      342
+    ],
+    [
+      593,
+      332,
+      633,
+      343
+    ],
+    [
+      689,
+      332,
+      735,
+      343
+    ],
+    [
+      694,
+      411,
+      740,
+      422
+    ],
+    [
+      700,
+      438,
+      740,
+      449
+    ],
+    [
+      674,
+      478,
+      740,
+      492
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Equipment Maintenance",
+  "document_portfolio": "Electronic & Communication Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "SOCIAL- NON-GOVERNMENT INSURANCE PROGRAMS",
+      "spendCategoryTitle": "Financial Services",
+      "portfolioGroup": "Facility Related Services",
+      "description": "Premium SOCIAL- NON-GOVERNMENT INSURANCE PROGRAMS Kit",
+      "line_total": 1599.9
+    },
+    {
+      "psc": "",
+      "shortName": "OTHER QC/TEST/INSPECT- ELECTRICAL AND ELECTRONIC EQUIPMENT COMPONENTS",
+      "spendCategoryTitle": "Equipment Maintenance",
+      "portfolioGroup": "Electronic & Communication Services",
+      "description": "Professional OTHER QC/TEST/INSPECT- ELECTRICAL Assembly",
+      "line_total": 3868.56
+    },
+    {
+      "psc": "",
+      "shortName": "OFFICE SUPPLIES",
+      "spendCategoryTitle": "Office Management Products",
+      "portfolioGroup": "Facilities S&E",
+      "description": "Premium OFFICE SUPPLIES System",
+      "line_total": 818.97
+    },
+    {
+      "psc": "",
+      "shortName": "NIGHT VISION EQUIPMENT, EMITTED AND REFLECTED RADIATION",
+      "spendCategoryTitle": "Night Vision Eq",
+      "portfolioGroup": "Electronic & Communication Equipment",
+      "description": "Premium NIGHT VISION EQUIPMENT, EMITTED AND REFLECTED RADIATION System",
+      "line_total": 3447.22
+    }
+  ],
+  "psc_breakdown": {
+    "Financial Services": 1599.9,
+    "Equipment Maintenance": 3868.56,
+    "Office Management Products": 818.97,
+    "Night Vision Eq": 3447.22
+  },
+  "portfolio_breakdown": {
+    "Facility Related Services": 1599.9,
+    "Electronic & Communication Services": 3868.56,
+    "Facilities S&E": 818.97,
+    "Electronic & Communication Equipment": 3447.22
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-273826",
+    "date": "2024-12-09",
+    "vendor_name": "Pham PLC",
+    "total_amount": 10708.12
+  }
+}

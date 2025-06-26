@@ -1,0 +1,246 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-896246",
+    "2024-09-18",
+    "Robinson-Rivas",
+    "Professional SUPPORT- MANAGEMENT: ACCOUNTING Package",
+    "7",
+    "$176.04",
+    "$1232.28",
+    "Professional PARTS",
+    "1",
+    "$463.47",
+    "$463.47",
+    "Industrial TECHNICAL REP- FIRE FIGHTING/RESCUE/SAFETY EQUIPMENT Kit",
+    "12",
+    "$810.70",
+    "$9728.40",
+    "Standard MISCELLANEOUS MATERIALS HANDLING EQUIPMENT Assembly",
+    "15",
+    "$557.00",
+    "$8355.00",
+    "$19779.15",
+    "$1582.33",
+    "$21361.48"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      128,
+      167
+    ],
+    [
+      55,
+      222,
+      381,
+      234
+    ],
+    [
+      452,
+      222,
+      458,
+      232
+    ],
+    [
+      556,
+      222,
+      596,
+      233
+    ],
+    [
+      647,
+      222,
+      693,
+      233
+    ],
+    [
+      55,
+      247,
+      154,
+      257
+    ],
+    [
+      452,
+      247,
+      458,
+      257
+    ],
+    [
+      556,
+      247,
+      596,
+      258
+    ],
+    [
+      653,
+      247,
+      693,
+      258
+    ],
+    [
+      55,
+      272,
+      373,
+      282
+    ],
+    [
+      449,
+      272,
+      461,
+      282
+    ],
+    [
+      556,
+      272,
+      596,
+      283
+    ],
+    [
+      647,
+      272,
+      693,
+      283
+    ],
+    [
+      55,
+      317,
+      390,
+      328
+    ],
+    [
+      449,
+      317,
+      461,
+      327
+    ],
+    [
+      556,
+      317,
+      596,
+      328
+    ],
+    [
+      647,
+      317,
+      693,
+      328
+    ],
+    [
+      648,
+      392,
+      700,
+      403
+    ],
+    [
+      654,
+      417,
+      700,
+      428
+    ],
+    [
+      634,
+      455,
+      700,
+      469
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Technical Representative Services",
+  "document_portfolio": "Facility Related Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "SUPPORT- MANAGEMENT: ACCOUNTING",
+      "spendCategoryTitle": "Business Administration Services",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "Professional SUPPORT- MANAGEMENT: ACCOUNTING Package",
+      "line_total": 1232.28
+    },
+    {
+      "psc": "",
+      "shortName": "PARTS AND ACCESSORIES OF PHONOGRAPHS, RADIOS, AND TELEVISION SET: HOME TYPE",
+      "spendCategoryTitle": "S&E Not Classifed Elsewhere",
+      "portfolioGroup": "Facilities S&E",
+      "description": "Professional PARTS",
+      "line_total": 463.47
+    },
+    {
+      "psc": "",
+      "shortName": "TECHNICAL REP- FIRE FIGHTING/RESCUE/SAFETY EQUIPMENT; ENVIRON PROTECT EQUIPMENT/MATLS",
+      "spendCategoryTitle": "Technical Representative Services",
+      "portfolioGroup": "Facility Related Services",
+      "description": "Industrial TECHNICAL REP- FIRE FIGHTING/RESCUE/SAFETY EQUIPMENT Kit",
+      "line_total": 9728.4
+    },
+    {
+      "psc": "",
+      "shortName": "MISCELLANEOUS MATERIALS HANDLING EQUIPMENT",
+      "spendCategoryTitle": "Transportation Equipment",
+      "portfolioGroup": "Facilities S&E",
+      "description": "Standard MISCELLANEOUS MATERIALS HANDLING EQUIPMENT Assembly",
+      "line_total": 8355.0
+    }
+  ],
+  "psc_breakdown": {
+    "Business Administration Services": 1232.28,
+    "S&E Not Classifed Elsewhere": 463.47,
+    "Technical Representative Services": 9728.4,
+    "Transportation Equipment": 8355.0
+  },
+  "portfolio_breakdown": {
+    "Knowledge Based Services": 1232.28,
+    "Facilities S&E": 8818.47,
+    "Facility Related Services": 9728.4
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-896246",
+    "date": "2024-09-18",
+    "vendor_name": "Robinson-Rivas",
+    "total_amount": 21361.48
+  }
+}

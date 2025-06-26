@@ -1,0 +1,121 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-148117",
+    "2024-08-02",
+    "Hunter, Smith and Daugherty",
+    "ARCHITECT Package",
+    "2",
+    "$697.61",
+    "$1395.22",
+    "$1395.22",
+    "$111.62",
+    "$1506.84"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      107,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      192,
+      169
+    ],
+    [
+      55,
+      222,
+      164,
+      234
+    ],
+    [
+      452,
+      222,
+      458,
+      232
+    ],
+    [
+      556,
+      222,
+      596,
+      233
+    ],
+    [
+      647,
+      222,
+      693,
+      233
+    ],
+    [
+      654,
+      277,
+      700,
+      288
+    ],
+    [
+      662,
+      302,
+      700,
+      313
+    ],
+    [
+      641,
+      340,
+      700,
+      354
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Construction Related Services",
+  "document_portfolio": "Facility Related Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "ARCHITECT AND ENGINEERING- CONSTRUCTION: OTHER CONSERVATION AND DEVELOPMENT FACILITIES",
+      "spendCategoryTitle": "Construction Related Services",
+      "portfolioGroup": "Facility Related Services",
+      "description": "ARCHITECT Package",
+      "line_total": 1395.22
+    }
+  ],
+  "psc_breakdown": {
+    "Construction Related Services": 1395.22
+  },
+  "portfolio_breakdown": {
+    "Facility Related Services": 1395.22
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-148117",
+    "date": "2024-08-02",
+    "vendor_name": "Hunter, Smith and Daugherty",
+    "total_amount": 1506.84
+  }
+}

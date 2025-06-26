@@ -1,0 +1,163 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-199737",
+    "2025-03-05",
+    "Raymond Inc",
+    "Standard PURCHASE OF SHIP CONSTRUCTION AND REPAIR FACILITIES System",
+    "5",
+    "$115.88",
+    "$579.40",
+    "SUPPORT- PROFESSIONAL: HUMAN RESOURCES System",
+    "8",
+    "$661.65",
+    "$5293.20",
+    "$5872.60",
+    "$469.81",
+    "$6342.41"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      125,
+      193
+    ],
+    [
+      65,
+      251,
+      381,
+      261
+    ],
+    [
+      482,
+      251,
+      488,
+      261
+    ],
+    [
+      594,
+      251,
+      633,
+      262
+    ],
+    [
+      695,
+      251,
+      735,
+      262
+    ],
+    [
+      65,
+      300,
+      369,
+      312
+    ],
+    [
+      482,
+      300,
+      488,
+      310
+    ],
+    [
+      593,
+      300,
+      633,
+      311
+    ],
+    [
+      689,
+      300,
+      735,
+      311
+    ],
+    [
+      694,
+      357,
+      740,
+      368
+    ],
+    [
+      700,
+      384,
+      740,
+      395
+    ],
+    [
+      682,
+      424,
+      740,
+      438
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Human Resources Services",
+  "document_portfolio": "Knowledge Based Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "PURCHASE OF SHIP CONSTRUCTION AND REPAIR FACILITIES",
+      "spendCategoryTitle": "Facilities Purchase & Lease",
+      "portfolioGroup": "Facility Related Services",
+      "description": "Standard PURCHASE OF SHIP CONSTRUCTION AND REPAIR FACILITIES System",
+      "line_total": 579.4
+    },
+    {
+      "psc": "",
+      "shortName": "SUPPORT- PROFESSIONAL: HUMAN RESOURCES",
+      "spendCategoryTitle": "Human Resources Services",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "SUPPORT- PROFESSIONAL: HUMAN RESOURCES System",
+      "line_total": 5293.2
+    }
+  ],
+  "psc_breakdown": {
+    "Facilities Purchase & Lease": 579.4,
+    "Human Resources Services": 5293.2
+  },
+  "portfolio_breakdown": {
+    "Facility Related Services": 579.4,
+    "Knowledge Based Services": 5293.2
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-199737",
+    "date": "2025-03-05",
+    "vendor_name": "Raymond Inc",
+    "total_amount": 6342.41
+  }
+}

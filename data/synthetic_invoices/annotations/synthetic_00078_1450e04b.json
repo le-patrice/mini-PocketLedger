@@ -1,0 +1,163 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-535642",
+    "2024-07-09",
+    "Bradley-Horton",
+    "Professional SUPPORT- PROFESSIONAL: MARKET RESEARCH/PUBLIC OPINION System",
+    "1",
+    "$646.64",
+    "$646.64",
+    "Industrial HAZARDOUS MATERIAL SPILL CONTAINMENT Package",
+    "4",
+    "$66.98",
+    "$267.92",
+    "$914.56",
+    "$73.16",
+    "$987.72"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      134,
+      193
+    ],
+    [
+      65,
+      251,
+      326,
+      261
+    ],
+    [
+      482,
+      251,
+      488,
+      261
+    ],
+    [
+      593,
+      251,
+      633,
+      262
+    ],
+    [
+      695,
+      251,
+      735,
+      262
+    ],
+    [
+      65,
+      300,
+      400,
+      312
+    ],
+    [
+      482,
+      300,
+      488,
+      310
+    ],
+    [
+      599,
+      300,
+      633,
+      311
+    ],
+    [
+      695,
+      300,
+      735,
+      311
+    ],
+    [
+      700,
+      357,
+      740,
+      368
+    ],
+    [
+      706,
+      384,
+      740,
+      395
+    ],
+    [
+      689,
+      424,
+      740,
+      438
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Public Relations and Professional Communications Services",
+  "document_portfolio": "Knowledge Based Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "SUPPORT- PROFESSIONAL: MARKET RESEARCH/PUBLIC OPINION",
+      "spendCategoryTitle": "Public Relations and Professional Communications Services",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "Professional SUPPORT- PROFESSIONAL: MARKET RESEARCH/PUBLIC OPINION System",
+      "line_total": 646.64
+    },
+    {
+      "psc": "",
+      "shortName": "HAZARDOUS MATERIAL SPILL CONTAINMENT AND CLEAN-UP EQUIPMENT AND MATERIAL",
+      "spendCategoryTitle": "Fire/Rescue/Safety/Environmental Protection Equipment",
+      "portfolioGroup": "Facilities S&E",
+      "description": "Industrial HAZARDOUS MATERIAL SPILL CONTAINMENT Package",
+      "line_total": 267.92
+    }
+  ],
+  "psc_breakdown": {
+    "Public Relations and Professional Communications Services": 646.64,
+    "Fire/Rescue/Safety/Environmental Protection Equipment": 267.92
+  },
+  "portfolio_breakdown": {
+    "Knowledge Based Services": 646.64,
+    "Facilities S&E": 267.92
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-535642",
+    "date": "2024-07-09",
+    "vendor_name": "Bradley-Horton",
+    "total_amount": 987.72
+  }
+}

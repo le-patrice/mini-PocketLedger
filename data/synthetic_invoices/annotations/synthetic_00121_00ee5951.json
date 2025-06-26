@@ -1,0 +1,163 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-890106",
+    "2025-02-23",
+    "Gonzales LLC",
+    "Industrial IT AND TELECOM - COMPUTE AS A SERVICE: MAINFRAME/SERVERS System",
+    "9",
+    "$658.93",
+    "$5930.37",
+    "SPECIALIZED SHIPPING AND STORAGE CONTAINERS Assembly",
+    "6",
+    "$389.21",
+    "$2335.26",
+    "$8265.63",
+    "$661.25",
+    "$8926.88"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      120,
+      167
+    ],
+    [
+      55,
+      222,
+      339,
+      232
+    ],
+    [
+      452,
+      222,
+      458,
+      232
+    ],
+    [
+      556,
+      222,
+      596,
+      233
+    ],
+    [
+      647,
+      222,
+      693,
+      233
+    ],
+    [
+      55,
+      267,
+      390,
+      279
+    ],
+    [
+      452,
+      267,
+      458,
+      277
+    ],
+    [
+      556,
+      267,
+      596,
+      278
+    ],
+    [
+      647,
+      267,
+      693,
+      278
+    ],
+    [
+      654,
+      322,
+      700,
+      333
+    ],
+    [
+      660,
+      347,
+      700,
+      358
+    ],
+    [
+      641,
+      385,
+      700,
+      399
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Capability As a Service",
+  "document_portfolio": "",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "IT AND TELECOM - COMPUTE AS A SERVICE: MAINFRAME/SERVERS",
+      "spendCategoryTitle": "Capability As a Service",
+      "portfolioGroup": "",
+      "description": "Industrial IT AND TELECOM - COMPUTE AS A SERVICE: MAINFRAME/SERVERS System",
+      "line_total": 5930.37
+    },
+    {
+      "psc": "",
+      "shortName": "SPECIALIZED SHIPPING AND STORAGE CONTAINERS",
+      "spendCategoryTitle": "Package Delivery & Packaging",
+      "portfolioGroup": "Sustainment S&E",
+      "description": "SPECIALIZED SHIPPING AND STORAGE CONTAINERS Assembly",
+      "line_total": 2335.26
+    }
+  ],
+  "psc_breakdown": {
+    "Capability As a Service": 5930.37,
+    "Package Delivery & Packaging": 2335.26
+  },
+  "portfolio_breakdown": {
+    "": 5930.37,
+    "Sustainment S&E": 2335.26
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-890106",
+    "date": "2025-02-23",
+    "vendor_name": "Gonzales LLC",
+    "total_amount": 8926.88
+  }
+}

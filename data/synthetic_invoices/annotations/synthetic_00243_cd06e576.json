@@ -1,0 +1,121 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-551713",
+    "2024-11-16",
+    "Mendez Inc",
+    "Premium SUPPORT- MANAGEMENT: DATA COLLECTION Package",
+    "13",
+    "$223.46",
+    "$2904.98",
+    "$2904.98",
+    "$232.40",
+    "$3137.38"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      107,
+      167
+    ],
+    [
+      55,
+      222,
+      391,
+      234
+    ],
+    [
+      449,
+      222,
+      461,
+      232
+    ],
+    [
+      556,
+      222,
+      596,
+      233
+    ],
+    [
+      647,
+      222,
+      693,
+      233
+    ],
+    [
+      654,
+      277,
+      700,
+      288
+    ],
+    [
+      660,
+      302,
+      700,
+      313
+    ],
+    [
+      641,
+      340,
+      700,
+      354
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Business Administration Services",
+  "document_portfolio": "Knowledge Based Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "SUPPORT- MANAGEMENT: DATA COLLECTION",
+      "spendCategoryTitle": "Business Administration Services",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "Premium SUPPORT- MANAGEMENT: DATA COLLECTION Package",
+      "line_total": 2904.98
+    }
+  ],
+  "psc_breakdown": {
+    "Business Administration Services": 2904.98
+  },
+  "portfolio_breakdown": {
+    "Knowledge Based Services": 2904.98
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-551713",
+    "date": "2024-11-16",
+    "vendor_name": "Mendez Inc",
+    "total_amount": 3137.38
+  }
+}

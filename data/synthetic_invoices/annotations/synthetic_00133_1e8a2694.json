@@ -1,0 +1,163 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-763458",
+    "2024-11-18",
+    "Haley, Carter and Butler",
+    "Industrial FISHING VESSELS",
+    "2",
+    "$734.46",
+    "$1468.92",
+    "Industrial IT and Telecom - End User: Help Desk",
+    "4",
+    "$177.49",
+    "$709.96",
+    "$2178.88",
+    "$108.94",
+    "$2287.82"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      168,
+      169
+    ],
+    [
+      55,
+      222,
+      201,
+      232
+    ],
+    [
+      452,
+      222,
+      458,
+      232
+    ],
+    [
+      556,
+      222,
+      596,
+      233
+    ],
+    [
+      647,
+      222,
+      693,
+      233
+    ],
+    [
+      55,
+      247,
+      291,
+      259
+    ],
+    [
+      452,
+      247,
+      458,
+      257
+    ],
+    [
+      556,
+      247,
+      596,
+      258
+    ],
+    [
+      653,
+      247,
+      693,
+      258
+    ],
+    [
+      654,
+      302,
+      700,
+      313
+    ],
+    [
+      660,
+      327,
+      700,
+      338
+    ],
+    [
+      641,
+      365,
+      700,
+      379
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Support Ships & Small Craft",
+  "document_portfolio": "Sustainment S&E",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "FISHING VESSELS",
+      "spendCategoryTitle": "Support Ships & Small Craft",
+      "portfolioGroup": "Sustainment S&E",
+      "description": "Industrial FISHING VESSELS",
+      "line_total": 1468.92
+    },
+    {
+      "psc": "",
+      "shortName": "IT and Telecom - End User: Help Desk; Tier 1-2, Workspace, Print, Output, Productivity Tools (Labor)",
+      "spendCategoryTitle": "IT Professional Service (Labor)",
+      "portfolioGroup": "",
+      "description": "Industrial IT and Telecom - End User: Help Desk",
+      "line_total": 709.96
+    }
+  ],
+  "psc_breakdown": {
+    "Support Ships & Small Craft": 1468.92,
+    "IT Professional Service (Labor)": 709.96
+  },
+  "portfolio_breakdown": {
+    "Sustainment S&E": 1468.92,
+    "": 709.96
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-763458",
+    "date": "2024-11-18",
+    "vendor_name": "Haley, Carter and Butler",
+    "total_amount": 2287.82
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-458160",
+    "2024-10-18",
+    "Smith, Washington and Wright",
+    "Standard OPERATION OF AMMUNITION STORAGE BUILDINGS System",
+    "8",
+    "$753.76",
+    "$6030.08",
+    "$6030.08",
+    "$753.76",
+    "$6783.84"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      198,
+      169
+    ],
+    [
+      55,
+      222,
+      377,
+      232
+    ],
+    [
+      452,
+      222,
+      458,
+      232
+    ],
+    [
+      556,
+      222,
+      596,
+      233
+    ],
+    [
+      647,
+      222,
+      693,
+      233
+    ],
+    [
+      654,
+      297,
+      700,
+      308
+    ],
+    [
+      660,
+      322,
+      700,
+      333
+    ],
+    [
+      641,
+      360,
+      700,
+      374
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Logistics Support Services",
+  "document_portfolio": "Facility Related Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "OPERATION OF AMMUNITION STORAGE BUILDINGS",
+      "spendCategoryTitle": "Logistics Support Services",
+      "portfolioGroup": "Facility Related Services",
+      "description": "Standard OPERATION OF AMMUNITION STORAGE BUILDINGS System",
+      "line_total": 6030.08
+    }
+  ],
+  "psc_breakdown": {
+    "Logistics Support Services": 6030.08
+  },
+  "portfolio_breakdown": {
+    "Facility Related Services": 6030.08
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-458160",
+    "date": "2024-10-18",
+    "vendor_name": "Smith, Washington and Wright",
+    "total_amount": 6783.84
+  }
+}

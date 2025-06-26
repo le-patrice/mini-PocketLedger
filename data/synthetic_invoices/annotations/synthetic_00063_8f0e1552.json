@@ -1,0 +1,247 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-600447",
+    "2025-04-20",
+    "Mendez, Singleton and Cole",
+    "Industrial NUCLEAR REACTORS System",
+    "9",
+    "$217.45",
+    "$1957.05",
+    "Premium IT Package",
+    "1",
+    "$352.78",
+    "$352.78",
+    "Standard DRUGS AND BIOLOGICALS Package",
+    "4",
+    "$677.46",
+    "$2709.84",
+    "Industrial OPERATION OF OTHER WAREHOUSE BUILDINGS Package",
+    "6",
+    "$750.73",
+    "$4504.38",
+    "$9524.05",
+    "$761.92",
+    "$10285.97"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      188,
+      169
+    ],
+    [
+      55,
+      222,
+      259,
+      234
+    ],
+    [
+      452,
+      222,
+      458,
+      232
+    ],
+    [
+      556,
+      222,
+      596,
+      233
+    ],
+    [
+      647,
+      222,
+      693,
+      233
+    ],
+    [
+      55,
+      247,
+      158,
+      259
+    ],
+    [
+      452,
+      247,
+      458,
+      257
+    ],
+    [
+      556,
+      247,
+      596,
+      258
+    ],
+    [
+      653,
+      247,
+      693,
+      258
+    ],
+    [
+      55,
+      272,
+      291,
+      284
+    ],
+    [
+      452,
+      272,
+      458,
+      282
+    ],
+    [
+      556,
+      272,
+      596,
+      283
+    ],
+    [
+      647,
+      272,
+      693,
+      283
+    ],
+    [
+      55,
+      297,
+      364,
+      307
+    ],
+    [
+      452,
+      297,
+      458,
+      307
+    ],
+    [
+      556,
+      297,
+      596,
+      308
+    ],
+    [
+      647,
+      297,
+      693,
+      308
+    ],
+    [
+      654,
+      372,
+      700,
+      383
+    ],
+    [
+      660,
+      397,
+      700,
+      408
+    ],
+    [
+      634,
+      435,
+      700,
+      449
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Logistics Support Services",
+  "document_portfolio": "Facility Related Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "NUCLEAR REACTORS",
+      "spendCategoryTitle": "Ships & Submarines",
+      "portfolioGroup": "Aircraft, Ships/Submarines & Land Vehicles",
+      "description": "Industrial NUCLEAR REACTORS System",
+      "line_total": 1957.05
+    },
+    {
+      "psc": "",
+      "shortName": "IT AND TELECOM - NETWORK: ANALOG VOICE PRODUCTS (HARDWARE AND PERPETUAL LICENSE SOFTWARE)",
+      "spendCategoryTitle": "Product",
+      "portfolioGroup": "",
+      "description": "Premium IT Package",
+      "line_total": 352.78
+    },
+    {
+      "psc": "",
+      "shortName": "DRUGS AND BIOLOGICALS",
+      "spendCategoryTitle": "Drugs and Pharmaceutical Products",
+      "portfolioGroup": "Clothing, Textiles & Subsistence S&E",
+      "description": "Standard DRUGS AND BIOLOGICALS Package",
+      "line_total": 2709.84
+    },
+    {
+      "psc": "",
+      "shortName": "OPERATION OF OTHER WAREHOUSE BUILDINGS",
+      "spendCategoryTitle": "Logistics Support Services",
+      "portfolioGroup": "Facility Related Services",
+      "description": "Industrial OPERATION OF OTHER WAREHOUSE BUILDINGS Package",
+      "line_total": 4504.38
+    }
+  ],
+  "psc_breakdown": {
+    "Ships & Submarines": 1957.05,
+    "Product": 352.78,
+    "Drugs and Pharmaceutical Products": 2709.84,
+    "Logistics Support Services": 4504.38
+  },
+  "portfolio_breakdown": {
+    "Aircraft, Ships/Submarines & Land Vehicles": 1957.05,
+    "": 352.78,
+    "Clothing, Textiles & Subsistence S&E": 2709.84,
+    "Facility Related Services": 4504.38
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-600447",
+    "date": "2025-04-20",
+    "vendor_name": "Mendez, Singleton and Cole",
+    "total_amount": 10285.97
+  }
+}

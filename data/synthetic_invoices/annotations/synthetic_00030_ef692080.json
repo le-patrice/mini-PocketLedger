@@ -1,0 +1,205 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-601690",
+    "2024-10-04",
+    "Jackson Inc",
+    "HOUSEKEEPING- FACILITIES OPERATIONS SUPPORT Kit",
+    "3",
+    "$258.20",
+    "$774.60",
+    "Standard FUELS, SOLID System",
+    "6",
+    "$182.11",
+    "$1092.66",
+    "Industrial SUPPORT- MANAGEMENT: BANKNOTE PRINTING System",
+    "15",
+    "$330.19",
+    "$4952.85",
+    "$6820.11",
+    "$545.61",
+    "$7365.72"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      119,
+      191
+    ],
+    [
+      65,
+      251,
+      364,
+      261
+    ],
+    [
+      482,
+      251,
+      488,
+      261
+    ],
+    [
+      593,
+      251,
+      633,
+      262
+    ],
+    [
+      695,
+      251,
+      735,
+      262
+    ],
+    [
+      65,
+      278,
+      227,
+      290
+    ],
+    [
+      482,
+      278,
+      488,
+      288
+    ],
+    [
+      594,
+      278,
+      633,
+      289
+    ],
+    [
+      689,
+      278,
+      735,
+      289
+    ],
+    [
+      65,
+      305,
+      411,
+      317
+    ],
+    [
+      479,
+      305,
+      491,
+      315
+    ],
+    [
+      593,
+      305,
+      633,
+      316
+    ],
+    [
+      689,
+      305,
+      735,
+      316
+    ],
+    [
+      695,
+      362,
+      740,
+      373
+    ],
+    [
+      700,
+      389,
+      740,
+      400
+    ],
+    [
+      681,
+      429,
+      740,
+      443
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Financial services",
+  "document_portfolio": "Knowledge Based Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "HOUSEKEEPING- FACILITIES OPERATIONS SUPPORT",
+      "spendCategoryTitle": "Facility Related Services",
+      "portfolioGroup": "Facility Related Services",
+      "description": "HOUSEKEEPING- FACILITIES OPERATIONS SUPPORT Kit",
+      "line_total": 774.6
+    },
+    {
+      "psc": "",
+      "shortName": "FUELS, SOLID",
+      "spendCategoryTitle": "Fuels",
+      "portfolioGroup": "Sustainment S&E",
+      "description": "Standard FUELS, SOLID System",
+      "line_total": 1092.66
+    },
+    {
+      "psc": "",
+      "shortName": "SUPPORT- MANAGEMENT: BANKNOTE PRINTING",
+      "spendCategoryTitle": "Financial services",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "Industrial SUPPORT- MANAGEMENT: BANKNOTE PRINTING System",
+      "line_total": 4952.85
+    }
+  ],
+  "psc_breakdown": {
+    "Facility Related Services": 774.6,
+    "Fuels": 1092.66,
+    "Financial services": 4952.85
+  },
+  "portfolio_breakdown": {
+    "Facility Related Services": 774.6,
+    "Sustainment S&E": 1092.66,
+    "Knowledge Based Services": 4952.85
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-601690",
+    "date": "2024-10-04",
+    "vendor_name": "Jackson Inc",
+    "total_amount": 7365.72
+  }
+}

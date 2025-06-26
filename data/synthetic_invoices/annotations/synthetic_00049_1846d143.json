@@ -1,0 +1,247 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-102366",
+    "2024-11-07",
+    "Garcia and Sons",
+    "MECHANICAL PRESSES, POWER DRIVEN Assembly",
+    "1",
+    "$235.20",
+    "$235.20",
+    "Standard SURGICAL DRESSING MATERIALS",
+    "11",
+    "$111.88",
+    "$1230.68",
+    "Industrial GUNS, OVER 200MM THROUGH 300MM Kit",
+    "2",
+    "$220.24",
+    "$440.48",
+    "Industrial RADAR EQUIPMENT, EXCEPT AIRBORNE",
+    "15",
+    "$760.04",
+    "$11400.60",
+    "$13306.96",
+    "$1064.56",
+    "$14371.52"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      143,
+      191
+    ],
+    [
+      65,
+      251,
+      335,
+      263
+    ],
+    [
+      482,
+      251,
+      488,
+      261
+    ],
+    [
+      593,
+      251,
+      633,
+      262
+    ],
+    [
+      695,
+      251,
+      735,
+      262
+    ],
+    [
+      65,
+      278,
+      294,
+      288
+    ],
+    [
+      479,
+      278,
+      490,
+      288
+    ],
+    [
+      595,
+      278,
+      633,
+      289
+    ],
+    [
+      689,
+      278,
+      735,
+      289
+    ],
+    [
+      65,
+      305,
+      336,
+      317
+    ],
+    [
+      482,
+      305,
+      488,
+      315
+    ],
+    [
+      593,
+      305,
+      633,
+      316
+    ],
+    [
+      695,
+      305,
+      735,
+      316
+    ],
+    [
+      65,
+      332,
+      328,
+      344
+    ],
+    [
+      479,
+      332,
+      491,
+      342
+    ],
+    [
+      593,
+      332,
+      633,
+      343
+    ],
+    [
+      684,
+      332,
+      735,
+      343
+    ],
+    [
+      688,
+      389,
+      740,
+      400
+    ],
+    [
+      694,
+      416,
+      740,
+      427
+    ],
+    [
+      674,
+      456,
+      740,
+      470
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Detection & Coherent Radiation Eq",
+  "document_portfolio": "Electronic & Communication Equipment",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "MECHANICAL PRESSES, POWER DRIVEN",
+      "spendCategoryTitle": "Machinery & Components",
+      "portfolioGroup": "Facilities S&E",
+      "description": "MECHANICAL PRESSES, POWER DRIVEN Assembly",
+      "line_total": 235.2
+    },
+    {
+      "psc": "",
+      "shortName": "SURGICAL DRESSING MATERIALS",
+      "spendCategoryTitle": "Medical Equipment and Accessories and Supplies",
+      "portfolioGroup": "Clothing, Textiles & Subsistence S&E",
+      "description": "Standard SURGICAL DRESSING MATERIALS",
+      "line_total": 1230.68
+    },
+    {
+      "psc": "",
+      "shortName": "GUNS, OVER 200MM THROUGH 300MM",
+      "spendCategoryTitle": "Guns",
+      "portfolioGroup": "Weapons & Ammunition",
+      "description": "Industrial GUNS, OVER 200MM THROUGH 300MM Kit",
+      "line_total": 440.48
+    },
+    {
+      "psc": "",
+      "shortName": "RADAR EQUIPMENT, EXCEPT AIRBORNE",
+      "spendCategoryTitle": "Detection & Coherent Radiation Eq",
+      "portfolioGroup": "Electronic & Communication Equipment",
+      "description": "Industrial RADAR EQUIPMENT, EXCEPT AIRBORNE",
+      "line_total": 11400.6
+    }
+  ],
+  "psc_breakdown": {
+    "Machinery & Components": 235.2,
+    "Medical Equipment and Accessories and Supplies": 1230.68,
+    "Guns": 440.48,
+    "Detection & Coherent Radiation Eq": 11400.6
+  },
+  "portfolio_breakdown": {
+    "Facilities S&E": 235.2,
+    "Clothing, Textiles & Subsistence S&E": 1230.68,
+    "Weapons & Ammunition": 440.48,
+    "Electronic & Communication Equipment": 11400.6
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-102366",
+    "date": "2024-11-07",
+    "vendor_name": "Garcia and Sons",
+    "total_amount": 14371.52
+  }
+}

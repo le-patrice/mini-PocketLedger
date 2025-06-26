@@ -1,0 +1,245 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-892695",
+    "2025-04-19",
+    "Weiss-Clark",
+    "HOUSEKEEPING- WAREHOUSING/STORAGE Package",
+    "1",
+    "$146.72",
+    "$146.72",
+    "SUPPORT- ADMINISTRATIVE: COURT REPORTING",
+    "15",
+    "$581.96",
+    "$8729.40",
+    "Professional SUPPORT- MANAGEMENT: DATA COLLECTION Kit",
+    "7",
+    "$155.70",
+    "$1089.90",
+    "Premium EDUCATION/TRAINING- AIDS/HIV Assembly",
+    "3",
+    "$115.39",
+    "$346.17",
+    "$10312.19",
+    "$1031.22",
+    "$11343.41"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      120,
+      191
+    ],
+    [
+      65,
+      251,
+      346,
+      263
+    ],
+    [
+      482,
+      251,
+      488,
+      261
+    ],
+    [
+      593,
+      251,
+      633,
+      262
+    ],
+    [
+      695,
+      251,
+      735,
+      262
+    ],
+    [
+      65,
+      278,
+      328,
+      288
+    ],
+    [
+      479,
+      278,
+      491,
+      288
+    ],
+    [
+      593,
+      278,
+      633,
+      289
+    ],
+    [
+      689,
+      278,
+      735,
+      289
+    ],
+    [
+      65,
+      305,
+      388,
+      315
+    ],
+    [
+      482,
+      305,
+      488,
+      315
+    ],
+    [
+      593,
+      305,
+      633,
+      316
+    ],
+    [
+      689,
+      305,
+      735,
+      316
+    ],
+    [
+      65,
+      332,
+      336,
+      344
+    ],
+    [
+      482,
+      332,
+      488,
+      342
+    ],
+    [
+      594,
+      332,
+      633,
+      343
+    ],
+    [
+      695,
+      332,
+      735,
+      343
+    ],
+    [
+      688,
+      389,
+      740,
+      400
+    ],
+    [
+      694,
+      416,
+      740,
+      427
+    ],
+    [
+      675,
+      456,
+      740,
+      470
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Legal Services",
+  "document_portfolio": "Knowledge Based Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "HOUSEKEEPING- WAREHOUSING/STORAGE",
+      "spendCategoryTitle": "Logistics Support Services",
+      "portfolioGroup": "Facility Related Services",
+      "description": "HOUSEKEEPING- WAREHOUSING/STORAGE Package",
+      "line_total": 146.72
+    },
+    {
+      "psc": "",
+      "shortName": "SUPPORT- ADMINISTRATIVE: COURT REPORTING",
+      "spendCategoryTitle": "Legal Services",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "SUPPORT- ADMINISTRATIVE: COURT REPORTING",
+      "line_total": 8729.4
+    },
+    {
+      "psc": "",
+      "shortName": "SUPPORT- MANAGEMENT: DATA COLLECTION",
+      "spendCategoryTitle": "Business Administration Services",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "Professional SUPPORT- MANAGEMENT: DATA COLLECTION Kit",
+      "line_total": 1089.9
+    },
+    {
+      "psc": "",
+      "shortName": "EDUCATION/TRAINING- AIDS/HIV",
+      "spendCategoryTitle": "Specialized educational services",
+      "portfolioGroup": "Knowledge Based Services",
+      "description": "Premium EDUCATION/TRAINING- AIDS/HIV Assembly",
+      "line_total": 346.17
+    }
+  ],
+  "psc_breakdown": {
+    "Logistics Support Services": 146.72,
+    "Legal Services": 8729.4,
+    "Business Administration Services": 1089.9,
+    "Specialized educational services": 346.17
+  },
+  "portfolio_breakdown": {
+    "Facility Related Services": 146.72,
+    "Knowledge Based Services": 10165.47
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-892695",
+    "date": "2025-04-19",
+    "vendor_name": "Weiss-Clark",
+    "total_amount": 11343.41
+  }
+}

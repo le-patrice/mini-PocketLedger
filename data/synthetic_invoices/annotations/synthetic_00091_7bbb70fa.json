@@ -1,0 +1,247 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-177945",
+    "2025-05-03",
+    "Willis Inc",
+    "Professional PERFUMES, TOILET PREPARATIONS, AND POWDERS Kit",
+    "3",
+    "$752.59",
+    "$2257.77",
+    "Standard CONSTRUCTION OF GOVERNMENT-OWNED GOVERNMENT-OPERATED (GOGO) Assembly",
+    "7",
+    "$616.94",
+    "$4318.58",
+    "SEMICONDUCTOR DEVICES AND ASSOCIATED HARDWARE Assembly",
+    "3",
+    "$146.01",
+    "$438.03",
+    "Professional SOCIAL- GOVERNMENT LIFE INSURANCE PROGRAMS Package",
+    "12",
+    "$673.85",
+    "$8086.20",
+    "$15100.58",
+    "$1887.57",
+    "$16988.15"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      94,
+      167
+    ],
+    [
+      55,
+      222,
+      400,
+      234
+    ],
+    [
+      452,
+      222,
+      458,
+      232
+    ],
+    [
+      556,
+      222,
+      596,
+      233
+    ],
+    [
+      647,
+      222,
+      693,
+      233
+    ],
+    [
+      55,
+      267,
+      337,
+      277
+    ],
+    [
+      452,
+      267,
+      458,
+      277
+    ],
+    [
+      556,
+      267,
+      596,
+      278
+    ],
+    [
+      647,
+      267,
+      693,
+      278
+    ],
+    [
+      55,
+      312,
+      370,
+      322
+    ],
+    [
+      452,
+      312,
+      458,
+      322
+    ],
+    [
+      556,
+      312,
+      596,
+      323
+    ],
+    [
+      653,
+      312,
+      693,
+      323
+    ],
+    [
+      55,
+      357,
+      339,
+      367
+    ],
+    [
+      449,
+      357,
+      461,
+      367
+    ],
+    [
+      556,
+      357,
+      596,
+      368
+    ],
+    [
+      647,
+      357,
+      693,
+      368
+    ],
+    [
+      648,
+      432,
+      700,
+      443
+    ],
+    [
+      654,
+      457,
+      700,
+      468
+    ],
+    [
+      634,
+      495,
+      700,
+      509
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Financial Services",
+  "document_portfolio": "Facility Related Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "PERFUMES, TOILET PREPARATIONS, AND POWDERS",
+      "spendCategoryTitle": "Textiles, Clothing & Equipage",
+      "portfolioGroup": "Clothing, Textiles & Subsistence S&E",
+      "description": "Professional PERFUMES, TOILET PREPARATIONS, AND POWDERS Kit",
+      "line_total": 2257.77
+    },
+    {
+      "psc": "",
+      "shortName": "CONSTRUCTION OF GOVERNMENT-OWNED GOVERNMENT-OPERATED (GOGO) R&D FACILITIES",
+      "spendCategoryTitle": "Construction Related Services",
+      "portfolioGroup": "Construction Services",
+      "description": "Standard CONSTRUCTION OF GOVERNMENT-OWNED GOVERNMENT-OPERATED (GOGO) Assembly",
+      "line_total": 4318.58
+    },
+    {
+      "psc": "",
+      "shortName": "SEMICONDUCTOR DEVICES AND ASSOCIATED HARDWARE",
+      "spendCategoryTitle": "Electrical & Electronics Equipment",
+      "portfolioGroup": "Electronic & Communication Equipment",
+      "description": "SEMICONDUCTOR DEVICES AND ASSOCIATED HARDWARE Assembly",
+      "line_total": 438.03
+    },
+    {
+      "psc": "",
+      "shortName": "SOCIAL- GOVERNMENT LIFE INSURANCE PROGRAMS",
+      "spendCategoryTitle": "Financial Services",
+      "portfolioGroup": "Facility Related Services",
+      "description": "Professional SOCIAL- GOVERNMENT LIFE INSURANCE PROGRAMS Package",
+      "line_total": 8086.2
+    }
+  ],
+  "psc_breakdown": {
+    "Textiles, Clothing & Equipage": 2257.77,
+    "Construction Related Services": 4318.58,
+    "Electrical & Electronics Equipment": 438.03,
+    "Financial Services": 8086.2
+  },
+  "portfolio_breakdown": {
+    "Clothing, Textiles & Subsistence S&E": 2257.77,
+    "Construction Services": 4318.58,
+    "Electronic & Communication Equipment": 438.03,
+    "Facility Related Services": 8086.2
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-177945",
+    "date": "2025-05-03",
+    "vendor_name": "Willis Inc",
+    "total_amount": 16988.15
+  }
+}

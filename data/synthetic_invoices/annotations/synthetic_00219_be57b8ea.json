@@ -1,0 +1,121 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-786452",
+    "2024-06-21",
+    "King and Sons",
+    "Standard MAINT/REPAIR/REBUILD OF EQUIPMENT- FURNITURE System",
+    "14",
+    "$362.47",
+    "$5074.58",
+    "$5074.58",
+    "$507.46",
+    "$5582.04"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      122,
+      169
+    ],
+    [
+      55,
+      222,
+      387,
+      233
+    ],
+    [
+      449,
+      222,
+      461,
+      232
+    ],
+    [
+      556,
+      222,
+      596,
+      233
+    ],
+    [
+      647,
+      222,
+      693,
+      233
+    ],
+    [
+      654,
+      297,
+      700,
+      308
+    ],
+    [
+      660,
+      322,
+      700,
+      333
+    ],
+    [
+      641,
+      360,
+      700,
+      374
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Furniture",
+  "document_portfolio": "Facility Related Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "MAINT/REPAIR/REBUILD OF EQUIPMENT- FURNITURE",
+      "spendCategoryTitle": "Furniture",
+      "portfolioGroup": "Facility Related Services",
+      "description": "Standard MAINT/REPAIR/REBUILD OF EQUIPMENT- FURNITURE System",
+      "line_total": 5074.58
+    }
+  ],
+  "psc_breakdown": {
+    "Furniture": 5074.58
+  },
+  "portfolio_breakdown": {
+    "Facility Related Services": 5074.58
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-786452",
+    "date": "2024-06-21",
+    "vendor_name": "King and Sons",
+    "total_amount": 5582.04
+  }
+}

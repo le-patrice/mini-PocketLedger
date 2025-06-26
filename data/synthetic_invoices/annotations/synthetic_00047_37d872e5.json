@@ -1,0 +1,163 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-377319",
+    "2024-07-30",
+    "Meyer and Sons",
+    "Standard DAIRY, POULTRY, AND LIVESTOCK EQUIPMENT System",
+    "3",
+    "$243.11",
+    "$729.33",
+    "Professional MEDICAL- RADIOLOGY System",
+    "8",
+    "$29.20",
+    "$233.60",
+    "$962.93",
+    "$120.37",
+    "$1083.30"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      141,
+      193
+    ],
+    [
+      65,
+      251,
+      402,
+      263
+    ],
+    [
+      482,
+      251,
+      488,
+      261
+    ],
+    [
+      594,
+      251,
+      633,
+      262
+    ],
+    [
+      695,
+      251,
+      735,
+      262
+    ],
+    [
+      65,
+      278,
+      289,
+      290
+    ],
+    [
+      482,
+      278,
+      488,
+      288
+    ],
+    [
+      599,
+      278,
+      633,
+      289
+    ],
+    [
+      695,
+      278,
+      735,
+      289
+    ],
+    [
+      700,
+      335,
+      740,
+      346
+    ],
+    [
+      700,
+      362,
+      740,
+      373
+    ],
+    [
+      681,
+      402,
+      740,
+      416
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Machinery & Components",
+  "document_portfolio": "Facilities S&E",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "DAIRY, POULTRY, AND LIVESTOCK EQUIPMENT",
+      "spendCategoryTitle": "Machinery & Components",
+      "portfolioGroup": "Facilities S&E",
+      "description": "Standard DAIRY, POULTRY, AND LIVESTOCK EQUIPMENT System",
+      "line_total": 729.33
+    },
+    {
+      "psc": "",
+      "shortName": "MEDICAL- RADIOLOGY",
+      "spendCategoryTitle": "Healthcare Services",
+      "portfolioGroup": "Medical Services",
+      "description": "Professional MEDICAL- RADIOLOGY System",
+      "line_total": 233.6
+    }
+  ],
+  "psc_breakdown": {
+    "Machinery & Components": 729.33,
+    "Healthcare Services": 233.6
+  },
+  "portfolio_breakdown": {
+    "Facilities S&E": 729.33,
+    "Medical Services": 233.6
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-377319",
+    "date": "2024-07-30",
+    "vendor_name": "Meyer and Sons",
+    "total_amount": 1083.3
+  }
+}

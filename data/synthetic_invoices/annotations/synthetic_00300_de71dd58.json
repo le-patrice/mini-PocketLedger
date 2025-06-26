@@ -1,0 +1,204 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-246603",
+    "2024-12-01",
+    "Williams-Kaufman",
+    "Standard INSTALLATION OF EQUIPMENT- WEAPONS Assembly",
+    "7",
+    "$768.62",
+    "$5380.34",
+    "TECHNICAL REPRESENTATIVE- SPACE VEHICLES System",
+    "1",
+    "$722.82",
+    "$722.82",
+    "Professional IT Package",
+    "2",
+    "$34.72",
+    "$69.44",
+    "$6172.60",
+    "$617.26",
+    "$6789.86"
+  ],
+  "boxes": [
+    [
+      350,
+      60,
+      449,
+      77
+    ],
+    [
+      60,
+      124,
+      118,
+      134
+    ],
+    [
+      400,
+      124,
+      456,
+      134
+    ],
+    [
+      60,
+      181,
+      149,
+      191
+    ],
+    [
+      65,
+      251,
+      389,
+      263
+    ],
+    [
+      482,
+      251,
+      488,
+      261
+    ],
+    [
+      593,
+      251,
+      633,
+      262
+    ],
+    [
+      689,
+      251,
+      735,
+      262
+    ],
+    [
+      65,
+      278,
+      368,
+      290
+    ],
+    [
+      482,
+      278,
+      488,
+      288
+    ],
+    [
+      593,
+      278,
+      633,
+      289
+    ],
+    [
+      695,
+      278,
+      735,
+      289
+    ],
+    [
+      65,
+      305,
+      184,
+      317
+    ],
+    [
+      482,
+      305,
+      488,
+      315
+    ],
+    [
+      599,
+      305,
+      633,
+      316
+    ],
+    [
+      701,
+      305,
+      735,
+      316
+    ],
+    [
+      694,
+      362,
+      740,
+      373
+    ],
+    [
+      700,
+      389,
+      740,
+      400
+    ],
+    [
+      681,
+      429,
+      740,
+      443
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Installation of Equipment",
+  "document_portfolio": "Equipment Related Services",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "INSTALLATION OF EQUIPMENT- WEAPONS",
+      "spendCategoryTitle": "Installation of Equipment",
+      "portfolioGroup": "Equipment Related Services",
+      "description": "Standard INSTALLATION OF EQUIPMENT- WEAPONS Assembly",
+      "line_total": 5380.34
+    },
+    {
+      "psc": "",
+      "shortName": "TECHNICAL REPRESENTATIVE- SPACE VEHICLES",
+      "spendCategoryTitle": "Technical Representative Services",
+      "portfolioGroup": "Equipment Related Services",
+      "description": "TECHNICAL REPRESENTATIVE- SPACE VEHICLES System",
+      "line_total": 722.82
+    },
+    {
+      "psc": "",
+      "shortName": "IT AND TELECOM - COMPUTE: SERVERS (HARDWARE AND PERPETUAL LICENSE SOFTWARE)",
+      "spendCategoryTitle": "Product",
+      "portfolioGroup": "",
+      "description": "Professional IT Package",
+      "line_total": 69.44
+    }
+  ],
+  "psc_breakdown": {
+    "Installation of Equipment": 5380.34,
+    "Technical Representative Services": 722.82,
+    "Product": 69.44
+  },
+  "portfolio_breakdown": {
+    "Equipment Related Services": 6103.16,
+    "": 69.44
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-246603",
+    "date": "2024-12-01",
+    "vendor_name": "Williams-Kaufman",
+    "total_amount": 6789.86
+  }
+}

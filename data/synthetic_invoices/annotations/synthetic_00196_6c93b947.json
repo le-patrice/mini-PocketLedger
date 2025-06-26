@@ -1,0 +1,163 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-485398",
+    "2025-03-23",
+    "Gilmore-Pearson",
+    "Industrial TIME MEASURING INSTRUMENTS Kit",
+    "15",
+    "$535.35",
+    "$8030.25",
+    "Industrial INSTALLATION OF EQUIPMENT- RAILWAY EQUIPMENT System",
+    "7",
+    "$768.03",
+    "$5376.21",
+    "$13406.46",
+    "$670.32",
+    "$14076.78"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      133,
+      167
+    ],
+    [
+      55,
+      222,
+      297,
+      232
+    ],
+    [
+      449,
+      222,
+      461,
+      232
+    ],
+    [
+      556,
+      222,
+      596,
+      233
+    ],
+    [
+      647,
+      222,
+      693,
+      233
+    ],
+    [
+      55,
+      247,
+      388,
+      258
+    ],
+    [
+      452,
+      247,
+      458,
+      257
+    ],
+    [
+      556,
+      247,
+      596,
+      258
+    ],
+    [
+      647,
+      247,
+      693,
+      258
+    ],
+    [
+      648,
+      322,
+      700,
+      333
+    ],
+    [
+      660,
+      347,
+      700,
+      358
+    ],
+    [
+      634,
+      385,
+      700,
+      399
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Test & Measurement Supplies",
+  "document_portfolio": "Facilities S&E",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "TIME MEASURING INSTRUMENTS",
+      "spendCategoryTitle": "Test & Measurement Supplies",
+      "portfolioGroup": "Facilities S&E",
+      "description": "Industrial TIME MEASURING INSTRUMENTS Kit",
+      "line_total": 8030.25
+    },
+    {
+      "psc": "",
+      "shortName": "INSTALLATION OF EQUIPMENT- RAILWAY EQUIPMENT",
+      "spendCategoryTitle": "Industrial Products Install / Maintenance / Repair",
+      "portfolioGroup": "Facility Related Services",
+      "description": "Industrial INSTALLATION OF EQUIPMENT- RAILWAY EQUIPMENT System",
+      "line_total": 5376.21
+    }
+  ],
+  "psc_breakdown": {
+    "Test & Measurement Supplies": 8030.25,
+    "Industrial Products Install / Maintenance / Repair": 5376.21
+  },
+  "portfolio_breakdown": {
+    "Facilities S&E": 8030.25,
+    "Facility Related Services": 5376.21
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-485398",
+    "date": "2025-03-23",
+    "vendor_name": "Gilmore-Pearson",
+    "total_amount": 14076.78
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "words": [
+    "INVOICE",
+    "INV-879640",
+    "2024-08-24",
+    "Yates-Stephenson",
+    "Premium PHYSICAL PROPERTIES TESTING AND INSPECTION",
+    "13",
+    "$288.42",
+    "$3749.46",
+    "$3749.46",
+    "$468.68",
+    "$4218.14"
+  ],
+  "boxes": [
+    [
+      325,
+      50,
+      424,
+      67
+    ],
+    [
+      50,
+      107,
+      108,
+      117
+    ],
+    [
+      375,
+      107,
+      431,
+      117
+    ],
+    [
+      50,
+      157,
+      140,
+      169
+    ],
+    [
+      55,
+      222,
+      376,
+      232
+    ],
+    [
+      449,
+      222,
+      461,
+      232
+    ],
+    [
+      556,
+      222,
+      596,
+      233
+    ],
+    [
+      647,
+      222,
+      693,
+      233
+    ],
+    [
+      654,
+      277,
+      700,
+      288
+    ],
+    [
+      660,
+      302,
+      700,
+      313
+    ],
+    [
+      641,
+      340,
+      700,
+      354
+    ]
+  ],
+  "ner_tags": [
+    "B-HEADER",
+    "B-INVOICE_NUM",
+    "B-DATE",
+    "B-VENDOR",
+    "B-ITEM_DESC",
+    "B-QTY",
+    "B-PRICE",
+    "B-TOTAL",
+    "B-SUBTOTAL",
+    "B-TAX",
+    "B-TOTAL_AMT"
+  ],
+  "document_psc": "",
+  "document_category": "Test & Measurement Supplies",
+  "document_portfolio": "Facilities S&E",
+  "line_items_psc": [
+    {
+      "psc": "",
+      "shortName": "PHYSICAL PROPERTIES TESTING AND INSPECTION",
+      "spendCategoryTitle": "Test & Measurement Supplies",
+      "portfolioGroup": "Facilities S&E",
+      "description": "Premium PHYSICAL PROPERTIES TESTING AND INSPECTION",
+      "line_total": 3749.46
+    }
+  ],
+  "psc_breakdown": {
+    "Test & Measurement Supplies": 3749.46
+  },
+  "portfolio_breakdown": {
+    "Facilities S&E": 3749.46
+  },
+  "invoice_metadata": {
+    "invoice_id": "INV-879640",
+    "date": "2024-08-24",
+    "vendor_name": "Yates-Stephenson",
+    "total_amount": 4218.14
+  }
+}
