@@ -1,54 +1,115 @@
 import os
-# IMPORTANT: Disable tokenizers parallelism to prevent multiprocessing issues with FastAI
-os.environ["TOKENIZERS_PARALLELISM"] = "false"
-
-from fastai.text.all import *
-from fastai.text.all import text_classifier_learner
-from fastai.learner import Learner, load_learner
-from fastai.text.models import AWD_LSTM
-from fastai.data.block import DataBlock, CategoryBlock
-from fastai.data.core import DataLoaders
-from fastai.data.transforms import ColReader, RandomSplitter
-from fastai.text.data import TextBlock
-from transformers import AutoTokenizer, AutoModelForSequenceClassification, AutoConfig
 import pandas as pd
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import classification_report, accuracy_score, f1_score
-import torch
 import numpy as np
-from pathlib import Path
+import torch
+from torch.utils.data import Dataset, DataLoader
+from transformers import (
+    AutoTokenizer, 
+    AutoModelForSequenceClassification,
+    AutoConfig,
+    Trainer, 
+    TrainingArguments,
+    EarlyStoppingCallback
+)
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score, f1_score, classification_report
+from sklearn.preprocessing import LabelEncoder
 import json
 import re
 from typing import Dict, List, Tuple, Optional, Any
 import logging
+from pathlib import Path
 import matplotlib.pyplot as plt
-from data_preparation_utils import DataPreparationUtils # Ensure this import is correct
+import seaborn as sns
+from collections import Counter
+import warnings
+warnings.filterwarnings('ignore')
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
+# Disable tokenizers parallelism to prevent multiprocessing issues
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
+
+class PSCDataset(Dataset):
+    """Custom Dataset for PSC text classification."""
+    
+    def __init__(self, texts, labels, tokenizer, max_length=512):
+        self.texts = texts
+        self.labels = labels
+        self.tokenizer = tokenizer
+        self.max_length = max_length
+    
+    def __len__(self):
+        return len(self.texts)
+    
+    def __getitem__(self, idx):
+        text = str(self.texts[idx])
+        label = self.labels[idx]
+        
+        encoding = self.tokenizer(
+            text,
+            truncation=True,
+            padding='max_length',
+            max_length=self.max_length,
+            return_tensors='pt'
+        )
+        
+        return {
+            'input_ids': encoding['input_ids'].flatten(),
+            'attention_mask': encoding['attention_mask'].flatten(),
+            'labels': torch.tensor(label, dtype=torch.long)
+        }
 
 class PSCClassifierTrainer:
-    """FastAI-based trainer for PSC text classification using pre-trained transformers."""
-
-    def __init__(self, model_name: str = "distilbert-base-uncased"):
+    """Enhanced PSC classifier using pure HuggingFace Transformers."""
+    
+    def __init__(self, model_name: str = "distilbert-base-uncased", max_length: int = 512):
         self.model_name = model_name
-        self.tokenizer = AutoTokenizer.from_pretrained(model_name)
+        self.max_length = max_length
+        self.tokenizer = None
+        self.model = None
+        self.label_encoder = LabelEncoder()
         self.psc_to_idx = {}
         self.idx_to_psc = {}
-        self.data_utils = DataPreparationUtils()
-
+        
+        # Initialize tokenizer
+        self._initialize_tokenizer()
+        
+        # Import data utils
+        try:
+            from data_preparation_utils import DataPreparationUtils
+            self.data_utils = DataPreparationUtils()
+        except ImportError:
+            logger.warning("DataPreparationUtils not found. Please ensure it's available.")
+            self.data_utils = None
+    
+    def _initialize_tokenizer(self):
+        """Initialize tokenizer with proper configuration."""
+        try:
+            self.tokenizer = AutoTokenizer.from_pretrained(
+                self.model_name,
+                use_fast=True,
+                add_prefix_space=False
+            )
+            
+            # Add padding token if not present
+            if self.tokenizer.pad_token is None:
+                self.tokenizer.pad_token = self.tokenizer.eos_token
+            
+            logger.info(f"Tokenizer initialized: {self.model_name}")
+        except Exception as e:
+            logger.error(f"Failed to initialize tokenizer: {e}")
+            raise
+    
     def prepare_psc_training_data(
         self, 
         psc_data: Dict, 
         additional_descriptions: Optional[List[Dict[str, str]]] = None, 
         augment_data: bool = True
     ) -> pd.DataFrame:
-        """
-        Prepare comprehensive training data from PSC mapping.
-        Ensures all text fields are correctly handled as strings.
-        """
+        """Prepare comprehensive training data from PSC mapping."""
         training_samples = []
         
         if not psc_data or 'psc_mapping' not in psc_data:
@@ -56,37 +117,44 @@ class PSCClassifierTrainer:
         
         psc_mapping = psc_data['psc_mapping']
         
-        # Generate training samples from PSC mapping
         for psc_code, psc_info in psc_mapping.items():
-            # Ensure all retrieved values are strings, even if they are None or other types
-            psc_code_str = str(psc_info.get('psc', '')) 
+            # Convert all values to strings
+            psc_code_str = str(psc_info.get('psc', ''))
             short_name_str = str(psc_info.get('shortName', ''))
             spend_category_str = str(psc_info.get('spendCategoryTitle', ''))
             portfolio_group_str = str(psc_info.get('portfolioGroup', ''))
             long_name_str = str(psc_info.get('longName', ''))
+            includes_str = str(psc_info.get('includes', ''))
+            excludes_str = str(psc_info.get('excludes', ''))
             
-            # Handle lists of strings (examplePhrases, synonyms)
+            # Handle lists
             example_phrases_list = [str(p) for p in psc_info.get('examplePhrases', []) if p is not None]
             synonyms_list = [str(s) for s in psc_info.get('synonyms', []) if s is not None]
-
-            # Combine various text fields for a comprehensive base description
-            base_description_parts = []
-            if short_name_str: base_description_parts.append(short_name_str)
-            if spend_category_str and spend_category_str != short_name_str: base_description_parts.append(spend_category_str)
-            if portfolio_group_str and portfolio_group_str not in base_description_parts: base_description_parts.append(portfolio_group_str)
-            if long_name_str and long_name_str not in base_description_parts: base_description_parts.append(long_name_str)
+            naics_list = [str(n) for n in psc_info.get('NAICS', []) if n is not None]
             
-            # Add synonyms and example phrases as individual samples or combined
+            # Create base description
+            base_description_parts = []
+            if short_name_str and short_name_str != 'None':
+                base_description_parts.append(short_name_str)
+            if spend_category_str and spend_category_str != 'None' and spend_category_str != short_name_str:
+                base_description_parts.append(spend_category_str)
+            if portfolio_group_str and portfolio_group_str != 'None' and portfolio_group_str not in base_description_parts:
+                base_description_parts.append(portfolio_group_str)
+            if long_name_str and long_name_str != 'None' and long_name_str not in base_description_parts:
+                base_description_parts.append(long_name_str)
+            if includes_str and includes_str != 'None':
+                base_description_parts.append(f"Includes: {includes_str}")
+            
+            # Add synonyms and example phrases
             if synonyms_list:
                 base_description_parts.extend(synonyms_list)
             if example_phrases_list:
                 base_description_parts.extend(example_phrases_list)
-
-            # Create base training sample by joining unique parts
-            # Filter out empty strings before joining, then strip final result
-            unique_base_parts = list(dict.fromkeys([p.strip() for p in base_description_parts if p.strip()]))
+            
+            # Create base training sample
+            unique_base_parts = list(dict.fromkeys([p.strip() for p in base_description_parts if p.strip() and p.strip() != 'None']))
             base_text = ". ".join(unique_base_parts)
-
+            
             if base_text:
                 training_samples.append({
                     'text': base_text,
@@ -94,7 +162,7 @@ class PSCClassifierTrainer:
                     'source': 'combined_base'
                 })
             
-            # Generate augmented samples if enabled
+            # Generate augmented samples
             if augment_data:
                 augmented_samples = self._generate_augmented_samples(
                     psc_code=psc_code_str,
@@ -103,13 +171,10 @@ class PSCClassifierTrainer:
                     portfolio=portfolio_group_str,
                     long_name=long_name_str,
                     synonyms=synonyms_list,
-                    example_phrases=example_phrases_list
+                    example_phrases=example_phrases_list,
+                    includes=includes_str
                 )
-                for aug_sample in augmented_samples:
-                    if isinstance(aug_sample.get('text'), str) and aug_sample['text'].strip():
-                        training_samples.append(aug_sample)
-                    else:
-                        logger.warning(f"Skipping empty/invalid augmented sample for PSC {psc_code_str}: {aug_sample}")
+                training_samples.extend(augmented_samples)
         
         # Add additional descriptions if provided
         if additional_descriptions:
@@ -123,21 +188,15 @@ class PSCClassifierTrainer:
                             'psc': psc_to_add,
                             'source': 'additional_provided'
                         })
-                else:
-                    logger.warning(f"Skipping invalid additional description item: {desc_item}")
         
         df = pd.DataFrame(training_samples)
         
-        # Ensure the 'text' column contains only strings and handle NaNs or non-strings if any slip through
-        df['text'] = df['text'].fillna('').astype(str)
-        df['psc'] = df['psc'].fillna('').astype(str)
-
         # Clean and validate data
         df = self._clean_training_data(df)
         
         logger.info(f"Generated {len(df)} training samples for {df['psc'].nunique()} PSC classes.")
         return df
-
+    
     def _generate_augmented_samples(
         self, 
         psc_code: str, 
@@ -146,11 +205,13 @@ class PSCClassifierTrainer:
         portfolio: str,
         long_name: str,
         synonyms: List[str],
-        example_phrases: List[str]
+        example_phrases: List[str],
+        includes: str = ""
     ) -> List[Dict]:
-        """Generate augmented training samples for better coverage."""
+        """Generate augmented training samples with enhanced business context."""
         samples = []
         
+        # Enhanced business templates with more variety
         business_templates = [
             "Purchase of {item}", "Procurement of {item}", "Supply of {item}",
             "Acquisition of {item}", "{item} services", "{item} and related services",
@@ -158,59 +219,121 @@ class PSCClassifierTrainer:
             "Consulting on {item}", "Maintenance for {item}", "Repair of {item}",
             "Installation of {item}", "Lease of {item}", "Contract for {item}",
             "Development of {item}", "Support for {item}", "Software for {item}",
-            "Hardware for {item}", "Advisory on {item}"
+            "Hardware for {item}", "Advisory on {item}", "Training on {item}",
+            "Management of {item}", "Operation of {item}", "Upgrade of {item}",
+            "Rental of {item}", "Outsourcing of {item}", "Implementation of {item}",
+            "{item} solutions", "Custom {item}", "Standard {item}",
+            "{item} integration", "{item} deployment", "{item} configuration"
         ]
         
-        base_terms = set([
-            self._clean_text_for_augmentation(short_name),
-            self._clean_text_for_augmentation(category),
-            self._clean_text_for_augmentation(portfolio),
-            self._clean_text_for_augmentation(long_name)
-        ])
-        base_terms.update([self._clean_text_for_augmentation(s) for s in synonyms])
-        base_terms.update([self._clean_text_for_augmentation(p) for p in example_phrases])
+        # Context-specific templates
+        context_templates = [
+            "Government {item} requirements", "Federal {item} contract",
+            "Department needs {item}", "Agency procurement of {item}",
+            "Office {item} purchase", "Facility {item} services",
+            "Administrative {item}", "Operational {item}"
+        ]
         
-        base_terms = {term for term in base_terms if term.strip()}
-
+        base_terms = set()
+        for term in [short_name, category, portfolio, long_name]:
+            if term and term != 'None':
+                cleaned_term = self._clean_text_for_augmentation(term)
+                if cleaned_term:
+                    base_terms.add(cleaned_term)
+        
+        # Add includes information
+        if includes and includes != 'None':
+            includes_terms = self._extract_terms_from_includes(includes)
+            base_terms.update(includes_terms)
+        
+        for term_list in [synonyms, example_phrases]:
+            for term in term_list:
+                if term and term != 'None':
+                    cleaned_term = self._clean_text_for_augmentation(term)
+                    if cleaned_term:
+                        base_terms.add(cleaned_term)
+        
+        # Generate augmented samples
         for term in base_terms:
+            if len(term) < 3:  # Skip very short terms
+                continue
+                
             lower_term = term.lower()
-            for template in business_templates:
+            
+            # Use business templates
+            for template in business_templates[:15]:  # Limit templates
                 augmented_text = template.format(item=lower_term).strip()
                 if augmented_text:
                     samples.append({
                         'text': augmented_text,
                         'psc': psc_code,
-                        'source': 'augmented_template'
+                        'source': 'augmented_business'
+                    })
+            
+            # Use context templates (fewer to avoid over-augmentation)
+            for template in context_templates[:5]:
+                augmented_text = template.format(item=lower_term).strip()
+                if augmented_text:
+                    samples.append({
+                        'text': augmented_text,
+                        'psc': psc_code,
+                        'source': 'augmented_context'
                     })
         
         return samples
-
+    
+    def _extract_terms_from_includes(self, includes_text: str) -> List[str]:
+        """Extract meaningful terms from includes field."""
+        if not includes_text or includes_text == 'None':
+            return []
+        
+        # Split by common separators
+        terms = re.split(r'[;,.]', includes_text)
+        cleaned_terms = []
+        
+        for term in terms:
+            cleaned = self._clean_text_for_augmentation(term)
+            if cleaned and len(cleaned) >= 3:
+                cleaned_terms.append(cleaned)
+        
+        return cleaned_terms
+    
     def _clean_text_for_augmentation(self, text: Any) -> str:
-        """
-        Clean text for augmentation purposes, ensuring input is string and handles None.
-        """
-        text_str = str(text).strip() if text is not None else ""
-        cleaned = re.sub(r'[^\w\s-]', '', text_str)
+        """Clean text for augmentation."""
+        if text is None or text == 'None':
+            return ""
+        
+        text_str = str(text).strip()
+        # Remove extra punctuation but keep essential characters
+        cleaned = re.sub(r'[^\w\s\-&]', '', text_str)
         cleaned = re.sub(r'\s+', ' ', cleaned).strip()
         return cleaned
-
+    
     def _clean_training_data(self, df: pd.DataFrame) -> pd.DataFrame:
-        """Clean and validate training data."""
+        """Clean and validate training data with enhanced filtering."""
+        # Remove empty texts
         df = df[df['text'].str.strip() != '']
-        df = df.drop_duplicates(subset=['text', 'psc'])
-        df = df[df['text'].str.len() >= 3]
+        df = df[df['text'].str.len() >= 5]  # Increased minimum length
         
+        # Remove duplicates
+        df = df.drop_duplicates(subset=['text', 'psc'])
+        
+        # Filter PSCs with sufficient samples
         psc_counts = df['psc'].value_counts()
-        valid_pscs = psc_counts[psc_counts >= 2].index 
+        min_samples_per_class = 10  # Increased minimum for better training
+        valid_pscs = psc_counts[psc_counts >= min_samples_per_class].index
         df = df[df['psc'].isin(valid_pscs)]
         
+        # Remove extremely long texts that might cause memory issues
+        df = df[df['text'].str.len() <= 1000]
+        
         if df.empty:
-            logger.warning("No valid training data remaining after cleaning and filtering.")
+            logger.warning("No valid training data remaining after cleaning.")
             return pd.DataFrame(columns=['text', 'psc', 'source'])
-            
-        logger.info(f"Cleaned data: {len(df)} samples remaining for training.")
+        
+        logger.info(f"Cleaned data: {len(df)} samples for {df['psc'].nunique()} PSC classes.")
         return df.reset_index(drop=True)
-
+    
     def prepare_data(
         self, 
         psc_data: Dict, 
@@ -220,391 +343,352 @@ class PSCClassifierTrainer:
         df = self.prepare_psc_training_data(psc_data, additional_descriptions)
         
         if df.empty:
-            logger.error("DataFrame is empty after data preparation. Cannot create label mappings.")
+            logger.error("DataFrame is empty after data preparation.")
             return df
-
+        
+        # Encode labels
         unique_pscs = sorted(df['psc'].unique())
+        self.label_encoder.fit(unique_pscs)
+        
         self.psc_to_idx = {psc: idx for idx, psc in enumerate(unique_pscs)}
         self.idx_to_psc = {idx: psc for psc, idx in self.psc_to_idx.items()}
         
-        df['label'] = df['psc'].map(self.psc_to_idx)
+        df['label'] = self.label_encoder.transform(df['psc'])
         
         logger.info(f"Prepared {len(df)} training samples for {len(unique_pscs)} PSC classes.")
-        logger.info(f"Sample distribution (top 10):\n{df['psc'].value_counts().head(10)}")
+        
+        # Show distribution
+        psc_distribution = df['psc'].value_counts()
+        logger.info(f"Sample distribution (top 10):\n{psc_distribution.head(10)}")
         
         return df
-
-    def create_dataloaders(
-        self, 
-        df: pd.DataFrame, 
-        valid_pct: float = 0.2, 
-        bs: int = 16
-    ) -> DataLoaders:
-        """Create FastAI text dataloaders with proper tokenization."""
-        
-        if len(df) < 10:
-            logger.warning(f"Insufficient data for robust train/val split: only {len(df)} samples available. Validation might be skipped or poor.")
-            valid_pct = 0.0
-
-        text_block = TextBlock.from_df(
-            'text',
-            seq_len=128,
-            tok=self.tokenizer,
-            is_lm=False
-        )
-        
-        category_block = CategoryBlock(vocab=list(self.idx_to_psc.values()))
-        
-        dblock = DataBlock(
-            blocks=(text_block, category_block),
-            get_x=ColReader('text'),
-            get_y=ColReader('psc'),
-            splitter=RandomSplitter(valid_pct=valid_pct, seed=42),
-            item_tfms=[],
-            batch_tfms=[]
-        )
-        
+    
+    def create_model(self, num_labels: int):
+        """Create and configure the model with optimal settings."""
         try:
-            # Setting num_workers=0 is crucial for compatibility with HuggingFace tokenizers
-            dls = dblock.dataloaders(df, bs=bs, num_workers=0) 
-            logger.info(f"Dataloaders created successfully with batch size {bs}.")
-            return dls
-        except Exception as e:
-            logger.error(f"Error creating dataloaders with batch size {bs}: {e}")
-            if bs > 1:
-                new_bs = max(1, bs // 2)
-                logger.info(f"Trying with smaller batch size: {new_bs}...")
-                try:
-                    dls = dblock.dataloaders(df, bs=new_bs, num_workers=0)
-                    logger.info(f"Dataloaders created successfully with smaller batch size {new_bs}.")
-                    return dls
-                except Exception as e2:
-                    logger.error(f"Failed again with smaller batch size {new_bs}: {e2}")
-                    raise RuntimeError("Failed to create dataloaders even with smaller batch size.") from e2
-            else:
-                raise RuntimeError("Failed to create dataloaders with batch size 1.") from e
-
-    def create_learner(self, dls: DataLoaders) -> Learner:
-        """Create FastAI text learner with pre-trained transformer."""
-        
-        def accuracy_func(inp, targ):
-            return (inp.argmax(dim=-1) == targ).float().mean()
-        
-        def f1_score_func(inp, targ):
-            preds = inp.argmax(dim=-1)
-            preds_np = preds.cpu().numpy()
-            targ_np = targ.cpu().numpy()
-            return f1_score(targ_np, preds_np, average='weighted', zero_division=0)
-        
-        metrics = [accuracy_func, f1_score_func]
-        
-        learner = text_classifier_learner(
-            dls,
-            arch=AWD_LSTM,
-            metrics=metrics,
-            drop_mult=0.5,
-            path='.'
-        )
-        
-        logger.info("FastAI text learner created.")
-        return learner
-
-    def train_model(
-        self, 
-        df: pd.DataFrame, 
-        epochs: int = 5, 
-        lr: float = 1e-3
-    ) -> Learner:
-        """Complete training pipeline with FastAI optimizations."""
-        
-        logger.info("Creating dataloaders for PSC classifier training...")
-        dls = self.create_dataloaders(df)
-        
-        logger.info("Sample batch (first 3 items):")
-        try:
-            dls.show_batch(max_n=3)
-        except Exception as e:
-            logger.warning(f"Could not show batch: {e}")
-        
-        logger.info("Creating text learner for PSC classifier...")
-        learner = self.create_learner(dls)
-        
-        logger.info("Finding optimal learning rate...")
-        try:
-            lr_finder_results = learner.lr_find()
-            suggested_lr = lr_finder_results.lr_min
-            if suggested_lr > 0 and suggested_lr < lr * 10:
-                lr = suggested_lr
-                logger.info(f"Using suggested learning rate: {lr:.2e}")
-            else:
-                logger.warning(f"Suggested LR ({suggested_lr:.2e}) is extreme, sticking to default LR: {lr:.2e}")
-        except Exception as e:
-            logger.error(f"LR finder failed: {e}, using default LR: {lr:.2e}")
-        
-        logger.info(f"Training PSC classifier model for {epochs} epochs with lr={lr:.2e}...")
-        try:
-            learner.fit_one_cycle(epochs, lr)
-        except Exception as e:
-            logger.error(f"Training failed with fit_one_cycle: {e}. Attempting standard fit.")
-            try:
-                learner.fit(epochs, lr)
-            except Exception as e2:
-                logger.error(f"Training failed even with standard fit: {e2}")
-                raise
-        
-        try:
-            learner.recorder.plot_loss()
-            plt.show()
-        except Exception as e:
-            logger.warning(f"Could not plot loss: {e}")
-        
-        return learner
-
-    def evaluate_model(self, learner: Learner, df: Optional[pd.DataFrame] = None):
-        """Evaluate model performance on the validation set."""
-        logger.info("\nEvaluating PSC classifier model performance...")
-        
-        if df is None or df.empty:
-            logger.info("Using learner's internal validation set for evaluation.")
-            try:
-                val_preds, val_targets = learner.get_preds(ds_idx=1) 
-                
-                val_preds_np = val_preds.argmax(dim=1).cpu().numpy()
-                val_targets_np = val_targets.cpu().numpy()
-                
-                val_accuracy = accuracy_score(val_targets_np, val_preds_np)
-                val_f1 = f1_score(val_targets_np, val_preds_np, average='weighted', zero_division=0)
-                
-                logger.info(f"Validation Accuracy: {val_accuracy:.4f}")
-                logger.info(f"Validation F1 Score (Weighted): {val_f1:.4f}")
-
-                unique_labels_in_val = np.unique(val_targets_np)
-                target_names_val = [
-                    self.idx_to_psc[int(i)] 
-                    for i in unique_labels_in_val 
-                    if int(i) in self.idx_to_psc
-                ]
-                
-                logger.info("\nValidation Set Classification Report:")
-                report = classification_report(val_targets_np, val_preds_np, 
-                                               target_names=target_names_val, zero_division=0)
-                logger.info(report)
-
-            except Exception as e:
-                logger.error(f"Error calculating validation metrics: {e}")
-        else:
-            logger.info("Evaluating on provided DataFrame (treated as test set)...")
-            predictions = []
-            actuals = []
+            config = AutoConfig.from_pretrained(
+                self.model_name,
+                num_labels=num_labels,
+                finetuning_task="text-classification",
+                id2label=self.idx_to_psc,
+                label2id=self.psc_to_idx,
+                hidden_dropout_prob=0.3,  # Increased dropout for regularization
+                attention_probs_dropout_prob=0.3
+            )
             
-            df['label'] = df['psc'].map(self.psc_to_idx)
-            test_df_valid = df[df['label'].notna()]
-
-            if test_df_valid.empty:
-                logger.warning("Provided DataFrame is empty or contains no valid PSCs after mapping. Skipping test evaluation.")
-                return
-
-            for _, row in test_df_valid.iterrows():
-                try:
-                    pred_class_str, _, _ = learner.predict(str(row['text']))
-                    
-                    pred_idx_for_report = self.psc_to_idx.get(pred_class_str)
-                    
-                    if pred_idx_for_report is not None:
-                        predictions.append(pred_idx_for_report)
-                        actuals.append(int(row['label']))
-                    else:
-                        logger.warning(f"Skipping prediction for text '{row['text'][:50]}...': Predicted PSC '{pred_class_str}' not in training vocabulary.")
-                except Exception as e:
-                    logger.warning(f"Prediction failed for text: '{row['text'][:50]}...': {e}")
-                    continue
+            self.model = AutoModelForSequenceClassification.from_pretrained(
+                self.model_name,
+                config=config
+            )
             
-            if predictions and actuals:
-                unique_actual_labels = np.unique(actuals)
-                target_names_test = [self.idx_to_psc[int(i)] for i in unique_actual_labels if int(i) in self.idx_to_psc]
+            logger.info(f"Model created with {num_labels} labels.")
+            return self.model
+            
+        except Exception as e:
+            logger.error(f"Failed to create model: {e}")
+            raise
+    
+    def compute_metrics(self, eval_pred):
+        """Compute comprehensive metrics for evaluation."""
+        predictions, labels = eval_pred
+        predictions = np.argmax(predictions, axis=1)
+        
+        accuracy = accuracy_score(labels, predictions)
+        f1_macro = f1_score(labels, predictions, average='macro', zero_division=0)
+        f1_weighted = f1_score(labels, predictions, average='weighted', zero_division=0)
+        f1_micro = f1_score(labels, predictions, average='micro', zero_division=0)
+        
+        return {
+            'accuracy': accuracy,
+            'f1_macro': f1_macro,
+            'f1_weighted': f1_weighted,
+            'f1_micro': f1_micro
+        }
+    
+    def train_model(self, df: pd.DataFrame, test_size: float = 0.2, epochs: int = 3) -> Trainer:
+        """Train the PSC classifier model with optimized parameters."""
+        
+        # Split data with stratification
+        train_texts, val_texts, train_labels, val_labels = train_test_split(
+            df['text'].tolist(),
+            df['label'].tolist(),
+            test_size=test_size,
+            random_state=42,
+            stratify=df['label']
+        )
+        
+        # Create datasets
+        train_dataset = PSCDataset(train_texts, train_labels, self.tokenizer, self.max_length)
+        val_dataset = PSCDataset(val_texts, val_labels, self.tokenizer, self.max_length)
+        
+        # Create model
+        num_labels = df['label'].nunique()
+        self.create_model(num_labels)
+        
+        # Optimized training arguments - FIXED: eval_strategy instead of evaluation_strategy
+        training_args = TrainingArguments(
+            output_dir='./results',
+            num_train_epochs=epochs,
+            per_device_train_batch_size=8,  # Reduced for stability
+            per_device_eval_batch_size=16,
+            gradient_accumulation_steps=2,  # Added for effective larger batch size
+            warmup_steps=min(500, len(train_dataset) // 10),  # Dynamic warmup
+            weight_decay=0.01,
+            learning_rate=2e-5,  # Optimal learning rate for DistilBERT
+            adam_epsilon=1e-8,
+            max_grad_norm=1.0,
+            logging_dir='./logs',
+            logging_steps=100,
+            eval_strategy="steps",  # FIXED: Changed from evaluation_strategy
+            eval_steps=min(500, len(train_dataset) // 4),  # Dynamic eval steps
+            save_strategy="steps",
+            save_steps=min(500, len(train_dataset) // 4),
+            load_best_model_at_end=True,
+            metric_for_best_model="f1_weighted",  # Changed to weighted F1
+            greater_is_better=True,
+            report_to=None,  # Disable wandb
+            dataloader_num_workers=0,  # Disable multiprocessing for stability
+            fp16=torch.cuda.is_available(),  # Use mixed precision if CUDA available
+            seed=42,
+            data_seed=42,
+            remove_unused_columns=False
+        )
+        
+        # Create trainer with enhanced configuration
+        trainer = Trainer(
+            model=self.model,
+            args=training_args,
+            train_dataset=train_dataset,
+            eval_dataset=val_dataset,
+            compute_metrics=self.compute_metrics,
+            callbacks=[EarlyStoppingCallback(early_stopping_patience=3)]
+        )
+        
+        logger.info("Starting model training...")
+        trainer.train()
+        
+        logger.info("Training completed!")
+        return trainer
+    
+    def evaluate_model(self, trainer: Trainer, df: pd.DataFrame = None):
+        """Evaluate model performance with detailed metrics."""
+        logger.info("Evaluating model performance...")
+        
+        # Evaluate on validation set
+        eval_results = trainer.evaluate()
+        
+        logger.info("Validation Results:")
+        for key, value in eval_results.items():
+            logger.info(f"  {key}: {value:.4f}")
+        
+        # Additional evaluation if test data provided
+        if df is not None:
+            logger.info("\nTesting on sample predictions...")
+            test_cases = df.sample(min(10, len(df)))['text'].tolist()
+            
+            for text in test_cases:
+                result = self.predict_psc(text)
+                logger.info(f"Text: {text[:100]}...")
+                logger.info(f"Prediction: {result['predicted_psc']} (Confidence: {result['confidence']:.3f})")
+                logger.info("-" * 50)
+    
+    def predict_psc(self, text: str, top_k: int = 1) -> Dict:
+        """Predict PSC for given text with enhanced prediction logic."""
+        try:
+            # Tokenize input
+            inputs = self.tokenizer(
+                text,
+                truncation=True,
+                padding=True,
+                max_length=self.max_length,
+                return_tensors='pt'
+            )
+            
+            # Get prediction
+            with torch.no_grad():
+                outputs = self.model(**inputs)
+                predictions = torch.nn.functional.softmax(outputs.logits, dim=-1)
                 
-                logger.info("\nTest Set Classification Report:")
-                report = classification_report(actuals, predictions, target_names=target_names_test, zero_division=0)
-                logger.info(report)
-            else:
-                logger.warning("No valid predictions or actuals for test set evaluation.")
-
-
-    def save_model(self, learner: Learner, path: str = "models/psc_classifier"):
-        """Save the trained model and mappings."""
+                if top_k == 1:
+                    predicted_class_id = predictions.argmax().item()
+                    confidence = predictions.max().item()
+                    predicted_psc = self.idx_to_psc[predicted_class_id]
+                    
+                    return {
+                        "predicted_psc": predicted_psc,
+                        "confidence": confidence,
+                        "text": text
+                    }
+                else:
+                    # Return top-k predictions
+                    top_predictions = torch.topk(predictions, top_k)
+                    results = []
+                    
+                    for i in range(top_k):
+                        class_id = top_predictions.indices[0][i].item()
+                        conf = top_predictions.values[0][i].item()
+                        psc = self.idx_to_psc[class_id]
+                        results.append({
+                            "predicted_psc": psc,
+                            "confidence": conf
+                        })
+                    
+                    return {
+                        "predictions": results,
+                        "text": text
+                    }
+            
+        except Exception as e:
+            logger.error(f"Prediction failed: {e}")
+            return {
+                "error": str(e),
+                "predicted_psc": "UNKNOWN",
+                "confidence": 0.0,
+                "text": text
+            }
+    
+    def save_model(self, trainer: Trainer, path: str = "models/psc_classifier"):
+        """Save the trained model with enhanced metadata."""
         model_path = Path(path)
         model_path.mkdir(exist_ok=True, parents=True)
         
         try:
-            learner.export(model_path / "learner.pkl")
+            # Save model and tokenizer
+            trainer.save_model(str(model_path))
+            self.tokenizer.save_pretrained(str(model_path))
+            
+            # Save comprehensive mappings and metadata
+            mappings = {
+                "psc_to_idx": self.psc_to_idx,
+                "idx_to_psc": self.idx_to_psc,
+                "model_name": self.model_name,
+                "max_length": self.max_length,
+                "num_labels": len(self.psc_to_idx),
+                "training_timestamp": pd.Timestamp.now().isoformat(),
+                "model_version": "1.0"
+            }
             
             with open(model_path / "label_mappings.json", "w", encoding="utf-8") as f:
-                json.dump({
-                    "psc_to_idx": self.psc_to_idx,
-                    "idx_to_psc": {str(k): v for k, v in self.idx_to_psc.items()} 
-                }, f, indent=2, ensure_ascii=False)
+                json.dump(mappings, f, indent=2, ensure_ascii=False)
             
-            tokenizer_info = {
-                "model_name": self.model_name,
-                "vocab_size": len(self.tokenizer.vocab) if hasattr(self.tokenizer, 'vocab') else None,
-                "model_max_length": self.tokenizer.model_max_length,
-                "add_prefix_space": self.tokenizer.add_prefix_space,
-                "cls_token": str(self.tokenizer.cls_token) if self.tokenizer.cls_token else None,
-                "sep_token": str(self.tokenizer.sep_token) if self.tokenizer.sep_token else None,
-                "unk_token": str(self.tokenizer.unk_token) if self.tokenizer.unk_token else None,
-                "pad_token": str(self.tokenizer.pad_token) if self.tokenizer.pad_token else None,
-                "mask_token": str(self.tokenizer.mask_token) if self.tokenizer.mask_token else None
-            }
-            with open(model_path / "tokenizer_info.json", "w", encoding="utf-8") as f:
-                json.dump(tokenizer_info, f, indent=2, ensure_ascii=False)
-            
-            logger.info(f"PSC classifier model and mappings saved to {model_path}.")
+            logger.info(f"Model saved to {model_path}")
             
         except Exception as e:
-            logger.error(f"Error saving PSC classifier model: {e}")
+            logger.error(f"Failed to save model: {e}")
             raise
-
-    def predict_psc(self, learner: Learner, text: str, psc_data: Dict) -> Dict:
-        """Predict PSC for a given text description."""
-        try:
-            text_input = str(text) 
-            pred_class_str, pred_idx_tensor, probs_tensor = learner.predict(text_input)
-            
-            predicted_psc_code = str(pred_class_str)
-            confidence = float(torch.max(probs_tensor))
-            
-            psc_mapping = psc_data.get('psc_mapping', {})
-            psc_details = psc_mapping.get(predicted_psc_code, {})
-            
-            return {
-                "predicted_psc": predicted_psc_code,
-                "confidence": confidence,
-                "shortName": psc_details.get("shortName", "N/A"),
-                "spendCategoryTitle": psc_details.get("spendCategoryTitle", "N/A"),
-                "portfolioGroup": psc_details.get("portfolioGroup", "N/A"),
-                "probabilities": {
-                    self.idx_to_psc.get(i, f"class_{i}"): float(prob) 
-                    for i, prob in enumerate(probs_tensor.tolist())
-                }
-            }
-        except Exception as e:
-            logger.error(f"PSC prediction failed for text '{text}': {e}")
-            return {
-                "error": f"Prediction failed: {str(e)}",
-                "predicted_psc": "UNKNOWN",
-                "confidence": 0.0,
-                "shortName": "Unknown",
-                "spendCategoryTitle": "Unknown",
-                "portfolioGroup": "Unknown",
-                "probabilities": {}
-            }
-
+    
     @classmethod
-    def load_trained_model(cls, path: str):
-        """Load a previously trained model."""
+    def load_model(cls, path: str):
+        """Load a trained model with enhanced error handling."""
         model_path = Path(path)
         
         if not model_path.exists():
-            raise FileNotFoundError(f"Model path {model_path} does not exist. Ensure the model has been trained and saved.")
+            raise FileNotFoundError(f"Model path {model_path} does not exist.")
         
-        learner = load_learner(model_path / "learner.pkl")
+        # Load mappings
+        mappings_file = model_path / "label_mappings.json"
+        if not mappings_file.exists():
+            raise FileNotFoundError(f"Label mappings file not found at {mappings_file}")
         
-        with open(model_path / "label_mappings.json", "r", encoding="utf-8") as f:
+        with open(mappings_file, "r", encoding="utf-8") as f:
             mappings = json.load(f)
         
-        trainer = cls(model_name="distilbert-base-uncased")
+        # Initialize trainer
+        trainer = cls(
+            model_name=mappings["model_name"],
+            max_length=mappings["max_length"]
+        )
+        
+        # Load model and tokenizer
+        trainer.model = AutoModelForSequenceClassification.from_pretrained(str(model_path))
+        trainer.tokenizer = AutoTokenizer.from_pretrained(str(model_path))
+        
+        # Set mappings
         trainer.psc_to_idx = mappings["psc_to_idx"]
         trainer.idx_to_psc = {int(k): v for k, v in mappings["idx_to_psc"].items()}
         
-        logger.info(f"PSC classifier model loaded from {model_path}.")
-        return learner, trainer
+        logger.info(f"Model loaded from {model_path}")
+        logger.info(f"Model supports {mappings.get('num_labels', 'unknown')} PSC classes")
+        return trainer
 
 
 def train_psc_classifier():
-    """Main function to train PSC classifier."""
-    trainer = PSCClassifierTrainer()
-    
-    logger.info("Loading PSC data from DataPreparationUtils...")
-    psc_data = trainer.data_utils.load_psc_data()
-    
-    if not psc_data:
-        logger.error("Failed to load PSC data from DataPreparationUtils. Cannot proceed with PSC classifier training.")
-        return None, None
-    
-    logger.info("Preparing training data for PSC classifier from PSC definitions...")
+    """Main training function with enhanced error handling and logging."""
     try:
+        # Initialize trainer
+        trainer = PSCClassifierTrainer(model_name="distilbert-base-uncased")
+        
+        # Load PSC data
+        logger.info("Loading PSC data...")
+        if trainer.data_utils is None:
+            logger.error("DataPreparationUtils not available. Cannot load PSC data.")
+            return None, None
+        
+        psc_data = trainer.data_utils.load_psc_data()
+        
+        if not psc_data:
+            logger.error("Failed to load PSC data.")
+            return None, None
+        
+        logger.info(f"Loaded {len(psc_data.get('psc_mapping', {}))} PSC codes across {len(set([v.get('spendCategoryParent', '') for v in psc_data.get('psc_mapping', {}).values()]))} categories")
+        
+        # Prepare data
+        logger.info("Preparing training data...")
         df = trainer.prepare_data(psc_data)
         
         if df.empty:
-            logger.error("Prepared DataFrame for PSC classifier training is empty. Check PSC data and augmentation logic.")
+            logger.error("No training data available.")
             return None, None
         
-        if len(df['psc'].unique()) < 2:
-            logger.error(f"Only {len(df['psc'].unique())} unique PSC classes found. Need at least 2 classes for classification training.")
-            return None, None
-
-        if len(df) < 10:
-            logger.warning(f"Very few training samples ({len(df)}) available. Training might not be effective.")
+        # Train model
+        logger.info("Training model...")
+        trained_model = trainer.train_model(df, epochs=3)
+        
+        # Evaluate model
+        trainer.evaluate_model(trained_model, df)
+        
+        # Save model
+        logger.info("Saving model...")
+        trainer.save_model(trained_model)
+        
+        # Test predictions with enhanced examples
+        logger.info("\nTesting predictions...")
+        test_cases = [
+            "Professional office chair with ergonomic design",
+            "Computer hardware and software installation services",
+            "Office supplies and stationery for administrative tasks",
+            "Consulting services for business analysis and strategy development",
+            "Purchase of new server equipment for data center",
+            "GUNS, THROUGH 30MM machine guns and pistol brushes",
+            "Maintenance and repair services for office equipment",
+            "Training and educational services for staff development"
+        ]
+        
+        for test_text in test_cases:
+            result = trainer.predict_psc(test_text)
+            logger.info(f"Text: {test_text}")
+            logger.info(f"Prediction: {result['predicted_psc']} (Confidence: {result['confidence']:.3f})")
+            logger.info("-" * 50)
+        
+        return trained_model, trainer
         
     except Exception as e:
-        logger.error(f"Error preparing data for PSC classifier: {e}")
+        logger.error(f"Training failed: {e}")
         import traceback
         traceback.print_exc()
         return None, None
-    
-    logger.info("Starting PSC classifier training...")
-    try:
-        learner = trainer.train_model(df, epochs=5, lr=1e-3)
-    except Exception as e:
-        logger.error(f"PSC classifier training failed during model training: {e}")
-        import traceback
-        traceback.print_exc()
-        return None, None
-    
-    logger.info("Evaluating PSC classifier model on validation set...")
-    trainer.evaluate_model(learner)
-    
-    logger.info("Saving PSC classifier model and mappings...")
-    trainer.save_model(learner, "models/psc_classifier")
-    
-    logger.info("\nTesting PSC predictions with sample descriptions:")
-    test_cases = [
-        "Professional office chair with ergonomic design",
-        "Computer hardware and software installation",
-        "Office supplies and stationery for administrative tasks",
-        "Consulting services for business analysis and strategy",
-        "Purchase of new server equipment",
-        "IT support and maintenance",
-        "Rental of office space",
-        "Legal advisory services for contracts",
-        "Medical supplies for first aid",
-        "Waste disposal services",
-        "Building maintenance and repair"
-    ]
-    
-    for test_text in test_cases:
-        result = trainer.predict_psc(learner, test_text, psc_data)
-        logger.info(f"Text: {test_text}")
-        logger.info(f"Prediction: {result['predicted_psc']} (Confidence: {result['confidence']:.3f})")
-        logger.info(f"  Description: {result['shortName']}")
-        logger.info(f"  Category: {result['spendCategoryTitle']}")
-        logger.info(f"  Portfolio: {result['portfolioGroup']}")
-        logger.info("-" * 50)
-    
-    return learner, trainer
 
 
 if __name__ == "__main__":
+    # Create models directory
     Path("models").mkdir(exist_ok=True, parents=True)
     
-    try:
-        trained_learner, trainer = train_psc_classifier()
-        if trained_learner and trainer:
-            logger.info("PSC classifier training completed successfully!")
-        else:
-            logger.error("PSC classifier training process did not complete successfully.")
-    except Exception as e:
-        logger.critical(f"PSC training script failed unexpectedly: {e}")
-        import traceback
-        traceback.print_exc()
-
+    # Train classifier
+    logger.info("Starting PSC classifier training...")
+    model, trainer = train_psc_classifier()
+    
+    if model and trainer:
+        logger.info("PSC classifier training completed successfully!")
+        logger.info(f"Model saved with {len(trainer.psc_to_idx)} PSC classes")
+    else:
+        logger.error("PSC classifier training failed.")
