@@ -9,7 +9,9 @@ import json
 from pathlib import Path
 from datetime import datetime
 from core.idp_inference_engine import IDPInferenceEngine, create_inference_engine
-from core.data_preparation_utils import DataPreparationUtils # Ensure this import is correct
+from core.data_preparation_utils import (
+    DataPreparationUtils,
+)  # Ensure this import is correct
 
 
 def main():
@@ -24,7 +26,9 @@ def main():
         print("✅ Inference engine initialized successfully!")
     except Exception as e:
         print(f"❌ Failed to initialize inference engine: {e}")
-        print("💡 Make sure models are trained and saved in the 'models' directory by running:")
+        print(
+            "💡 Make sure models are trained and saved in the 'models' directory by running:"
+        )
         print("   - python core/layoutlmv3_trainer.py")
         print("   - python core/psc_classifier_trainer.py")
         return
@@ -44,22 +48,40 @@ def main():
             f"✅ Loaded {len(psc_data['psc_mapping'])} PSC codes across {len(psc_data['category_mapping'])} categories"
         )
     else:
-        print("⚠️  Failed to load PSC data from remote. Using limited fallback for PSC classification.")
+        print(
+            "⚠️  Failed to load PSC data from remote. Using limited fallback for PSC classification."
+        )
         # The IDPInferenceEngine itself handles a basic internal PSC fallback if psc_data is empty,
         # but loading an explicit fallback here ensures consistency for data_utils.get_psc_by_description
         psc_data = {
             "psc_mapping": {
-                "7510": {"psc": "7510", "shortName": "Office Supplies", "spendCategoryTitle": "General Supplies", "portfolioGroup": "Administrative"},
-                "7520": {"psc": "7520", "shortName": "Computer Equipment", "spendCategoryTitle": "IT Hardware", "portfolioGroup": "Technology"},
-                "7530": {"psc": "7530", "shortName": "Furniture", "spendCategoryTitle": "Office Furniture", "portfolioGroup": "Administrative"},
+                "7510": {
+                    "psc": "7510",
+                    "shortName": "Office Supplies",
+                    "spendCategoryTitle": "General Supplies",
+                    "portfolioGroup": "Administrative",
+                },
+                "7520": {
+                    "psc": "7520",
+                    "shortName": "Computer Equipment",
+                    "spendCategoryTitle": "IT Hardware",
+                    "portfolioGroup": "Technology",
+                },
+                "7530": {
+                    "psc": "7530",
+                    "shortName": "Furniture",
+                    "spendCategoryTitle": "Office Furniture",
+                    "portfolioGroup": "Administrative",
+                },
             },
-            "category_mapping": {}, # Simplified, but ensures structure
+            "category_mapping": {},  # Simplified, but ensures structure
             "portfolio_mapping": {},
-            "all_pscs": [], "all_categories": [], "all_portfolios": []
+            "all_pscs": [],
+            "all_categories": [],
+            "all_portfolios": [],
         }
         # Force data_utils to use this fallback if it didn't load from URL
         data_utils.psc_data = psc_data
-
 
     # Process documents
     print("\n4. Document Processing Options:")
@@ -72,18 +94,18 @@ def main():
     choice = input("\nSelect option (a/b/c/d/e): ").lower().strip()
 
     if choice == "a":
-        process_single_document(engine, psc_data, data_utils) # Pass full psc_data
+        process_single_document(engine, psc_data, data_utils)  # Pass full psc_data
     elif choice == "b":
-        process_multiple_documents(engine, psc_data, data_utils) # Pass full psc_data
+        process_multiple_documents(engine, psc_data, data_utils)  # Pass full psc_data
     elif choice == "c":
         load_training_datasets(data_utils, psc_data)
     elif choice == "d":
-        run_demo(engine, psc_data, data_utils) # Pass full psc_data
+        run_demo(engine, psc_data, data_utils)  # Pass full psc_data
     elif choice == "e":
         show_psc_examples(data_utils, psc_data)
     else:
         print("Invalid choice. Running demo by default...")
-        run_demo(engine, psc_data, data_utils) # Pass full psc_data
+        run_demo(engine, psc_data, data_utils)  # Pass full psc_data
 
 
 def process_single_document(
@@ -93,7 +115,9 @@ def process_single_document(
     print("\n📄 Single Document Processing")
     print("-" * 30)
 
-    image_path = input("Enter path to invoice image (e.g., data/kaggle_invoices/images/batch1-0001.jpg): ").strip()
+    image_path = input(
+        "Enter path to invoice image (e.g., data/kaggle_invoices/images/batch1-0001.jpg): "
+    ).strip()
 
     if not Path(image_path).exists():
         print(f"❌ File not found: {image_path}")
@@ -109,16 +133,26 @@ def process_single_document(
         print("\n📊 Extracted Information:")
         print(f"Invoice Number: {result['document_info'].get('invoice_number', 'N/A')}")
         print(f"Date: {result['document_info'].get('date', 'N/A')}")
-        print(f"Due Date: {result['document_info'].get('due_date', 'N/A')}") # Added
+        print(f"Due Date: {result['document_info'].get('due_date', 'N/A')}")  # Added
         print(f"Vendor: {result['document_info'].get('vendor_name', 'N/A')}")
-        print(f"Vendor Address: {result['document_info'].get('vendor_address', 'N/A')}") # Added
-        print(f"Customer: {result['document_info'].get('customer_name', 'N/A')}") # Added
-        print(f"Customer Address: {result['document_info'].get('customer_address', 'N/A')}") # Added
-        print(f"Subtotal: {result['document_info'].get('subtotal', 'N/A')}") # Added
-        print(f"Tax Amount: {result['document_info'].get('tax_amount', 'N/A')}") # Added
-        print(f"Discount Amount: {result['document_info'].get('discount_amount', 'N/A')}") # Added
+        print(
+            f"Vendor Address: {result['document_info'].get('vendor_address', 'N/A')}"
+        )  # Added
+        print(
+            f"Customer: {result['document_info'].get('customer_name', 'N/A')}"
+        )  # Added
+        print(
+            f"Customer Address: {result['document_info'].get('customer_address', 'N/A')}"
+        )  # Added
+        print(f"Subtotal: {result['document_info'].get('subtotal', 'N/A')}")  # Added
+        print(
+            f"Tax Amount: {result['document_info'].get('tax_amount', 'N/A')}"
+        )  # Added
+        print(
+            f"Discount Amount: {result['document_info'].get('discount_amount', 'N/A')}"
+        )  # Added
         print(f"Total Amount: {result['document_info'].get('total_amount', 'N/A')}")
-        print(f"Currency: {result['document_info'].get('currency', 'N/A')}") # Added
+        print(f"Currency: {result['document_info'].get('currency', 'N/A')}")  # Added
         print(f"Line Items: {len(result['line_items'])}")
 
         # Show line items with PSC classification (already done by engine)
@@ -127,15 +161,16 @@ def process_single_document(
             print(f"  Description: {item.get('item_description', 'N/A')}")
             print(f"  Quantity: {item.get('quantity', 'N/A')}")
             print(f"  Unit Price: {item.get('unit_price', 'N/A')}")
-            print(f"  Line Total: {item.get('line_total', 'N/A')}") # Added
+            print(f"  Line Total: {item.get('line_total', 'N/A')}")  # Added
 
             # Display PSC classification result from the engine's output
             psc_class = item.get("psc_classification", {})
-            print(f"  PSC: {psc_class.get('psc', 'N/A')} - {psc_class.get('shortName', 'N/A')}")
+            print(
+                f"  PSC: {psc_class.get('psc', 'N/A')} - {psc_class.get('shortName', 'N/A')}"
+            )
             print(f"  Category: {psc_class.get('spendCategoryTitle', 'N/A')}")
             print(f"  Portfolio: {psc_class.get('portfolioGroup', 'N/A')}")
             print(f"  Confidence: {psc_class.get('confidence', 0.0):.2%}")
-
 
         # Save results
         output_file = "processed_invoice.json"
@@ -145,6 +180,7 @@ def process_single_document(
     except Exception as e:
         print(f"❌ Processing failed: {e}")
         import traceback
+
         traceback.print_exc()
 
 
@@ -155,7 +191,9 @@ def process_multiple_documents(
     print("\n📄 Batch Document Processing")
     print("-" * 30)
 
-    folder_path = input("Enter path to folder containing invoice images (e.g., data/kaggle_invoices/images/): ").strip()
+    folder_path = input(
+        "Enter path to folder containing invoice images (e.g., data/kaggle_invoices/images/): "
+    ).strip()
     folder = Path(folder_path)
 
     if not folder.exists():
@@ -183,11 +221,14 @@ def process_multiple_documents(
 
         # Save batch results using data_utils
         data_utils.save_processed_data(results, "batch_results.json")
-        print("💾 All batch results aggregated and saved as 'batch_results.json' in the 'output' directory.")
+        print(
+            "💾 All batch results aggregated and saved as 'batch_results.json' in the 'output' directory."
+        )
 
     except Exception as e:
         print(f"❌ Batch processing failed: {e}")
         import traceback
+
         traceback.print_exc()
 
 
@@ -200,9 +241,9 @@ def load_training_datasets(data_utils: DataPreparationUtils, psc_data: dict):
     print("   1) CORD Dataset (via Hugging Face)")
     print("   2) FUNSD Dataset (local)")
     print("   3) SROIE Dataset (local)")
-    print("   4) Kaggle Invoices Dataset (local)") # Added
-    print("   5) Synthetic Invoices Dataset (local)") # Added
-    print("   6) Load all available datasets (combines all above)") # Updated numbering
+    print("   4) Kaggle Invoices Dataset (local)")  # Added
+    print("   5) Synthetic Invoices Dataset (local)")  # Added
+    print("   6) Load all available datasets (combines all above)")  # Updated numbering
 
     choice = input("\nSelect dataset(s) to load (1/2/3/4/5/6): ").strip()
 
@@ -233,10 +274,10 @@ def load_training_datasets(data_utils: DataPreparationUtils, psc_data: dict):
             except Exception as e:
                 print(f"❌ Failed to load FUNSD dataset: {e}")
                 import traceback
+
                 traceback.print_exc()
         else:
             print("Skipping FUNSD dataset as path not provided or not found.")
-
 
     if choice in ["3", "6"]:
         sroie_path = input(
@@ -251,41 +292,58 @@ def load_training_datasets(data_utils: DataPreparationUtils, psc_data: dict):
             except Exception as e:
                 print(f"❌ Failed to load SROIE dataset: {e}")
                 import traceback
+
                 traceback.print_exc()
         else:
             print("Skipping SROIE dataset as path not provided or not found.")
 
     # Added Kaggle Invoices Dataset loading
     if choice in ["4", "6"]:
-        kaggle_invoices_path = "data/kaggle_invoices" # Assuming default location
+        kaggle_invoices_path = "data/kaggle_invoices"  # Assuming default location
         if Path(kaggle_invoices_path).exists():
-            print(f"\n📊 Loading Kaggle Invoices dataset from {kaggle_invoices_path}...")
+            print(
+                f"\n📊 Loading Kaggle Invoices dataset from {kaggle_invoices_path}..."
+            )
             try:
-                kaggle_samples = data_utils.load_kaggle_invoice_dataset(kaggle_invoices_path)
+                kaggle_samples = data_utils.load_kaggle_invoice_dataset(
+                    kaggle_invoices_path
+                )
                 all_samples.extend(kaggle_samples)
                 print(f"✅ Loaded {len(kaggle_samples)} samples from Kaggle Invoices.")
             except Exception as e:
                 print(f"❌ Failed to load Kaggle Invoices dataset: {e}")
                 import traceback
+
                 traceback.print_exc()
         else:
-            print(f"Skipping Kaggle Invoices dataset: directory {kaggle_invoices_path} not found.")
+            print(
+                f"Skipping Kaggle Invoices dataset: directory {kaggle_invoices_path} not found."
+            )
 
     # Added Synthetic Invoices Dataset loading
     if choice in ["5", "6"]:
-        synthetic_invoices_path = "data/synthetic_invoices" # Assuming default location
+        synthetic_invoices_path = "data/synthetic_invoices"  # Assuming default location
         if Path(synthetic_invoices_path).exists():
-            print(f"\n📊 Loading Synthetic Invoices dataset from {synthetic_invoices_path}...")
+            print(
+                f"\n📊 Loading Synthetic Invoices dataset from {synthetic_invoices_path}..."
+            )
             try:
-                synthetic_samples = data_utils.load_synthetic_invoice_dataset(synthetic_invoices_path)
+                synthetic_samples = data_utils.load_synthetic_invoice_dataset(
+                    synthetic_invoices_path
+                )
                 all_samples.extend(synthetic_samples)
-                print(f"✅ Loaded {len(synthetic_samples)} samples from Synthetic Invoices.")
+                print(
+                    f"✅ Loaded {len(synthetic_samples)} samples from Synthetic Invoices."
+                )
             except Exception as e:
                 print(f"❌ Failed to load Synthetic Invoices dataset: {e}")
                 import traceback
+
                 traceback.print_exc()
         else:
-            print(f"Skipping Synthetic Invoices dataset: directory {synthetic_invoices_path} not found.")
+            print(
+                f"Skipping Synthetic Invoices dataset: directory {synthetic_invoices_path} not found."
+            )
 
     if all_samples:
         print(f"\n📊 Total samples loaded: {len(all_samples)}")
@@ -315,8 +373,9 @@ def load_training_datasets(data_utils: DataPreparationUtils, psc_data: dict):
 
         print("\n💡 You can now train the LayoutLMv2 model using:")
         print("   python core/layoutlmv3_trainer.py")
-        print("   (Ensure 'data/unified_train_samples.json' and 'data/unified_val_samples.json' are used by the trainer)")
-
+        print(
+            "   (Ensure 'data/unified_train_samples.json' and 'data/unified_val_samples.json' are used by the trainer)"
+        )
 
     else:
         print("❌ No datasets were loaded.")
@@ -327,7 +386,7 @@ def show_psc_examples(data_utils: DataPreparationUtils, psc_data: dict):
     print("\n🔍 PSC Classification Examples (using keyword matching for demo)")
     print("-" * 35)
 
-    if not psc_data or not psc_data.get('psc_mapping'):
+    if not psc_data or not psc_data.get("psc_mapping"):
         print("❌ No PSC data available. Cannot show examples.")
         return
 
@@ -391,7 +450,7 @@ def run_demo(
         "Conference Table Oak",
         "Cloud computing services",
         "IT consulting services",
-        "Facility maintenance"
+        "Facility maintenance",
     ]
 
     for item_desc in test_items:
@@ -399,7 +458,9 @@ def run_demo(
         psc_result = engine.classify_psc(item_desc, psc_data)
 
         print(f"  '{item_desc}'")
-        print(f"    → PSC: {psc_result.get('psc', 'N/A')} - {psc_result.get('shortName', 'N/A')}")
+        print(
+            f"    → PSC: {psc_result.get('psc', 'N/A')} - {psc_result.get('shortName', 'N/A')}"
+        )
         print(f"    → Category: {psc_result.get('spendCategoryTitle', 'N/A')}")
         print(f"    → Portfolio: {psc_result.get('portfolioGroup', 'N/A')}")
         print(f"    → Confidence: {psc_result.get('confidence', 0.0):.2%}")
@@ -422,7 +483,9 @@ def run_demo(
                 "unit_price": "299.99",
                 "line_total": "599.98",
                 # Directly call engine.classify_psc for consistency
-                "psc_classification": engine.classify_psc("Office Chair Professional", psc_data),
+                "psc_classification": engine.classify_psc(
+                    "Office Chair Professional", psc_data
+                ),
             },
             {
                 "item_description": "Laptop Computer Dell",
@@ -430,7 +493,9 @@ def run_demo(
                 "unit_price": "1299.99",
                 "line_total": "1299.99",
                 # Directly call engine.classify_psc for consistency
-                "psc_classification": engine.classify_psc("Laptop Computer Dell", psc_data),
+                "psc_classification": engine.classify_psc(
+                    "Laptop Computer Dell", psc_data
+                ),
             },
         ],
         "processing_metadata": {
@@ -441,7 +506,9 @@ def run_demo(
     }
 
     print("📋 Final Simulated JSON Output Structure:")
-    print(json.dumps(demo_result, indent=2, ensure_ascii=False)) # ensure_ascii for non-ASCII chars
+    print(
+        json.dumps(demo_result, indent=2, ensure_ascii=False)
+    )  # ensure_ascii for non-ASCII chars
 
     # Save demo results using data_utils
     data_utils.save_processed_data(demo_result, "demo_output.json")
@@ -490,5 +557,5 @@ if __name__ == "__main__":
         print(f"\n❌ Unexpected error in main execution: {e}")
         print("Please check your installation and model files.")
         import traceback
-        traceback.print_exc()
 
+        traceback.print_exc()

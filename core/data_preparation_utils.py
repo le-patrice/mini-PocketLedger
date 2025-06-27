@@ -10,9 +10,10 @@ import logging
 from sklearn.model_selection import train_test_split
 
 # Configure logging
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(
+    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
+)
 logger = logging.getLogger(__name__)
-
 
 
 class DataPreparationUtils:
@@ -39,7 +40,7 @@ class DataPreparationUtils:
             portfolio_mapping = {}
 
             for item in raw_data:
-                psc_code = item.get("PSC", "") # Corrected key to "PSC"
+                psc_code = item.get("PSC", "")  # Corrected key to "PSC"
                 short_name = item.get("shortName", "")
                 spend_category = item.get("spendCategoryTitle", "")
                 portfolio_group = item.get("portfolioGroup", "")
@@ -80,24 +81,32 @@ class DataPreparationUtils:
             print(f"Error loading PSC data: {e}")
             return {}
 
-    def _load_json_annotations_with_images(self, dataset_path: str, dataset_name: str) -> List[Dict]:
+    def _load_json_annotations_with_images(
+        self, dataset_path: str, dataset_name: str
+    ) -> List[Dict]:
         """Helper to load JSON annotations and find corresponding images."""
         dataset_dir = Path(dataset_path)
         if not dataset_dir.exists():
-            print(f"Dataset directory {dataset_path} for {dataset_name} does not exist.")
+            print(
+                f"Dataset directory {dataset_path} for {dataset_name} does not exist."
+            )
             return []
 
         images_dir = dataset_dir / "images"
         annotations_dir = dataset_dir / "annotations"
 
         if not images_dir.exists() or not annotations_dir.exists():
-            print(f"Required subdirectories 'images' and 'annotations' not found in {dataset_path} for {dataset_name}.")
+            print(
+                f"Required subdirectories 'images' and 'annotations' not found in {dataset_path} for {dataset_name}."
+            )
             return []
 
         processed_samples = []
         annotation_files = list(annotations_dir.glob("*.json"))
-        
-        logger.info(f"Found {len(annotation_files)} annotation files for {dataset_name}.")
+
+        logger.info(
+            f"Found {len(annotation_files)} annotation files for {dataset_name}."
+        )
 
         for ann_file in annotation_files:
             try:
@@ -105,16 +114,18 @@ class DataPreparationUtils:
                     annotation_data = json.load(f)
 
                 # Find corresponding image file (assuming same stem, different extensions)
-                image_extensions = ['.jpg', '.jpeg', '.png', '.tiff', '.bmp']
+                image_extensions = [".jpg", ".jpeg", ".png", ".tiff", ".bmp"]
                 image_path = None
                 for ext in image_extensions:
                     potential_img_path = images_dir / (ann_file.stem + ext)
                     if potential_img_path.exists():
                         image_path = potential_img_path
                         break
-                
+
                 if not image_path:
-                    logger.warning(f"No corresponding image found for annotation {ann_file.name} in {dataset_name}. Skipping.")
+                    logger.warning(
+                        f"No corresponding image found for annotation {ann_file.name} in {dataset_name}. Skipping."
+                    )
                     continue
 
                 # Extract words, boxes, and ner_tags. Your Kaggle format has these directly.
@@ -123,12 +134,16 @@ class DataPreparationUtils:
                 ner_tags = annotation_data.get("ner_tags")
 
                 if not words or not boxes or not ner_tags:
-                    logger.warning(f"Skipping {ann_file.name} in {dataset_name}: missing 'words', 'boxes', or 'ner_tags'.")
+                    logger.warning(
+                        f"Skipping {ann_file.name} in {dataset_name}: missing 'words', 'boxes', or 'ner_tags'."
+                    )
                     continue
-                
+
                 # Basic consistency check
                 if not (len(words) == len(boxes) == len(ner_tags)):
-                    logger.warning(f"Skipping {ann_file.name} in {dataset_name}: inconsistent lengths of words, boxes, or ner_tags.")
+                    logger.warning(
+                        f"Skipping {ann_file.name} in {dataset_name}: inconsistent lengths of words, boxes, or ner_tags."
+                    )
                     continue
 
                 processed_sample = {
@@ -136,15 +151,19 @@ class DataPreparationUtils:
                     "words": words,
                     "boxes": boxes,
                     "ner_tags": ner_tags,
-                    "relations": annotation_data.get("relations", []), # Include relations if present
-                    "dataset_source": dataset_name, # Track original dataset
-                    "annotation_data": annotation_data  # Keep original data for reference if needed
+                    "relations": annotation_data.get(
+                        "relations", []
+                    ),  # Include relations if present
+                    "dataset_source": dataset_name,  # Track original dataset
+                    "annotation_data": annotation_data,  # Keep original data for reference if needed
                 }
 
                 processed_samples.append(processed_sample)
 
             except Exception as e:
-                logger.error(f"Error processing annotation file {ann_file.name} in {dataset_name}: {e}")
+                logger.error(
+                    f"Error processing annotation file {ann_file.name} in {dataset_name}: {e}"
+                )
                 continue
 
         logger.info(f"Loaded {len(processed_samples)} samples from {dataset_name}.")
@@ -156,7 +175,9 @@ class DataPreparationUtils:
 
     def load_synthetic_invoice_dataset(self, dataset_path: str) -> List[Dict]:
         """Load synthetic invoice dataset (images and JSON annotations), assuming same format as Kaggle."""
-        return self._load_json_annotations_with_images(dataset_path, "SYNTHETIC_INVOICE")
+        return self._load_json_annotations_with_images(
+            dataset_path, "SYNTHETIC_INVOICE"
+        )
 
     def load_cord_dataset(self, split: str = "train") -> List[Dict]:
         """Load CORD dataset via Hugging Face datasets library."""
@@ -165,7 +186,7 @@ class DataPreparationUtils:
             processed_samples = []
 
             for sample in dataset:
-                image = sample["image"] # PIL Image object
+                image = sample["image"]  # PIL Image object
                 ground_truth = sample["ground_truth"]
 
                 words = []
@@ -187,18 +208,20 @@ class DataPreparationUtils:
                             ]
                             boxes.append(bbox)
                         else:
-                            boxes.append([0, 0, 0, 0]) # Default if box is missing
+                            boxes.append([0, 0, 0, 0])  # Default if box is missing
 
                         ner_tags.append(word_info.get("label", "O"))
-                
+
                 # Check for empty samples after parsing (e.g., if no valid words)
                 if not words:
-                    logger.warning(f"Skipping CORD sample with no words in split {split}.")
+                    logger.warning(
+                        f"Skipping CORD sample with no words in split {split}."
+                    )
                     continue
 
                 processed_samples.append(
                     {
-                        "image": image, # Keep PIL image object for CORD
+                        "image": image,  # Keep PIL image object for CORD
                         "words": words,
                         "boxes": boxes,
                         "ner_tags": ner_tags,
@@ -207,7 +230,9 @@ class DataPreparationUtils:
                     }
                 )
 
-            logger.info(f"Loaded {len(processed_samples)} samples from CORD {split} split.")
+            logger.info(
+                f"Loaded {len(processed_samples)} samples from CORD {split} split."
+            )
             return processed_samples
 
         except Exception as e:
@@ -218,7 +243,9 @@ class DataPreparationUtils:
         """Load FUNSD dataset from local directory."""
         try:
             funsd_dir = Path(funsd_path)
-            annotation_files = list(funsd_dir.glob("**/annotations/*.json")) # Ensure correct glob pattern
+            annotation_files = list(
+                funsd_dir.glob("**/annotations/*.json")
+            )  # Ensure correct glob pattern
             processed_samples = []
 
             for ann_file in annotation_files:
@@ -227,10 +254,14 @@ class DataPreparationUtils:
 
                 # Find corresponding image
                 img_name = ann_file.stem + ".png"
-                img_path = ann_file.parent.parent / "images" / ann_file.parent.name / img_name # Adjust path to images
+                img_path = (
+                    ann_file.parent.parent / "images" / ann_file.parent.name / img_name
+                )  # Adjust path to images
 
                 if not img_path.exists():
-                    logger.warning(f"Image {img_path} not found for FUNSD annotation {ann_file.name}. Skipping.")
+                    logger.warning(
+                        f"Image {img_path} not found for FUNSD annotation {ann_file.name}. Skipping."
+                    )
                     continue
 
                 words = []
@@ -242,25 +273,30 @@ class DataPreparationUtils:
                 for form_entry in annotation_data.get("form", []):
                     entity_label = form_entry.get("label", "O")
                     entity_words = form_entry.get("words", [])
-                    
+
                     for i, word_info in enumerate(entity_words):
                         words.append(word_info.get("text", ""))
-                        boxes.append(word_info.get("box", [0,0,0,0]))
-                        
+                        boxes.append(word_info.get("box", [0, 0, 0, 0]))
+
                         # Apply B-I-O tagging based on the entity_label
                         if i == 0:
-                            ner_tags.append(f"B-{entity_label}" if entity_label != "O" else "O")
+                            ner_tags.append(
+                                f"B-{entity_label}" if entity_label != "O" else "O"
+                            )
                         else:
-                            ner_tags.append(f"I-{entity_label}" if entity_label != "O" else "O")
+                            ner_tags.append(
+                                f"I-{entity_label}" if entity_label != "O" else "O"
+                            )
 
                     # Extract linking information
                     for link in form_entry.get("linking", []):
                         relations.append(link)
-                
-                if not words:
-                    logger.warning(f"Skipping FUNSD annotation {ann_file.name}: no words extracted.")
-                    continue
 
+                if not words:
+                    logger.warning(
+                        f"Skipping FUNSD annotation {ann_file.name}: no words extracted."
+                    )
+                    continue
 
                 processed_samples.append(
                     {
@@ -288,7 +324,9 @@ class DataPreparationUtils:
 
             # SROIE has separate text and entity files
             # Look for .txt files that are NOT _box.txt
-            text_files = [f for f in sroie_dir.glob("**/*.txt") if not f.stem.endswith("_box")]
+            text_files = [
+                f for f in sroie_dir.glob("**/*.txt") if not f.stem.endswith("_box")
+            ]
 
             for txt_file in text_files:
                 # Load text and boxes from the .txt file directly
@@ -300,10 +338,12 @@ class DataPreparationUtils:
                 boxes = []
                 # SROIE's main file doesn't have NER tags; these would be derived from _entities.txt
                 # For basic NER, we default to "O" or you'd need a separate parser for _entities.txt
-                ner_tags = ["O"] * len(lines) # Default labels to "O" for all tokens
-                
+                ner_tags = ["O"] * len(lines)  # Default labels to "O" for all tokens
+
                 for line in lines:
-                    parts = line.strip().split(",", 8) # Split up to 8 times for coords, rest is text
+                    parts = line.strip().split(
+                        ",", 8
+                    )  # Split up to 8 times for coords, rest is text
                     if len(parts) == 9:  # x1,y1,x2,y2,x3,y3,x4,y4,text
                         # Extract bounding box (convert from quad to bbox)
                         try:
@@ -317,28 +357,38 @@ class DataPreparationUtils:
                                 max(y_coords),
                             ]
                         except ValueError:
-                            logger.warning(f"Invalid coordinates in SROIE file {txt_file.name}: {parts[:8]}. Skipping line.")
+                            logger.warning(
+                                f"Invalid coordinates in SROIE file {txt_file.name}: {parts[:8]}. Skipping line."
+                            )
                             continue
 
                         text = parts[8].strip()
                         words.append(text)
                         boxes.append(bbox)
-                    elif len(parts) > 1: # Handle cases where a line might just be text, no box
-                         words.append(parts[-1].strip())
-                         boxes.append([0,0,0,0]) # Placeholder box
+                    elif (
+                        len(parts) > 1
+                    ):  # Handle cases where a line might just be text, no box
+                        words.append(parts[-1].strip())
+                        boxes.append([0, 0, 0, 0])  # Placeholder box
                     else:
-                        logger.warning(f"Skipping malformed line in SROIE file {txt_file.name}: {line.strip()}")
-                
+                        logger.warning(
+                            f"Skipping malformed line in SROIE file {txt_file.name}: {line.strip()}"
+                        )
+
                 # Find corresponding image
-                img_name = txt_file.stem + ".jpg" # SROIE images are typically JPG
+                img_name = txt_file.stem + ".jpg"  # SROIE images are typically JPG
                 img_path = txt_file.parent / img_name
 
                 if not img_path.exists():
-                    logger.warning(f"Image {img_path} not found for SROIE text file {txt_file.name}. Skipping.")
+                    logger.warning(
+                        f"Image {img_path} not found for SROIE text file {txt_file.name}. Skipping."
+                    )
                     continue
 
                 if not words:
-                    logger.warning(f"Skipping SROIE file {txt_file.name}: no words extracted.")
+                    logger.warning(
+                        f"Skipping SROIE file {txt_file.name}: no words extracted."
+                    )
                     continue
 
                 processed_samples.append(
@@ -346,7 +396,7 @@ class DataPreparationUtils:
                         "image_path": str(img_path),
                         "words": words,
                         "boxes": boxes,
-                        "ner_tags": ner_tags, # These are mostly "O" unless _entities.txt is parsed
+                        "ner_tags": ner_tags,  # These are mostly "O" unless _entities.txt is parsed
                         "relations": [],
                         "dataset_source": "SROIE",
                     }
@@ -359,7 +409,6 @@ class DataPreparationUtils:
             logger.error(f"Error loading SROIE dataset: {e}")
             return []
 
-
     def unify_dataset_format(self, samples: List[Dict]) -> List[Dict]:
         """Convert all dataset samples to unified format for LayoutLMv2 training.
         Ensures 'image_path', 'words', 'boxes', 'ner_tags' are present and clean.
@@ -368,37 +417,48 @@ class DataPreparationUtils:
         for sample in samples:
             # Ensure essential fields are present with defaults
             image_path = sample.get("image_path")
-            if not image_path and "image" in sample: # Handle CORD's PIL Image object
+            if not image_path and "image" in sample:  # Handle CORD's PIL Image object
                 # If image is a PIL object, save it temporarily or handle in Dataset
                 # For LayoutLMv2Processor, it expects a path or the PIL object directly in __getitem__
                 # For unification, let's prioritize path for consistency.
                 # This is a simplification; for production, consider saving PIL to temp file.
-                logger.warning(f"PIL Image object encountered from {sample.get('dataset_source')}. LayoutLMDataset needs a path. Skipping for now or enhance handling.")
-                continue # Skip samples with only PIL image for now if no path provided
+                logger.warning(
+                    f"PIL Image object encountered from {sample.get('dataset_source')}. LayoutLMDataset needs a path. Skipping for now or enhance handling."
+                )
+                continue  # Skip samples with only PIL image for now if no path provided
 
             words = sample.get("words", [])
             boxes = sample.get("boxes", [])
             ner_tags = sample.get("ner_tags", [])
 
             # Basic validation after unification
-            if not (words and boxes and ner_tags and len(words) == len(boxes) == len(ner_tags)):
-                logger.warning(f"Skipping malformed sample from {sample.get('dataset_source')}: inconsistent or missing words/boxes/ner_tags.")
+            if not (
+                words
+                and boxes
+                and ner_tags
+                and len(words) == len(boxes) == len(ner_tags)
+            ):
+                logger.warning(
+                    f"Skipping malformed sample from {sample.get('dataset_source')}: inconsistent or missing words/boxes/ner_tags."
+                )
                 continue
-            
+
             # Ensure boxes are integers
             cleaned_boxes = []
             for box in boxes:
                 if len(box) == 4 and all(isinstance(c, (int, float)) for c in box):
                     cleaned_boxes.append([int(coord) for coord in box])
                 else:
-                    logger.warning(f"Invalid box format found: {box}. Using default [0,0,0,0].")
-                    cleaned_boxes.append([0,0,0,0]) # Fallback for malformed boxes
+                    logger.warning(
+                        f"Invalid box format found: {box}. Using default [0,0,0,0]."
+                    )
+                    cleaned_boxes.append([0, 0, 0, 0])  # Fallback for malformed boxes
 
             unified_sample = {
                 "image_path": image_path,
                 "words": words,
                 "boxes": cleaned_boxes,
-                "ner_tags": ner_tags, # These are the token-level string tags
+                "ner_tags": ner_tags,  # These are the token-level string tags
                 "relations": sample.get("relations", []),
                 "dataset_source": sample.get("dataset_source", "unknown"),
             }
@@ -408,11 +468,13 @@ class DataPreparationUtils:
 
     def get_psc_by_description(self, description: str) -> Optional[Dict]:
         """Find best matching PSC based on item description.
-           This is a simple keyword matching for quick demos.
-           For actual inference, the trained PSC model should be used.
+        This is a simple keyword matching for quick demos.
+        For actual inference, the trained PSC model should be used.
         """
         if not self.psc_data or not self.psc_data.get("psc_mapping"):
-            print("PSC data not loaded or mapping not available for description lookup.")
+            print(
+                "PSC data not loaded or mapping not available for description lookup."
+            )
             return None
 
         description_lower = description.lower()
@@ -443,16 +505,17 @@ class DataPreparationUtils:
             score += len(desc_words.intersection(category_words)) * 1
             score += len(desc_words.intersection(long_name_words)) * 0.5
 
-
             if score > max_score:
                 max_score = score
                 best_match = psc_info
-            
+
             # If perfect match found, no need to continue
-            if max_score >= 10: # Perfect match for short name
+            if max_score >= 10:  # Perfect match for short name
                 break
 
-        return best_match if best_match and max_score > 0 else None # Return None if no reasonable match
+        return (
+            best_match if best_match and max_score > 0 else None
+        )  # Return None if no reasonable match
 
     def create_training_split(
         self, samples: List[Dict], train_ratio: float = 0.8
@@ -460,7 +523,9 @@ class DataPreparationUtils:
         """Split dataset into training and validation sets."""
         # Use sklearn's train_test_split for more robust splitting
         if len(samples) < 2:
-            logger.warning("Not enough samples for splitting. Returning all samples as train, empty as validation.")
+            logger.warning(
+                "Not enough samples for splitting. Returning all samples as train, empty as validation."
+            )
             return samples, []
 
         train_samples, val_samples = train_test_split(
@@ -513,12 +578,15 @@ class DataPreparationUtils:
 if __name__ == "__main__":
     data_prep = DataPreparationUtils()
     psc_data = data_prep.load_psc_data()
-    kaggle_invoice_samples = data_prep.load_kaggle_invoice_dataset("data/kaggle_invoices")
-    synthetic_invoice_samples = data_prep.load_synthetic_invoice_dataset("data/synthetic_invoices")
+    kaggle_invoice_samples = data_prep.load_kaggle_invoice_dataset(
+        "data/kaggle_invoices"
+    )
+    synthetic_invoice_samples = data_prep.load_synthetic_invoice_dataset(
+        "data/synthetic_invoices"
+    )
     all_samples = kaggle_invoice_samples + synthetic_invoice_samples
     unified_samples = data_prep.unify_dataset_format(all_samples)
     train_samples, val_samples = data_prep.create_training_split(unified_samples)
     data_prep.save_processed_data(train_samples, "train_samples.json")
     data_prep.save_processed_data(val_samples, "val_samples.json")
     print("Data preparation utilities ready for use.")
-
