@@ -405,6 +405,47 @@ class PSCClassifierTrainer:
             'f1_micro': f1_micro
         }
     
+    def _get_training_args_kwargs(self, train_dataset_len: int, epochs: int) -> dict:
+        """Get training arguments with version compatibility."""
+        # Try to determine which parameter name to use
+        try:
+            # Test if eval_strategy is supported (newer versions)
+            test_args = TrainingArguments(output_dir='./test', eval_strategy="no")
+            eval_param = "eval_strategy"
+        except TypeError:
+            # Fall back to evaluation_strategy (older versions)
+            eval_param = "evaluation_strategy"
+        
+        kwargs = {
+            'output_dir': './results',
+            'num_train_epochs': epochs,
+            'per_device_train_batch_size': 8,  # Reduced for stability
+            'per_device_eval_batch_size': 16,
+            'gradient_accumulation_steps': 2,  # Added for effective larger batch size
+            'warmup_steps': min(500, train_dataset_len // 10),  # Dynamic warmup
+            'weight_decay': 0.01,
+            'learning_rate': 2e-5,  # Optimal learning rate for DistilBERT
+            'adam_epsilon': 1e-8,
+            'max_grad_norm': 1.0,
+            'logging_dir': './logs',
+            'logging_steps': 100,
+            eval_param: "steps",  # Use the correct parameter name
+            'eval_steps': min(500, train_dataset_len // 4),  # Dynamic eval steps
+            'save_strategy': "steps",
+            'save_steps': min(500, train_dataset_len // 4),
+            'load_best_model_at_end': True,
+            'metric_for_best_model': "f1_weighted",  # Changed to weighted F1
+            'greater_is_better': True,
+            'report_to': None,  # Disable wandb
+            'dataloader_num_workers': 0,  # Disable multiprocessing for stability
+            'fp16': torch.cuda.is_available(),  # Use mixed precision if CUDA available
+            'seed': 42,
+            'data_seed': 42,
+            'remove_unused_columns': False
+        }
+        
+        return kwargs
+    
     def train_model(self, df: pd.DataFrame, test_size: float = 0.2, epochs: int = 3) -> Trainer:
         """Train the PSC classifier model with optimized parameters."""
         
@@ -425,34 +466,9 @@ class PSCClassifierTrainer:
         num_labels = df['label'].nunique()
         self.create_model(num_labels)
         
-        # Optimized training arguments - FIXED: eval_strategy instead of evaluation_strategy
-        training_args = TrainingArguments(
-            output_dir='./results',
-            num_train_epochs=epochs,
-            per_device_train_batch_size=8,  # Reduced for stability
-            per_device_eval_batch_size=16,
-            gradient_accumulation_steps=2,  # Added for effective larger batch size
-            warmup_steps=min(500, len(train_dataset) // 10),  # Dynamic warmup
-            weight_decay=0.01,
-            learning_rate=2e-5,  # Optimal learning rate for DistilBERT
-            adam_epsilon=1e-8,
-            max_grad_norm=1.0,
-            logging_dir='./logs',
-            logging_steps=100,
-            eval_strategy="steps",  # FIXED: Changed from evaluation_strategy
-            eval_steps=min(500, len(train_dataset) // 4),  # Dynamic eval steps
-            save_strategy="steps",
-            save_steps=min(500, len(train_dataset) // 4),
-            load_best_model_at_end=True,
-            metric_for_best_model="f1_weighted",  # Changed to weighted F1
-            greater_is_better=True,
-            report_to=None,  # Disable wandb
-            dataloader_num_workers=0,  # Disable multiprocessing for stability
-            fp16=torch.cuda.is_available(),  # Use mixed precision if CUDA available
-            seed=42,
-            data_seed=42,
-            remove_unused_columns=False
-        )
+        # Get training arguments with version compatibility
+        training_args_kwargs = self._get_training_args_kwargs(len(train_dataset), epochs)
+        training_args = TrainingArguments(**training_args_kwargs)
         
         # Create trainer with enhanced configuration
         trainer = Trainer(
