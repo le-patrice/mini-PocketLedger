@@ -54,13 +54,22 @@ class DataPreparationUtils:
         
     def _clean_text(self, text: str) -> str:
         """Clean and normalize text for better processing."""
-        if pd.isna(text) or not isinstance(text, str):
+        if pd.isna(text) or text is None:
             return ""
+        
+        # Convert to string first
+        text = str(text)
         
         # Basic text cleaning
         text = re.sub(r'[^\w\s]', ' ', text.lower())
         text = re.sub(r'\s+', ' ', text.strip())
         return text
+    
+    def _safe_str_convert(self, value) -> str:
+        """Safely convert any value to string."""
+        if pd.isna(value) or value is None:
+            return ""
+        return str(value).strip()
     
     def load_unspsc_data(self, filepath_or_url: str) -> Dict[str, pd.DataFrame]:
         """
@@ -70,12 +79,15 @@ class DataPreparationUtils:
             # Try to load from URL first, then local file
             if filepath_or_url.startswith('http'):
                 logger.info(f"Loading UNSPSC data from URL: {filepath_or_url}")
-                response = requests.get(filepath_or_url)
+                response = requests.get(filepath_or_url, timeout=30)
                 response.raise_for_status()
                 df = pd.read_csv(StringIO(response.text))
             else:
                 logger.info(f"Loading UNSPSC data from local file: {filepath_or_url}")
                 df = pd.read_csv(filepath_or_url)
+            
+            logger.info(f"Original dataset shape: {df.shape}")
+            logger.info(f"Original columns: {df.columns.tolist()}")
             
             # Automatic column mapping for different CSV formats
             column_mappings = self._detect_column_mappings(df)
@@ -104,40 +116,63 @@ class DataPreparationUtils:
         mappings = {}
         
         # Common column name variations
-        segment_variations = ['segment', 'segment_code', 'segment code', 'seg', 'segment_name', 'segment name']
-        family_variations = ['family', 'family_code', 'family code', 'fam', 'family_name', 'family name']
-        class_variations = ['class', 'class_code', 'class code', 'cls', 'class_name', 'class name']
-        commodity_variations = ['commodity', 'commodity_code', 'commodity code', 'comm', 'commodity_name', 'commodity name']
-        title_variations = ['title', 'description', 'name', 'text', 'commodity_title', 'commodity title']
+        segment_variations = ['segment', 'segment_code', 'segment code', 'seg', 'segment_name', 'segment name', 'segment_title', 'segment title']
+        family_variations = ['family', 'family_code', 'family code', 'fam', 'family_name', 'family name', 'family_title', 'family title']
+        class_variations = ['class', 'class_code', 'class code', 'cls', 'class_name', 'class name', 'class_title', 'class title']
+        commodity_variations = ['commodity', 'commodity_code', 'commodity code', 'comm', 'commodity_name', 'commodity name', 'commodity_title', 'commodity title']
         
         # Find matching columns (case-insensitive)
         for col in columns:
             col_lower = col.lower().strip()
             
+            # Check for segment columns
             if any(var in col_lower for var in segment_variations):
-                if 'code' in col_lower:
+                if 'code' in col_lower and 'name' not in col_lower and 'title' not in col_lower:
                     mappings[col] = 'segment_code'
-                else:
+                elif 'name' in col_lower or 'title' in col_lower:
                     mappings[col] = 'segment_name'
+                elif col_lower == 'segment':
+                    # Could be either code or name, check data type
+                    if df[col].dtype in ['int64', 'int32'] or (df[col].dtype == 'object' and df[col].str.isdigit().any()):
+                        mappings[col] = 'segment_code'
+                    else:
+                        mappings[col] = 'segment_name'
+            
+            # Check for family columns
             elif any(var in col_lower for var in family_variations):
-                if 'code' in col_lower:
+                if 'code' in col_lower and 'name' not in col_lower and 'title' not in col_lower:
                     mappings[col] = 'family_code'
-                else:
+                elif 'name' in col_lower or 'title' in col_lower:
                     mappings[col] = 'family_name'
+                elif col_lower == 'family':
+                    if df[col].dtype in ['int64', 'int32'] or (df[col].dtype == 'object' and df[col].str.isdigit().any()):
+                        mappings[col] = 'family_code'
+                    else:
+                        mappings[col] = 'family_name'
+            
+            # Check for class columns
             elif any(var in col_lower for var in class_variations):
-                if 'code' in col_lower:
+                if 'code' in col_lower and 'name' not in col_lower and 'title' not in col_lower:
                     mappings[col] = 'class_code'
-                else:
+                elif 'name' in col_lower or 'title' in col_lower:
                     mappings[col] = 'class_name'
+                elif col_lower == 'class':
+                    if df[col].dtype in ['int64', 'int32'] or (df[col].dtype == 'object' and df[col].str.isdigit().any()):
+                        mappings[col] = 'class_code'
+                    else:
+                        mappings[col] = 'class_name'
+            
+            # Check for commodity columns
             elif any(var in col_lower for var in commodity_variations):
-                if 'code' in col_lower:
+                if 'code' in col_lower and 'name' not in col_lower and 'title' not in col_lower:
                     mappings[col] = 'commodity_code'
-                elif any(var in col_lower for var in title_variations):
+                elif 'name' in col_lower or 'title' in col_lower:
                     mappings[col] = 'commodity_title'
-                else:
-                    mappings[col] = 'commodity_name'
-            elif any(var in col_lower for var in title_variations):
-                mappings[col] = 'commodity_title'
+                elif col_lower == 'commodity':
+                    if df[col].dtype in ['int64', 'int32'] or (df[col].dtype == 'object' and df[col].str.isdigit().any()):
+                        mappings[col] = 'commodity_code'
+                    else:
+                        mappings[col] = 'commodity_title'
         
         logger.info(f"Detected column mappings: {mappings}")
         return mappings
@@ -148,26 +183,45 @@ class DataPreparationUtils:
         """
         processed_df = df.copy()
         
+        # Convert all columns to string safely
+        for col in processed_df.columns:
+            processed_df[col] = processed_df[col].apply(self._safe_str_convert)
+        
         # Create searchable text from available columns
         text_columns = []
-        if 'commodity_title' in processed_df.columns:
-            text_columns.append('commodity_title')
-        if 'commodity_name' in processed_df.columns:
-            text_columns.append('commodity_name')
-        if 'class_name' in processed_df.columns:
-            text_columns.append('class_name')
-        if 'family_name' in processed_df.columns:
-            text_columns.append('family_name')
+        priority_columns = ['commodity_title', 'commodity_name', 'class_name', 'family_name', 'segment_name']
         
+        # Add columns in priority order if they exist
+        for priority_col in priority_columns:
+            if priority_col in processed_df.columns:
+                text_columns.append(priority_col)
+        
+        # If no priority columns found, use any text-like columns
         if not text_columns:
-            # Fallback: use first text column
-            text_cols = processed_df.select_dtypes(include=['object']).columns
-            if len(text_cols) > 0:
-                text_columns = [text_cols[0]]
+            for col in processed_df.columns:
+                # Check if column has meaningful text content
+                sample_values = processed_df[col].dropna().head(10)
+                if len(sample_values) > 0:
+                    # Check if values are meaningful text (not just numbers)
+                    has_text = any(len(str(val)) > 3 and not str(val).isdigit() for val in sample_values)
+                    if has_text:
+                        text_columns.append(col)
+                        if len(text_columns) >= 3:  # Limit to avoid too many columns
+                            break
         
         # Create searchable text
         if text_columns:
-            processed_df['searchable_text'] = processed_df[text_columns].fillna('').agg(' '.join, axis=1)
+            logger.info(f"Using columns for searchable text: {text_columns}")
+            # Join non-empty values only
+            def create_searchable_text(row):
+                values = []
+                for col in text_columns:
+                    val = str(row[col]).strip()
+                    if val and val != 'nan' and val != '0' and len(val) > 1:
+                        values.append(val)
+                return ' '.join(values)
+            
+            processed_df['searchable_text'] = processed_df.apply(create_searchable_text, axis=1)
             processed_df['searchable_text'] = processed_df['searchable_text'].apply(self._clean_text)
         else:
             logger.error("No suitable text columns found for creating searchable text")
@@ -175,19 +229,33 @@ class DataPreparationUtils:
         
         # Ensure we have class_name for classification target
         if 'class_name' not in processed_df.columns:
-            if 'commodity_name' in processed_df.columns:
-                processed_df['class_name'] = processed_df['commodity_name']
-            elif 'commodity_title' in processed_df.columns:
-                processed_df['class_name'] = processed_df['commodity_title']
+            # Try to find the best column for classification
+            target_candidates = ['commodity_title', 'commodity_name', 'family_name', 'segment_name']
+            for candidate in target_candidates:
+                if candidate in processed_df.columns:
+                    processed_df['class_name'] = processed_df[candidate]
+                    logger.info(f"Using {candidate} as class_name for classification")
+                    break
             else:
-                logger.warning("No suitable target column found, using first available text column")
-                text_cols = processed_df.select_dtypes(include=['object']).columns
-                if len(text_cols) > 0:
-                    processed_df['class_name'] = processed_df[text_cols[0]]
+                # Use the first non-code column with meaningful content
+                for col in processed_df.columns:
+                    if 'code' not in col.lower():
+                        sample_values = processed_df[col].dropna().head(5)
+                        if len(sample_values) > 0:
+                            has_meaningful_text = any(len(str(val)) > 3 and not str(val).isdigit() for val in sample_values)
+                            if has_meaningful_text:
+                                processed_df['class_name'] = processed_df[col]
+                                logger.info(f"Using {col} as class_name for classification")
+                                break
         
         # Remove empty records
-        processed_df = processed_df[processed_df['searchable_text'].str.len() > 0]
+        processed_df = processed_df[processed_df['searchable_text'].str.len() > 3]
         processed_df = processed_df[processed_df['class_name'].notna()]
+        processed_df = processed_df[processed_df['class_name'].str.len() > 0]
+        
+        logger.info(f"Processed dataset shape: {processed_df.shape}")
+        logger.info(f"Sample searchable text: {processed_df['searchable_text'].head(3).tolist()}")
+        logger.info(f"Sample class names: {processed_df['class_name'].head(3).tolist()}")
         
         return processed_df.reset_index(drop=True)
     
@@ -199,6 +267,10 @@ class DataPreparationUtils:
         # Filter valid records
         valid_df = df[(df[text_column].notna()) & (df[label_column].notna())].copy()
         valid_df = valid_df[valid_df[text_column].str.len() > 5]
+        valid_df = valid_df[valid_df[label_column].str.len() > 0]
+        
+        # Remove duplicates
+        valid_df = valid_df.drop_duplicates(subset=[text_column, label_column])
         
         # Create label mappings
         unique_labels = sorted(valid_df[label_column].unique())
@@ -209,6 +281,8 @@ class DataPreparationUtils:
         valid_df['label'] = valid_df[label_column].map(self.unspsc_label_to_idx)
         
         logger.info(f"Prepared {len(valid_df)} training samples with {len(unique_labels)} unique classes")
+        logger.info(f"Class distribution (top 10): {valid_df['label'].value_counts().head(10).to_dict()}")
+        
         return valid_df
 
 
@@ -316,19 +390,19 @@ class ItemCategorizerTrainer:
         df = df.drop_duplicates(subset=["searchable_text", "label"])
         df = df[df["searchable_text"].str.len() >= 5]
         
-        # Filter low-frequency classes
+        # Filter low-frequency classes to ensure model stability
         class_counts = df["label"].value_counts()
-        min_samples = 3
+        min_samples = max(2, min(5, len(df) // (len(self.label_to_idx) * 10)))  # Dynamic minimum
         valid_labels = class_counts[class_counts >= min_samples].index
         df = df[df["label"].isin(valid_labels)]
         
-        # Re-encode labels if needed
+        # Re-encode labels if some were filtered out
         if df['label'].nunique() < len(self.label_to_idx):
             remaining_classes = df['class_name'].unique()
             self.label_to_idx = {cls: idx for idx, cls in enumerate(sorted(remaining_classes))}
             self.idx_to_label = {idx: cls for cls, idx in self.label_to_idx.items()}
             df['label'] = df['class_name'].map(self.label_to_idx)
-            logger.info(f"Re-encoded labels: {len(self.label_to_idx)} classes")
+            logger.info(f"Re-encoded labels: {len(self.label_to_idx)} classes after filtering")
         
         return df.reset_index(drop=True)
 
@@ -381,14 +455,34 @@ class ItemCategorizerTrainer:
             logger.error("Invalid training data")
             return None
 
+        # Ensure we have enough data for train/test split
+        if len(df) < 10:
+            logger.error(f"Insufficient training data: {len(df)} samples")
+            return None
+
+        # Adjust test_size for small datasets
+        if len(df) < 50:
+            test_size = 0.1
+
         # Split data
-        train_texts, val_texts, train_labels, val_labels = train_test_split(
-            df["searchable_text"].tolist(),
-            df["label"].tolist(),
-            test_size=test_size,
-            random_state=42,
-            stratify=df["label"],
-        )
+        try:
+            train_texts, val_texts, train_labels, val_labels = train_test_split(
+                df["searchable_text"].tolist(),
+                df["label"].tolist(),
+                test_size=test_size,
+                random_state=42,
+                stratify=df["label"] if df["label"].nunique() > 1 else None,
+            )
+        except ValueError as e:
+            logger.warning(f"Stratified split failed: {e}. Using random split.")
+            train_texts, val_texts, train_labels, val_labels = train_test_split(
+                df["searchable_text"].tolist(),
+                df["label"].tolist(),
+                test_size=test_size,
+                random_state=42,
+            )
+
+        logger.info(f"Training split: {len(train_texts)} train, {len(val_texts)} validation")
 
         # Create datasets
         train_dataset = ItemCategoryDataset(train_texts, train_labels, self.tokenizer, self.max_length)
@@ -397,20 +491,24 @@ class ItemCategorizerTrainer:
         # Create model
         self.create_model(len(self.label_to_idx))
 
+        # Adjust batch size based on available data
+        train_batch_size = min(8, max(1, len(train_texts) // 10))
+        eval_batch_size = min(16, max(1, len(val_texts) // 5))
+
         # Training arguments
         training_args = TrainingArguments(
             output_dir="./results",
             num_train_epochs=epochs,
-            per_device_train_batch_size=8,
-            per_device_eval_batch_size=16,
-            warmup_steps=100,
+            per_device_train_batch_size=train_batch_size,
+            per_device_eval_batch_size=eval_batch_size,
+            warmup_steps=min(100, len(train_texts) // 10),
             weight_decay=0.01,
             learning_rate=2e-5,
-            logging_steps=50,
+            logging_steps=max(10, len(train_texts) // (train_batch_size * 5)),
             eval_strategy="steps",
-            eval_steps=200,
+            eval_steps=max(50, len(train_texts) // (train_batch_size * 2)),
             save_strategy="steps",
-            save_steps=200,
+            save_steps=max(50, len(train_texts) // (train_batch_size * 2)),
             save_total_limit=2,
             load_best_model_at_end=True,
             metric_for_best_model="f1_weighted",
@@ -443,6 +541,9 @@ class ItemCategorizerTrainer:
 
         try:
             clean_text = self.data_utils._clean_text(text)
+            if not clean_text:
+                return {"error": "Empty or invalid input text", "predicted_category": "UNKNOWN", "confidence": 0.0}
+                
             inputs = self.tokenizer(
                 clean_text,
                 truncation=True,
@@ -452,6 +553,7 @@ class ItemCategorizerTrainer:
             )
 
             device = "cuda" if torch.cuda.is_available() else "cpu"
+            self.model.to(device)
             inputs = {k: v.to(device) for k, v in inputs.items()}
 
             self.model.eval()
@@ -469,12 +571,9 @@ class ItemCategorizerTrainer:
                 matches = self.unspsc_data_df[self.unspsc_data_df['class_name'] == predicted_class]
                 if not matches.empty:
                     first_match = matches.iloc[0]
-                    details.update({
-                        "Segment Name": first_match.get('segment_name', 'N/A'),
-                        "Family Name": first_match.get('family_name', 'N/A'),
-                        "Class Name": first_match.get('class_name', predicted_class),
-                        "Commodity Name": first_match.get('commodity_name', 'N/A')
-                    })
+                    for col in ['segment_name', 'family_name', 'class_name', 'commodity_title', 'commodity_name']:
+                        if col in first_match.index and str(first_match[col]).strip():
+                            details[col.replace('_', ' ').title()] = str(first_match[col])
 
             return {
                 "predicted_category": predicted_class,
