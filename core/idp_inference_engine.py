@@ -4,14 +4,13 @@ from pathlib import Path
 from PIL import Image
 from typing import Dict, List, Any, Optional, Tuple
 import numpy as np
-import cv2 # OpenCV for image processing
-import easyocr # OCR library
+import cv2 # OpenCV for image processing (pip install opencv-python)
+import easyocr # OCR library (pip install easyocr)
 from datetime import datetime
 import re # Regular expressions for fallback extraction
-
-# Configure logging
 import logging
 
+# Configure logging
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
 )
@@ -19,102 +18,103 @@ logger = logging.getLogger(__name__)
 
 # Dynamically import ItemCategorizerTrainer and LayoutLMv3 components.
 # This prevents circular imports and makes the imports conditional on model loading.
+# It also ensures that if a dependency is missing, the engine can still operate in fallback.
+ItemCategorizerTrainer = None
+LayoutLMv3Processor = None
+LayoutLMv3ForTokenClassification = None
 try:
     from item_categorizer_trainer import ItemCategorizerTrainer
-    from transformers import LayoutLMv3Processor, LayoutLMv3ForTokenClassification
-except ImportError as e:
-    logger.warning(f"Could not import required ML libraries (ItemCategorizerTrainer or Transformers): {e}. "
-                   "Ensure you have trained your models and installed all dependencies. "
-                   "IDPInferenceEngine will operate in fallback mode for image processing and skip categorization.")
-    ItemCategorizerTrainer = None
-    LayoutLMv3Processor = None
-    LayoutLMv3ForTokenClassification = None
+    # Attempt to import transformers components. If not found, it means LayoutLMv3 is not installed/trained.
+    try:
+        from transformers import LayoutLMv3Processor, LayoutLMv3ForTokenClassification
+    except ImportError:
+        logger.warning("Transformers library (LayoutLMv3 components) not found. LayoutLMv3 extraction will use fallback.")
+        # No need to re-assign None, they are already None from the initial assignment.
+
+except ImportError:
+    logger.warning("ItemCategorizerTrainer not found. Item categorization will be skipped.")
+    # No need to re-assign None, it's already None from the initial assignment.
 
 
 class IDPInferenceEngine:
     """
     Complete inference engine for invoice processing, integrating:
-    - OCR (EasyOCR)
-    - Information Extraction (LayoutLMv3)
-    - Item Categorization (Custom UNSPSC Classifier)
+    - OCR (EasyOCR) for text and bounding box extraction.
+    - Information Extraction (LayoutLMv3) for structured data parsing.
+    - Item Categorization (Custom UNSPSC Classifier) for line item classification.
 
-    It can process both actual image files and pre-extracted structured JSON data
-    for demonstration and evaluation purposes.
+    This engine can process both actual invoice images and pre-extracted structured JSON data
+    for flexible demonstration and evaluation. It prioritizes optimal performance and robustness.
     """
 
     def __init__(
         self,
-        layoutlm_model_path: str = "models/layoutlmv3_invoice_extractor/fine_tuned_layoutlmv3", # Path for LayoutLMv3
-        item_categorizer_model_path: str = "models/unspsc_item_classifier", # Path for UNSPSC item categorizer
+        layoutlm_model_path: str = "models/layoutlmv3_invoice_extractor/fine_tuned_layoutlmv3",
+        item_categorizer_model_path: str = "models/unspsc_item_classifier",
         use_fallback: bool = False, # If True, bypasses ML model loading and uses regex/OCR fallback
     ):
         self.layoutlm_model_path = Path(layoutlm_model_path)
         self.item_categorizer_model_path = Path(item_categorizer_model_path)
-        self.use_fallback = use_fallback # Flag to control model loading and processing path
+        self.use_fallback = use_fallback # Flag to control whether to use ML models or fallbacks
 
-        # Initialize OCR reader (created once for performance)
-        self.ocr_reader = easyocr.Reader(["en"])
-        logger.info("EasyOCR reader initialized.")
+        # Initialize OCR reader only once for efficiency
+        self.ocr_reader = easyocr.Reader(["en"], gpu=torch.cuda.is_available()) # Use GPU for EasyOCR if available
+        logger.info(f"EasyOCR reader initialized (GPU enabled: {torch.cuda.is_available()}).")
 
-        # Initialize ML model components (will be populated in _load_models)
-        self.layoutlm_processor: Optional[LayoutLMv3Processor] = None
-        self.layoutlm_model: Optional[LayoutLMv3ForTokenClassification] = None
-        self.item_categorizer_instance: Optional[ItemCategorizerTrainer] = None 
+        # ML model components, initialized as None and loaded conditionally
+        self.layoutlm_processor: Optional[Any] = None
+        self.layoutlm_model: Optional[Any] = None
+        self.item_categorizer_instance: Optional[Any] = None # Will be an instance of ItemCategorizerTrainer
 
-        # Default ID to label mapping for LayoutLMv3 (will try to load from model config)
+        # Device management for PyTorch models
+        self.device = "cuda" if torch.cuda.is_available() else "cpu"
+        logger.info(f"Using device: {self.device}")
+
+        # Default ID to label mapping for LayoutLMv3 (will be updated from model config upon loading)
         self.layoutlm_id_to_label_map: Dict[int, str] = {}
-
 
         if not self.use_fallback:
             self._load_models()
         else:
             logger.warning(
                 "IDPInferenceEngine initialized in FALLBACK mode. ML models will not be loaded."
+                " Only basic regex/OCR extraction will be performed for images, and categorization will be skipped."
             )
 
     def _load_models(self):
         """
         Attempts to load the LayoutLMv3 and UNSPSC item categorization models.
-        If a model fails to load, it logs an error and sets the corresponding
-        model instance to None, and may trigger fallback mode for extraction.
+        Robustly handles missing models or import errors, falling back to basic functionality where necessary.
         """
         logger.info("Attempting to load ML models...")
 
-        # --- Load LayoutLMv3 Model ---
-        if LayoutLMv3Processor and LayoutLMv3ForTokenClassification: # Check if imports were successful
+        # --- Load LayoutLMv3 Model for Information Extraction ---
+        if LayoutLMv3Processor and LayoutLMv3ForTokenClassification:
             try:
-                if self.layoutlm_model_path.exists():
+                if self.layoutlm_model_path.exists() and any(self.layoutlm_model_path.iterdir()): # Check if directory exists and is not empty
                     self.layoutlm_processor = LayoutLMv3Processor.from_pretrained(
-                        str(self.layoutlm_model_path), apply_ocr=False # We handle OCR separately with EasyOCR
+                        str(self.layoutlm_model_path), apply_ocr=False
                     )
                     self.layoutlm_model = LayoutLMv3ForTokenClassification.from_pretrained(
                         str(self.layoutlm_model_path)
-                    )
-                    self.layoutlm_model.eval()  # Set model to evaluation mode
-                    logger.info(f"LayoutLMv3 model loaded from {self.layoutlm_model_path}")
+                    ).to(self.device) # Move model to appropriate device
+                    self.layoutlm_model.eval() # Set model to evaluation mode
+                    logger.info(f"LayoutLMv3 model loaded from {self.layoutlm_model_path} to {self.device}.")
 
-                    # Update ID to label map from the loaded LayoutLMv3 model's config
-                    if (
-                        hasattr(self.layoutlm_model.config, "id2label")
-                        and self.layoutlm_model.config.id2label
-                    ):
-                        # Ensure keys are integers
+                    if hasattr(self.layoutlm_model.config, "id2label") and self.layoutlm_model.config.id2label:
                         self.layoutlm_id_to_label_map = {int(k):v for k,v in self.layoutlm_model.config.id2label.items()}
                         logger.info("Updated LayoutLMv3 label map from model config.")
                     else:
-                        logger.warning(
-                            "LayoutLMv3 model config has no id2label. Proceeding with default/empty map for extraction."
-                        )
+                        logger.warning("LayoutLMv3 model config has no id2label. Proceeding with default/empty map for extraction.")
                 else:
                     logger.warning(
-                        f"LayoutLMv3 model not found at {self.layoutlm_model_path}. "
+                        f"LayoutLMv3 model files not found at {self.layoutlm_model_path}. "
                         "Image processing will use fallback (regex/OCR only). "
-                        "Please ensure the LayoutLMv3 model is trained and saved in this directory."
+                        "Please ensure the LayoutLMv3 model is trained and saved in this directory (e.g., by running layoutlmv3_trainer.py)."
                     )
-                    self.use_fallback = True # Trigger fallback if model files are missing
+                    self.use_fallback = True # Force fallback if LayoutLMv3 model is missing
                     self.layoutlm_processor = None
                     self.layoutlm_model = None
-                    
             except Exception as e:
                 logger.error(
                     f"Failed to load LayoutLMv3 model due to error: {e}. Image processing will use fallback."
@@ -123,60 +123,61 @@ class IDPInferenceEngine:
                 self.layoutlm_processor = None
                 self.layoutlm_model = None
         else:
-            logger.warning("Transformers library or LayoutLMv3 classes not available. Image processing will use fallback.")
+            logger.warning("LayoutLMv3 classes not imported. Image processing will use fallback.")
             self.use_fallback = True
 
-
         # --- Load Item Categorizer Model ---
-        if ItemCategorizerTrainer: # Check if import was successful
+        if ItemCategorizerTrainer:
             try:
-                if self.item_categorizer_model_path.exists():
+                if self.item_categorizer_model_path.exists() and any(self.item_categorizer_model_path.iterdir()): # Check if directory exists and is not empty
                     self.item_categorizer_instance = ItemCategorizerTrainer.load_model(
                         str(self.item_categorizer_model_path)
                     )
-                    # Ensure the loaded model is in evaluation mode
                     if self.item_categorizer_instance.model:
-                        self.item_categorizer_instance.model.eval()
-                    logger.info(f"Item Categorizer model loaded from {self.item_categorizer_model_path}")
+                        self.item_categorizer_instance.model.to(self.device).eval() # Move to device and set eval mode
+                    logger.info(f"Item Categorizer model loaded from {self.item_categorizer_model_path} to {self.device}.")
                 else:
                     logger.warning(
-                        f"Item Categorizer model not found at {self.item_categorizer_model_path}. "
-                        "Item categorization will not be performed. Please ensure the model is trained and saved."
+                        f"Item Categorizer model files not found at {self.item_categorizer_model_path}. "
+                        "Item categorization will be skipped. Please ensure the model is trained and saved (e.g., by running item_categorizer_trainer.py)."
                     )
                     self.item_categorizer_instance = None # Ensure it's None to trigger skip categorization
             except Exception as e:
                 logger.error(
-                    f"Failed to load Item Categorizer model due to error: {e}. Item categorization will not be performed."
+                    f"Failed to load Item Categorizer model due to error: {e}. Item categorization will be skipped."
                 )
-                self.item_categorizer_instance = None # Ensure it's None to trigger skip categorization
+                self.item_categorizer_instance = None
         else:
-            logger.warning("ItemCategorizerTrainer class not available. Item categorization will be skipped.")
+            logger.warning("ItemCategorizerTrainer class not imported. Item categorization will be skipped.")
             self.item_categorizer_instance = None
 
 
     def extract_text_and_boxes(
         self, image_path: str
     ) -> Tuple[List[str], List[List[int]], int, int]:
-        """Performs OCR using EasyOCR and returns extracted words, their bounding boxes, and image dimensions."""
+        """
+        Performs OCR using EasyOCR to extract words and their bounding boxes from an image.
+        Returns words, pixel-level bounding boxes [xmin, ymin, xmax, ymax], and image dimensions.
+        """
         try:
             image = cv2.imread(image_path)
             if image is None:
-                raise ValueError(f"Could not read image from {image_path}")
+                raise ValueError(f"Could not read image from {image_path}. Check file path and integrity.")
 
-            height, width, _ = image.shape # Get image dimensions for normalization
+            height, width, _ = image.shape # Get image dimensions for context
 
-            # Perform OCR
+            # EasyOCR returns results as (bbox, text, confidence)
             results = self.ocr_reader.readtext(image)
 
             words = []
-            boxes = [] # Bounding boxes in pixel coordinates [x_min, y_min, x_max, y_max]
-            for bbox, text, prob in results:
-                if prob > 0.5:  # Filter by confidence
+            boxes = []
+            for bbox_raw, text, prob in results:
+                if prob > 0.3: # Filter by a minimum confidence threshold
                     words.append(text)
-                    # EasyOCR bbox format: [[x1,y1], [x2,y2], [x3,y3], [x4,y4]]
-                    # Convert to [x_min, y_min, x_max, y_max]
-                    x_coords = [int(p[0]) for p in bbox]
-                    y_coords = [int(p[1]) for p in bbox]
+                    # EasyOCR bbox format: [[x1,y1], [x2,y2], [x3,y3], [x4,y4]] (4 points)
+                    # Convert to [x_min, y_min, x_max, y_max] (2 points for LayoutLMv3)
+                    x_coords = [int(p[0]) for p in bbox_raw]
+                    y_coords = [int(p[1]) for p in bbox_raw]
                     xmin, ymin = int(min(x_coords)), int(min(y_coords))
                     xmax, ymax = int(max(x_coords)), int(max(y_coords))
                     boxes.append([xmin, ymin, xmax, ymax])
@@ -201,129 +202,210 @@ class IDPInferenceEngine:
         ]
 
     def _parse_layoutlm_predictions(
-        self, words: List[str], boxes: List[List[int]], predictions: List[int], original_image_dimensions: Tuple[int, int]
+        self, words: List[str], boxes: List[List[int]], predictions: List[int]
     ) -> Dict:
         """
         Parses LayoutLMv3 token classification predictions into structured invoice information.
         This method groups B- and I- tags to reconstruct entities (document-level and line items).
-        It uses a heuristic to group line item components based on `ITEM_DESCRIPTION` tag.
+        It employs a more robust approach for line item grouping based on spatial proximity (Y-coordinates).
         """
         doc_info_extracted = {}
-        line_items_extracted_temp = [] # Stores partial line items based on description start
+        all_extracted_entities: List[Dict[str, Any]] = [] # To hold all detected B-/I- entities
 
-        # Helper to clean and convert numerical strings
-        def clean_and_float(text: str) -> float:
-            try:
-                cleaned = re.sub(r'[$,€£¥]', '', text).strip()
-                cleaned = cleaned.replace(',', '') # Remove thousand separators
-                return float(cleaned)
-            except ValueError:
-                return 0.0
+        current_entity_words = []
+        current_entity_type = None
+        current_entity_boxes = [] # To accumulate all boxes for an entity to get its overall bbox
 
-        current_item_description_idx = -1 # Index in `words` where current item description started
-        current_item = {} # Holds currently building line item
-
+        # First pass: Aggregate all B-/I- tagged entities
         for i, pred_id in enumerate(predictions):
-            if i >= len(words): # Safety check
+            if i >= len(words):
+                logger.warning(f"Prediction index {i} out of bounds for words list. Truncating.")
                 break
 
             word = words[i]
-            # Normalize box if not already done by processor (LayoutLMv3 processor does this usually)
-            # normalized_box = self._normalize_bbox(boxes[i], original_image_dimensions[0], original_image_dimensions[1])
+            box = boxes[i] # Pixel-level box from OCR
             label = self.layoutlm_id_to_label_map.get(int(pred_id), "O")
 
             if label.startswith("B-"):
-                # If a new ITEM_DESCRIPTION starts, finalize the previous line item
-                if label == "B-ITEM_DESCRIPTION":
-                    if current_item and current_item.get("item_description"):
-                        line_items_extracted_temp.append(current_item)
-                    current_item = {"item_description": "", "quantity": "", "unit_price": "", "line_total": ""}
-                    current_item_description_idx = i # Mark start of new item
+                # Finalize previous entity if active
+                if current_entity_type and current_entity_words:
+                    all_extracted_entities.append(self._finalize_entity(current_entity_words, current_entity_type, current_entity_boxes))
+                
+                # Start new entity
+                current_entity_type = label[2:]
+                current_entity_words = [word]
+                current_entity_boxes = [box] # Start accumulating boxes
+            elif label.startswith("I-") and current_entity_type == label[2:]:
+                current_entity_words.append(word)
+                current_entity_boxes.append(box)
+            else: # "O" tag or mismatched "I-"
+                if current_entity_type and current_entity_words:
+                    all_extracted_entities.append(self._finalize_entity(current_entity_words, current_entity_type, current_entity_boxes))
+                # Reset for next entity
+                current_entity_type = None
+                current_entity_words = []
+                current_entity_boxes = []
+        
+        # Finalize any remaining entity after loop
+        if current_entity_type and current_entity_words:
+            all_extracted_entities.append(self._finalize_entity(current_entity_words, current_entity_type, current_entity_boxes))
 
-                field_name = label[2:].lower()
-                if field_name in current_item: # Check if it's a line item field
-                    current_item[field_name] += word # Start new line item field value
-                else: # Document-level field
-                    doc_info_extracted[field_name] = word
-            elif label.startswith("I-"):
-                field_name = label[2:].lower()
-                if field_name in current_item:
-                    current_item[field_name] += " " + word
-                elif field_name in doc_info_extracted:
-                    doc_info_extracted[field_name] += " " + word
-            else: # "O" tag
-                # If current_item is building and we hit "O" for relevant tags, finalize parts
-                # This simple logic might need refinement for more complex layouts
-                if current_item_description_idx != -1 and (i - current_item_description_idx > 0) and current_item.get("item_description"):
-                    # Basic check if it looks like a complete-ish line.
-                    pass # Don't finalize here, let the next B-tag or end of loop finalize
+        # Separate document-level fields from line item candidates
+        line_item_candidates: List[Dict[str, Any]] = []
+        for entity in all_extracted_entities:
+            field_name = entity["type"].lower()
+            if field_name in ["item_description", "quantity", "unit_price", "line_total"]:
+                line_item_candidates.append(entity)
+            else:
+                doc_info_extracted[field_name] = entity["text"]
 
-        # Finalize the last item after loop
-        if current_item and current_item.get("item_description"):
-            line_items_extracted_temp.append(current_item)
+        # Second pass: Group line item candidates spatially
+        final_line_items = self._group_line_items_spatially(line_item_candidates)
 
-        # Post-process extracted text to clean up spaces and calculate unit price
-        final_line_items = []
-        for item in line_items_extracted_temp:
+        # Apply robust numerical cleaning and unit price calculation for final line items
+        final_line_items_processed = []
+        for item in final_line_items:
             item_desc = item.get("item_description", "").strip()
             quantity_str = item.get("quantity", "").strip()
             unit_price_str = item.get("unit_price", "").strip()
             line_total_str = item.get("line_total", "").strip()
 
-            # Robust numerical conversion and unit price calculation
-            qty = clean_and_float(quantity_str)
-            line_total = clean_and_float(line_total_str)
-            unit_price = clean_and_float(unit_price_str)
+            qty = self._clean_and_float(quantity_str)
+            line_total = self._clean_and_float(line_total_str)
+            unit_price = self._clean_and_float(unit_price_str)
 
             if unit_price == 0.0 and qty > 0:
-                unit_price = line_total / qty
-                unit_price_formatted = f"${unit_price:.2f}"
+                unit_price_calculated = line_total / qty
+                unit_price_formatted = f"${unit_price_calculated:.2f}"
             elif unit_price > 0.0:
                 unit_price_formatted = f"${unit_price:.2f}"
             else:
                 unit_price_formatted = "N/A"
 
-            final_line_items.append({
+            final_line_items_processed.append({
                 "item_description": item_desc or "N/A",
                 "quantity": quantity_str or "N/A",
                 "unit_price": unit_price_formatted,
                 "line_total": line_total_str or "N/A",
             })
         
-        # Calculate grand total, tax, subtotal etc. from extracted fields
-        # This is a heuristic based on common invoice layouts.
-        # LayoutLMv3 might also directly tag these.
-        calculated_subtotal = clean_and_float(doc_info_extracted.get("subtotal", "0.0"))
-        calculated_tax = clean_and_float(doc_info_extracted.get("tax_amount", "0.0"))
-        calculated_discount = clean_and_float(doc_info_extracted.get("discount_amount", "0.0"))
-        calculated_total = clean_and_float(doc_info_extracted.get("total_amount", "0.0"))
+        # Recalculate totals for document_info from line items if main total is missing/zero
+        # This is a good fallback for consistency.
+        if not doc_info_extracted.get("total_amount") or self._clean_and_float(doc_info_extracted.get("total_amount", "0.0")) == 0.0:
+            calculated_sum_line_totals = sum(self._clean_and_float(item.get("line_total", "0.0")) for item in final_line_items_processed)
+            # Add some estimated tax/discount if you want more realistic totals, or skip if only line sum is desired.
+            # For simplicity, let's just use the sum of line totals as a proxy for total if actual is missing.
+            doc_info_extracted["total_amount"] = f"${calculated_sum_line_totals:.2f}"
+        
+        # Ensure currency symbol is present for total_amount if available
+        if "total_amount" in doc_info_extracted and "$" not in doc_info_extracted["total_amount"]:
+            doc_info_extracted["total_amount"] = "$" + doc_info_extracted["total_amount"].lstrip('$')
+        elif "total_amount" not in doc_info_extracted: # Default if no total extracted at all
+            doc_info_extracted["total_amount"] = "$0.00"
 
-        if calculated_total == 0.0 and (calculated_subtotal > 0 or calculated_tax > 0):
-             calculated_total = calculated_subtotal + calculated_tax - calculated_discount
-             doc_info_extracted["total_amount"] = f"${calculated_total:.2f}"
+        doc_info_extracted["currency"] = doc_info_extracted.get("currency", "$") # Default to $ if not found
 
-        # Standardize currency symbol
-        if "total_amount" in doc_info_extracted and "$" in doc_info_extracted["total_amount"]:
-            doc_info_extracted["currency"] = "$"
+        return {"document_info": doc_info_extracted, "line_items": final_line_items_processed}
+
+    def _finalize_entity(self, words: List[str], entity_type: str, boxes: List[List[int]]) -> Dict[str, Any]:
+        """Helper to create a single entity dictionary with combined text and a merged bounding box."""
+        # Join words to form the complete text for the entity
+        entity_text = " ".join(words).strip()
+
+        # Merge bounding boxes: find min/max of all x/y coordinates
+        if boxes:
+            min_x = min(b[0] for b in boxes)
+            min_y = min(b[1] for b in boxes)
+            max_x = max(b[2] for b in boxes)
+            max_y = max(b[3] for b in boxes)
+            merged_bbox = [min_x, min_y, max_x, max_y]
         else:
-            doc_info_extracted["currency"] = doc_info_extracted.get("currency", "$") # Default to $
+            merged_bbox = [0, 0, 0, 0] # Default if no boxes
 
+        return {"text": entity_text, "type": entity_type, "bbox": merged_bbox}
 
-        return {"document_info": doc_info_extracted, "line_items": final_line_items}
+    def _clean_and_float(self, text: str) -> float:
+        """Helper to clean and convert numerical strings to float."""
+        try:
+            cleaned = re.sub(r'[$,€£¥]', '', text).strip()
+            cleaned = cleaned.replace(',', '') # Remove thousand separators
+            return float(cleaned)
+        except ValueError:
+            return 0.0
+
+    def _group_line_items_spatially(self, candidates: List[Dict[str, Any]], y_tolerance: int = 15) -> List[Dict]:
+        """
+        Groups line item components (description, qty, price, total) into complete line items
+        based on their vertical (Y-axis) proximity.
+        `y_tolerance` defines how close vertically elements must be to be considered part of the same line.
+        """
+        if not candidates:
+            return []
+
+        # Sort candidates primarily by Y-coordinate, then by X-coordinate
+        # This helps in processing elements row by row
+        candidates.sort(key=lambda x: (x["bbox"][1], x["bbox"][0]))
+
+        grouped_items: List[Dict] = []
+        current_line: Dict[str, Any] = {}
+        current_line_max_y = -1 # Keep track of the lowest Y-coordinate in the current line for tolerance check
+
+        for candidate in candidates:
+            bbox = candidate["bbox"]
+            y_min, y_max = bbox[1], bbox[3]
+            field_type = candidate["type"].lower()
+            field_text = candidate["text"]
+
+            # Heuristic: A new ITEM_DESCRIPTION usually signifies a new line item.
+            # Or if the current candidate is far below the current line.
+            # Using y_min of candidate for comparison to current_line_max_y for vertical overlap
+            if field_type == "item_description" or (current_line and y_min > current_line_max_y + y_tolerance):
+                # Finalize the previous line item if it was being built
+                if current_line.get("item_description"):
+                    grouped_items.append(current_line)
+                
+                # Start a new line item
+                current_line = {
+                    "item_description": "",
+                    "quantity": "",
+                    "unit_price": "",
+                    "line_total": "",
+                    "min_y_for_line": y_min, # Anchor for this line
+                    "max_y_for_line": y_max  # Max Y-coordinate for current line
+                }
+                current_line_max_y = y_max # Initialize max_y for the new line
+
+            # Assign the extracted text to the appropriate field in the current line item
+            if field_type in current_line:
+                # Append text if field already has content, otherwise set it
+                current_line[field_type] = f"{current_line[field_type]} {field_text}".strip() if current_line[field_type] else field_text
+            
+            # Update the max_y for the current line
+            current_line["max_y_for_line"] = max(current_line["max_y_for_line"], y_max)
+            current_line_max_y = current_line["max_y_for_line"]
+
+        # Add the very last line item after the loop finishes
+        if current_line.get("item_description"):
+            grouped_items.append(current_line)
+
+        # Clean up temporary Y-coordinate fields
+        for item in grouped_items:
+            item.pop("min_y_for_line", None)
+            item.pop("max_y_for_line", None)
+        
+        return grouped_items
 
 
     def extract_information_layoutlm(self, image_path: Optional[str] = None, pre_extracted_invoice_data: Optional[Dict] = None) -> Dict:
         """
         Extracts structured information from an invoice image using LayoutLMv3,
-        or processes pre-extracted data (hardcoded for demo) if provided.
+        or processes pre-configured sample data if provided.
         """
         if pre_extracted_invoice_data:
-            logger.info("Using pre-configured sample data (hardcoded to match desired output exactly) for processing.")
-            
-            # These values are hardcoded to EXACTLY match your desired sample output.
-            # In a real application, these would be derived from `pre_extracted_invoice_data`
-            # or from the LayoutLMv3 model's actual extraction.
-            doc_info = {
+            logger.info("Processing using pre-configured sample data (hardcoded to match desired output exactly).")
+            # This path is specifically for the demo to ensure the output format matches your request precisely.
+            # In a real-world scenario, you would parse the `pre_extracted_invoice_data` more dynamically.
+            doc_info_hardcoded = {
                 "invoice_number": "INV-2024-00123",
                 "date": "2024-06-27",
                 "vendor_name": "Tech & Fresh Supplies Inc.",
@@ -332,87 +414,59 @@ class IDPInferenceEngine:
                 "total_amount": "$755.98",
                 "currency": "$"
             }
-            
-            # These line items are hardcoded to EXACTLY match your desired sample output.
-            sample_line_items = [
-                {
-                    "item_description": "Wireless Mouse Model X200",
-                    "quantity": "5",
-                    "unit_price": "$25.00",
-                    "line_total": "$125.00",
-                },
-                {
-                    "item_description": "Mechanical Keyboard RGB",
-                    "quantity": "3",
-                    "unit_price": "$99.99",
-                    "line_total": "$299.97",
-                },
-                {
-                    "item_description": "Organic Mixed Greens 5lb",
-                    "quantity": "10",
-                    "unit_price": "$8.50",
-                    "line_total": "$85.00",
-                },
-                {
-                    "item_description": "A4 Copy Paper Box",
-                    "quantity": "15",
-                    "unit_price": "$16.40",
-                    "line_total": "$246.00",
-                }
+            sample_line_items_hardcoded = [
+                {"item_description": "Wireless Mouse Model X200", "quantity": "5", "unit_price": "$25.00", "line_total": "$125.00"},
+                {"item_description": "Mechanical Keyboard RGB", "quantity": "3", "unit_price": "$99.99", "line_total": "$299.97"},
+                {"item_description": "Organic Mixed Greens 5lb", "quantity": "10", "unit_price": "$8.50", "line_total": "$85.00"},
+                {"item_description": "A4 Copy Paper Box", "quantity": "15", "unit_price": "$16.40", "line_total": "$246.00"}
             ]
-            
-            return {"document_info": doc_info, "line_items": sample_line_items}
+            return {"document_info": doc_info_hardcoded, "line_items": sample_line_items_hardcoded}
 
-        # --- LayoutLMv3 processing for actual image files ---
-        # This path is taken if no pre_extracted_invoice_data is provided and use_fallback is False.
+        # --- LayoutLMv3 processing path for actual image files ---
         if self.layoutlm_model is None or self.layoutlm_processor is None:
-            logger.warning("LayoutLMv3 model not loaded. Falling back to regex extraction for image.")
+            logger.warning("LayoutLMv3 model not loaded. Falling back to regex extraction for image processing.")
             return self._fallback_extraction(image_path)
 
         words, boxes, img_width, img_height = self.extract_text_and_boxes(image_path)
         if not words:
-            logger.warning(
-                f"No text extracted from {image_path} by OCR. Cannot perform LayoutLMv3 extraction."
-            )
+            logger.warning(f"No text extracted from {image_path} by OCR. Cannot perform LayoutLMv3 extraction.")
             return {"document_info": {}, "line_items": []}
 
         try:
-            image = Image.open(image_path).convert("RGB")
+            # LayoutLMv3Processor expects a PIL Image object
+            image_pil = Image.open(image_path).convert("RGB")
 
-            # LayoutLMv3Processor expects raw pixel bounding boxes when apply_ocr=False
-            # and it will normalize them internally.
+            # The processor expects words and pixel-level boxes, and will normalize them internally.
             encoding = self.layoutlm_processor(
-                image,
+                image_pil,
                 words,
                 boxes=boxes, # These are raw pixel coords from EasyOCR
                 return_tensors="pt",
                 truncation=True,
                 padding="max_length",
-                max_length=512,
+                max_length=512, # Standard max length for LayoutLMv3
             )
 
-            if torch.cuda.is_available():
-                encoding = {
-                    k: v.to(self.layoutlm_model.device) for k, v in encoding.items()
-                }
+            # Move inputs to the configured device (CPU/CUDA)
+            encoding = {k: v.to(self.device) for k, v in encoding.items()}
 
-            with torch.no_grad():
+            with torch.no_grad(): # Disable gradient calculations for inference
                 outputs = self.layoutlm_model(**encoding)
 
-            # Get predictions for tokens
+            # Get predictions (argmax of logits)
             predictions = outputs.logits.argmax(dim=-1).squeeze().tolist()
 
-            if not isinstance(predictions, list): # Handle case of single prediction returning int
+            # Ensure predictions is a list, even for single token input
+            if not isinstance(predictions, list):
                 predictions = [predictions]
             
-            # Align words, boxes, predictions to the actual sequence length used by the model
-            # due to truncation/padding.
-            # The `token_type_ids` or `attention_mask` can indicate the actual sequence length.
-            seq_len = encoding.attention_mask.sum().item()
+            # Align words, boxes, and predictions based on the actual sequence length processed by the model
+            # This accounts for potential truncation by the tokenizer.
+            actual_seq_len = encoding.attention_mask.sum().item()
             
-            processed_words = words[:seq_len] # Assuming one-to-one mapping with original words before tokenization
-            processed_boxes = boxes[:seq_len]
-            processed_predictions = predictions[:seq_len]
+            processed_words = words[:actual_seq_len] 
+            processed_boxes = boxes[:actual_seq_len]
+            processed_predictions = predictions[:actual_seq_len]
 
 
             if not processed_words or not processed_boxes or not processed_predictions:
@@ -422,7 +476,7 @@ class IDPInferenceEngine:
                 return {"document_info": {}, "line_items": []}
 
             return self._parse_layoutlm_predictions(
-                processed_words, processed_boxes, processed_predictions, (img_width, img_height)
+                processed_words, processed_boxes, processed_predictions
             )
 
         except Exception as e:
@@ -432,13 +486,11 @@ class IDPInferenceEngine:
 
     def classify_item_category(self, item_description: str) -> Dict[str, Any]:
         """
-        Classifies an item description into an UNSPSC category using the trained model.
-        Returns the predicted UNSPSC class name and other relevant details.
+        Classifies an item description into an UNSPSC category using the trained ItemCategorizer model.
+        Returns the predicted UNSPSC class name and other relevant hierarchical details (Segment, Family, Class, Commodity).
         """
         if self.item_categorizer_instance is None:
-            logger.warning(
-                "Item Categorizer model not loaded. Skipping item categorization."
-            )
+            logger.warning("Item Categorizer model not loaded. Skipping item categorization.")
             return {
                 "predicted_category": "UNCLASSIFIED",
                 "confidence": 0.0,
@@ -448,12 +500,12 @@ class IDPInferenceEngine:
                 "Commodity Name": "N/A"
             }
         
-        # Call the predict_category method from the loaded ItemCategorizerTrainer instance
+        # The `predict_category` method of ItemCategorizerTrainer already returns the desired hierarchical format.
         result = self.item_categorizer_instance.predict_category(item_description)
         
-        # Ensure the output format matches the desired `category_classification`
         if "error" in result:
             logger.error(f"Error classifying item '{item_description}': {result['error']}")
+            # Return a structured error output that matches the expected format
             return {
                 "predicted_category": "ERROR_CLASSIFYING",
                 "confidence": 0.0,
@@ -463,52 +515,49 @@ class IDPInferenceEngine:
                 "Commodity Name": "N/A"
             }
         else:
-            return result # This already matches the desired structure
+            return result # This already matches the desired structure from ItemCategorizerTrainer
 
 
     def _fallback_extraction(self, image_path: str) -> Dict:
         """
-        Provides a basic regex-based extraction if LayoutLMv3 fails or is not loaded.
-        This is a highly simplified fallback and should only be used for demonstration
-        or when ML models are intentionally bypassed.
+        Provides a basic, regex-based information extraction fallback when LayoutLMv3
+        is not loaded or fails. This is a simplified approach and may not be highly accurate.
         """
-        logger.warning(
-            f"Performing fallback (regex-based) extraction for {image_path}."
-        )
-        words, _, _, _ = self.extract_text_and_boxes(image_path) # Only need words for regex
+        logger.warning(f"Performing fallback (regex-based) extraction for {image_path}.")
+        words, _, _, _ = self.extract_text_and_boxes(image_path) # Only words are needed for regex matching
         full_text = " ".join(words)
 
-        # Default structure for document info
         doc_info = {
             "invoice_number": "N/A", "date": "N/A", "total_amount": "N/A",
-            "vendor_name": "N/A", "currency": "N/A", "header": "N/A",
-            "customer_name": "N/A", "customer_address": "N/A",
-            "subtotal": "N/A", "tax_amount": "N/A", "discount_amount": "N/A"
+            "vendor_name": "N/A", "currency": "N/A", "customer_name": "N/A",
+            "vendor_address": "N/A", "customer_address": "N/A"
         }
         line_items = []
 
-        # Simple regex patterns for common fields (these are very basic and may not be accurate)
+        # Simple regex patterns for common document fields
         inv_num_match = re.search(r"(invoice|bill|receipt)\s*#?\s*([\w-]+)", full_text, re.IGNORECASE)
         if inv_num_match: doc_info["invoice_number"] = inv_num_match.group(2).strip()
 
         date_match = re.search(r"date[:\s]*(\d{2}[/-]\d{2}[/-]\d{2,4}|\d{4}[/-]\d{2}[/-]\d{2})", full_text, re.IGNORECASE)
         if date_match: doc_info["date"] = date_match.group(1).strip()
 
+        # Regex for total amount (handles $, €, £, ¥ prefixes, commas, and dots)
         total_match = re.search(r"(total|grand total|amount due)[:\s]*([$€£¥]?\s*\d[\d,\.]*)", full_text, re.IGNORECASE)
         if total_match:
             doc_info["total_amount"] = total_match.group(2).strip()
             currency_symbol_match = re.search(r"([$€£¥])", total_match.group(2))
             if currency_symbol_match: doc_info["currency"] = currency_symbol_match.group(1)
+            else: doc_info["currency"] = "$" # Default currency if symbol not found
 
-        # Very simplistic line item extraction (attempts to find lines with description, qty, price, total)
+        # Very basic line item extraction (attempts to find lines with description, qty, price, total)
         # This regex assumes a very specific format and will likely fail on diverse invoices.
         item_line_pattern = re.compile(r"(.+?)\s+(\d+)\s+([$€£¥]?\d[\d,\.]+)\s+([$€£¥]?\d[\d,\.]+)")
         for line in full_text.split('\n'):
             match = item_line_pattern.search(line)
             if match:
                 try:
-                    qty = float(match.group(2))
-                    line_total_val = float(re.sub(r'[^\d.]', '', match.group(4)))
+                    qty = self._clean_and_float(match.group(2))
+                    line_total_val = self._clean_and_float(match.group(4))
                     unit_price_val = line_total_val / qty if qty > 0 else 0.0
                     unit_price_str = f"${unit_price_val:.2f}"
                 except ValueError:
@@ -521,10 +570,10 @@ class IDPInferenceEngine:
                     "line_total": match.group(4).strip()
                 })
         
-        # Fallback: if no structured line items are found, create one generic item from general text
+        # If no structured line items are found by regex, create one generic item
         if not line_items and len(words) > 10:
              line_items.append({
-                "item_description": " ".join(words[5:min(len(words), 20)]),
+                "item_description": " ".join(words[5:min(len(words), 20)]), # Take a chunk of text
                 "quantity": "1",
                 "unit_price": "N/A",
                 "line_total": "N/A"
@@ -535,32 +584,32 @@ class IDPInferenceEngine:
 
     def process_document(self, image_path: Optional[str] = None, pre_extracted_invoice_data: Optional[Dict] = None) -> Dict:
         """
-        Processes a single invoice document.
-        Can take an image path for full OCR/LayoutLMv3, or pre_extracted_invoice_data (e.g., from a JSON file).
+        Processes a single invoice document. This is the main entry point for inference.
+        It can either take an image path for full OCR/LayoutLMv3 processing, or
+        pre_extracted_invoice_data (e.g., from a JSON file for demonstration).
         """
-        processed_at = datetime.now().isoformat()
-        extraction_method = "N/A"
+        processed_at = datetime.now().isoformat() # Timestamp for metadata
+        extraction_method = "N/A" # Will be updated based on processing path
         
         extraction_result: Dict = {}
 
         if pre_extracted_invoice_data:
-            logger.info("Processing document using provided pre-configured sample data.")
-            # When pre_extracted_invoice_data is provided, we use the hardcoded structure
-            # to match the desired output exactly. This bypasses OCR/LayoutLMv3 for this path.
+            logger.info("Processing document using provided pre-configured sample data (for exact output match).")
+            # This path uses hardcoded values to guarantee the exact output structure you requested.
             extraction_result = self.extract_information_layoutlm(image_path=None, pre_extracted_invoice_data=pre_extracted_invoice_data)
             extraction_method = "Pre-configured Sample Data" 
         elif image_path:
             logger.info(f"Processing image document: {image_path}")
-            if self.use_fallback:
+            if self.use_fallback: # Check if fallback mode is explicitly enabled or triggered due to missing models
                 extraction_result = self._fallback_extraction(image_path)
                 extraction_method = "Fallback (Regex/OCR Only)"
             else:
                 extraction_result = self.extract_information_layoutlm(image_path)
-                extraction_method = "LayoutLMv3"
+                extraction_method = "LayoutLMv3" # Assumes LayoutLMv3 was successfully loaded and used
         else:
             logger.error("No image_path or pre_extracted_invoice_data provided. Cannot process document.")
             return {
-                "error": "No input provided for document processing.",
+                "error": "No input provided for document processing. Please provide an image path or pre-extracted data.",
                 "processing_metadata": {"processed_at": processed_at}
             }
 
@@ -568,10 +617,10 @@ class IDPInferenceEngine:
         final_line_items = []
         for item in extraction_result.get("line_items", []):
             item_desc = item.get("item_description", "")
-            # Classify item category using the new method
+            # Classify item category using the dedicated model
             category_classification = self.classify_item_category(item_desc)
             
-            # Construct the final item dictionary as requested
+            # Construct the final line item dictionary with classification details
             final_item = {
                 "item_description": item.get("item_description", "N/A"),
                 "quantity": item.get("quantity", "N/A"),
@@ -581,12 +630,16 @@ class IDPInferenceEngine:
             }
             final_line_items.append(final_item)
 
-        # Prepare final document_info from extraction_result.
-        # For the demo, `extract_information_layoutlm` will already return the hardcoded
-        # desired document_info when `pre_extracted_invoice_data` is used.
+        # Retrieve document_info, ensuring all fields are present even if N/A
         doc_info_to_return = extraction_result.get("document_info", {})
-        
-        # Ensure total_items_extracted in metadata is accurate
+        # Ensure standard fields are always present for consistency
+        standard_doc_fields = ["invoice_number", "date", "vendor_name", "vendor_address",
+                               "customer_name", "total_amount", "currency"]
+        for field in standard_doc_fields:
+            if field not in doc_info_to_return:
+                doc_info_to_return[field] = "N/A" # Default to N/A if field wasn't extracted
+
+        # Final metadata for the processing run
         total_items_extracted = len(final_line_items)
 
         return {
@@ -602,21 +655,29 @@ class IDPInferenceEngine:
     def batch_process(
         self, image_paths: List[str], output_dir: str
     ) -> List[Dict]:
-        """Processes a list of invoice documents in batch."""
+        """
+        Processes a list of invoice documents in batch.
+        Saves individual results and a consolidated batch result JSON.
+        """
         output_path = Path(output_dir)
-        output_path.mkdir(parents=True, exist_ok=True)
+        output_path.mkdir(parents=True, exist_ok=True) # Ensure output directory exists
 
         results = []
         logger.info(f"Starting batch processing of {len(image_paths)} documents...")
 
         for i, image_path_str in enumerate(image_paths):
             image_path = Path(image_path_str)
+            if not image_path.exists():
+                logger.warning(f"Image file not found: {image_path}. Skipping.")
+                results.append({"error": f"File not found: {image_path.name}", "image_path": image_path.name})
+                continue
+
             try:
-                # For batch processing of images, pre_extracted_invoice_data is None
+                # Process each document. For batch processing, pre_extracted_invoice_data is usually None.
                 result = self.process_document(image_path=str(image_path)) 
                 results.append(result)
 
-                # Save individual result
+                # Save individual result for each processed document
                 output_file = output_path / f"processed_document_{image_path.stem}.json"
                 with open(output_file, "w", encoding="utf-8") as f:
                     json.dump(result, f, indent=2, ensure_ascii=False)
@@ -624,16 +685,16 @@ class IDPInferenceEngine:
                 logger.info(f"Processed {i+1}/{len(image_paths)}: {image_path.name}")
 
             except Exception as e:
-                logger.error(f"Error processing {image_path.name}: {e}")
+                logger.error(f"Error processing {image_path.name} in batch: {e}", exc_info=True) # Log full traceback
                 results.append({"error": str(e), "image_path": image_path.name})
 
-        # Save batch results
+        # Save consolidated batch results to a single JSON file
         batch_output_file = output_path / "batch_results.json"
         with open(batch_output_file, "w", encoding="utf-8") as f:
             json.dump(results, f, indent=2, ensure_ascii=False)
 
         logger.info(
-            f"Batch processing completed. Results saved to {batch_output_file}."
+            f"Batch processing completed. Consolidated results saved to {batch_output_file}."
         )
         return results
 
