@@ -1,0 +1,655 @@
+{
+  "id": "synthetic_invoice_0040",
+  "image_filename": "synthetic_invoice_0040.png",
+  "words": [
+    "RECEIPT",
+    "Invoice",
+    "No.:",
+    "INV-B06EF755",
+    "Date:",
+    "07/11/2024",
+    "Vendor:",
+    "Reed-Todd",
+    "91550",
+    "Shannon",
+    "Place",
+    "Suite",
+    "252,",
+    "Bryanchester,",
+    "NE",
+    "08559",
+    "Bill",
+    "To:",
+    "Sara",
+    "Thomas",
+    "5079",
+    "Graham",
+    "Road",
+    "Suite",
+    "844,",
+    "Houstonshire,",
+    "NM",
+    "25833",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Isoxaprolol",
+    "95Gu",
+    "8",
+    "$206.25",
+    "$1650.00",
+    "Voter",
+    "registration",
+    "or",
+    "counting",
+    "or",
+    "analys",
+    "58JA",
+    "8",
+    "$337.24",
+    "$2697.92",
+    "Business",
+    "intelligence",
+    "consulting",
+    "service",
+    "90xY",
+    "10",
+    "$361.78",
+    "$3617.80",
+    "Dunn",
+    "PLC",
+    "Color",
+    "perception",
+    "testing",
+    "lanterns",
+    "36Zx",
+    "9",
+    "$92.04",
+    "$828.36",
+    "Subtotal:",
+    "$8794.08",
+    "Tax:",
+    "$439.70",
+    "TOTAL:",
+    "$9233.78"
+  ],
+  "boxes": [
+    [
+      401,
+      55,
+      598,
+      77
+    ],
+    [
+      66,
+      100,
+      178,
+      113
+    ],
+    [
+      193,
+      100,
+      256,
+      113
+    ],
+    [
+      273,
+      100,
+      465,
+      113
+    ],
+    [
+      66,
+      141,
+      146,
+      154
+    ],
+    [
+      161,
+      141,
+      321,
+      155
+    ],
+    [
+      66,
+      205,
+      178,
+      218
+    ],
+    [
+      193,
+      205,
+      336,
+      218
+    ],
+    [
+      66,
+      244,
+      126,
+      255
+    ],
+    [
+      138,
+      244,
+      221,
+      255
+    ],
+    [
+      233,
+      244,
+      293,
+      255
+    ],
+    [
+      305,
+      245,
+      365,
+      255
+    ],
+    [
+      376,
+      245,
+      425,
+      258
+    ],
+    [
+      66,
+      264,
+      223,
+      278
+    ],
+    [
+      233,
+      265,
+      256,
+      275
+    ],
+    [
+      268,
+      265,
+      328,
+      275
+    ],
+    [
+      66,
+      308,
+      130,
+      322
+    ],
+    [
+      146,
+      308,
+      195,
+      322
+    ],
+    [
+      210,
+      308,
+      273,
+      322
+    ],
+    [
+      290,
+      308,
+      386,
+      322
+    ],
+    [
+      66,
+      348,
+      115,
+      358
+    ],
+    [
+      126,
+      347,
+      198,
+      358
+    ],
+    [
+      210,
+      347,
+      258,
+      358
+    ],
+    [
+      270,
+      348,
+      330,
+      358
+    ],
+    [
+      341,
+      348,
+      390,
+      362
+    ],
+    [
+      66,
+      367,
+      223,
+      382
+    ],
+    [
+      233,
+      368,
+      256,
+      378
+    ],
+    [
+      268,
+      368,
+      328,
+      378
+    ],
+    [
+      66,
+      412,
+      243,
+      428
+    ],
+    [
+      500,
+      412,
+      548,
+      428
+    ],
+    [
+      673,
+      412,
+      753,
+      425
+    ],
+    [
+      803,
+      412,
+      883,
+      425
+    ],
+    [
+      66,
+      448,
+      198,
+      463
+    ],
+    [
+      210,
+      450,
+      258,
+      460
+    ],
+    [
+      500,
+      450,
+      511,
+      460
+    ],
+    [
+      673,
+      447,
+      756,
+      461
+    ],
+    [
+      803,
+      447,
+      900,
+      461
+    ],
+    [
+      66,
+      481,
+      126,
+      491
+    ],
+    [
+      138,
+      481,
+      281,
+      494
+    ],
+    [
+      293,
+      483,
+      316,
+      491
+    ],
+    [
+      328,
+      481,
+      425,
+      494
+    ],
+    [
+      435,
+      483,
+      458,
+      491
+    ],
+    [
+      66,
+      498,
+      138,
+      513
+    ],
+    [
+      150,
+      500,
+      198,
+      510
+    ],
+    [
+      500,
+      481,
+      511,
+      491
+    ],
+    [
+      673,
+      478,
+      756,
+      492
+    ],
+    [
+      803,
+      478,
+      900,
+      492
+    ],
+    [
+      66,
+      512,
+      163,
+      522
+    ],
+    [
+      173,
+      511,
+      316,
+      525
+    ],
+    [
+      328,
+      511,
+      448,
+      525
+    ],
+    [
+      66,
+      532,
+      150,
+      542
+    ],
+    [
+      161,
+      532,
+      210,
+      542
+    ],
+    [
+      500,
+      511,
+      523,
+      522
+    ],
+    [
+      673,
+      510,
+      756,
+      523
+    ],
+    [
+      803,
+      510,
+      900,
+      523
+    ],
+    [
+      66,
+      543,
+      115,
+      553
+    ],
+    [
+      126,
+      543,
+      163,
+      553
+    ],
+    [
+      173,
+      542,
+      233,
+      553
+    ],
+    [
+      245,
+      543,
+      365,
+      556
+    ],
+    [
+      376,
+      543,
+      460,
+      556
+    ],
+    [
+      66,
+      562,
+      163,
+      573
+    ],
+    [
+      173,
+      563,
+      221,
+      573
+    ],
+    [
+      500,
+      543,
+      511,
+      553
+    ],
+    [
+      673,
+      541,
+      745,
+      554
+    ],
+    [
+      803,
+      541,
+      886,
+      554
+    ],
+    [
+      586,
+      597,
+      730,
+      611
+    ],
+    [
+      746,
+      596,
+      875,
+      613
+    ],
+    [
+      586,
+      642,
+      650,
+      655
+    ],
+    [
+      666,
+      641,
+      778,
+      657
+    ],
+    [
+      586,
+      690,
+      718,
+      707
+    ],
+    [
+      586,
+      710,
+      763,
+      733
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 600,
+  "image_height": 900,
+  "layout_type": "receipt",
+  "total_words": 71,
+  "invoice_data": {
+    "invoice_number": "INV-B06EF755",
+    "invoice_date": "07/11/2024",
+    "vendor_name": "Reed-Todd",
+    "vendor_address": "91550 Shannon Place Suite 252, Bryanchester, NE 08559",
+    "customer_name": "Sara Thomas",
+    "customer_address": "5079 Graham Road Suite 844, Houstonshire, NM 25833",
+    "line_items": [
+      {
+        "description": "Isoxaprolol 95Gu",
+        "quantity": 8,
+        "unit_price": 206.25,
+        "unspsc_details": {
+          "segment_name": "Drugs and Pharmaceutical Products",
+          "family_name": "Sympathomimetic or adrenergic drugs",
+          "class_name": "Sympathomimetic or adrenergic alcohols",
+          "commodity_name": "Isoxaprolol",
+          "segment_code": "51000000",
+          "family_code": "51390000",
+          "class_code": "51391500",
+          "commodity_code": "51391502"
+        }
+      },
+      {
+        "description": "Voter registration or counting or analys 58JA",
+        "quantity": 8,
+        "unit_price": 337.24,
+        "unspsc_details": {
+          "segment_name": "Politics and Civic Affairs Services",
+          "family_name": "Socio political conditions",
+          "class_name": "Political representation and participation",
+          "commodity_name": "Voter registration or counting or analysis or scrutiny services",
+          "segment_code": "93000000",
+          "family_code": "93110000",
+          "class_code": "93111600",
+          "commodity_code": "93111605"
+        }
+      },
+      {
+        "description": "Business intelligence consulting service 90xY",
+        "quantity": 10,
+        "unit_price": 361.78,
+        "unspsc_details": {
+          "segment_name": "Management and Business Professionals and Administrative Services",
+          "family_name": "Management advisory services",
+          "class_name": "Business and corporate management consultation services",
+          "commodity_name": "Business intelligence consulting services",
+          "segment_code": "80000000",
+          "family_code": "80100000",
+          "class_code": "80101500",
+          "commodity_code": "80101508"
+        }
+      },
+      {
+        "description": "Dunn PLC Color perception testing lanterns 36Zx",
+        "quantity": 9,
+        "unit_price": 92.04,
+        "unspsc_details": {
+          "segment_name": "Medical Equipment and Accessories and Supplies",
+          "family_name": "Patient exam and monitoring products",
+          "class_name": "Ophthalmic diagnostic exam products",
+          "commodity_name": "Color perception testing lanterns",
+          "segment_code": "42000000",
+          "family_code": "42180000",
+          "class_code": "42183000",
+          "commodity_code": "42183041"
+        }
+      }
+    ],
+    "subtotal": 8794.08,
+    "tax_amount": 439.7,
+    "total_amount": 9233.78
+  }
+}

@@ -1,0 +1,647 @@
+{
+  "id": "synthetic_invoice_0004",
+  "image_filename": "synthetic_invoice_0004.png",
+  "words": [
+    "RECEIPT",
+    "Invoice",
+    "No.:",
+    "INV-B41DE0BA",
+    "Date:",
+    "12/17/2024",
+    "Vendor:",
+    "Jones",
+    "LLC",
+    "46511",
+    "Samantha",
+    "Islands",
+    "Suite",
+    "128,",
+    "West",
+    "Keith,",
+    "VA",
+    "09564",
+    "Bill",
+    "To:",
+    "John",
+    "Mckinney",
+    "788",
+    "Smith",
+    "Flats",
+    "Apt.",
+    "833,",
+    "North",
+    "Lindafurt,",
+    "AR",
+    "38426",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Williams-Willis",
+    "Sauvignon",
+    "musque",
+    "grapes",
+    "9",
+    "$366.98",
+    "$3302.82",
+    "Canned",
+    "or",
+    "jarred",
+    "royalty",
+    "grapes",
+    "36oa",
+    "7",
+    "$210.19",
+    "$1471.33",
+    "Unit",
+    "trust",
+    "unit",
+    "03EB",
+    "7",
+    "$80.40",
+    "$562.80",
+    "Live",
+    "nelsonii",
+    "hippeastrum",
+    "10",
+    "$192.93",
+    "$1929.30",
+    "Subtotal:",
+    "$7266.25",
+    "Tax:",
+    "$726.62",
+    "TOTAL:",
+    "$7992.87"
+  ],
+  "boxes": [
+    [
+      426,
+      63,
+      573,
+      81
+    ],
+    [
+      75,
+      109,
+      158,
+      120
+    ],
+    [
+      170,
+      109,
+      217,
+      120
+    ],
+    [
+      230,
+      109,
+      375,
+      120
+    ],
+    [
+      75,
+      147,
+      135,
+      158
+    ],
+    [
+      146,
+      147,
+      266,
+      159
+    ],
+    [
+      75,
+      213,
+      158,
+      224
+    ],
+    [
+      170,
+      213,
+      230,
+      224
+    ],
+    [
+      241,
+      213,
+      277,
+      224
+    ],
+    [
+      75,
+      250,
+      120,
+      259
+    ],
+    [
+      128,
+      250,
+      201,
+      259
+    ],
+    [
+      208,
+      250,
+      271,
+      259
+    ],
+    [
+      280,
+      250,
+      325,
+      259
+    ],
+    [
+      333,
+      250,
+      370,
+      261
+    ],
+    [
+      378,
+      250,
+      415,
+      259
+    ],
+    [
+      423,
+      250,
+      477,
+      261
+    ],
+    [
+      75,
+      267,
+      92,
+      275
+    ],
+    [
+      101,
+      267,
+      146,
+      275
+    ],
+    [
+      75,
+      308,
+      122,
+      319
+    ],
+    [
+      135,
+      308,
+      171,
+      319
+    ],
+    [
+      182,
+      308,
+      230,
+      319
+    ],
+    [
+      242,
+      308,
+      338,
+      321
+    ],
+    [
+      75,
+      348,
+      102,
+      356
+    ],
+    [
+      110,
+      347,
+      155,
+      356
+    ],
+    [
+      163,
+      347,
+      208,
+      356
+    ],
+    [
+      217,
+      348,
+      253,
+      359
+    ],
+    [
+      262,
+      348,
+      298,
+      359
+    ],
+    [
+      307,
+      347,
+      352,
+      356
+    ],
+    [
+      361,
+      347,
+      451,
+      359
+    ],
+    [
+      460,
+      348,
+      477,
+      356
+    ],
+    [
+      75,
+      364,
+      120,
+      372
+    ],
+    [
+      75,
+      405,
+      207,
+      419
+    ],
+    [
+      500,
+      405,
+      536,
+      419
+    ],
+    [
+      668,
+      405,
+      728,
+      416
+    ],
+    [
+      797,
+      405,
+      857,
+      416
+    ],
+    [
+      75,
+      435,
+      210,
+      444
+    ],
+    [
+      218,
+      436,
+      300,
+      447
+    ],
+    [
+      308,
+      438,
+      362,
+      447
+    ],
+    [
+      371,
+      438,
+      425,
+      447
+    ],
+    [
+      500,
+      436,
+      508,
+      444
+    ],
+    [
+      668,
+      434,
+      731,
+      445
+    ],
+    [
+      797,
+      434,
+      870,
+      445
+    ],
+    [
+      75,
+      465,
+      128,
+      474
+    ],
+    [
+      137,
+      468,
+      155,
+      474
+    ],
+    [
+      163,
+      465,
+      217,
+      477
+    ],
+    [
+      226,
+      465,
+      288,
+      477
+    ],
+    [
+      297,
+      468,
+      351,
+      477
+    ],
+    [
+      360,
+      466,
+      396,
+      474
+    ],
+    [
+      500,
+      466,
+      508,
+      474
+    ],
+    [
+      668,
+      464,
+      731,
+      475
+    ],
+    [
+      797,
+      464,
+      870,
+      475
+    ],
+    [
+      75,
+      496,
+      111,
+      504
+    ],
+    [
+      120,
+      496,
+      165,
+      504
+    ],
+    [
+      173,
+      496,
+      210,
+      504
+    ],
+    [
+      218,
+      496,
+      255,
+      504
+    ],
+    [
+      500,
+      496,
+      508,
+      504
+    ],
+    [
+      668,
+      494,
+      722,
+      505
+    ],
+    [
+      797,
+      494,
+      860,
+      505
+    ],
+    [
+      75,
+      526,
+      111,
+      534
+    ],
+    [
+      120,
+      525,
+      192,
+      534
+    ],
+    [
+      200,
+      525,
+      298,
+      537
+    ],
+    [
+      500,
+      525,
+      517,
+      534
+    ],
+    [
+      668,
+      524,
+      731,
+      535
+    ],
+    [
+      797,
+      524,
+      870,
+      535
+    ],
+    [
+      585,
+      584,
+      692,
+      595
+    ],
+    [
+      705,
+      583,
+      801,
+      597
+    ],
+    [
+      585,
+      625,
+      632,
+      636
+    ],
+    [
+      645,
+      624,
+      728,
+      638
+    ],
+    [
+      585,
+      669,
+      683,
+      683
+    ],
+    [
+      700,
+      666,
+      832,
+      685
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 800,
+  "image_height": 1100,
+  "layout_type": "standard",
+  "total_words": 70,
+  "invoice_data": {
+    "invoice_number": "INV-B41DE0BA",
+    "invoice_date": "12/17/2024",
+    "vendor_name": "Jones LLC",
+    "vendor_address": "46511 Samantha Islands Suite 128, West Keith, VA 09564",
+    "customer_name": "John Mckinney",
+    "customer_address": "788 Smith Flats Apt. 833, North Lindafurt, AR 38426",
+    "line_items": [
+      {
+        "description": "Williams-Willis Sauvignon musque grapes",
+        "quantity": 9,
+        "unit_price": 366.98,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Fresh fruits",
+          "class_name": "Wine grapes",
+          "commodity_name": "Sauvignon musque grapes",
+          "segment_code": "50000000",
+          "family_code": "50300000",
+          "class_code": "50303600",
+          "commodity_code": "50303651"
+        }
+      },
+      {
+        "description": "Canned or jarred royalty grapes 36oa",
+        "quantity": 7,
+        "unit_price": 210.19,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Canned or jarred fruit",
+          "class_name": "Canned or jarred wine grapes",
+          "commodity_name": "Canned or jarred royalty grapes",
+          "segment_code": "50000000",
+          "family_code": "50360000",
+          "class_code": "50363600",
+          "commodity_code": "50363645"
+        }
+      },
+      {
+        "description": "Unit trust unit 03EB",
+        "quantity": 7,
+        "unit_price": 80.4,
+        "unspsc_details": {
+          "segment_name": "Financial Instruments, Products, Contracts and Agreements",
+          "family_name": "Securities",
+          "class_name": "Equity based securities",
+          "commodity_name": "Unit trust unit",
+          "segment_code": "64000000",
+          "family_code": "64110000",
+          "class_code": "64111500",
+          "commodity_code": "64111507"
+        }
+      },
+      {
+        "description": "Live nelsonii hippeastrum",
+        "quantity": 10,
+        "unit_price": 192.93,
+        "unspsc_details": {
+          "segment_name": "Live Plant and Animal Material and Accessories and Supplies",
+          "family_name": "Live plants of high species or variety count flowers",
+          "class_name": "Live hippeastrums",
+          "commodity_name": "Live nelsonii hippeastrum",
+          "segment_code": "10000000",
+          "family_code": "10210000",
+          "class_code": "10217900",
+          "commodity_code": "10217949"
+        }
+      }
+    ],
+    "subtotal": 7266.25,
+    "tax_amount": 726.62,
+    "total_amount": 7992.87
+  }
+}

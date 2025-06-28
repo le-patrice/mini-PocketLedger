@@ -1,0 +1,695 @@
+{
+  "id": "synthetic_invoice_0078",
+  "image_filename": "synthetic_invoice_0078.png",
+  "words": [
+    "BILL",
+    "Invoice",
+    "No.:",
+    "INV-5B383727",
+    "Date:",
+    "11/21/2024",
+    "Vendor:",
+    "Evans,",
+    "Johnson",
+    "and",
+    "Montgomery",
+    "10368",
+    "Ford",
+    "Pine,",
+    "Port",
+    "Shannonton,",
+    "GA",
+    "84152",
+    "Bill",
+    "To:",
+    "Steven",
+    "Osborn",
+    "00197",
+    "Molly",
+    "Inlet,",
+    "West",
+    "Devin,",
+    "TN",
+    "84132",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Economic",
+    "or",
+    "financial",
+    "evaluation",
+    "of",
+    "proj",
+    "96Wc",
+    "6",
+    "$417.87",
+    "$2507.22",
+    "Miller-Tate",
+    "Femoral",
+    "head",
+    "10",
+    "$277.93",
+    "$2779.30",
+    "Patterson",
+    "and",
+    "S",
+    "Cold",
+    "forged",
+    "heat",
+    "treated",
+    "and",
+    "cold",
+    "sized",
+    "27G",
+    "1",
+    "$152.71",
+    "$152.71",
+    "Mills",
+    "Inc",
+    "Whitebark",
+    "raspberry",
+    "1",
+    "$79.38",
+    "$79.38",
+    "Subtotal:",
+    "$5518.61",
+    "Tax:",
+    "$275.93",
+    "TOTAL:",
+    "$5794.54"
+  ],
+  "boxes": [
+    [
+      454,
+      60,
+      544,
+      80
+    ],
+    [
+      66,
+      105,
+      156,
+      117
+    ],
+    [
+      168,
+      105,
+      218,
+      117
+    ],
+    [
+      232,
+      105,
+      385,
+      117
+    ],
+    [
+      66,
+      144,
+      130,
+      156
+    ],
+    [
+      142,
+      144,
+      270,
+      157
+    ],
+    [
+      66,
+      209,
+      156,
+      221
+    ],
+    [
+      168,
+      209,
+      245,
+      224
+    ],
+    [
+      257,
+      209,
+      346,
+      221
+    ],
+    [
+      358,
+      209,
+      397,
+      221
+    ],
+    [
+      66,
+      229,
+      194,
+      244
+    ],
+    [
+      66,
+      269,
+      114,
+      279
+    ],
+    [
+      124,
+      269,
+      162,
+      279
+    ],
+    [
+      172,
+      270,
+      220,
+      282
+    ],
+    [
+      229,
+      270,
+      268,
+      279
+    ],
+    [
+      277,
+      269,
+      382,
+      282
+    ],
+    [
+      392,
+      270,
+      410,
+      279
+    ],
+    [
+      420,
+      269,
+      468,
+      279
+    ],
+    [
+      66,
+      314,
+      117,
+      326
+    ],
+    [
+      130,
+      314,
+      169,
+      326
+    ],
+    [
+      181,
+      314,
+      258,
+      326
+    ],
+    [
+      270,
+      314,
+      348,
+      326
+    ],
+    [
+      66,
+      351,
+      114,
+      361
+    ],
+    [
+      124,
+      351,
+      172,
+      364
+    ],
+    [
+      181,
+      351,
+      238,
+      364
+    ],
+    [
+      248,
+      352,
+      286,
+      361
+    ],
+    [
+      296,
+      352,
+      353,
+      364
+    ],
+    [
+      362,
+      352,
+      381,
+      361
+    ],
+    [
+      390,
+      351,
+      438,
+      361
+    ],
+    [
+      66,
+      396,
+      208,
+      411
+    ],
+    [
+      500,
+      396,
+      538,
+      411
+    ],
+    [
+      672,
+      396,
+      736,
+      408
+    ],
+    [
+      802,
+      396,
+      866,
+      408
+    ],
+    [
+      66,
+      430,
+      144,
+      439
+    ],
+    [
+      152,
+      432,
+      170,
+      439
+    ],
+    [
+      180,
+      429,
+      266,
+      439
+    ],
+    [
+      276,
+      429,
+      372,
+      439
+    ],
+    [
+      381,
+      429,
+      400,
+      439
+    ],
+    [
+      409,
+      430,
+      448,
+      442
+    ],
+    [
+      457,
+      430,
+      496,
+      439
+    ],
+    [
+      500,
+      430,
+      509,
+      439
+    ],
+    [
+      672,
+      428,
+      738,
+      440
+    ],
+    [
+      802,
+      428,
+      880,
+      440
+    ],
+    [
+      66,
+      459,
+      172,
+      469
+    ],
+    [
+      181,
+      459,
+      248,
+      469
+    ],
+    [
+      257,
+      459,
+      296,
+      469
+    ],
+    [
+      500,
+      459,
+      518,
+      469
+    ],
+    [
+      672,
+      458,
+      738,
+      470
+    ],
+    [
+      802,
+      458,
+      880,
+      470
+    ],
+    [
+      66,
+      490,
+      153,
+      499
+    ],
+    [
+      162,
+      489,
+      192,
+      499
+    ],
+    [
+      200,
+      490,
+      209,
+      499
+    ],
+    [
+      218,
+      489,
+      257,
+      499
+    ],
+    [
+      266,
+      489,
+      324,
+      502
+    ],
+    [
+      333,
+      489,
+      372,
+      499
+    ],
+    [
+      381,
+      489,
+      448,
+      499
+    ],
+    [
+      457,
+      489,
+      486,
+      499
+    ],
+    [
+      66,
+      507,
+      105,
+      517
+    ],
+    [
+      114,
+      507,
+      162,
+      517
+    ],
+    [
+      172,
+      508,
+      201,
+      517
+    ],
+    [
+      500,
+      489,
+      509,
+      499
+    ],
+    [
+      672,
+      488,
+      738,
+      500
+    ],
+    [
+      802,
+      488,
+      869,
+      500
+    ],
+    [
+      66,
+      519,
+      114,
+      529
+    ],
+    [
+      124,
+      520,
+      153,
+      529
+    ],
+    [
+      161,
+      519,
+      248,
+      529
+    ],
+    [
+      257,
+      519,
+      344,
+      532
+    ],
+    [
+      500,
+      519,
+      509,
+      529
+    ],
+    [
+      672,
+      518,
+      729,
+      530
+    ],
+    [
+      802,
+      518,
+      860,
+      530
+    ],
+    [
+      586,
+      576,
+      701,
+      588
+    ],
+    [
+      714,
+      575,
+      817,
+      590
+    ],
+    [
+      586,
+      618,
+      637,
+      630
+    ],
+    [
+      650,
+      617,
+      740,
+      632
+    ],
+    [
+      586,
+      663,
+      692,
+      679
+    ],
+    [
+      709,
+      660,
+      850,
+      681
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    0,
+    0,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 750,
+  "image_height": 1000,
+  "layout_type": "compact",
+  "total_words": 76,
+  "invoice_data": {
+    "invoice_number": "INV-5B383727",
+    "invoice_date": "11/21/2024",
+    "vendor_name": "Evans, Johnson and Montgomery",
+    "vendor_address": "10368 Ford Pine, Port Shannonton, GA 84152",
+    "customer_name": "Steven Osborn",
+    "customer_address": "00197 Molly Inlet, West Devin, TN 84132",
+    "line_items": [
+      {
+        "description": "Economic or financial evaluation of proj 96Wc",
+        "quantity": 6,
+        "unit_price": 417.87,
+        "unspsc_details": {
+          "segment_name": "Management and Business Professionals and Administrative Services",
+          "family_name": "Management advisory services",
+          "class_name": "Project management",
+          "commodity_name": "Economic or financial evaluation of projects",
+          "segment_code": "80000000",
+          "family_code": "80100000",
+          "class_code": "80101600",
+          "commodity_code": "80101603"
+        }
+      },
+      {
+        "description": "Miller-Tate Femoral head",
+        "quantity": 10,
+        "unit_price": 277.93,
+        "unspsc_details": {
+          "segment_name": "Medical Equipment and Accessories and Supplies",
+          "family_name": "Orthopedic surgical implants",
+          "class_name": "Hip joint implants",
+          "commodity_name": "Femoral head",
+          "segment_code": "42000000",
+          "family_code": "42320000",
+          "class_code": "42321700",
+          "commodity_code": "42321704"
+        }
+      },
+      {
+        "description": "Patterson and S Cold forged heat treated and cold sized  27G",
+        "quantity": 1,
+        "unit_price": 152.71,
+        "unspsc_details": {
+          "segment_name": "Manufacturing Components and Supplies",
+          "family_name": "Forgings",
+          "class_name": "Brass forgings",
+          "commodity_name": "Cold forged heat treated and cold sized brass forging",
+          "segment_code": "31000000",
+          "family_code": "31130000",
+          "class_code": "31132200",
+          "commodity_code": "31132204"
+        }
+      },
+      {
+        "description": "Mills Inc Whitebark raspberry",
+        "quantity": 1,
+        "unit_price": 79.38,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Fresh fruits",
+          "class_name": "Raspberries",
+          "commodity_name": "Whitebark raspberry",
+          "segment_code": "50000000",
+          "family_code": "50300000",
+          "class_code": "50306200",
+          "commodity_code": "50306226"
+        }
+      }
+    ],
+    "subtotal": 5518.610000000001,
+    "tax_amount": 275.93,
+    "total_amount": 5794.54
+  }
+}

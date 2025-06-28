@@ -1,0 +1,473 @@
+{
+  "id": "synthetic_invoice_0016",
+  "image_filename": "synthetic_invoice_0016.png",
+  "words": [
+    "BILL",
+    "Invoice",
+    "No.:",
+    "INV-D677863B",
+    "Date:",
+    "12/09/2024",
+    "Vendor:",
+    "Lawson",
+    "LLC",
+    "956",
+    "Anna",
+    "Glen,",
+    "East",
+    "Cynthiaton,",
+    "AL",
+    "92653",
+    "Bill",
+    "To:",
+    "Casey",
+    "Hester",
+    "550",
+    "Justin",
+    "Lodge,",
+    "Millerfort,",
+    "WY",
+    "65825",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Watson,",
+    "Soto",
+    "an",
+    "Dried",
+    "organic",
+    "new",
+    "zealand",
+    "spinach",
+    "5",
+    "$322.95",
+    "$1614.75",
+    "Boiling",
+    "onions",
+    "7",
+    "$308.04",
+    "$2156.28",
+    "Subtotal:",
+    "$3771.03",
+    "Tax:",
+    "$263.97",
+    "TOTAL:",
+    "$4035.00"
+  ],
+  "boxes": [
+    [
+      457,
+      63,
+      541,
+      81
+    ],
+    [
+      75,
+      109,
+      158,
+      120
+    ],
+    [
+      170,
+      109,
+      217,
+      120
+    ],
+    [
+      230,
+      109,
+      373,
+      120
+    ],
+    [
+      75,
+      147,
+      135,
+      158
+    ],
+    [
+      146,
+      147,
+      266,
+      159
+    ],
+    [
+      75,
+      213,
+      158,
+      224
+    ],
+    [
+      170,
+      213,
+      242,
+      224
+    ],
+    [
+      253,
+      213,
+      290,
+      224
+    ],
+    [
+      75,
+      250,
+      102,
+      259
+    ],
+    [
+      110,
+      250,
+      146,
+      259
+    ],
+    [
+      155,
+      250,
+      200,
+      261
+    ],
+    [
+      208,
+      250,
+      245,
+      259
+    ],
+    [
+      253,
+      250,
+      352,
+      261
+    ],
+    [
+      361,
+      250,
+      378,
+      259
+    ],
+    [
+      387,
+      250,
+      432,
+      259
+    ],
+    [
+      75,
+      295,
+      122,
+      306
+    ],
+    [
+      135,
+      295,
+      171,
+      306
+    ],
+    [
+      182,
+      295,
+      242,
+      309
+    ],
+    [
+      253,
+      295,
+      326,
+      306
+    ],
+    [
+      75,
+      335,
+      102,
+      343
+    ],
+    [
+      110,
+      335,
+      163,
+      343
+    ],
+    [
+      172,
+      334,
+      226,
+      346
+    ],
+    [
+      235,
+      334,
+      333,
+      346
+    ],
+    [
+      342,
+      335,
+      360,
+      343
+    ],
+    [
+      368,
+      335,
+      413,
+      343
+    ],
+    [
+      75,
+      380,
+      207,
+      393
+    ],
+    [
+      500,
+      380,
+      536,
+      393
+    ],
+    [
+      668,
+      380,
+      728,
+      390
+    ],
+    [
+      797,
+      380,
+      857,
+      390
+    ],
+    [
+      75,
+      410,
+      137,
+      421
+    ],
+    [
+      146,
+      410,
+      182,
+      419
+    ],
+    [
+      191,
+      412,
+      208,
+      419
+    ],
+    [
+      217,
+      410,
+      262,
+      419
+    ],
+    [
+      271,
+      410,
+      333,
+      421
+    ],
+    [
+      342,
+      412,
+      370,
+      419
+    ],
+    [
+      377,
+      410,
+      440,
+      419
+    ],
+    [
+      75,
+      426,
+      137,
+      438
+    ],
+    [
+      500,
+      410,
+      508,
+      419
+    ],
+    [
+      668,
+      409,
+      731,
+      420
+    ],
+    [
+      797,
+      409,
+      870,
+      420
+    ],
+    [
+      75,
+      440,
+      137,
+      451
+    ],
+    [
+      146,
+      440,
+      200,
+      449
+    ],
+    [
+      500,
+      440,
+      508,
+      449
+    ],
+    [
+      668,
+      439,
+      731,
+      450
+    ],
+    [
+      797,
+      439,
+      870,
+      450
+    ],
+    [
+      585,
+      499,
+      692,
+      510
+    ],
+    [
+      705,
+      498,
+      801,
+      511
+    ],
+    [
+      585,
+      540,
+      632,
+      550
+    ],
+    [
+      645,
+      539,
+      728,
+      552
+    ],
+    [
+      585,
+      583,
+      683,
+      598
+    ],
+    [
+      700,
+      580,
+      832,
+      600
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 800,
+  "image_height": 1100,
+  "layout_type": "standard",
+  "total_words": 52,
+  "invoice_data": {
+    "invoice_number": "INV-D677863B",
+    "invoice_date": "12/09/2024",
+    "vendor_name": "Lawson LLC",
+    "vendor_address": "956 Anna Glen, East Cynthiaton, AL 92653",
+    "customer_name": "Casey Hester",
+    "customer_address": "550 Justin Lodge, Millerfort, WY 65825",
+    "line_items": [
+      {
+        "description": "Watson, Soto an Dried organic new zealand spinach",
+        "quantity": 5,
+        "unit_price": 322.95,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Dried organic vegetables",
+          "class_name": "Dried organic spinaches",
+          "commodity_name": "Dried organic new zealand spinach",
+          "segment_code": "50000000",
+          "family_code": "50430000",
+          "class_code": "50436100",
+          "commodity_code": "50436109"
+        }
+      },
+      {
+        "description": "Boiling onions",
+        "quantity": 7,
+        "unit_price": 308.04,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Fresh vegetables",
+          "class_name": "Onions",
+          "commodity_name": "Boiling onions",
+          "segment_code": "50000000",
+          "family_code": "50400000",
+          "class_code": "50405300",
+          "commodity_code": "50405303"
+        }
+      }
+    ],
+    "subtotal": 3771.03,
+    "tax_amount": 263.97,
+    "total_amount": 4035.0
+  }
+}

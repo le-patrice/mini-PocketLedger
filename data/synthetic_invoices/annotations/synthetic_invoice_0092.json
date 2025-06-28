@@ -1,0 +1,655 @@
+{
+  "id": "synthetic_invoice_0092",
+  "image_filename": "synthetic_invoice_0092.png",
+  "words": [
+    "INVOICE",
+    "Invoice",
+    "No.:",
+    "INV-B46B7634",
+    "Date:",
+    "07/13/2024",
+    "Vendor:",
+    "Bradley-Lewis",
+    "293",
+    "Brady",
+    "Highway",
+    "Apt.",
+    "604,",
+    "Georgeville,",
+    "IL",
+    "38122",
+    "Bill",
+    "To:",
+    "Sarah",
+    "Gomez",
+    "412",
+    "Brandy",
+    "Lodge,",
+    "North",
+    "Jamesbury,",
+    "NJ",
+    "66123",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Live",
+    "bi",
+    "color",
+    "red",
+    "and",
+    "yellow",
+    "tulip",
+    "5",
+    "$345.39",
+    "$1726.95",
+    "Frozen",
+    "non",
+    "GMO",
+    "garden",
+    "delight",
+    "nectarines",
+    "9",
+    "$232.55",
+    "$2092.95",
+    "Welch",
+    "Inc",
+    "Etazolate",
+    "hydrochloride",
+    "10",
+    "$121.18",
+    "$1211.80",
+    "Fresh",
+    "cut",
+    "phlomis",
+    "sarnia",
+    "04ap",
+    "5",
+    "$406.65",
+    "$2033.25",
+    "Subtotal:",
+    "$7064.95",
+    "Tax:",
+    "$706.50",
+    "TOTAL:",
+    "$7771.45"
+  ],
+  "boxes": [
+    [
+      426,
+      63,
+      573,
+      81
+    ],
+    [
+      75,
+      109,
+      158,
+      120
+    ],
+    [
+      170,
+      109,
+      217,
+      120
+    ],
+    [
+      230,
+      109,
+      373,
+      120
+    ],
+    [
+      75,
+      147,
+      135,
+      158
+    ],
+    [
+      146,
+      147,
+      266,
+      159
+    ],
+    [
+      75,
+      213,
+      158,
+      224
+    ],
+    [
+      170,
+      213,
+      326,
+      227
+    ],
+    [
+      75,
+      253,
+      102,
+      261
+    ],
+    [
+      110,
+      252,
+      155,
+      264
+    ],
+    [
+      163,
+      252,
+      226,
+      264
+    ],
+    [
+      235,
+      253,
+      271,
+      264
+    ],
+    [
+      280,
+      253,
+      316,
+      264
+    ],
+    [
+      325,
+      252,
+      432,
+      264
+    ],
+    [
+      441,
+      253,
+      458,
+      261
+    ],
+    [
+      75,
+      269,
+      120,
+      278
+    ],
+    [
+      75,
+      311,
+      122,
+      322
+    ],
+    [
+      135,
+      311,
+      171,
+      322
+    ],
+    [
+      182,
+      311,
+      242,
+      322
+    ],
+    [
+      253,
+      311,
+      313,
+      322
+    ],
+    [
+      75,
+      348,
+      102,
+      357
+    ],
+    [
+      110,
+      348,
+      163,
+      360
+    ],
+    [
+      172,
+      348,
+      226,
+      360
+    ],
+    [
+      235,
+      348,
+      280,
+      357
+    ],
+    [
+      288,
+      348,
+      378,
+      360
+    ],
+    [
+      387,
+      349,
+      405,
+      357
+    ],
+    [
+      413,
+      348,
+      458,
+      357
+    ],
+    [
+      75,
+      393,
+      207,
+      407
+    ],
+    [
+      500,
+      393,
+      536,
+      407
+    ],
+    [
+      668,
+      393,
+      728,
+      404
+    ],
+    [
+      797,
+      393,
+      857,
+      404
+    ],
+    [
+      75,
+      424,
+      111,
+      432
+    ],
+    [
+      120,
+      423,
+      137,
+      432
+    ],
+    [
+      146,
+      423,
+      191,
+      432
+    ],
+    [
+      200,
+      423,
+      227,
+      432
+    ],
+    [
+      235,
+      423,
+      262,
+      432
+    ],
+    [
+      270,
+      423,
+      323,
+      435
+    ],
+    [
+      332,
+      423,
+      377,
+      435
+    ],
+    [
+      500,
+      424,
+      508,
+      432
+    ],
+    [
+      668,
+      422,
+      731,
+      433
+    ],
+    [
+      797,
+      422,
+      870,
+      433
+    ],
+    [
+      75,
+      454,
+      128,
+      462
+    ],
+    [
+      137,
+      456,
+      165,
+      462
+    ],
+    [
+      172,
+      454,
+      200,
+      462
+    ],
+    [
+      207,
+      453,
+      261,
+      465
+    ],
+    [
+      270,
+      453,
+      332,
+      465
+    ],
+    [
+      341,
+      454,
+      431,
+      462
+    ],
+    [
+      500,
+      454,
+      508,
+      462
+    ],
+    [
+      668,
+      452,
+      731,
+      463
+    ],
+    [
+      797,
+      452,
+      870,
+      463
+    ],
+    [
+      75,
+      483,
+      120,
+      492
+    ],
+    [
+      128,
+      484,
+      156,
+      492
+    ],
+    [
+      163,
+      483,
+      245,
+      492
+    ],
+    [
+      253,
+      483,
+      371,
+      495
+    ],
+    [
+      500,
+      483,
+      517,
+      492
+    ],
+    [
+      668,
+      482,
+      731,
+      493
+    ],
+    [
+      797,
+      482,
+      870,
+      493
+    ],
+    [
+      75,
+      513,
+      120,
+      522
+    ],
+    [
+      128,
+      514,
+      156,
+      522
+    ],
+    [
+      163,
+      513,
+      226,
+      525
+    ],
+    [
+      235,
+      514,
+      288,
+      522
+    ],
+    [
+      297,
+      514,
+      333,
+      525
+    ],
+    [
+      500,
+      514,
+      508,
+      522
+    ],
+    [
+      668,
+      512,
+      731,
+      523
+    ],
+    [
+      797,
+      512,
+      870,
+      523
+    ],
+    [
+      585,
+      572,
+      692,
+      583
+    ],
+    [
+      705,
+      571,
+      801,
+      585
+    ],
+    [
+      585,
+      613,
+      632,
+      624
+    ],
+    [
+      645,
+      612,
+      728,
+      626
+    ],
+    [
+      585,
+      657,
+      683,
+      671
+    ],
+    [
+      700,
+      654,
+      832,
+      673
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 800,
+  "image_height": 1100,
+  "layout_type": "standard",
+  "total_words": 71,
+  "invoice_data": {
+    "invoice_number": "INV-B46B7634",
+    "invoice_date": "07/13/2024",
+    "vendor_name": "Bradley-Lewis",
+    "vendor_address": "293 Brady Highway Apt. 604, Georgeville, IL 38122",
+    "customer_name": "Sarah Gomez",
+    "customer_address": "412 Brandy Lodge, North Jamesbury, NJ 66123",
+    "line_items": [
+      {
+        "description": "Live bi color red and yellow tulip",
+        "quantity": 5,
+        "unit_price": 345.39,
+        "unspsc_details": {
+          "segment_name": "Live Plant and Animal Material and Accessories and Supplies",
+          "family_name": "Live plants of high species or variety count flowers",
+          "class_name": "Live tulips",
+          "commodity_name": "Live bi color red and yellow tulip",
+          "segment_code": "10000000",
+          "family_code": "10210000",
+          "class_code": "10217300",
+          "commodity_code": "10217303"
+        }
+      },
+      {
+        "description": "Frozen non GMO garden delight nectarines",
+        "quantity": 9,
+        "unit_price": 232.55,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Frozen non GMO fruits",
+          "class_name": "Frozen non GMO nectarines",
+          "commodity_name": "Frozen non GMO garden delight nectarines",
+          "segment_code": "50000000",
+          "family_code": "50540000",
+          "class_code": "50544900",
+          "commodity_code": "50544923"
+        }
+      },
+      {
+        "description": "Welch Inc Etazolate hydrochloride",
+        "quantity": 10,
+        "unit_price": 121.18,
+        "unspsc_details": {
+          "segment_name": "Drugs and Pharmaceutical Products",
+          "family_name": "Antipsychotics",
+          "class_name": "Antipsychotic isoquinolines and nicotinic acids and oxazoles and pyridines and pyrrolidines",
+          "commodity_name": "Etazolate hydrochloride",
+          "segment_code": "51000000",
+          "family_code": "51330000",
+          "class_code": "51333100",
+          "commodity_code": "51333108"
+        }
+      },
+      {
+        "description": "Fresh cut phlomis sarnia 04ap",
+        "quantity": 5,
+        "unit_price": 406.65,
+        "unspsc_details": {
+          "segment_name": "Live Plant and Animal Material and Accessories and Supplies",
+          "family_name": "Fresh cut blooms of low species or variety count flowers",
+          "class_name": "Fresh cut single species or varieties of flowers",
+          "commodity_name": "Fresh cut phlomis sarnia",
+          "segment_code": "10000000",
+          "family_code": "10320000",
+          "class_code": "10326000",
+          "commodity_code": "10326067"
+        }
+      }
+    ],
+    "subtotal": 7064.950000000001,
+    "tax_amount": 706.5,
+    "total_amount": 7771.45
+  }
+}

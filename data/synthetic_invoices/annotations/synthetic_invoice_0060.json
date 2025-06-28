@@ -1,0 +1,544 @@
+{
+  "id": "synthetic_invoice_0060",
+  "image_filename": "synthetic_invoice_0060.png",
+  "words": [
+    "INVOICE",
+    "Invoice",
+    "No.:",
+    "INV-A75017E0",
+    "Date:",
+    "06/11/2025",
+    "Vendor:",
+    "Graves",
+    "LLC",
+    "684",
+    "David",
+    "Parks,",
+    "Lindseytown,",
+    "PW",
+    "43298",
+    "Bill",
+    "To:",
+    "Sabrina",
+    "Ellis",
+    "Unit",
+    "2614",
+    "Box",
+    "0274,",
+    "DPO",
+    "AA",
+    "75185",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Dried",
+    "organic",
+    "wealthy",
+    "apples",
+    "03Fz",
+    "2",
+    "$182.96",
+    "$365.92",
+    "Dried",
+    "van",
+    "dyke",
+    "mangoes",
+    "19MY",
+    "5",
+    "$28.23",
+    "$141.15",
+    "Unspecified",
+    "fishing",
+    "tools",
+    "85uE",
+    "2",
+    "$131.01",
+    "$262.02",
+    "Subtotal:",
+    "$769.09",
+    "Tax:",
+    "$53.84",
+    "TOTAL:",
+    "$822.93"
+  ],
+  "boxes": [
+    [
+      421,
+      60,
+      578,
+      80
+    ],
+    [
+      66,
+      105,
+      156,
+      117
+    ],
+    [
+      168,
+      105,
+      218,
+      117
+    ],
+    [
+      232,
+      105,
+      385,
+      117
+    ],
+    [
+      66,
+      144,
+      130,
+      156
+    ],
+    [
+      142,
+      144,
+      270,
+      157
+    ],
+    [
+      66,
+      209,
+      156,
+      221
+    ],
+    [
+      168,
+      209,
+      245,
+      221
+    ],
+    [
+      257,
+      209,
+      296,
+      221
+    ],
+    [
+      66,
+      247,
+      96,
+      256
+    ],
+    [
+      104,
+      246,
+      152,
+      256
+    ],
+    [
+      161,
+      246,
+      218,
+      259
+    ],
+    [
+      228,
+      246,
+      342,
+      259
+    ],
+    [
+      352,
+      247,
+      370,
+      256
+    ],
+    [
+      380,
+      247,
+      428,
+      256
+    ],
+    [
+      66,
+      291,
+      117,
+      303
+    ],
+    [
+      130,
+      291,
+      169,
+      303
+    ],
+    [
+      181,
+      291,
+      270,
+      303
+    ],
+    [
+      282,
+      291,
+      346,
+      303
+    ],
+    [
+      66,
+      329,
+      105,
+      338
+    ],
+    [
+      114,
+      328,
+      153,
+      338
+    ],
+    [
+      162,
+      329,
+      192,
+      338
+    ],
+    [
+      200,
+      329,
+      248,
+      341
+    ],
+    [
+      257,
+      329,
+      286,
+      338
+    ],
+    [
+      294,
+      329,
+      313,
+      338
+    ],
+    [
+      322,
+      328,
+      370,
+      338
+    ],
+    [
+      66,
+      373,
+      208,
+      388
+    ],
+    [
+      500,
+      373,
+      538,
+      388
+    ],
+    [
+      672,
+      373,
+      736,
+      385
+    ],
+    [
+      802,
+      373,
+      866,
+      385
+    ],
+    [
+      66,
+      406,
+      114,
+      416
+    ],
+    [
+      124,
+      407,
+      190,
+      419
+    ],
+    [
+      200,
+      406,
+      266,
+      419
+    ],
+    [
+      276,
+      406,
+      333,
+      419
+    ],
+    [
+      342,
+      407,
+      381,
+      416
+    ],
+    [
+      500,
+      407,
+      509,
+      416
+    ],
+    [
+      672,
+      405,
+      738,
+      417
+    ],
+    [
+      802,
+      405,
+      869,
+      417
+    ],
+    [
+      66,
+      436,
+      114,
+      446
+    ],
+    [
+      124,
+      439,
+      153,
+      446
+    ],
+    [
+      161,
+      436,
+      200,
+      449
+    ],
+    [
+      209,
+      439,
+      276,
+      449
+    ],
+    [
+      285,
+      436,
+      324,
+      446
+    ],
+    [
+      500,
+      437,
+      509,
+      446
+    ],
+    [
+      672,
+      435,
+      729,
+      447
+    ],
+    [
+      802,
+      435,
+      869,
+      447
+    ],
+    [
+      66,
+      466,
+      172,
+      479
+    ],
+    [
+      181,
+      466,
+      248,
+      479
+    ],
+    [
+      257,
+      466,
+      305,
+      476
+    ],
+    [
+      314,
+      467,
+      353,
+      476
+    ],
+    [
+      500,
+      467,
+      509,
+      476
+    ],
+    [
+      672,
+      465,
+      738,
+      477
+    ],
+    [
+      802,
+      465,
+      869,
+      477
+    ],
+    [
+      586,
+      523,
+      701,
+      535
+    ],
+    [
+      714,
+      522,
+      804,
+      537
+    ],
+    [
+      586,
+      565,
+      637,
+      577
+    ],
+    [
+      650,
+      564,
+      728,
+      579
+    ],
+    [
+      586,
+      610,
+      692,
+      626
+    ],
+    [
+      709,
+      607,
+      832,
+      628
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 750,
+  "image_height": 1000,
+  "layout_type": "compact",
+  "total_words": 59,
+  "invoice_data": {
+    "invoice_number": "INV-A75017E0",
+    "invoice_date": "06/11/2025",
+    "vendor_name": "Graves LLC",
+    "vendor_address": "684 David Parks, Lindseytown, PW 43298",
+    "customer_name": "Sabrina Ellis",
+    "customer_address": "Unit 2614 Box 0274, DPO AA 75185",
+    "line_items": [
+      {
+        "description": "Dried organic wealthy apples 03Fz",
+        "quantity": 2,
+        "unit_price": 182.96,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Dried organic fruit",
+          "class_name": "Dried organic apples",
+          "commodity_name": "Dried organic wealthy apples",
+          "segment_code": "50000000",
+          "family_code": "50330000",
+          "class_code": "50331500",
+          "commodity_code": "50331591"
+        }
+      },
+      {
+        "description": "Dried van dyke mangoes 19MY",
+        "quantity": 5,
+        "unit_price": 28.23,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Dried fruit",
+          "class_name": "Dried mangoes",
+          "commodity_name": "Dried van dyke mangoes",
+          "segment_code": "50000000",
+          "family_code": "50320000",
+          "class_code": "50324500",
+          "commodity_code": "50324525"
+        }
+      },
+      {
+        "description": "Unspecified fishing tools 85uE",
+        "quantity": 2,
+        "unit_price": 131.01,
+        "unspsc_details": {
+          "segment_name": "Mining and Well Drilling Machinery and Accessories",
+          "family_name": "Oil and gas drilling and exploration equipment",
+          "class_name": "Fishing tools",
+          "commodity_name": "Unspecified fishing tools",
+          "segment_code": "20000000",
+          "family_code": "20120000",
+          "class_code": "20121700",
+          "commodity_code": "20121708"
+        }
+      }
+    ],
+    "subtotal": 769.09,
+    "tax_amount": 53.84,
+    "total_amount": 822.93
+  }
+}

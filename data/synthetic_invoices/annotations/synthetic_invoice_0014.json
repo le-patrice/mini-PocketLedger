@@ -1,0 +1,671 @@
+{
+  "id": "synthetic_invoice_0014",
+  "image_filename": "synthetic_invoice_0014.png",
+  "words": [
+    "BILL",
+    "Invoice",
+    "No.:",
+    "INV-E17A59D5",
+    "Date:",
+    "10/23/2024",
+    "Vendor:",
+    "Hendricks,",
+    "Poole",
+    "and",
+    "Lopez",
+    "USNS",
+    "Gomez,",
+    "FPO",
+    "AE",
+    "72045",
+    "Bill",
+    "To:",
+    "Randy",
+    "Jones",
+    "9806",
+    "Howard",
+    "Lakes,",
+    "Amberland,",
+    "VA",
+    "35390",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Young,",
+    "Curtis",
+    "a",
+    "Canned",
+    "or",
+    "jarred",
+    "organic",
+    "white",
+    "vienna",
+    "ko",
+    "8",
+    "$162.48",
+    "$1299.84",
+    "Vasquez-Blackwe",
+    "Clock",
+    "oscillators",
+    "9",
+    "$148.24",
+    "$1334.16",
+    "Criollo",
+    "mango",
+    "purees",
+    "91oI",
+    "3",
+    "$81.77",
+    "$245.31",
+    "Woods-Leach",
+    "Canned",
+    "or",
+    "jarred",
+    "organic",
+    "solo",
+    "papayas",
+    "08Xr",
+    "2",
+    "$147.62",
+    "$295.24",
+    "Subtotal:",
+    "$3174.55",
+    "Tax:",
+    "$222.22",
+    "TOTAL:",
+    "$3396.77"
+  ],
+  "boxes": [
+    [
+      443,
+      55,
+      555,
+      77
+    ],
+    [
+      66,
+      100,
+      178,
+      113
+    ],
+    [
+      193,
+      100,
+      256,
+      113
+    ],
+    [
+      273,
+      100,
+      465,
+      113
+    ],
+    [
+      66,
+      141,
+      146,
+      154
+    ],
+    [
+      161,
+      141,
+      321,
+      155
+    ],
+    [
+      66,
+      205,
+      178,
+      218
+    ],
+    [
+      193,
+      205,
+      353,
+      222
+    ],
+    [
+      368,
+      205,
+      448,
+      218
+    ],
+    [
+      66,
+      227,
+      115,
+      241
+    ],
+    [
+      130,
+      227,
+      210,
+      244
+    ],
+    [
+      66,
+      271,
+      115,
+      281
+    ],
+    [
+      126,
+      271,
+      198,
+      284
+    ],
+    [
+      210,
+      271,
+      246,
+      281
+    ],
+    [
+      256,
+      271,
+      280,
+      281
+    ],
+    [
+      291,
+      271,
+      351,
+      281
+    ],
+    [
+      66,
+      313,
+      130,
+      326
+    ],
+    [
+      146,
+      313,
+      195,
+      326
+    ],
+    [
+      210,
+      313,
+      290,
+      330
+    ],
+    [
+      305,
+      313,
+      385,
+      326
+    ],
+    [
+      66,
+      356,
+      115,
+      366
+    ],
+    [
+      126,
+      355,
+      198,
+      366
+    ],
+    [
+      210,
+      355,
+      281,
+      370
+    ],
+    [
+      293,
+      355,
+      413,
+      370
+    ],
+    [
+      425,
+      356,
+      448,
+      366
+    ],
+    [
+      66,
+      376,
+      126,
+      386
+    ],
+    [
+      66,
+      415,
+      243,
+      432
+    ],
+    [
+      500,
+      415,
+      548,
+      432
+    ],
+    [
+      673,
+      415,
+      753,
+      428
+    ],
+    [
+      803,
+      415,
+      883,
+      428
+    ],
+    [
+      66,
+      453,
+      138,
+      466
+    ],
+    [
+      150,
+      453,
+      221,
+      463
+    ],
+    [
+      233,
+      455,
+      245,
+      463
+    ],
+    [
+      256,
+      452,
+      328,
+      463
+    ],
+    [
+      340,
+      455,
+      363,
+      463
+    ],
+    [
+      375,
+      452,
+      446,
+      466
+    ],
+    [
+      66,
+      473,
+      150,
+      486
+    ],
+    [
+      161,
+      472,
+      221,
+      483
+    ],
+    [
+      233,
+      473,
+      305,
+      483
+    ],
+    [
+      316,
+      472,
+      340,
+      483
+    ],
+    [
+      500,
+      453,
+      511,
+      463
+    ],
+    [
+      673,
+      451,
+      756,
+      464
+    ],
+    [
+      803,
+      451,
+      900,
+      464
+    ],
+    [
+      66,
+      483,
+      246,
+      497
+    ],
+    [
+      258,
+      483,
+      318,
+      494
+    ],
+    [
+      330,
+      483,
+      461,
+      494
+    ],
+    [
+      500,
+      484,
+      511,
+      494
+    ],
+    [
+      673,
+      482,
+      756,
+      495
+    ],
+    [
+      803,
+      482,
+      900,
+      495
+    ],
+    [
+      66,
+      514,
+      150,
+      525
+    ],
+    [
+      161,
+      517,
+      221,
+      528
+    ],
+    [
+      233,
+      517,
+      305,
+      528
+    ],
+    [
+      316,
+      514,
+      365,
+      525
+    ],
+    [
+      500,
+      515,
+      511,
+      525
+    ],
+    [
+      673,
+      513,
+      745,
+      526
+    ],
+    [
+      803,
+      513,
+      886,
+      526
+    ],
+    [
+      66,
+      545,
+      198,
+      556
+    ],
+    [
+      210,
+      545,
+      281,
+      556
+    ],
+    [
+      293,
+      548,
+      316,
+      556
+    ],
+    [
+      328,
+      545,
+      400,
+      560
+    ],
+    [
+      411,
+      546,
+      495,
+      560
+    ],
+    [
+      66,
+      565,
+      115,
+      576
+    ],
+    [
+      126,
+      568,
+      210,
+      580
+    ],
+    [
+      221,
+      566,
+      270,
+      576
+    ],
+    [
+      500,
+      546,
+      511,
+      556
+    ],
+    [
+      673,
+      544,
+      756,
+      557
+    ],
+    [
+      803,
+      544,
+      886,
+      557
+    ],
+    [
+      586,
+      601,
+      730,
+      614
+    ],
+    [
+      746,
+      600,
+      875,
+      616
+    ],
+    [
+      586,
+      645,
+      650,
+      658
+    ],
+    [
+      666,
+      644,
+      778,
+      661
+    ],
+    [
+      586,
+      693,
+      718,
+      711
+    ],
+    [
+      586,
+      713,
+      763,
+      736
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    0,
+    0,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 600,
+  "image_height": 900,
+  "layout_type": "receipt",
+  "total_words": 73,
+  "invoice_data": {
+    "invoice_number": "INV-E17A59D5",
+    "invoice_date": "10/23/2024",
+    "vendor_name": "Hendricks, Poole and Lopez",
+    "vendor_address": "USNS Gomez, FPO AE 72045",
+    "customer_name": "Randy Jones",
+    "customer_address": "9806 Howard Lakes, Amberland, VA 35390",
+    "line_items": [
+      {
+        "description": "Young, Curtis a Canned or jarred organic white vienna ko",
+        "quantity": 8,
+        "unit_price": 162.48,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Canned or jarred organic vegetables",
+          "class_name": "Canned or jarred organic kohlrabi",
+          "commodity_name": "Canned or jarred organic white vienna kohlrabi",
+          "segment_code": "50000000",
+          "family_code": "50470000",
+          "class_code": "50474300",
+          "commodity_code": "50474306"
+        }
+      },
+      {
+        "description": "Vasquez-Blackwe Clock oscillators",
+        "quantity": 9,
+        "unit_price": 148.24,
+        "unspsc_details": {
+          "segment_name": "Electronic Components and Supplies",
+          "family_name": "Printed circuits and integrated circuits and microassemblies",
+          "class_name": "Integrated circuits",
+          "commodity_name": "Clock oscillators",
+          "segment_code": "32000000",
+          "family_code": "32100000",
+          "class_code": "32101600",
+          "commodity_code": "32101627"
+        }
+      },
+      {
+        "description": "Criollo mango purees 91oI",
+        "quantity": 3,
+        "unit_price": 81.77,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Fresh fruit purees",
+          "class_name": "Mango purees",
+          "commodity_name": "Criollo mango purees",
+          "segment_code": "50000000",
+          "family_code": "50380000",
+          "class_code": "50385000",
+          "commodity_code": "50385003"
+        }
+      },
+      {
+        "description": "Woods-Leach Canned or jarred organic solo papayas 08Xr",
+        "quantity": 2,
+        "unit_price": 147.62,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Canned or jarred organic fruit",
+          "class_name": "Canned or jarred organic papayas",
+          "commodity_name": "Canned or jarred organic solo papayas",
+          "segment_code": "50000000",
+          "family_code": "50370000",
+          "class_code": "50375100",
+          "commodity_code": "50375105"
+        }
+      }
+    ],
+    "subtotal": 3174.55,
+    "tax_amount": 222.22,
+    "total_amount": 3396.77
+  }
+}

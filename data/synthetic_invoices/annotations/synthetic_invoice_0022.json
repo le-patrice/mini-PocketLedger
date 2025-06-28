@@ -1,0 +1,591 @@
+{
+  "id": "synthetic_invoice_0022",
+  "image_filename": "synthetic_invoice_0022.png",
+  "words": [
+    "BILL",
+    "Invoice",
+    "No.:",
+    "INV-72A33333",
+    "Date:",
+    "06/21/2025",
+    "Vendor:",
+    "Francis-Gillespie",
+    "3720",
+    "Marquez",
+    "Villages,",
+    "Kellystad,",
+    "NH",
+    "17651",
+    "Bill",
+    "To:",
+    "Briana",
+    "Black",
+    "818",
+    "Jordan",
+    "Walks,",
+    "Frankfurt,",
+    "VI",
+    "47736",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Ferrous",
+    "alloy",
+    "punched",
+    "components",
+    "5",
+    "$474.37",
+    "$2371.85",
+    "Dried",
+    "calimyrna",
+    "figs",
+    "7",
+    "$429.16",
+    "$3004.12",
+    "Moses-Miller",
+    "Biopsy",
+    "needles",
+    "4",
+    "$465.65",
+    "$1862.60",
+    "Rojas,",
+    "Sexton",
+    "a",
+    "Earliman",
+    "apricot",
+    "purees",
+    "50WB",
+    "7",
+    "$403.88",
+    "$2827.16",
+    "Subtotal:",
+    "$10065.73",
+    "Tax:",
+    "$1006.57",
+    "TOTAL:",
+    "$11072.30"
+  ],
+  "boxes": [
+    [
+      454,
+      60,
+      544,
+      80
+    ],
+    [
+      66,
+      105,
+      156,
+      117
+    ],
+    [
+      168,
+      105,
+      218,
+      117
+    ],
+    [
+      232,
+      105,
+      385,
+      117
+    ],
+    [
+      66,
+      144,
+      130,
+      156
+    ],
+    [
+      142,
+      144,
+      270,
+      157
+    ],
+    [
+      66,
+      209,
+      156,
+      221
+    ],
+    [
+      168,
+      209,
+      385,
+      224
+    ],
+    [
+      66,
+      250,
+      105,
+      259
+    ],
+    [
+      114,
+      250,
+      181,
+      262
+    ],
+    [
+      190,
+      249,
+      277,
+      262
+    ],
+    [
+      286,
+      249,
+      382,
+      262
+    ],
+    [
+      392,
+      250,
+      410,
+      259
+    ],
+    [
+      420,
+      249,
+      468,
+      259
+    ],
+    [
+      66,
+      294,
+      117,
+      306
+    ],
+    [
+      130,
+      294,
+      169,
+      306
+    ],
+    [
+      181,
+      294,
+      258,
+      306
+    ],
+    [
+      270,
+      294,
+      334,
+      306
+    ],
+    [
+      66,
+      331,
+      96,
+      341
+    ],
+    [
+      104,
+      331,
+      161,
+      341
+    ],
+    [
+      170,
+      331,
+      228,
+      344
+    ],
+    [
+      237,
+      331,
+      333,
+      344
+    ],
+    [
+      342,
+      332,
+      361,
+      341
+    ],
+    [
+      370,
+      332,
+      418,
+      341
+    ],
+    [
+      66,
+      376,
+      208,
+      391
+    ],
+    [
+      500,
+      376,
+      538,
+      391
+    ],
+    [
+      672,
+      376,
+      736,
+      388
+    ],
+    [
+      802,
+      376,
+      866,
+      388
+    ],
+    [
+      66,
+      410,
+      133,
+      419
+    ],
+    [
+      142,
+      409,
+      190,
+      422
+    ],
+    [
+      200,
+      409,
+      266,
+      422
+    ],
+    [
+      276,
+      410,
+      372,
+      422
+    ],
+    [
+      500,
+      410,
+      509,
+      419
+    ],
+    [
+      672,
+      408,
+      738,
+      420
+    ],
+    [
+      802,
+      408,
+      880,
+      420
+    ],
+    [
+      66,
+      439,
+      114,
+      449
+    ],
+    [
+      124,
+      439,
+      210,
+      452
+    ],
+    [
+      220,
+      439,
+      258,
+      452
+    ],
+    [
+      500,
+      440,
+      509,
+      449
+    ],
+    [
+      672,
+      438,
+      738,
+      450
+    ],
+    [
+      802,
+      438,
+      880,
+      450
+    ],
+    [
+      66,
+      469,
+      181,
+      479
+    ],
+    [
+      190,
+      470,
+      248,
+      482
+    ],
+    [
+      257,
+      469,
+      324,
+      479
+    ],
+    [
+      500,
+      470,
+      509,
+      479
+    ],
+    [
+      672,
+      468,
+      738,
+      480
+    ],
+    [
+      802,
+      468,
+      880,
+      480
+    ],
+    [
+      66,
+      500,
+      124,
+      512
+    ],
+    [
+      133,
+      500,
+      190,
+      509
+    ],
+    [
+      200,
+      502,
+      209,
+      509
+    ],
+    [
+      218,
+      499,
+      296,
+      509
+    ],
+    [
+      304,
+      500,
+      370,
+      512
+    ],
+    [
+      380,
+      502,
+      437,
+      512
+    ],
+    [
+      446,
+      500,
+      485,
+      509
+    ],
+    [
+      500,
+      500,
+      509,
+      509
+    ],
+    [
+      672,
+      498,
+      738,
+      510
+    ],
+    [
+      802,
+      498,
+      880,
+      510
+    ],
+    [
+      586,
+      556,
+      701,
+      568
+    ],
+    [
+      714,
+      555,
+      829,
+      570
+    ],
+    [
+      586,
+      598,
+      637,
+      610
+    ],
+    [
+      650,
+      597,
+      753,
+      612
+    ],
+    [
+      586,
+      643,
+      692,
+      659
+    ],
+    [
+      709,
+      640,
+      868,
+      661
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 750,
+  "image_height": 1000,
+  "layout_type": "compact",
+  "total_words": 63,
+  "invoice_data": {
+    "invoice_number": "INV-72A33333",
+    "invoice_date": "06/21/2025",
+    "vendor_name": "Francis-Gillespie",
+    "vendor_address": "3720 Marquez Villages, Kellystad, NH 17651",
+    "customer_name": "Briana Black",
+    "customer_address": "818 Jordan Walks, Frankfurt, VI 47736",
+    "line_items": [
+      {
+        "description": "Ferrous alloy punched components",
+        "quantity": 5,
+        "unit_price": 474.37,
+        "unspsc_details": {
+          "segment_name": "Manufacturing Components and Supplies",
+          "family_name": "Stampings and sheet components",
+          "class_name": "Punched components",
+          "commodity_name": "Ferrous alloy punched components",
+          "segment_code": "31000000",
+          "family_code": "31280000",
+          "class_code": "31281800",
+          "commodity_code": "31281802"
+        }
+      },
+      {
+        "description": "Dried calimyrna figs",
+        "quantity": 7,
+        "unit_price": 429.16,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Dried fruit",
+          "class_name": "Dried figs",
+          "commodity_name": "Dried calimyrna figs",
+          "segment_code": "50000000",
+          "family_code": "50320000",
+          "class_code": "50323100",
+          "commodity_code": "50323103"
+        }
+      },
+      {
+        "description": "Moses-Miller Biopsy needles",
+        "quantity": 4,
+        "unit_price": 465.65,
+        "unspsc_details": {
+          "segment_name": "Medical Equipment and Accessories and Supplies",
+          "family_name": "Patient care and treatment products and supplies",
+          "class_name": "Injection and aspiration needles and accessories",
+          "commodity_name": "Biopsy needles",
+          "segment_code": "42000000",
+          "family_code": "42140000",
+          "class_code": "42142500",
+          "commodity_code": "42142504"
+        }
+      },
+      {
+        "description": "Rojas, Sexton a Earliman apricot purees 50WB",
+        "quantity": 7,
+        "unit_price": 403.88,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Fresh fruit purees",
+          "class_name": "Apricot purees",
+          "commodity_name": "Earliman apricot purees",
+          "segment_code": "50000000",
+          "family_code": "50380000",
+          "class_code": "50382000",
+          "commodity_code": "50382014"
+        }
+      }
+    ],
+    "subtotal": 10065.73,
+    "tax_amount": 1006.57,
+    "total_amount": 11072.3
+  }
+}

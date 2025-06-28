@@ -1,0 +1,568 @@
+{
+  "id": "synthetic_invoice_0044",
+  "image_filename": "synthetic_invoice_0044.png",
+  "words": [
+    "RECEIPT",
+    "Invoice",
+    "No.:",
+    "INV-3B1139F9",
+    "Date:",
+    "04/11/2025",
+    "Vendor:",
+    "Smith,",
+    "Harris",
+    "and",
+    "Hicks",
+    "14607",
+    "Daniel",
+    "Fork",
+    "Suite",
+    "245,",
+    "Changshire,",
+    "SC",
+    "60377",
+    "Bill",
+    "To:",
+    "Jill",
+    "Nicholson",
+    "2188",
+    "Christopher",
+    "Spur",
+    "Suite",
+    "070,",
+    "East",
+    "Elizabeth,",
+    "NY",
+    "48011",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Glimepiride/rosiglitazone",
+    "6",
+    "$53.25",
+    "$319.50",
+    "Jackson-Jones",
+    "Dried",
+    "sweet",
+    "granadilla",
+    "passion",
+    "fruit",
+    "1",
+    "$263.46",
+    "$263.46",
+    "Non",
+    "GMO",
+    "ake",
+    "purees",
+    "5",
+    "$204.24",
+    "$1021.20",
+    "Subtotal:",
+    "$1604.16",
+    "Tax:",
+    "$160.42",
+    "TOTAL:",
+    "$1764.58"
+  ],
+  "boxes": [
+    [
+      426,
+      63,
+      573,
+      81
+    ],
+    [
+      75,
+      109,
+      158,
+      120
+    ],
+    [
+      170,
+      109,
+      217,
+      120
+    ],
+    [
+      230,
+      109,
+      373,
+      120
+    ],
+    [
+      75,
+      147,
+      135,
+      158
+    ],
+    [
+      146,
+      147,
+      266,
+      159
+    ],
+    [
+      75,
+      213,
+      158,
+      224
+    ],
+    [
+      170,
+      213,
+      242,
+      227
+    ],
+    [
+      253,
+      213,
+      326,
+      224
+    ],
+    [
+      337,
+      213,
+      373,
+      224
+    ],
+    [
+      385,
+      213,
+      445,
+      224
+    ],
+    [
+      75,
+      252,
+      120,
+      261
+    ],
+    [
+      128,
+      252,
+      182,
+      261
+    ],
+    [
+      191,
+      252,
+      227,
+      261
+    ],
+    [
+      236,
+      253,
+      281,
+      261
+    ],
+    [
+      290,
+      253,
+      326,
+      264
+    ],
+    [
+      335,
+      252,
+      433,
+      264
+    ],
+    [
+      442,
+      253,
+      460,
+      261
+    ],
+    [
+      75,
+      270,
+      120,
+      278
+    ],
+    [
+      75,
+      310,
+      122,
+      321
+    ],
+    [
+      135,
+      310,
+      171,
+      321
+    ],
+    [
+      182,
+      310,
+      230,
+      321
+    ],
+    [
+      242,
+      310,
+      350,
+      321
+    ],
+    [
+      75,
+      347,
+      111,
+      356
+    ],
+    [
+      120,
+      347,
+      218,
+      359
+    ],
+    [
+      227,
+      348,
+      263,
+      359
+    ],
+    [
+      272,
+      348,
+      317,
+      356
+    ],
+    [
+      326,
+      348,
+      362,
+      359
+    ],
+    [
+      371,
+      348,
+      407,
+      356
+    ],
+    [
+      75,
+      363,
+      165,
+      375
+    ],
+    [
+      173,
+      364,
+      191,
+      372
+    ],
+    [
+      200,
+      363,
+      245,
+      372
+    ],
+    [
+      75,
+      409,
+      207,
+      422
+    ],
+    [
+      500,
+      409,
+      536,
+      422
+    ],
+    [
+      668,
+      409,
+      728,
+      420
+    ],
+    [
+      797,
+      409,
+      857,
+      420
+    ],
+    [
+      75,
+      439,
+      300,
+      450
+    ],
+    [
+      500,
+      440,
+      508,
+      448
+    ],
+    [
+      668,
+      438,
+      722,
+      449
+    ],
+    [
+      797,
+      438,
+      860,
+      449
+    ],
+    [
+      75,
+      469,
+      192,
+      478
+    ],
+    [
+      200,
+      469,
+      245,
+      478
+    ],
+    [
+      253,
+      470,
+      298,
+      478
+    ],
+    [
+      307,
+      469,
+      397,
+      480
+    ],
+    [
+      406,
+      470,
+      468,
+      480
+    ],
+    [
+      75,
+      485,
+      120,
+      494
+    ],
+    [
+      500,
+      469,
+      508,
+      478
+    ],
+    [
+      668,
+      468,
+      731,
+      479
+    ],
+    [
+      797,
+      468,
+      860,
+      479
+    ],
+    [
+      75,
+      500,
+      102,
+      508
+    ],
+    [
+      110,
+      500,
+      137,
+      508
+    ],
+    [
+      145,
+      499,
+      172,
+      508
+    ],
+    [
+      180,
+      501,
+      233,
+      510
+    ],
+    [
+      500,
+      500,
+      508,
+      508
+    ],
+    [
+      668,
+      498,
+      731,
+      509
+    ],
+    [
+      797,
+      498,
+      870,
+      509
+    ],
+    [
+      585,
+      558,
+      692,
+      569
+    ],
+    [
+      705,
+      557,
+      801,
+      570
+    ],
+    [
+      585,
+      599,
+      632,
+      610
+    ],
+    [
+      645,
+      598,
+      728,
+      611
+    ],
+    [
+      585,
+      642,
+      683,
+      657
+    ],
+    [
+      700,
+      640,
+      832,
+      659
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    0,
+    0,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 800,
+  "image_height": 1100,
+  "layout_type": "standard",
+  "total_words": 62,
+  "invoice_data": {
+    "invoice_number": "INV-3B1139F9",
+    "invoice_date": "04/11/2025",
+    "vendor_name": "Smith, Harris and Hicks",
+    "vendor_address": "14607 Daniel Fork Suite 245, Changshire, SC 60377",
+    "customer_name": "Jill Nicholson",
+    "customer_address": "2188 Christopher Spur Suite 070, East Elizabeth, NY 48011",
+    "line_items": [
+      {
+        "description": "Glimepiride/rosiglitazone",
+        "quantity": 6,
+        "unit_price": 53.25,
+        "unspsc_details": {
+          "segment_name": "Drugs and Pharmaceutical Products",
+          "family_name": "Hormones and hormone antagonists",
+          "class_name": "Combination oral hypoglycemic agents",
+          "commodity_name": "Glimepiride/rosiglitazone",
+          "segment_code": "51000000",
+          "family_code": "51180000",
+          "class_code": "51182700",
+          "commodity_code": "51182702"
+        }
+      },
+      {
+        "description": "Jackson-Jones Dried sweet granadilla passion fruit",
+        "quantity": 1,
+        "unit_price": 263.46,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Dried fruit",
+          "class_name": "Dried passion fruit",
+          "commodity_name": "Dried sweet granadilla passion fruit",
+          "segment_code": "50000000",
+          "family_code": "50320000",
+          "class_code": "50325200",
+          "commodity_code": "50325208"
+        }
+      },
+      {
+        "description": "Non GMO ake purees",
+        "quantity": 5,
+        "unit_price": 204.24,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Non GMO fresh fruit purees",
+          "class_name": "Nominant Non GMO fruit purees",
+          "commodity_name": "Non GMO ake purees",
+          "segment_code": "50000000",
+          "family_code": "50560000",
+          "class_code": "50566900",
+          "commodity_code": "50566901"
+        }
+      }
+    ],
+    "subtotal": 1604.16,
+    "tax_amount": 160.42,
+    "total_amount": 1764.58
+  }
+}

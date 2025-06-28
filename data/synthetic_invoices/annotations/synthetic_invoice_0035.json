@@ -1,0 +1,647 @@
+{
+  "id": "synthetic_invoice_0035",
+  "image_filename": "synthetic_invoice_0035.png",
+  "words": [
+    "INVOICE",
+    "Invoice",
+    "No.:",
+    "INV-F7F33112",
+    "Date:",
+    "07/29/2024",
+    "Vendor:",
+    "Silva",
+    "Ltd",
+    "5508",
+    "Danielle",
+    "Common,",
+    "Gibbston,",
+    "WV",
+    "35000",
+    "Bill",
+    "To:",
+    "Michelle",
+    "Bridges",
+    "325",
+    "Ruiz",
+    "Loaf",
+    "Apt.",
+    "333,",
+    "West",
+    "Michaelshire,",
+    "TN",
+    "49800",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Alcohol",
+    "free",
+    "cocktails",
+    "or",
+    "drink",
+    "mixes",
+    "05VG",
+    "10",
+    "$88.00",
+    "$880.00",
+    "Dental",
+    "margin",
+    "trimmers",
+    "94iV",
+    "2",
+    "$253.82",
+    "$507.64",
+    "Mendoza,",
+    "Clark",
+    "Live",
+    "corrida",
+    "rose",
+    "bush",
+    "10aV",
+    "1",
+    "$146.72",
+    "$146.72",
+    "Tin",
+    "channels",
+    "6",
+    "$221.29",
+    "$1327.74",
+    "Subtotal:",
+    "$2862.10",
+    "Tax:",
+    "$143.10",
+    "TOTAL:",
+    "$3005.20"
+  ],
+  "boxes": [
+    [
+      426,
+      63,
+      573,
+      81
+    ],
+    [
+      75,
+      109,
+      158,
+      120
+    ],
+    [
+      170,
+      109,
+      217,
+      120
+    ],
+    [
+      230,
+      109,
+      373,
+      120
+    ],
+    [
+      75,
+      147,
+      135,
+      158
+    ],
+    [
+      146,
+      147,
+      266,
+      159
+    ],
+    [
+      75,
+      213,
+      158,
+      224
+    ],
+    [
+      170,
+      213,
+      230,
+      224
+    ],
+    [
+      241,
+      213,
+      277,
+      224
+    ],
+    [
+      75,
+      250,
+      111,
+      259
+    ],
+    [
+      120,
+      250,
+      192,
+      259
+    ],
+    [
+      200,
+      250,
+      262,
+      261
+    ],
+    [
+      271,
+      250,
+      352,
+      261
+    ],
+    [
+      361,
+      250,
+      378,
+      259
+    ],
+    [
+      387,
+      250,
+      432,
+      259
+    ],
+    [
+      75,
+      295,
+      122,
+      306
+    ],
+    [
+      135,
+      295,
+      171,
+      306
+    ],
+    [
+      182,
+      295,
+      278,
+      306
+    ],
+    [
+      290,
+      295,
+      373,
+      309
+    ],
+    [
+      75,
+      335,
+      102,
+      343
+    ],
+    [
+      110,
+      335,
+      146,
+      343
+    ],
+    [
+      155,
+      334,
+      191,
+      343
+    ],
+    [
+      200,
+      335,
+      236,
+      346
+    ],
+    [
+      245,
+      335,
+      281,
+      346
+    ],
+    [
+      290,
+      335,
+      326,
+      343
+    ],
+    [
+      335,
+      334,
+      452,
+      346
+    ],
+    [
+      460,
+      335,
+      477,
+      343
+    ],
+    [
+      75,
+      351,
+      120,
+      360
+    ],
+    [
+      75,
+      392,
+      207,
+      406
+    ],
+    [
+      500,
+      392,
+      536,
+      406
+    ],
+    [
+      668,
+      392,
+      728,
+      403
+    ],
+    [
+      797,
+      392,
+      857,
+      403
+    ],
+    [
+      75,
+      422,
+      137,
+      431
+    ],
+    [
+      146,
+      422,
+      182,
+      431
+    ],
+    [
+      191,
+      422,
+      272,
+      431
+    ],
+    [
+      281,
+      425,
+      298,
+      431
+    ],
+    [
+      307,
+      422,
+      352,
+      431
+    ],
+    [
+      361,
+      423,
+      406,
+      431
+    ],
+    [
+      415,
+      423,
+      451,
+      431
+    ],
+    [
+      500,
+      422,
+      517,
+      431
+    ],
+    [
+      668,
+      421,
+      722,
+      432
+    ],
+    [
+      797,
+      421,
+      860,
+      432
+    ],
+    [
+      75,
+      452,
+      128,
+      461
+    ],
+    [
+      137,
+      453,
+      191,
+      464
+    ],
+    [
+      200,
+      453,
+      272,
+      461
+    ],
+    [
+      280,
+      453,
+      316,
+      461
+    ],
+    [
+      500,
+      453,
+      508,
+      461
+    ],
+    [
+      668,
+      451,
+      731,
+      462
+    ],
+    [
+      797,
+      451,
+      860,
+      462
+    ],
+    [
+      75,
+      482,
+      147,
+      494
+    ],
+    [
+      155,
+      482,
+      200,
+      491
+    ],
+    [
+      208,
+      483,
+      245,
+      491
+    ],
+    [
+      253,
+      482,
+      316,
+      491
+    ],
+    [
+      325,
+      485,
+      361,
+      491
+    ],
+    [
+      370,
+      482,
+      406,
+      491
+    ],
+    [
+      415,
+      482,
+      451,
+      491
+    ],
+    [
+      500,
+      482,
+      508,
+      491
+    ],
+    [
+      668,
+      481,
+      731,
+      492
+    ],
+    [
+      797,
+      481,
+      860,
+      492
+    ],
+    [
+      75,
+      513,
+      102,
+      521
+    ],
+    [
+      110,
+      512,
+      182,
+      521
+    ],
+    [
+      500,
+      513,
+      508,
+      521
+    ],
+    [
+      668,
+      511,
+      731,
+      522
+    ],
+    [
+      797,
+      511,
+      870,
+      522
+    ],
+    [
+      585,
+      571,
+      692,
+      582
+    ],
+    [
+      705,
+      570,
+      801,
+      584
+    ],
+    [
+      585,
+      612,
+      632,
+      623
+    ],
+    [
+      645,
+      611,
+      728,
+      625
+    ],
+    [
+      585,
+      656,
+      683,
+      670
+    ],
+    [
+      700,
+      653,
+      832,
+      672
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 800,
+  "image_height": 1100,
+  "layout_type": "standard",
+  "total_words": 70,
+  "invoice_data": {
+    "invoice_number": "INV-F7F33112",
+    "invoice_date": "07/29/2024",
+    "vendor_name": "Silva Ltd",
+    "vendor_address": "5508 Danielle Common, Gibbston, WV 35000",
+    "customer_name": "Michelle Bridges",
+    "customer_address": "325 Ruiz Loaf Apt. 333, West Michaelshire, TN 49800",
+    "line_items": [
+      {
+        "description": "Alcohol free cocktails or drink mixes 05VG",
+        "quantity": 10,
+        "unit_price": 88.0,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Beverages",
+          "class_name": "Non alcoholic beverages",
+          "commodity_name": "Alcohol free cocktails or drink mixes",
+          "segment_code": "50000000",
+          "family_code": "50200000",
+          "class_code": "50202300",
+          "commodity_code": "50202308"
+        }
+      },
+      {
+        "description": "Dental margin trimmers 94iV",
+        "quantity": 2,
+        "unit_price": 253.82,
+        "unspsc_details": {
+          "segment_name": "Medical Equipment and Accessories and Supplies",
+          "family_name": "Dental equipment and supplies",
+          "class_name": "Dental and subspecialty instruments and devices",
+          "commodity_name": "Dental margin trimmers",
+          "segment_code": "42000000",
+          "family_code": "42150000",
+          "class_code": "42151600",
+          "commodity_code": "42151643"
+        }
+      },
+      {
+        "description": "Mendoza, Clark  Live corrida rose bush 10aV",
+        "quantity": 1,
+        "unit_price": 146.72,
+        "unspsc_details": {
+          "segment_name": "Live Plant and Animal Material and Accessories and Supplies",
+          "family_name": "Live rose bushes",
+          "class_name": "Live red or burgundy rose bushes",
+          "commodity_name": "Live corrida rose bush",
+          "segment_code": "10000000",
+          "family_code": "10200000",
+          "class_code": "10202400",
+          "commodity_code": "10202418"
+        }
+      },
+      {
+        "description": "Tin channels",
+        "quantity": 6,
+        "unit_price": 221.29,
+        "unspsc_details": {
+          "segment_name": "Structures and Building and Construction and Manufacturing Components and Supplies",
+          "family_name": "Structural components and basic shapes",
+          "class_name": "Channels",
+          "commodity_name": "Tin channels",
+          "segment_code": "30000000",
+          "family_code": "30100000",
+          "class_code": "30101800",
+          "commodity_code": "30101813"
+        }
+      }
+    ],
+    "subtotal": 2862.1,
+    "tax_amount": 143.1,
+    "total_amount": 3005.2
+  }
+}

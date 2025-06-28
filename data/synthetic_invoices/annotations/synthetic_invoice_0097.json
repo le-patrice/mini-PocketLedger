@@ -1,0 +1,647 @@
+{
+  "id": "synthetic_invoice_0097",
+  "image_filename": "synthetic_invoice_0097.png",
+  "words": [
+    "INVOICE",
+    "Invoice",
+    "No.:",
+    "INV-D17C1739",
+    "Date:",
+    "05/09/2025",
+    "Vendor:",
+    "Russell-Pearson",
+    "93228",
+    "Martin",
+    "Wall",
+    "Suite",
+    "629,",
+    "South",
+    "Patrickbury,",
+    "CT",
+    "20458",
+    "Bill",
+    "To:",
+    "Ryan",
+    "Romero",
+    "5633",
+    "Jonathan",
+    "Dale",
+    "Suite",
+    "036,",
+    "North",
+    "Ericview,",
+    "MA",
+    "75724",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Drill",
+    "pipe",
+    "thread",
+    "protectors",
+    "43ZO",
+    "9",
+    "$218.28",
+    "$1964.52",
+    "Pope,",
+    "Richardso",
+    "Refrigerated",
+    "incubators",
+    "2",
+    "$429.29",
+    "$858.58",
+    "Voluntary",
+    "military",
+    "services",
+    "4",
+    "$25.42",
+    "$101.68",
+    "Goodwin-Burgess",
+    "Live",
+    "royal",
+    "circus",
+    "rose",
+    "bush",
+    "4",
+    "$428.00",
+    "$1712.00",
+    "Subtotal:",
+    "$4636.78",
+    "Tax:",
+    "$324.57",
+    "TOTAL:",
+    "$4961.35"
+  ],
+  "boxes": [
+    [
+      426,
+      63,
+      573,
+      81
+    ],
+    [
+      75,
+      109,
+      158,
+      120
+    ],
+    [
+      170,
+      109,
+      217,
+      120
+    ],
+    [
+      230,
+      109,
+      373,
+      120
+    ],
+    [
+      75,
+      147,
+      135,
+      158
+    ],
+    [
+      146,
+      147,
+      266,
+      159
+    ],
+    [
+      75,
+      213,
+      158,
+      224
+    ],
+    [
+      170,
+      213,
+      350,
+      224
+    ],
+    [
+      75,
+      250,
+      120,
+      259
+    ],
+    [
+      128,
+      250,
+      182,
+      259
+    ],
+    [
+      191,
+      250,
+      227,
+      259
+    ],
+    [
+      236,
+      250,
+      281,
+      259
+    ],
+    [
+      290,
+      250,
+      326,
+      261
+    ],
+    [
+      335,
+      250,
+      380,
+      259
+    ],
+    [
+      388,
+      250,
+      496,
+      261
+    ],
+    [
+      75,
+      267,
+      92,
+      275
+    ],
+    [
+      101,
+      267,
+      146,
+      275
+    ],
+    [
+      75,
+      308,
+      122,
+      319
+    ],
+    [
+      135,
+      308,
+      171,
+      319
+    ],
+    [
+      182,
+      308,
+      230,
+      321
+    ],
+    [
+      242,
+      308,
+      315,
+      319
+    ],
+    [
+      75,
+      348,
+      111,
+      356
+    ],
+    [
+      120,
+      347,
+      192,
+      356
+    ],
+    [
+      200,
+      347,
+      236,
+      356
+    ],
+    [
+      245,
+      348,
+      290,
+      356
+    ],
+    [
+      298,
+      348,
+      335,
+      359
+    ],
+    [
+      343,
+      347,
+      388,
+      356
+    ],
+    [
+      397,
+      348,
+      478,
+      359
+    ],
+    [
+      75,
+      364,
+      92,
+      372
+    ],
+    [
+      101,
+      364,
+      146,
+      372
+    ],
+    [
+      75,
+      405,
+      207,
+      419
+    ],
+    [
+      500,
+      405,
+      536,
+      419
+    ],
+    [
+      668,
+      405,
+      728,
+      416
+    ],
+    [
+      797,
+      405,
+      857,
+      416
+    ],
+    [
+      75,
+      435,
+      120,
+      444
+    ],
+    [
+      128,
+      436,
+      165,
+      447
+    ],
+    [
+      173,
+      435,
+      227,
+      444
+    ],
+    [
+      236,
+      436,
+      326,
+      447
+    ],
+    [
+      335,
+      436,
+      371,
+      444
+    ],
+    [
+      500,
+      436,
+      508,
+      444
+    ],
+    [
+      668,
+      434,
+      731,
+      445
+    ],
+    [
+      797,
+      434,
+      870,
+      445
+    ],
+    [
+      75,
+      466,
+      120,
+      477
+    ],
+    [
+      128,
+      465,
+      210,
+      474
+    ],
+    [
+      218,
+      465,
+      326,
+      477
+    ],
+    [
+      335,
+      465,
+      425,
+      474
+    ],
+    [
+      500,
+      466,
+      508,
+      474
+    ],
+    [
+      668,
+      464,
+      731,
+      475
+    ],
+    [
+      797,
+      464,
+      860,
+      475
+    ],
+    [
+      75,
+      495,
+      156,
+      507
+    ],
+    [
+      165,
+      495,
+      237,
+      507
+    ],
+    [
+      245,
+      496,
+      317,
+      504
+    ],
+    [
+      500,
+      496,
+      508,
+      504
+    ],
+    [
+      668,
+      494,
+      722,
+      505
+    ],
+    [
+      797,
+      494,
+      860,
+      505
+    ],
+    [
+      75,
+      525,
+      210,
+      537
+    ],
+    [
+      218,
+      526,
+      255,
+      534
+    ],
+    [
+      263,
+      525,
+      308,
+      537
+    ],
+    [
+      317,
+      526,
+      371,
+      534
+    ],
+    [
+      380,
+      528,
+      416,
+      534
+    ],
+    [
+      425,
+      525,
+      461,
+      534
+    ],
+    [
+      500,
+      526,
+      508,
+      534
+    ],
+    [
+      668,
+      524,
+      731,
+      535
+    ],
+    [
+      797,
+      524,
+      870,
+      535
+    ],
+    [
+      585,
+      584,
+      692,
+      595
+    ],
+    [
+      705,
+      583,
+      801,
+      597
+    ],
+    [
+      585,
+      625,
+      632,
+      636
+    ],
+    [
+      645,
+      624,
+      728,
+      638
+    ],
+    [
+      585,
+      669,
+      683,
+      683
+    ],
+    [
+      700,
+      666,
+      832,
+      685
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 800,
+  "image_height": 1100,
+  "layout_type": "standard",
+  "total_words": 70,
+  "invoice_data": {
+    "invoice_number": "INV-D17C1739",
+    "invoice_date": "05/09/2025",
+    "vendor_name": "Russell-Pearson",
+    "vendor_address": "93228 Martin Wall Suite 629, South Patrickbury, CT 20458",
+    "customer_name": "Ryan Romero",
+    "customer_address": "5633 Jonathan Dale Suite 036, North Ericview, MA 75724",
+    "line_items": [
+      {
+        "description": "Drill pipe thread protectors 43ZO",
+        "quantity": 9,
+        "unit_price": 218.28,
+        "unspsc_details": {
+          "segment_name": "Mining and Well Drilling Machinery and Accessories",
+          "family_name": "Oil and gas drilling and exploration equipment",
+          "class_name": "Conventional drilling tools",
+          "commodity_name": "Drill pipe thread protectors",
+          "segment_code": "20000000",
+          "family_code": "20120000",
+          "class_code": "20121500",
+          "commodity_code": "20121506"
+        }
+      },
+      {
+        "description": "Pope, Richardso Refrigerated incubators",
+        "quantity": 2,
+        "unit_price": 429.29,
+        "unspsc_details": {
+          "segment_name": "Laboratory and Measuring and Observing and Testing Equipment",
+          "family_name": "Laboratory and scientific equipment",
+          "class_name": "Laboratory incubating equipment",
+          "commodity_name": "Refrigerated incubators",
+          "segment_code": "41000000",
+          "family_code": "41100000",
+          "class_code": "41104400",
+          "commodity_code": "41104423"
+        }
+      },
+      {
+        "description": "Voluntary military services",
+        "quantity": 4,
+        "unit_price": 25.42,
+        "unspsc_details": {
+          "segment_name": "National Defense and Public Order and Security and Safety Services",
+          "family_name": "Military services and national defense",
+          "class_name": "Military personnel and discipline",
+          "commodity_name": "Voluntary military services",
+          "segment_code": "92000000",
+          "family_code": "92110000",
+          "class_code": "92111800",
+          "commodity_code": "92111803"
+        }
+      },
+      {
+        "description": "Goodwin-Burgess Live royal circus rose bush",
+        "quantity": 4,
+        "unit_price": 428.0,
+        "unspsc_details": {
+          "segment_name": "Live Plant and Animal Material and Accessories and Supplies",
+          "family_name": "Live rose bushes",
+          "class_name": "Live orange rose bushes",
+          "commodity_name": "Live royal circus rose bush",
+          "segment_code": "10000000",
+          "family_code": "10200000",
+          "class_code": "10202100",
+          "commodity_code": "10202170"
+        }
+      }
+    ],
+    "subtotal": 4636.78,
+    "tax_amount": 324.57,
+    "total_amount": 4961.35
+  }
+}

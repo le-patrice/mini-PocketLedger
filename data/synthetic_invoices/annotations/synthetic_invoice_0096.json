@@ -1,0 +1,679 @@
+{
+  "id": "synthetic_invoice_0096",
+  "image_filename": "synthetic_invoice_0096.png",
+  "words": [
+    "RECEIPT",
+    "Invoice",
+    "No.:",
+    "INV-AB964ABB",
+    "Date:",
+    "06/24/2025",
+    "Vendor:",
+    "Knox",
+    "LLC",
+    "113",
+    "James",
+    "Field,",
+    "North",
+    "Gregoryview,",
+    "MO",
+    "56381",
+    "Bill",
+    "To:",
+    "Amy",
+    "Moody",
+    "PSC",
+    "4820,",
+    "Box",
+    "2376,",
+    "APO",
+    "AA",
+    "24701",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Zimmerman,",
+    "Jone",
+    "Motion",
+    "pictures",
+    "on",
+    "video",
+    "tape",
+    "51Px",
+    "8",
+    "$87.94",
+    "$703.52",
+    "Lamp",
+    "and",
+    "lamp",
+    "fixture",
+    "guard",
+    "4",
+    "$387.70",
+    "$1550.80",
+    "Long-Carter",
+    "Dried",
+    "baby",
+    "red",
+    "romaine",
+    "lettuce",
+    "1",
+    "$481.10",
+    "$481.10",
+    "French,",
+    "Torres",
+    "Frozen",
+    "non",
+    "GMO",
+    "youngberries",
+    "2",
+    "$94.50",
+    "$189.00",
+    "Subtotal:",
+    "$2924.42",
+    "Tax:",
+    "$146.22",
+    "TOTAL:",
+    "$3070.64"
+  ],
+  "boxes": [
+    [
+      401,
+      55,
+      598,
+      77
+    ],
+    [
+      66,
+      100,
+      178,
+      113
+    ],
+    [
+      193,
+      100,
+      256,
+      113
+    ],
+    [
+      273,
+      100,
+      465,
+      113
+    ],
+    [
+      66,
+      141,
+      146,
+      154
+    ],
+    [
+      161,
+      141,
+      321,
+      155
+    ],
+    [
+      66,
+      205,
+      178,
+      218
+    ],
+    [
+      193,
+      205,
+      256,
+      218
+    ],
+    [
+      273,
+      205,
+      321,
+      218
+    ],
+    [
+      66,
+      244,
+      103,
+      255
+    ],
+    [
+      113,
+      245,
+      173,
+      255
+    ],
+    [
+      185,
+      244,
+      256,
+      258
+    ],
+    [
+      268,
+      244,
+      328,
+      255
+    ],
+    [
+      340,
+      245,
+      483,
+      258
+    ],
+    [
+      66,
+      265,
+      90,
+      275
+    ],
+    [
+      101,
+      264,
+      161,
+      275
+    ],
+    [
+      66,
+      305,
+      130,
+      318
+    ],
+    [
+      146,
+      305,
+      195,
+      318
+    ],
+    [
+      210,
+      305,
+      258,
+      322
+    ],
+    [
+      273,
+      305,
+      353,
+      322
+    ],
+    [
+      66,
+      348,
+      103,
+      358
+    ],
+    [
+      113,
+      348,
+      173,
+      362
+    ],
+    [
+      185,
+      348,
+      221,
+      358
+    ],
+    [
+      231,
+      348,
+      291,
+      362
+    ],
+    [
+      303,
+      348,
+      340,
+      358
+    ],
+    [
+      350,
+      348,
+      373,
+      358
+    ],
+    [
+      385,
+      347,
+      445,
+      358
+    ],
+    [
+      66,
+      392,
+      243,
+      408
+    ],
+    [
+      500,
+      392,
+      548,
+      408
+    ],
+    [
+      673,
+      392,
+      753,
+      405
+    ],
+    [
+      803,
+      392,
+      883,
+      405
+    ],
+    [
+      66,
+      430,
+      186,
+      443
+    ],
+    [
+      198,
+      430,
+      246,
+      440
+    ],
+    [
+      258,
+      430,
+      330,
+      440
+    ],
+    [
+      341,
+      430,
+      438,
+      443
+    ],
+    [
+      448,
+      432,
+      471,
+      440
+    ],
+    [
+      66,
+      447,
+      126,
+      458
+    ],
+    [
+      138,
+      448,
+      186,
+      462
+    ],
+    [
+      198,
+      447,
+      246,
+      458
+    ],
+    [
+      500,
+      430,
+      511,
+      440
+    ],
+    [
+      673,
+      427,
+      745,
+      441
+    ],
+    [
+      803,
+      427,
+      886,
+      441
+    ],
+    [
+      66,
+      461,
+      115,
+      474
+    ],
+    [
+      126,
+      460,
+      163,
+      471
+    ],
+    [
+      173,
+      460,
+      221,
+      474
+    ],
+    [
+      233,
+      460,
+      316,
+      471
+    ],
+    [
+      328,
+      460,
+      388,
+      474
+    ],
+    [
+      500,
+      461,
+      511,
+      471
+    ],
+    [
+      673,
+      458,
+      756,
+      472
+    ],
+    [
+      803,
+      458,
+      900,
+      472
+    ],
+    [
+      66,
+      492,
+      198,
+      505
+    ],
+    [
+      210,
+      491,
+      270,
+      502
+    ],
+    [
+      281,
+      491,
+      330,
+      505
+    ],
+    [
+      341,
+      491,
+      378,
+      502
+    ],
+    [
+      388,
+      492,
+      471,
+      502
+    ],
+    [
+      66,
+      511,
+      150,
+      522
+    ],
+    [
+      500,
+      491,
+      511,
+      502
+    ],
+    [
+      673,
+      490,
+      756,
+      503
+    ],
+    [
+      803,
+      490,
+      886,
+      503
+    ],
+    [
+      66,
+      522,
+      150,
+      536
+    ],
+    [
+      161,
+      523,
+      233,
+      533
+    ],
+    [
+      245,
+      523,
+      316,
+      533
+    ],
+    [
+      328,
+      525,
+      365,
+      533
+    ],
+    [
+      375,
+      523,
+      411,
+      533
+    ],
+    [
+      66,
+      542,
+      210,
+      556
+    ],
+    [
+      500,
+      523,
+      511,
+      533
+    ],
+    [
+      673,
+      521,
+      745,
+      534
+    ],
+    [
+      803,
+      521,
+      886,
+      534
+    ],
+    [
+      586,
+      577,
+      730,
+      591
+    ],
+    [
+      746,
+      576,
+      875,
+      593
+    ],
+    [
+      586,
+      622,
+      650,
+      635
+    ],
+    [
+      666,
+      621,
+      778,
+      637
+    ],
+    [
+      586,
+      670,
+      718,
+      687
+    ],
+    [
+      586,
+      690,
+      763,
+      713
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 600,
+  "image_height": 900,
+  "layout_type": "receipt",
+  "total_words": 74,
+  "invoice_data": {
+    "invoice_number": "INV-AB964ABB",
+    "invoice_date": "06/24/2025",
+    "vendor_name": "Knox LLC",
+    "vendor_address": "113 James Field, North Gregoryview, MO 56381",
+    "customer_name": "Amy Moody",
+    "customer_address": "PSC 4820, Box 2376, APO AA 24701",
+    "line_items": [
+      {
+        "description": "Zimmerman, Jone Motion pictures on video tape 51Px",
+        "quantity": 8,
+        "unit_price": 87.94,
+        "unspsc_details": {
+          "segment_name": "Published Products",
+          "family_name": "Electronic reference material",
+          "class_name": "Electronic publications and music",
+          "commodity_name": "Motion pictures on video tape",
+          "segment_code": "55000000",
+          "family_code": "55110000",
+          "class_code": "55111500",
+          "commodity_code": "55111511"
+        }
+      },
+      {
+        "description": "Lamp and lamp fixture guard",
+        "quantity": 4,
+        "unit_price": 387.7,
+        "unspsc_details": {
+          "segment_name": "Electrical Systems and Lighting and Components and Accessories and Supplies",
+          "family_name": "Lighting Fixtures and Accessories",
+          "class_name": "Lighting accessories",
+          "commodity_name": "Lamp and lamp fixture guard",
+          "segment_code": "39000000",
+          "family_code": "39110000",
+          "class_code": "39111800",
+          "commodity_code": "39111815"
+        }
+      },
+      {
+        "description": "Long-Carter Dried baby red romaine lettuce",
+        "quantity": 1,
+        "unit_price": 481.1,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Dried vegetables",
+          "class_name": "Dried lettuces",
+          "commodity_name": "Dried baby red romaine lettuce",
+          "segment_code": "50000000",
+          "family_code": "50420000",
+          "class_code": "50424600",
+          "commodity_code": "50424610"
+        }
+      },
+      {
+        "description": "French, Torres  Frozen non GMO youngberries",
+        "quantity": 2,
+        "unit_price": 94.5,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Frozen non GMO fruits",
+          "class_name": "Frozen non GMO blackberries",
+          "commodity_name": "Frozen non GMO youngberries",
+          "segment_code": "50000000",
+          "family_code": "50540000",
+          "class_code": "50542000",
+          "commodity_code": "50542015"
+        }
+      }
+    ],
+    "subtotal": 2924.42,
+    "tax_amount": 146.22,
+    "total_amount": 3070.64
+  }
+}

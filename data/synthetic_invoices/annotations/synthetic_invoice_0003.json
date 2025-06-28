@@ -1,0 +1,671 @@
+{
+  "id": "synthetic_invoice_0003",
+  "image_filename": "synthetic_invoice_0003.png",
+  "words": [
+    "RECEIPT",
+    "Invoice",
+    "No.:",
+    "INV-05ADE318",
+    "Date:",
+    "03/30/2025",
+    "Vendor:",
+    "Garner",
+    "LLC",
+    "USCGC",
+    "Aguilar,",
+    "FPO",
+    "AP",
+    "41050",
+    "Bill",
+    "To:",
+    "Marcus",
+    "Stokes",
+    "88389",
+    "Sanders",
+    "Row",
+    "Apt.",
+    "716,",
+    "Smithside,",
+    "OH",
+    "86903",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Canned",
+    "or",
+    "jarred",
+    "organic",
+    "gundila",
+    "dates",
+    "6",
+    "$417.78",
+    "$2506.68",
+    "Campbell",
+    "Inc",
+    "Dried",
+    "non",
+    "GMO",
+    "rowanberries",
+    "8",
+    "$284.62",
+    "$2276.96",
+    "Arnold-Gonzalez",
+    "Stainless",
+    "steel",
+    "pipe",
+    "bushing",
+    "40di",
+    "6",
+    "$140.77",
+    "$844.62",
+    "Vasquez-Beck",
+    "Non",
+    "GMO",
+    "stuttgarter",
+    "giant",
+    "onion",
+    "purees",
+    "10",
+    "$215.75",
+    "$2157.50",
+    "Subtotal:",
+    "$7785.76",
+    "Tax:",
+    "$389.29",
+    "TOTAL:",
+    "$8175.05"
+  ],
+  "boxes": [
+    [
+      426,
+      63,
+      573,
+      81
+    ],
+    [
+      75,
+      109,
+      158,
+      120
+    ],
+    [
+      170,
+      109,
+      217,
+      120
+    ],
+    [
+      230,
+      109,
+      373,
+      120
+    ],
+    [
+      75,
+      147,
+      135,
+      158
+    ],
+    [
+      146,
+      147,
+      266,
+      159
+    ],
+    [
+      75,
+      213,
+      158,
+      224
+    ],
+    [
+      170,
+      213,
+      242,
+      224
+    ],
+    [
+      253,
+      213,
+      290,
+      224
+    ],
+    [
+      75,
+      250,
+      120,
+      259
+    ],
+    [
+      128,
+      250,
+      201,
+      261
+    ],
+    [
+      208,
+      250,
+      236,
+      259
+    ],
+    [
+      243,
+      250,
+      261,
+      259
+    ],
+    [
+      270,
+      250,
+      315,
+      259
+    ],
+    [
+      75,
+      295,
+      122,
+      306
+    ],
+    [
+      135,
+      295,
+      171,
+      306
+    ],
+    [
+      182,
+      295,
+      255,
+      306
+    ],
+    [
+      266,
+      295,
+      338,
+      306
+    ],
+    [
+      75,
+      332,
+      120,
+      340
+    ],
+    [
+      128,
+      331,
+      191,
+      340
+    ],
+    [
+      200,
+      332,
+      227,
+      340
+    ],
+    [
+      235,
+      332,
+      271,
+      343
+    ],
+    [
+      280,
+      331,
+      316,
+      343
+    ],
+    [
+      325,
+      331,
+      415,
+      343
+    ],
+    [
+      423,
+      332,
+      441,
+      340
+    ],
+    [
+      450,
+      332,
+      495,
+      340
+    ],
+    [
+      75,
+      377,
+      207,
+      390
+    ],
+    [
+      500,
+      377,
+      536,
+      390
+    ],
+    [
+      668,
+      377,
+      728,
+      388
+    ],
+    [
+      797,
+      377,
+      857,
+      388
+    ],
+    [
+      75,
+      407,
+      128,
+      416
+    ],
+    [
+      137,
+      410,
+      155,
+      416
+    ],
+    [
+      163,
+      407,
+      217,
+      419
+    ],
+    [
+      226,
+      408,
+      288,
+      419
+    ],
+    [
+      297,
+      407,
+      360,
+      419
+    ],
+    [
+      368,
+      407,
+      413,
+      416
+    ],
+    [
+      500,
+      408,
+      508,
+      416
+    ],
+    [
+      668,
+      406,
+      731,
+      417
+    ],
+    [
+      797,
+      406,
+      870,
+      417
+    ],
+    [
+      75,
+      437,
+      147,
+      449
+    ],
+    [
+      155,
+      438,
+      182,
+      446
+    ],
+    [
+      190,
+      437,
+      235,
+      446
+    ],
+    [
+      243,
+      440,
+      271,
+      446
+    ],
+    [
+      278,
+      438,
+      306,
+      446
+    ],
+    [
+      313,
+      437,
+      421,
+      446
+    ],
+    [
+      500,
+      438,
+      508,
+      446
+    ],
+    [
+      668,
+      436,
+      731,
+      447
+    ],
+    [
+      797,
+      436,
+      870,
+      447
+    ],
+    [
+      75,
+      467,
+      210,
+      476
+    ],
+    [
+      218,
+      467,
+      300,
+      476
+    ],
+    [
+      308,
+      467,
+      353,
+      476
+    ],
+    [
+      362,
+      468,
+      398,
+      479
+    ],
+    [
+      407,
+      467,
+      470,
+      479
+    ],
+    [
+      75,
+      483,
+      111,
+      492
+    ],
+    [
+      500,
+      468,
+      508,
+      476
+    ],
+    [
+      668,
+      466,
+      731,
+      477
+    ],
+    [
+      797,
+      466,
+      860,
+      477
+    ],
+    [
+      75,
+      497,
+      182,
+      509
+    ],
+    [
+      191,
+      498,
+      218,
+      506
+    ],
+    [
+      226,
+      498,
+      253,
+      506
+    ],
+    [
+      261,
+      498,
+      360,
+      509
+    ],
+    [
+      368,
+      498,
+      413,
+      509
+    ],
+    [
+      422,
+      498,
+      467,
+      506
+    ],
+    [
+      75,
+      516,
+      128,
+      525
+    ],
+    [
+      500,
+      497,
+      517,
+      506
+    ],
+    [
+      668,
+      496,
+      731,
+      507
+    ],
+    [
+      797,
+      496,
+      870,
+      507
+    ],
+    [
+      585,
+      556,
+      692,
+      567
+    ],
+    [
+      705,
+      555,
+      801,
+      569
+    ],
+    [
+      585,
+      597,
+      632,
+      608
+    ],
+    [
+      645,
+      596,
+      728,
+      610
+    ],
+    [
+      585,
+      640,
+      683,
+      655
+    ],
+    [
+      700,
+      638,
+      832,
+      657
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 800,
+  "image_height": 1100,
+  "layout_type": "standard",
+  "total_words": 73,
+  "invoice_data": {
+    "invoice_number": "INV-05ADE318",
+    "invoice_date": "03/30/2025",
+    "vendor_name": "Garner LLC",
+    "vendor_address": "USCGC Aguilar, FPO AP 41050",
+    "customer_name": "Marcus Stokes",
+    "customer_address": "88389 Sanders Row Apt. 716, Smithside, OH 86903",
+    "line_items": [
+      {
+        "description": "Canned or jarred organic gundila dates",
+        "quantity": 6,
+        "unit_price": 417.78,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Canned or jarred organic fruit",
+          "class_name": "Canned or jarred organic dates",
+          "commodity_name": "Canned or jarred organic gundila dates",
+          "segment_code": "50000000",
+          "family_code": "50370000",
+          "class_code": "50372900",
+          "commodity_code": "50372905"
+        }
+      },
+      {
+        "description": "Campbell Inc Dried non GMO rowanberries",
+        "quantity": 8,
+        "unit_price": 284.62,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Dried non GMO fruits",
+          "class_name": "Dried non GMO nominant fruits",
+          "commodity_name": "Dried non GMO rowanberries",
+          "segment_code": "50000000",
+          "family_code": "50530000",
+          "class_code": "50537000",
+          "commodity_code": "50537031"
+        }
+      },
+      {
+        "description": "Arnold-Gonzalez Stainless steel pipe bushing 40di",
+        "quantity": 6,
+        "unit_price": 140.77,
+        "unspsc_details": {
+          "segment_name": "Distribution and Conditioning Systems and Equipment and Components",
+          "family_name": "Pipe piping and pipe fittings",
+          "class_name": "Pipe bushings",
+          "commodity_name": "Stainless steel pipe bushing",
+          "segment_code": "40000000",
+          "family_code": "40170000",
+          "class_code": "40172300",
+          "commodity_code": "40172307"
+        }
+      },
+      {
+        "description": "Vasquez-Beck Non GMO stuttgarter giant onion purees",
+        "quantity": 10,
+        "unit_price": 215.75,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Non GMO fresh vegetable purees",
+          "class_name": "Non GMO onion purees",
+          "commodity_name": "Non GMO stuttgarter giant onion purees",
+          "segment_code": "50000000",
+          "family_code": "50620000",
+          "class_code": "50625100",
+          "commodity_code": "50625116"
+        }
+      }
+    ],
+    "subtotal": 7785.76,
+    "tax_amount": 389.29,
+    "total_amount": 8175.05
+  }
+}

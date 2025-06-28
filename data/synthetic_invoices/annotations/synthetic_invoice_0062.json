@@ -1,0 +1,528 @@
+{
+  "id": "synthetic_invoice_0062",
+  "image_filename": "synthetic_invoice_0062.png",
+  "words": [
+    "RECEIPT",
+    "Invoice",
+    "No.:",
+    "INV-C00588FA",
+    "Date:",
+    "12/13/2024",
+    "Vendor:",
+    "Adkins",
+    "Ltd",
+    "993",
+    "Black",
+    "Spring,",
+    "Rebeccahaven,",
+    "VA",
+    "15344",
+    "Bill",
+    "To:",
+    "Devin",
+    "Garcia",
+    "0717",
+    "Jeffrey",
+    "Avenue,",
+    "New",
+    "Felicia,",
+    "AR",
+    "38045",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Rodriguez",
+    "LLC",
+    "Indopanolol",
+    "7",
+    "$472.01",
+    "$3304.07",
+    "Ephedrine/potassium",
+    "iodide",
+    "7",
+    "$276.38",
+    "$1934.66",
+    "Lewis,",
+    "Morse",
+    "an",
+    "Ventilator",
+    "or",
+    "breathing",
+    "circuit",
+    "1",
+    "$73.76",
+    "$73.76",
+    "Subtotal:",
+    "$5312.49",
+    "Tax:",
+    "$265.62",
+    "TOTAL:",
+    "$5578.11"
+  ],
+  "boxes": [
+    [
+      421,
+      60,
+      578,
+      80
+    ],
+    [
+      66,
+      105,
+      156,
+      117
+    ],
+    [
+      168,
+      105,
+      218,
+      117
+    ],
+    [
+      232,
+      105,
+      386,
+      117
+    ],
+    [
+      66,
+      144,
+      130,
+      156
+    ],
+    [
+      142,
+      144,
+      270,
+      157
+    ],
+    [
+      66,
+      209,
+      156,
+      221
+    ],
+    [
+      168,
+      209,
+      245,
+      221
+    ],
+    [
+      257,
+      209,
+      296,
+      221
+    ],
+    [
+      66,
+      247,
+      96,
+      256
+    ],
+    [
+      104,
+      246,
+      152,
+      256
+    ],
+    [
+      161,
+      247,
+      228,
+      259
+    ],
+    [
+      237,
+      246,
+      362,
+      259
+    ],
+    [
+      370,
+      247,
+      389,
+      256
+    ],
+    [
+      398,
+      246,
+      446,
+      256
+    ],
+    [
+      66,
+      291,
+      117,
+      303
+    ],
+    [
+      130,
+      291,
+      169,
+      303
+    ],
+    [
+      181,
+      291,
+      245,
+      303
+    ],
+    [
+      257,
+      291,
+      334,
+      303
+    ],
+    [
+      66,
+      328,
+      105,
+      338
+    ],
+    [
+      114,
+      328,
+      181,
+      341
+    ],
+    [
+      190,
+      329,
+      257,
+      341
+    ],
+    [
+      266,
+      329,
+      296,
+      338
+    ],
+    [
+      304,
+      328,
+      381,
+      341
+    ],
+    [
+      389,
+      329,
+      408,
+      338
+    ],
+    [
+      417,
+      329,
+      465,
+      338
+    ],
+    [
+      66,
+      373,
+      208,
+      388
+    ],
+    [
+      500,
+      373,
+      538,
+      388
+    ],
+    [
+      672,
+      373,
+      736,
+      385
+    ],
+    [
+      802,
+      373,
+      866,
+      385
+    ],
+    [
+      66,
+      406,
+      153,
+      419
+    ],
+    [
+      162,
+      407,
+      192,
+      416
+    ],
+    [
+      200,
+      406,
+      305,
+      419
+    ],
+    [
+      500,
+      407,
+      509,
+      416
+    ],
+    [
+      672,
+      405,
+      738,
+      417
+    ],
+    [
+      802,
+      405,
+      880,
+      417
+    ],
+    [
+      66,
+      436,
+      249,
+      449
+    ],
+    [
+      258,
+      436,
+      316,
+      446
+    ],
+    [
+      500,
+      437,
+      509,
+      446
+    ],
+    [
+      672,
+      435,
+      738,
+      447
+    ],
+    [
+      802,
+      435,
+      880,
+      447
+    ],
+    [
+      66,
+      467,
+      124,
+      479
+    ],
+    [
+      133,
+      467,
+      181,
+      476
+    ],
+    [
+      190,
+      469,
+      209,
+      476
+    ],
+    [
+      218,
+      466,
+      314,
+      476
+    ],
+    [
+      324,
+      469,
+      342,
+      476
+    ],
+    [
+      352,
+      466,
+      438,
+      479
+    ],
+    [
+      66,
+      485,
+      133,
+      494
+    ],
+    [
+      500,
+      466,
+      509,
+      476
+    ],
+    [
+      672,
+      465,
+      729,
+      477
+    ],
+    [
+      802,
+      465,
+      860,
+      477
+    ],
+    [
+      586,
+      523,
+      701,
+      535
+    ],
+    [
+      714,
+      522,
+      817,
+      537
+    ],
+    [
+      586,
+      565,
+      637,
+      577
+    ],
+    [
+      650,
+      564,
+      740,
+      579
+    ],
+    [
+      586,
+      610,
+      692,
+      626
+    ],
+    [
+      709,
+      607,
+      850,
+      628
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 750,
+  "image_height": 1000,
+  "layout_type": "compact",
+  "total_words": 57,
+  "invoice_data": {
+    "invoice_number": "INV-C00588FA",
+    "invoice_date": "12/13/2024",
+    "vendor_name": "Adkins Ltd",
+    "vendor_address": "993 Black Spring, Rebeccahaven, VA 15344",
+    "customer_name": "Devin Garcia",
+    "customer_address": "0717 Jeffrey Avenue, New Felicia, AR 38045",
+    "line_items": [
+      {
+        "description": "Rodriguez LLC Indopanolol",
+        "quantity": 7,
+        "unit_price": 472.01,
+        "unspsc_details": {
+          "segment_name": "Drugs and Pharmaceutical Products",
+          "family_name": "Adrenergic blocking agents",
+          "class_name": "Adrenergic blocking agent propanolamines",
+          "commodity_name": "Indopanolol",
+          "segment_code": "51000000",
+          "family_code": "51260000",
+          "class_code": "51263100",
+          "commodity_code": "51263124"
+        }
+      },
+      {
+        "description": "Ephedrine/potassium iodide",
+        "quantity": 7,
+        "unit_price": 276.38,
+        "unspsc_details": {
+          "segment_name": "Drugs and Pharmaceutical Products",
+          "family_name": "Drugs affecting the respiratory tract",
+          "class_name": "Combination decongestants, with analgesics, antitussives, or expectorants",
+          "commodity_name": "Ephedrine/potassium iodide",
+          "segment_code": "51000000",
+          "family_code": "51160000",
+          "class_code": "51162400",
+          "commodity_code": "51162414"
+        }
+      },
+      {
+        "description": "Lewis, Morse an Ventilator or breathing circuit",
+        "quantity": 1,
+        "unit_price": 73.76,
+        "unspsc_details": {
+          "segment_name": "Medical Equipment and Accessories and Supplies",
+          "family_name": "Respiratory and anesthesia and resuscitation products",
+          "class_name": "Positive mechanical pressure ventilators and accessories",
+          "commodity_name": "Ventilator or breathing circuit",
+          "segment_code": "42000000",
+          "family_code": "42270000",
+          "class_code": "42272200",
+          "commodity_code": "42272209"
+        }
+      }
+    ],
+    "subtotal": 5312.49,
+    "tax_amount": 265.62,
+    "total_amount": 5578.11
+  }
+}

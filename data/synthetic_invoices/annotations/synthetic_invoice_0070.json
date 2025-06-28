@@ -1,0 +1,528 @@
+{
+  "id": "synthetic_invoice_0070",
+  "image_filename": "synthetic_invoice_0070.png",
+  "words": [
+    "BILL",
+    "Invoice",
+    "No.:",
+    "INV-1B631D5F",
+    "Date:",
+    "12/31/2024",
+    "Vendor:",
+    "Pena-Stark",
+    "9350",
+    "Kelly",
+    "Drives,",
+    "Lake",
+    "Brentshire,",
+    "MO",
+    "85380",
+    "Bill",
+    "To:",
+    "Randy",
+    "Bowen",
+    "650",
+    "Green",
+    "Plaza",
+    "Apt.",
+    "174,",
+    "Port",
+    "Deanna,",
+    "MH",
+    "04089",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Westley",
+    "apricot",
+    "purees",
+    "2",
+    "$363.51",
+    "$727.02",
+    "Donnie",
+    "avocados",
+    "2",
+    "$439.89",
+    "$879.78",
+    "Fresh",
+    "cut",
+    "peach",
+    "sweetheart",
+    "rose",
+    "7",
+    "$294.76",
+    "$2063.32",
+    "Subtotal:",
+    "$3670.12",
+    "Tax:",
+    "$183.51",
+    "TOTAL:",
+    "$3853.63"
+  ],
+  "boxes": [
+    [
+      457,
+      63,
+      541,
+      81
+    ],
+    [
+      75,
+      109,
+      158,
+      120
+    ],
+    [
+      170,
+      109,
+      217,
+      120
+    ],
+    [
+      230,
+      109,
+      373,
+      120
+    ],
+    [
+      75,
+      147,
+      135,
+      158
+    ],
+    [
+      146,
+      147,
+      266,
+      159
+    ],
+    [
+      75,
+      213,
+      158,
+      224
+    ],
+    [
+      170,
+      213,
+      290,
+      224
+    ],
+    [
+      75,
+      250,
+      111,
+      259
+    ],
+    [
+      120,
+      250,
+      165,
+      261
+    ],
+    [
+      173,
+      250,
+      236,
+      261
+    ],
+    [
+      245,
+      250,
+      281,
+      259
+    ],
+    [
+      290,
+      250,
+      388,
+      261
+    ],
+    [
+      397,
+      250,
+      415,
+      259
+    ],
+    [
+      423,
+      250,
+      468,
+      259
+    ],
+    [
+      75,
+      295,
+      122,
+      306
+    ],
+    [
+      135,
+      295,
+      171,
+      306
+    ],
+    [
+      182,
+      295,
+      242,
+      309
+    ],
+    [
+      253,
+      295,
+      313,
+      306
+    ],
+    [
+      75,
+      335,
+      102,
+      343
+    ],
+    [
+      110,
+      335,
+      155,
+      343
+    ],
+    [
+      163,
+      334,
+      208,
+      343
+    ],
+    [
+      217,
+      335,
+      253,
+      346
+    ],
+    [
+      262,
+      334,
+      298,
+      346
+    ],
+    [
+      307,
+      335,
+      343,
+      343
+    ],
+    [
+      352,
+      335,
+      415,
+      346
+    ],
+    [
+      423,
+      335,
+      441,
+      343
+    ],
+    [
+      450,
+      335,
+      495,
+      343
+    ],
+    [
+      75,
+      380,
+      207,
+      393
+    ],
+    [
+      500,
+      380,
+      536,
+      393
+    ],
+    [
+      668,
+      380,
+      728,
+      390
+    ],
+    [
+      797,
+      380,
+      857,
+      390
+    ],
+    [
+      75,
+      410,
+      137,
+      421
+    ],
+    [
+      146,
+      410,
+      208,
+      421
+    ],
+    [
+      217,
+      412,
+      271,
+      421
+    ],
+    [
+      500,
+      410,
+      508,
+      419
+    ],
+    [
+      668,
+      409,
+      731,
+      420
+    ],
+    [
+      797,
+      409,
+      860,
+      420
+    ],
+    [
+      75,
+      440,
+      128,
+      449
+    ],
+    [
+      137,
+      440,
+      210,
+      449
+    ],
+    [
+      500,
+      440,
+      508,
+      449
+    ],
+    [
+      668,
+      439,
+      731,
+      450
+    ],
+    [
+      797,
+      439,
+      860,
+      450
+    ],
+    [
+      75,
+      470,
+      120,
+      479
+    ],
+    [
+      128,
+      470,
+      156,
+      479
+    ],
+    [
+      163,
+      470,
+      208,
+      481
+    ],
+    [
+      217,
+      470,
+      307,
+      479
+    ],
+    [
+      316,
+      472,
+      352,
+      479
+    ],
+    [
+      500,
+      470,
+      508,
+      479
+    ],
+    [
+      668,
+      469,
+      731,
+      480
+    ],
+    [
+      797,
+      469,
+      870,
+      480
+    ],
+    [
+      585,
+      529,
+      692,
+      540
+    ],
+    [
+      705,
+      528,
+      801,
+      541
+    ],
+    [
+      585,
+      570,
+      632,
+      580
+    ],
+    [
+      645,
+      569,
+      728,
+      582
+    ],
+    [
+      585,
+      613,
+      683,
+      628
+    ],
+    [
+      700,
+      610,
+      832,
+      630
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 800,
+  "image_height": 1100,
+  "layout_type": "standard",
+  "total_words": 57,
+  "invoice_data": {
+    "invoice_number": "INV-1B631D5F",
+    "invoice_date": "12/31/2024",
+    "vendor_name": "Pena-Stark",
+    "vendor_address": "9350 Kelly Drives, Lake Brentshire, MO 85380",
+    "customer_name": "Randy Bowen",
+    "customer_address": "650 Green Plaza Apt. 174, Port Deanna, MH 04089",
+    "line_items": [
+      {
+        "description": "Westley apricot purees",
+        "quantity": 2,
+        "unit_price": 363.51,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Fresh fruit purees",
+          "class_name": "Apricot purees",
+          "commodity_name": "Westley apricot purees",
+          "segment_code": "50000000",
+          "family_code": "50380000",
+          "class_code": "50382000",
+          "commodity_code": "50382054"
+        }
+      },
+      {
+        "description": "Donnie avocados",
+        "quantity": 2,
+        "unit_price": 439.89,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Fresh vegetables",
+          "class_name": "Avocados",
+          "commodity_name": "Donnie avocados",
+          "segment_code": "50000000",
+          "family_code": "50400000",
+          "class_code": "50401700",
+          "commodity_code": "50401724"
+        }
+      },
+      {
+        "description": "Fresh cut peach sweetheart rose",
+        "quantity": 7,
+        "unit_price": 294.76,
+        "unspsc_details": {
+          "segment_name": "Live Plant and Animal Material and Accessories and Supplies",
+          "family_name": "Fresh cut rose",
+          "class_name": "Fresh cut sweetheart rose",
+          "commodity_name": "Fresh cut peach sweetheart rose",
+          "segment_code": "10000000",
+          "family_code": "10300000",
+          "class_code": "10302500",
+          "commodity_code": "10302507"
+        }
+      }
+    ],
+    "subtotal": 3670.12,
+    "tax_amount": 183.51,
+    "total_amount": 3853.63
+  }
+}

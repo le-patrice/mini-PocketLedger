@@ -1,0 +1,473 @@
+{
+  "id": "synthetic_invoice_0095",
+  "image_filename": "synthetic_invoice_0095.png",
+  "words": [
+    "INVOICE",
+    "Invoice",
+    "No.:",
+    "INV-EB5083A3",
+    "Date:",
+    "04/09/2025",
+    "Vendor:",
+    "Wells",
+    "PLC",
+    "184",
+    "Greene",
+    "Ramp,",
+    "Jenniferton,",
+    "NM",
+    "72945",
+    "Bill",
+    "To:",
+    "Michelle",
+    "Short",
+    "753",
+    "Zamora",
+    "Key,",
+    "East",
+    "Madison,",
+    "WY",
+    "27476",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Hicks,",
+    "Nguyen",
+    "a",
+    "Stainless",
+    "steel",
+    "machined",
+    "impact",
+    "extrusio",
+    "6",
+    "$270.98",
+    "$1625.88",
+    "Carglumic",
+    "acid",
+    "2",
+    "$61.39",
+    "$122.78",
+    "Subtotal:",
+    "$1748.66",
+    "Tax:",
+    "$174.87",
+    "TOTAL:",
+    "$1923.53"
+  ],
+  "boxes": [
+    [
+      421,
+      60,
+      578,
+      80
+    ],
+    [
+      66,
+      105,
+      156,
+      117
+    ],
+    [
+      168,
+      105,
+      218,
+      117
+    ],
+    [
+      232,
+      105,
+      385,
+      117
+    ],
+    [
+      66,
+      144,
+      130,
+      156
+    ],
+    [
+      142,
+      144,
+      270,
+      157
+    ],
+    [
+      66,
+      209,
+      156,
+      221
+    ],
+    [
+      168,
+      209,
+      232,
+      221
+    ],
+    [
+      244,
+      209,
+      282,
+      221
+    ],
+    [
+      66,
+      246,
+      96,
+      256
+    ],
+    [
+      104,
+      247,
+      161,
+      256
+    ],
+    [
+      170,
+      247,
+      218,
+      259
+    ],
+    [
+      228,
+      246,
+      342,
+      259
+    ],
+    [
+      352,
+      247,
+      370,
+      256
+    ],
+    [
+      380,
+      247,
+      428,
+      256
+    ],
+    [
+      66,
+      291,
+      117,
+      303
+    ],
+    [
+      130,
+      291,
+      169,
+      303
+    ],
+    [
+      181,
+      291,
+      284,
+      303
+    ],
+    [
+      296,
+      291,
+      360,
+      303
+    ],
+    [
+      66,
+      329,
+      96,
+      338
+    ],
+    [
+      104,
+      329,
+      161,
+      338
+    ],
+    [
+      170,
+      329,
+      209,
+      341
+    ],
+    [
+      218,
+      329,
+      257,
+      338
+    ],
+    [
+      266,
+      328,
+      344,
+      341
+    ],
+    [
+      352,
+      329,
+      370,
+      338
+    ],
+    [
+      380,
+      329,
+      428,
+      338
+    ],
+    [
+      66,
+      373,
+      208,
+      388
+    ],
+    [
+      500,
+      373,
+      538,
+      388
+    ],
+    [
+      672,
+      373,
+      736,
+      385
+    ],
+    [
+      802,
+      373,
+      866,
+      385
+    ],
+    [
+      66,
+      406,
+      124,
+      419
+    ],
+    [
+      133,
+      407,
+      190,
+      419
+    ],
+    [
+      200,
+      409,
+      209,
+      416
+    ],
+    [
+      218,
+      406,
+      305,
+      416
+    ],
+    [
+      314,
+      406,
+      362,
+      416
+    ],
+    [
+      372,
+      406,
+      449,
+      416
+    ],
+    [
+      66,
+      425,
+      124,
+      437
+    ],
+    [
+      133,
+      425,
+      210,
+      434
+    ],
+    [
+      500,
+      407,
+      509,
+      416
+    ],
+    [
+      672,
+      405,
+      738,
+      417
+    ],
+    [
+      802,
+      405,
+      880,
+      417
+    ],
+    [
+      66,
+      436,
+      153,
+      449
+    ],
+    [
+      162,
+      436,
+      201,
+      446
+    ],
+    [
+      500,
+      437,
+      509,
+      446
+    ],
+    [
+      672,
+      435,
+      729,
+      447
+    ],
+    [
+      802,
+      435,
+      869,
+      447
+    ],
+    [
+      586,
+      493,
+      701,
+      505
+    ],
+    [
+      714,
+      492,
+      817,
+      507
+    ],
+    [
+      586,
+      535,
+      637,
+      547
+    ],
+    [
+      650,
+      534,
+      740,
+      549
+    ],
+    [
+      586,
+      580,
+      692,
+      596
+    ],
+    [
+      709,
+      577,
+      850,
+      598
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 750,
+  "image_height": 1000,
+  "layout_type": "compact",
+  "total_words": 52,
+  "invoice_data": {
+    "invoice_number": "INV-EB5083A3",
+    "invoice_date": "04/09/2025",
+    "vendor_name": "Wells PLC",
+    "vendor_address": "184 Greene Ramp, Jenniferton, NM 72945",
+    "customer_name": "Michelle Short",
+    "customer_address": "753 Zamora Key, East Madison, WY 27476",
+    "line_items": [
+      {
+        "description": "Hicks, Nguyen a Stainless steel machined impact extrusio",
+        "quantity": 6,
+        "unit_price": 270.98,
+        "unspsc_details": {
+          "segment_name": "Manufacturing Components and Supplies",
+          "family_name": "Machined extrusions",
+          "class_name": "Machined impact extrusions",
+          "commodity_name": "Stainless steel machined impact extrusions",
+          "segment_code": "31000000",
+          "family_code": "31290000",
+          "class_code": "31291200",
+          "commodity_code": "31291213"
+        }
+      },
+      {
+        "description": "Carglumic acid",
+        "quantity": 2,
+        "unit_price": 61.39,
+        "unspsc_details": {
+          "segment_name": "Drugs and Pharmaceutical Products",
+          "family_name": "Drugs affecting the gastrointestinal system",
+          "class_name": "Antidotes and emetics",
+          "commodity_name": "Carglumic acid",
+          "segment_code": "51000000",
+          "family_code": "51170000",
+          "class_code": "51172300",
+          "commodity_code": "51172318"
+        }
+      }
+    ],
+    "subtotal": 1748.66,
+    "tax_amount": 174.87,
+    "total_amount": 1923.53
+  }
+}

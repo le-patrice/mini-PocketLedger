@@ -1,0 +1,576 @@
+{
+  "id": "synthetic_invoice_0061",
+  "image_filename": "synthetic_invoice_0061.png",
+  "words": [
+    "INVOICE",
+    "Invoice",
+    "No.:",
+    "INV-B122688C",
+    "Date:",
+    "09/06/2024",
+    "Vendor:",
+    "Green-Gibson",
+    "578",
+    "Hoover",
+    "Manor",
+    "Suite",
+    "086,",
+    "Joeton,",
+    "CA",
+    "69966",
+    "Bill",
+    "To:",
+    "Whitney",
+    "Acosta",
+    "715",
+    "William",
+    "Junctions,",
+    "New",
+    "Emma,",
+    "NH",
+    "06611",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Organic",
+    "black",
+    "giant",
+    "grapes",
+    "43iq",
+    "9",
+    "$37.81",
+    "$340.29",
+    "Franklin,",
+    "King",
+    "Acitretin",
+    "62Ej",
+    "6",
+    "$435.64",
+    "$2613.84",
+    "Pena-Gibbs",
+    "Canned",
+    "or",
+    "jarred",
+    "organic",
+    "dr",
+    "jules",
+    "guyot",
+    "8",
+    "$459.36",
+    "$3674.88",
+    "Subtotal:",
+    "$6629.01",
+    "Tax:",
+    "$331.45",
+    "TOTAL:",
+    "$6960.46"
+  ],
+  "boxes": [
+    [
+      421,
+      60,
+      578,
+      80
+    ],
+    [
+      66,
+      105,
+      156,
+      117
+    ],
+    [
+      168,
+      105,
+      218,
+      117
+    ],
+    [
+      232,
+      105,
+      385,
+      117
+    ],
+    [
+      66,
+      144,
+      130,
+      156
+    ],
+    [
+      142,
+      144,
+      270,
+      157
+    ],
+    [
+      66,
+      209,
+      156,
+      221
+    ],
+    [
+      168,
+      209,
+      321,
+      221
+    ],
+    [
+      66,
+      247,
+      96,
+      256
+    ],
+    [
+      104,
+      247,
+      161,
+      256
+    ],
+    [
+      170,
+      247,
+      218,
+      256
+    ],
+    [
+      228,
+      247,
+      276,
+      256
+    ],
+    [
+      285,
+      247,
+      324,
+      259
+    ],
+    [
+      333,
+      247,
+      400,
+      259
+    ],
+    [
+      409,
+      247,
+      428,
+      256
+    ],
+    [
+      437,
+      247,
+      485,
+      256
+    ],
+    [
+      66,
+      290,
+      117,
+      302
+    ],
+    [
+      130,
+      290,
+      169,
+      302
+    ],
+    [
+      181,
+      290,
+      272,
+      305
+    ],
+    [
+      282,
+      290,
+      360,
+      302
+    ],
+    [
+      66,
+      330,
+      96,
+      340
+    ],
+    [
+      104,
+      330,
+      170,
+      340
+    ],
+    [
+      180,
+      331,
+      276,
+      343
+    ],
+    [
+      285,
+      331,
+      314,
+      340
+    ],
+    [
+      322,
+      331,
+      370,
+      343
+    ],
+    [
+      380,
+      331,
+      398,
+      340
+    ],
+    [
+      408,
+      330,
+      456,
+      340
+    ],
+    [
+      66,
+      375,
+      208,
+      390
+    ],
+    [
+      500,
+      375,
+      538,
+      390
+    ],
+    [
+      672,
+      375,
+      736,
+      387
+    ],
+    [
+      802,
+      375,
+      866,
+      387
+    ],
+    [
+      66,
+      409,
+      133,
+      421
+    ],
+    [
+      142,
+      408,
+      190,
+      418
+    ],
+    [
+      200,
+      409,
+      248,
+      421
+    ],
+    [
+      257,
+      411,
+      314,
+      421
+    ],
+    [
+      324,
+      409,
+      362,
+      421
+    ],
+    [
+      500,
+      409,
+      509,
+      418
+    ],
+    [
+      672,
+      407,
+      729,
+      419
+    ],
+    [
+      802,
+      407,
+      869,
+      419
+    ],
+    [
+      66,
+      438,
+      153,
+      451
+    ],
+    [
+      162,
+      439,
+      201,
+      451
+    ],
+    [
+      210,
+      439,
+      297,
+      448
+    ],
+    [
+      306,
+      439,
+      345,
+      451
+    ],
+    [
+      500,
+      439,
+      509,
+      448
+    ],
+    [
+      672,
+      437,
+      738,
+      449
+    ],
+    [
+      802,
+      437,
+      880,
+      449
+    ],
+    [
+      66,
+      468,
+      162,
+      478
+    ],
+    [
+      172,
+      468,
+      229,
+      478
+    ],
+    [
+      238,
+      471,
+      257,
+      478
+    ],
+    [
+      266,
+      468,
+      324,
+      481
+    ],
+    [
+      333,
+      469,
+      400,
+      481
+    ],
+    [
+      409,
+      468,
+      428,
+      478
+    ],
+    [
+      437,
+      468,
+      485,
+      481
+    ],
+    [
+      66,
+      487,
+      114,
+      499
+    ],
+    [
+      500,
+      469,
+      509,
+      478
+    ],
+    [
+      672,
+      467,
+      738,
+      479
+    ],
+    [
+      802,
+      467,
+      880,
+      479
+    ],
+    [
+      586,
+      525,
+      701,
+      537
+    ],
+    [
+      714,
+      524,
+      817,
+      539
+    ],
+    [
+      586,
+      567,
+      637,
+      579
+    ],
+    [
+      650,
+      566,
+      740,
+      581
+    ],
+    [
+      586,
+      612,
+      692,
+      628
+    ],
+    [
+      709,
+      609,
+      850,
+      630
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 750,
+  "image_height": 1000,
+  "layout_type": "compact",
+  "total_words": 63,
+  "invoice_data": {
+    "invoice_number": "INV-B122688C",
+    "invoice_date": "09/06/2024",
+    "vendor_name": "Green-Gibson",
+    "vendor_address": "578 Hoover Manor Suite 086, Joeton, CA 69966",
+    "customer_name": "Whitney Acosta",
+    "customer_address": "715 William Junctions, New Emma, NH 06611",
+    "line_items": [
+      {
+        "description": "Organic black giant grapes 43iq",
+        "quantity": 9,
+        "unit_price": 37.81,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Organic fresh fruits",
+          "class_name": "Organic table grapes",
+          "commodity_name": "Organic black giant grapes",
+          "segment_code": "50000000",
+          "family_code": "50310000",
+          "class_code": "50313400",
+          "commodity_code": "50313412"
+        }
+      },
+      {
+        "description": "Franklin, King  Acitretin 62Ej",
+        "quantity": 6,
+        "unit_price": 435.64,
+        "unspsc_details": {
+          "segment_name": "Drugs and Pharmaceutical Products",
+          "family_name": "Agents affecting water and electrolytes",
+          "class_name": "Nutritional therapy products",
+          "commodity_name": "Acitretin",
+          "segment_code": "51000000",
+          "family_code": "51190000",
+          "class_code": "51191900",
+          "commodity_code": "51191913"
+        }
+      },
+      {
+        "description": "Pena-Gibbs Canned or jarred organic dr jules guyot ",
+        "quantity": 8,
+        "unit_price": 459.36,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Canned or jarred organic fruit",
+          "class_name": "Canned or jarred organic pears",
+          "commodity_name": "Canned or jarred organic dr jules guyot pears",
+          "segment_code": "50000000",
+          "family_code": "50370000",
+          "class_code": "50375400",
+          "commodity_code": "50375415"
+        }
+      }
+    ],
+    "subtotal": 6629.01,
+    "tax_amount": 331.45,
+    "total_amount": 6960.46
+  }
+}

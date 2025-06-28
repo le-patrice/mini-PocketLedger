@@ -1,0 +1,592 @@
+{
+  "id": "synthetic_invoice_0067",
+  "image_filename": "synthetic_invoice_0067.png",
+  "words": [
+    "BILL",
+    "Invoice",
+    "No.:",
+    "INV-A5368382",
+    "Date:",
+    "03/03/2025",
+    "Vendor:",
+    "Martin,",
+    "Guerrero",
+    "and",
+    "Nguyen",
+    "74063",
+    "Paul",
+    "Centers,",
+    "New",
+    "Louis,",
+    "MH",
+    "94910",
+    "Bill",
+    "To:",
+    "Dominique",
+    "Ortega",
+    "30711",
+    "Morgan",
+    "Forks,",
+    "Maryhaven,",
+    "UT",
+    "15990",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Collins,",
+    "Cooke",
+    "Live",
+    "fenice",
+    "rose",
+    "bush",
+    "10",
+    "$36.89",
+    "$368.90",
+    "George,",
+    "Thornto",
+    "Medical",
+    "radiation",
+    "dosimeters",
+    "7",
+    "$362.62",
+    "$2538.34",
+    "James,",
+    "Martinez",
+    "Dried",
+    "non",
+    "GMO",
+    "alphonso",
+    "olives",
+    "7",
+    "$357.38",
+    "$2501.66",
+    "Subtotal:",
+    "$5408.90",
+    "Tax:",
+    "$378.62",
+    "TOTAL:",
+    "$5787.52"
+  ],
+  "boxes": [
+    [
+      443,
+      55,
+      555,
+      77
+    ],
+    [
+      66,
+      100,
+      178,
+      113
+    ],
+    [
+      193,
+      100,
+      256,
+      113
+    ],
+    [
+      273,
+      100,
+      465,
+      113
+    ],
+    [
+      66,
+      141,
+      146,
+      154
+    ],
+    [
+      161,
+      141,
+      321,
+      155
+    ],
+    [
+      66,
+      205,
+      178,
+      218
+    ],
+    [
+      193,
+      205,
+      305,
+      222
+    ],
+    [
+      320,
+      205,
+      448,
+      218
+    ],
+    [
+      66,
+      227,
+      115,
+      241
+    ],
+    [
+      130,
+      227,
+      226,
+      244
+    ],
+    [
+      66,
+      271,
+      126,
+      281
+    ],
+    [
+      138,
+      270,
+      186,
+      281
+    ],
+    [
+      198,
+      271,
+      295,
+      284
+    ],
+    [
+      305,
+      271,
+      341,
+      281
+    ],
+    [
+      351,
+      271,
+      423,
+      284
+    ],
+    [
+      435,
+      271,
+      458,
+      281
+    ],
+    [
+      66,
+      290,
+      126,
+      301
+    ],
+    [
+      66,
+      331,
+      130,
+      344
+    ],
+    [
+      146,
+      331,
+      195,
+      344
+    ],
+    [
+      210,
+      331,
+      353,
+      347
+    ],
+    [
+      370,
+      331,
+      466,
+      347
+    ],
+    [
+      66,
+      373,
+      126,
+      384
+    ],
+    [
+      138,
+      374,
+      210,
+      387
+    ],
+    [
+      221,
+      373,
+      293,
+      387
+    ],
+    [
+      305,
+      373,
+      425,
+      387
+    ],
+    [
+      436,
+      374,
+      460,
+      384
+    ],
+    [
+      66,
+      393,
+      126,
+      404
+    ],
+    [
+      66,
+      434,
+      243,
+      451
+    ],
+    [
+      500,
+      434,
+      548,
+      451
+    ],
+    [
+      673,
+      434,
+      753,
+      447
+    ],
+    [
+      803,
+      434,
+      883,
+      447
+    ],
+    [
+      66,
+      471,
+      163,
+      485
+    ],
+    [
+      173,
+      471,
+      233,
+      482
+    ],
+    [
+      245,
+      472,
+      293,
+      482
+    ],
+    [
+      305,
+      471,
+      376,
+      482
+    ],
+    [
+      388,
+      474,
+      436,
+      482
+    ],
+    [
+      448,
+      471,
+      496,
+      482
+    ],
+    [
+      500,
+      471,
+      523,
+      482
+    ],
+    [
+      673,
+      470,
+      745,
+      483
+    ],
+    [
+      803,
+      470,
+      886,
+      483
+    ],
+    [
+      66,
+      503,
+      150,
+      516
+    ],
+    [
+      161,
+      502,
+      245,
+      513
+    ],
+    [
+      256,
+      502,
+      340,
+      513
+    ],
+    [
+      351,
+      502,
+      460,
+      513
+    ],
+    [
+      66,
+      522,
+      186,
+      533
+    ],
+    [
+      500,
+      503,
+      511,
+      513
+    ],
+    [
+      673,
+      501,
+      756,
+      514
+    ],
+    [
+      803,
+      501,
+      900,
+      514
+    ],
+    [
+      66,
+      534,
+      138,
+      547
+    ],
+    [
+      150,
+      534,
+      246,
+      544
+    ],
+    [
+      256,
+      533,
+      316,
+      544
+    ],
+    [
+      328,
+      536,
+      365,
+      544
+    ],
+    [
+      375,
+      534,
+      411,
+      544
+    ],
+    [
+      66,
+      553,
+      163,
+      567
+    ],
+    [
+      173,
+      553,
+      245,
+      564
+    ],
+    [
+      500,
+      534,
+      511,
+      544
+    ],
+    [
+      673,
+      532,
+      756,
+      545
+    ],
+    [
+      803,
+      532,
+      900,
+      545
+    ],
+    [
+      586,
+      588,
+      730,
+      602
+    ],
+    [
+      746,
+      587,
+      875,
+      604
+    ],
+    [
+      586,
+      633,
+      650,
+      646
+    ],
+    [
+      666,
+      632,
+      778,
+      648
+    ],
+    [
+      586,
+      681,
+      718,
+      698
+    ],
+    [
+      586,
+      701,
+      763,
+      724
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    0,
+    0,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 600,
+  "image_height": 900,
+  "layout_type": "receipt",
+  "total_words": 65,
+  "invoice_data": {
+    "invoice_number": "INV-A5368382",
+    "invoice_date": "03/03/2025",
+    "vendor_name": "Martin, Guerrero and Nguyen",
+    "vendor_address": "74063 Paul Centers, New Louis, MH 94910",
+    "customer_name": "Dominique Ortega",
+    "customer_address": "30711 Morgan Forks, Maryhaven, UT 15990",
+    "line_items": [
+      {
+        "description": "Collins, Cooke  Live fenice rose bush",
+        "quantity": 10,
+        "unit_price": 36.89,
+        "unspsc_details": {
+          "segment_name": "Live Plant and Animal Material and Accessories and Supplies",
+          "family_name": "Live rose bushes",
+          "class_name": "Live cream rose bushes",
+          "commodity_name": "Live fenice rose bush",
+          "segment_code": "10000000",
+          "family_code": "10200000",
+          "class_code": "10201700",
+          "commodity_code": "10201717"
+        }
+      },
+      {
+        "description": "George, Thornto Medical radiation dosimeters",
+        "quantity": 7,
+        "unit_price": 362.62,
+        "unspsc_details": {
+          "segment_name": "Medical Equipment and Accessories and Supplies",
+          "family_name": "Medical diagnostic imaging and nuclear medicine products",
+          "class_name": "Medical radiation detection or monitoring products",
+          "commodity_name": "Medical radiation dosimeters",
+          "segment_code": "42000000",
+          "family_code": "42200000",
+          "class_code": "42203900",
+          "commodity_code": "42203901"
+        }
+      },
+      {
+        "description": "James, Martinez Dried non GMO alphonso olives",
+        "quantity": 7,
+        "unit_price": 357.38,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Dried non GMO fruits",
+          "class_name": "Dried non GMO olives",
+          "commodity_name": "Dried non GMO alphonso olives",
+          "segment_code": "50000000",
+          "family_code": "50530000",
+          "class_code": "50537200",
+          "commodity_code": "50537203"
+        }
+      }
+    ],
+    "subtotal": 5408.9,
+    "tax_amount": 378.62,
+    "total_amount": 5787.52
+  }
+}

@@ -1,0 +1,655 @@
+{
+  "id": "synthetic_invoice_0056",
+  "image_filename": "synthetic_invoice_0056.png",
+  "words": [
+    "INVOICE",
+    "Invoice",
+    "No.:",
+    "INV-AAD6583E",
+    "Date:",
+    "12/27/2024",
+    "Vendor:",
+    "Burgess,",
+    "Nguyen",
+    "and",
+    "Hall",
+    "626",
+    "Donaldson",
+    "Rest,",
+    "Claireport,",
+    "KS",
+    "25205",
+    "Bill",
+    "To:",
+    "Timothy",
+    "Morris",
+    "0208",
+    "Holly",
+    "Harbors",
+    "Apt.",
+    "234,",
+    "East",
+    "Katelynborough,",
+    "VI",
+    "74875",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Chavez",
+    "Group",
+    "Prime",
+    "gold",
+    "apples",
+    "72CZ",
+    "5",
+    "$259.43",
+    "$1297.15",
+    "Thompson,",
+    "Baile",
+    "Voluntary",
+    "service",
+    "management",
+    "5",
+    "$392.87",
+    "$1964.35",
+    "Elbow",
+    "joint",
+    "implant",
+    "48JT",
+    "6",
+    "$116.03",
+    "$696.18",
+    "Mountain",
+    "papaya",
+    "purees",
+    "65Sh",
+    "10",
+    "$155.58",
+    "$1555.80",
+    "Subtotal:",
+    "$5513.48",
+    "Tax:",
+    "$275.67",
+    "TOTAL:",
+    "$5789.15"
+  ],
+  "boxes": [
+    [
+      421,
+      60,
+      578,
+      80
+    ],
+    [
+      66,
+      105,
+      156,
+      117
+    ],
+    [
+      168,
+      105,
+      218,
+      117
+    ],
+    [
+      232,
+      105,
+      385,
+      117
+    ],
+    [
+      66,
+      144,
+      130,
+      156
+    ],
+    [
+      142,
+      144,
+      270,
+      157
+    ],
+    [
+      66,
+      209,
+      156,
+      221
+    ],
+    [
+      168,
+      209,
+      270,
+      224
+    ],
+    [
+      282,
+      209,
+      360,
+      224
+    ],
+    [
+      372,
+      209,
+      410,
+      221
+    ],
+    [
+      422,
+      209,
+      473,
+      221
+    ],
+    [
+      66,
+      250,
+      96,
+      259
+    ],
+    [
+      104,
+      249,
+      190,
+      259
+    ],
+    [
+      200,
+      250,
+      248,
+      262
+    ],
+    [
+      257,
+      249,
+      362,
+      262
+    ],
+    [
+      372,
+      250,
+      390,
+      259
+    ],
+    [
+      400,
+      250,
+      448,
+      259
+    ],
+    [
+      66,
+      294,
+      117,
+      306
+    ],
+    [
+      130,
+      294,
+      169,
+      306
+    ],
+    [
+      181,
+      294,
+      272,
+      309
+    ],
+    [
+      282,
+      294,
+      360,
+      306
+    ],
+    [
+      66,
+      335,
+      105,
+      344
+    ],
+    [
+      114,
+      334,
+      162,
+      347
+    ],
+    [
+      172,
+      334,
+      238,
+      344
+    ],
+    [
+      248,
+      335,
+      286,
+      347
+    ],
+    [
+      296,
+      335,
+      334,
+      347
+    ],
+    [
+      344,
+      335,
+      382,
+      344
+    ],
+    [
+      66,
+      352,
+      210,
+      365
+    ],
+    [
+      220,
+      353,
+      238,
+      362
+    ],
+    [
+      248,
+      353,
+      296,
+      362
+    ],
+    [
+      66,
+      397,
+      208,
+      412
+    ],
+    [
+      500,
+      397,
+      538,
+      412
+    ],
+    [
+      672,
+      397,
+      736,
+      409
+    ],
+    [
+      802,
+      397,
+      866,
+      409
+    ],
+    [
+      66,
+      430,
+      124,
+      440
+    ],
+    [
+      133,
+      431,
+      181,
+      443
+    ],
+    [
+      190,
+      431,
+      238,
+      440
+    ],
+    [
+      248,
+      430,
+      286,
+      443
+    ],
+    [
+      296,
+      430,
+      353,
+      443
+    ],
+    [
+      362,
+      431,
+      401,
+      440
+    ],
+    [
+      500,
+      431,
+      509,
+      440
+    ],
+    [
+      672,
+      429,
+      738,
+      441
+    ],
+    [
+      802,
+      429,
+      880,
+      441
+    ],
+    [
+      66,
+      460,
+      153,
+      473
+    ],
+    [
+      162,
+      460,
+      210,
+      470
+    ],
+    [
+      220,
+      460,
+      306,
+      473
+    ],
+    [
+      316,
+      461,
+      382,
+      470
+    ],
+    [
+      392,
+      461,
+      488,
+      473
+    ],
+    [
+      500,
+      461,
+      509,
+      470
+    ],
+    [
+      672,
+      459,
+      738,
+      471
+    ],
+    [
+      802,
+      459,
+      880,
+      471
+    ],
+    [
+      66,
+      490,
+      114,
+      500
+    ],
+    [
+      124,
+      491,
+      172,
+      503
+    ],
+    [
+      181,
+      490,
+      248,
+      503
+    ],
+    [
+      257,
+      491,
+      296,
+      500
+    ],
+    [
+      500,
+      491,
+      509,
+      500
+    ],
+    [
+      672,
+      489,
+      738,
+      501
+    ],
+    [
+      802,
+      489,
+      869,
+      501
+    ],
+    [
+      66,
+      521,
+      144,
+      530
+    ],
+    [
+      152,
+      523,
+      209,
+      533
+    ],
+    [
+      218,
+      523,
+      276,
+      533
+    ],
+    [
+      285,
+      520,
+      324,
+      530
+    ],
+    [
+      500,
+      520,
+      518,
+      530
+    ],
+    [
+      672,
+      519,
+      738,
+      531
+    ],
+    [
+      802,
+      519,
+      880,
+      531
+    ],
+    [
+      586,
+      577,
+      701,
+      589
+    ],
+    [
+      714,
+      576,
+      817,
+      591
+    ],
+    [
+      586,
+      619,
+      637,
+      631
+    ],
+    [
+      650,
+      618,
+      740,
+      633
+    ],
+    [
+      586,
+      664,
+      692,
+      680
+    ],
+    [
+      709,
+      661,
+      850,
+      682
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    0,
+    0,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 750,
+  "image_height": 1000,
+  "layout_type": "compact",
+  "total_words": 71,
+  "invoice_data": {
+    "invoice_number": "INV-AAD6583E",
+    "invoice_date": "12/27/2024",
+    "vendor_name": "Burgess, Nguyen and Hall",
+    "vendor_address": "626 Donaldson Rest, Claireport, KS 25205",
+    "customer_name": "Timothy Morris",
+    "customer_address": "0208 Holly Harbors Apt. 234, East Katelynborough, VI 74875",
+    "line_items": [
+      {
+        "description": "Chavez Group Prime gold apples 72CZ",
+        "quantity": 5,
+        "unit_price": 259.43,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Fresh fruits",
+          "class_name": "Apples",
+          "commodity_name": "Prime gold apples",
+          "segment_code": "50000000",
+          "family_code": "50300000",
+          "class_code": "50301500",
+          "commodity_code": "50301568"
+        }
+      },
+      {
+        "description": "Thompson, Baile Voluntary service management",
+        "quantity": 5,
+        "unit_price": 392.87,
+        "unspsc_details": {
+          "segment_name": "Politics and Civic Affairs Services",
+          "family_name": "Community and social services",
+          "class_name": "Social development and services",
+          "commodity_name": "Voluntary service management",
+          "segment_code": "93000000",
+          "family_code": "93140000",
+          "class_code": "93141500",
+          "commodity_code": "93141508"
+        }
+      },
+      {
+        "description": "Elbow joint implant 48JT",
+        "quantity": 6,
+        "unit_price": 116.03,
+        "unspsc_details": {
+          "segment_name": "Medical Equipment and Accessories and Supplies",
+          "family_name": "Orthopedic surgical implants",
+          "class_name": "Distal joint orthopedic implants",
+          "commodity_name": "Elbow joint implant",
+          "segment_code": "42000000",
+          "family_code": "42320000",
+          "class_code": "42322000",
+          "commodity_code": "42322003"
+        }
+      },
+      {
+        "description": "Mountain papaya purees 65Sh",
+        "quantity": 10,
+        "unit_price": 155.58,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Fresh fruit purees",
+          "class_name": "Papaya purees",
+          "commodity_name": "Mountain papaya purees",
+          "segment_code": "50000000",
+          "family_code": "50380000",
+          "class_code": "50385600",
+          "commodity_code": "50385604"
+        }
+      }
+    ],
+    "subtotal": 5513.4800000000005,
+    "tax_amount": 275.67,
+    "total_amount": 5789.15
+  }
+}

@@ -1,0 +1,623 @@
+{
+  "id": "synthetic_invoice_0017",
+  "image_filename": "synthetic_invoice_0017.png",
+  "words": [
+    "RECEIPT",
+    "Invoice",
+    "No.:",
+    "INV-72BAF220",
+    "Date:",
+    "05/08/2025",
+    "Vendor:",
+    "Austin",
+    "PLC",
+    "401",
+    "Barbara",
+    "Harbors",
+    "Suite",
+    "146,",
+    "North",
+    "Andrew,",
+    "NY",
+    "14706",
+    "Bill",
+    "To:",
+    "Oscar",
+    "Vasquez",
+    "2455",
+    "Monroe",
+    "Station,",
+    "New",
+    "Emma,",
+    "IN",
+    "26557",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Dried",
+    "wing-stemmed",
+    "passion",
+    "flower",
+    "2",
+    "$453.32",
+    "$906.64",
+    "Immersion",
+    "circulators",
+    "8",
+    "$13.67",
+    "$109.36",
+    "Dried",
+    "organic",
+    "beaumont",
+    "guavas",
+    "87LM",
+    "3",
+    "$184.79",
+    "$554.37",
+    "Frozen",
+    "platinum",
+    "lady",
+    "corn",
+    "68Fy",
+    "7",
+    "$157.69",
+    "$1103.83",
+    "Subtotal:",
+    "$2674.20",
+    "Tax:",
+    "$133.71",
+    "TOTAL:",
+    "$2807.91"
+  ],
+  "boxes": [
+    [
+      421,
+      60,
+      578,
+      80
+    ],
+    [
+      66,
+      105,
+      156,
+      117
+    ],
+    [
+      168,
+      105,
+      218,
+      117
+    ],
+    [
+      232,
+      105,
+      385,
+      117
+    ],
+    [
+      66,
+      144,
+      130,
+      156
+    ],
+    [
+      142,
+      144,
+      270,
+      157
+    ],
+    [
+      66,
+      209,
+      156,
+      221
+    ],
+    [
+      168,
+      209,
+      245,
+      221
+    ],
+    [
+      257,
+      209,
+      296,
+      221
+    ],
+    [
+      66,
+      246,
+      96,
+      256
+    ],
+    [
+      104,
+      246,
+      170,
+      256
+    ],
+    [
+      180,
+      246,
+      246,
+      256
+    ],
+    [
+      256,
+      247,
+      304,
+      256
+    ],
+    [
+      313,
+      246,
+      352,
+      259
+    ],
+    [
+      361,
+      246,
+      409,
+      256
+    ],
+    [
+      418,
+      246,
+      485,
+      259
+    ],
+    [
+      66,
+      265,
+      85,
+      274
+    ],
+    [
+      94,
+      264,
+      142,
+      274
+    ],
+    [
+      66,
+      306,
+      117,
+      318
+    ],
+    [
+      130,
+      306,
+      169,
+      318
+    ],
+    [
+      181,
+      306,
+      245,
+      318
+    ],
+    [
+      257,
+      306,
+      346,
+      321
+    ],
+    [
+      66,
+      347,
+      105,
+      356
+    ],
+    [
+      114,
+      347,
+      172,
+      356
+    ],
+    [
+      181,
+      347,
+      258,
+      359
+    ],
+    [
+      266,
+      347,
+      296,
+      356
+    ],
+    [
+      304,
+      347,
+      352,
+      359
+    ],
+    [
+      361,
+      347,
+      380,
+      356
+    ],
+    [
+      389,
+      347,
+      437,
+      356
+    ],
+    [
+      66,
+      390,
+      208,
+      405
+    ],
+    [
+      500,
+      390,
+      538,
+      405
+    ],
+    [
+      672,
+      390,
+      736,
+      402
+    ],
+    [
+      802,
+      390,
+      866,
+      402
+    ],
+    [
+      66,
+      423,
+      114,
+      433
+    ],
+    [
+      124,
+      423,
+      238,
+      436
+    ],
+    [
+      248,
+      424,
+      314,
+      436
+    ],
+    [
+      324,
+      423,
+      381,
+      433
+    ],
+    [
+      500,
+      424,
+      509,
+      433
+    ],
+    [
+      672,
+      422,
+      738,
+      434
+    ],
+    [
+      802,
+      422,
+      869,
+      434
+    ],
+    [
+      66,
+      454,
+      153,
+      463
+    ],
+    [
+      162,
+      453,
+      268,
+      463
+    ],
+    [
+      500,
+      454,
+      509,
+      463
+    ],
+    [
+      672,
+      452,
+      729,
+      464
+    ],
+    [
+      802,
+      452,
+      869,
+      464
+    ],
+    [
+      66,
+      483,
+      114,
+      493
+    ],
+    [
+      124,
+      484,
+      190,
+      496
+    ],
+    [
+      200,
+      483,
+      277,
+      493
+    ],
+    [
+      285,
+      486,
+      342,
+      496
+    ],
+    [
+      352,
+      484,
+      390,
+      493
+    ],
+    [
+      500,
+      484,
+      509,
+      493
+    ],
+    [
+      672,
+      482,
+      738,
+      494
+    ],
+    [
+      802,
+      482,
+      869,
+      494
+    ],
+    [
+      66,
+      514,
+      124,
+      523
+    ],
+    [
+      133,
+      513,
+      210,
+      526
+    ],
+    [
+      218,
+      513,
+      257,
+      526
+    ],
+    [
+      266,
+      516,
+      305,
+      523
+    ],
+    [
+      314,
+      514,
+      353,
+      526
+    ],
+    [
+      500,
+      514,
+      509,
+      523
+    ],
+    [
+      672,
+      512,
+      738,
+      524
+    ],
+    [
+      802,
+      512,
+      880,
+      524
+    ],
+    [
+      586,
+      570,
+      701,
+      582
+    ],
+    [
+      714,
+      569,
+      817,
+      584
+    ],
+    [
+      586,
+      612,
+      637,
+      624
+    ],
+    [
+      650,
+      611,
+      740,
+      626
+    ],
+    [
+      586,
+      657,
+      692,
+      673
+    ],
+    [
+      709,
+      654,
+      850,
+      675
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 750,
+  "image_height": 1000,
+  "layout_type": "compact",
+  "total_words": 67,
+  "invoice_data": {
+    "invoice_number": "INV-72BAF220",
+    "invoice_date": "05/08/2025",
+    "vendor_name": "Austin PLC",
+    "vendor_address": "401 Barbara Harbors Suite 146, North Andrew, NY 14706",
+    "customer_name": "Oscar Vasquez",
+    "customer_address": "2455 Monroe Station, New Emma, IN 26557",
+    "line_items": [
+      {
+        "description": "Dried wing-stemmed passion flower",
+        "quantity": 2,
+        "unit_price": 453.32,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Dried fruit",
+          "class_name": "Dried passion fruit",
+          "commodity_name": "Dried wing-stemmed passion flower",
+          "segment_code": "50000000",
+          "family_code": "50320000",
+          "class_code": "50325200",
+          "commodity_code": "50325210"
+        }
+      },
+      {
+        "description": "Immersion circulators",
+        "quantity": 8,
+        "unit_price": 13.67,
+        "unspsc_details": {
+          "segment_name": "Laboratory and Measuring and Observing and Testing Equipment",
+          "family_name": "Laboratory and scientific equipment",
+          "class_name": "Laboratory baths",
+          "commodity_name": "Immersion circulators",
+          "segment_code": "41000000",
+          "family_code": "41100000",
+          "class_code": "41103700",
+          "commodity_code": "41103712"
+        }
+      },
+      {
+        "description": "Dried organic beaumont guavas 87LM",
+        "quantity": 3,
+        "unit_price": 184.79,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Dried organic fruit",
+          "class_name": "Dried organic guavas",
+          "commodity_name": "Dried organic beaumont guavas",
+          "segment_code": "50000000",
+          "family_code": "50330000",
+          "class_code": "50333700",
+          "commodity_code": "50333701"
+        }
+      },
+      {
+        "description": "Frozen platinum lady corn 68Fy",
+        "quantity": 7,
+        "unit_price": 157.69,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Frozen vegetables",
+          "class_name": "Frozen corn",
+          "commodity_name": "Frozen platinum lady corn",
+          "segment_code": "50000000",
+          "family_code": "50440000",
+          "class_code": "50443200",
+          "commodity_code": "50443247"
+        }
+      }
+    ],
+    "subtotal": 2674.2,
+    "tax_amount": 133.71,
+    "total_amount": 2807.91
+  }
+}

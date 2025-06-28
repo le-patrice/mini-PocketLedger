@@ -1,0 +1,567 @@
+{
+  "id": "synthetic_invoice_0075",
+  "image_filename": "synthetic_invoice_0075.png",
+  "words": [
+    "RECEIPT",
+    "Invoice",
+    "No.:",
+    "INV-63A8F588",
+    "Date:",
+    "05/05/2025",
+    "Vendor:",
+    "Garza-Huff",
+    "Unit",
+    "3087",
+    "Box",
+    "2407,",
+    "DPO",
+    "AP",
+    "40534",
+    "Bill",
+    "To:",
+    "Charles",
+    "Richardson",
+    "13336",
+    "Black",
+    "Prairie",
+    "Suite",
+    "528,",
+    "Richardland,",
+    "SD",
+    "94287",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Domestic",
+    "serving",
+    "bowls",
+    "3",
+    "$302.09",
+    "$906.27",
+    "Smith-West",
+    "Estramustine",
+    "38YZ",
+    "6",
+    "$491.49",
+    "$2948.94",
+    "Nephrostomy",
+    "sets",
+    "or",
+    "accessories",
+    "1",
+    "$17.00",
+    "$17.00",
+    "Cafeteria",
+    "5",
+    "$238.70",
+    "$1193.50",
+    "Subtotal:",
+    "$5065.71",
+    "Tax:",
+    "$506.57",
+    "TOTAL:",
+    "$5572.28"
+  ],
+  "boxes": [
+    [
+      401,
+      55,
+      598,
+      77
+    ],
+    [
+      66,
+      100,
+      178,
+      113
+    ],
+    [
+      193,
+      100,
+      256,
+      113
+    ],
+    [
+      273,
+      100,
+      465,
+      113
+    ],
+    [
+      66,
+      141,
+      146,
+      154
+    ],
+    [
+      161,
+      141,
+      321,
+      155
+    ],
+    [
+      66,
+      205,
+      178,
+      218
+    ],
+    [
+      193,
+      203,
+      353,
+      218
+    ],
+    [
+      66,
+      247,
+      115,
+      257
+    ],
+    [
+      126,
+      247,
+      175,
+      257
+    ],
+    [
+      186,
+      247,
+      223,
+      257
+    ],
+    [
+      233,
+      247,
+      293,
+      261
+    ],
+    [
+      305,
+      247,
+      341,
+      257
+    ],
+    [
+      351,
+      247,
+      375,
+      257
+    ],
+    [
+      386,
+      247,
+      446,
+      257
+    ],
+    [
+      66,
+      290,
+      130,
+      303
+    ],
+    [
+      146,
+      290,
+      195,
+      303
+    ],
+    [
+      210,
+      290,
+      321,
+      303
+    ],
+    [
+      336,
+      290,
+      496,
+      303
+    ],
+    [
+      66,
+      328,
+      126,
+      340
+    ],
+    [
+      138,
+      328,
+      198,
+      340
+    ],
+    [
+      210,
+      330,
+      293,
+      340
+    ],
+    [
+      305,
+      330,
+      365,
+      340
+    ],
+    [
+      376,
+      330,
+      425,
+      343
+    ],
+    [
+      66,
+      348,
+      210,
+      363
+    ],
+    [
+      221,
+      350,
+      245,
+      360
+    ],
+    [
+      256,
+      350,
+      316,
+      360
+    ],
+    [
+      66,
+      393,
+      243,
+      410
+    ],
+    [
+      500,
+      393,
+      548,
+      410
+    ],
+    [
+      673,
+      393,
+      753,
+      406
+    ],
+    [
+      803,
+      393,
+      883,
+      406
+    ],
+    [
+      66,
+      431,
+      163,
+      441
+    ],
+    [
+      173,
+      431,
+      256,
+      444
+    ],
+    [
+      268,
+      430,
+      328,
+      441
+    ],
+    [
+      500,
+      431,
+      511,
+      441
+    ],
+    [
+      673,
+      428,
+      756,
+      442
+    ],
+    [
+      803,
+      428,
+      886,
+      442
+    ],
+    [
+      66,
+      461,
+      186,
+      472
+    ],
+    [
+      198,
+      462,
+      341,
+      472
+    ],
+    [
+      353,
+      462,
+      401,
+      472
+    ],
+    [
+      500,
+      462,
+      511,
+      472
+    ],
+    [
+      673,
+      460,
+      756,
+      473
+    ],
+    [
+      803,
+      460,
+      900,
+      473
+    ],
+    [
+      66,
+      492,
+      198,
+      506
+    ],
+    [
+      210,
+      493,
+      258,
+      503
+    ],
+    [
+      270,
+      495,
+      293,
+      503
+    ],
+    [
+      305,
+      493,
+      436,
+      503
+    ],
+    [
+      500,
+      492,
+      511,
+      503
+    ],
+    [
+      673,
+      491,
+      745,
+      504
+    ],
+    [
+      803,
+      491,
+      875,
+      504
+    ],
+    [
+      66,
+      523,
+      175,
+      534
+    ],
+    [
+      500,
+      524,
+      511,
+      534
+    ],
+    [
+      673,
+      522,
+      756,
+      535
+    ],
+    [
+      803,
+      522,
+      900,
+      535
+    ],
+    [
+      586,
+      578,
+      730,
+      592
+    ],
+    [
+      746,
+      577,
+      875,
+      594
+    ],
+    [
+      586,
+      623,
+      650,
+      636
+    ],
+    [
+      666,
+      622,
+      778,
+      638
+    ],
+    [
+      586,
+      671,
+      718,
+      688
+    ],
+    [
+      586,
+      691,
+      763,
+      714
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 600,
+  "image_height": 900,
+  "layout_type": "receipt",
+  "total_words": 60,
+  "invoice_data": {
+    "invoice_number": "INV-63A8F588",
+    "invoice_date": "05/05/2025",
+    "vendor_name": "Garza-Huff",
+    "vendor_address": "Unit 3087 Box 2407, DPO AP 40534",
+    "customer_name": "Charles Richardson",
+    "customer_address": "13336 Black Prairie Suite 528, Richardland, SD 94287",
+    "line_items": [
+      {
+        "description": "Domestic serving bowls",
+        "quantity": 3,
+        "unit_price": 302.09,
+        "unspsc_details": {
+          "segment_name": "Domestic Appliances and Supplies and Consumer Electronic Products",
+          "family_name": "Domestic kitchenware and kitchen supplies",
+          "class_name": "Domestic dishes and servingware and storage containers",
+          "commodity_name": "Domestic serving bowls",
+          "segment_code": "52000000",
+          "family_code": "52150000",
+          "class_code": "52152000",
+          "commodity_code": "52152007"
+        }
+      },
+      {
+        "description": "Smith-West Estramustine 38YZ",
+        "quantity": 6,
+        "unit_price": 491.49,
+        "unspsc_details": {
+          "segment_name": "Drugs and Pharmaceutical Products",
+          "family_name": "Antineoplastic agents",
+          "class_name": "Hormones and antihormones",
+          "commodity_name": "Estramustine",
+          "segment_code": "51000000",
+          "family_code": "51110000",
+          "class_code": "51111800",
+          "commodity_code": "51111803"
+        }
+      },
+      {
+        "description": "Nephrostomy sets or accessories",
+        "quantity": 1,
+        "unit_price": 17.0,
+        "unspsc_details": {
+          "segment_name": "Medical Equipment and Accessories and Supplies",
+          "family_name": "Patient care and treatment products and supplies",
+          "class_name": "Urological supplies",
+          "commodity_name": "Nephrostomy sets or accessories",
+          "segment_code": "42000000",
+          "family_code": "42140000",
+          "class_code": "42142700",
+          "commodity_code": "42142709"
+        }
+      },
+      {
+        "description": "Cafeteria",
+        "quantity": 5,
+        "unit_price": 238.7,
+        "unspsc_details": {
+          "segment_name": "Land and Buildings and Structures and Thoroughfares",
+          "family_name": "Permanent buildings and structures",
+          "class_name": "Commercial and entertainment buildings and structures",
+          "commodity_name": "Cafeteria",
+          "segment_code": "95000000",
+          "family_code": "95120000",
+          "class_code": "95121500",
+          "commodity_code": "95121503"
+        }
+      }
+    ],
+    "subtotal": 5065.71,
+    "tax_amount": 506.57,
+    "total_amount": 5572.28
+  }
+}

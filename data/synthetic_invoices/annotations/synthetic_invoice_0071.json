@@ -1,0 +1,671 @@
+{
+  "id": "synthetic_invoice_0071",
+  "image_filename": "synthetic_invoice_0071.png",
+  "words": [
+    "INVOICE",
+    "Invoice",
+    "No.:",
+    "INV-1BECF48B",
+    "Date:",
+    "09/18/2024",
+    "Vendor:",
+    "Gardner",
+    "LLC",
+    "2182",
+    "Michael",
+    "Shoal",
+    "Apt.",
+    "160,",
+    "Mannstad,",
+    "RI",
+    "52500",
+    "Bill",
+    "To:",
+    "Kenneth",
+    "Bass",
+    "20548",
+    "Brown",
+    "Row",
+    "Suite",
+    "665,",
+    "Port",
+    "Carl,",
+    "KS",
+    "42036",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Brass",
+    "wire",
+    "4",
+    "$410.23",
+    "$1640.92",
+    "Bates,",
+    "Johnson",
+    "Black",
+    "republic",
+    "cherries",
+    "9",
+    "$411.57",
+    "$3704.13",
+    "Dried",
+    "organic",
+    "arue",
+    "avocados",
+    "65VX",
+    "10",
+    "$335.37",
+    "$3353.70",
+    "Canned",
+    "or",
+    "jarred",
+    "non",
+    "GMO",
+    "super",
+    "lady",
+    "peac",
+    "42Vx",
+    "8",
+    "$70.83",
+    "$566.64",
+    "Subtotal:",
+    "$9265.39",
+    "Tax:",
+    "$648.58",
+    "TOTAL:",
+    "$9913.97"
+  ],
+  "boxes": [
+    [
+      426,
+      63,
+      573,
+      81
+    ],
+    [
+      75,
+      109,
+      158,
+      120
+    ],
+    [
+      170,
+      109,
+      217,
+      120
+    ],
+    [
+      230,
+      109,
+      373,
+      120
+    ],
+    [
+      75,
+      147,
+      135,
+      158
+    ],
+    [
+      146,
+      147,
+      266,
+      159
+    ],
+    [
+      75,
+      213,
+      158,
+      224
+    ],
+    [
+      170,
+      213,
+      253,
+      224
+    ],
+    [
+      265,
+      213,
+      301,
+      224
+    ],
+    [
+      75,
+      250,
+      111,
+      259
+    ],
+    [
+      120,
+      250,
+      182,
+      259
+    ],
+    [
+      191,
+      250,
+      236,
+      259
+    ],
+    [
+      245,
+      250,
+      281,
+      261
+    ],
+    [
+      290,
+      250,
+      326,
+      261
+    ],
+    [
+      335,
+      250,
+      416,
+      261
+    ],
+    [
+      425,
+      250,
+      442,
+      259
+    ],
+    [
+      451,
+      250,
+      496,
+      259
+    ],
+    [
+      75,
+      295,
+      122,
+      306
+    ],
+    [
+      135,
+      295,
+      171,
+      306
+    ],
+    [
+      182,
+      295,
+      266,
+      306
+    ],
+    [
+      277,
+      295,
+      325,
+      306
+    ],
+    [
+      75,
+      332,
+      120,
+      340
+    ],
+    [
+      128,
+      332,
+      173,
+      340
+    ],
+    [
+      182,
+      332,
+      210,
+      340
+    ],
+    [
+      217,
+      332,
+      262,
+      340
+    ],
+    [
+      271,
+      332,
+      307,
+      343
+    ],
+    [
+      316,
+      332,
+      352,
+      340
+    ],
+    [
+      361,
+      331,
+      406,
+      343
+    ],
+    [
+      415,
+      332,
+      432,
+      340
+    ],
+    [
+      441,
+      332,
+      486,
+      340
+    ],
+    [
+      75,
+      377,
+      207,
+      390
+    ],
+    [
+      500,
+      377,
+      536,
+      390
+    ],
+    [
+      668,
+      377,
+      728,
+      388
+    ],
+    [
+      797,
+      377,
+      857,
+      388
+    ],
+    [
+      75,
+      408,
+      120,
+      416
+    ],
+    [
+      128,
+      408,
+      165,
+      416
+    ],
+    [
+      500,
+      408,
+      508,
+      416
+    ],
+    [
+      668,
+      406,
+      731,
+      417
+    ],
+    [
+      797,
+      406,
+      870,
+      417
+    ],
+    [
+      75,
+      438,
+      128,
+      449
+    ],
+    [
+      137,
+      437,
+      200,
+      446
+    ],
+    [
+      208,
+      437,
+      253,
+      446
+    ],
+    [
+      262,
+      437,
+      335,
+      449
+    ],
+    [
+      342,
+      437,
+      415,
+      446
+    ],
+    [
+      500,
+      438,
+      508,
+      446
+    ],
+    [
+      668,
+      436,
+      731,
+      447
+    ],
+    [
+      797,
+      436,
+      870,
+      447
+    ],
+    [
+      75,
+      467,
+      120,
+      476
+    ],
+    [
+      128,
+      468,
+      191,
+      479
+    ],
+    [
+      200,
+      470,
+      236,
+      476
+    ],
+    [
+      245,
+      467,
+      317,
+      476
+    ],
+    [
+      325,
+      468,
+      361,
+      476
+    ],
+    [
+      500,
+      467,
+      517,
+      476
+    ],
+    [
+      668,
+      466,
+      731,
+      477
+    ],
+    [
+      797,
+      466,
+      870,
+      477
+    ],
+    [
+      75,
+      497,
+      128,
+      506
+    ],
+    [
+      137,
+      500,
+      155,
+      506
+    ],
+    [
+      163,
+      497,
+      217,
+      509
+    ],
+    [
+      226,
+      500,
+      253,
+      506
+    ],
+    [
+      261,
+      498,
+      288,
+      506
+    ],
+    [
+      296,
+      500,
+      341,
+      509
+    ],
+    [
+      350,
+      497,
+      386,
+      509
+    ],
+    [
+      395,
+      500,
+      431,
+      509
+    ],
+    [
+      440,
+      498,
+      476,
+      506
+    ],
+    [
+      500,
+      498,
+      508,
+      506
+    ],
+    [
+      668,
+      496,
+      722,
+      507
+    ],
+    [
+      797,
+      496,
+      860,
+      507
+    ],
+    [
+      585,
+      556,
+      692,
+      567
+    ],
+    [
+      705,
+      555,
+      801,
+      569
+    ],
+    [
+      585,
+      597,
+      632,
+      608
+    ],
+    [
+      645,
+      596,
+      728,
+      610
+    ],
+    [
+      585,
+      640,
+      683,
+      655
+    ],
+    [
+      700,
+      638,
+      832,
+      657
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 800,
+  "image_height": 1100,
+  "layout_type": "standard",
+  "total_words": 73,
+  "invoice_data": {
+    "invoice_number": "INV-1BECF48B",
+    "invoice_date": "09/18/2024",
+    "vendor_name": "Gardner LLC",
+    "vendor_address": "2182 Michael Shoal Apt. 160, Mannstad, RI 52500",
+    "customer_name": "Kenneth Bass",
+    "customer_address": "20548 Brown Row Suite 665, Port Carl, KS 42036",
+    "line_items": [
+      {
+        "description": "Brass wire",
+        "quantity": 4,
+        "unit_price": 410.23,
+        "unspsc_details": {
+          "segment_name": "Power Generation and Distribution Machinery and Accessories",
+          "family_name": "Electrical wire and cable and harness",
+          "class_name": "Electrical wire",
+          "commodity_name": "Brass wire",
+          "segment_code": "26000000",
+          "family_code": "26120000",
+          "class_code": "26121500",
+          "commodity_code": "26121547"
+        }
+      },
+      {
+        "description": "Bates, Johnson  Black republic cherries",
+        "quantity": 9,
+        "unit_price": 411.57,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Fresh fruits",
+          "class_name": "Cherries",
+          "commodity_name": "Black republic cherries",
+          "segment_code": "50000000",
+          "family_code": "50300000",
+          "class_code": "50302500",
+          "commodity_code": "50302505"
+        }
+      },
+      {
+        "description": "Dried organic arue avocados 65VX",
+        "quantity": 10,
+        "unit_price": 335.37,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Dried organic vegetables",
+          "class_name": "Dried organic avocados",
+          "commodity_name": "Dried organic arue avocados",
+          "segment_code": "50000000",
+          "family_code": "50430000",
+          "class_code": "50431700",
+          "commodity_code": "50431702"
+        }
+      },
+      {
+        "description": "Canned or jarred non GMO super lady peac 42Vx",
+        "quantity": 8,
+        "unit_price": 70.83,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Canned or jarred non GMO fruits",
+          "class_name": "Canned or jarred non GMO peaches",
+          "commodity_name": "Canned or jarred non GMO super lady peaches",
+          "segment_code": "50000000",
+          "family_code": "50550000",
+          "class_code": "50555300",
+          "commodity_code": "50555364"
+        }
+      }
+    ],
+    "subtotal": 9265.39,
+    "tax_amount": 648.58,
+    "total_amount": 9913.97
+  }
+}

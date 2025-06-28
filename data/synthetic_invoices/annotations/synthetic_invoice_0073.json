@@ -1,0 +1,615 @@
+{
+  "id": "synthetic_invoice_0073",
+  "image_filename": "synthetic_invoice_0073.png",
+  "words": [
+    "RECEIPT",
+    "Invoice",
+    "No.:",
+    "INV-A8F663DC",
+    "Date:",
+    "10/19/2024",
+    "Vendor:",
+    "Walters",
+    "and",
+    "Sons",
+    "Unit",
+    "3440",
+    "Box",
+    "0066,",
+    "DPO",
+    "AE",
+    "01149",
+    "Bill",
+    "To:",
+    "Tyler",
+    "Charles",
+    "7606",
+    "Robertson",
+    "Rest",
+    "Suite",
+    "555,",
+    "East",
+    "Dylanview,",
+    "NC",
+    "25239",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Tarepiba",
+    "1",
+    "$35.22",
+    "$35.22",
+    "Smith-Daniels",
+    "Dried",
+    "organic",
+    "shiitake",
+    "mushrooms",
+    "51ip",
+    "2",
+    "$193.22",
+    "$386.44",
+    "Chung-Hayes",
+    "Fresh",
+    "cut",
+    "variegated",
+    "pittosporum",
+    "5",
+    "$119.06",
+    "$595.30",
+    "Mccoy-Coleman",
+    "Nemazoline",
+    "6",
+    "$122.74",
+    "$736.44",
+    "Subtotal:",
+    "$1753.40",
+    "Tax:",
+    "$175.34",
+    "TOTAL:",
+    "$1928.74"
+  ],
+  "boxes": [
+    [
+      426,
+      63,
+      573,
+      81
+    ],
+    [
+      75,
+      109,
+      158,
+      120
+    ],
+    [
+      170,
+      109,
+      217,
+      120
+    ],
+    [
+      230,
+      109,
+      373,
+      120
+    ],
+    [
+      75,
+      147,
+      135,
+      158
+    ],
+    [
+      146,
+      147,
+      266,
+      159
+    ],
+    [
+      75,
+      213,
+      158,
+      224
+    ],
+    [
+      170,
+      213,
+      253,
+      224
+    ],
+    [
+      265,
+      213,
+      301,
+      224
+    ],
+    [
+      312,
+      213,
+      360,
+      224
+    ],
+    [
+      75,
+      250,
+      111,
+      259
+    ],
+    [
+      120,
+      250,
+      156,
+      259
+    ],
+    [
+      165,
+      250,
+      192,
+      259
+    ],
+    [
+      200,
+      250,
+      245,
+      261
+    ],
+    [
+      253,
+      250,
+      281,
+      259
+    ],
+    [
+      288,
+      250,
+      306,
+      259
+    ],
+    [
+      315,
+      250,
+      360,
+      259
+    ],
+    [
+      75,
+      295,
+      122,
+      306
+    ],
+    [
+      135,
+      295,
+      171,
+      306
+    ],
+    [
+      182,
+      295,
+      242,
+      309
+    ],
+    [
+      253,
+      295,
+      337,
+      306
+    ],
+    [
+      75,
+      335,
+      111,
+      343
+    ],
+    [
+      120,
+      334,
+      201,
+      343
+    ],
+    [
+      210,
+      335,
+      246,
+      343
+    ],
+    [
+      255,
+      335,
+      300,
+      343
+    ],
+    [
+      308,
+      335,
+      345,
+      346
+    ],
+    [
+      353,
+      335,
+      390,
+      343
+    ],
+    [
+      398,
+      334,
+      488,
+      346
+    ],
+    [
+      75,
+      351,
+      92,
+      360
+    ],
+    [
+      101,
+      351,
+      146,
+      360
+    ],
+    [
+      75,
+      392,
+      207,
+      406
+    ],
+    [
+      500,
+      392,
+      536,
+      406
+    ],
+    [
+      668,
+      392,
+      728,
+      403
+    ],
+    [
+      797,
+      392,
+      857,
+      403
+    ],
+    [
+      75,
+      422,
+      147,
+      434
+    ],
+    [
+      500,
+      422,
+      508,
+      431
+    ],
+    [
+      668,
+      421,
+      722,
+      432
+    ],
+    [
+      797,
+      421,
+      851,
+      432
+    ],
+    [
+      75,
+      452,
+      192,
+      461
+    ],
+    [
+      200,
+      452,
+      245,
+      461
+    ],
+    [
+      253,
+      453,
+      316,
+      464
+    ],
+    [
+      325,
+      452,
+      397,
+      461
+    ],
+    [
+      405,
+      452,
+      486,
+      461
+    ],
+    [
+      75,
+      469,
+      111,
+      480
+    ],
+    [
+      500,
+      453,
+      508,
+      461
+    ],
+    [
+      668,
+      451,
+      731,
+      462
+    ],
+    [
+      797,
+      451,
+      860,
+      462
+    ],
+    [
+      75,
+      482,
+      173,
+      494
+    ],
+    [
+      182,
+      482,
+      227,
+      491
+    ],
+    [
+      236,
+      483,
+      263,
+      491
+    ],
+    [
+      271,
+      482,
+      361,
+      494
+    ],
+    [
+      370,
+      483,
+      468,
+      494
+    ],
+    [
+      500,
+      483,
+      508,
+      491
+    ],
+    [
+      668,
+      481,
+      731,
+      492
+    ],
+    [
+      797,
+      481,
+      860,
+      492
+    ],
+    [
+      75,
+      512,
+      192,
+      524
+    ],
+    [
+      200,
+      512,
+      290,
+      521
+    ],
+    [
+      500,
+      513,
+      508,
+      521
+    ],
+    [
+      668,
+      511,
+      731,
+      522
+    ],
+    [
+      797,
+      511,
+      860,
+      522
+    ],
+    [
+      585,
+      571,
+      692,
+      582
+    ],
+    [
+      705,
+      570,
+      801,
+      584
+    ],
+    [
+      585,
+      612,
+      632,
+      623
+    ],
+    [
+      645,
+      611,
+      728,
+      625
+    ],
+    [
+      585,
+      656,
+      683,
+      670
+    ],
+    [
+      700,
+      653,
+      832,
+      672
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    0,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 800,
+  "image_height": 1100,
+  "layout_type": "standard",
+  "total_words": 66,
+  "invoice_data": {
+    "invoice_number": "INV-A8F663DC",
+    "invoice_date": "10/19/2024",
+    "vendor_name": "Walters and Sons",
+    "vendor_address": "Unit 3440 Box 0066, DPO AE 01149",
+    "customer_name": "Tyler Charles",
+    "customer_address": "7606 Robertson Rest Suite 555, East Dylanview, NC 25239",
+    "line_items": [
+      {
+        "description": "Tarepiba",
+        "quantity": 1,
+        "unit_price": 35.22,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Fresh fruits",
+          "class_name": "Nominant fruits",
+          "commodity_name": "Tarepiba",
+          "segment_code": "50000000",
+          "family_code": "50300000",
+          "class_code": "50307000",
+          "commodity_code": "50307047"
+        }
+      },
+      {
+        "description": "Smith-Daniels Dried organic shiitake mushrooms 51ip",
+        "quantity": 2,
+        "unit_price": 193.22,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Dried organic vegetables",
+          "class_name": "Dried organic mushrooms",
+          "commodity_name": "Dried organic shiitake mushrooms",
+          "segment_code": "50000000",
+          "family_code": "50430000",
+          "class_code": "50434800",
+          "commodity_code": "50434816"
+        }
+      },
+      {
+        "description": "Chung-Hayes Fresh cut variegated pittosporum",
+        "quantity": 5,
+        "unit_price": 119.06,
+        "unspsc_details": {
+          "segment_name": "Live Plant and Animal Material and Accessories and Supplies",
+          "family_name": "Fresh cut greenery",
+          "class_name": "Fresh cut pittosporum",
+          "commodity_name": "Fresh cut variegated pittosporum",
+          "segment_code": "10000000",
+          "family_code": "10500000",
+          "class_code": "10502800",
+          "commodity_code": "10502805"
+        }
+      },
+      {
+        "description": "Mccoy-Coleman Nemazoline",
+        "quantity": 6,
+        "unit_price": 122.74,
+        "unspsc_details": {
+          "segment_name": "Drugs and Pharmaceutical Products",
+          "family_name": "Antihistamines or H1 blockers",
+          "class_name": "Antihistamine or H1 blocker imidazoles",
+          "commodity_name": "Nemazoline",
+          "segment_code": "51000000",
+          "family_code": "51310000",
+          "class_code": "51312600",
+          "commodity_code": "51312606"
+        }
+      }
+    ],
+    "subtotal": 1753.3999999999999,
+    "tax_amount": 175.34,
+    "total_amount": 1928.74
+  }
+}

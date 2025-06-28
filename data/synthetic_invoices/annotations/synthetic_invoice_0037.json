@@ -1,0 +1,655 @@
+{
+  "id": "synthetic_invoice_0037",
+  "image_filename": "synthetic_invoice_0037.png",
+  "words": [
+    "BILL",
+    "Invoice",
+    "No.:",
+    "INV-2D93081F",
+    "Date:",
+    "02/14/2025",
+    "Vendor:",
+    "Mitchell,",
+    "Gonzalez",
+    "and",
+    "Greene",
+    "75207",
+    "Williams",
+    "Square,",
+    "West",
+    "Christina,",
+    "PA",
+    "57901",
+    "Bill",
+    "To:",
+    "Andrea",
+    "Howard",
+    "5973",
+    "Jennifer",
+    "Well,",
+    "Harrisshire,",
+    "IN",
+    "76399",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Payne-Mills",
+    "Non",
+    "GMO",
+    "grenache",
+    "grape",
+    "purees",
+    "8",
+    "$358.85",
+    "$2870.80",
+    "Wilson,",
+    "Ashley",
+    "Bianco",
+    "lungo",
+    "di",
+    "parigi",
+    "cucumbers",
+    "7",
+    "$179.29",
+    "$1255.03",
+    "Giant",
+    "white",
+    "celery",
+    "purees",
+    "30mH",
+    "8",
+    "$490.09",
+    "$3920.72",
+    "Thomas,",
+    "Griffin",
+    "Proheptazine",
+    "2",
+    "$312.70",
+    "$625.40",
+    "Subtotal:",
+    "$8671.95",
+    "Tax:",
+    "$867.20",
+    "TOTAL:",
+    "$9539.15"
+  ],
+  "boxes": [
+    [
+      457,
+      63,
+      541,
+      81
+    ],
+    [
+      75,
+      109,
+      158,
+      120
+    ],
+    [
+      170,
+      109,
+      217,
+      120
+    ],
+    [
+      230,
+      109,
+      373,
+      120
+    ],
+    [
+      75,
+      147,
+      135,
+      158
+    ],
+    [
+      146,
+      147,
+      266,
+      159
+    ],
+    [
+      75,
+      213,
+      158,
+      224
+    ],
+    [
+      170,
+      213,
+      277,
+      227
+    ],
+    [
+      290,
+      213,
+      386,
+      224
+    ],
+    [
+      397,
+      213,
+      433,
+      224
+    ],
+    [
+      75,
+      231,
+      147,
+      242
+    ],
+    [
+      75,
+      269,
+      120,
+      277
+    ],
+    [
+      128,
+      268,
+      201,
+      277
+    ],
+    [
+      208,
+      269,
+      271,
+      280
+    ],
+    [
+      280,
+      269,
+      316,
+      277
+    ],
+    [
+      325,
+      268,
+      415,
+      280
+    ],
+    [
+      423,
+      269,
+      441,
+      277
+    ],
+    [
+      450,
+      268,
+      495,
+      277
+    ],
+    [
+      75,
+      313,
+      122,
+      324
+    ],
+    [
+      135,
+      313,
+      171,
+      324
+    ],
+    [
+      182,
+      313,
+      255,
+      324
+    ],
+    [
+      266,
+      313,
+      338,
+      324
+    ],
+    [
+      75,
+      350,
+      111,
+      359
+    ],
+    [
+      120,
+      350,
+      192,
+      359
+    ],
+    [
+      200,
+      350,
+      245,
+      361
+    ],
+    [
+      253,
+      350,
+      361,
+      361
+    ],
+    [
+      370,
+      350,
+      387,
+      359
+    ],
+    [
+      396,
+      350,
+      441,
+      359
+    ],
+    [
+      75,
+      395,
+      207,
+      409
+    ],
+    [
+      500,
+      395,
+      536,
+      409
+    ],
+    [
+      668,
+      395,
+      728,
+      406
+    ],
+    [
+      797,
+      395,
+      857,
+      406
+    ],
+    [
+      75,
+      425,
+      173,
+      437
+    ],
+    [
+      182,
+      426,
+      210,
+      434
+    ],
+    [
+      217,
+      426,
+      245,
+      434
+    ],
+    [
+      252,
+      425,
+      325,
+      437
+    ],
+    [
+      332,
+      428,
+      377,
+      437
+    ],
+    [
+      386,
+      428,
+      440,
+      437
+    ],
+    [
+      500,
+      426,
+      508,
+      434
+    ],
+    [
+      668,
+      424,
+      731,
+      435
+    ],
+    [
+      797,
+      424,
+      870,
+      435
+    ],
+    [
+      75,
+      455,
+      137,
+      467
+    ],
+    [
+      146,
+      455,
+      200,
+      467
+    ],
+    [
+      208,
+      456,
+      262,
+      464
+    ],
+    [
+      271,
+      455,
+      316,
+      467
+    ],
+    [
+      325,
+      455,
+      342,
+      464
+    ],
+    [
+      351,
+      456,
+      405,
+      467
+    ],
+    [
+      413,
+      455,
+      495,
+      464
+    ],
+    [
+      500,
+      456,
+      508,
+      464
+    ],
+    [
+      668,
+      454,
+      731,
+      465
+    ],
+    [
+      797,
+      454,
+      870,
+      465
+    ],
+    [
+      75,
+      486,
+      120,
+      494
+    ],
+    [
+      128,
+      485,
+      173,
+      494
+    ],
+    [
+      182,
+      485,
+      236,
+      497
+    ],
+    [
+      245,
+      488,
+      298,
+      497
+    ],
+    [
+      307,
+      486,
+      343,
+      494
+    ],
+    [
+      500,
+      486,
+      508,
+      494
+    ],
+    [
+      668,
+      484,
+      731,
+      495
+    ],
+    [
+      797,
+      484,
+      870,
+      495
+    ],
+    [
+      75,
+      515,
+      137,
+      527
+    ],
+    [
+      146,
+      515,
+      208,
+      524
+    ],
+    [
+      217,
+      515,
+      325,
+      527
+    ],
+    [
+      500,
+      516,
+      508,
+      524
+    ],
+    [
+      668,
+      514,
+      731,
+      525
+    ],
+    [
+      797,
+      514,
+      860,
+      525
+    ],
+    [
+      585,
+      574,
+      692,
+      585
+    ],
+    [
+      705,
+      573,
+      801,
+      587
+    ],
+    [
+      585,
+      615,
+      632,
+      626
+    ],
+    [
+      645,
+      614,
+      728,
+      628
+    ],
+    [
+      585,
+      659,
+      683,
+      673
+    ],
+    [
+      700,
+      656,
+      832,
+      675
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    0,
+    0,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 800,
+  "image_height": 1100,
+  "layout_type": "standard",
+  "total_words": 71,
+  "invoice_data": {
+    "invoice_number": "INV-2D93081F",
+    "invoice_date": "02/14/2025",
+    "vendor_name": "Mitchell, Gonzalez and Greene",
+    "vendor_address": "75207 Williams Square, West Christina, PA 57901",
+    "customer_name": "Andrea Howard",
+    "customer_address": "5973 Jennifer Well, Harrisshire, IN 76399",
+    "line_items": [
+      {
+        "description": "Payne-Mills Non GMO grenache grape purees",
+        "quantity": 8,
+        "unit_price": 358.85,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Non GMO fresh fruit purees",
+          "class_name": "Non GMO wine grape purees",
+          "commodity_name": "Non GMO grenache grape purees",
+          "segment_code": "50000000",
+          "family_code": "50560000",
+          "class_code": "50563300",
+          "commodity_code": "50563320"
+        }
+      },
+      {
+        "description": "Wilson, Ashley  Bianco lungo di parigi cucumbers",
+        "quantity": 7,
+        "unit_price": 179.29,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Fresh vegetables",
+          "class_name": "Cucumbers",
+          "commodity_name": "Bianco lungo di parigi cucumbers",
+          "segment_code": "50000000",
+          "family_code": "50400000",
+          "class_code": "50403400",
+          "commodity_code": "50403404"
+        }
+      },
+      {
+        "description": "Giant white celery purees 30mH",
+        "quantity": 8,
+        "unit_price": 490.09,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Fresh vegetable purees",
+          "class_name": "Celery purees",
+          "commodity_name": "Giant white celery purees",
+          "segment_code": "50000000",
+          "family_code": "50480000",
+          "class_code": "50482800",
+          "commodity_code": "50482807"
+        }
+      },
+      {
+        "description": "Thomas, Griffin Proheptazine",
+        "quantity": 2,
+        "unit_price": 312.7,
+        "unspsc_details": {
+          "segment_name": "Drugs and Pharmaceutical Products",
+          "family_name": "Controlled substance analgesics",
+          "class_name": "Controlled substance analgesic propionates",
+          "commodity_name": "Proheptazine",
+          "segment_code": "51000000",
+          "family_code": "51370000",
+          "class_code": "51372400",
+          "commodity_code": "51372402"
+        }
+      }
+    ],
+    "subtotal": 8671.95,
+    "tax_amount": 867.2,
+    "total_amount": 9539.15
+  }
+}

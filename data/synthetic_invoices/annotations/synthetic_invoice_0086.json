@@ -1,0 +1,631 @@
+{
+  "id": "synthetic_invoice_0086",
+  "image_filename": "synthetic_invoice_0086.png",
+  "words": [
+    "RECEIPT",
+    "Invoice",
+    "No.:",
+    "INV-77CBF535",
+    "Date:",
+    "01/13/2025",
+    "Vendor:",
+    "Miller,",
+    "Bishop",
+    "and",
+    "Vasquez",
+    "2067",
+    "Robinson",
+    "Path",
+    "Suite",
+    "921,",
+    "Simmonsshire,",
+    "AZ",
+    "81771",
+    "Bill",
+    "To:",
+    "Anthony",
+    "Bird",
+    "Unit",
+    "2878",
+    "Box",
+    "2089,",
+    "DPO",
+    "AP",
+    "15036",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Dried",
+    "toscanelle",
+    "olives",
+    "8",
+    "$197.81",
+    "$1582.48",
+    "Etretinate",
+    "6",
+    "$421.59",
+    "$2529.54",
+    "Williamson,",
+    "Lew",
+    "Dried",
+    "organic",
+    "dina",
+    "apricots",
+    "6",
+    "$475.28",
+    "$2851.68",
+    "Canned",
+    "or",
+    "jarred",
+    "organic",
+    "mission",
+    "grapes",
+    "7",
+    "$217.75",
+    "$1524.25",
+    "Subtotal:",
+    "$8487.95",
+    "Tax:",
+    "$424.40",
+    "TOTAL:",
+    "$8912.35"
+  ],
+  "boxes": [
+    [
+      426,
+      63,
+      573,
+      81
+    ],
+    [
+      75,
+      109,
+      158,
+      120
+    ],
+    [
+      170,
+      109,
+      217,
+      120
+    ],
+    [
+      230,
+      109,
+      373,
+      120
+    ],
+    [
+      75,
+      147,
+      135,
+      158
+    ],
+    [
+      146,
+      147,
+      266,
+      159
+    ],
+    [
+      75,
+      213,
+      158,
+      224
+    ],
+    [
+      170,
+      213,
+      253,
+      227
+    ],
+    [
+      265,
+      213,
+      337,
+      227
+    ],
+    [
+      348,
+      213,
+      385,
+      224
+    ],
+    [
+      396,
+      213,
+      480,
+      227
+    ],
+    [
+      75,
+      253,
+      111,
+      261
+    ],
+    [
+      120,
+      252,
+      192,
+      261
+    ],
+    [
+      200,
+      252,
+      236,
+      261
+    ],
+    [
+      245,
+      253,
+      290,
+      261
+    ],
+    [
+      298,
+      252,
+      335,
+      264
+    ],
+    [
+      343,
+      252,
+      461,
+      264
+    ],
+    [
+      468,
+      253,
+      486,
+      261
+    ],
+    [
+      75,
+      269,
+      120,
+      278
+    ],
+    [
+      75,
+      311,
+      122,
+      322
+    ],
+    [
+      135,
+      311,
+      171,
+      322
+    ],
+    [
+      182,
+      311,
+      267,
+      325
+    ],
+    [
+      277,
+      311,
+      325,
+      322
+    ],
+    [
+      75,
+      351,
+      111,
+      360
+    ],
+    [
+      120,
+      351,
+      156,
+      360
+    ],
+    [
+      165,
+      351,
+      192,
+      360
+    ],
+    [
+      200,
+      351,
+      245,
+      362
+    ],
+    [
+      253,
+      351,
+      281,
+      360
+    ],
+    [
+      288,
+      351,
+      306,
+      360
+    ],
+    [
+      315,
+      350,
+      360,
+      360
+    ],
+    [
+      75,
+      396,
+      207,
+      410
+    ],
+    [
+      500,
+      396,
+      536,
+      410
+    ],
+    [
+      668,
+      396,
+      728,
+      407
+    ],
+    [
+      797,
+      396,
+      857,
+      407
+    ],
+    [
+      75,
+      426,
+      120,
+      435
+    ],
+    [
+      128,
+      426,
+      218,
+      435
+    ],
+    [
+      227,
+      426,
+      281,
+      435
+    ],
+    [
+      500,
+      427,
+      508,
+      435
+    ],
+    [
+      668,
+      425,
+      731,
+      436
+    ],
+    [
+      797,
+      425,
+      870,
+      436
+    ],
+    [
+      75,
+      457,
+      165,
+      465
+    ],
+    [
+      500,
+      457,
+      508,
+      465
+    ],
+    [
+      668,
+      455,
+      731,
+      466
+    ],
+    [
+      797,
+      455,
+      870,
+      466
+    ],
+    [
+      75,
+      486,
+      173,
+      498
+    ],
+    [
+      182,
+      487,
+      210,
+      495
+    ],
+    [
+      217,
+      486,
+      262,
+      495
+    ],
+    [
+      271,
+      487,
+      333,
+      498
+    ],
+    [
+      342,
+      486,
+      378,
+      495
+    ],
+    [
+      387,
+      487,
+      460,
+      498
+    ],
+    [
+      500,
+      487,
+      508,
+      495
+    ],
+    [
+      668,
+      485,
+      731,
+      496
+    ],
+    [
+      797,
+      485,
+      870,
+      496
+    ],
+    [
+      75,
+      516,
+      128,
+      525
+    ],
+    [
+      137,
+      519,
+      155,
+      525
+    ],
+    [
+      163,
+      516,
+      217,
+      528
+    ],
+    [
+      226,
+      517,
+      288,
+      528
+    ],
+    [
+      297,
+      517,
+      360,
+      525
+    ],
+    [
+      368,
+      519,
+      422,
+      528
+    ],
+    [
+      500,
+      517,
+      508,
+      525
+    ],
+    [
+      668,
+      515,
+      731,
+      526
+    ],
+    [
+      797,
+      515,
+      870,
+      526
+    ],
+    [
+      585,
+      575,
+      692,
+      586
+    ],
+    [
+      705,
+      574,
+      801,
+      588
+    ],
+    [
+      585,
+      616,
+      632,
+      627
+    ],
+    [
+      645,
+      615,
+      728,
+      629
+    ],
+    [
+      585,
+      660,
+      683,
+      674
+    ],
+    [
+      700,
+      657,
+      832,
+      676
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    0,
+    0,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 800,
+  "image_height": 1100,
+  "layout_type": "standard",
+  "total_words": 68,
+  "invoice_data": {
+    "invoice_number": "INV-77CBF535",
+    "invoice_date": "01/13/2025",
+    "vendor_name": "Miller, Bishop and Vasquez",
+    "vendor_address": "2067 Robinson Path Suite 921, Simmonsshire, AZ 81771",
+    "customer_name": "Anthony Bird",
+    "customer_address": "Unit 2878 Box 2089, DPO AP 15036",
+    "line_items": [
+      {
+        "description": "Dried toscanelle olives",
+        "quantity": 8,
+        "unit_price": 197.81,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Dried fruit",
+          "class_name": "Dried olives",
+          "commodity_name": "Dried toscanelle olives",
+          "segment_code": "50000000",
+          "family_code": "50320000",
+          "class_code": "50327200",
+          "commodity_code": "50327230"
+        }
+      },
+      {
+        "description": "Etretinate",
+        "quantity": 6,
+        "unit_price": 421.59,
+        "unspsc_details": {
+          "segment_name": "Drugs and Pharmaceutical Products",
+          "family_name": "Drugs affecting the ears, eye, nose and skin",
+          "class_name": "Dermatologic agents",
+          "commodity_name": "Etretinate",
+          "segment_code": "51000000",
+          "family_code": "51240000",
+          "class_code": "51241200",
+          "commodity_code": "51241244"
+        }
+      },
+      {
+        "description": "Williamson, Lew Dried organic dina apricots",
+        "quantity": 6,
+        "unit_price": 475.28,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Dried organic fruit",
+          "class_name": "Dried organic apricots",
+          "commodity_name": "Dried organic dina apricots",
+          "segment_code": "50000000",
+          "family_code": "50330000",
+          "class_code": "50331600",
+          "commodity_code": "50331612"
+        }
+      },
+      {
+        "description": "Canned or jarred organic mission grapes",
+        "quantity": 7,
+        "unit_price": 217.75,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Canned or jarred organic fruit",
+          "class_name": "Canned or jarred organic wine grapes",
+          "commodity_name": "Canned or jarred organic mission grapes",
+          "segment_code": "50000000",
+          "family_code": "50370000",
+          "class_code": "50373600",
+          "commodity_code": "50373630"
+        }
+      }
+    ],
+    "subtotal": 8487.95,
+    "tax_amount": 424.4,
+    "total_amount": 8912.35
+  }
+}

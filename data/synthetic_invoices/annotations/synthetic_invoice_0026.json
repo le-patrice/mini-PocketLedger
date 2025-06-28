@@ -1,0 +1,552 @@
+{
+  "id": "synthetic_invoice_0026",
+  "image_filename": "synthetic_invoice_0026.png",
+  "words": [
+    "INVOICE",
+    "Invoice",
+    "No.:",
+    "INV-2E4191D6",
+    "Date:",
+    "12/30/2024",
+    "Vendor:",
+    "Campbell-Smith",
+    "79488",
+    "Powell",
+    "Cove,",
+    "North",
+    "Ericbury,",
+    "DC",
+    "25355",
+    "Bill",
+    "To:",
+    "Jacqueline",
+    "Boyd",
+    "0533",
+    "Wood",
+    "Locks,",
+    "North",
+    "Andrewview,",
+    "GA",
+    "56029",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Carbon",
+    "steel",
+    "pipe",
+    "slipon",
+    "flange",
+    "66fA",
+    "8",
+    "$244.69",
+    "$1957.52",
+    "Non",
+    "GMO",
+    "tonka",
+    "beans",
+    "26VP",
+    "2",
+    "$380.37",
+    "$760.74",
+    "Non",
+    "GMO",
+    "germidor",
+    "garlic",
+    "6",
+    "$412.96",
+    "$2477.76",
+    "Subtotal:",
+    "$5196.02",
+    "Tax:",
+    "$363.72",
+    "TOTAL:",
+    "$5559.74"
+  ],
+  "boxes": [
+    [
+      401,
+      55,
+      598,
+      77
+    ],
+    [
+      66,
+      100,
+      178,
+      113
+    ],
+    [
+      193,
+      100,
+      256,
+      113
+    ],
+    [
+      273,
+      100,
+      465,
+      113
+    ],
+    [
+      66,
+      141,
+      146,
+      154
+    ],
+    [
+      161,
+      141,
+      321,
+      155
+    ],
+    [
+      66,
+      205,
+      178,
+      218
+    ],
+    [
+      193,
+      205,
+      418,
+      222
+    ],
+    [
+      66,
+      248,
+      126,
+      258
+    ],
+    [
+      138,
+      247,
+      210,
+      258
+    ],
+    [
+      221,
+      248,
+      281,
+      262
+    ],
+    [
+      293,
+      247,
+      353,
+      258
+    ],
+    [
+      365,
+      247,
+      473,
+      262
+    ],
+    [
+      66,
+      268,
+      90,
+      278
+    ],
+    [
+      101,
+      268,
+      161,
+      278
+    ],
+    [
+      66,
+      307,
+      130,
+      321
+    ],
+    [
+      146,
+      307,
+      195,
+      321
+    ],
+    [
+      210,
+      307,
+      370,
+      324
+    ],
+    [
+      385,
+      307,
+      448,
+      324
+    ],
+    [
+      66,
+      351,
+      115,
+      361
+    ],
+    [
+      126,
+      350,
+      175,
+      361
+    ],
+    [
+      186,
+      350,
+      258,
+      364
+    ],
+    [
+      270,
+      350,
+      330,
+      361
+    ],
+    [
+      341,
+      350,
+      473,
+      364
+    ],
+    [
+      66,
+      371,
+      90,
+      381
+    ],
+    [
+      101,
+      371,
+      161,
+      381
+    ],
+    [
+      66,
+      410,
+      243,
+      426
+    ],
+    [
+      500,
+      410,
+      548,
+      426
+    ],
+    [
+      673,
+      410,
+      753,
+      423
+    ],
+    [
+      803,
+      410,
+      883,
+      423
+    ],
+    [
+      66,
+      446,
+      138,
+      457
+    ],
+    [
+      150,
+      446,
+      210,
+      457
+    ],
+    [
+      221,
+      447,
+      270,
+      461
+    ],
+    [
+      281,
+      446,
+      353,
+      461
+    ],
+    [
+      365,
+      446,
+      436,
+      461
+    ],
+    [
+      448,
+      446,
+      496,
+      457
+    ],
+    [
+      500,
+      447,
+      511,
+      457
+    ],
+    [
+      673,
+      445,
+      756,
+      458
+    ],
+    [
+      803,
+      445,
+      900,
+      458
+    ],
+    [
+      66,
+      478,
+      103,
+      488
+    ],
+    [
+      113,
+      478,
+      150,
+      488
+    ],
+    [
+      160,
+      477,
+      220,
+      488
+    ],
+    [
+      231,
+      477,
+      291,
+      488
+    ],
+    [
+      303,
+      478,
+      351,
+      488
+    ],
+    [
+      500,
+      478,
+      511,
+      488
+    ],
+    [
+      673,
+      476,
+      756,
+      490
+    ],
+    [
+      803,
+      476,
+      886,
+      490
+    ],
+    [
+      66,
+      510,
+      103,
+      520
+    ],
+    [
+      113,
+      510,
+      150,
+      520
+    ],
+    [
+      160,
+      508,
+      256,
+      523
+    ],
+    [
+      266,
+      508,
+      338,
+      523
+    ],
+    [
+      500,
+      510,
+      511,
+      520
+    ],
+    [
+      673,
+      507,
+      756,
+      521
+    ],
+    [
+      803,
+      507,
+      900,
+      521
+    ],
+    [
+      586,
+      564,
+      730,
+      577
+    ],
+    [
+      746,
+      563,
+      875,
+      580
+    ],
+    [
+      586,
+      608,
+      650,
+      622
+    ],
+    [
+      666,
+      607,
+      778,
+      624
+    ],
+    [
+      586,
+      656,
+      718,
+      674
+    ],
+    [
+      586,
+      676,
+      763,
+      700
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 600,
+  "image_height": 900,
+  "layout_type": "receipt",
+  "total_words": 60,
+  "invoice_data": {
+    "invoice_number": "INV-2E4191D6",
+    "invoice_date": "12/30/2024",
+    "vendor_name": "Campbell-Smith",
+    "vendor_address": "79488 Powell Cove, North Ericbury, DC 25355",
+    "customer_name": "Jacqueline Boyd",
+    "customer_address": "0533 Wood Locks, North Andrewview, GA 56029",
+    "line_items": [
+      {
+        "description": "Carbon steel pipe slipon flange 66fA",
+        "quantity": 8,
+        "unit_price": 244.69,
+        "unspsc_details": {
+          "segment_name": "Distribution and Conditioning Systems and Equipment and Components",
+          "family_name": "Pipe piping and pipe fittings",
+          "class_name": "Pipe slipon flanges",
+          "commodity_name": "Carbon steel pipe slipon flange",
+          "segment_code": "40000000",
+          "family_code": "40170000",
+          "class_code": "40174000",
+          "commodity_code": "40174002"
+        }
+      },
+      {
+        "description": "Non GMO tonka beans 26VP",
+        "quantity": 2,
+        "unit_price": 380.37,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Non GMO fresh vegetables",
+          "class_name": "Non GMO beans",
+          "commodity_name": "Non GMO tonka beans",
+          "segment_code": "50000000",
+          "family_code": "50580000",
+          "class_code": "50581800",
+          "commodity_code": "50581849"
+        }
+      },
+      {
+        "description": "Non GMO germidor garlic",
+        "quantity": 6,
+        "unit_price": 412.96,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Non GMO fresh vegetables",
+          "class_name": "Non GMO garlics",
+          "commodity_name": "Non GMO germidor garlic",
+          "segment_code": "50000000",
+          "family_code": "50580000",
+          "class_code": "50583700",
+          "commodity_code": "50583704"
+        }
+      }
+    ],
+    "subtotal": 5196.0199999999995,
+    "tax_amount": 363.72,
+    "total_amount": 5559.74
+  }
+}

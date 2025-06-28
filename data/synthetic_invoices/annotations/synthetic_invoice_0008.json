@@ -1,0 +1,560 @@
+{
+  "id": "synthetic_invoice_0008",
+  "image_filename": "synthetic_invoice_0008.png",
+  "words": [
+    "RECEIPT",
+    "Invoice",
+    "No.:",
+    "INV-2E191F26",
+    "Date:",
+    "10/10/2024",
+    "Vendor:",
+    "Morris",
+    "Group",
+    "63576",
+    "Deborah",
+    "Radial",
+    "Suite",
+    "767,",
+    "North",
+    "Kimberly,",
+    "NH",
+    "90028",
+    "Bill",
+    "To:",
+    "David",
+    "Wright",
+    "878",
+    "Patrick",
+    "River",
+    "Apt.",
+    "600,",
+    "South",
+    "Brooke,",
+    "HI",
+    "00680",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Frozen",
+    "gray",
+    "new",
+    "mexico",
+    "raspberry",
+    "2",
+    "$466.35",
+    "$932.70",
+    "Frozen",
+    "Non",
+    "GMO",
+    "sea",
+    "kale",
+    "8",
+    "$267.73",
+    "$2141.84",
+    "Levomoramide",
+    "7",
+    "$413.29",
+    "$2893.03",
+    "Subtotal:",
+    "$5967.57",
+    "Tax:",
+    "$596.76",
+    "TOTAL:",
+    "$6564.33"
+  ],
+  "boxes": [
+    [
+      426,
+      63,
+      573,
+      81
+    ],
+    [
+      75,
+      109,
+      158,
+      120
+    ],
+    [
+      170,
+      109,
+      217,
+      120
+    ],
+    [
+      230,
+      109,
+      373,
+      120
+    ],
+    [
+      75,
+      147,
+      135,
+      158
+    ],
+    [
+      146,
+      147,
+      266,
+      159
+    ],
+    [
+      75,
+      213,
+      158,
+      224
+    ],
+    [
+      170,
+      213,
+      242,
+      224
+    ],
+    [
+      253,
+      213,
+      313,
+      227
+    ],
+    [
+      75,
+      253,
+      120,
+      261
+    ],
+    [
+      128,
+      252,
+      191,
+      261
+    ],
+    [
+      200,
+      252,
+      253,
+      261
+    ],
+    [
+      262,
+      253,
+      307,
+      261
+    ],
+    [
+      316,
+      253,
+      352,
+      264
+    ],
+    [
+      361,
+      252,
+      406,
+      261
+    ],
+    [
+      415,
+      252,
+      496,
+      264
+    ],
+    [
+      75,
+      270,
+      92,
+      278
+    ],
+    [
+      101,
+      270,
+      146,
+      278
+    ],
+    [
+      75,
+      310,
+      122,
+      321
+    ],
+    [
+      135,
+      310,
+      171,
+      321
+    ],
+    [
+      182,
+      310,
+      242,
+      321
+    ],
+    [
+      253,
+      310,
+      326,
+      324
+    ],
+    [
+      75,
+      350,
+      102,
+      359
+    ],
+    [
+      110,
+      350,
+      172,
+      359
+    ],
+    [
+      181,
+      350,
+      226,
+      359
+    ],
+    [
+      235,
+      350,
+      271,
+      361
+    ],
+    [
+      280,
+      350,
+      316,
+      361
+    ],
+    [
+      325,
+      350,
+      370,
+      359
+    ],
+    [
+      378,
+      350,
+      441,
+      361
+    ],
+    [
+      450,
+      350,
+      467,
+      359
+    ],
+    [
+      75,
+      367,
+      120,
+      375
+    ],
+    [
+      75,
+      408,
+      207,
+      421
+    ],
+    [
+      500,
+      408,
+      536,
+      421
+    ],
+    [
+      668,
+      408,
+      728,
+      419
+    ],
+    [
+      797,
+      408,
+      857,
+      419
+    ],
+    [
+      75,
+      439,
+      128,
+      447
+    ],
+    [
+      137,
+      440,
+      173,
+      450
+    ],
+    [
+      182,
+      440,
+      210,
+      447
+    ],
+    [
+      217,
+      439,
+      271,
+      447
+    ],
+    [
+      280,
+      438,
+      361,
+      450
+    ],
+    [
+      500,
+      439,
+      508,
+      447
+    ],
+    [
+      668,
+      437,
+      731,
+      448
+    ],
+    [
+      797,
+      437,
+      860,
+      448
+    ],
+    [
+      75,
+      469,
+      128,
+      477
+    ],
+    [
+      137,
+      469,
+      165,
+      477
+    ],
+    [
+      172,
+      469,
+      200,
+      477
+    ],
+    [
+      207,
+      470,
+      235,
+      477
+    ],
+    [
+      242,
+      468,
+      278,
+      477
+    ],
+    [
+      500,
+      469,
+      508,
+      477
+    ],
+    [
+      668,
+      467,
+      731,
+      478
+    ],
+    [
+      797,
+      467,
+      870,
+      478
+    ],
+    [
+      75,
+      498,
+      182,
+      507
+    ],
+    [
+      500,
+      499,
+      508,
+      507
+    ],
+    [
+      668,
+      497,
+      731,
+      508
+    ],
+    [
+      797,
+      497,
+      870,
+      508
+    ],
+    [
+      585,
+      557,
+      692,
+      568
+    ],
+    [
+      705,
+      556,
+      801,
+      570
+    ],
+    [
+      585,
+      598,
+      632,
+      609
+    ],
+    [
+      645,
+      597,
+      728,
+      610
+    ],
+    [
+      585,
+      641,
+      683,
+      656
+    ],
+    [
+      700,
+      639,
+      832,
+      658
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 800,
+  "image_height": 1100,
+  "layout_type": "standard",
+  "total_words": 61,
+  "invoice_data": {
+    "invoice_number": "INV-2E191F26",
+    "invoice_date": "10/10/2024",
+    "vendor_name": "Morris Group",
+    "vendor_address": "63576 Deborah Radial Suite 767, North Kimberly, NH 90028",
+    "customer_name": "David Wright",
+    "customer_address": "878 Patrick River Apt. 600, South Brooke, HI 00680",
+    "line_items": [
+      {
+        "description": "Frozen gray new mexico raspberry",
+        "quantity": 2,
+        "unit_price": 466.35,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Frozen fruit",
+          "class_name": "Frozen raspberries",
+          "commodity_name": "Frozen gray new mexico raspberry",
+          "segment_code": "50000000",
+          "family_code": "50340000",
+          "class_code": "50346200",
+          "commodity_code": "50346211"
+        }
+      },
+      {
+        "description": "Frozen Non GMO sea kale",
+        "quantity": 8,
+        "unit_price": 267.73,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Frozen Non GMO vegetables",
+          "class_name": "Frozen Non GMO sea vegetables",
+          "commodity_name": "Frozen Non GMO sea kale",
+          "segment_code": "50000000",
+          "family_code": "50600000",
+          "class_code": "50605800",
+          "commodity_code": "50605811"
+        }
+      },
+      {
+        "description": "Levomoramide",
+        "quantity": 7,
+        "unit_price": 413.29,
+        "unspsc_details": {
+          "segment_name": "Drugs and Pharmaceutical Products",
+          "family_name": "Controlled substance analgesics",
+          "class_name": "Controlled substance analgesic morpholines",
+          "commodity_name": "Levomoramide",
+          "segment_code": "51000000",
+          "family_code": "51370000",
+          "class_code": "51372200",
+          "commodity_code": "51372203"
+        }
+      }
+    ],
+    "subtotal": 5967.570000000001,
+    "tax_amount": 596.76,
+    "total_amount": 6564.33
+  }
+}

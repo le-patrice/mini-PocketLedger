@@ -1,0 +1,457 @@
+{
+  "id": "synthetic_invoice_0012",
+  "image_filename": "synthetic_invoice_0012.png",
+  "words": [
+    "BILL",
+    "Invoice",
+    "No.:",
+    "INV-E7B663C7",
+    "Date:",
+    "02/14/2025",
+    "Vendor:",
+    "Harrison-Hines",
+    "22635",
+    "Kemp",
+    "Highway,",
+    "North",
+    "Shelby,",
+    "CA",
+    "61217",
+    "Bill",
+    "To:",
+    "Natalie",
+    "Bradley",
+    "1760",
+    "Jean",
+    "View,",
+    "Ashleymouth,",
+    "MD",
+    "73656",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Luna-Galvan",
+    "Sledge",
+    "hammer",
+    "40IK",
+    "1",
+    "$221.48",
+    "$221.48",
+    "Fresh",
+    "cut",
+    "red",
+    "reg",
+    "bromelia",
+    "9",
+    "$179.78",
+    "$1618.02",
+    "Subtotal:",
+    "$1839.50",
+    "Tax:",
+    "$183.95",
+    "TOTAL:",
+    "$2023.45"
+  ],
+  "boxes": [
+    [
+      443,
+      55,
+      555,
+      77
+    ],
+    [
+      66,
+      100,
+      178,
+      113
+    ],
+    [
+      193,
+      100,
+      256,
+      113
+    ],
+    [
+      273,
+      100,
+      465,
+      113
+    ],
+    [
+      66,
+      141,
+      146,
+      154
+    ],
+    [
+      161,
+      141,
+      321,
+      155
+    ],
+    [
+      66,
+      205,
+      178,
+      218
+    ],
+    [
+      193,
+      205,
+      418,
+      218
+    ],
+    [
+      66,
+      245,
+      126,
+      255
+    ],
+    [
+      138,
+      245,
+      186,
+      258
+    ],
+    [
+      198,
+      244,
+      295,
+      258
+    ],
+    [
+      305,
+      244,
+      365,
+      255
+    ],
+    [
+      376,
+      244,
+      460,
+      258
+    ],
+    [
+      471,
+      245,
+      495,
+      255
+    ],
+    [
+      66,
+      264,
+      126,
+      275
+    ],
+    [
+      66,
+      305,
+      130,
+      318
+    ],
+    [
+      146,
+      305,
+      195,
+      318
+    ],
+    [
+      210,
+      305,
+      321,
+      318
+    ],
+    [
+      336,
+      305,
+      450,
+      322
+    ],
+    [
+      66,
+      347,
+      115,
+      358
+    ],
+    [
+      126,
+      348,
+      175,
+      358
+    ],
+    [
+      186,
+      348,
+      246,
+      362
+    ],
+    [
+      258,
+      347,
+      401,
+      362
+    ],
+    [
+      413,
+      348,
+      436,
+      358
+    ],
+    [
+      66,
+      368,
+      126,
+      378
+    ],
+    [
+      66,
+      407,
+      243,
+      424
+    ],
+    [
+      500,
+      407,
+      548,
+      424
+    ],
+    [
+      673,
+      407,
+      753,
+      421
+    ],
+    [
+      803,
+      407,
+      883,
+      421
+    ],
+    [
+      66,
+      444,
+      198,
+      455
+    ],
+    [
+      210,
+      444,
+      281,
+      458
+    ],
+    [
+      293,
+      444,
+      365,
+      455
+    ],
+    [
+      376,
+      445,
+      425,
+      455
+    ],
+    [
+      500,
+      444,
+      511,
+      455
+    ],
+    [
+      673,
+      443,
+      756,
+      456
+    ],
+    [
+      803,
+      443,
+      886,
+      456
+    ],
+    [
+      66,
+      475,
+      126,
+      486
+    ],
+    [
+      138,
+      476,
+      175,
+      486
+    ],
+    [
+      185,
+      475,
+      221,
+      486
+    ],
+    [
+      231,
+      478,
+      268,
+      490
+    ],
+    [
+      278,
+      475,
+      375,
+      486
+    ],
+    [
+      500,
+      476,
+      511,
+      486
+    ],
+    [
+      673,
+      474,
+      756,
+      487
+    ],
+    [
+      803,
+      474,
+      900,
+      487
+    ],
+    [
+      586,
+      531,
+      730,
+      544
+    ],
+    [
+      746,
+      530,
+      875,
+      546
+    ],
+    [
+      586,
+      575,
+      650,
+      588
+    ],
+    [
+      666,
+      574,
+      778,
+      591
+    ],
+    [
+      586,
+      623,
+      718,
+      641
+    ],
+    [
+      586,
+      643,
+      763,
+      666
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 600,
+  "image_height": 900,
+  "layout_type": "receipt",
+  "total_words": 50,
+  "invoice_data": {
+    "invoice_number": "INV-E7B663C7",
+    "invoice_date": "02/14/2025",
+    "vendor_name": "Harrison-Hines",
+    "vendor_address": "22635 Kemp Highway, North Shelby, CA 61217",
+    "customer_name": "Natalie Bradley",
+    "customer_address": "1760 Jean View, Ashleymouth, MD 73656",
+    "line_items": [
+      {
+        "description": "Luna-Galvan Sledge hammer 40IK",
+        "quantity": 1,
+        "unit_price": 221.48,
+        "unspsc_details": {
+          "segment_name": "Tools and General Machinery",
+          "family_name": "Hand tools",
+          "class_name": "Forming tools",
+          "commodity_name": "Sledge hammer",
+          "segment_code": "27000000",
+          "family_code": "27110000",
+          "class_code": "27111600",
+          "commodity_code": "27111615"
+        }
+      },
+      {
+        "description": "Fresh cut red reg bromelia",
+        "quantity": 9,
+        "unit_price": 179.78,
+        "unspsc_details": {
+          "segment_name": "Live Plant and Animal Material and Accessories and Supplies",
+          "family_name": "Fresh cut blooms of low species or variety count flowers",
+          "class_name": "Fresh cut bromelias",
+          "commodity_name": "Fresh cut red reg bromelia",
+          "segment_code": "10000000",
+          "family_code": "10320000",
+          "class_code": "10322500",
+          "commodity_code": "10322502"
+        }
+      }
+    ],
+    "subtotal": 1839.5,
+    "tax_amount": 183.95,
+    "total_amount": 2023.45
+  }
+}

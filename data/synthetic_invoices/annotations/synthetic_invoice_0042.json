@@ -1,0 +1,607 @@
+{
+  "id": "synthetic_invoice_0042",
+  "image_filename": "synthetic_invoice_0042.png",
+  "words": [
+    "INVOICE",
+    "Invoice",
+    "No.:",
+    "INV-E1DBB654",
+    "Date:",
+    "07/16/2024",
+    "Vendor:",
+    "Holland-Dunn",
+    "USS",
+    "Garcia,",
+    "FPO",
+    "AE",
+    "63038",
+    "Bill",
+    "To:",
+    "Donna",
+    "Fuentes",
+    "694",
+    "Silva",
+    "Burgs",
+    "Apt.",
+    "906,",
+    "Gregoryborough,",
+    "UT",
+    "20555",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Babaco",
+    "purees",
+    "8",
+    "$397.83",
+    "$3182.64",
+    "Dried",
+    "non",
+    "GMO",
+    "costard",
+    "apples",
+    "6",
+    "$262.09",
+    "$1572.54",
+    "Keller-Wilson",
+    "Live",
+    "tinted",
+    "black",
+    "eryngium",
+    "4",
+    "$155.57",
+    "$622.28",
+    "Dried",
+    "cut",
+    "lady",
+    "in",
+    "red",
+    "rose",
+    "3",
+    "$262.55",
+    "$787.65",
+    "Subtotal:",
+    "$6165.11",
+    "Tax:",
+    "$616.51",
+    "TOTAL:",
+    "$6781.62"
+  ],
+  "boxes": [
+    [
+      421,
+      60,
+      578,
+      80
+    ],
+    [
+      66,
+      105,
+      156,
+      117
+    ],
+    [
+      168,
+      105,
+      218,
+      117
+    ],
+    [
+      232,
+      105,
+      385,
+      117
+    ],
+    [
+      66,
+      144,
+      130,
+      156
+    ],
+    [
+      142,
+      144,
+      270,
+      157
+    ],
+    [
+      66,
+      209,
+      156,
+      221
+    ],
+    [
+      168,
+      209,
+      321,
+      221
+    ],
+    [
+      66,
+      247,
+      96,
+      256
+    ],
+    [
+      104,
+      247,
+      170,
+      259
+    ],
+    [
+      180,
+      247,
+      209,
+      256
+    ],
+    [
+      217,
+      247,
+      236,
+      256
+    ],
+    [
+      245,
+      247,
+      293,
+      256
+    ],
+    [
+      66,
+      290,
+      117,
+      302
+    ],
+    [
+      130,
+      290,
+      169,
+      302
+    ],
+    [
+      181,
+      290,
+      245,
+      302
+    ],
+    [
+      257,
+      290,
+      346,
+      302
+    ],
+    [
+      66,
+      328,
+      96,
+      337
+    ],
+    [
+      104,
+      327,
+      152,
+      337
+    ],
+    [
+      161,
+      328,
+      209,
+      340
+    ],
+    [
+      218,
+      328,
+      257,
+      340
+    ],
+    [
+      266,
+      328,
+      305,
+      340
+    ],
+    [
+      314,
+      327,
+      458,
+      340
+    ],
+    [
+      468,
+      328,
+      486,
+      337
+    ],
+    [
+      66,
+      346,
+      114,
+      355
+    ],
+    [
+      66,
+      386,
+      208,
+      401
+    ],
+    [
+      500,
+      386,
+      538,
+      401
+    ],
+    [
+      672,
+      386,
+      736,
+      398
+    ],
+    [
+      802,
+      386,
+      866,
+      398
+    ],
+    [
+      66,
+      419,
+      124,
+      429
+    ],
+    [
+      133,
+      422,
+      190,
+      432
+    ],
+    [
+      500,
+      420,
+      509,
+      429
+    ],
+    [
+      672,
+      418,
+      738,
+      430
+    ],
+    [
+      802,
+      418,
+      880,
+      430
+    ],
+    [
+      66,
+      449,
+      114,
+      459
+    ],
+    [
+      124,
+      452,
+      153,
+      459
+    ],
+    [
+      161,
+      450,
+      190,
+      459
+    ],
+    [
+      198,
+      449,
+      265,
+      459
+    ],
+    [
+      274,
+      449,
+      332,
+      462
+    ],
+    [
+      500,
+      450,
+      509,
+      459
+    ],
+    [
+      672,
+      448,
+      738,
+      460
+    ],
+    [
+      802,
+      448,
+      880,
+      460
+    ],
+    [
+      66,
+      479,
+      192,
+      489
+    ],
+    [
+      200,
+      480,
+      238,
+      489
+    ],
+    [
+      248,
+      479,
+      305,
+      489
+    ],
+    [
+      314,
+      479,
+      362,
+      489
+    ],
+    [
+      372,
+      480,
+      449,
+      492
+    ],
+    [
+      500,
+      480,
+      509,
+      489
+    ],
+    [
+      672,
+      478,
+      738,
+      490
+    ],
+    [
+      802,
+      478,
+      869,
+      490
+    ],
+    [
+      66,
+      509,
+      114,
+      519
+    ],
+    [
+      124,
+      510,
+      153,
+      519
+    ],
+    [
+      161,
+      509,
+      200,
+      522
+    ],
+    [
+      209,
+      510,
+      228,
+      519
+    ],
+    [
+      237,
+      509,
+      266,
+      519
+    ],
+    [
+      274,
+      512,
+      313,
+      519
+    ],
+    [
+      500,
+      510,
+      509,
+      519
+    ],
+    [
+      672,
+      508,
+      738,
+      520
+    ],
+    [
+      802,
+      508,
+      869,
+      520
+    ],
+    [
+      586,
+      566,
+      701,
+      578
+    ],
+    [
+      714,
+      565,
+      817,
+      580
+    ],
+    [
+      586,
+      608,
+      637,
+      620
+    ],
+    [
+      650,
+      607,
+      740,
+      622
+    ],
+    [
+      586,
+      653,
+      692,
+      669
+    ],
+    [
+      709,
+      650,
+      850,
+      671
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 750,
+  "image_height": 1000,
+  "layout_type": "compact",
+  "total_words": 65,
+  "invoice_data": {
+    "invoice_number": "INV-E1DBB654",
+    "invoice_date": "07/16/2024",
+    "vendor_name": "Holland-Dunn",
+    "vendor_address": "USS Garcia, FPO AE 63038",
+    "customer_name": "Donna Fuentes",
+    "customer_address": "694 Silva Burgs Apt. 906, Gregoryborough, UT 20555",
+    "line_items": [
+      {
+        "description": "Babaco purees",
+        "quantity": 8,
+        "unit_price": 397.83,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Fresh fruit purees",
+          "class_name": "Nominant fruit purees",
+          "commodity_name": "Babaco purees",
+          "segment_code": "50000000",
+          "family_code": "50380000",
+          "class_code": "50387500",
+          "commodity_code": "50387502"
+        }
+      },
+      {
+        "description": "Dried non GMO costard apples",
+        "quantity": 6,
+        "unit_price": 262.09,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Dried non GMO fruits",
+          "class_name": "Dried non GMO apples",
+          "commodity_name": "Dried non GMO costard apples",
+          "segment_code": "50000000",
+          "family_code": "50530000",
+          "class_code": "50531500",
+          "commodity_code": "50531513"
+        }
+      },
+      {
+        "description": "Keller-Wilson Live tinted black eryngium",
+        "quantity": 4,
+        "unit_price": 155.57,
+        "unspsc_details": {
+          "segment_name": "Live Plant and Animal Material and Accessories and Supplies",
+          "family_name": "Live plants of low species or variety count flowers",
+          "class_name": "Live eryngiums",
+          "commodity_name": "Live tinted black eryngium",
+          "segment_code": "10000000",
+          "family_code": "10220000",
+          "class_code": "10223700",
+          "commodity_code": "10223701"
+        }
+      },
+      {
+        "description": "Dried cut lady in red rose",
+        "quantity": 3,
+        "unit_price": 262.55,
+        "unspsc_details": {
+          "segment_name": "Live Plant and Animal Material and Accessories and Supplies",
+          "family_name": "Dried cut roses",
+          "class_name": "Dried cut red or burgundy rose",
+          "commodity_name": "Dried cut lady in red rose",
+          "segment_code": "10000000",
+          "family_code": "10400000",
+          "class_code": "10402400",
+          "commodity_code": "10402436"
+        }
+      }
+    ],
+    "subtotal": 6165.11,
+    "tax_amount": 616.51,
+    "total_amount": 6781.62
+  }
+}

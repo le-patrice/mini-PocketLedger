@@ -1,0 +1,560 @@
+{
+  "id": "synthetic_invoice_0057",
+  "image_filename": "synthetic_invoice_0057.png",
+  "words": [
+    "RECEIPT",
+    "Invoice",
+    "No.:",
+    "INV-07280952",
+    "Date:",
+    "11/10/2024",
+    "Vendor:",
+    "Meyers",
+    "LLC",
+    "5694",
+    "Bowman",
+    "Loaf,",
+    "Lindsayfort,",
+    "FM",
+    "24512",
+    "Bill",
+    "To:",
+    "Katherine",
+    "Gross",
+    "298",
+    "Jones",
+    "Drives,",
+    "New",
+    "James,",
+    "ME",
+    "11578",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Aids",
+    "prevention",
+    "or",
+    "control",
+    "services",
+    "1",
+    "$329.95",
+    "$329.95",
+    "Video",
+    "creation",
+    "and",
+    "editing",
+    "software",
+    "75Fx",
+    "3",
+    "$356.80",
+    "$1070.40",
+    "Frozen",
+    "organic",
+    "split",
+    "yellow",
+    "lentils",
+    "8",
+    "$216.29",
+    "$1730.32",
+    "Subtotal:",
+    "$3130.67",
+    "Tax:",
+    "$156.53",
+    "TOTAL:",
+    "$3287.20"
+  ],
+  "boxes": [
+    [
+      426,
+      63,
+      573,
+      81
+    ],
+    [
+      75,
+      109,
+      158,
+      120
+    ],
+    [
+      170,
+      109,
+      217,
+      120
+    ],
+    [
+      230,
+      109,
+      373,
+      120
+    ],
+    [
+      75,
+      147,
+      135,
+      158
+    ],
+    [
+      146,
+      147,
+      266,
+      159
+    ],
+    [
+      75,
+      213,
+      158,
+      224
+    ],
+    [
+      170,
+      213,
+      242,
+      227
+    ],
+    [
+      253,
+      213,
+      290,
+      224
+    ],
+    [
+      75,
+      253,
+      111,
+      261
+    ],
+    [
+      120,
+      253,
+      173,
+      261
+    ],
+    [
+      182,
+      252,
+      227,
+      264
+    ],
+    [
+      236,
+      252,
+      343,
+      264
+    ],
+    [
+      352,
+      253,
+      370,
+      261
+    ],
+    [
+      378,
+      252,
+      423,
+      261
+    ],
+    [
+      75,
+      298,
+      122,
+      309
+    ],
+    [
+      135,
+      298,
+      171,
+      309
+    ],
+    [
+      182,
+      298,
+      290,
+      309
+    ],
+    [
+      302,
+      298,
+      362,
+      309
+    ],
+    [
+      75,
+      335,
+      102,
+      343
+    ],
+    [
+      110,
+      335,
+      155,
+      343
+    ],
+    [
+      163,
+      335,
+      226,
+      346
+    ],
+    [
+      235,
+      335,
+      262,
+      343
+    ],
+    [
+      270,
+      335,
+      323,
+      346
+    ],
+    [
+      332,
+      335,
+      350,
+      343
+    ],
+    [
+      358,
+      334,
+      403,
+      343
+    ],
+    [
+      75,
+      380,
+      207,
+      393
+    ],
+    [
+      500,
+      380,
+      536,
+      393
+    ],
+    [
+      668,
+      380,
+      728,
+      390
+    ],
+    [
+      797,
+      380,
+      857,
+      390
+    ],
+    [
+      75,
+      410,
+      111,
+      419
+    ],
+    [
+      120,
+      410,
+      210,
+      421
+    ],
+    [
+      218,
+      412,
+      236,
+      419
+    ],
+    [
+      245,
+      410,
+      307,
+      419
+    ],
+    [
+      316,
+      410,
+      388,
+      419
+    ],
+    [
+      500,
+      410,
+      508,
+      419
+    ],
+    [
+      668,
+      409,
+      731,
+      420
+    ],
+    [
+      797,
+      409,
+      860,
+      420
+    ],
+    [
+      75,
+      440,
+      120,
+      449
+    ],
+    [
+      128,
+      440,
+      201,
+      449
+    ],
+    [
+      208,
+      440,
+      236,
+      449
+    ],
+    [
+      243,
+      440,
+      306,
+      451
+    ],
+    [
+      315,
+      440,
+      387,
+      449
+    ],
+    [
+      395,
+      440,
+      431,
+      449
+    ],
+    [
+      500,
+      440,
+      508,
+      449
+    ],
+    [
+      668,
+      439,
+      731,
+      450
+    ],
+    [
+      797,
+      439,
+      870,
+      450
+    ],
+    [
+      75,
+      470,
+      128,
+      479
+    ],
+    [
+      137,
+      470,
+      200,
+      481
+    ],
+    [
+      208,
+      470,
+      253,
+      481
+    ],
+    [
+      262,
+      470,
+      316,
+      481
+    ],
+    [
+      325,
+      470,
+      387,
+      479
+    ],
+    [
+      500,
+      470,
+      508,
+      479
+    ],
+    [
+      668,
+      469,
+      731,
+      480
+    ],
+    [
+      797,
+      469,
+      870,
+      480
+    ],
+    [
+      585,
+      529,
+      692,
+      540
+    ],
+    [
+      705,
+      528,
+      801,
+      541
+    ],
+    [
+      585,
+      570,
+      632,
+      580
+    ],
+    [
+      645,
+      569,
+      728,
+      582
+    ],
+    [
+      585,
+      613,
+      683,
+      628
+    ],
+    [
+      700,
+      610,
+      832,
+      630
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 800,
+  "image_height": 1100,
+  "layout_type": "standard",
+  "total_words": 61,
+  "invoice_data": {
+    "invoice_number": "INV-07280952",
+    "invoice_date": "11/10/2024",
+    "vendor_name": "Meyers LLC",
+    "vendor_address": "5694 Bowman Loaf, Lindsayfort, FM 24512",
+    "customer_name": "Katherine Gross",
+    "customer_address": "298 Jones Drives, New James, ME 11578",
+    "line_items": [
+      {
+        "description": "Aids prevention or control services",
+        "quantity": 1,
+        "unit_price": 329.95,
+        "unspsc_details": {
+          "segment_name": "Healthcare Services",
+          "family_name": "Disease prevention and control",
+          "class_name": "Contagious disease prevention and control",
+          "commodity_name": "Aids prevention or control services",
+          "segment_code": "85000000",
+          "family_code": "85110000",
+          "class_code": "85111500",
+          "commodity_code": "85111501"
+        }
+      },
+      {
+        "description": "Video creation and editing software 75Fx",
+        "quantity": 3,
+        "unit_price": 356.8,
+        "unspsc_details": {
+          "segment_name": "Information Technology Broadcasting and Telecommunications",
+          "family_name": "Software",
+          "class_name": "Content authoring and editing software",
+          "commodity_name": "Video creation and editing software",
+          "segment_code": "43000000",
+          "family_code": "43230000",
+          "class_code": "43232100",
+          "commodity_code": "43232103"
+        }
+      },
+      {
+        "description": "Frozen organic split yellow lentils",
+        "quantity": 8,
+        "unit_price": 216.29,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Frozen organic vegetables",
+          "class_name": "Frozen organic lentils",
+          "commodity_name": "Frozen organic split yellow lentils",
+          "segment_code": "50000000",
+          "family_code": "50450000",
+          "class_code": "50454500",
+          "commodity_code": "50454507"
+        }
+      }
+    ],
+    "subtotal": 3130.67,
+    "tax_amount": 156.53,
+    "total_amount": 3287.2
+  }
+}

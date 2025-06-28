@@ -1,0 +1,663 @@
+{
+  "id": "synthetic_invoice_0059",
+  "image_filename": "synthetic_invoice_0059.png",
+  "words": [
+    "RECEIPT",
+    "Invoice",
+    "No.:",
+    "INV-A92D1D54",
+    "Date:",
+    "09/20/2024",
+    "Vendor:",
+    "Haney,",
+    "Chavez",
+    "and",
+    "Watkins",
+    "917",
+    "Francisco",
+    "Stravenue,",
+    "Bensonside,",
+    "UT",
+    "92184",
+    "Bill",
+    "To:",
+    "Keith",
+    "Duffy",
+    "79059",
+    "Jonathan",
+    "Crossing,",
+    "Wintersville,",
+    "DE",
+    "73444",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Non",
+    "GMO",
+    "james",
+    "grieve",
+    "apple",
+    "purees",
+    "6",
+    "$323.89",
+    "$1943.34",
+    "Robinson,",
+    "Hall",
+    "Youth",
+    "camps",
+    "or",
+    "facilities",
+    "services",
+    "5",
+    "$281.64",
+    "$1408.20",
+    "Frozen",
+    "non",
+    "GMO",
+    "president",
+    "plums",
+    "9",
+    "$10.98",
+    "$98.82",
+    "Dried",
+    "organic",
+    "spain",
+    "cherimoya",
+    "54EE",
+    "3",
+    "$293.28",
+    "$879.84",
+    "Subtotal:",
+    "$4330.20",
+    "Tax:",
+    "$303.11",
+    "TOTAL:",
+    "$4633.31"
+  ],
+  "boxes": [
+    [
+      401,
+      55,
+      598,
+      77
+    ],
+    [
+      66,
+      100,
+      178,
+      113
+    ],
+    [
+      193,
+      100,
+      256,
+      113
+    ],
+    [
+      273,
+      100,
+      465,
+      113
+    ],
+    [
+      66,
+      141,
+      146,
+      154
+    ],
+    [
+      161,
+      141,
+      321,
+      155
+    ],
+    [
+      66,
+      205,
+      178,
+      218
+    ],
+    [
+      193,
+      205,
+      290,
+      222
+    ],
+    [
+      305,
+      205,
+      401,
+      218
+    ],
+    [
+      416,
+      205,
+      465,
+      218
+    ],
+    [
+      66,
+      227,
+      178,
+      241
+    ],
+    [
+      66,
+      266,
+      103,
+      277
+    ],
+    [
+      113,
+      267,
+      221,
+      277
+    ],
+    [
+      233,
+      267,
+      353,
+      281
+    ],
+    [
+      365,
+      266,
+      496,
+      281
+    ],
+    [
+      66,
+      287,
+      90,
+      297
+    ],
+    [
+      101,
+      286,
+      161,
+      297
+    ],
+    [
+      66,
+      327,
+      130,
+      341
+    ],
+    [
+      146,
+      327,
+      195,
+      341
+    ],
+    [
+      210,
+      327,
+      290,
+      341
+    ],
+    [
+      305,
+      325,
+      385,
+      344
+    ],
+    [
+      66,
+      373,
+      126,
+      383
+    ],
+    [
+      138,
+      372,
+      235,
+      383
+    ],
+    [
+      245,
+      373,
+      353,
+      386
+    ],
+    [
+      66,
+      392,
+      223,
+      406
+    ],
+    [
+      233,
+      393,
+      256,
+      403
+    ],
+    [
+      268,
+      393,
+      328,
+      403
+    ],
+    [
+      66,
+      436,
+      243,
+      453
+    ],
+    [
+      500,
+      436,
+      548,
+      453
+    ],
+    [
+      673,
+      436,
+      753,
+      450
+    ],
+    [
+      803,
+      436,
+      883,
+      450
+    ],
+    [
+      66,
+      474,
+      103,
+      484
+    ],
+    [
+      113,
+      474,
+      150,
+      484
+    ],
+    [
+      160,
+      474,
+      220,
+      487
+    ],
+    [
+      231,
+      474,
+      303,
+      487
+    ],
+    [
+      315,
+      473,
+      375,
+      487
+    ],
+    [
+      386,
+      476,
+      458,
+      487
+    ],
+    [
+      500,
+      474,
+      511,
+      484
+    ],
+    [
+      673,
+      472,
+      756,
+      485
+    ],
+    [
+      803,
+      472,
+      900,
+      485
+    ],
+    [
+      66,
+      504,
+      175,
+      518
+    ],
+    [
+      186,
+      504,
+      235,
+      515
+    ],
+    [
+      246,
+      504,
+      306,
+      515
+    ],
+    [
+      318,
+      507,
+      378,
+      518
+    ],
+    [
+      390,
+      507,
+      413,
+      515
+    ],
+    [
+      66,
+      524,
+      186,
+      535
+    ],
+    [
+      198,
+      525,
+      295,
+      535
+    ],
+    [
+      500,
+      505,
+      511,
+      515
+    ],
+    [
+      673,
+      503,
+      756,
+      516
+    ],
+    [
+      803,
+      503,
+      900,
+      516
+    ],
+    [
+      66,
+      536,
+      138,
+      546
+    ],
+    [
+      150,
+      538,
+      186,
+      546
+    ],
+    [
+      196,
+      536,
+      233,
+      546
+    ],
+    [
+      243,
+      535,
+      351,
+      550
+    ],
+    [
+      363,
+      535,
+      423,
+      550
+    ],
+    [
+      500,
+      536,
+      511,
+      546
+    ],
+    [
+      673,
+      534,
+      745,
+      547
+    ],
+    [
+      803,
+      534,
+      875,
+      547
+    ],
+    [
+      66,
+      566,
+      126,
+      577
+    ],
+    [
+      138,
+      567,
+      221,
+      581
+    ],
+    [
+      233,
+      567,
+      293,
+      581
+    ],
+    [
+      305,
+      566,
+      413,
+      581
+    ],
+    [
+      425,
+      567,
+      473,
+      577
+    ],
+    [
+      500,
+      567,
+      511,
+      577
+    ],
+    [
+      673,
+      565,
+      756,
+      578
+    ],
+    [
+      803,
+      565,
+      886,
+      578
+    ],
+    [
+      586,
+      622,
+      730,
+      635
+    ],
+    [
+      746,
+      621,
+      875,
+      637
+    ],
+    [
+      586,
+      666,
+      650,
+      680
+    ],
+    [
+      666,
+      665,
+      778,
+      682
+    ],
+    [
+      586,
+      714,
+      718,
+      732
+    ],
+    [
+      586,
+      734,
+      763,
+      757
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    0,
+    0,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 600,
+  "image_height": 900,
+  "layout_type": "receipt",
+  "total_words": 72,
+  "invoice_data": {
+    "invoice_number": "INV-A92D1D54",
+    "invoice_date": "09/20/2024",
+    "vendor_name": "Haney, Chavez and Watkins",
+    "vendor_address": "917 Francisco Stravenue, Bensonside, UT 92184",
+    "customer_name": "Keith Duffy",
+    "customer_address": "79059 Jonathan Crossing, Wintersville, DE 73444",
+    "line_items": [
+      {
+        "description": "Non GMO james grieve apple purees",
+        "quantity": 6,
+        "unit_price": 323.89,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Non GMO fresh fruit purees",
+          "class_name": "Non GMO apple purees",
+          "commodity_name": "Non GMO james grieve apple purees",
+          "segment_code": "50000000",
+          "family_code": "50560000",
+          "class_code": "50561500",
+          "commodity_code": "50561542"
+        }
+      },
+      {
+        "description": "Robinson, Hall  Youth camps or facilities services",
+        "quantity": 5,
+        "unit_price": 281.64,
+        "unspsc_details": {
+          "segment_name": "National Defense and Public Order and Security and Safety Services",
+          "family_name": "Public order and safety",
+          "class_name": "Jail and prison system",
+          "commodity_name": "Youth camps or facilities services",
+          "segment_code": "92000000",
+          "family_code": "92100000",
+          "class_code": "92101700",
+          "commodity_code": "92101702"
+        }
+      },
+      {
+        "description": "Frozen non GMO president plums",
+        "quantity": 9,
+        "unit_price": 10.98,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Frozen non GMO fruits",
+          "class_name": "Frozen non GMO plums",
+          "commodity_name": "Frozen non GMO president plums",
+          "segment_code": "50000000",
+          "family_code": "50540000",
+          "class_code": "50545800",
+          "commodity_code": "50545858"
+        }
+      },
+      {
+        "description": "Dried organic spain cherimoya 54EE",
+        "quantity": 3,
+        "unit_price": 293.28,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Dried organic fruit",
+          "class_name": "Dried organic cherimoyas",
+          "commodity_name": "Dried organic spain cherimoya",
+          "segment_code": "50000000",
+          "family_code": "50330000",
+          "class_code": "50332400",
+          "commodity_code": "50332408"
+        }
+      }
+    ],
+    "subtotal": 4330.2,
+    "tax_amount": 303.11,
+    "total_amount": 4633.31
+  }
+}

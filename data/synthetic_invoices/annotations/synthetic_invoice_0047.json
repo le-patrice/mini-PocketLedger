@@ -1,0 +1,671 @@
+{
+  "id": "synthetic_invoice_0047",
+  "image_filename": "synthetic_invoice_0047.png",
+  "words": [
+    "RECEIPT",
+    "Invoice",
+    "No.:",
+    "INV-3A8C9574",
+    "Date:",
+    "03/07/2025",
+    "Vendor:",
+    "Richardson,",
+    "Reyes",
+    "and",
+    "Mason",
+    "10161",
+    "Roberto",
+    "Canyon",
+    "Apt.",
+    "968,",
+    "South",
+    "Rachel,",
+    "MD",
+    "12427",
+    "Bill",
+    "To:",
+    "Cynthia",
+    "Dickerson",
+    "498",
+    "Adams",
+    "Islands",
+    "Suite",
+    "097,",
+    "Lake",
+    "Joseph,",
+    "KY",
+    "42230",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Recycling",
+    "plant",
+    "site",
+    "investigation",
+    "7",
+    "$17.96",
+    "$125.72",
+    "Dried",
+    "bambino",
+    "eggplants",
+    "9",
+    "$208.56",
+    "$1877.04",
+    "Frozen",
+    "chenault",
+    "barberries",
+    "10",
+    "$440.63",
+    "$4406.30",
+    "Jenkins",
+    "LLC",
+    "Dried",
+    "non",
+    "GMO",
+    "royal",
+    "star",
+    "melons",
+    "3",
+    "$108.71",
+    "$326.13",
+    "Subtotal:",
+    "$6735.19",
+    "Tax:",
+    "$673.52",
+    "TOTAL:",
+    "$7408.71"
+  ],
+  "boxes": [
+    [
+      426,
+      63,
+      573,
+      81
+    ],
+    [
+      75,
+      109,
+      158,
+      120
+    ],
+    [
+      170,
+      109,
+      217,
+      120
+    ],
+    [
+      230,
+      109,
+      373,
+      120
+    ],
+    [
+      75,
+      147,
+      135,
+      158
+    ],
+    [
+      146,
+      147,
+      266,
+      159
+    ],
+    [
+      75,
+      213,
+      158,
+      224
+    ],
+    [
+      170,
+      213,
+      302,
+      227
+    ],
+    [
+      313,
+      213,
+      373,
+      227
+    ],
+    [
+      385,
+      213,
+      421,
+      224
+    ],
+    [
+      432,
+      213,
+      492,
+      224
+    ],
+    [
+      75,
+      252,
+      120,
+      261
+    ],
+    [
+      128,
+      252,
+      191,
+      261
+    ],
+    [
+      200,
+      253,
+      253,
+      264
+    ],
+    [
+      262,
+      253,
+      298,
+      264
+    ],
+    [
+      307,
+      253,
+      343,
+      264
+    ],
+    [
+      352,
+      252,
+      397,
+      261
+    ],
+    [
+      406,
+      252,
+      468,
+      264
+    ],
+    [
+      477,
+      253,
+      495,
+      261
+    ],
+    [
+      75,
+      269,
+      120,
+      278
+    ],
+    [
+      75,
+      311,
+      122,
+      322
+    ],
+    [
+      135,
+      311,
+      171,
+      322
+    ],
+    [
+      182,
+      311,
+      266,
+      325
+    ],
+    [
+      277,
+      311,
+      385,
+      322
+    ],
+    [
+      75,
+      351,
+      102,
+      360
+    ],
+    [
+      110,
+      350,
+      155,
+      360
+    ],
+    [
+      163,
+      350,
+      226,
+      360
+    ],
+    [
+      235,
+      351,
+      280,
+      360
+    ],
+    [
+      288,
+      351,
+      325,
+      362
+    ],
+    [
+      333,
+      350,
+      370,
+      360
+    ],
+    [
+      378,
+      350,
+      441,
+      362
+    ],
+    [
+      450,
+      351,
+      467,
+      360
+    ],
+    [
+      75,
+      368,
+      120,
+      376
+    ],
+    [
+      75,
+      409,
+      207,
+      422
+    ],
+    [
+      500,
+      409,
+      536,
+      422
+    ],
+    [
+      668,
+      409,
+      728,
+      420
+    ],
+    [
+      797,
+      409,
+      857,
+      420
+    ],
+    [
+      75,
+      439,
+      156,
+      450
+    ],
+    [
+      165,
+      439,
+      210,
+      450
+    ],
+    [
+      218,
+      440,
+      255,
+      448
+    ],
+    [
+      263,
+      440,
+      381,
+      450
+    ],
+    [
+      500,
+      440,
+      508,
+      448
+    ],
+    [
+      668,
+      438,
+      722,
+      449
+    ],
+    [
+      797,
+      438,
+      860,
+      449
+    ],
+    [
+      75,
+      469,
+      120,
+      478
+    ],
+    [
+      128,
+      469,
+      191,
+      478
+    ],
+    [
+      200,
+      469,
+      281,
+      480
+    ],
+    [
+      500,
+      470,
+      508,
+      478
+    ],
+    [
+      668,
+      468,
+      731,
+      479
+    ],
+    [
+      797,
+      468,
+      870,
+      479
+    ],
+    [
+      75,
+      500,
+      128,
+      508
+    ],
+    [
+      137,
+      499,
+      210,
+      508
+    ],
+    [
+      217,
+      499,
+      307,
+      508
+    ],
+    [
+      500,
+      499,
+      517,
+      508
+    ],
+    [
+      668,
+      498,
+      731,
+      509
+    ],
+    [
+      797,
+      498,
+      870,
+      509
+    ],
+    [
+      75,
+      529,
+      137,
+      538
+    ],
+    [
+      146,
+      530,
+      173,
+      538
+    ],
+    [
+      181,
+      529,
+      226,
+      538
+    ],
+    [
+      235,
+      531,
+      262,
+      538
+    ],
+    [
+      270,
+      530,
+      297,
+      538
+    ],
+    [
+      305,
+      529,
+      350,
+      540
+    ],
+    [
+      358,
+      530,
+      395,
+      538
+    ],
+    [
+      403,
+      529,
+      457,
+      538
+    ],
+    [
+      500,
+      530,
+      508,
+      538
+    ],
+    [
+      668,
+      528,
+      731,
+      539
+    ],
+    [
+      797,
+      528,
+      860,
+      539
+    ],
+    [
+      585,
+      588,
+      692,
+      599
+    ],
+    [
+      705,
+      587,
+      801,
+      600
+    ],
+    [
+      585,
+      629,
+      632,
+      640
+    ],
+    [
+      645,
+      628,
+      728,
+      641
+    ],
+    [
+      585,
+      672,
+      683,
+      687
+    ],
+    [
+      700,
+      670,
+      832,
+      689
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    0,
+    0,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 800,
+  "image_height": 1100,
+  "layout_type": "standard",
+  "total_words": 73,
+  "invoice_data": {
+    "invoice_number": "INV-3A8C9574",
+    "invoice_date": "03/07/2025",
+    "vendor_name": "Richardson, Reyes and Mason",
+    "vendor_address": "10161 Roberto Canyon Apt. 968, South Rachel, MD 12427",
+    "customer_name": "Cynthia Dickerson",
+    "customer_address": "498 Adams Islands Suite 097, Lake Joseph, KY 42230",
+    "line_items": [
+      {
+        "description": "Recycling plant site investigation",
+        "quantity": 7,
+        "unit_price": 17.96,
+        "unspsc_details": {
+          "segment_name": "Environmental Services",
+          "family_name": "Environmental management",
+          "class_name": "Pollution investigation services",
+          "commodity_name": "Recycling plant site investigation",
+          "segment_code": "77000000",
+          "family_code": "77100000",
+          "class_code": "77101900",
+          "commodity_code": "77101909"
+        }
+      },
+      {
+        "description": "Dried bambino eggplants",
+        "quantity": 9,
+        "unit_price": 208.56,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Dried vegetables",
+          "class_name": "Dried eggplants",
+          "commodity_name": "Dried bambino eggplants",
+          "segment_code": "50000000",
+          "family_code": "50420000",
+          "class_code": "50423500",
+          "commodity_code": "50423501"
+        }
+      },
+      {
+        "description": "Frozen chenault barberries",
+        "quantity": 10,
+        "unit_price": 440.63,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Frozen fruit",
+          "class_name": "Frozen barberries",
+          "commodity_name": "Frozen chenault barberries",
+          "segment_code": "50000000",
+          "family_code": "50340000",
+          "class_code": "50341800",
+          "commodity_code": "50341802"
+        }
+      },
+      {
+        "description": "Jenkins LLC Dried non GMO royal star melons",
+        "quantity": 3,
+        "unit_price": 108.71,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Dried non GMO fruits",
+          "class_name": "Dried non GMO melons",
+          "commodity_name": "Dried non GMO royal star melons",
+          "segment_code": "50000000",
+          "family_code": "50530000",
+          "class_code": "50534600",
+          "commodity_code": "50534646"
+        }
+      }
+    ],
+    "subtotal": 6735.1900000000005,
+    "tax_amount": 673.52,
+    "total_amount": 7408.71
+  }
+}

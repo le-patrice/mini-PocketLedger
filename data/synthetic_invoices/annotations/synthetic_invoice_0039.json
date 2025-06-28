@@ -1,0 +1,457 @@
+{
+  "id": "synthetic_invoice_0039",
+  "image_filename": "synthetic_invoice_0039.png",
+  "words": [
+    "BILL",
+    "Invoice",
+    "No.:",
+    "INV-0C7B49A1",
+    "Date:",
+    "10/28/2024",
+    "Vendor:",
+    "Owens",
+    "LLC",
+    "USS",
+    "Garner,",
+    "FPO",
+    "AA",
+    "54898",
+    "Bill",
+    "To:",
+    "Micheal",
+    "Brown",
+    "825",
+    "Pope",
+    "Roads,",
+    "Sandovalmouth,",
+    "ND",
+    "86794",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Dried",
+    "cut",
+    "araripinum",
+    "hippeastrum",
+    "61yj",
+    "5",
+    "$238.57",
+    "$1192.85",
+    "Brown-Hicks",
+    "Fresh",
+    "cut",
+    "klamathensis",
+    "rudbeckia",
+    "8",
+    "$104.95",
+    "$839.60",
+    "Subtotal:",
+    "$2032.45",
+    "Tax:",
+    "$203.25",
+    "TOTAL:",
+    "$2235.70"
+  ],
+  "boxes": [
+    [
+      457,
+      63,
+      541,
+      81
+    ],
+    [
+      75,
+      109,
+      158,
+      120
+    ],
+    [
+      170,
+      109,
+      217,
+      120
+    ],
+    [
+      230,
+      109,
+      373,
+      120
+    ],
+    [
+      75,
+      147,
+      135,
+      158
+    ],
+    [
+      146,
+      147,
+      266,
+      159
+    ],
+    [
+      75,
+      213,
+      158,
+      224
+    ],
+    [
+      170,
+      213,
+      230,
+      224
+    ],
+    [
+      241,
+      213,
+      277,
+      224
+    ],
+    [
+      75,
+      250,
+      102,
+      259
+    ],
+    [
+      110,
+      250,
+      172,
+      261
+    ],
+    [
+      181,
+      250,
+      208,
+      259
+    ],
+    [
+      216,
+      250,
+      233,
+      259
+    ],
+    [
+      242,
+      250,
+      287,
+      259
+    ],
+    [
+      75,
+      294,
+      122,
+      305
+    ],
+    [
+      135,
+      294,
+      171,
+      305
+    ],
+    [
+      182,
+      294,
+      266,
+      305
+    ],
+    [
+      277,
+      294,
+      337,
+      305
+    ],
+    [
+      75,
+      331,
+      102,
+      340
+    ],
+    [
+      110,
+      331,
+      146,
+      342
+    ],
+    [
+      155,
+      330,
+      208,
+      342
+    ],
+    [
+      217,
+      330,
+      343,
+      342
+    ],
+    [
+      352,
+      331,
+      370,
+      340
+    ],
+    [
+      378,
+      331,
+      423,
+      340
+    ],
+    [
+      75,
+      376,
+      207,
+      390
+    ],
+    [
+      500,
+      376,
+      536,
+      390
+    ],
+    [
+      668,
+      376,
+      728,
+      387
+    ],
+    [
+      797,
+      376,
+      857,
+      387
+    ],
+    [
+      75,
+      406,
+      120,
+      415
+    ],
+    [
+      128,
+      407,
+      156,
+      415
+    ],
+    [
+      163,
+      407,
+      253,
+      418
+    ],
+    [
+      262,
+      406,
+      361,
+      418
+    ],
+    [
+      370,
+      406,
+      406,
+      418
+    ],
+    [
+      500,
+      407,
+      508,
+      415
+    ],
+    [
+      668,
+      405,
+      731,
+      416
+    ],
+    [
+      797,
+      405,
+      870,
+      416
+    ],
+    [
+      75,
+      436,
+      173,
+      445
+    ],
+    [
+      182,
+      436,
+      227,
+      445
+    ],
+    [
+      236,
+      437,
+      263,
+      445
+    ],
+    [
+      271,
+      436,
+      378,
+      445
+    ],
+    [
+      387,
+      436,
+      468,
+      445
+    ],
+    [
+      500,
+      437,
+      508,
+      445
+    ],
+    [
+      668,
+      435,
+      731,
+      446
+    ],
+    [
+      797,
+      435,
+      860,
+      446
+    ],
+    [
+      585,
+      495,
+      692,
+      506
+    ],
+    [
+      705,
+      494,
+      801,
+      508
+    ],
+    [
+      585,
+      536,
+      632,
+      547
+    ],
+    [
+      645,
+      535,
+      728,
+      549
+    ],
+    [
+      585,
+      580,
+      683,
+      594
+    ],
+    [
+      700,
+      577,
+      832,
+      596
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 800,
+  "image_height": 1100,
+  "layout_type": "standard",
+  "total_words": 50,
+  "invoice_data": {
+    "invoice_number": "INV-0C7B49A1",
+    "invoice_date": "10/28/2024",
+    "vendor_name": "Owens LLC",
+    "vendor_address": "USS Garner, FPO AA 54898",
+    "customer_name": "Micheal Brown",
+    "customer_address": "825 Pope Roads, Sandovalmouth, ND 86794",
+    "line_items": [
+      {
+        "description": "Dried cut araripinum hippeastrum 61yj",
+        "quantity": 5,
+        "unit_price": 238.57,
+        "unspsc_details": {
+          "segment_name": "Live Plant and Animal Material and Accessories and Supplies",
+          "family_name": "Dried cut blooms of high species or variety count flowers",
+          "class_name": "Dried cut hippeastrums",
+          "commodity_name": "Dried cut araripinum hippeastrum",
+          "segment_code": "10000000",
+          "family_code": "10410000",
+          "class_code": "10417900",
+          "commodity_code": "10417905"
+        }
+      },
+      {
+        "description": "Brown-Hicks Fresh cut klamathensis rudbeckia",
+        "quantity": 8,
+        "unit_price": 104.95,
+        "unspsc_details": {
+          "segment_name": "Live Plant and Animal Material and Accessories and Supplies",
+          "family_name": "Fresh cut blooms of high species or variety count flowers",
+          "class_name": "Fresh cut rudbeckia or coneflower",
+          "commodity_name": "Fresh cut klamathensis rudbeckia",
+          "segment_code": "10000000",
+          "family_code": "10310000",
+          "class_code": "10318000",
+          "commodity_code": "10318012"
+        }
+      }
+    ],
+    "subtotal": 2032.4499999999998,
+    "tax_amount": 203.25,
+    "total_amount": 2235.7
+  }
+}

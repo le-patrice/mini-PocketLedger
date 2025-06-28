@@ -1,0 +1,457 @@
+{
+  "id": "synthetic_invoice_0006",
+  "image_filename": "synthetic_invoice_0006.png",
+  "words": [
+    "INVOICE",
+    "Invoice",
+    "No.:",
+    "INV-A50F465B",
+    "Date:",
+    "05/29/2025",
+    "Vendor:",
+    "Nguyen,",
+    "Wright",
+    "and",
+    "Thomas",
+    "6735",
+    "Evelyn",
+    "Brook",
+    "Suite",
+    "614,",
+    "Teresabury,",
+    "SC",
+    "76080",
+    "Bill",
+    "To:",
+    "Tricia",
+    "Perez",
+    "92733",
+    "Marshall",
+    "Common,",
+    "Maddoxview,",
+    "OK",
+    "15492",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Engine",
+    "flywheel",
+    "5",
+    "$365.03",
+    "$1825.15",
+    "Scanning",
+    "probe",
+    "microscopes",
+    "6",
+    "$365.83",
+    "$2194.98",
+    "Subtotal:",
+    "$4020.13",
+    "Tax:",
+    "$201.01",
+    "TOTAL:",
+    "$4221.14"
+  ],
+  "boxes": [
+    [
+      401,
+      55,
+      598,
+      77
+    ],
+    [
+      66,
+      100,
+      178,
+      113
+    ],
+    [
+      193,
+      100,
+      256,
+      113
+    ],
+    [
+      273,
+      100,
+      465,
+      113
+    ],
+    [
+      66,
+      141,
+      146,
+      154
+    ],
+    [
+      161,
+      141,
+      321,
+      155
+    ],
+    [
+      66,
+      205,
+      178,
+      218
+    ],
+    [
+      193,
+      205,
+      305,
+      222
+    ],
+    [
+      320,
+      205,
+      416,
+      222
+    ],
+    [
+      431,
+      205,
+      480,
+      218
+    ],
+    [
+      66,
+      227,
+      163,
+      241
+    ],
+    [
+      66,
+      267,
+      115,
+      277
+    ],
+    [
+      126,
+      266,
+      198,
+      281
+    ],
+    [
+      210,
+      266,
+      270,
+      277
+    ],
+    [
+      281,
+      267,
+      341,
+      277
+    ],
+    [
+      353,
+      266,
+      401,
+      281
+    ],
+    [
+      66,
+      286,
+      198,
+      301
+    ],
+    [
+      210,
+      287,
+      233,
+      297
+    ],
+    [
+      245,
+      287,
+      305,
+      297
+    ],
+    [
+      66,
+      331,
+      130,
+      344
+    ],
+    [
+      146,
+      331,
+      195,
+      344
+    ],
+    [
+      210,
+      331,
+      306,
+      344
+    ],
+    [
+      321,
+      331,
+      401,
+      344
+    ],
+    [
+      66,
+      371,
+      126,
+      381
+    ],
+    [
+      138,
+      370,
+      235,
+      381
+    ],
+    [
+      245,
+      371,
+      328,
+      384
+    ],
+    [
+      340,
+      370,
+      471,
+      384
+    ],
+    [
+      66,
+      391,
+      90,
+      401
+    ],
+    [
+      101,
+      390,
+      161,
+      401
+    ],
+    [
+      66,
+      431,
+      243,
+      447
+    ],
+    [
+      500,
+      431,
+      548,
+      447
+    ],
+    [
+      673,
+      431,
+      753,
+      444
+    ],
+    [
+      803,
+      431,
+      883,
+      444
+    ],
+    [
+      66,
+      468,
+      138,
+      482
+    ],
+    [
+      150,
+      467,
+      246,
+      482
+    ],
+    [
+      500,
+      468,
+      511,
+      478
+    ],
+    [
+      673,
+      466,
+      756,
+      480
+    ],
+    [
+      803,
+      466,
+      900,
+      480
+    ],
+    [
+      66,
+      500,
+      163,
+      513
+    ],
+    [
+      173,
+      498,
+      233,
+      513
+    ],
+    [
+      245,
+      500,
+      376,
+      513
+    ],
+    [
+      500,
+      500,
+      511,
+      510
+    ],
+    [
+      673,
+      497,
+      756,
+      511
+    ],
+    [
+      803,
+      497,
+      900,
+      511
+    ],
+    [
+      586,
+      554,
+      730,
+      567
+    ],
+    [
+      746,
+      553,
+      875,
+      570
+    ],
+    [
+      586,
+      598,
+      650,
+      612
+    ],
+    [
+      666,
+      597,
+      778,
+      614
+    ],
+    [
+      586,
+      646,
+      718,
+      664
+    ],
+    [
+      586,
+      666,
+      763,
+      690
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    0,
+    0,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 600,
+  "image_height": 900,
+  "layout_type": "receipt",
+  "total_words": 50,
+  "invoice_data": {
+    "invoice_number": "INV-A50F465B",
+    "invoice_date": "05/29/2025",
+    "vendor_name": "Nguyen, Wright and Thomas",
+    "vendor_address": "6735 Evelyn Brook Suite 614, Teresabury, SC 76080",
+    "customer_name": "Tricia Perez",
+    "customer_address": "92733 Marshall Common, Maddoxview, OK 15492",
+    "line_items": [
+      {
+        "description": "Engine flywheel",
+        "quantity": 5,
+        "unit_price": 365.03,
+        "unspsc_details": {
+          "segment_name": "Power Generation and Distribution Machinery and Accessories",
+          "family_name": "Power sources",
+          "class_name": "Engine components and accessories",
+          "commodity_name": "Engine flywheel",
+          "segment_code": "26000000",
+          "family_code": "26100000",
+          "class_code": "26101700",
+          "commodity_code": "26101748"
+        }
+      },
+      {
+        "description": "Scanning probe microscopes",
+        "quantity": 6,
+        "unit_price": 365.83,
+        "unspsc_details": {
+          "segment_name": "Laboratory and Measuring and Observing and Testing Equipment",
+          "family_name": "Measuring and observing and testing instruments",
+          "class_name": "Viewing and observing instruments and accessories",
+          "commodity_name": "Scanning probe microscopes",
+          "segment_code": "41000000",
+          "family_code": "41110000",
+          "class_code": "41111700",
+          "commodity_code": "41111724"
+        }
+      }
+    ],
+    "subtotal": 4020.13,
+    "tax_amount": 201.01,
+    "total_amount": 4221.14
+  }
+}

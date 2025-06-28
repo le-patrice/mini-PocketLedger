@@ -1,0 +1,544 @@
+{
+  "id": "synthetic_invoice_0036",
+  "image_filename": "synthetic_invoice_0036.png",
+  "words": [
+    "BILL",
+    "Invoice",
+    "No.:",
+    "INV-1BC68766",
+    "Date:",
+    "09/11/2024",
+    "Vendor:",
+    "Moore-Christensen",
+    "764",
+    "Chavez",
+    "Union,",
+    "Bethanyfurt,",
+    "AK",
+    "12778",
+    "Bill",
+    "To:",
+    "Benjamin",
+    "Johnson",
+    "76320",
+    "Graham",
+    "Mission",
+    "Suite",
+    "174,",
+    "Richardsonburgh,",
+    "NJ",
+    "16961",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Morales,",
+    "Mendez",
+    "Population",
+    "composition",
+    "analysis",
+    "services",
+    "4",
+    "$214.26",
+    "$857.04",
+    "Difenoximide",
+    "hydrochloride",
+    "47bq",
+    "4",
+    "$393.17",
+    "$1572.68",
+    "Cary",
+    "mac",
+    "peach",
+    "purees",
+    "05rh",
+    "5",
+    "$118.31",
+    "$591.55",
+    "Subtotal:",
+    "$3021.27",
+    "Tax:",
+    "$302.13",
+    "TOTAL:",
+    "$3323.40"
+  ],
+  "boxes": [
+    [
+      457,
+      63,
+      541,
+      81
+    ],
+    [
+      75,
+      109,
+      158,
+      120
+    ],
+    [
+      170,
+      109,
+      217,
+      120
+    ],
+    [
+      230,
+      109,
+      373,
+      120
+    ],
+    [
+      75,
+      147,
+      135,
+      158
+    ],
+    [
+      146,
+      147,
+      266,
+      159
+    ],
+    [
+      75,
+      213,
+      158,
+      224
+    ],
+    [
+      170,
+      213,
+      373,
+      224
+    ],
+    [
+      75,
+      250,
+      102,
+      259
+    ],
+    [
+      110,
+      250,
+      163,
+      259
+    ],
+    [
+      172,
+      250,
+      226,
+      261
+    ],
+    [
+      235,
+      250,
+      342,
+      261
+    ],
+    [
+      351,
+      250,
+      368,
+      259
+    ],
+    [
+      377,
+      250,
+      422,
+      259
+    ],
+    [
+      75,
+      295,
+      122,
+      306
+    ],
+    [
+      135,
+      295,
+      171,
+      306
+    ],
+    [
+      182,
+      295,
+      278,
+      309
+    ],
+    [
+      290,
+      295,
+      373,
+      306
+    ],
+    [
+      75,
+      335,
+      120,
+      343
+    ],
+    [
+      128,
+      334,
+      182,
+      343
+    ],
+    [
+      191,
+      335,
+      253,
+      343
+    ],
+    [
+      262,
+      335,
+      307,
+      343
+    ],
+    [
+      316,
+      334,
+      352,
+      346
+    ],
+    [
+      75,
+      350,
+      218,
+      362
+    ],
+    [
+      227,
+      351,
+      245,
+      360
+    ],
+    [
+      253,
+      350,
+      298,
+      360
+    ],
+    [
+      75,
+      396,
+      207,
+      410
+    ],
+    [
+      500,
+      396,
+      536,
+      410
+    ],
+    [
+      668,
+      396,
+      728,
+      407
+    ],
+    [
+      797,
+      396,
+      857,
+      407
+    ],
+    [
+      75,
+      426,
+      147,
+      438
+    ],
+    [
+      155,
+      426,
+      208,
+      435
+    ],
+    [
+      217,
+      426,
+      307,
+      438
+    ],
+    [
+      316,
+      427,
+      415,
+      438
+    ],
+    [
+      423,
+      426,
+      496,
+      438
+    ],
+    [
+      75,
+      443,
+      147,
+      451
+    ],
+    [
+      500,
+      427,
+      508,
+      435
+    ],
+    [
+      668,
+      425,
+      731,
+      436
+    ],
+    [
+      797,
+      425,
+      860,
+      436
+    ],
+    [
+      75,
+      456,
+      182,
+      465
+    ],
+    [
+      191,
+      456,
+      308,
+      468
+    ],
+    [
+      316,
+      456,
+      352,
+      468
+    ],
+    [
+      500,
+      457,
+      508,
+      465
+    ],
+    [
+      668,
+      455,
+      731,
+      466
+    ],
+    [
+      797,
+      455,
+      870,
+      466
+    ],
+    [
+      75,
+      487,
+      111,
+      498
+    ],
+    [
+      120,
+      489,
+      147,
+      495
+    ],
+    [
+      155,
+      486,
+      200,
+      498
+    ],
+    [
+      208,
+      489,
+      262,
+      498
+    ],
+    [
+      271,
+      486,
+      307,
+      495
+    ],
+    [
+      500,
+      487,
+      508,
+      495
+    ],
+    [
+      668,
+      485,
+      731,
+      496
+    ],
+    [
+      797,
+      485,
+      860,
+      496
+    ],
+    [
+      585,
+      545,
+      692,
+      556
+    ],
+    [
+      705,
+      544,
+      801,
+      558
+    ],
+    [
+      585,
+      586,
+      632,
+      597
+    ],
+    [
+      645,
+      585,
+      728,
+      599
+    ],
+    [
+      585,
+      630,
+      683,
+      644
+    ],
+    [
+      700,
+      627,
+      832,
+      646
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 800,
+  "image_height": 1100,
+  "layout_type": "standard",
+  "total_words": 59,
+  "invoice_data": {
+    "invoice_number": "INV-1BC68766",
+    "invoice_date": "09/11/2024",
+    "vendor_name": "Moore-Christensen",
+    "vendor_address": "764 Chavez Union, Bethanyfurt, AK 12778",
+    "customer_name": "Benjamin Johnson",
+    "customer_address": "76320 Graham Mission Suite 174, Richardsonburgh, NJ 16961",
+    "line_items": [
+      {
+        "description": "Morales, Mendez Population composition analysis services",
+        "quantity": 4,
+        "unit_price": 214.26,
+        "unspsc_details": {
+          "segment_name": "Politics and Civic Affairs Services",
+          "family_name": "Community and social services",
+          "class_name": "Population",
+          "commodity_name": "Population composition analysis services",
+          "segment_code": "93000000",
+          "family_code": "93140000",
+          "class_code": "93141600",
+          "commodity_code": "93141609"
+        }
+      },
+      {
+        "description": "Difenoximide hydrochloride 47bq",
+        "quantity": 4,
+        "unit_price": 393.17,
+        "unspsc_details": {
+          "segment_name": "Drugs and Pharmaceutical Products",
+          "family_name": "Drugs affecting the gastrointestinal system",
+          "class_name": "Antispasmodics",
+          "commodity_name": "Difenoximide hydrochloride",
+          "segment_code": "51000000",
+          "family_code": "51170000",
+          "class_code": "51172100",
+          "commodity_code": "51172168"
+        }
+      },
+      {
+        "description": "Cary mac peach purees 05rh",
+        "quantity": 5,
+        "unit_price": 118.31,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Fresh fruit purees",
+          "class_name": "Peach purees",
+          "commodity_name": "Cary mac peach purees",
+          "segment_code": "50000000",
+          "family_code": "50380000",
+          "class_code": "50385800",
+          "commodity_code": "50385808"
+        }
+      }
+    ],
+    "subtotal": 3021.27,
+    "tax_amount": 302.13,
+    "total_amount": 3323.4
+  }
+}

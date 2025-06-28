@@ -1,0 +1,544 @@
+{
+  "id": "synthetic_invoice_0082",
+  "image_filename": "synthetic_invoice_0082.png",
+  "words": [
+    "BILL",
+    "Invoice",
+    "No.:",
+    "INV-19860120",
+    "Date:",
+    "07/14/2024",
+    "Vendor:",
+    "Fuentes,",
+    "Lee",
+    "and",
+    "Smith",
+    "929",
+    "Lewis",
+    "Manor,",
+    "Kaylaborough,",
+    "VI",
+    "15034",
+    "Bill",
+    "To:",
+    "Adam",
+    "Webster",
+    "57398",
+    "Michael",
+    "Gateway",
+    "Apt.",
+    "417,",
+    "Gordonshire,",
+    "SD",
+    "68267",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Huaranhuay",
+    "tree",
+    "seed",
+    "or",
+    "cutting",
+    "57cq",
+    "10",
+    "$59.53",
+    "$595.30",
+    "Vacuum",
+    "centrifuges",
+    "1",
+    "$271.57",
+    "$271.57",
+    "Dry",
+    "dock",
+    "23aM",
+    "5",
+    "$394.31",
+    "$1971.55",
+    "Subtotal:",
+    "$2838.42",
+    "Tax:",
+    "$198.69",
+    "TOTAL:",
+    "$3037.11"
+  ],
+  "boxes": [
+    [
+      454,
+      60,
+      544,
+      80
+    ],
+    [
+      66,
+      105,
+      156,
+      117
+    ],
+    [
+      168,
+      105,
+      218,
+      117
+    ],
+    [
+      232,
+      105,
+      385,
+      117
+    ],
+    [
+      66,
+      144,
+      130,
+      156
+    ],
+    [
+      142,
+      144,
+      270,
+      157
+    ],
+    [
+      66,
+      209,
+      156,
+      221
+    ],
+    [
+      168,
+      209,
+      270,
+      224
+    ],
+    [
+      282,
+      209,
+      321,
+      221
+    ],
+    [
+      333,
+      209,
+      372,
+      221
+    ],
+    [
+      384,
+      209,
+      448,
+      221
+    ],
+    [
+      66,
+      250,
+      96,
+      259
+    ],
+    [
+      104,
+      250,
+      152,
+      259
+    ],
+    [
+      161,
+      250,
+      218,
+      262
+    ],
+    [
+      228,
+      249,
+      353,
+      262
+    ],
+    [
+      361,
+      250,
+      380,
+      259
+    ],
+    [
+      389,
+      249,
+      437,
+      259
+    ],
+    [
+      66,
+      294,
+      117,
+      306
+    ],
+    [
+      130,
+      294,
+      169,
+      306
+    ],
+    [
+      181,
+      294,
+      232,
+      306
+    ],
+    [
+      245,
+      294,
+      334,
+      306
+    ],
+    [
+      66,
+      332,
+      114,
+      341
+    ],
+    [
+      124,
+      331,
+      190,
+      341
+    ],
+    [
+      200,
+      332,
+      266,
+      344
+    ],
+    [
+      276,
+      332,
+      314,
+      344
+    ],
+    [
+      324,
+      331,
+      362,
+      344
+    ],
+    [
+      372,
+      331,
+      486,
+      344
+    ],
+    [
+      66,
+      350,
+      85,
+      359
+    ],
+    [
+      94,
+      350,
+      142,
+      359
+    ],
+    [
+      66,
+      390,
+      208,
+      405
+    ],
+    [
+      500,
+      390,
+      538,
+      405
+    ],
+    [
+      672,
+      390,
+      736,
+      402
+    ],
+    [
+      802,
+      390,
+      866,
+      402
+    ],
+    [
+      66,
+      423,
+      162,
+      436
+    ],
+    [
+      172,
+      424,
+      210,
+      433
+    ],
+    [
+      220,
+      423,
+      258,
+      433
+    ],
+    [
+      268,
+      426,
+      286,
+      433
+    ],
+    [
+      296,
+      424,
+      362,
+      436
+    ],
+    [
+      372,
+      424,
+      410,
+      436
+    ],
+    [
+      500,
+      423,
+      518,
+      433
+    ],
+    [
+      672,
+      422,
+      729,
+      434
+    ],
+    [
+      802,
+      422,
+      869,
+      434
+    ],
+    [
+      66,
+      454,
+      124,
+      463
+    ],
+    [
+      133,
+      453,
+      238,
+      466
+    ],
+    [
+      500,
+      453,
+      509,
+      463
+    ],
+    [
+      672,
+      452,
+      738,
+      464
+    ],
+    [
+      802,
+      452,
+      869,
+      464
+    ],
+    [
+      66,
+      484,
+      96,
+      496
+    ],
+    [
+      104,
+      483,
+      142,
+      493
+    ],
+    [
+      152,
+      484,
+      190,
+      493
+    ],
+    [
+      500,
+      484,
+      509,
+      493
+    ],
+    [
+      672,
+      482,
+      738,
+      494
+    ],
+    [
+      802,
+      482,
+      880,
+      494
+    ],
+    [
+      586,
+      540,
+      701,
+      552
+    ],
+    [
+      714,
+      539,
+      817,
+      554
+    ],
+    [
+      586,
+      582,
+      637,
+      594
+    ],
+    [
+      650,
+      581,
+      740,
+      596
+    ],
+    [
+      586,
+      627,
+      692,
+      643
+    ],
+    [
+      709,
+      624,
+      850,
+      645
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    0,
+    0,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 750,
+  "image_height": 1000,
+  "layout_type": "compact",
+  "total_words": 59,
+  "invoice_data": {
+    "invoice_number": "INV-19860120",
+    "invoice_date": "07/14/2024",
+    "vendor_name": "Fuentes, Lee and Smith",
+    "vendor_address": "929 Lewis Manor, Kaylaborough, VI 15034",
+    "customer_name": "Adam Webster",
+    "customer_address": "57398 Michael Gateway Apt. 417, Gordonshire, SD 68267",
+    "line_items": [
+      {
+        "description": "Huaranhuay tree seed or cutting 57cq",
+        "quantity": 10,
+        "unit_price": 59.53,
+        "unspsc_details": {
+          "segment_name": "Live Plant and Animal Material and Accessories and Supplies",
+          "family_name": "Seeds and bulbs and seedlings and cuttings",
+          "class_name": "Tree and shrub seeds and cuttings",
+          "commodity_name": "Huaranhuay tree seed or cutting",
+          "segment_code": "10000000",
+          "family_code": "10150000",
+          "class_code": "10152000",
+          "commodity_code": "10152015"
+        }
+      },
+      {
+        "description": "Vacuum centrifuges",
+        "quantity": 1,
+        "unit_price": 271.57,
+        "unspsc_details": {
+          "segment_name": "Laboratory and Measuring and Observing and Testing Equipment",
+          "family_name": "Laboratory and scientific equipment",
+          "class_name": "Laboratory centrifuges and accessories",
+          "commodity_name": "Vacuum centrifuges",
+          "segment_code": "41000000",
+          "family_code": "41100000",
+          "class_code": "41103900",
+          "commodity_code": "41103908"
+        }
+      },
+      {
+        "description": "Dry dock 23aM",
+        "quantity": 5,
+        "unit_price": 394.31,
+        "unspsc_details": {
+          "segment_name": "Land and Buildings and Structures and Thoroughfares",
+          "family_name": "Permanent buildings and structures",
+          "class_name": "Transport buildings and structures",
+          "commodity_name": "Dry dock",
+          "segment_code": "95000000",
+          "family_code": "95120000",
+          "class_code": "95121600",
+          "commodity_code": "95121602"
+        }
+      }
+    ],
+    "subtotal": 2838.42,
+    "tax_amount": 198.69,
+    "total_amount": 3037.11
+  }
+}

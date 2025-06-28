@@ -1,0 +1,520 @@
+{
+  "id": "synthetic_invoice_0030",
+  "image_filename": "synthetic_invoice_0030.png",
+  "words": [
+    "BILL",
+    "Invoice",
+    "No.:",
+    "INV-ADE4D0DC",
+    "Date:",
+    "06/30/2024",
+    "Vendor:",
+    "Silva-Taylor",
+    "1307",
+    "Kelly",
+    "Fords",
+    "Apt.",
+    "010,",
+    "Thompsonport,",
+    "WV",
+    "45667",
+    "Bill",
+    "To:",
+    "Jesse",
+    "Gray",
+    "68198",
+    "Kayla",
+    "Points",
+    "Suite",
+    "497,",
+    "Smithstad,",
+    "MI",
+    "11440",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Frozen",
+    "apache",
+    "apricots",
+    "9",
+    "$487.69",
+    "$4389.21",
+    "Reinsurance",
+    "services",
+    "4",
+    "$127.25",
+    "$509.00",
+    "Animal",
+    "transport",
+    "cage",
+    "26ET",
+    "4",
+    "$270.61",
+    "$1082.44",
+    "Subtotal:",
+    "$5980.65",
+    "Tax:",
+    "$299.03",
+    "TOTAL:",
+    "$6279.68"
+  ],
+  "boxes": [
+    [
+      443,
+      55,
+      555,
+      77
+    ],
+    [
+      66,
+      100,
+      178,
+      113
+    ],
+    [
+      193,
+      100,
+      256,
+      113
+    ],
+    [
+      273,
+      100,
+      465,
+      113
+    ],
+    [
+      66,
+      141,
+      146,
+      154
+    ],
+    [
+      161,
+      141,
+      321,
+      155
+    ],
+    [
+      66,
+      205,
+      178,
+      218
+    ],
+    [
+      193,
+      205,
+      385,
+      222
+    ],
+    [
+      66,
+      247,
+      115,
+      258
+    ],
+    [
+      126,
+      247,
+      186,
+      262
+    ],
+    [
+      198,
+      247,
+      258,
+      258
+    ],
+    [
+      270,
+      248,
+      318,
+      262
+    ],
+    [
+      330,
+      247,
+      378,
+      262
+    ],
+    [
+      66,
+      267,
+      223,
+      282
+    ],
+    [
+      233,
+      268,
+      256,
+      278
+    ],
+    [
+      268,
+      268,
+      328,
+      278
+    ],
+    [
+      66,
+      312,
+      130,
+      325
+    ],
+    [
+      146,
+      312,
+      195,
+      325
+    ],
+    [
+      210,
+      312,
+      290,
+      325
+    ],
+    [
+      305,
+      312,
+      370,
+      328
+    ],
+    [
+      66,
+      354,
+      126,
+      365
+    ],
+    [
+      138,
+      354,
+      198,
+      368
+    ],
+    [
+      210,
+      355,
+      281,
+      365
+    ],
+    [
+      293,
+      355,
+      353,
+      365
+    ],
+    [
+      365,
+      355,
+      413,
+      368
+    ],
+    [
+      66,
+      374,
+      186,
+      388
+    ],
+    [
+      198,
+      375,
+      221,
+      385
+    ],
+    [
+      233,
+      374,
+      293,
+      385
+    ],
+    [
+      66,
+      418,
+      243,
+      435
+    ],
+    [
+      500,
+      418,
+      548,
+      435
+    ],
+    [
+      673,
+      418,
+      753,
+      432
+    ],
+    [
+      803,
+      418,
+      883,
+      432
+    ],
+    [
+      66,
+      456,
+      138,
+      466
+    ],
+    [
+      150,
+      455,
+      221,
+      470
+    ],
+    [
+      233,
+      456,
+      330,
+      470
+    ],
+    [
+      500,
+      456,
+      511,
+      466
+    ],
+    [
+      673,
+      454,
+      756,
+      467
+    ],
+    [
+      803,
+      454,
+      900,
+      467
+    ],
+    [
+      66,
+      487,
+      198,
+      497
+    ],
+    [
+      210,
+      487,
+      306,
+      497
+    ],
+    [
+      500,
+      487,
+      511,
+      497
+    ],
+    [
+      673,
+      485,
+      756,
+      498
+    ],
+    [
+      803,
+      485,
+      886,
+      498
+    ],
+    [
+      66,
+      517,
+      138,
+      528
+    ],
+    [
+      150,
+      518,
+      258,
+      532
+    ],
+    [
+      270,
+      521,
+      318,
+      532
+    ],
+    [
+      330,
+      518,
+      378,
+      528
+    ],
+    [
+      500,
+      518,
+      511,
+      528
+    ],
+    [
+      673,
+      516,
+      756,
+      530
+    ],
+    [
+      803,
+      516,
+      900,
+      530
+    ],
+    [
+      586,
+      573,
+      730,
+      586
+    ],
+    [
+      746,
+      572,
+      875,
+      588
+    ],
+    [
+      586,
+      617,
+      650,
+      631
+    ],
+    [
+      666,
+      616,
+      778,
+      633
+    ],
+    [
+      586,
+      665,
+      718,
+      683
+    ],
+    [
+      586,
+      685,
+      763,
+      708
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 600,
+  "image_height": 900,
+  "layout_type": "receipt",
+  "total_words": 56,
+  "invoice_data": {
+    "invoice_number": "INV-ADE4D0DC",
+    "invoice_date": "06/30/2024",
+    "vendor_name": "Silva-Taylor",
+    "vendor_address": "1307 Kelly Fords Apt. 010, Thompsonport, WV 45667",
+    "customer_name": "Jesse Gray",
+    "customer_address": "68198 Kayla Points Suite 497, Smithstad, MI 11440",
+    "line_items": [
+      {
+        "description": "Frozen apache apricots",
+        "quantity": 9,
+        "unit_price": 487.69,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Frozen fruit",
+          "class_name": "Frozen apricots",
+          "commodity_name": "Frozen apache apricots",
+          "segment_code": "50000000",
+          "family_code": "50340000",
+          "class_code": "50341600",
+          "commodity_code": "50341602"
+        }
+      },
+      {
+        "description": "Reinsurance services",
+        "quantity": 4,
+        "unit_price": 127.25,
+        "unspsc_details": {
+          "segment_name": "Financial and Insurance Services",
+          "family_name": "Insurance and retirement services",
+          "class_name": "Insurance services for structures and property and possessions",
+          "commodity_name": "Reinsurance services",
+          "segment_code": "84000000",
+          "family_code": "84130000",
+          "class_code": "84131500",
+          "commodity_code": "84131506"
+        }
+      },
+      {
+        "description": "Animal transport cage 26ET",
+        "quantity": 4,
+        "unit_price": 270.61,
+        "unspsc_details": {
+          "segment_name": "Live Plant and Animal Material and Accessories and Supplies",
+          "family_name": "Animal containment and habitats",
+          "class_name": "Animal containment",
+          "commodity_name": "Animal transport cage",
+          "segment_code": "10000000",
+          "family_code": "10130000",
+          "class_code": "10131600",
+          "commodity_code": "10131605"
+        }
+      }
+    ],
+    "subtotal": 5980.65,
+    "tax_amount": 299.03,
+    "total_amount": 6279.68
+  }
+}

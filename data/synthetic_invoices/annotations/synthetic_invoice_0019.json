@@ -1,0 +1,615 @@
+{
+  "id": "synthetic_invoice_0019",
+  "image_filename": "synthetic_invoice_0019.png",
+  "words": [
+    "BILL",
+    "Invoice",
+    "No.:",
+    "INV-32F6F519",
+    "Date:",
+    "09/13/2024",
+    "Vendor:",
+    "Keith-Byrd",
+    "649",
+    "Marilyn",
+    "Point,",
+    "Watersmouth,",
+    "FL",
+    "84436",
+    "Bill",
+    "To:",
+    "Dana",
+    "Long",
+    "1958",
+    "Jose",
+    "Overpass,",
+    "Hodgesmouth,",
+    "SC",
+    "63722",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Digital",
+    "subscriber",
+    "loop",
+    "DSL",
+    "captive",
+    "offi",
+    "60sC",
+    "3",
+    "$283.90",
+    "$851.70",
+    "Erythromycin",
+    "phosphate",
+    "10",
+    "$437.51",
+    "$4375.10",
+    "Young-Owens",
+    "Black",
+    "beauty",
+    "seedless",
+    "grapes",
+    "36OV",
+    "1",
+    "$452.45",
+    "$452.45",
+    "Frozen",
+    "non",
+    "GMO",
+    "merlot",
+    "grapes",
+    "4",
+    "$486.71",
+    "$1946.84",
+    "Subtotal:",
+    "$7626.09",
+    "Tax:",
+    "$533.83",
+    "TOTAL:",
+    "$8159.92"
+  ],
+  "boxes": [
+    [
+      443,
+      55,
+      555,
+      77
+    ],
+    [
+      66,
+      100,
+      178,
+      113
+    ],
+    [
+      193,
+      100,
+      256,
+      113
+    ],
+    [
+      273,
+      100,
+      465,
+      113
+    ],
+    [
+      66,
+      141,
+      146,
+      154
+    ],
+    [
+      161,
+      141,
+      321,
+      155
+    ],
+    [
+      66,
+      205,
+      178,
+      218
+    ],
+    [
+      193,
+      205,
+      353,
+      222
+    ],
+    [
+      66,
+      248,
+      103,
+      258
+    ],
+    [
+      113,
+      247,
+      196,
+      262
+    ],
+    [
+      208,
+      248,
+      280,
+      262
+    ],
+    [
+      291,
+      247,
+      435,
+      262
+    ],
+    [
+      446,
+      248,
+      470,
+      258
+    ],
+    [
+      66,
+      268,
+      126,
+      278
+    ],
+    [
+      66,
+      307,
+      130,
+      321
+    ],
+    [
+      146,
+      307,
+      195,
+      321
+    ],
+    [
+      210,
+      307,
+      273,
+      321
+    ],
+    [
+      290,
+      307,
+      353,
+      324
+    ],
+    [
+      66,
+      350,
+      115,
+      361
+    ],
+    [
+      126,
+      351,
+      175,
+      361
+    ],
+    [
+      186,
+      351,
+      295,
+      364
+    ],
+    [
+      306,
+      350,
+      450,
+      364
+    ],
+    [
+      461,
+      351,
+      485,
+      361
+    ],
+    [
+      66,
+      371,
+      126,
+      381
+    ],
+    [
+      66,
+      410,
+      243,
+      426
+    ],
+    [
+      500,
+      410,
+      548,
+      426
+    ],
+    [
+      673,
+      410,
+      753,
+      423
+    ],
+    [
+      803,
+      410,
+      883,
+      423
+    ],
+    [
+      66,
+      446,
+      150,
+      461
+    ],
+    [
+      161,
+      446,
+      281,
+      457
+    ],
+    [
+      293,
+      446,
+      341,
+      461
+    ],
+    [
+      353,
+      447,
+      390,
+      457
+    ],
+    [
+      400,
+      447,
+      483,
+      461
+    ],
+    [
+      66,
+      466,
+      115,
+      477
+    ],
+    [
+      126,
+      467,
+      175,
+      477
+    ],
+    [
+      500,
+      447,
+      511,
+      457
+    ],
+    [
+      673,
+      445,
+      756,
+      458
+    ],
+    [
+      803,
+      445,
+      886,
+      458
+    ],
+    [
+      66,
+      477,
+      210,
+      492
+    ],
+    [
+      221,
+      477,
+      330,
+      492
+    ],
+    [
+      500,
+      477,
+      523,
+      488
+    ],
+    [
+      673,
+      476,
+      756,
+      490
+    ],
+    [
+      803,
+      476,
+      900,
+      490
+    ],
+    [
+      66,
+      510,
+      198,
+      523
+    ],
+    [
+      210,
+      508,
+      270,
+      520
+    ],
+    [
+      281,
+      508,
+      353,
+      523
+    ],
+    [
+      365,
+      508,
+      461,
+      520
+    ],
+    [
+      66,
+      532,
+      138,
+      543
+    ],
+    [
+      150,
+      530,
+      198,
+      540
+    ],
+    [
+      500,
+      508,
+      511,
+      520
+    ],
+    [
+      673,
+      507,
+      756,
+      521
+    ],
+    [
+      803,
+      507,
+      886,
+      521
+    ],
+    [
+      66,
+      541,
+      138,
+      551
+    ],
+    [
+      150,
+      543,
+      186,
+      551
+    ],
+    [
+      196,
+      541,
+      233,
+      551
+    ],
+    [
+      243,
+      540,
+      315,
+      551
+    ],
+    [
+      326,
+      543,
+      398,
+      554
+    ],
+    [
+      500,
+      541,
+      511,
+      551
+    ],
+    [
+      673,
+      538,
+      756,
+      552
+    ],
+    [
+      803,
+      538,
+      900,
+      552
+    ],
+    [
+      586,
+      595,
+      730,
+      608
+    ],
+    [
+      746,
+      594,
+      875,
+      611
+    ],
+    [
+      586,
+      640,
+      650,
+      653
+    ],
+    [
+      666,
+      638,
+      778,
+      655
+    ],
+    [
+      586,
+      687,
+      718,
+      705
+    ],
+    [
+      586,
+      707,
+      763,
+      731
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 600,
+  "image_height": 900,
+  "layout_type": "receipt",
+  "total_words": 66,
+  "invoice_data": {
+    "invoice_number": "INV-32F6F519",
+    "invoice_date": "09/13/2024",
+    "vendor_name": "Keith-Byrd",
+    "vendor_address": "649 Marilyn Point, Watersmouth, FL 84436",
+    "customer_name": "Dana Long",
+    "customer_address": "1958 Jose Overpass, Hodgesmouth, SC 63722",
+    "line_items": [
+      {
+        "description": "Digital subscriber loop DSL captive offi 60sC",
+        "quantity": 3,
+        "unit_price": 283.9,
+        "unspsc_details": {
+          "segment_name": "Information Technology Broadcasting and Telecommunications",
+          "family_name": "Data Voice or Multimedia Network Equipment or Platforms and Accessories",
+          "class_name": "Digital subscriber loop DSL access equipment and components and accessories",
+          "commodity_name": "Digital subscriber loop DSL captive office plain old telephone system POTS splitter",
+          "segment_code": "43000000",
+          "family_code": "43220000",
+          "class_code": "43221600",
+          "commodity_code": "43221601"
+        }
+      },
+      {
+        "description": "Erythromycin phosphate",
+        "quantity": 10,
+        "unit_price": 437.51,
+        "unspsc_details": {
+          "segment_name": "Drugs and Pharmaceutical Products",
+          "family_name": "Antibacterials",
+          "class_name": "Erythromycins",
+          "commodity_name": "Erythromycin phosphate",
+          "segment_code": "51000000",
+          "family_code": "51280000",
+          "class_code": "51282300",
+          "commodity_code": "51282324"
+        }
+      },
+      {
+        "description": "Young-Owens Black beauty seedless grapes 36OV",
+        "quantity": 1,
+        "unit_price": 452.45,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Fresh fruits",
+          "class_name": "Table grapes",
+          "commodity_name": "Black beauty seedless grapes",
+          "segment_code": "50000000",
+          "family_code": "50300000",
+          "class_code": "50303400",
+          "commodity_code": "50303410"
+        }
+      },
+      {
+        "description": "Frozen non GMO merlot grapes",
+        "quantity": 4,
+        "unit_price": 486.71,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Frozen non GMO fruits",
+          "class_name": "Frozen non GMO wine grapes",
+          "commodity_name": "Frozen non GMO merlot grapes",
+          "segment_code": "50000000",
+          "family_code": "50540000",
+          "class_code": "50543600",
+          "commodity_code": "50543628"
+        }
+      }
+    ],
+    "subtotal": 7626.09,
+    "tax_amount": 533.83,
+    "total_amount": 8159.92
+  }
+}

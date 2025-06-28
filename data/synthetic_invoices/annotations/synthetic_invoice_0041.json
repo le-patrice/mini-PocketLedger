@@ -1,0 +1,552 @@
+{
+  "id": "synthetic_invoice_0041",
+  "image_filename": "synthetic_invoice_0041.png",
+  "words": [
+    "BILL",
+    "Invoice",
+    "No.:",
+    "INV-4487B434",
+    "Date:",
+    "09/25/2024",
+    "Vendor:",
+    "Kennedy,",
+    "Salazar",
+    "and",
+    "Walker",
+    "98404",
+    "Hill",
+    "Harbor,",
+    "Armstrongmouth,",
+    "OK",
+    "13350",
+    "Bill",
+    "To:",
+    "Noah",
+    "Nelson",
+    "PSC",
+    "4027,",
+    "Box",
+    "6471,",
+    "APO",
+    "AP",
+    "39489",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Goodwin,",
+    "Burges",
+    "Barlotti",
+    "bean",
+    "purees",
+    "5",
+    "$457.46",
+    "$2287.30",
+    "Dried",
+    "organic",
+    "benik",
+    "avocados",
+    "2",
+    "$262.16",
+    "$524.32",
+    "Tire",
+    "pressure",
+    "gauge",
+    "19ke",
+    "7",
+    "$389.19",
+    "$2724.33",
+    "Subtotal:",
+    "$5535.95",
+    "Tax:",
+    "$553.60",
+    "TOTAL:",
+    "$6089.55"
+  ],
+  "boxes": [
+    [
+      457,
+      63,
+      541,
+      81
+    ],
+    [
+      75,
+      109,
+      158,
+      120
+    ],
+    [
+      170,
+      109,
+      217,
+      120
+    ],
+    [
+      230,
+      109,
+      373,
+      120
+    ],
+    [
+      75,
+      147,
+      135,
+      158
+    ],
+    [
+      146,
+      147,
+      266,
+      159
+    ],
+    [
+      75,
+      213,
+      158,
+      224
+    ],
+    [
+      170,
+      213,
+      266,
+      227
+    ],
+    [
+      277,
+      213,
+      361,
+      224
+    ],
+    [
+      372,
+      213,
+      408,
+      224
+    ],
+    [
+      420,
+      213,
+      492,
+      224
+    ],
+    [
+      75,
+      253,
+      120,
+      261
+    ],
+    [
+      128,
+      252,
+      165,
+      261
+    ],
+    [
+      173,
+      252,
+      236,
+      264
+    ],
+    [
+      245,
+      252,
+      380,
+      264
+    ],
+    [
+      388,
+      253,
+      406,
+      261
+    ],
+    [
+      415,
+      252,
+      460,
+      261
+    ],
+    [
+      75,
+      298,
+      122,
+      309
+    ],
+    [
+      135,
+      298,
+      171,
+      309
+    ],
+    [
+      182,
+      298,
+      230,
+      309
+    ],
+    [
+      242,
+      298,
+      315,
+      309
+    ],
+    [
+      75,
+      335,
+      102,
+      343
+    ],
+    [
+      110,
+      335,
+      155,
+      346
+    ],
+    [
+      163,
+      335,
+      191,
+      343
+    ],
+    [
+      198,
+      334,
+      243,
+      346
+    ],
+    [
+      252,
+      335,
+      280,
+      343
+    ],
+    [
+      287,
+      335,
+      305,
+      343
+    ],
+    [
+      313,
+      335,
+      358,
+      343
+    ],
+    [
+      75,
+      380,
+      207,
+      393
+    ],
+    [
+      500,
+      380,
+      536,
+      393
+    ],
+    [
+      668,
+      380,
+      728,
+      390
+    ],
+    [
+      797,
+      380,
+      857,
+      390
+    ],
+    [
+      75,
+      410,
+      147,
+      421
+    ],
+    [
+      155,
+      410,
+      208,
+      421
+    ],
+    [
+      217,
+      410,
+      290,
+      419
+    ],
+    [
+      297,
+      410,
+      333,
+      419
+    ],
+    [
+      342,
+      412,
+      396,
+      421
+    ],
+    [
+      500,
+      410,
+      508,
+      419
+    ],
+    [
+      668,
+      409,
+      731,
+      420
+    ],
+    [
+      797,
+      409,
+      870,
+      420
+    ],
+    [
+      75,
+      440,
+      120,
+      449
+    ],
+    [
+      128,
+      440,
+      191,
+      451
+    ],
+    [
+      200,
+      440,
+      245,
+      449
+    ],
+    [
+      253,
+      440,
+      326,
+      449
+    ],
+    [
+      500,
+      440,
+      508,
+      449
+    ],
+    [
+      668,
+      439,
+      731,
+      450
+    ],
+    [
+      797,
+      439,
+      860,
+      450
+    ],
+    [
+      75,
+      470,
+      111,
+      479
+    ],
+    [
+      120,
+      472,
+      192,
+      481
+    ],
+    [
+      200,
+      472,
+      245,
+      481
+    ],
+    [
+      253,
+      470,
+      290,
+      479
+    ],
+    [
+      500,
+      470,
+      508,
+      479
+    ],
+    [
+      668,
+      469,
+      731,
+      480
+    ],
+    [
+      797,
+      469,
+      870,
+      480
+    ],
+    [
+      585,
+      529,
+      692,
+      540
+    ],
+    [
+      705,
+      528,
+      801,
+      541
+    ],
+    [
+      585,
+      570,
+      632,
+      580
+    ],
+    [
+      645,
+      569,
+      728,
+      582
+    ],
+    [
+      585,
+      613,
+      683,
+      628
+    ],
+    [
+      700,
+      610,
+      832,
+      630
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    0,
+    0,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 800,
+  "image_height": 1100,
+  "layout_type": "standard",
+  "total_words": 60,
+  "invoice_data": {
+    "invoice_number": "INV-4487B434",
+    "invoice_date": "09/25/2024",
+    "vendor_name": "Kennedy, Salazar and Walker",
+    "vendor_address": "98404 Hill Harbor, Armstrongmouth, OK 13350",
+    "customer_name": "Noah Nelson",
+    "customer_address": "PSC 4027, Box 6471, APO AP 39489",
+    "line_items": [
+      {
+        "description": "Goodwin, Burges Barlotti bean purees",
+        "quantity": 5,
+        "unit_price": 457.46,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Fresh vegetable purees",
+          "class_name": "Bean purees",
+          "commodity_name": "Barlotti bean purees",
+          "segment_code": "50000000",
+          "family_code": "50480000",
+          "class_code": "50481900",
+          "commodity_code": "50481904"
+        }
+      },
+      {
+        "description": "Dried organic benik avocados",
+        "quantity": 2,
+        "unit_price": 262.16,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Dried organic vegetables",
+          "class_name": "Dried organic avocados",
+          "commodity_name": "Dried organic benik avocados",
+          "segment_code": "50000000",
+          "family_code": "50430000",
+          "class_code": "50431700",
+          "commodity_code": "50431704"
+        }
+      },
+      {
+        "description": "Tire pressure gauge 19ke",
+        "quantity": 7,
+        "unit_price": 389.19,
+        "unspsc_details": {
+          "segment_name": "Commercial and Military and Private Vehicles and their Accessories and Components",
+          "family_name": "Transportation services equipment",
+          "class_name": "Vehicle testing and measuring equipment",
+          "commodity_name": "Tire pressure gauge",
+          "segment_code": "25000000",
+          "family_code": "25190000",
+          "class_code": "25191800",
+          "commodity_code": "25191835"
+        }
+      }
+    ],
+    "subtotal": 5535.95,
+    "tax_amount": 553.6,
+    "total_amount": 6089.55
+  }
+}

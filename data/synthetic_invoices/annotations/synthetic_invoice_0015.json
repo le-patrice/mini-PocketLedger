@@ -1,0 +1,607 @@
+{
+  "id": "synthetic_invoice_0015",
+  "image_filename": "synthetic_invoice_0015.png",
+  "words": [
+    "INVOICE",
+    "Invoice",
+    "No.:",
+    "INV-78D91DAF",
+    "Date:",
+    "11/04/2024",
+    "Vendor:",
+    "Mendez-Gomez",
+    "7389",
+    "Aaron",
+    "Prairie,",
+    "Fernandezland,",
+    "NC",
+    "96540",
+    "Bill",
+    "To:",
+    "Jessica",
+    "Berry",
+    "360",
+    "Davis",
+    "Row,",
+    "Lake",
+    "Susanville,",
+    "PR",
+    "26315",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Organic",
+    "sugar",
+    "beets",
+    "83jH",
+    "7",
+    "$287.19",
+    "$2010.33",
+    "Miller",
+    "PLC",
+    "Organic",
+    "calabaza",
+    "squash",
+    "purees",
+    "00xo",
+    "9",
+    "$347.96",
+    "$3131.64",
+    "Electro",
+    "coating",
+    "services",
+    "10",
+    "$247.37",
+    "$2473.70",
+    "Cary",
+    "mac",
+    "peach",
+    "purees",
+    "10",
+    "$471.24",
+    "$4712.40",
+    "Subtotal:",
+    "$12328.07",
+    "Tax:",
+    "$862.96",
+    "TOTAL:",
+    "$13191.03"
+  ],
+  "boxes": [
+    [
+      426,
+      63,
+      573,
+      81
+    ],
+    [
+      75,
+      109,
+      158,
+      120
+    ],
+    [
+      170,
+      109,
+      217,
+      120
+    ],
+    [
+      230,
+      109,
+      373,
+      120
+    ],
+    [
+      75,
+      147,
+      135,
+      158
+    ],
+    [
+      146,
+      147,
+      266,
+      159
+    ],
+    [
+      75,
+      213,
+      158,
+      224
+    ],
+    [
+      170,
+      213,
+      313,
+      224
+    ],
+    [
+      75,
+      250,
+      111,
+      259
+    ],
+    [
+      120,
+      250,
+      165,
+      259
+    ],
+    [
+      173,
+      250,
+      246,
+      261
+    ],
+    [
+      253,
+      250,
+      380,
+      261
+    ],
+    [
+      388,
+      250,
+      406,
+      259
+    ],
+    [
+      415,
+      250,
+      460,
+      259
+    ],
+    [
+      75,
+      295,
+      122,
+      306
+    ],
+    [
+      135,
+      295,
+      171,
+      306
+    ],
+    [
+      182,
+      295,
+      266,
+      306
+    ],
+    [
+      277,
+      295,
+      337,
+      309
+    ],
+    [
+      75,
+      335,
+      102,
+      343
+    ],
+    [
+      110,
+      335,
+      155,
+      343
+    ],
+    [
+      163,
+      335,
+      200,
+      346
+    ],
+    [
+      208,
+      334,
+      245,
+      343
+    ],
+    [
+      253,
+      334,
+      352,
+      346
+    ],
+    [
+      361,
+      335,
+      378,
+      343
+    ],
+    [
+      387,
+      334,
+      432,
+      343
+    ],
+    [
+      75,
+      380,
+      207,
+      393
+    ],
+    [
+      500,
+      380,
+      536,
+      393
+    ],
+    [
+      668,
+      380,
+      728,
+      390
+    ],
+    [
+      797,
+      380,
+      857,
+      390
+    ],
+    [
+      75,
+      410,
+      137,
+      421
+    ],
+    [
+      146,
+      412,
+      191,
+      421
+    ],
+    [
+      200,
+      410,
+      245,
+      419
+    ],
+    [
+      253,
+      410,
+      290,
+      421
+    ],
+    [
+      500,
+      410,
+      508,
+      419
+    ],
+    [
+      668,
+      409,
+      731,
+      420
+    ],
+    [
+      797,
+      409,
+      870,
+      420
+    ],
+    [
+      75,
+      440,
+      128,
+      449
+    ],
+    [
+      137,
+      440,
+      165,
+      449
+    ],
+    [
+      172,
+      440,
+      235,
+      451
+    ],
+    [
+      243,
+      440,
+      316,
+      449
+    ],
+    [
+      323,
+      440,
+      377,
+      451
+    ],
+    [
+      386,
+      442,
+      440,
+      451
+    ],
+    [
+      448,
+      440,
+      485,
+      449
+    ],
+    [
+      500,
+      440,
+      508,
+      449
+    ],
+    [
+      668,
+      439,
+      731,
+      450
+    ],
+    [
+      797,
+      439,
+      870,
+      450
+    ],
+    [
+      75,
+      470,
+      137,
+      479
+    ],
+    [
+      146,
+      470,
+      208,
+      481
+    ],
+    [
+      217,
+      470,
+      290,
+      479
+    ],
+    [
+      500,
+      470,
+      517,
+      479
+    ],
+    [
+      668,
+      469,
+      731,
+      480
+    ],
+    [
+      797,
+      469,
+      870,
+      480
+    ],
+    [
+      75,
+      500,
+      111,
+      511
+    ],
+    [
+      120,
+      502,
+      147,
+      509
+    ],
+    [
+      155,
+      500,
+      200,
+      511
+    ],
+    [
+      208,
+      502,
+      262,
+      511
+    ],
+    [
+      500,
+      500,
+      517,
+      509
+    ],
+    [
+      668,
+      499,
+      731,
+      510
+    ],
+    [
+      797,
+      499,
+      870,
+      510
+    ],
+    [
+      585,
+      559,
+      692,
+      570
+    ],
+    [
+      705,
+      558,
+      812,
+      571
+    ],
+    [
+      585,
+      600,
+      632,
+      610
+    ],
+    [
+      645,
+      599,
+      728,
+      612
+    ],
+    [
+      585,
+      643,
+      683,
+      658
+    ],
+    [
+      700,
+      640,
+      848,
+      660
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 800,
+  "image_height": 1100,
+  "layout_type": "standard",
+  "total_words": 65,
+  "invoice_data": {
+    "invoice_number": "INV-78D91DAF",
+    "invoice_date": "11/04/2024",
+    "vendor_name": "Mendez-Gomez",
+    "vendor_address": "7389 Aaron Prairie, Fernandezland, NC 96540",
+    "customer_name": "Jessica Berry",
+    "customer_address": "360 Davis Row, Lake Susanville, PR 26315",
+    "line_items": [
+      {
+        "description": "Organic sugar beets 83jH",
+        "quantity": 7,
+        "unit_price": 287.19,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Organic fresh vegetables",
+          "class_name": "Organic beets",
+          "commodity_name": "Organic sugar beets",
+          "segment_code": "50000000",
+          "family_code": "50410000",
+          "class_code": "50411900",
+          "commodity_code": "50411922"
+        }
+      },
+      {
+        "description": "Miller PLC Organic calabaza squash purees 00xo",
+        "quantity": 9,
+        "unit_price": 347.96,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Organic fresh vegetable purees",
+          "class_name": "Organic winter squash and winter pumpkin purees",
+          "commodity_name": "Organic calabaza squash purees",
+          "segment_code": "50000000",
+          "family_code": "50490000",
+          "class_code": "50496500",
+          "commodity_code": "50496505"
+        }
+      },
+      {
+        "description": "Electro coating services",
+        "quantity": 10,
+        "unit_price": 247.37,
+        "unspsc_details": {
+          "segment_name": "Industrial Production and Manufacturing Services",
+          "family_name": "Machining and processing services",
+          "class_name": "Coating services",
+          "commodity_name": "Electro coating services",
+          "segment_code": "73000000",
+          "family_code": "73180000",
+          "class_code": "73181100",
+          "commodity_code": "73181101"
+        }
+      },
+      {
+        "description": "Cary mac peach purees",
+        "quantity": 10,
+        "unit_price": 471.24,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Fresh fruit purees",
+          "class_name": "Peach purees",
+          "commodity_name": "Cary mac peach purees",
+          "segment_code": "50000000",
+          "family_code": "50380000",
+          "class_code": "50385800",
+          "commodity_code": "50385808"
+        }
+      }
+    ],
+    "subtotal": 12328.07,
+    "tax_amount": 862.96,
+    "total_amount": 13191.03
+  }
+}

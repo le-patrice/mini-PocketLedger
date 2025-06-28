@@ -1,0 +1,655 @@
+{
+  "id": "synthetic_invoice_0090",
+  "image_filename": "synthetic_invoice_0090.png",
+  "words": [
+    "RECEIPT",
+    "Invoice",
+    "No.:",
+    "INV-CCFCB16B",
+    "Date:",
+    "09/29/2024",
+    "Vendor:",
+    "Bowman",
+    "and",
+    "Sons",
+    "82088",
+    "Marissa",
+    "Expressway,",
+    "Ingramhaven,",
+    "MP",
+    "33056",
+    "Bill",
+    "To:",
+    "Teresa",
+    "Johnson",
+    "288",
+    "Joseph",
+    "Land",
+    "Suite",
+    "117,",
+    "New",
+    "Jose,",
+    "MT",
+    "20310",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Non",
+    "GMO",
+    "guajillo",
+    "peppers",
+    "11ev",
+    "3",
+    "$124.78",
+    "$374.34",
+    "Harris",
+    "Ltd",
+    "Finger",
+    "joint",
+    "implant",
+    "2",
+    "$424.29",
+    "$848.58",
+    "Fresh",
+    "cut",
+    "hot",
+    "pink",
+    "zinnia",
+    "29vr",
+    "1",
+    "$164.63",
+    "$164.63",
+    "Live",
+    "globemaster",
+    "allium",
+    "00ix",
+    "6",
+    "$477.34",
+    "$2864.04",
+    "Subtotal:",
+    "$4251.59",
+    "Tax:",
+    "$212.58",
+    "TOTAL:",
+    "$4464.17"
+  ],
+  "boxes": [
+    [
+      426,
+      63,
+      573,
+      81
+    ],
+    [
+      75,
+      109,
+      158,
+      120
+    ],
+    [
+      170,
+      109,
+      217,
+      120
+    ],
+    [
+      230,
+      109,
+      373,
+      120
+    ],
+    [
+      75,
+      147,
+      135,
+      158
+    ],
+    [
+      146,
+      147,
+      266,
+      159
+    ],
+    [
+      75,
+      213,
+      158,
+      224
+    ],
+    [
+      170,
+      213,
+      242,
+      224
+    ],
+    [
+      253,
+      213,
+      290,
+      224
+    ],
+    [
+      301,
+      213,
+      348,
+      224
+    ],
+    [
+      75,
+      250,
+      120,
+      259
+    ],
+    [
+      128,
+      250,
+      191,
+      259
+    ],
+    [
+      200,
+      250,
+      298,
+      261
+    ],
+    [
+      307,
+      250,
+      415,
+      261
+    ],
+    [
+      423,
+      250,
+      441,
+      259
+    ],
+    [
+      450,
+      250,
+      495,
+      259
+    ],
+    [
+      75,
+      295,
+      122,
+      306
+    ],
+    [
+      135,
+      295,
+      171,
+      306
+    ],
+    [
+      182,
+      295,
+      255,
+      306
+    ],
+    [
+      266,
+      295,
+      350,
+      306
+    ],
+    [
+      75,
+      332,
+      102,
+      340
+    ],
+    [
+      110,
+      331,
+      163,
+      343
+    ],
+    [
+      172,
+      331,
+      208,
+      340
+    ],
+    [
+      217,
+      332,
+      262,
+      340
+    ],
+    [
+      271,
+      331,
+      307,
+      343
+    ],
+    [
+      316,
+      332,
+      343,
+      340
+    ],
+    [
+      351,
+      332,
+      396,
+      343
+    ],
+    [
+      405,
+      332,
+      422,
+      340
+    ],
+    [
+      431,
+      331,
+      476,
+      340
+    ],
+    [
+      75,
+      377,
+      207,
+      390
+    ],
+    [
+      500,
+      377,
+      536,
+      390
+    ],
+    [
+      668,
+      377,
+      728,
+      388
+    ],
+    [
+      797,
+      377,
+      857,
+      388
+    ],
+    [
+      75,
+      408,
+      102,
+      416
+    ],
+    [
+      110,
+      408,
+      137,
+      416
+    ],
+    [
+      145,
+      407,
+      217,
+      419
+    ],
+    [
+      225,
+      410,
+      287,
+      419
+    ],
+    [
+      296,
+      407,
+      332,
+      416
+    ],
+    [
+      500,
+      408,
+      508,
+      416
+    ],
+    [
+      668,
+      406,
+      731,
+      417
+    ],
+    [
+      797,
+      406,
+      860,
+      417
+    ],
+    [
+      75,
+      438,
+      128,
+      446
+    ],
+    [
+      137,
+      437,
+      165,
+      446
+    ],
+    [
+      172,
+      438,
+      226,
+      449
+    ],
+    [
+      235,
+      438,
+      280,
+      449
+    ],
+    [
+      288,
+      437,
+      351,
+      449
+    ],
+    [
+      500,
+      438,
+      508,
+      446
+    ],
+    [
+      668,
+      436,
+      731,
+      447
+    ],
+    [
+      797,
+      436,
+      860,
+      447
+    ],
+    [
+      75,
+      467,
+      120,
+      476
+    ],
+    [
+      128,
+      468,
+      156,
+      476
+    ],
+    [
+      163,
+      467,
+      191,
+      476
+    ],
+    [
+      198,
+      467,
+      235,
+      479
+    ],
+    [
+      243,
+      468,
+      297,
+      476
+    ],
+    [
+      306,
+      468,
+      342,
+      476
+    ],
+    [
+      500,
+      467,
+      508,
+      476
+    ],
+    [
+      668,
+      466,
+      731,
+      477
+    ],
+    [
+      797,
+      466,
+      860,
+      477
+    ],
+    [
+      75,
+      498,
+      111,
+      506
+    ],
+    [
+      120,
+      497,
+      218,
+      509
+    ],
+    [
+      227,
+      497,
+      281,
+      506
+    ],
+    [
+      290,
+      498,
+      326,
+      506
+    ],
+    [
+      500,
+      498,
+      508,
+      506
+    ],
+    [
+      668,
+      496,
+      731,
+      507
+    ],
+    [
+      797,
+      496,
+      870,
+      507
+    ],
+    [
+      585,
+      556,
+      692,
+      567
+    ],
+    [
+      705,
+      555,
+      801,
+      569
+    ],
+    [
+      585,
+      597,
+      632,
+      608
+    ],
+    [
+      645,
+      596,
+      728,
+      610
+    ],
+    [
+      585,
+      640,
+      683,
+      655
+    ],
+    [
+      700,
+      638,
+      832,
+      657
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    0,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 800,
+  "image_height": 1100,
+  "layout_type": "standard",
+  "total_words": 71,
+  "invoice_data": {
+    "invoice_number": "INV-CCFCB16B",
+    "invoice_date": "09/29/2024",
+    "vendor_name": "Bowman and Sons",
+    "vendor_address": "82088 Marissa Expressway, Ingramhaven, MP 33056",
+    "customer_name": "Teresa Johnson",
+    "customer_address": "288 Joseph Land Suite 117, New Jose, MT 20310",
+    "line_items": [
+      {
+        "description": "Non GMO guajillo peppers 11ev",
+        "quantity": 3,
+        "unit_price": 124.78,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Non GMO fresh vegetables",
+          "class_name": "Non GMO peppers",
+          "commodity_name": "Non GMO guajillo peppers",
+          "segment_code": "50000000",
+          "family_code": "50580000",
+          "class_code": "50585400",
+          "commodity_code": "50585421"
+        }
+      },
+      {
+        "description": "Harris Ltd Finger joint implant",
+        "quantity": 2,
+        "unit_price": 424.29,
+        "unspsc_details": {
+          "segment_name": "Medical Equipment and Accessories and Supplies",
+          "family_name": "Orthopedic surgical implants",
+          "class_name": "Distal joint orthopedic implants",
+          "commodity_name": "Finger joint implant",
+          "segment_code": "42000000",
+          "family_code": "42320000",
+          "class_code": "42322000",
+          "commodity_code": "42322004"
+        }
+      },
+      {
+        "description": "Fresh cut hot pink zinnia 29vr",
+        "quantity": 1,
+        "unit_price": 164.63,
+        "unspsc_details": {
+          "segment_name": "Live Plant and Animal Material and Accessories and Supplies",
+          "family_name": "Fresh cut blooms of high species or variety count flowers",
+          "class_name": "Fresh cut zinnias",
+          "commodity_name": "Fresh cut hot pink zinnia",
+          "segment_code": "10000000",
+          "family_code": "10310000",
+          "class_code": "10317600",
+          "commodity_code": "10317601"
+        }
+      },
+      {
+        "description": "Live globemaster allium 00ix",
+        "quantity": 6,
+        "unit_price": 477.34,
+        "unspsc_details": {
+          "segment_name": "Live Plant and Animal Material and Accessories and Supplies",
+          "family_name": "Live plants of high species or variety count flowers",
+          "class_name": "Live alliums",
+          "commodity_name": "Live globemaster allium",
+          "segment_code": "10000000",
+          "family_code": "10210000",
+          "class_code": "10211600",
+          "commodity_code": "10211608"
+        }
+      }
+    ],
+    "subtotal": 4251.59,
+    "tax_amount": 212.58,
+    "total_amount": 4464.17
+  }
+}

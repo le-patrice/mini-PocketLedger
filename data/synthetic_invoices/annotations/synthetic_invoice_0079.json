@@ -1,0 +1,544 @@
+{
+  "id": "synthetic_invoice_0079",
+  "image_filename": "synthetic_invoice_0079.png",
+  "words": [
+    "BILL",
+    "Invoice",
+    "No.:",
+    "INV-7CFC0984",
+    "Date:",
+    "06/11/2025",
+    "Vendor:",
+    "Tran-Miller",
+    "127",
+    "Andrew",
+    "Loaf",
+    "Apt.",
+    "031,",
+    "Hollandfort,",
+    "UT",
+    "71202",
+    "Bill",
+    "To:",
+    "Denise",
+    "Hughes",
+    "0397",
+    "Ryan",
+    "Ferry",
+    "Suite",
+    "584,",
+    "Brittanyfurt,",
+    "AZ",
+    "95502",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Chen-Pierce",
+    "Olanzapine",
+    "pamoate",
+    "7",
+    "$339.84",
+    "$2378.88",
+    "Organic",
+    "korean",
+    "melon",
+    "purees",
+    "1",
+    "$318.31",
+    "$318.31",
+    "Shaw-Bruce",
+    "Aldesulfone",
+    "sodium",
+    "or",
+    "sulfoxone",
+    "9",
+    "$138.09",
+    "$1242.81",
+    "Subtotal:",
+    "$3940.00",
+    "Tax:",
+    "$394.00",
+    "TOTAL:",
+    "$4334.00"
+  ],
+  "boxes": [
+    [
+      443,
+      55,
+      555,
+      77
+    ],
+    [
+      66,
+      100,
+      178,
+      113
+    ],
+    [
+      193,
+      100,
+      256,
+      113
+    ],
+    [
+      273,
+      100,
+      465,
+      113
+    ],
+    [
+      66,
+      141,
+      146,
+      154
+    ],
+    [
+      161,
+      141,
+      321,
+      155
+    ],
+    [
+      66,
+      205,
+      178,
+      218
+    ],
+    [
+      193,
+      205,
+      370,
+      218
+    ],
+    [
+      66,
+      244,
+      103,
+      255
+    ],
+    [
+      113,
+      244,
+      185,
+      255
+    ],
+    [
+      196,
+      244,
+      245,
+      255
+    ],
+    [
+      256,
+      245,
+      305,
+      258
+    ],
+    [
+      316,
+      244,
+      365,
+      258
+    ],
+    [
+      66,
+      264,
+      210,
+      278
+    ],
+    [
+      221,
+      265,
+      245,
+      275
+    ],
+    [
+      256,
+      264,
+      316,
+      275
+    ],
+    [
+      66,
+      308,
+      130,
+      322
+    ],
+    [
+      146,
+      308,
+      195,
+      322
+    ],
+    [
+      210,
+      308,
+      306,
+      322
+    ],
+    [
+      321,
+      308,
+      418,
+      325
+    ],
+    [
+      66,
+      352,
+      115,
+      362
+    ],
+    [
+      126,
+      352,
+      175,
+      365
+    ],
+    [
+      186,
+      352,
+      246,
+      365
+    ],
+    [
+      258,
+      352,
+      318,
+      362
+    ],
+    [
+      330,
+      352,
+      378,
+      365
+    ],
+    [
+      66,
+      370,
+      223,
+      384
+    ],
+    [
+      233,
+      371,
+      256,
+      381
+    ],
+    [
+      268,
+      371,
+      328,
+      381
+    ],
+    [
+      66,
+      414,
+      243,
+      431
+    ],
+    [
+      500,
+      414,
+      548,
+      431
+    ],
+    [
+      673,
+      414,
+      753,
+      427
+    ],
+    [
+      803,
+      414,
+      883,
+      427
+    ],
+    [
+      66,
+      451,
+      198,
+      462
+    ],
+    [
+      210,
+      451,
+      330,
+      465
+    ],
+    [
+      341,
+      452,
+      425,
+      465
+    ],
+    [
+      500,
+      452,
+      511,
+      462
+    ],
+    [
+      673,
+      450,
+      756,
+      463
+    ],
+    [
+      803,
+      450,
+      900,
+      463
+    ],
+    [
+      66,
+      483,
+      150,
+      496
+    ],
+    [
+      161,
+      482,
+      233,
+      493
+    ],
+    [
+      245,
+      482,
+      305,
+      493
+    ],
+    [
+      316,
+      485,
+      388,
+      496
+    ],
+    [
+      500,
+      482,
+      511,
+      493
+    ],
+    [
+      673,
+      481,
+      756,
+      494
+    ],
+    [
+      803,
+      481,
+      886,
+      494
+    ],
+    [
+      66,
+      513,
+      186,
+      524
+    ],
+    [
+      198,
+      513,
+      330,
+      524
+    ],
+    [
+      341,
+      513,
+      413,
+      524
+    ],
+    [
+      425,
+      516,
+      448,
+      524
+    ],
+    [
+      66,
+      530,
+      175,
+      541
+    ],
+    [
+      500,
+      514,
+      511,
+      524
+    ],
+    [
+      673,
+      512,
+      756,
+      525
+    ],
+    [
+      803,
+      512,
+      900,
+      525
+    ],
+    [
+      586,
+      568,
+      730,
+      582
+    ],
+    [
+      746,
+      567,
+      875,
+      584
+    ],
+    [
+      586,
+      613,
+      650,
+      626
+    ],
+    [
+      666,
+      612,
+      778,
+      628
+    ],
+    [
+      586,
+      661,
+      718,
+      678
+    ],
+    [
+      586,
+      681,
+      763,
+      704
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 600,
+  "image_height": 900,
+  "layout_type": "receipt",
+  "total_words": 59,
+  "invoice_data": {
+    "invoice_number": "INV-7CFC0984",
+    "invoice_date": "06/11/2025",
+    "vendor_name": "Tran-Miller",
+    "vendor_address": "127 Andrew Loaf Apt. 031, Hollandfort, UT 71202",
+    "customer_name": "Denise Hughes",
+    "customer_address": "0397 Ryan Ferry Suite 584, Brittanyfurt, AZ 95502",
+    "line_items": [
+      {
+        "description": "Chen-Pierce Olanzapine pamoate",
+        "quantity": 7,
+        "unit_price": 339.84,
+        "unspsc_details": {
+          "segment_name": "Drugs and Pharmaceutical Products",
+          "family_name": "Tranquilizers and antimanic and antianxiety drugs",
+          "class_name": "Tranquilizers and antimanic and antianxiety amines and anthracenes and barbiturates and benzazepines and dipeptides",
+          "commodity_name": "Olanzapine pamoate",
+          "segment_code": "51000000",
+          "family_code": "51400000",
+          "class_code": "51401700",
+          "commodity_code": "51401710"
+        }
+      },
+      {
+        "description": "Organic korean melon purees",
+        "quantity": 1,
+        "unit_price": 318.31,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Organic fresh fruit purees",
+          "class_name": "Organic melon purees",
+          "commodity_name": "Organic korean melon purees",
+          "segment_code": "50000000",
+          "family_code": "50390000",
+          "class_code": "50394700",
+          "commodity_code": "50394728"
+        }
+      },
+      {
+        "description": "Shaw-Bruce Aldesulfone sodium or sulfoxone",
+        "quantity": 9,
+        "unit_price": 138.09,
+        "unspsc_details": {
+          "segment_name": "Drugs and Pharmaceutical Products",
+          "family_name": "Antibacterials",
+          "class_name": "Sulfonamide antibacterials",
+          "commodity_name": "Aldesulfone sodium or sulfoxone",
+          "segment_code": "51000000",
+          "family_code": "51280000",
+          "class_code": "51283900",
+          "commodity_code": "51283933"
+        }
+      }
+    ],
+    "subtotal": 3939.9999999999995,
+    "tax_amount": 394.0,
+    "total_amount": 4334.0
+  }
+}

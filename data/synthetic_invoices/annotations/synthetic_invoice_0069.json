@@ -1,0 +1,584 @@
+{
+  "id": "synthetic_invoice_0069",
+  "image_filename": "synthetic_invoice_0069.png",
+  "words": [
+    "BILL",
+    "Invoice",
+    "No.:",
+    "INV-2897D82D",
+    "Date:",
+    "02/24/2025",
+    "Vendor:",
+    "Key-Johnson",
+    "916",
+    "Fox",
+    "Shoal,",
+    "Nicholasview,",
+    "PR",
+    "87027",
+    "Bill",
+    "To:",
+    "Katie",
+    "Everett",
+    "352",
+    "Tiffany",
+    "Loop",
+    "Apt.",
+    "540,",
+    "North",
+    "Andrew,",
+    "KY",
+    "21035",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Organic",
+    "early",
+    "prolific",
+    "straight",
+    "neck",
+    "squ",
+    "3",
+    "$223.33",
+    "$669.99",
+    "Organic",
+    "zio",
+    "p",
+    "avocado",
+    "purees",
+    "29Yy",
+    "2",
+    "$284.53",
+    "$569.06",
+    "Harris",
+    "and",
+    "Sons",
+    "Doxapram",
+    "hydrochloride",
+    "anhydrous",
+    "9",
+    "$239.76",
+    "$2157.84",
+    "Subtotal:",
+    "$3396.89",
+    "Tax:",
+    "$237.78",
+    "TOTAL:",
+    "$3634.67"
+  ],
+  "boxes": [
+    [
+      454,
+      60,
+      544,
+      80
+    ],
+    [
+      66,
+      105,
+      156,
+      117
+    ],
+    [
+      168,
+      105,
+      218,
+      117
+    ],
+    [
+      232,
+      105,
+      385,
+      117
+    ],
+    [
+      66,
+      144,
+      130,
+      156
+    ],
+    [
+      142,
+      144,
+      270,
+      157
+    ],
+    [
+      66,
+      209,
+      156,
+      221
+    ],
+    [
+      168,
+      209,
+      309,
+      224
+    ],
+    [
+      66,
+      249,
+      96,
+      259
+    ],
+    [
+      104,
+      250,
+      133,
+      259
+    ],
+    [
+      141,
+      249,
+      198,
+      262
+    ],
+    [
+      208,
+      249,
+      333,
+      262
+    ],
+    [
+      341,
+      250,
+      360,
+      259
+    ],
+    [
+      369,
+      250,
+      417,
+      259
+    ],
+    [
+      66,
+      294,
+      117,
+      306
+    ],
+    [
+      130,
+      294,
+      169,
+      306
+    ],
+    [
+      181,
+      294,
+      245,
+      306
+    ],
+    [
+      257,
+      294,
+      346,
+      306
+    ],
+    [
+      66,
+      332,
+      96,
+      341
+    ],
+    [
+      104,
+      331,
+      170,
+      344
+    ],
+    [
+      180,
+      332,
+      218,
+      344
+    ],
+    [
+      228,
+      332,
+      266,
+      344
+    ],
+    [
+      276,
+      332,
+      314,
+      344
+    ],
+    [
+      324,
+      331,
+      372,
+      341
+    ],
+    [
+      381,
+      331,
+      448,
+      344
+    ],
+    [
+      457,
+      332,
+      476,
+      341
+    ],
+    [
+      66,
+      349,
+      114,
+      359
+    ],
+    [
+      66,
+      391,
+      208,
+      406
+    ],
+    [
+      500,
+      391,
+      538,
+      406
+    ],
+    [
+      672,
+      391,
+      736,
+      403
+    ],
+    [
+      802,
+      391,
+      866,
+      403
+    ],
+    [
+      66,
+      425,
+      133,
+      437
+    ],
+    [
+      142,
+      424,
+      190,
+      437
+    ],
+    [
+      200,
+      424,
+      277,
+      437
+    ],
+    [
+      285,
+      424,
+      362,
+      437
+    ],
+    [
+      370,
+      424,
+      409,
+      434
+    ],
+    [
+      418,
+      427,
+      448,
+      437
+    ],
+    [
+      500,
+      425,
+      509,
+      434
+    ],
+    [
+      672,
+      423,
+      738,
+      435
+    ],
+    [
+      802,
+      423,
+      869,
+      435
+    ],
+    [
+      66,
+      455,
+      133,
+      467
+    ],
+    [
+      142,
+      455,
+      172,
+      464
+    ],
+    [
+      180,
+      457,
+      189,
+      467
+    ],
+    [
+      198,
+      454,
+      265,
+      464
+    ],
+    [
+      274,
+      457,
+      332,
+      467
+    ],
+    [
+      341,
+      455,
+      380,
+      467
+    ],
+    [
+      500,
+      455,
+      509,
+      464
+    ],
+    [
+      672,
+      453,
+      738,
+      465
+    ],
+    [
+      802,
+      453,
+      869,
+      465
+    ],
+    [
+      66,
+      485,
+      124,
+      494
+    ],
+    [
+      133,
+      484,
+      162,
+      494
+    ],
+    [
+      170,
+      485,
+      209,
+      494
+    ],
+    [
+      218,
+      485,
+      296,
+      497
+    ],
+    [
+      304,
+      484,
+      429,
+      497
+    ],
+    [
+      66,
+      502,
+      153,
+      515
+    ],
+    [
+      500,
+      485,
+      509,
+      494
+    ],
+    [
+      672,
+      483,
+      738,
+      495
+    ],
+    [
+      802,
+      483,
+      880,
+      495
+    ],
+    [
+      586,
+      541,
+      701,
+      553
+    ],
+    [
+      714,
+      540,
+      817,
+      555
+    ],
+    [
+      586,
+      583,
+      637,
+      595
+    ],
+    [
+      650,
+      582,
+      740,
+      597
+    ],
+    [
+      586,
+      628,
+      692,
+      644
+    ],
+    [
+      709,
+      625,
+      850,
+      646
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 750,
+  "image_height": 1000,
+  "layout_type": "compact",
+  "total_words": 64,
+  "invoice_data": {
+    "invoice_number": "INV-2897D82D",
+    "invoice_date": "02/24/2025",
+    "vendor_name": "Key-Johnson",
+    "vendor_address": "916 Fox Shoal, Nicholasview, PR 87027",
+    "customer_name": "Katie Everett",
+    "customer_address": "352 Tiffany Loop Apt. 540, North Andrew, KY 21035",
+    "line_items": [
+      {
+        "description": "Organic early prolific straight neck squ",
+        "quantity": 3,
+        "unit_price": 223.33,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Organic fresh vegetables",
+          "class_name": "Organic summer squashes and summer pumpkins",
+          "commodity_name": "Organic early prolific straight neck squash",
+          "segment_code": "50000000",
+          "family_code": "50410000",
+          "class_code": "50416200",
+          "commodity_code": "50416209"
+        }
+      },
+      {
+        "description": "Organic zio p avocado purees 29Yy",
+        "quantity": 2,
+        "unit_price": 284.53,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Organic fresh vegetable purees",
+          "class_name": "Organic avocado purees",
+          "commodity_name": "Organic zio p avocado purees",
+          "segment_code": "50000000",
+          "family_code": "50490000",
+          "class_code": "50491700",
+          "commodity_code": "50491780"
+        }
+      },
+      {
+        "description": "Harris and Sons Doxapram hydrochloride anhydrous",
+        "quantity": 9,
+        "unit_price": 239.76,
+        "unspsc_details": {
+          "segment_name": "Drugs and Pharmaceutical Products",
+          "family_name": "Drugs affecting the respiratory tract",
+          "class_name": "Drugs used for respiratory tract disorders",
+          "commodity_name": "Doxapram hydrochloride anhydrous",
+          "segment_code": "51000000",
+          "family_code": "51160000",
+          "class_code": "51161700",
+          "commodity_code": "51161728"
+        }
+      }
+    ],
+    "subtotal": 3396.8900000000003,
+    "tax_amount": 237.78,
+    "total_amount": 3634.67
+  }
+}

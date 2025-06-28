@@ -1,0 +1,512 @@
+{
+  "id": "synthetic_invoice_0053",
+  "image_filename": "synthetic_invoice_0053.png",
+  "words": [
+    "RECEIPT",
+    "Invoice",
+    "No.:",
+    "INV-D8F60BBD",
+    "Date:",
+    "05/06/2025",
+    "Vendor:",
+    "Holmes",
+    "Ltd",
+    "66337",
+    "Herrera",
+    "Pike,",
+    "Keithberg,",
+    "MA",
+    "46503",
+    "Bill",
+    "To:",
+    "Laura",
+    "Stewart",
+    "2350",
+    "Jason",
+    "Summit",
+    "Suite",
+    "324,",
+    "New",
+    "William,",
+    "NC",
+    "07815",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Frozen",
+    "organic",
+    "champion",
+    "quince",
+    "8",
+    "$346.41",
+    "$2771.28",
+    "Karaoke",
+    "systems",
+    "5",
+    "$103.46",
+    "$517.30",
+    "Tixocortol",
+    "pivalate",
+    "10",
+    "$168.27",
+    "$1682.70",
+    "Subtotal:",
+    "$4971.28",
+    "Tax:",
+    "$497.13",
+    "TOTAL:",
+    "$5468.41"
+  ],
+  "boxes": [
+    [
+      401,
+      55,
+      598,
+      77
+    ],
+    [
+      66,
+      100,
+      178,
+      113
+    ],
+    [
+      193,
+      100,
+      256,
+      113
+    ],
+    [
+      273,
+      100,
+      465,
+      113
+    ],
+    [
+      66,
+      141,
+      146,
+      154
+    ],
+    [
+      161,
+      141,
+      321,
+      155
+    ],
+    [
+      66,
+      205,
+      178,
+      218
+    ],
+    [
+      193,
+      205,
+      290,
+      218
+    ],
+    [
+      305,
+      205,
+      353,
+      218
+    ],
+    [
+      66,
+      245,
+      126,
+      255
+    ],
+    [
+      138,
+      245,
+      221,
+      255
+    ],
+    [
+      233,
+      244,
+      293,
+      258
+    ],
+    [
+      305,
+      244,
+      425,
+      258
+    ],
+    [
+      436,
+      245,
+      460,
+      255
+    ],
+    [
+      66,
+      265,
+      126,
+      275
+    ],
+    [
+      66,
+      304,
+      130,
+      317
+    ],
+    [
+      146,
+      304,
+      195,
+      317
+    ],
+    [
+      210,
+      304,
+      290,
+      317
+    ],
+    [
+      305,
+      304,
+      416,
+      317
+    ],
+    [
+      66,
+      344,
+      115,
+      354
+    ],
+    [
+      126,
+      344,
+      186,
+      354
+    ],
+    [
+      198,
+      344,
+      270,
+      354
+    ],
+    [
+      281,
+      344,
+      341,
+      354
+    ],
+    [
+      353,
+      344,
+      401,
+      357
+    ],
+    [
+      413,
+      344,
+      450,
+      354
+    ],
+    [
+      66,
+      362,
+      163,
+      376
+    ],
+    [
+      173,
+      363,
+      196,
+      373
+    ],
+    [
+      208,
+      362,
+      268,
+      373
+    ],
+    [
+      66,
+      406,
+      243,
+      423
+    ],
+    [
+      500,
+      406,
+      548,
+      423
+    ],
+    [
+      673,
+      406,
+      753,
+      420
+    ],
+    [
+      803,
+      406,
+      883,
+      420
+    ],
+    [
+      66,
+      444,
+      138,
+      454
+    ],
+    [
+      150,
+      444,
+      233,
+      457
+    ],
+    [
+      245,
+      443,
+      341,
+      457
+    ],
+    [
+      351,
+      444,
+      423,
+      457
+    ],
+    [
+      500,
+      444,
+      511,
+      454
+    ],
+    [
+      673,
+      442,
+      756,
+      455
+    ],
+    [
+      803,
+      442,
+      900,
+      455
+    ],
+    [
+      66,
+      474,
+      150,
+      485
+    ],
+    [
+      161,
+      475,
+      245,
+      488
+    ],
+    [
+      500,
+      475,
+      511,
+      485
+    ],
+    [
+      673,
+      473,
+      756,
+      486
+    ],
+    [
+      803,
+      473,
+      886,
+      486
+    ],
+    [
+      66,
+      505,
+      186,
+      516
+    ],
+    [
+      198,
+      505,
+      295,
+      520
+    ],
+    [
+      500,
+      505,
+      523,
+      516
+    ],
+    [
+      673,
+      504,
+      756,
+      517
+    ],
+    [
+      803,
+      504,
+      900,
+      517
+    ],
+    [
+      586,
+      561,
+      730,
+      574
+    ],
+    [
+      746,
+      560,
+      875,
+      576
+    ],
+    [
+      586,
+      605,
+      650,
+      618
+    ],
+    [
+      666,
+      604,
+      778,
+      621
+    ],
+    [
+      586,
+      653,
+      718,
+      671
+    ],
+    [
+      586,
+      673,
+      763,
+      696
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 600,
+  "image_height": 900,
+  "layout_type": "receipt",
+  "total_words": 55,
+  "invoice_data": {
+    "invoice_number": "INV-D8F60BBD",
+    "invoice_date": "05/06/2025",
+    "vendor_name": "Holmes Ltd",
+    "vendor_address": "66337 Herrera Pike, Keithberg, MA 46503",
+    "customer_name": "Laura Stewart",
+    "customer_address": "2350 Jason Summit Suite 324, New William, NC 07815",
+    "line_items": [
+      {
+        "description": "Frozen organic champion quince",
+        "quantity": 8,
+        "unit_price": 346.41,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Frozen organic fruit",
+          "class_name": "Frozen organic quinces",
+          "commodity_name": "Frozen organic champion quince",
+          "segment_code": "50000000",
+          "family_code": "50350000",
+          "class_code": "50356100",
+          "commodity_code": "50356101"
+        }
+      },
+      {
+        "description": "Karaoke systems",
+        "quantity": 5,
+        "unit_price": 103.46,
+        "unspsc_details": {
+          "segment_name": "Domestic Appliances and Supplies and Consumer Electronic Products",
+          "family_name": "Consumer electronics",
+          "class_name": "Audio and visual equipment",
+          "commodity_name": "Karaoke systems",
+          "segment_code": "52000000",
+          "family_code": "52160000",
+          "class_code": "52161500",
+          "commodity_code": "52161532"
+        }
+      },
+      {
+        "description": "Tixocortol pivalate",
+        "quantity": 10,
+        "unit_price": 168.27,
+        "unspsc_details": {
+          "segment_name": "Drugs and Pharmaceutical Products",
+          "family_name": "Corticosteroids",
+          "class_name": "Corticosteroid pregnenediones",
+          "commodity_name": "Tixocortol pivalate",
+          "segment_code": "51000000",
+          "family_code": "51420000",
+          "class_code": "51422400",
+          "commodity_code": "51422437"
+        }
+      }
+    ],
+    "subtotal": 4971.280000000001,
+    "tax_amount": 497.13,
+    "total_amount": 5468.41
+  }
+}

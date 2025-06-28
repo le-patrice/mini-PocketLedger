@@ -1,0 +1,631 @@
+{
+  "id": "synthetic_invoice_0049",
+  "image_filename": "synthetic_invoice_0049.png",
+  "words": [
+    "RECEIPT",
+    "Invoice",
+    "No.:",
+    "INV-DD8AB1B2",
+    "Date:",
+    "05/17/2025",
+    "Vendor:",
+    "Hernandez-Day",
+    "534",
+    "Robinson",
+    "Villages,",
+    "Knappchester,",
+    "HI",
+    "60452",
+    "Bill",
+    "To:",
+    "Raymond",
+    "Cook",
+    "32249",
+    "Orozco",
+    "Lock",
+    "Apt.",
+    "338,",
+    "New",
+    "Daniel,",
+    "NH",
+    "93389",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Canned",
+    "or",
+    "jarred",
+    "non",
+    "GMO",
+    "napoleon",
+    "grapes",
+    "33mF",
+    "6",
+    "$117.13",
+    "$702.78",
+    "Organic",
+    "crown",
+    "prince",
+    "squash",
+    "4",
+    "$248.45",
+    "$993.80",
+    "Watkins",
+    "and",
+    "Son",
+    "Library",
+    "construction",
+    "kits",
+    "7",
+    "$435.26",
+    "$3046.82",
+    "Datelliptium",
+    "10",
+    "$490.59",
+    "$4905.90",
+    "Subtotal:",
+    "$9649.30",
+    "Tax:",
+    "$675.45",
+    "TOTAL:",
+    "$10324.75"
+  ],
+  "boxes": [
+    [
+      401,
+      55,
+      598,
+      77
+    ],
+    [
+      66,
+      100,
+      178,
+      113
+    ],
+    [
+      193,
+      100,
+      256,
+      113
+    ],
+    [
+      273,
+      100,
+      465,
+      113
+    ],
+    [
+      66,
+      141,
+      146,
+      154
+    ],
+    [
+      161,
+      141,
+      321,
+      155
+    ],
+    [
+      66,
+      205,
+      178,
+      218
+    ],
+    [
+      193,
+      205,
+      401,
+      222
+    ],
+    [
+      66,
+      248,
+      103,
+      258
+    ],
+    [
+      113,
+      247,
+      210,
+      258
+    ],
+    [
+      220,
+      247,
+      328,
+      262
+    ],
+    [
+      340,
+      247,
+      496,
+      262
+    ],
+    [
+      66,
+      268,
+      90,
+      278
+    ],
+    [
+      101,
+      268,
+      161,
+      278
+    ],
+    [
+      66,
+      307,
+      130,
+      321
+    ],
+    [
+      146,
+      307,
+      195,
+      321
+    ],
+    [
+      210,
+      307,
+      321,
+      324
+    ],
+    [
+      336,
+      307,
+      400,
+      321
+    ],
+    [
+      66,
+      351,
+      126,
+      361
+    ],
+    [
+      138,
+      351,
+      210,
+      361
+    ],
+    [
+      221,
+      350,
+      270,
+      361
+    ],
+    [
+      281,
+      351,
+      330,
+      364
+    ],
+    [
+      341,
+      351,
+      390,
+      364
+    ],
+    [
+      401,
+      351,
+      438,
+      361
+    ],
+    [
+      66,
+      370,
+      150,
+      384
+    ],
+    [
+      161,
+      371,
+      185,
+      381
+    ],
+    [
+      196,
+      371,
+      256,
+      381
+    ],
+    [
+      66,
+      414,
+      243,
+      431
+    ],
+    [
+      500,
+      414,
+      548,
+      431
+    ],
+    [
+      673,
+      414,
+      753,
+      427
+    ],
+    [
+      803,
+      414,
+      883,
+      427
+    ],
+    [
+      66,
+      451,
+      138,
+      462
+    ],
+    [
+      150,
+      454,
+      173,
+      462
+    ],
+    [
+      185,
+      451,
+      256,
+      465
+    ],
+    [
+      268,
+      454,
+      305,
+      462
+    ],
+    [
+      315,
+      452,
+      351,
+      462
+    ],
+    [
+      361,
+      451,
+      458,
+      465
+    ],
+    [
+      66,
+      474,
+      138,
+      485
+    ],
+    [
+      150,
+      472,
+      198,
+      482
+    ],
+    [
+      500,
+      452,
+      511,
+      462
+    ],
+    [
+      673,
+      450,
+      756,
+      463
+    ],
+    [
+      803,
+      450,
+      886,
+      463
+    ],
+    [
+      66,
+      483,
+      150,
+      496
+    ],
+    [
+      161,
+      485,
+      221,
+      493
+    ],
+    [
+      233,
+      483,
+      305,
+      496
+    ],
+    [
+      316,
+      482,
+      388,
+      496
+    ],
+    [
+      500,
+      483,
+      511,
+      493
+    ],
+    [
+      673,
+      481,
+      756,
+      494
+    ],
+    [
+      803,
+      481,
+      886,
+      494
+    ],
+    [
+      66,
+      513,
+      150,
+      524
+    ],
+    [
+      161,
+      513,
+      198,
+      524
+    ],
+    [
+      208,
+      514,
+      245,
+      524
+    ],
+    [
+      255,
+      513,
+      338,
+      527
+    ],
+    [
+      350,
+      514,
+      493,
+      524
+    ],
+    [
+      66,
+      533,
+      115,
+      544
+    ],
+    [
+      500,
+      514,
+      511,
+      524
+    ],
+    [
+      673,
+      512,
+      756,
+      525
+    ],
+    [
+      803,
+      512,
+      900,
+      525
+    ],
+    [
+      66,
+      544,
+      210,
+      558
+    ],
+    [
+      500,
+      544,
+      523,
+      555
+    ],
+    [
+      673,
+      543,
+      756,
+      556
+    ],
+    [
+      803,
+      543,
+      900,
+      556
+    ],
+    [
+      586,
+      600,
+      730,
+      613
+    ],
+    [
+      746,
+      598,
+      875,
+      615
+    ],
+    [
+      586,
+      644,
+      650,
+      657
+    ],
+    [
+      666,
+      643,
+      778,
+      660
+    ],
+    [
+      586,
+      692,
+      718,
+      710
+    ],
+    [
+      586,
+      712,
+      785,
+      735
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 600,
+  "image_height": 900,
+  "layout_type": "receipt",
+  "total_words": 68,
+  "invoice_data": {
+    "invoice_number": "INV-DD8AB1B2",
+    "invoice_date": "05/17/2025",
+    "vendor_name": "Hernandez-Day",
+    "vendor_address": "534 Robinson Villages, Knappchester, HI 60452",
+    "customer_name": "Raymond Cook",
+    "customer_address": "32249 Orozco Lock Apt. 338, New Daniel, NH 93389",
+    "line_items": [
+      {
+        "description": "Canned or jarred non GMO napoleon grapes 33mF",
+        "quantity": 6,
+        "unit_price": 117.13,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Canned or jarred non GMO fruits",
+          "class_name": "Canned or jarred non GMO table grapes",
+          "commodity_name": "Canned or jarred non GMO napoleon grapes",
+          "segment_code": "50000000",
+          "family_code": "50550000",
+          "class_code": "50553400",
+          "commodity_code": "50553460"
+        }
+      },
+      {
+        "description": "Organic crown prince squash",
+        "quantity": 4,
+        "unit_price": 248.45,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Organic fresh vegetables",
+          "class_name": "Organic winter squashes and winter pumpkins",
+          "commodity_name": "Organic crown prince squash",
+          "segment_code": "50000000",
+          "family_code": "50410000",
+          "class_code": "50416600",
+          "commodity_code": "50416608"
+        }
+      },
+      {
+        "description": "Watkins and Son Library construction kits",
+        "quantity": 7,
+        "unit_price": 435.26,
+        "unspsc_details": {
+          "segment_name": "Laboratory and Measuring and Observing and Testing Equipment",
+          "family_name": "Laboratory and scientific equipment",
+          "class_name": "Libraries and related materials",
+          "commodity_name": "Library construction kits",
+          "segment_code": "41000000",
+          "family_code": "41100000",
+          "class_code": "41105900",
+          "commodity_code": "41105905"
+        }
+      },
+      {
+        "description": "Datelliptium",
+        "quantity": 10,
+        "unit_price": 490.59,
+        "unspsc_details": {
+          "segment_name": "Drugs and Pharmaceutical Products",
+          "family_name": "Antineoplastic agents",
+          "class_name": "Antineoplastic antibiotics",
+          "commodity_name": "Datelliptium",
+          "segment_code": "51000000",
+          "family_code": "51110000",
+          "class_code": "51111700",
+          "commodity_code": "51111738"
+        }
+      }
+    ],
+    "subtotal": 9649.3,
+    "tax_amount": 675.45,
+    "total_amount": 10324.75
+  }
+}

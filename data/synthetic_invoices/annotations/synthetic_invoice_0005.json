@@ -1,0 +1,457 @@
+{
+  "id": "synthetic_invoice_0005",
+  "image_filename": "synthetic_invoice_0005.png",
+  "words": [
+    "RECEIPT",
+    "Invoice",
+    "No.:",
+    "INV-0A374046",
+    "Date:",
+    "03/31/2025",
+    "Vendor:",
+    "Burnett,",
+    "Williams",
+    "and",
+    "Lewis",
+    "44003",
+    "Stephanie",
+    "Points,",
+    "Moonberg,",
+    "OK",
+    "70665",
+    "Bill",
+    "To:",
+    "Daniel",
+    "Solomon",
+    "21096",
+    "Curtis",
+    "Knolls,",
+    "Campbellhaven,",
+    "PA",
+    "93882",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Frozen",
+    "verona",
+    "endives",
+    "12Jk",
+    "3",
+    "$28.84",
+    "$86.52",
+    "Ventricular",
+    "drainage",
+    "sets",
+    "7",
+    "$298.85",
+    "$2091.95",
+    "Subtotal:",
+    "$2178.47",
+    "Tax:",
+    "$217.85",
+    "TOTAL:",
+    "$2396.32"
+  ],
+  "boxes": [
+    [
+      421,
+      60,
+      578,
+      80
+    ],
+    [
+      66,
+      105,
+      156,
+      117
+    ],
+    [
+      168,
+      105,
+      218,
+      117
+    ],
+    [
+      232,
+      105,
+      385,
+      117
+    ],
+    [
+      66,
+      144,
+      130,
+      156
+    ],
+    [
+      142,
+      144,
+      270,
+      157
+    ],
+    [
+      66,
+      209,
+      156,
+      221
+    ],
+    [
+      168,
+      209,
+      270,
+      224
+    ],
+    [
+      282,
+      209,
+      385,
+      221
+    ],
+    [
+      397,
+      209,
+      436,
+      221
+    ],
+    [
+      66,
+      229,
+      130,
+      241
+    ],
+    [
+      66,
+      267,
+      114,
+      276
+    ],
+    [
+      124,
+      266,
+      210,
+      279
+    ],
+    [
+      220,
+      267,
+      286,
+      279
+    ],
+    [
+      296,
+      266,
+      382,
+      279
+    ],
+    [
+      392,
+      267,
+      410,
+      276
+    ],
+    [
+      420,
+      267,
+      468,
+      276
+    ],
+    [
+      66,
+      311,
+      117,
+      323
+    ],
+    [
+      130,
+      311,
+      169,
+      323
+    ],
+    [
+      181,
+      311,
+      258,
+      323
+    ],
+    [
+      270,
+      311,
+      360,
+      323
+    ],
+    [
+      66,
+      348,
+      114,
+      358
+    ],
+    [
+      124,
+      349,
+      181,
+      358
+    ],
+    [
+      190,
+      348,
+      257,
+      361
+    ],
+    [
+      266,
+      348,
+      401,
+      361
+    ],
+    [
+      410,
+      349,
+      429,
+      358
+    ],
+    [
+      438,
+      349,
+      486,
+      358
+    ],
+    [
+      66,
+      393,
+      208,
+      408
+    ],
+    [
+      500,
+      393,
+      538,
+      408
+    ],
+    [
+      672,
+      393,
+      736,
+      405
+    ],
+    [
+      802,
+      393,
+      866,
+      405
+    ],
+    [
+      66,
+      427,
+      124,
+      436
+    ],
+    [
+      133,
+      429,
+      190,
+      436
+    ],
+    [
+      200,
+      426,
+      266,
+      436
+    ],
+    [
+      276,
+      426,
+      314,
+      436
+    ],
+    [
+      500,
+      427,
+      509,
+      436
+    ],
+    [
+      672,
+      425,
+      729,
+      437
+    ],
+    [
+      802,
+      425,
+      860,
+      437
+    ],
+    [
+      66,
+      456,
+      172,
+      466
+    ],
+    [
+      181,
+      456,
+      258,
+      469
+    ],
+    [
+      266,
+      457,
+      305,
+      466
+    ],
+    [
+      500,
+      457,
+      509,
+      466
+    ],
+    [
+      672,
+      455,
+      738,
+      467
+    ],
+    [
+      802,
+      455,
+      880,
+      467
+    ],
+    [
+      586,
+      513,
+      701,
+      525
+    ],
+    [
+      714,
+      512,
+      817,
+      527
+    ],
+    [
+      586,
+      555,
+      637,
+      567
+    ],
+    [
+      650,
+      554,
+      740,
+      569
+    ],
+    [
+      586,
+      600,
+      692,
+      616
+    ],
+    [
+      709,
+      597,
+      850,
+      618
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    0,
+    0,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 750,
+  "image_height": 1000,
+  "layout_type": "compact",
+  "total_words": 50,
+  "invoice_data": {
+    "invoice_number": "INV-0A374046",
+    "invoice_date": "03/31/2025",
+    "vendor_name": "Burnett, Williams and Lewis",
+    "vendor_address": "44003 Stephanie Points, Moonberg, OK 70665",
+    "customer_name": "Daniel Solomon",
+    "customer_address": "21096 Curtis Knolls, Campbellhaven, PA 93882",
+    "line_items": [
+      {
+        "description": "Frozen verona endives 12Jk",
+        "quantity": 3,
+        "unit_price": 28.84,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Frozen vegetables",
+          "class_name": "Frozen endives",
+          "commodity_name": "Frozen verona endives",
+          "segment_code": "50000000",
+          "family_code": "50440000",
+          "class_code": "50443600",
+          "commodity_code": "50443613"
+        }
+      },
+      {
+        "description": "Ventricular drainage sets",
+        "quantity": 7,
+        "unit_price": 298.85,
+        "unspsc_details": {
+          "segment_name": "Medical Equipment and Accessories and Supplies",
+          "family_name": "Surgical products",
+          "class_name": "Open heart perfusion equipment and monitors and accessories and related products",
+          "commodity_name": "Ventricular drainage sets",
+          "segment_code": "42000000",
+          "family_code": "42290000",
+          "class_code": "42294700",
+          "commodity_code": "42294722"
+        }
+      }
+    ],
+    "subtotal": 2178.4700000000003,
+    "tax_amount": 217.85,
+    "total_amount": 2396.32
+  }
+}

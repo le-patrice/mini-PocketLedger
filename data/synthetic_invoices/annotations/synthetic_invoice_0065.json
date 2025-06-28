@@ -1,0 +1,560 @@
+{
+  "id": "synthetic_invoice_0065",
+  "image_filename": "synthetic_invoice_0065.png",
+  "words": [
+    "RECEIPT",
+    "Invoice",
+    "No.:",
+    "INV-9722614E",
+    "Date:",
+    "04/22/2025",
+    "Vendor:",
+    "Scott",
+    "LLC",
+    "36003",
+    "Steven",
+    "Points,",
+    "East",
+    "Debrafurt,",
+    "VI",
+    "38603",
+    "Bill",
+    "To:",
+    "Daniel",
+    "Doyle",
+    "072",
+    "Nguyen",
+    "Lights",
+    "Apt.",
+    "685,",
+    "Costaside,",
+    "PA",
+    "95130",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Fleming-Steele",
+    "Cartridge",
+    "belt",
+    "3",
+    "$317.47",
+    "$952.41",
+    "Murray-White",
+    "Frozen",
+    "tarragon",
+    "62SJ",
+    "4",
+    "$330.07",
+    "$1320.28",
+    "Silva",
+    "Inc",
+    "Dried",
+    "non",
+    "GMO",
+    "sensation",
+    "pears",
+    "2",
+    "$389.77",
+    "$779.54",
+    "Subtotal:",
+    "$3052.23",
+    "Tax:",
+    "$213.66",
+    "TOTAL:",
+    "$3265.89"
+  ],
+  "boxes": [
+    [
+      426,
+      63,
+      573,
+      81
+    ],
+    [
+      75,
+      109,
+      158,
+      120
+    ],
+    [
+      170,
+      109,
+      217,
+      120
+    ],
+    [
+      230,
+      109,
+      373,
+      120
+    ],
+    [
+      75,
+      147,
+      135,
+      158
+    ],
+    [
+      146,
+      147,
+      266,
+      159
+    ],
+    [
+      75,
+      213,
+      158,
+      224
+    ],
+    [
+      170,
+      213,
+      230,
+      224
+    ],
+    [
+      241,
+      213,
+      277,
+      224
+    ],
+    [
+      75,
+      250,
+      120,
+      259
+    ],
+    [
+      128,
+      250,
+      182,
+      259
+    ],
+    [
+      191,
+      250,
+      253,
+      261
+    ],
+    [
+      262,
+      250,
+      298,
+      259
+    ],
+    [
+      307,
+      250,
+      397,
+      261
+    ],
+    [
+      406,
+      250,
+      423,
+      259
+    ],
+    [
+      432,
+      250,
+      477,
+      259
+    ],
+    [
+      75,
+      295,
+      122,
+      306
+    ],
+    [
+      135,
+      295,
+      171,
+      306
+    ],
+    [
+      182,
+      295,
+      255,
+      306
+    ],
+    [
+      266,
+      295,
+      326,
+      309
+    ],
+    [
+      75,
+      335,
+      102,
+      343
+    ],
+    [
+      110,
+      335,
+      163,
+      346
+    ],
+    [
+      172,
+      334,
+      226,
+      346
+    ],
+    [
+      235,
+      335,
+      271,
+      346
+    ],
+    [
+      280,
+      335,
+      316,
+      346
+    ],
+    [
+      325,
+      334,
+      415,
+      346
+    ],
+    [
+      423,
+      335,
+      441,
+      343
+    ],
+    [
+      450,
+      334,
+      495,
+      343
+    ],
+    [
+      75,
+      380,
+      207,
+      393
+    ],
+    [
+      500,
+      380,
+      536,
+      393
+    ],
+    [
+      668,
+      380,
+      728,
+      390
+    ],
+    [
+      797,
+      380,
+      857,
+      390
+    ],
+    [
+      75,
+      410,
+      201,
+      421
+    ],
+    [
+      210,
+      410,
+      291,
+      421
+    ],
+    [
+      300,
+      410,
+      336,
+      419
+    ],
+    [
+      500,
+      410,
+      508,
+      419
+    ],
+    [
+      668,
+      409,
+      731,
+      420
+    ],
+    [
+      797,
+      409,
+      860,
+      420
+    ],
+    [
+      75,
+      440,
+      182,
+      451
+    ],
+    [
+      191,
+      440,
+      245,
+      449
+    ],
+    [
+      253,
+      440,
+      326,
+      451
+    ],
+    [
+      333,
+      440,
+      370,
+      449
+    ],
+    [
+      500,
+      440,
+      508,
+      449
+    ],
+    [
+      668,
+      439,
+      731,
+      450
+    ],
+    [
+      797,
+      439,
+      870,
+      450
+    ],
+    [
+      75,
+      470,
+      120,
+      479
+    ],
+    [
+      128,
+      470,
+      156,
+      479
+    ],
+    [
+      163,
+      470,
+      208,
+      479
+    ],
+    [
+      217,
+      472,
+      245,
+      479
+    ],
+    [
+      252,
+      470,
+      280,
+      479
+    ],
+    [
+      287,
+      470,
+      368,
+      479
+    ],
+    [
+      377,
+      472,
+      422,
+      481
+    ],
+    [
+      500,
+      470,
+      508,
+      479
+    ],
+    [
+      668,
+      469,
+      731,
+      480
+    ],
+    [
+      797,
+      469,
+      860,
+      480
+    ],
+    [
+      585,
+      529,
+      692,
+      540
+    ],
+    [
+      705,
+      528,
+      801,
+      541
+    ],
+    [
+      585,
+      570,
+      632,
+      580
+    ],
+    [
+      645,
+      569,
+      728,
+      582
+    ],
+    [
+      585,
+      613,
+      683,
+      628
+    ],
+    [
+      700,
+      610,
+      832,
+      630
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 800,
+  "image_height": 1100,
+  "layout_type": "standard",
+  "total_words": 61,
+  "invoice_data": {
+    "invoice_number": "INV-9722614E",
+    "invoice_date": "04/22/2025",
+    "vendor_name": "Scott LLC",
+    "vendor_address": "36003 Steven Points, East Debrafurt, VI 38603",
+    "customer_name": "Daniel Doyle",
+    "customer_address": "072 Nguyen Lights Apt. 685, Costaside, PA 95130",
+    "line_items": [
+      {
+        "description": "Fleming-Steele Cartridge belt",
+        "quantity": 3,
+        "unit_price": 317.47,
+        "unspsc_details": {
+          "segment_name": "Defense and Law Enforcement and Security and Safety Equipment and Supplies",
+          "family_name": "Light weapons and ammunition",
+          "class_name": "Arms and ammunition accessories",
+          "commodity_name": "Cartridge belt",
+          "segment_code": "46000000",
+          "family_code": "46100000",
+          "class_code": "46101800",
+          "commodity_code": "46101802"
+        }
+      },
+      {
+        "description": "Murray-White Frozen tarragon 62SJ",
+        "quantity": 4,
+        "unit_price": 330.07,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Frozen vegetables",
+          "class_name": "Frozen herbs",
+          "commodity_name": "Frozen tarragon",
+          "segment_code": "50000000",
+          "family_code": "50440000",
+          "class_code": "50444100",
+          "commodity_code": "50444124"
+        }
+      },
+      {
+        "description": "Silva Inc Dried non GMO sensation pears",
+        "quantity": 2,
+        "unit_price": 389.77,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Dried non GMO fruits",
+          "class_name": "Dried non GMO pears",
+          "commodity_name": "Dried non GMO sensation pears",
+          "segment_code": "50000000",
+          "family_code": "50530000",
+          "class_code": "50535400",
+          "commodity_code": "50535446"
+        }
+      }
+    ],
+    "subtotal": 3052.23,
+    "tax_amount": 213.66,
+    "total_amount": 3265.89
+  }
+}

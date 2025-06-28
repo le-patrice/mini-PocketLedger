@@ -1,0 +1,576 @@
+{
+  "id": "synthetic_invoice_0052",
+  "image_filename": "synthetic_invoice_0052.png",
+  "words": [
+    "RECEIPT",
+    "Invoice",
+    "No.:",
+    "INV-6025FA49",
+    "Date:",
+    "08/07/2024",
+    "Vendor:",
+    "Giles,",
+    "Munoz",
+    "and",
+    "King",
+    "614",
+    "Hayes",
+    "Harbor",
+    "Apt.",
+    "187,",
+    "Hessshire,",
+    "MA",
+    "54667",
+    "Bill",
+    "To:",
+    "Bianca",
+    "Jensen",
+    "90561",
+    "Richard",
+    "Hollow,",
+    "West",
+    "Shawn,",
+    "DC",
+    "67375",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Frozen",
+    "sensation",
+    "pears",
+    "49jY",
+    "3",
+    "$34.42",
+    "$103.26",
+    "Plastic",
+    "bonded",
+    "injection",
+    "molded",
+    "coated",
+    "i",
+    "2",
+    "$81.77",
+    "$163.54",
+    "Frozen",
+    "organic",
+    "incredible",
+    "corn",
+    "9",
+    "$493.59",
+    "$4442.31",
+    "Subtotal:",
+    "$4709.11",
+    "Tax:",
+    "$235.46",
+    "TOTAL:",
+    "$4944.57"
+  ],
+  "boxes": [
+    [
+      421,
+      60,
+      578,
+      80
+    ],
+    [
+      66,
+      105,
+      156,
+      117
+    ],
+    [
+      168,
+      105,
+      218,
+      117
+    ],
+    [
+      232,
+      105,
+      385,
+      117
+    ],
+    [
+      66,
+      144,
+      130,
+      156
+    ],
+    [
+      142,
+      144,
+      270,
+      157
+    ],
+    [
+      66,
+      209,
+      156,
+      221
+    ],
+    [
+      168,
+      209,
+      245,
+      224
+    ],
+    [
+      257,
+      209,
+      321,
+      221
+    ],
+    [
+      333,
+      209,
+      372,
+      221
+    ],
+    [
+      384,
+      209,
+      434,
+      224
+    ],
+    [
+      66,
+      249,
+      96,
+      259
+    ],
+    [
+      104,
+      250,
+      152,
+      262
+    ],
+    [
+      161,
+      249,
+      218,
+      259
+    ],
+    [
+      228,
+      250,
+      266,
+      262
+    ],
+    [
+      276,
+      249,
+      314,
+      262
+    ],
+    [
+      324,
+      249,
+      420,
+      262
+    ],
+    [
+      429,
+      250,
+      448,
+      259
+    ],
+    [
+      66,
+      268,
+      114,
+      277
+    ],
+    [
+      66,
+      308,
+      117,
+      320
+    ],
+    [
+      130,
+      308,
+      169,
+      320
+    ],
+    [
+      181,
+      308,
+      258,
+      320
+    ],
+    [
+      270,
+      308,
+      348,
+      320
+    ],
+    [
+      66,
+      345,
+      114,
+      355
+    ],
+    [
+      124,
+      345,
+      190,
+      355
+    ],
+    [
+      200,
+      345,
+      266,
+      358
+    ],
+    [
+      276,
+      346,
+      314,
+      355
+    ],
+    [
+      324,
+      345,
+      381,
+      358
+    ],
+    [
+      390,
+      346,
+      409,
+      355
+    ],
+    [
+      418,
+      346,
+      466,
+      355
+    ],
+    [
+      66,
+      390,
+      208,
+      405
+    ],
+    [
+      500,
+      390,
+      538,
+      405
+    ],
+    [
+      672,
+      390,
+      736,
+      402
+    ],
+    [
+      802,
+      390,
+      866,
+      402
+    ],
+    [
+      66,
+      424,
+      124,
+      433
+    ],
+    [
+      133,
+      424,
+      220,
+      433
+    ],
+    [
+      229,
+      426,
+      277,
+      436
+    ],
+    [
+      286,
+      424,
+      325,
+      436
+    ],
+    [
+      500,
+      424,
+      509,
+      433
+    ],
+    [
+      672,
+      422,
+      729,
+      434
+    ],
+    [
+      802,
+      422,
+      869,
+      434
+    ],
+    [
+      66,
+      453,
+      133,
+      463
+    ],
+    [
+      142,
+      453,
+      200,
+      463
+    ],
+    [
+      209,
+      454,
+      296,
+      466
+    ],
+    [
+      305,
+      453,
+      362,
+      463
+    ],
+    [
+      372,
+      453,
+      429,
+      463
+    ],
+    [
+      438,
+      454,
+      448,
+      463
+    ],
+    [
+      500,
+      454,
+      509,
+      463
+    ],
+    [
+      672,
+      452,
+      729,
+      464
+    ],
+    [
+      802,
+      452,
+      869,
+      464
+    ],
+    [
+      66,
+      484,
+      124,
+      493
+    ],
+    [
+      133,
+      484,
+      200,
+      496
+    ],
+    [
+      209,
+      483,
+      305,
+      493
+    ],
+    [
+      314,
+      486,
+      353,
+      493
+    ],
+    [
+      500,
+      484,
+      509,
+      493
+    ],
+    [
+      672,
+      482,
+      738,
+      494
+    ],
+    [
+      802,
+      482,
+      880,
+      494
+    ],
+    [
+      586,
+      540,
+      701,
+      552
+    ],
+    [
+      714,
+      539,
+      817,
+      554
+    ],
+    [
+      586,
+      582,
+      637,
+      594
+    ],
+    [
+      650,
+      581,
+      740,
+      596
+    ],
+    [
+      586,
+      627,
+      692,
+      643
+    ],
+    [
+      709,
+      624,
+      850,
+      645
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    0,
+    0,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 750,
+  "image_height": 1000,
+  "layout_type": "compact",
+  "total_words": 63,
+  "invoice_data": {
+    "invoice_number": "INV-6025FA49",
+    "invoice_date": "08/07/2024",
+    "vendor_name": "Giles, Munoz and King",
+    "vendor_address": "614 Hayes Harbor Apt. 187, Hessshire, MA 54667",
+    "customer_name": "Bianca Jensen",
+    "customer_address": "90561 Richard Hollow, West Shawn, DC 67375",
+    "line_items": [
+      {
+        "description": "Frozen sensation pears 49jY",
+        "quantity": 3,
+        "unit_price": 34.42,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Frozen fruit",
+          "class_name": "Frozen pears",
+          "commodity_name": "Frozen sensation pears",
+          "segment_code": "50000000",
+          "family_code": "50340000",
+          "class_code": "50345400",
+          "commodity_code": "50345446"
+        }
+      },
+      {
+        "description": "Plastic bonded injection molded coated i",
+        "quantity": 2,
+        "unit_price": 81.77,
+        "unspsc_details": {
+          "segment_name": "Manufacturing Components and Supplies",
+          "family_name": "Magnets and magnetic materials",
+          "class_name": "Injection molded magnets and magnet assemblies",
+          "commodity_name": "Plastic bonded injection molded coated isotropic barium ferrite magnet",
+          "segment_code": "31000000",
+          "family_code": "31380000",
+          "class_code": "31381500",
+          "commodity_code": "31381524"
+        }
+      },
+      {
+        "description": "Frozen organic incredible corn",
+        "quantity": 9,
+        "unit_price": 493.59,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Frozen organic vegetables",
+          "class_name": "Frozen organic corn",
+          "commodity_name": "Frozen organic incredible corn",
+          "segment_code": "50000000",
+          "family_code": "50450000",
+          "class_code": "50453200",
+          "commodity_code": "50453231"
+        }
+      }
+    ],
+    "subtotal": 4709.11,
+    "tax_amount": 235.46,
+    "total_amount": 4944.57
+  }
+}

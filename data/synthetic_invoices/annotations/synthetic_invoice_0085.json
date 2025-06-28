@@ -1,0 +1,473 @@
+{
+  "id": "synthetic_invoice_0085",
+  "image_filename": "synthetic_invoice_0085.png",
+  "words": [
+    "INVOICE",
+    "Invoice",
+    "No.:",
+    "INV-026C1DAB",
+    "Date:",
+    "01/10/2025",
+    "Vendor:",
+    "Salas-Duffy",
+    "128",
+    "Clark",
+    "Ridges,",
+    "West",
+    "Deanna,",
+    "VT",
+    "02330",
+    "Bill",
+    "To:",
+    "Michelle",
+    "Hayes",
+    "526",
+    "Patricia",
+    "Mountain,",
+    "New",
+    "Marc,",
+    "CT",
+    "91636",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Fidelity",
+    "guarantee",
+    "insurance",
+    "5",
+    "$387.33",
+    "$1936.65",
+    "Martin",
+    "and",
+    "Sons",
+    "Domestic",
+    "tortilla",
+    "bakers",
+    "50KC",
+    "4",
+    "$281.58",
+    "$1126.32",
+    "Subtotal:",
+    "$3062.97",
+    "Tax:",
+    "$153.15",
+    "TOTAL:",
+    "$3216.12"
+  ],
+  "boxes": [
+    [
+      401,
+      55,
+      598,
+      77
+    ],
+    [
+      66,
+      100,
+      178,
+      113
+    ],
+    [
+      193,
+      100,
+      256,
+      113
+    ],
+    [
+      273,
+      100,
+      465,
+      113
+    ],
+    [
+      66,
+      141,
+      146,
+      154
+    ],
+    [
+      161,
+      141,
+      321,
+      155
+    ],
+    [
+      66,
+      205,
+      178,
+      218
+    ],
+    [
+      193,
+      203,
+      370,
+      222
+    ],
+    [
+      66,
+      250,
+      103,
+      261
+    ],
+    [
+      113,
+      250,
+      173,
+      261
+    ],
+    [
+      185,
+      250,
+      268,
+      264
+    ],
+    [
+      280,
+      251,
+      328,
+      261
+    ],
+    [
+      340,
+      251,
+      423,
+      264
+    ],
+    [
+      435,
+      251,
+      458,
+      261
+    ],
+    [
+      66,
+      271,
+      126,
+      281
+    ],
+    [
+      66,
+      310,
+      130,
+      323
+    ],
+    [
+      146,
+      310,
+      195,
+      323
+    ],
+    [
+      210,
+      310,
+      338,
+      323
+    ],
+    [
+      353,
+      310,
+      433,
+      326
+    ],
+    [
+      66,
+      353,
+      103,
+      363
+    ],
+    [
+      113,
+      353,
+      210,
+      363
+    ],
+    [
+      220,
+      353,
+      328,
+      366
+    ],
+    [
+      340,
+      353,
+      376,
+      363
+    ],
+    [
+      386,
+      353,
+      446,
+      366
+    ],
+    [
+      458,
+      353,
+      481,
+      363
+    ],
+    [
+      66,
+      371,
+      126,
+      382
+    ],
+    [
+      66,
+      412,
+      243,
+      428
+    ],
+    [
+      500,
+      412,
+      548,
+      428
+    ],
+    [
+      673,
+      412,
+      753,
+      425
+    ],
+    [
+      803,
+      412,
+      883,
+      425
+    ],
+    [
+      66,
+      448,
+      163,
+      463
+    ],
+    [
+      173,
+      450,
+      281,
+      463
+    ],
+    [
+      293,
+      450,
+      401,
+      460
+    ],
+    [
+      500,
+      450,
+      511,
+      460
+    ],
+    [
+      673,
+      447,
+      756,
+      461
+    ],
+    [
+      803,
+      447,
+      900,
+      461
+    ],
+    [
+      66,
+      481,
+      138,
+      491
+    ],
+    [
+      150,
+      480,
+      186,
+      491
+    ],
+    [
+      196,
+      481,
+      245,
+      491
+    ],
+    [
+      256,
+      481,
+      353,
+      491
+    ],
+    [
+      363,
+      480,
+      460,
+      491
+    ],
+    [
+      66,
+      496,
+      138,
+      507
+    ],
+    [
+      150,
+      497,
+      198,
+      507
+    ],
+    [
+      500,
+      481,
+      511,
+      491
+    ],
+    [
+      673,
+      478,
+      756,
+      492
+    ],
+    [
+      803,
+      478,
+      900,
+      492
+    ],
+    [
+      586,
+      535,
+      730,
+      548
+    ],
+    [
+      746,
+      534,
+      875,
+      551
+    ],
+    [
+      586,
+      580,
+      650,
+      593
+    ],
+    [
+      666,
+      578,
+      778,
+      595
+    ],
+    [
+      586,
+      627,
+      718,
+      645
+    ],
+    [
+      586,
+      647,
+      763,
+      671
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 600,
+  "image_height": 900,
+  "layout_type": "receipt",
+  "total_words": 52,
+  "invoice_data": {
+    "invoice_number": "INV-026C1DAB",
+    "invoice_date": "01/10/2025",
+    "vendor_name": "Salas-Duffy",
+    "vendor_address": "128 Clark Ridges, West Deanna, VT 02330",
+    "customer_name": "Michelle Hayes",
+    "customer_address": "526 Patricia Mountain, New Marc, CT 91636",
+    "line_items": [
+      {
+        "description": "Fidelity guarantee insurance",
+        "quantity": 5,
+        "unit_price": 387.33,
+        "unspsc_details": {
+          "segment_name": "Financial and Insurance Services",
+          "family_name": "Insurance and retirement services",
+          "class_name": "Insurance services for structures and property and possessions",
+          "commodity_name": "Fidelity guarantee insurance",
+          "segment_code": "84000000",
+          "family_code": "84130000",
+          "class_code": "84131500",
+          "commodity_code": "84131514"
+        }
+      },
+      {
+        "description": "Martin and Sons Domestic tortilla bakers 50KC",
+        "quantity": 4,
+        "unit_price": 281.58,
+        "unspsc_details": {
+          "segment_name": "Domestic Appliances and Supplies and Consumer Electronic Products",
+          "family_name": "Domestic kitchenware and kitchen supplies",
+          "class_name": "Domestic bakeware",
+          "commodity_name": "Domestic tortilla bakers",
+          "segment_code": "52000000",
+          "family_code": "52150000",
+          "class_code": "52151900",
+          "commodity_code": "52151909"
+        }
+      }
+    ],
+    "subtotal": 3062.97,
+    "tax_amount": 153.15,
+    "total_amount": 3216.12
+  }
+}

@@ -1,0 +1,647 @@
+{
+  "id": "synthetic_invoice_0010",
+  "image_filename": "synthetic_invoice_0010.png",
+  "words": [
+    "BILL",
+    "Invoice",
+    "No.:",
+    "INV-24899200",
+    "Date:",
+    "02/22/2025",
+    "Vendor:",
+    "James",
+    "and",
+    "Sons",
+    "3724",
+    "Michael",
+    "Turnpike",
+    "Apt.",
+    "898,",
+    "Whitebury,",
+    "NJ",
+    "26834",
+    "Bill",
+    "To:",
+    "Marcus",
+    "Smith",
+    "49850",
+    "Jackson",
+    "Falls,",
+    "Lake",
+    "Cheyenne,",
+    "VA",
+    "35433",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Curtis",
+    "PLC",
+    "Underground",
+    "conveyor",
+    "service",
+    "85gI",
+    "10",
+    "$405.92",
+    "$4059.20",
+    "King",
+    "LLC",
+    "Non",
+    "GMO",
+    "orange",
+    "bouquet",
+    "cauliflower",
+    "puree",
+    "5",
+    "$103.37",
+    "$516.85",
+    "Wireline",
+    "spear",
+    "6",
+    "$278.46",
+    "$1670.76",
+    "Containerization",
+    "of",
+    "goods",
+    "4",
+    "$153.69",
+    "$614.76",
+    "Subtotal:",
+    "$6861.57",
+    "Tax:",
+    "$343.08",
+    "TOTAL:",
+    "$7204.65"
+  ],
+  "boxes": [
+    [
+      443,
+      55,
+      555,
+      77
+    ],
+    [
+      66,
+      100,
+      178,
+      113
+    ],
+    [
+      193,
+      100,
+      256,
+      113
+    ],
+    [
+      273,
+      100,
+      465,
+      113
+    ],
+    [
+      66,
+      141,
+      146,
+      154
+    ],
+    [
+      161,
+      141,
+      321,
+      155
+    ],
+    [
+      66,
+      205,
+      178,
+      218
+    ],
+    [
+      193,
+      205,
+      273,
+      218
+    ],
+    [
+      288,
+      205,
+      336,
+      218
+    ],
+    [
+      351,
+      205,
+      415,
+      218
+    ],
+    [
+      66,
+      245,
+      115,
+      255
+    ],
+    [
+      126,
+      244,
+      210,
+      255
+    ],
+    [
+      221,
+      244,
+      318,
+      258
+    ],
+    [
+      328,
+      245,
+      376,
+      258
+    ],
+    [
+      388,
+      245,
+      436,
+      258
+    ],
+    [
+      66,
+      264,
+      186,
+      278
+    ],
+    [
+      198,
+      265,
+      221,
+      275
+    ],
+    [
+      233,
+      265,
+      293,
+      275
+    ],
+    [
+      66,
+      308,
+      130,
+      322
+    ],
+    [
+      146,
+      308,
+      195,
+      322
+    ],
+    [
+      210,
+      308,
+      306,
+      322
+    ],
+    [
+      321,
+      308,
+      401,
+      322
+    ],
+    [
+      66,
+      348,
+      126,
+      358
+    ],
+    [
+      138,
+      347,
+      221,
+      358
+    ],
+    [
+      233,
+      347,
+      305,
+      362
+    ],
+    [
+      316,
+      347,
+      365,
+      358
+    ],
+    [
+      376,
+      347,
+      485,
+      362
+    ],
+    [
+      66,
+      368,
+      90,
+      378
+    ],
+    [
+      101,
+      368,
+      161,
+      378
+    ],
+    [
+      66,
+      407,
+      243,
+      424
+    ],
+    [
+      500,
+      407,
+      548,
+      424
+    ],
+    [
+      673,
+      407,
+      753,
+      421
+    ],
+    [
+      803,
+      407,
+      883,
+      421
+    ],
+    [
+      66,
+      445,
+      138,
+      455
+    ],
+    [
+      150,
+      445,
+      186,
+      455
+    ],
+    [
+      196,
+      444,
+      328,
+      458
+    ],
+    [
+      340,
+      447,
+      436,
+      458
+    ],
+    [
+      66,
+      465,
+      150,
+      475
+    ],
+    [
+      161,
+      465,
+      210,
+      478
+    ],
+    [
+      500,
+      444,
+      523,
+      455
+    ],
+    [
+      673,
+      443,
+      756,
+      456
+    ],
+    [
+      803,
+      443,
+      900,
+      456
+    ],
+    [
+      66,
+      476,
+      115,
+      490
+    ],
+    [
+      126,
+      476,
+      163,
+      486
+    ],
+    [
+      173,
+      476,
+      210,
+      486
+    ],
+    [
+      220,
+      476,
+      256,
+      486
+    ],
+    [
+      266,
+      478,
+      338,
+      490
+    ],
+    [
+      350,
+      475,
+      433,
+      490
+    ],
+    [
+      66,
+      495,
+      198,
+      506
+    ],
+    [
+      210,
+      498,
+      270,
+      510
+    ],
+    [
+      500,
+      476,
+      511,
+      486
+    ],
+    [
+      673,
+      474,
+      756,
+      487
+    ],
+    [
+      803,
+      474,
+      886,
+      487
+    ],
+    [
+      66,
+      506,
+      163,
+      517
+    ],
+    [
+      173,
+      510,
+      233,
+      521
+    ],
+    [
+      500,
+      507,
+      511,
+      517
+    ],
+    [
+      673,
+      505,
+      756,
+      518
+    ],
+    [
+      803,
+      505,
+      900,
+      518
+    ],
+    [
+      66,
+      538,
+      258,
+      548
+    ],
+    [
+      270,
+      537,
+      293,
+      548
+    ],
+    [
+      305,
+      537,
+      365,
+      552
+    ],
+    [
+      500,
+      538,
+      511,
+      548
+    ],
+    [
+      673,
+      536,
+      756,
+      550
+    ],
+    [
+      803,
+      536,
+      886,
+      550
+    ],
+    [
+      586,
+      593,
+      730,
+      606
+    ],
+    [
+      746,
+      592,
+      875,
+      608
+    ],
+    [
+      586,
+      637,
+      650,
+      651
+    ],
+    [
+      666,
+      636,
+      778,
+      653
+    ],
+    [
+      586,
+      685,
+      718,
+      703
+    ],
+    [
+      586,
+      705,
+      763,
+      728
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    0,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 600,
+  "image_height": 900,
+  "layout_type": "receipt",
+  "total_words": 70,
+  "invoice_data": {
+    "invoice_number": "INV-24899200",
+    "invoice_date": "02/22/2025",
+    "vendor_name": "James and Sons",
+    "vendor_address": "3724 Michael Turnpike Apt. 898, Whitebury, NJ 26834",
+    "customer_name": "Marcus Smith",
+    "customer_address": "49850 Jackson Falls, Lake Cheyenne, VA 35433",
+    "line_items": [
+      {
+        "description": "Curtis PLC Underground conveyor service 85gI",
+        "quantity": 10,
+        "unit_price": 405.92,
+        "unspsc_details": {
+          "segment_name": "Building and Facility Construction and Maintenance Services",
+          "family_name": "Building and facility maintenance and repair services",
+          "class_name": "Conveyance systems installation and repair",
+          "commodity_name": "Underground conveyor service",
+          "segment_code": "72000000",
+          "family_code": "72100000",
+          "class_code": "72103100",
+          "commodity_code": "72103104"
+        }
+      },
+      {
+        "description": "King LLC Non GMO orange bouquet cauliflower puree",
+        "quantity": 5,
+        "unit_price": 103.37,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Non GMO fresh vegetable purees",
+          "class_name": "Non GMO cauliflower purees",
+          "commodity_name": "Non GMO orange bouquet cauliflower purees",
+          "segment_code": "50000000",
+          "family_code": "50620000",
+          "class_code": "50622600",
+          "commodity_code": "50622608"
+        }
+      },
+      {
+        "description": "Wireline spear",
+        "quantity": 6,
+        "unit_price": 278.46,
+        "unspsc_details": {
+          "segment_name": "Mining and Well Drilling Machinery and Accessories",
+          "family_name": "Oil and gas drilling and exploration equipment",
+          "class_name": "Slickline equipment",
+          "commodity_name": "Wireline spear",
+          "segment_code": "20000000",
+          "family_code": "20120000",
+          "class_code": "20122300",
+          "commodity_code": "20122352"
+        }
+      },
+      {
+        "description": "Containerization of goods",
+        "quantity": 4,
+        "unit_price": 153.69,
+        "unspsc_details": {
+          "segment_name": "Transportation and Storage and Mail Services",
+          "family_name": "Material packing and handling",
+          "class_name": "Packing",
+          "commodity_name": "Containerization of goods",
+          "segment_code": "78000000",
+          "family_code": "78120000",
+          "class_code": "78121500",
+          "commodity_code": "78121501"
+        }
+      }
+    ],
+    "subtotal": 6861.57,
+    "tax_amount": 343.08,
+    "total_amount": 7204.65
+  }
+}

@@ -1,0 +1,473 @@
+{
+  "id": "synthetic_invoice_0068",
+  "image_filename": "synthetic_invoice_0068.png",
+  "words": [
+    "INVOICE",
+    "Invoice",
+    "No.:",
+    "INV-5CFC0EF7",
+    "Date:",
+    "09/16/2024",
+    "Vendor:",
+    "Li-Robertson",
+    "81366",
+    "Smith",
+    "Throughway,",
+    "Aprilfort,",
+    "AK",
+    "81927",
+    "Bill",
+    "To:",
+    "Priscilla",
+    "Fowler",
+    "48109",
+    "Jason",
+    "Lights,",
+    "North",
+    "Patriciabury,",
+    "AS",
+    "68751",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Organic",
+    "florida",
+    "prince",
+    "peaches",
+    "24fY",
+    "8",
+    "$333.56",
+    "$2668.48",
+    "Clark",
+    "PLC",
+    "Dried",
+    "cherry",
+    "belle",
+    "tomatoes",
+    "5",
+    "$125.94",
+    "$629.70",
+    "Subtotal:",
+    "$3298.18",
+    "Tax:",
+    "$164.91",
+    "TOTAL:",
+    "$3463.09"
+  ],
+  "boxes": [
+    [
+      401,
+      55,
+      598,
+      77
+    ],
+    [
+      66,
+      100,
+      178,
+      113
+    ],
+    [
+      193,
+      100,
+      256,
+      113
+    ],
+    [
+      273,
+      100,
+      465,
+      113
+    ],
+    [
+      66,
+      141,
+      146,
+      154
+    ],
+    [
+      161,
+      141,
+      321,
+      155
+    ],
+    [
+      66,
+      205,
+      178,
+      218
+    ],
+    [
+      193,
+      205,
+      385,
+      218
+    ],
+    [
+      66,
+      244,
+      126,
+      255
+    ],
+    [
+      138,
+      244,
+      198,
+      255
+    ],
+    [
+      210,
+      244,
+      341,
+      258
+    ],
+    [
+      353,
+      244,
+      473,
+      258
+    ],
+    [
+      66,
+      265,
+      90,
+      275
+    ],
+    [
+      101,
+      264,
+      161,
+      275
+    ],
+    [
+      66,
+      305,
+      130,
+      318
+    ],
+    [
+      146,
+      305,
+      195,
+      318
+    ],
+    [
+      210,
+      305,
+      353,
+      318
+    ],
+    [
+      370,
+      305,
+      466,
+      318
+    ],
+    [
+      66,
+      344,
+      126,
+      355
+    ],
+    [
+      138,
+      345,
+      198,
+      355
+    ],
+    [
+      210,
+      344,
+      293,
+      358
+    ],
+    [
+      305,
+      344,
+      365,
+      355
+    ],
+    [
+      66,
+      364,
+      223,
+      378
+    ],
+    [
+      233,
+      365,
+      256,
+      375
+    ],
+    [
+      268,
+      364,
+      328,
+      375
+    ],
+    [
+      66,
+      408,
+      243,
+      425
+    ],
+    [
+      500,
+      408,
+      548,
+      425
+    ],
+    [
+      673,
+      408,
+      753,
+      422
+    ],
+    [
+      803,
+      408,
+      883,
+      422
+    ],
+    [
+      66,
+      446,
+      150,
+      460
+    ],
+    [
+      161,
+      445,
+      245,
+      456
+    ],
+    [
+      256,
+      446,
+      328,
+      460
+    ],
+    [
+      340,
+      445,
+      423,
+      460
+    ],
+    [
+      435,
+      445,
+      483,
+      456
+    ],
+    [
+      500,
+      446,
+      511,
+      456
+    ],
+    [
+      673,
+      444,
+      756,
+      457
+    ],
+    [
+      803,
+      444,
+      900,
+      457
+    ],
+    [
+      66,
+      476,
+      126,
+      487
+    ],
+    [
+      138,
+      477,
+      175,
+      487
+    ],
+    [
+      185,
+      476,
+      245,
+      487
+    ],
+    [
+      256,
+      476,
+      328,
+      491
+    ],
+    [
+      340,
+      476,
+      400,
+      487
+    ],
+    [
+      66,
+      497,
+      163,
+      507
+    ],
+    [
+      500,
+      477,
+      511,
+      487
+    ],
+    [
+      673,
+      475,
+      756,
+      488
+    ],
+    [
+      803,
+      475,
+      886,
+      488
+    ],
+    [
+      586,
+      532,
+      730,
+      545
+    ],
+    [
+      746,
+      531,
+      875,
+      547
+    ],
+    [
+      586,
+      576,
+      650,
+      590
+    ],
+    [
+      666,
+      575,
+      778,
+      592
+    ],
+    [
+      586,
+      624,
+      718,
+      642
+    ],
+    [
+      586,
+      644,
+      763,
+      667
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 600,
+  "image_height": 900,
+  "layout_type": "receipt",
+  "total_words": 52,
+  "invoice_data": {
+    "invoice_number": "INV-5CFC0EF7",
+    "invoice_date": "09/16/2024",
+    "vendor_name": "Li-Robertson",
+    "vendor_address": "81366 Smith Throughway, Aprilfort, AK 81927",
+    "customer_name": "Priscilla Fowler",
+    "customer_address": "48109 Jason Lights, North Patriciabury, AS 68751",
+    "line_items": [
+      {
+        "description": "Organic florida prince peaches 24fY",
+        "quantity": 8,
+        "unit_price": 333.56,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Organic fresh fruits",
+          "class_name": "Organic peaches",
+          "commodity_name": "Organic florida prince peaches",
+          "segment_code": "50000000",
+          "family_code": "50310000",
+          "class_code": "50315300",
+          "commodity_code": "50315327"
+        }
+      },
+      {
+        "description": "Clark PLC Dried cherry belle tomatoes",
+        "quantity": 5,
+        "unit_price": 125.94,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Dried vegetables",
+          "class_name": "Dried tomatoes",
+          "commodity_name": "Dried cherry belle tomatoes",
+          "segment_code": "50000000",
+          "family_code": "50420000",
+          "class_code": "50426400",
+          "commodity_code": "50426405"
+        }
+      }
+    ],
+    "subtotal": 3298.1800000000003,
+    "tax_amount": 164.91,
+    "total_amount": 3463.09
+  }
+}

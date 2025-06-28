@@ -1,0 +1,655 @@
+{
+  "id": "synthetic_invoice_0083",
+  "image_filename": "synthetic_invoice_0083.png",
+  "words": [
+    "BILL",
+    "Invoice",
+    "No.:",
+    "INV-74AC9671",
+    "Date:",
+    "03/26/2025",
+    "Vendor:",
+    "King,",
+    "Stephens",
+    "and",
+    "Cochran",
+    "507",
+    "Shannon",
+    "Burg,",
+    "Doyleshire,",
+    "OH",
+    "87209",
+    "Bill",
+    "To:",
+    "Stephanie",
+    "Hanna",
+    "8456",
+    "White",
+    "Glen,",
+    "East",
+    "Cynthiaburgh,",
+    "MI",
+    "15309",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Crisphead",
+    "lettuce",
+    "purees",
+    "10",
+    "$477.98",
+    "$4779.80",
+    "Canned",
+    "or",
+    "jarred",
+    "non",
+    "GMO",
+    "cerignola",
+    "olive",
+    "94TX",
+    "1",
+    "$62.94",
+    "$62.94",
+    "Organic",
+    "sunset",
+    "grape",
+    "purees",
+    "16Iu",
+    "8",
+    "$242.39",
+    "$1939.12",
+    "Dried",
+    "non",
+    "GMO",
+    "persian",
+    "melons",
+    "3",
+    "$217.94",
+    "$653.82",
+    "Subtotal:",
+    "$7435.68",
+    "Tax:",
+    "$371.78",
+    "TOTAL:",
+    "$7807.46"
+  ],
+  "boxes": [
+    [
+      457,
+      63,
+      541,
+      81
+    ],
+    [
+      75,
+      109,
+      158,
+      120
+    ],
+    [
+      170,
+      109,
+      217,
+      120
+    ],
+    [
+      230,
+      109,
+      373,
+      120
+    ],
+    [
+      75,
+      147,
+      135,
+      158
+    ],
+    [
+      146,
+      147,
+      266,
+      159
+    ],
+    [
+      75,
+      213,
+      158,
+      224
+    ],
+    [
+      170,
+      213,
+      230,
+      227
+    ],
+    [
+      241,
+      213,
+      337,
+      227
+    ],
+    [
+      348,
+      213,
+      385,
+      224
+    ],
+    [
+      396,
+      213,
+      480,
+      224
+    ],
+    [
+      75,
+      253,
+      102,
+      261
+    ],
+    [
+      110,
+      252,
+      172,
+      261
+    ],
+    [
+      181,
+      253,
+      226,
+      264
+    ],
+    [
+      235,
+      252,
+      333,
+      264
+    ],
+    [
+      342,
+      253,
+      360,
+      261
+    ],
+    [
+      368,
+      253,
+      413,
+      261
+    ],
+    [
+      75,
+      298,
+      122,
+      309
+    ],
+    [
+      135,
+      298,
+      171,
+      309
+    ],
+    [
+      182,
+      298,
+      290,
+      311
+    ],
+    [
+      302,
+      298,
+      362,
+      309
+    ],
+    [
+      75,
+      338,
+      111,
+      346
+    ],
+    [
+      120,
+      337,
+      165,
+      346
+    ],
+    [
+      173,
+      337,
+      218,
+      349
+    ],
+    [
+      227,
+      338,
+      263,
+      346
+    ],
+    [
+      272,
+      337,
+      390,
+      349
+    ],
+    [
+      397,
+      338,
+      415,
+      346
+    ],
+    [
+      423,
+      337,
+      468,
+      346
+    ],
+    [
+      75,
+      382,
+      207,
+      396
+    ],
+    [
+      500,
+      382,
+      536,
+      396
+    ],
+    [
+      668,
+      382,
+      728,
+      393
+    ],
+    [
+      797,
+      382,
+      857,
+      393
+    ],
+    [
+      75,
+      412,
+      156,
+      424
+    ],
+    [
+      165,
+      412,
+      227,
+      421
+    ],
+    [
+      236,
+      415,
+      290,
+      424
+    ],
+    [
+      500,
+      412,
+      517,
+      421
+    ],
+    [
+      668,
+      411,
+      731,
+      422
+    ],
+    [
+      797,
+      411,
+      870,
+      422
+    ],
+    [
+      75,
+      442,
+      128,
+      451
+    ],
+    [
+      137,
+      445,
+      155,
+      451
+    ],
+    [
+      163,
+      442,
+      217,
+      454
+    ],
+    [
+      226,
+      445,
+      253,
+      451
+    ],
+    [
+      261,
+      443,
+      288,
+      451
+    ],
+    [
+      296,
+      442,
+      377,
+      454
+    ],
+    [
+      386,
+      442,
+      431,
+      451
+    ],
+    [
+      440,
+      443,
+      476,
+      451
+    ],
+    [
+      500,
+      442,
+      508,
+      451
+    ],
+    [
+      668,
+      441,
+      722,
+      452
+    ],
+    [
+      797,
+      441,
+      851,
+      452
+    ],
+    [
+      75,
+      473,
+      137,
+      484
+    ],
+    [
+      146,
+      473,
+      200,
+      481
+    ],
+    [
+      208,
+      475,
+      253,
+      484
+    ],
+    [
+      262,
+      475,
+      316,
+      484
+    ],
+    [
+      325,
+      472,
+      361,
+      481
+    ],
+    [
+      500,
+      473,
+      508,
+      481
+    ],
+    [
+      668,
+      471,
+      731,
+      482
+    ],
+    [
+      797,
+      471,
+      870,
+      482
+    ],
+    [
+      75,
+      502,
+      120,
+      511
+    ],
+    [
+      128,
+      505,
+      156,
+      511
+    ],
+    [
+      163,
+      503,
+      191,
+      511
+    ],
+    [
+      198,
+      503,
+      261,
+      514
+    ],
+    [
+      270,
+      502,
+      323,
+      511
+    ],
+    [
+      500,
+      503,
+      508,
+      511
+    ],
+    [
+      668,
+      501,
+      731,
+      512
+    ],
+    [
+      797,
+      501,
+      860,
+      512
+    ],
+    [
+      585,
+      561,
+      692,
+      572
+    ],
+    [
+      705,
+      560,
+      801,
+      574
+    ],
+    [
+      585,
+      602,
+      632,
+      613
+    ],
+    [
+      645,
+      601,
+      728,
+      615
+    ],
+    [
+      585,
+      646,
+      683,
+      660
+    ],
+    [
+      700,
+      643,
+      832,
+      662
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    0,
+    0,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 800,
+  "image_height": 1100,
+  "layout_type": "standard",
+  "total_words": 71,
+  "invoice_data": {
+    "invoice_number": "INV-74AC9671",
+    "invoice_date": "03/26/2025",
+    "vendor_name": "King, Stephens and Cochran",
+    "vendor_address": "507 Shannon Burg, Doyleshire, OH 87209",
+    "customer_name": "Stephanie Hanna",
+    "customer_address": "8456 White Glen, East Cynthiaburgh, MI 15309",
+    "line_items": [
+      {
+        "description": "Crisphead lettuce purees",
+        "quantity": 10,
+        "unit_price": 477.98,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Fresh vegetable purees",
+          "class_name": "Lettuce purees",
+          "commodity_name": "Crisphead lettuce purees",
+          "segment_code": "50000000",
+          "family_code": "50480000",
+          "class_code": "50484600",
+          "commodity_code": "50484613"
+        }
+      },
+      {
+        "description": "Canned or jarred non GMO cerignola olive 94TX",
+        "quantity": 1,
+        "unit_price": 62.94,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Canned or jarred non GMO fruits",
+          "class_name": "Canned or jarred non GMO olives",
+          "commodity_name": "Canned or jarred non GMO cerignola olives",
+          "segment_code": "50000000",
+          "family_code": "50550000",
+          "class_code": "50557200",
+          "commodity_code": "50557208"
+        }
+      },
+      {
+        "description": "Organic sunset grape purees 16Iu",
+        "quantity": 8,
+        "unit_price": 242.39,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Organic fresh fruit purees",
+          "class_name": "Organic table grape purees",
+          "commodity_name": "Organic sunset grape purees",
+          "segment_code": "50000000",
+          "family_code": "50390000",
+          "class_code": "50393400",
+          "commodity_code": "50393490"
+        }
+      },
+      {
+        "description": "Dried non GMO persian melons",
+        "quantity": 3,
+        "unit_price": 217.94,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Dried non GMO fruits",
+          "class_name": "Dried non GMO melons",
+          "commodity_name": "Dried non GMO persian melons",
+          "segment_code": "50000000",
+          "family_code": "50530000",
+          "class_code": "50534600",
+          "commodity_code": "50534638"
+        }
+      }
+    ],
+    "subtotal": 7435.68,
+    "tax_amount": 371.78,
+    "total_amount": 7807.46
+  }
+}

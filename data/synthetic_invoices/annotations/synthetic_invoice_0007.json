@@ -1,0 +1,552 @@
+{
+  "id": "synthetic_invoice_0007",
+  "image_filename": "synthetic_invoice_0007.png",
+  "words": [
+    "BILL",
+    "Invoice",
+    "No.:",
+    "INV-68859287",
+    "Date:",
+    "05/02/2025",
+    "Vendor:",
+    "Franco-Smith",
+    "831",
+    "Sims",
+    "Cliffs,",
+    "Luistown,",
+    "MS",
+    "14848",
+    "Bill",
+    "To:",
+    "Cheryl",
+    "Martin",
+    "68125",
+    "Elizabeth",
+    "Viaduct",
+    "Suite",
+    "207,",
+    "Lake",
+    "Julie,",
+    "KY",
+    "29331",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Basil",
+    "purees",
+    "56tw",
+    "8",
+    "$88.79",
+    "$710.32",
+    "Live",
+    "classy",
+    "rose",
+    "bush",
+    "92ui",
+    "8",
+    "$79.84",
+    "$638.72",
+    "Morrison",
+    "Inc",
+    "Thermal",
+    "insulation",
+    "kits",
+    "91EQ",
+    "7",
+    "$398.08",
+    "$2786.56",
+    "Subtotal:",
+    "$4135.60",
+    "Tax:",
+    "$413.56",
+    "TOTAL:",
+    "$4549.16"
+  ],
+  "boxes": [
+    [
+      443,
+      55,
+      555,
+      77
+    ],
+    [
+      66,
+      100,
+      178,
+      113
+    ],
+    [
+      193,
+      100,
+      256,
+      113
+    ],
+    [
+      273,
+      100,
+      465,
+      113
+    ],
+    [
+      66,
+      141,
+      146,
+      154
+    ],
+    [
+      161,
+      141,
+      321,
+      155
+    ],
+    [
+      66,
+      205,
+      178,
+      218
+    ],
+    [
+      193,
+      205,
+      385,
+      218
+    ],
+    [
+      66,
+      244,
+      103,
+      255
+    ],
+    [
+      113,
+      245,
+      161,
+      255
+    ],
+    [
+      173,
+      244,
+      256,
+      258
+    ],
+    [
+      268,
+      245,
+      376,
+      258
+    ],
+    [
+      388,
+      245,
+      411,
+      255
+    ],
+    [
+      423,
+      244,
+      483,
+      255
+    ],
+    [
+      66,
+      288,
+      130,
+      302
+    ],
+    [
+      146,
+      288,
+      195,
+      302
+    ],
+    [
+      210,
+      288,
+      306,
+      305
+    ],
+    [
+      321,
+      288,
+      418,
+      302
+    ],
+    [
+      66,
+      331,
+      126,
+      342
+    ],
+    [
+      138,
+      331,
+      246,
+      342
+    ],
+    [
+      258,
+      331,
+      341,
+      342
+    ],
+    [
+      353,
+      332,
+      413,
+      342
+    ],
+    [
+      425,
+      332,
+      473,
+      345
+    ],
+    [
+      66,
+      351,
+      115,
+      362
+    ],
+    [
+      126,
+      351,
+      198,
+      365
+    ],
+    [
+      210,
+      352,
+      233,
+      362
+    ],
+    [
+      245,
+      351,
+      305,
+      362
+    ],
+    [
+      66,
+      395,
+      243,
+      412
+    ],
+    [
+      500,
+      395,
+      548,
+      412
+    ],
+    [
+      673,
+      395,
+      753,
+      408
+    ],
+    [
+      803,
+      395,
+      883,
+      408
+    ],
+    [
+      66,
+      432,
+      126,
+      443
+    ],
+    [
+      138,
+      435,
+      210,
+      446
+    ],
+    [
+      221,
+      433,
+      270,
+      443
+    ],
+    [
+      500,
+      433,
+      511,
+      443
+    ],
+    [
+      673,
+      431,
+      745,
+      444
+    ],
+    [
+      803,
+      431,
+      886,
+      444
+    ],
+    [
+      66,
+      464,
+      115,
+      474
+    ],
+    [
+      126,
+      463,
+      198,
+      477
+    ],
+    [
+      210,
+      466,
+      258,
+      474
+    ],
+    [
+      270,
+      463,
+      318,
+      474
+    ],
+    [
+      330,
+      464,
+      378,
+      474
+    ],
+    [
+      500,
+      464,
+      511,
+      474
+    ],
+    [
+      673,
+      462,
+      745,
+      475
+    ],
+    [
+      803,
+      462,
+      886,
+      475
+    ],
+    [
+      66,
+      495,
+      163,
+      505
+    ],
+    [
+      173,
+      495,
+      210,
+      505
+    ],
+    [
+      220,
+      494,
+      303,
+      505
+    ],
+    [
+      315,
+      494,
+      435,
+      505
+    ],
+    [
+      446,
+      494,
+      495,
+      505
+    ],
+    [
+      66,
+      511,
+      115,
+      524
+    ],
+    [
+      500,
+      495,
+      511,
+      505
+    ],
+    [
+      673,
+      493,
+      756,
+      506
+    ],
+    [
+      803,
+      493,
+      900,
+      506
+    ],
+    [
+      586,
+      550,
+      730,
+      563
+    ],
+    [
+      746,
+      548,
+      875,
+      565
+    ],
+    [
+      586,
+      594,
+      650,
+      607
+    ],
+    [
+      666,
+      593,
+      778,
+      610
+    ],
+    [
+      586,
+      642,
+      718,
+      660
+    ],
+    [
+      586,
+      662,
+      763,
+      685
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 600,
+  "image_height": 900,
+  "layout_type": "receipt",
+  "total_words": 60,
+  "invoice_data": {
+    "invoice_number": "INV-68859287",
+    "invoice_date": "05/02/2025",
+    "vendor_name": "Franco-Smith",
+    "vendor_address": "831 Sims Cliffs, Luistown, MS 14848",
+    "customer_name": "Cheryl Martin",
+    "customer_address": "68125 Elizabeth Viaduct Suite 207, Lake Julie, KY 29331",
+    "line_items": [
+      {
+        "description": "Basil purees 56tw",
+        "quantity": 8,
+        "unit_price": 88.79,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Fresh vegetable purees",
+          "class_name": "Herb purees",
+          "commodity_name": "Basil purees",
+          "segment_code": "50000000",
+          "family_code": "50480000",
+          "class_code": "50484100",
+          "commodity_code": "50484101"
+        }
+      },
+      {
+        "description": "Live classy rose bush 92ui",
+        "quantity": 8,
+        "unit_price": 79.84,
+        "unspsc_details": {
+          "segment_name": "Live Plant and Animal Material and Accessories and Supplies",
+          "family_name": "Live rose bushes",
+          "class_name": "Live red or burgundy rose bushes",
+          "commodity_name": "Live classy rose bush",
+          "segment_code": "10000000",
+          "family_code": "10200000",
+          "class_code": "10202400",
+          "commodity_code": "10202415"
+        }
+      },
+      {
+        "description": "Morrison Inc Thermal insulation kits 91EQ",
+        "quantity": 7,
+        "unit_price": 398.08,
+        "unspsc_details": {
+          "segment_name": "Structures and Building and Construction and Manufacturing Components and Supplies",
+          "family_name": "Insulation",
+          "class_name": "Thermal insulation",
+          "commodity_name": "Thermal insulation kits",
+          "segment_code": "30000000",
+          "family_code": "30140000",
+          "class_code": "30141500",
+          "commodity_code": "30141512"
+        }
+      }
+    ],
+    "subtotal": 4135.6,
+    "tax_amount": 413.56,
+    "total_amount": 4549.16
+  }
+}

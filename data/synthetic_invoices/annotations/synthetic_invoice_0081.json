@@ -1,0 +1,576 @@
+{
+  "id": "synthetic_invoice_0081",
+  "image_filename": "synthetic_invoice_0081.png",
+  "words": [
+    "INVOICE",
+    "Invoice",
+    "No.:",
+    "INV-2F0C21D2",
+    "Date:",
+    "06/29/2024",
+    "Vendor:",
+    "Jensen-Collier",
+    "61781",
+    "Lawrence",
+    "Mill",
+    "Apt.",
+    "479,",
+    "Port",
+    "Randyshire,",
+    "CA",
+    "60176",
+    "Bill",
+    "To:",
+    "Michael",
+    "Bryant",
+    "DVM",
+    "04002",
+    "Snow",
+    "Viaduct,",
+    "East",
+    "Sydneymouth,",
+    "ND",
+    "87092",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Miller",
+    "Group",
+    "Rabbits",
+    "7",
+    "$309.48",
+    "$2166.36",
+    "Mitchell,",
+    "Moral",
+    "Frozen",
+    "holiday",
+    "plums",
+    "1",
+    "$107.80",
+    "$107.80",
+    "Dried",
+    "cut",
+    "posey",
+    "dark",
+    "mozart",
+    "calla",
+    "47an",
+    "10",
+    "$281.36",
+    "$2813.60",
+    "Subtotal:",
+    "$5087.76",
+    "Tax:",
+    "$254.39",
+    "TOTAL:",
+    "$5342.15"
+  ],
+  "boxes": [
+    [
+      421,
+      60,
+      578,
+      80
+    ],
+    [
+      66,
+      105,
+      156,
+      117
+    ],
+    [
+      168,
+      105,
+      218,
+      117
+    ],
+    [
+      232,
+      105,
+      385,
+      117
+    ],
+    [
+      66,
+      144,
+      130,
+      156
+    ],
+    [
+      142,
+      144,
+      270,
+      157
+    ],
+    [
+      66,
+      209,
+      156,
+      221
+    ],
+    [
+      168,
+      209,
+      348,
+      221
+    ],
+    [
+      66,
+      246,
+      114,
+      256
+    ],
+    [
+      124,
+      247,
+      201,
+      256
+    ],
+    [
+      209,
+      246,
+      248,
+      256
+    ],
+    [
+      257,
+      247,
+      296,
+      259
+    ],
+    [
+      305,
+      247,
+      344,
+      259
+    ],
+    [
+      353,
+      247,
+      392,
+      256
+    ],
+    [
+      66,
+      264,
+      172,
+      277
+    ],
+    [
+      181,
+      265,
+      200,
+      274
+    ],
+    [
+      209,
+      264,
+      257,
+      274
+    ],
+    [
+      66,
+      309,
+      117,
+      321
+    ],
+    [
+      130,
+      309,
+      169,
+      321
+    ],
+    [
+      181,
+      309,
+      270,
+      321
+    ],
+    [
+      282,
+      309,
+      360,
+      324
+    ],
+    [
+      372,
+      309,
+      410,
+      321
+    ],
+    [
+      66,
+      350,
+      114,
+      359
+    ],
+    [
+      124,
+      350,
+      162,
+      359
+    ],
+    [
+      172,
+      349,
+      249,
+      362
+    ],
+    [
+      257,
+      350,
+      296,
+      359
+    ],
+    [
+      305,
+      349,
+      420,
+      362
+    ],
+    [
+      429,
+      350,
+      448,
+      359
+    ],
+    [
+      66,
+      368,
+      114,
+      377
+    ],
+    [
+      66,
+      408,
+      208,
+      423
+    ],
+    [
+      500,
+      408,
+      538,
+      423
+    ],
+    [
+      672,
+      408,
+      736,
+      420
+    ],
+    [
+      802,
+      408,
+      866,
+      420
+    ],
+    [
+      66,
+      441,
+      124,
+      451
+    ],
+    [
+      133,
+      442,
+      181,
+      454
+    ],
+    [
+      190,
+      441,
+      257,
+      451
+    ],
+    [
+      500,
+      442,
+      509,
+      451
+    ],
+    [
+      672,
+      440,
+      738,
+      452
+    ],
+    [
+      802,
+      440,
+      880,
+      452
+    ],
+    [
+      66,
+      471,
+      153,
+      484
+    ],
+    [
+      162,
+      471,
+      210,
+      481
+    ],
+    [
+      220,
+      472,
+      277,
+      481
+    ],
+    [
+      286,
+      471,
+      353,
+      484
+    ],
+    [
+      362,
+      471,
+      410,
+      484
+    ],
+    [
+      500,
+      471,
+      509,
+      481
+    ],
+    [
+      672,
+      470,
+      738,
+      482
+    ],
+    [
+      802,
+      470,
+      869,
+      482
+    ],
+    [
+      66,
+      501,
+      114,
+      511
+    ],
+    [
+      124,
+      502,
+      153,
+      511
+    ],
+    [
+      161,
+      504,
+      209,
+      514
+    ],
+    [
+      218,
+      501,
+      257,
+      511
+    ],
+    [
+      266,
+      502,
+      324,
+      511
+    ],
+    [
+      333,
+      501,
+      381,
+      511
+    ],
+    [
+      390,
+      502,
+      429,
+      511
+    ],
+    [
+      500,
+      501,
+      518,
+      511
+    ],
+    [
+      672,
+      500,
+      738,
+      512
+    ],
+    [
+      802,
+      500,
+      880,
+      512
+    ],
+    [
+      586,
+      558,
+      701,
+      570
+    ],
+    [
+      714,
+      557,
+      817,
+      572
+    ],
+    [
+      586,
+      600,
+      637,
+      612
+    ],
+    [
+      650,
+      599,
+      740,
+      614
+    ],
+    [
+      586,
+      645,
+      692,
+      661
+    ],
+    [
+      709,
+      642,
+      850,
+      663
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 750,
+  "image_height": 1000,
+  "layout_type": "compact",
+  "total_words": 63,
+  "invoice_data": {
+    "invoice_number": "INV-2F0C21D2",
+    "invoice_date": "06/29/2024",
+    "vendor_name": "Jensen-Collier",
+    "vendor_address": "61781 Lawrence Mill Apt. 479, Port Randyshire, CA 60176",
+    "customer_name": "Michael Bryant DVM",
+    "customer_address": "04002 Snow Viaduct, East Sydneymouth, ND 87092",
+    "line_items": [
+      {
+        "description": "Miller Group Rabbits",
+        "quantity": 7,
+        "unit_price": 309.48,
+        "unspsc_details": {
+          "segment_name": "Live Plant and Animal Material and Accessories and Supplies",
+          "family_name": "Live animals",
+          "class_name": "Livestock",
+          "commodity_name": "Rabbits",
+          "segment_code": "10000000",
+          "family_code": "10100000",
+          "class_code": "10101500",
+          "commodity_code": "10101512"
+        }
+      },
+      {
+        "description": "Mitchell, Moral Frozen holiday plums",
+        "quantity": 1,
+        "unit_price": 107.8,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Frozen fruit",
+          "class_name": "Frozen plums",
+          "commodity_name": "Frozen holiday plums",
+          "segment_code": "50000000",
+          "family_code": "50340000",
+          "class_code": "50345800",
+          "commodity_code": "50345839"
+        }
+      },
+      {
+        "description": "Dried cut posey dark mozart calla 47an",
+        "quantity": 10,
+        "unit_price": 281.36,
+        "unspsc_details": {
+          "segment_name": "Live Plant and Animal Material and Accessories and Supplies",
+          "family_name": "Dried cut blooms of high species or variety count flowers",
+          "class_name": "Dried cut callas",
+          "commodity_name": "Dried cut posey dark mozart calla",
+          "segment_code": "10000000",
+          "family_code": "10410000",
+          "class_code": "10412600",
+          "commodity_code": "10412611"
+        }
+      }
+    ],
+    "subtotal": 5087.76,
+    "tax_amount": 254.39,
+    "total_amount": 5342.15
+  }
+}

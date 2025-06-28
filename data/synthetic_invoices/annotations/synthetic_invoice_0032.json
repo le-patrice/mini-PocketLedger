@@ -1,0 +1,607 @@
+{
+  "id": "synthetic_invoice_0032",
+  "image_filename": "synthetic_invoice_0032.png",
+  "words": [
+    "BILL",
+    "Invoice",
+    "No.:",
+    "INV-3D01AD33",
+    "Date:",
+    "06/01/2025",
+    "Vendor:",
+    "Maxwell-Adams",
+    "Unit",
+    "8470",
+    "Box",
+    "8961,",
+    "DPO",
+    "AE",
+    "64669",
+    "Bill",
+    "To:",
+    "Pamela",
+    "Bowers",
+    "066",
+    "Berger",
+    "Run,",
+    "New",
+    "Brenda,",
+    "NC",
+    "79638",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Canned",
+    "or",
+    "jarred",
+    "organic",
+    "pronto",
+    "beets",
+    "10",
+    "$17.92",
+    "$179.20",
+    "Sogonghu",
+    "10",
+    "$378.27",
+    "$3782.70",
+    "Motor",
+    "coil",
+    "23nm",
+    "8",
+    "$341.42",
+    "$2731.36",
+    "Harris",
+    "LLC",
+    "Dried",
+    "cut",
+    "conga",
+    "rose",
+    "19QT",
+    "6",
+    "$483.50",
+    "$2901.00",
+    "Subtotal:",
+    "$9594.26",
+    "Tax:",
+    "$479.71",
+    "TOTAL:",
+    "$10073.97"
+  ],
+  "boxes": [
+    [
+      443,
+      55,
+      555,
+      77
+    ],
+    [
+      66,
+      100,
+      178,
+      113
+    ],
+    [
+      193,
+      100,
+      256,
+      113
+    ],
+    [
+      273,
+      100,
+      465,
+      113
+    ],
+    [
+      66,
+      141,
+      146,
+      154
+    ],
+    [
+      161,
+      141,
+      321,
+      155
+    ],
+    [
+      66,
+      205,
+      178,
+      218
+    ],
+    [
+      193,
+      205,
+      401,
+      218
+    ],
+    [
+      66,
+      245,
+      115,
+      255
+    ],
+    [
+      126,
+      245,
+      175,
+      255
+    ],
+    [
+      186,
+      245,
+      223,
+      255
+    ],
+    [
+      233,
+      244,
+      293,
+      258
+    ],
+    [
+      305,
+      245,
+      341,
+      255
+    ],
+    [
+      351,
+      245,
+      375,
+      255
+    ],
+    [
+      386,
+      245,
+      446,
+      255
+    ],
+    [
+      66,
+      288,
+      130,
+      302
+    ],
+    [
+      146,
+      288,
+      195,
+      302
+    ],
+    [
+      210,
+      288,
+      306,
+      302
+    ],
+    [
+      321,
+      288,
+      418,
+      302
+    ],
+    [
+      66,
+      328,
+      103,
+      338
+    ],
+    [
+      113,
+      328,
+      185,
+      342
+    ],
+    [
+      196,
+      328,
+      245,
+      342
+    ],
+    [
+      256,
+      328,
+      293,
+      338
+    ],
+    [
+      303,
+      327,
+      386,
+      342
+    ],
+    [
+      398,
+      328,
+      421,
+      338
+    ],
+    [
+      433,
+      328,
+      493,
+      338
+    ],
+    [
+      66,
+      372,
+      243,
+      388
+    ],
+    [
+      500,
+      372,
+      548,
+      388
+    ],
+    [
+      673,
+      372,
+      753,
+      385
+    ],
+    [
+      803,
+      372,
+      883,
+      385
+    ],
+    [
+      66,
+      408,
+      138,
+      420
+    ],
+    [
+      150,
+      412,
+      173,
+      420
+    ],
+    [
+      185,
+      408,
+      256,
+      423
+    ],
+    [
+      268,
+      410,
+      351,
+      423
+    ],
+    [
+      363,
+      410,
+      435,
+      423
+    ],
+    [
+      66,
+      428,
+      126,
+      440
+    ],
+    [
+      500,
+      408,
+      523,
+      420
+    ],
+    [
+      673,
+      407,
+      745,
+      421
+    ],
+    [
+      803,
+      407,
+      886,
+      421
+    ],
+    [
+      66,
+      440,
+      163,
+      454
+    ],
+    [
+      500,
+      440,
+      523,
+      451
+    ],
+    [
+      673,
+      438,
+      756,
+      452
+    ],
+    [
+      803,
+      438,
+      900,
+      452
+    ],
+    [
+      66,
+      472,
+      126,
+      482
+    ],
+    [
+      138,
+      471,
+      186,
+      482
+    ],
+    [
+      198,
+      472,
+      246,
+      482
+    ],
+    [
+      500,
+      472,
+      511,
+      482
+    ],
+    [
+      673,
+      470,
+      756,
+      483
+    ],
+    [
+      803,
+      470,
+      900,
+      483
+    ],
+    [
+      66,
+      503,
+      138,
+      513
+    ],
+    [
+      150,
+      503,
+      186,
+      513
+    ],
+    [
+      196,
+      502,
+      256,
+      513
+    ],
+    [
+      268,
+      503,
+      305,
+      513
+    ],
+    [
+      315,
+      505,
+      375,
+      516
+    ],
+    [
+      386,
+      505,
+      435,
+      513
+    ],
+    [
+      446,
+      502,
+      495,
+      515
+    ],
+    [
+      500,
+      503,
+      511,
+      513
+    ],
+    [
+      673,
+      501,
+      756,
+      514
+    ],
+    [
+      803,
+      501,
+      900,
+      514
+    ],
+    [
+      586,
+      557,
+      730,
+      571
+    ],
+    [
+      746,
+      556,
+      875,
+      573
+    ],
+    [
+      586,
+      602,
+      650,
+      615
+    ],
+    [
+      666,
+      601,
+      778,
+      617
+    ],
+    [
+      586,
+      650,
+      718,
+      667
+    ],
+    [
+      586,
+      670,
+      785,
+      693
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 600,
+  "image_height": 900,
+  "layout_type": "receipt",
+  "total_words": 65,
+  "invoice_data": {
+    "invoice_number": "INV-3D01AD33",
+    "invoice_date": "06/01/2025",
+    "vendor_name": "Maxwell-Adams",
+    "vendor_address": "Unit 8470 Box 8961, DPO AE 64669",
+    "customer_name": "Pamela Bowers",
+    "customer_address": "066 Berger Run, New Brenda, NC 79638",
+    "line_items": [
+      {
+        "description": "Canned or jarred organic pronto beets",
+        "quantity": 10,
+        "unit_price": 17.92,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Canned or jarred organic vegetables",
+          "class_name": "Canned or jarred organic beets",
+          "commodity_name": "Canned or jarred organic pronto beets",
+          "segment_code": "50000000",
+          "family_code": "50470000",
+          "class_code": "50471900",
+          "commodity_code": "50471920"
+        }
+      },
+      {
+        "description": "Sogonghu",
+        "quantity": 10,
+        "unit_price": 378.27,
+        "unspsc_details": {
+          "segment_name": "Musical Instruments and Games and Toys and Arts and Crafts and Educational Equipment and Materials and Accessories and Supplies",
+          "family_name": "Musical Instruments and parts and accessories",
+          "class_name": "String instruments",
+          "commodity_name": "Sogonghu",
+          "segment_code": "60000000",
+          "family_code": "60130000",
+          "class_code": "60131300",
+          "commodity_code": "60131320"
+        }
+      },
+      {
+        "description": "Motor coil 23nm",
+        "quantity": 8,
+        "unit_price": 341.42,
+        "unspsc_details": {
+          "segment_name": "Power Generation and Distribution Machinery and Accessories",
+          "family_name": "Power sources",
+          "class_name": "Motor or generator components",
+          "commodity_name": "Motor coil",
+          "segment_code": "26000000",
+          "family_code": "26100000",
+          "class_code": "26101400",
+          "commodity_code": "26101405"
+        }
+      },
+      {
+        "description": "Harris LLC Dried cut conga rose 19QT",
+        "quantity": 6,
+        "unit_price": 483.5,
+        "unspsc_details": {
+          "segment_name": "Live Plant and Animal Material and Accessories and Supplies",
+          "family_name": "Dried cut roses",
+          "class_name": "Dried cut yellow rose",
+          "commodity_name": "Dried cut conga rose",
+          "segment_code": "10000000",
+          "family_code": "10400000",
+          "class_code": "10402700",
+          "commodity_code": "10402714"
+        }
+      }
+    ],
+    "subtotal": 9594.26,
+    "tax_amount": 479.71,
+    "total_amount": 10073.97
+  }
+}

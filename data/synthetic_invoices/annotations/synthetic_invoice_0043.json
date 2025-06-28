@@ -1,0 +1,449 @@
+{
+  "id": "synthetic_invoice_0043",
+  "image_filename": "synthetic_invoice_0043.png",
+  "words": [
+    "INVOICE",
+    "Invoice",
+    "No.:",
+    "INV-7A044005",
+    "Date:",
+    "05/16/2025",
+    "Vendor:",
+    "Burton",
+    "Group",
+    "215",
+    "Luis",
+    "Dale,",
+    "East",
+    "Ericfurt,",
+    "AL",
+    "29244",
+    "Bill",
+    "To:",
+    "Ryan",
+    "Thomas",
+    "119",
+    "James",
+    "Points,",
+    "Andrewsburgh,",
+    "PA",
+    "71497",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Stainless",
+    "steel",
+    "alloy",
+    "316",
+    "1",
+    "$257.84",
+    "$257.84",
+    "Wood",
+    "PLC",
+    "Zindotrine",
+    "6",
+    "$468.58",
+    "$2811.48",
+    "Subtotal:",
+    "$3069.32",
+    "Tax:",
+    "$153.47",
+    "TOTAL:",
+    "$3222.79"
+  ],
+  "boxes": [
+    [
+      421,
+      60,
+      578,
+      80
+    ],
+    [
+      66,
+      105,
+      156,
+      117
+    ],
+    [
+      168,
+      105,
+      218,
+      117
+    ],
+    [
+      232,
+      105,
+      385,
+      117
+    ],
+    [
+      66,
+      144,
+      130,
+      156
+    ],
+    [
+      142,
+      144,
+      270,
+      157
+    ],
+    [
+      66,
+      209,
+      156,
+      221
+    ],
+    [
+      168,
+      209,
+      245,
+      221
+    ],
+    [
+      257,
+      209,
+      321,
+      224
+    ],
+    [
+      66,
+      249,
+      96,
+      259
+    ],
+    [
+      104,
+      250,
+      142,
+      259
+    ],
+    [
+      152,
+      249,
+      200,
+      262
+    ],
+    [
+      209,
+      250,
+      248,
+      259
+    ],
+    [
+      257,
+      249,
+      344,
+      262
+    ],
+    [
+      353,
+      250,
+      372,
+      259
+    ],
+    [
+      381,
+      250,
+      429,
+      259
+    ],
+    [
+      66,
+      294,
+      117,
+      306
+    ],
+    [
+      130,
+      294,
+      169,
+      306
+    ],
+    [
+      181,
+      294,
+      232,
+      309
+    ],
+    [
+      245,
+      294,
+      322,
+      306
+    ],
+    [
+      66,
+      334,
+      96,
+      344
+    ],
+    [
+      104,
+      335,
+      152,
+      344
+    ],
+    [
+      161,
+      335,
+      228,
+      347
+    ],
+    [
+      237,
+      334,
+      362,
+      347
+    ],
+    [
+      370,
+      335,
+      389,
+      344
+    ],
+    [
+      398,
+      334,
+      446,
+      344
+    ],
+    [
+      66,
+      379,
+      208,
+      394
+    ],
+    [
+      500,
+      379,
+      538,
+      394
+    ],
+    [
+      672,
+      379,
+      736,
+      391
+    ],
+    [
+      802,
+      379,
+      866,
+      391
+    ],
+    [
+      66,
+      412,
+      153,
+      422
+    ],
+    [
+      162,
+      412,
+      210,
+      422
+    ],
+    [
+      220,
+      412,
+      268,
+      425
+    ],
+    [
+      277,
+      412,
+      306,
+      422
+    ],
+    [
+      500,
+      412,
+      509,
+      422
+    ],
+    [
+      672,
+      411,
+      738,
+      423
+    ],
+    [
+      802,
+      411,
+      869,
+      423
+    ],
+    [
+      66,
+      442,
+      105,
+      452
+    ],
+    [
+      114,
+      443,
+      144,
+      452
+    ],
+    [
+      152,
+      442,
+      248,
+      452
+    ],
+    [
+      500,
+      443,
+      509,
+      452
+    ],
+    [
+      672,
+      441,
+      738,
+      453
+    ],
+    [
+      802,
+      441,
+      880,
+      453
+    ],
+    [
+      586,
+      499,
+      701,
+      511
+    ],
+    [
+      714,
+      498,
+      817,
+      513
+    ],
+    [
+      586,
+      541,
+      637,
+      553
+    ],
+    [
+      650,
+      540,
+      740,
+      555
+    ],
+    [
+      586,
+      586,
+      692,
+      602
+    ],
+    [
+      709,
+      583,
+      850,
+      604
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 750,
+  "image_height": 1000,
+  "layout_type": "compact",
+  "total_words": 49,
+  "invoice_data": {
+    "invoice_number": "INV-7A044005",
+    "invoice_date": "05/16/2025",
+    "vendor_name": "Burton Group",
+    "vendor_address": "215 Luis Dale, East Ericfurt, AL 29244",
+    "customer_name": "Ryan Thomas",
+    "customer_address": "119 James Points, Andrewsburgh, PA 71497",
+    "line_items": [
+      {
+        "description": "Stainless steel alloy 316",
+        "quantity": 1,
+        "unit_price": 257.84,
+        "unspsc_details": {
+          "segment_name": "Mineral and Textile and Inedible Plant and Animal Materials",
+          "family_name": "Alloys",
+          "class_name": "Stainless steel alloys",
+          "commodity_name": "Stainless steel alloy 316",
+          "segment_code": "11000000",
+          "family_code": "11170000",
+          "class_code": "11171600",
+          "commodity_code": "11171603"
+        }
+      },
+      {
+        "description": "Wood PLC Zindotrine",
+        "quantity": 6,
+        "unit_price": 468.58,
+        "unspsc_details": {
+          "segment_name": "Drugs and Pharmaceutical Products",
+          "family_name": "Sympathomimetic or adrenergic drugs",
+          "class_name": "Sympathomimetic or adrenergic pyridazines",
+          "commodity_name": "Zindotrine",
+          "segment_code": "51000000",
+          "family_code": "51390000",
+          "class_code": "51392800",
+          "commodity_code": "51392804"
+        }
+      }
+    ],
+    "subtotal": 3069.32,
+    "tax_amount": 153.47,
+    "total_amount": 3222.79
+  }
+}

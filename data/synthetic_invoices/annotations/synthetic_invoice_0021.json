@@ -1,0 +1,441 @@
+{
+  "id": "synthetic_invoice_0021",
+  "image_filename": "synthetic_invoice_0021.png",
+  "words": [
+    "RECEIPT",
+    "Invoice",
+    "No.:",
+    "INV-F7317C92",
+    "Date:",
+    "11/11/2024",
+    "Vendor:",
+    "Wilson-Lowe",
+    "65361",
+    "Brandon",
+    "Mountain,",
+    "Port",
+    "Debrashire,",
+    "NV",
+    "64784",
+    "Bill",
+    "To:",
+    "Danielle",
+    "Mcgrath",
+    "Unit",
+    "2634",
+    "Box",
+    "6960,",
+    "DPO",
+    "AP",
+    "06288",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Clotrimazole",
+    "9",
+    "$27.99",
+    "$251.91",
+    "Fresh",
+    "cut",
+    "papaya",
+    "rose",
+    "52zq",
+    "1",
+    "$201.81",
+    "$201.81",
+    "Subtotal:",
+    "$453.72",
+    "Tax:",
+    "$45.37",
+    "TOTAL:",
+    "$499.09"
+  ],
+  "boxes": [
+    [
+      401,
+      55,
+      598,
+      77
+    ],
+    [
+      66,
+      100,
+      178,
+      113
+    ],
+    [
+      193,
+      100,
+      256,
+      113
+    ],
+    [
+      273,
+      100,
+      465,
+      113
+    ],
+    [
+      66,
+      141,
+      146,
+      154
+    ],
+    [
+      161,
+      141,
+      321,
+      155
+    ],
+    [
+      66,
+      205,
+      178,
+      218
+    ],
+    [
+      193,
+      205,
+      370,
+      218
+    ],
+    [
+      66,
+      244,
+      126,
+      255
+    ],
+    [
+      138,
+      244,
+      221,
+      255
+    ],
+    [
+      233,
+      245,
+      341,
+      258
+    ],
+    [
+      353,
+      245,
+      401,
+      255
+    ],
+    [
+      66,
+      264,
+      198,
+      278
+    ],
+    [
+      210,
+      265,
+      233,
+      275
+    ],
+    [
+      245,
+      265,
+      305,
+      275
+    ],
+    [
+      66,
+      308,
+      130,
+      322
+    ],
+    [
+      146,
+      308,
+      195,
+      322
+    ],
+    [
+      210,
+      308,
+      338,
+      322
+    ],
+    [
+      353,
+      308,
+      465,
+      325
+    ],
+    [
+      66,
+      352,
+      115,
+      362
+    ],
+    [
+      126,
+      352,
+      175,
+      362
+    ],
+    [
+      186,
+      352,
+      223,
+      362
+    ],
+    [
+      233,
+      352,
+      293,
+      365
+    ],
+    [
+      305,
+      352,
+      341,
+      362
+    ],
+    [
+      351,
+      352,
+      375,
+      362
+    ],
+    [
+      386,
+      352,
+      446,
+      362
+    ],
+    [
+      66,
+      394,
+      243,
+      411
+    ],
+    [
+      500,
+      394,
+      548,
+      411
+    ],
+    [
+      673,
+      394,
+      753,
+      407
+    ],
+    [
+      803,
+      394,
+      883,
+      407
+    ],
+    [
+      66,
+      431,
+      210,
+      442
+    ],
+    [
+      500,
+      432,
+      511,
+      442
+    ],
+    [
+      673,
+      430,
+      745,
+      443
+    ],
+    [
+      803,
+      430,
+      886,
+      443
+    ],
+    [
+      66,
+      462,
+      126,
+      473
+    ],
+    [
+      138,
+      463,
+      175,
+      473
+    ],
+    [
+      185,
+      465,
+      256,
+      476
+    ],
+    [
+      268,
+      465,
+      316,
+      473
+    ],
+    [
+      328,
+      463,
+      376,
+      476
+    ],
+    [
+      500,
+      462,
+      511,
+      473
+    ],
+    [
+      673,
+      461,
+      756,
+      474
+    ],
+    [
+      803,
+      461,
+      886,
+      474
+    ],
+    [
+      586,
+      517,
+      730,
+      531
+    ],
+    [
+      746,
+      516,
+      858,
+      533
+    ],
+    [
+      586,
+      562,
+      650,
+      575
+    ],
+    [
+      666,
+      561,
+      763,
+      577
+    ],
+    [
+      586,
+      610,
+      718,
+      627
+    ],
+    [
+      586,
+      630,
+      740,
+      653
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 600,
+  "image_height": 900,
+  "layout_type": "receipt",
+  "total_words": 48,
+  "invoice_data": {
+    "invoice_number": "INV-F7317C92",
+    "invoice_date": "11/11/2024",
+    "vendor_name": "Wilson-Lowe",
+    "vendor_address": "65361 Brandon Mountain, Port Debrashire, NV 64784",
+    "customer_name": "Danielle Mcgrath",
+    "customer_address": "Unit 2634 Box 6960, DPO AP 06288",
+    "line_items": [
+      {
+        "description": "Clotrimazole",
+        "quantity": 9,
+        "unit_price": 27.99,
+        "unspsc_details": {
+          "segment_name": "Drugs and Pharmaceutical Products",
+          "family_name": "Antifungal drugs",
+          "class_name": "Antifungal imidazoles",
+          "commodity_name": "Clotrimazole",
+          "segment_code": "51000000",
+          "family_code": "51300000",
+          "class_code": "51302300",
+          "commodity_code": "51302308"
+        }
+      },
+      {
+        "description": "Fresh cut papaya rose 52zq",
+        "quantity": 1,
+        "unit_price": 201.81,
+        "unspsc_details": {
+          "segment_name": "Live Plant and Animal Material and Accessories and Supplies",
+          "family_name": "Fresh cut rose",
+          "class_name": "Fresh cut orange rose",
+          "commodity_name": "Fresh cut papaya rose",
+          "segment_code": "10000000",
+          "family_code": "10300000",
+          "class_code": "10302100",
+          "commodity_code": "10302165"
+        }
+      }
+    ],
+    "subtotal": 453.72,
+    "tax_amount": 45.37,
+    "total_amount": 499.09
+  }
+}

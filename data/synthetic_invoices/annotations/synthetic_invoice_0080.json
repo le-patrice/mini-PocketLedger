@@ -1,0 +1,639 @@
+{
+  "id": "synthetic_invoice_0080",
+  "image_filename": "synthetic_invoice_0080.png",
+  "words": [
+    "BILL",
+    "Invoice",
+    "No.:",
+    "INV-2F862D3B",
+    "Date:",
+    "04/02/2025",
+    "Vendor:",
+    "Carter,",
+    "Bradley",
+    "and",
+    "Wells",
+    "9127",
+    "Michael",
+    "Cliffs",
+    "Apt.",
+    "256,",
+    "New",
+    "Reneeburgh,",
+    "IN",
+    "87652",
+    "Bill",
+    "To:",
+    "Gina",
+    "Smith",
+    "31547",
+    "Powers",
+    "Plains",
+    "Suite",
+    "910,",
+    "Cherylfurt,",
+    "HI",
+    "98234",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Amikacin",
+    "sulfate",
+    "73yi",
+    "1",
+    "$324.08",
+    "$324.08",
+    "Dextran",
+    "70/hypromellose",
+    "5",
+    "$136.74",
+    "$683.70",
+    "Live",
+    "yellow",
+    "finess",
+    "rose",
+    "bush",
+    "6",
+    "$241.13",
+    "$1446.78",
+    "Frozen",
+    "organic",
+    "burgundy",
+    "grapefruit",
+    "10hT",
+    "8",
+    "$159.05",
+    "$1272.40",
+    "Subtotal:",
+    "$3726.96",
+    "Tax:",
+    "$186.35",
+    "TOTAL:",
+    "$3913.31"
+  ],
+  "boxes": [
+    [
+      454,
+      60,
+      544,
+      80
+    ],
+    [
+      66,
+      105,
+      156,
+      117
+    ],
+    [
+      168,
+      105,
+      218,
+      117
+    ],
+    [
+      232,
+      105,
+      385,
+      117
+    ],
+    [
+      66,
+      144,
+      130,
+      156
+    ],
+    [
+      142,
+      144,
+      270,
+      157
+    ],
+    [
+      66,
+      209,
+      156,
+      221
+    ],
+    [
+      168,
+      209,
+      257,
+      224
+    ],
+    [
+      269,
+      209,
+      360,
+      224
+    ],
+    [
+      370,
+      209,
+      409,
+      221
+    ],
+    [
+      421,
+      209,
+      485,
+      221
+    ],
+    [
+      66,
+      249,
+      105,
+      259
+    ],
+    [
+      114,
+      249,
+      181,
+      259
+    ],
+    [
+      190,
+      249,
+      248,
+      259
+    ],
+    [
+      257,
+      250,
+      296,
+      262
+    ],
+    [
+      305,
+      250,
+      344,
+      262
+    ],
+    [
+      353,
+      250,
+      382,
+      259
+    ],
+    [
+      390,
+      249,
+      496,
+      262
+    ],
+    [
+      66,
+      268,
+      85,
+      277
+    ],
+    [
+      94,
+      268,
+      142,
+      277
+    ],
+    [
+      66,
+      308,
+      117,
+      320
+    ],
+    [
+      130,
+      308,
+      169,
+      320
+    ],
+    [
+      181,
+      308,
+      232,
+      320
+    ],
+    [
+      245,
+      308,
+      309,
+      320
+    ],
+    [
+      66,
+      345,
+      114,
+      355
+    ],
+    [
+      124,
+      346,
+      181,
+      355
+    ],
+    [
+      190,
+      345,
+      248,
+      355
+    ],
+    [
+      257,
+      346,
+      305,
+      355
+    ],
+    [
+      314,
+      345,
+      353,
+      358
+    ],
+    [
+      362,
+      345,
+      468,
+      358
+    ],
+    [
+      477,
+      346,
+      496,
+      355
+    ],
+    [
+      66,
+      364,
+      114,
+      373
+    ],
+    [
+      66,
+      404,
+      208,
+      419
+    ],
+    [
+      500,
+      404,
+      538,
+      419
+    ],
+    [
+      672,
+      404,
+      736,
+      416
+    ],
+    [
+      802,
+      404,
+      866,
+      416
+    ],
+    [
+      66,
+      437,
+      144,
+      447
+    ],
+    [
+      152,
+      437,
+      218,
+      447
+    ],
+    [
+      228,
+      438,
+      266,
+      450
+    ],
+    [
+      500,
+      437,
+      509,
+      447
+    ],
+    [
+      672,
+      436,
+      738,
+      448
+    ],
+    [
+      802,
+      436,
+      869,
+      448
+    ],
+    [
+      66,
+      468,
+      133,
+      477
+    ],
+    [
+      142,
+      467,
+      286,
+      480
+    ],
+    [
+      500,
+      468,
+      509,
+      477
+    ],
+    [
+      672,
+      466,
+      738,
+      478
+    ],
+    [
+      802,
+      466,
+      869,
+      478
+    ],
+    [
+      66,
+      498,
+      105,
+      507
+    ],
+    [
+      114,
+      497,
+      172,
+      510
+    ],
+    [
+      181,
+      497,
+      238,
+      507
+    ],
+    [
+      248,
+      500,
+      286,
+      507
+    ],
+    [
+      296,
+      497,
+      334,
+      507
+    ],
+    [
+      500,
+      498,
+      509,
+      507
+    ],
+    [
+      672,
+      496,
+      738,
+      508
+    ],
+    [
+      802,
+      496,
+      880,
+      508
+    ],
+    [
+      66,
+      528,
+      124,
+      537
+    ],
+    [
+      133,
+      528,
+      200,
+      540
+    ],
+    [
+      209,
+      527,
+      286,
+      540
+    ],
+    [
+      294,
+      527,
+      390,
+      540
+    ],
+    [
+      400,
+      527,
+      438,
+      537
+    ],
+    [
+      500,
+      528,
+      509,
+      537
+    ],
+    [
+      672,
+      526,
+      738,
+      538
+    ],
+    [
+      802,
+      526,
+      880,
+      538
+    ],
+    [
+      586,
+      584,
+      701,
+      596
+    ],
+    [
+      714,
+      583,
+      817,
+      598
+    ],
+    [
+      586,
+      626,
+      637,
+      638
+    ],
+    [
+      650,
+      625,
+      740,
+      640
+    ],
+    [
+      586,
+      671,
+      692,
+      687
+    ],
+    [
+      709,
+      668,
+      850,
+      689
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    0,
+    0,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 750,
+  "image_height": 1000,
+  "layout_type": "compact",
+  "total_words": 69,
+  "invoice_data": {
+    "invoice_number": "INV-2F862D3B",
+    "invoice_date": "04/02/2025",
+    "vendor_name": "Carter, Bradley and Wells",
+    "vendor_address": "9127 Michael Cliffs Apt. 256, New Reneeburgh, IN 87652",
+    "customer_name": "Gina Smith",
+    "customer_address": "31547 Powers Plains Suite 910, Cherylfurt, HI 98234",
+    "line_items": [
+      {
+        "description": "Amikacin sulfate 73yi",
+        "quantity": 1,
+        "unit_price": 324.08,
+        "unspsc_details": {
+          "segment_name": "Drugs and Pharmaceutical Products",
+          "family_name": "Antibacterials",
+          "class_name": "Aminoglycosides",
+          "commodity_name": "Amikacin sulfate",
+          "segment_code": "51000000",
+          "family_code": "51280000",
+          "class_code": "51281600",
+          "commodity_code": "51281632"
+        }
+      },
+      {
+        "description": "Dextran 70/hypromellose",
+        "quantity": 5,
+        "unit_price": 136.74,
+        "unspsc_details": {
+          "segment_name": "Drugs and Pharmaceutical Products",
+          "family_name": "Drugs affecting the ears, eye, nose and skin",
+          "class_name": "Combination antiglaucoma, ophthalmic, and eye-related agents and preparations",
+          "commodity_name": "Dextran 70/hypromellose",
+          "segment_code": "51000000",
+          "family_code": "51240000",
+          "class_code": "51241500",
+          "commodity_code": "51241511"
+        }
+      },
+      {
+        "description": "Live yellow finess rose bush",
+        "quantity": 6,
+        "unit_price": 241.13,
+        "unspsc_details": {
+          "segment_name": "Live Plant and Animal Material and Accessories and Supplies",
+          "family_name": "Live rose bushes",
+          "class_name": "Live yellow rose bushes",
+          "commodity_name": "Live yellow finess rose bush",
+          "segment_code": "10000000",
+          "family_code": "10200000",
+          "class_code": "10202700",
+          "commodity_code": "10202779"
+        }
+      },
+      {
+        "description": "Frozen organic burgundy grapefruit 10hT",
+        "quantity": 8,
+        "unit_price": 159.05,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Frozen organic fruit",
+          "class_name": "Frozen organic grapefruit",
+          "commodity_name": "Frozen organic burgundy grapefruit",
+          "segment_code": "50000000",
+          "family_code": "50350000",
+          "class_code": "50353300",
+          "commodity_code": "50353301"
+        }
+      }
+    ],
+    "subtotal": 3726.96,
+    "tax_amount": 186.35,
+    "total_amount": 3913.31
+  }
+}

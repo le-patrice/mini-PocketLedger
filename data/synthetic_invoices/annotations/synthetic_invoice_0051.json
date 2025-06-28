@@ -1,0 +1,449 @@
+{
+  "id": "synthetic_invoice_0051",
+  "image_filename": "synthetic_invoice_0051.png",
+  "words": [
+    "BILL",
+    "Invoice",
+    "No.:",
+    "INV-5E3D41FA",
+    "Date:",
+    "01/20/2025",
+    "Vendor:",
+    "English-Cruz",
+    "04762",
+    "Weaver",
+    "Viaduct",
+    "Apt.",
+    "809,",
+    "Whitehaven,",
+    "MD",
+    "83348",
+    "Bill",
+    "To:",
+    "Mary",
+    "Nelson",
+    "2549",
+    "Shepherd",
+    "Stream",
+    "Suite",
+    "761,",
+    "Martinborough,",
+    "NC",
+    "27266",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Mapinastine",
+    "4",
+    "$141.68",
+    "$566.72",
+    "Frozen",
+    "red",
+    "diamond",
+    "nectarines",
+    "8",
+    "$183.65",
+    "$1469.20",
+    "Subtotal:",
+    "$2035.92",
+    "Tax:",
+    "$101.80",
+    "TOTAL:",
+    "$2137.72"
+  ],
+  "boxes": [
+    [
+      457,
+      63,
+      541,
+      81
+    ],
+    [
+      75,
+      109,
+      158,
+      120
+    ],
+    [
+      170,
+      109,
+      217,
+      120
+    ],
+    [
+      230,
+      109,
+      375,
+      120
+    ],
+    [
+      75,
+      147,
+      135,
+      158
+    ],
+    [
+      146,
+      147,
+      266,
+      159
+    ],
+    [
+      75,
+      213,
+      158,
+      224
+    ],
+    [
+      170,
+      213,
+      313,
+      227
+    ],
+    [
+      75,
+      253,
+      120,
+      261
+    ],
+    [
+      128,
+      253,
+      182,
+      261
+    ],
+    [
+      191,
+      252,
+      253,
+      261
+    ],
+    [
+      262,
+      253,
+      298,
+      264
+    ],
+    [
+      307,
+      253,
+      343,
+      264
+    ],
+    [
+      352,
+      252,
+      451,
+      264
+    ],
+    [
+      460,
+      253,
+      477,
+      261
+    ],
+    [
+      75,
+      270,
+      120,
+      278
+    ],
+    [
+      75,
+      310,
+      122,
+      321
+    ],
+    [
+      135,
+      310,
+      171,
+      321
+    ],
+    [
+      182,
+      310,
+      231,
+      324
+    ],
+    [
+      242,
+      310,
+      315,
+      321
+    ],
+    [
+      75,
+      350,
+      111,
+      359
+    ],
+    [
+      120,
+      350,
+      192,
+      361
+    ],
+    [
+      200,
+      350,
+      253,
+      359
+    ],
+    [
+      262,
+      350,
+      307,
+      359
+    ],
+    [
+      316,
+      350,
+      352,
+      361
+    ],
+    [
+      361,
+      350,
+      487,
+      361
+    ],
+    [
+      75,
+      367,
+      92,
+      375
+    ],
+    [
+      101,
+      367,
+      146,
+      375
+    ],
+    [
+      75,
+      408,
+      207,
+      421
+    ],
+    [
+      500,
+      408,
+      536,
+      421
+    ],
+    [
+      668,
+      408,
+      728,
+      419
+    ],
+    [
+      797,
+      408,
+      857,
+      419
+    ],
+    [
+      75,
+      439,
+      173,
+      450
+    ],
+    [
+      500,
+      439,
+      508,
+      447
+    ],
+    [
+      668,
+      437,
+      731,
+      448
+    ],
+    [
+      797,
+      437,
+      860,
+      448
+    ],
+    [
+      75,
+      469,
+      128,
+      477
+    ],
+    [
+      137,
+      468,
+      165,
+      477
+    ],
+    [
+      172,
+      468,
+      235,
+      477
+    ],
+    [
+      243,
+      469,
+      333,
+      477
+    ],
+    [
+      500,
+      469,
+      508,
+      477
+    ],
+    [
+      668,
+      467,
+      731,
+      478
+    ],
+    [
+      797,
+      467,
+      870,
+      478
+    ],
+    [
+      585,
+      527,
+      692,
+      538
+    ],
+    [
+      705,
+      526,
+      801,
+      540
+    ],
+    [
+      585,
+      568,
+      632,
+      579
+    ],
+    [
+      645,
+      567,
+      728,
+      580
+    ],
+    [
+      585,
+      611,
+      683,
+      626
+    ],
+    [
+      700,
+      609,
+      832,
+      628
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 800,
+  "image_height": 1100,
+  "layout_type": "standard",
+  "total_words": 49,
+  "invoice_data": {
+    "invoice_number": "INV-5E3D41FA",
+    "invoice_date": "01/20/2025",
+    "vendor_name": "English-Cruz",
+    "vendor_address": "04762 Weaver Viaduct Apt. 809, Whitehaven, MD 83348",
+    "customer_name": "Mary Nelson",
+    "customer_address": "2549 Shepherd Stream Suite 761, Martinborough, NC 27266",
+    "line_items": [
+      {
+        "description": "Mapinastine",
+        "quantity": 4,
+        "unit_price": 141.68,
+        "unspsc_details": {
+          "segment_name": "Drugs and Pharmaceutical Products",
+          "family_name": "Antihistamines or H1 blockers",
+          "class_name": "Antihistamine or H1 blocker benzimidazoles",
+          "commodity_name": "Mapinastine",
+          "segment_code": "51000000",
+          "family_code": "51310000",
+          "class_code": "51311800",
+          "commodity_code": "51311805"
+        }
+      },
+      {
+        "description": "Frozen red diamond nectarines",
+        "quantity": 8,
+        "unit_price": 183.65,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Frozen fruit",
+          "class_name": "Frozen nectarines",
+          "commodity_name": "Frozen red diamond nectarines",
+          "segment_code": "50000000",
+          "family_code": "50340000",
+          "class_code": "50344900",
+          "commodity_code": "50344935"
+        }
+      }
+    ],
+    "subtotal": 2035.92,
+    "tax_amount": 101.8,
+    "total_amount": 2137.72
+  }
+}

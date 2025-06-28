@@ -1,0 +1,591 @@
+{
+  "id": "synthetic_invoice_0023",
+  "image_filename": "synthetic_invoice_0023.png",
+  "words": [
+    "INVOICE",
+    "Invoice",
+    "No.:",
+    "INV-72775ECF",
+    "Date:",
+    "11/20/2024",
+    "Vendor:",
+    "Brown",
+    "Group",
+    "47980",
+    "Barbara",
+    "Avenue,",
+    "Rodriguezborough,",
+    "KS",
+    "70762",
+    "Bill",
+    "To:",
+    "Jacob",
+    "Green",
+    "69460",
+    "Davis",
+    "Forge",
+    "Apt.",
+    "044,",
+    "Mcclurefurt,",
+    "MA",
+    "60371",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Non",
+    "GMO",
+    "wintercress",
+    "69cg",
+    "3",
+    "$418.12",
+    "$1254.36",
+    "Hamilton-Brown",
+    "Meningococcal",
+    "vaccine",
+    "4",
+    "$240.65",
+    "$962.60",
+    "Pham",
+    "Ltd",
+    "Fluoropolymer",
+    "grease",
+    "8",
+    "$73.73",
+    "$589.84",
+    "Fencing",
+    "jacket",
+    "02Bk",
+    "6",
+    "$226.04",
+    "$1356.24",
+    "Subtotal:",
+    "$4163.04",
+    "Tax:",
+    "$416.30",
+    "TOTAL:",
+    "$4579.34"
+  ],
+  "boxes": [
+    [
+      401,
+      55,
+      598,
+      77
+    ],
+    [
+      66,
+      100,
+      178,
+      113
+    ],
+    [
+      193,
+      100,
+      256,
+      113
+    ],
+    [
+      273,
+      100,
+      465,
+      113
+    ],
+    [
+      66,
+      141,
+      146,
+      154
+    ],
+    [
+      161,
+      141,
+      321,
+      155
+    ],
+    [
+      66,
+      205,
+      178,
+      218
+    ],
+    [
+      193,
+      205,
+      273,
+      218
+    ],
+    [
+      288,
+      205,
+      368,
+      222
+    ],
+    [
+      66,
+      248,
+      126,
+      258
+    ],
+    [
+      138,
+      247,
+      221,
+      258
+    ],
+    [
+      233,
+      248,
+      316,
+      262
+    ],
+    [
+      66,
+      267,
+      270,
+      282
+    ],
+    [
+      281,
+      268,
+      305,
+      278
+    ],
+    [
+      316,
+      268,
+      376,
+      278
+    ],
+    [
+      66,
+      312,
+      130,
+      325
+    ],
+    [
+      146,
+      312,
+      195,
+      325
+    ],
+    [
+      210,
+      312,
+      290,
+      325
+    ],
+    [
+      305,
+      312,
+      385,
+      325
+    ],
+    [
+      66,
+      352,
+      126,
+      362
+    ],
+    [
+      138,
+      352,
+      198,
+      362
+    ],
+    [
+      210,
+      352,
+      270,
+      365
+    ],
+    [
+      281,
+      352,
+      330,
+      365
+    ],
+    [
+      341,
+      352,
+      390,
+      365
+    ],
+    [
+      66,
+      370,
+      210,
+      384
+    ],
+    [
+      221,
+      371,
+      245,
+      381
+    ],
+    [
+      256,
+      370,
+      316,
+      381
+    ],
+    [
+      66,
+      414,
+      243,
+      431
+    ],
+    [
+      500,
+      414,
+      548,
+      431
+    ],
+    [
+      673,
+      414,
+      753,
+      427
+    ],
+    [
+      803,
+      414,
+      883,
+      427
+    ],
+    [
+      66,
+      452,
+      103,
+      462
+    ],
+    [
+      113,
+      452,
+      150,
+      462
+    ],
+    [
+      160,
+      452,
+      291,
+      462
+    ],
+    [
+      303,
+      452,
+      351,
+      465
+    ],
+    [
+      500,
+      452,
+      511,
+      462
+    ],
+    [
+      673,
+      450,
+      756,
+      463
+    ],
+    [
+      803,
+      450,
+      900,
+      463
+    ],
+    [
+      66,
+      482,
+      235,
+      493
+    ],
+    [
+      246,
+      482,
+      403,
+      496
+    ],
+    [
+      413,
+      483,
+      496,
+      493
+    ],
+    [
+      500,
+      483,
+      511,
+      493
+    ],
+    [
+      673,
+      481,
+      756,
+      494
+    ],
+    [
+      803,
+      481,
+      886,
+      494
+    ],
+    [
+      66,
+      513,
+      115,
+      524
+    ],
+    [
+      126,
+      513,
+      163,
+      524
+    ],
+    [
+      173,
+      513,
+      330,
+      527
+    ],
+    [
+      340,
+      516,
+      411,
+      527
+    ],
+    [
+      500,
+      514,
+      511,
+      524
+    ],
+    [
+      673,
+      512,
+      745,
+      525
+    ],
+    [
+      803,
+      512,
+      886,
+      525
+    ],
+    [
+      66,
+      545,
+      150,
+      558
+    ],
+    [
+      161,
+      544,
+      233,
+      558
+    ],
+    [
+      245,
+      544,
+      293,
+      555
+    ],
+    [
+      500,
+      545,
+      511,
+      555
+    ],
+    [
+      673,
+      543,
+      756,
+      556
+    ],
+    [
+      803,
+      543,
+      900,
+      556
+    ],
+    [
+      586,
+      600,
+      730,
+      613
+    ],
+    [
+      746,
+      598,
+      875,
+      615
+    ],
+    [
+      586,
+      644,
+      650,
+      657
+    ],
+    [
+      666,
+      643,
+      778,
+      660
+    ],
+    [
+      586,
+      692,
+      718,
+      710
+    ],
+    [
+      586,
+      712,
+      763,
+      735
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 600,
+  "image_height": 900,
+  "layout_type": "receipt",
+  "total_words": 63,
+  "invoice_data": {
+    "invoice_number": "INV-72775ECF",
+    "invoice_date": "11/20/2024",
+    "vendor_name": "Brown Group",
+    "vendor_address": "47980 Barbara Avenue, Rodriguezborough, KS 70762",
+    "customer_name": "Jacob Green",
+    "customer_address": "69460 Davis Forge Apt. 044, Mcclurefurt, MA 60371",
+    "line_items": [
+      {
+        "description": "Non GMO wintercress 69cg",
+        "quantity": 3,
+        "unit_price": 418.12,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Non GMO fresh vegetables",
+          "class_name": "Non GMO cresses",
+          "commodity_name": "Non GMO wintercress",
+          "segment_code": "50000000",
+          "family_code": "50580000",
+          "class_code": "50583200",
+          "commodity_code": "50583204"
+        }
+      },
+      {
+        "description": "Hamilton-Brown Meningococcal vaccine",
+        "quantity": 4,
+        "unit_price": 240.65,
+        "unspsc_details": {
+          "segment_name": "Drugs and Pharmaceutical Products",
+          "family_name": "Immunomodulating drugs",
+          "class_name": "Vaccines and antigens and toxoids",
+          "commodity_name": "Meningococcal vaccine",
+          "segment_code": "51000000",
+          "family_code": "51200000",
+          "class_code": "51201600",
+          "commodity_code": "51201610"
+        }
+      },
+      {
+        "description": "Pham Ltd Fluoropolymer grease",
+        "quantity": 8,
+        "unit_price": 73.73,
+        "unspsc_details": {
+          "segment_name": "Fuels and Fuel Additives and Lubricants and Anti corrosive Materials",
+          "family_name": "Lubricants and oils and greases and anti corrosives",
+          "class_name": "Greases",
+          "commodity_name": "Fluoropolymer grease",
+          "segment_code": "15000000",
+          "family_code": "15120000",
+          "class_code": "15121900",
+          "commodity_code": "15121903"
+        }
+      },
+      {
+        "description": "Fencing jacket 02Bk",
+        "quantity": 6,
+        "unit_price": 226.04,
+        "unspsc_details": {
+          "segment_name": "Sports and Recreational Equipment and Supplies and Accessories",
+          "family_name": "Sports equipment and accessories",
+          "class_name": "Sport accessories",
+          "commodity_name": "Fencing jacket",
+          "segment_code": "49000000",
+          "family_code": "49220000",
+          "class_code": "49221500",
+          "commodity_code": "49221524"
+        }
+      }
+    ],
+    "subtotal": 4163.04,
+    "tax_amount": 416.3,
+    "total_amount": 4579.34
+  }
+}

@@ -1,13 +1,15 @@
 import json
 import requests
+import pandas as pd
 from pathlib import Path
 from typing import Dict, List, Tuple, Any, Optional
-import pandas as pd
-from PIL import Image
-from datasets import load_dataset
+from PIL import Image # Keep if still using for invoice image loading
 import numpy as np
 import logging
 from sklearn.model_selection import train_test_split
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
+import re
 
 # Configure logging
 logging.basicConfig(
@@ -17,77 +19,192 @@ logger = logging.getLogger(__name__)
 
 
 class DataPreparationUtils:
-    """Essential utilities for loading and processing datasets for IDP training."""
+    """
+    Essential utilities for loading and processing datasets for IDP training.
+    Now includes robust methods for handling UNSPSC classification data
+    and invoice annotation datasets (Kaggle/Synthetic).
+    """
 
     def __init__(self, data_dir: str = "data"):
         self.data_dir = Path(data_dir)
         self.data_dir.mkdir(exist_ok=True)
-        self.psc_data = None
+        self.unspsc_data: Optional[Dict] = None # Store loaded UNSPSC data dict
+        # Store label mappings for UNSPSC classification, populated by prepare_training_data
+        self.unspsc_label_to_idx: Dict[str, int] = {}
+        self.unspsc_idx_to_label: Dict[int, str] = {}
+        # For semantic search fallback/enhancement
+        self.vectorizer: Optional[TfidfVectorizer] = None
+        self.unspsc_vectors: Optional[Any] = None # Stores the vectorized UNSPSC descriptions
 
-    def load_psc_data(
+    def load_unspsc_data(
         self,
-        url: str = "https://raw.githubusercontent.com/le-patrice/Datasets/refs/heads/main/pscs.json",
+        filepath: str = "data/data-unspsc-codes.csv", # Changed to filepath as it's a local file
+        url: Optional[str] = "https://raw.githubusercontent.com/le-patrice/Datasets/refs/heads/main/unspsc-codes.csv",
     ) -> Dict:
-        """Load and structure PSC classification data from GitHub."""
-        try:
-            response = requests.get(url, timeout=30)
-            response.raise_for_status()
-            raw_data = response.json()
+        """
+        Load and structure UNSPSC classification data from a CSV file (local first, then URL fallback).
+        Expected columns: 'Segment Code', 'Segment Name', 'Family Code', 'Family Name',
+                          'Class Code', 'Class Name', 'Commodity Code', 'Commodity Name'.
+        """
+        df = pd.DataFrame()
+        if Path(filepath).exists():
+            try:
+                df = pd.read_csv(filepath)
+                logger.info(f"Loaded UNSPSC data from local file: {filepath}")
+            except Exception as e:
+                logger.warning(f"Could not load local UNSPSC file {filepath}: {e}. Trying URL fallback.")
 
-            # Create comprehensive mapping structure
-            psc_mapping = {}
-            category_mapping = {}
-            portfolio_mapping = {}
+        if df.empty and url:
+            try:
+                response = requests.get(url, timeout=30)
+                response.raise_for_status()
+                from io import StringIO
+                csv_content = StringIO(response.text)
+                df = pd.read_csv(csv_content)
+                logger.info(f"Loaded UNSPSC data from URL: {url}")
+                # Optionally save to local file for future faster access
+                df.to_csv(filepath, index=False)
+                logger.info(f"Saved UNSPSC data to local file: {filepath}")
+            except Exception as e:
+                logger.error(f"Error loading UNSPSC data from URL {url}: {e}")
+                return {}
 
-            for item in raw_data:
-                psc_code = item.get("PSC", "")  # Corrected key to "PSC"
-                short_name = item.get("shortName", "")
-                spend_category = item.get("spendCategoryTitle", "")
-                portfolio_group = item.get("portfolioGroup", "")
-
-                psc_mapping[psc_code] = {
-                    "psc": psc_code,
-                    "shortName": short_name,
-                    "spendCategoryTitle": spend_category,
-                    "portfolioGroup": portfolio_group,
-                }
-
-                # Create reverse mappings for classification
-                if spend_category:
-                    if spend_category not in category_mapping:
-                        category_mapping[spend_category] = []
-                    category_mapping[spend_category].append(psc_code)
-
-                if portfolio_group:
-                    if portfolio_group not in portfolio_mapping:
-                        portfolio_mapping[portfolio_group] = []
-                    portfolio_mapping[portfolio_group].append(psc_code)
-
-            self.psc_data = {
-                "psc_mapping": psc_mapping,
-                "category_mapping": category_mapping,
-                "portfolio_mapping": portfolio_mapping,
-                "all_pscs": list(psc_mapping.keys()),
-                "all_categories": list(category_mapping.keys()),
-                "all_portfolios": list(portfolio_mapping.keys()),
-            }
-
-            print(
-                f"Loaded {len(psc_mapping)} PSC codes across {len(category_mapping)} categories"
-            )
-            return self.psc_data
-
-        except Exception as e:
-            print(f"Error loading PSC data: {e}")
+        if df.empty:
+            logger.error("No UNSPSC data could be loaded from local file or URL.")
             return {}
 
-    def _load_json_annotations_with_images(
+        # Clean column names (remove quotes and extra spaces)
+        df.columns = df.columns.str.strip().str.replace('"', '')
+        
+        # Ensure required columns exist (case-insensitive search and map to actual column names)
+        required_cols_map = {
+            "Segment Code": None, "Segment Name": None, "Family Code": None, 
+            "Family Name": None, "Class Code": None, "Class Name": None, 
+            "Commodity Code": None, "Commodity Name": None
+        }
+        
+        for req_col in required_cols_map.keys():
+            matching_col = None
+            for col in df.columns:
+                if req_col.lower() == col.lower():
+                    matching_col = col
+                    break
+            required_cols_map[req_col] = matching_col
+            if matching_col is None:
+                logger.warning(f"Required column '{req_col}' not found in UNSPSC dataset. This may affect data quality.")
+        
+        # Fill NaN values with empty strings for consistency
+        df_clean = df.fillna('')
+        
+        unspsc_mapping = {}
+        segment_mapping = {}
+        family_mapping = {}
+        class_mapping = {}
+        commodity_mapping = {}
+        
+        for idx, row in df_clean.iterrows():
+            # Use column_mapping to safely access columns, defaulting to empty string if not found
+            segment_code = str(row[required_cols_map["Segment Code"]]) if required_cols_map["Segment Code"] and required_cols_map["Segment Code"] in row else ""
+            segment_name = str(row[required_cols_map["Segment Name"]]).strip() if required_cols_map["Segment Name"] and required_cols_map["Segment Name"] in row else ""
+            family_code = str(row[required_cols_map["Family Code"]]) if required_cols_map["Family Code"] and required_cols_map["Family Code"] in row else ""
+            family_name = str(row[required_cols_map["Family Name"]]).strip() if required_cols_map["Family Name"] and required_cols_map["Family Name"] in row else ""
+            class_code = str(row[required_cols_map["Class Code"]]) if required_cols_map["Class Code"] and required_cols_map["Class Code"] in row else ""
+            class_name = str(row[required_cols_map["Class Name"]]).strip() if required_cols_map["Class Name"] and required_cols_map["Class Name"] in row else ""
+            commodity_code = str(row[required_cols_map["Commodity Code"]]) if required_cols_map["Commodity Code"] and required_cols_map["Commodity Code"] in row else ""
+            commodity_name = str(row[required_cols_map["Commodity Name"]]).strip() if required_cols_map["Commodity Name"] and required_cols_map["Commodity Name"] in row else ""
+            
+            # Skip entries where the commodity name is missing for a complete hierarchical path
+            if not commodity_name:
+                continue
+            
+            # Create unique identifier based on codes (more robust than names)
+            unspsc_id = f"{segment_code}{family_code}{class_code}{commodity_code}"
+            
+            # Create comprehensive mapping structure
+            unspsc_entry = {
+                "unspsc_id": unspsc_id, # Add ID to the entry itself
+                "segment_code": segment_code,
+                "segment_name": segment_name,
+                "family_code": family_code,
+                "family_name": family_name,
+                "class_code": class_code,
+                "class_name": class_name,
+                "commodity_code": commodity_code,
+                "commodity_name": commodity_name,
+                "full_path": f"{segment_name} > {family_name} > {class_name} > {commodity_name}",
+                "searchable_text": f"{segment_name} {family_name} {class_name} {commodity_name}".lower()
+            }
+            
+            unspsc_mapping[unspsc_id] = unspsc_entry
+            
+            # Create reverse mappings for classification and lookup
+            self._add_to_mapping(segment_mapping, segment_name, unspsc_id)
+            self._add_to_mapping(family_mapping, family_name, unspsc_id)
+            self._add_to_mapping(class_mapping, class_name, unspsc_id)
+            self._add_to_mapping(commodity_mapping, commodity_name, unspsc_id)
+
+        self.unspsc_data = {
+            "unspsc_mapping": unspsc_mapping, # Full details mapped by unique ID
+            "segment_mapping": segment_mapping,
+            "family_mapping": family_mapping,
+            "class_mapping": class_mapping,
+            "commodity_mapping": commodity_mapping,
+            "all_segments": list(segment_mapping.keys()),
+            "all_families": list(family_mapping.keys()),
+            "all_classes": list(class_mapping.keys()),
+            "all_commodities": list(commodity_mapping.keys()),
+            # Store the cleaned DataFrame directly for easier access later
+            "processed_df": pd.DataFrame.from_records(list(unspsc_mapping.values()))
+        }
+
+        # Initialize vectorizer for semantic search (used by get_unspsc_by_description)
+        self._initialize_vectorizer()
+
+        logger.info(
+            f"Loaded {len(unspsc_mapping)} UNSPSC entries across "
+            f"{len(segment_mapping)} segments, {len(family_mapping)} families, "
+            f"{len(class_mapping)} classes, and {len(commodity_mapping)} commodities"
+        )
+        
+        return self.unspsc_data
+
+    def _add_to_mapping(self, mapping_dict: Dict, key: str, value: str):
+        """Helper method to add values to mapping dictionaries."""
+        if key not in mapping_dict:
+            mapping_dict[key] = []
+        mapping_dict[key].append(value)
+
+    def _initialize_vectorizer(self):
+        """Initialize TF-IDF vectorizer for semantic search."""
+        # Check if unspsc_data is loaded and contains data for vectorization
+        if not self.unspsc_data or not self.unspsc_data.get("processed_df"):
+            logger.warning("UNSPSC processed_df not available for vectorizer initialization.")
+            return
+        
+        # Prepare texts for vectorization (using the combined searchable text from the processed_df)
+        texts = self.unspsc_data["processed_df"]["searchable_text"].tolist()
+        
+        # Initialize vectorizer with optimal parameters
+        self.vectorizer = TfidfVectorizer(
+            lowercase=True,
+            stop_words='english',
+            ngram_range=(1, 3), # Capture phrases
+            max_features=10000, # Limit features for efficiency
+            min_df=1,
+            max_df=0.95 # Ignore very common words
+        )
+        
+        # Fit and transform the texts
+        self.unspsc_vectors = self.vectorizer.fit_transform(texts)
+        logger.info("UNSPSC vectorizer initialized for semantic search")
+
+    def load_json_annotations_with_images(
         self, dataset_path: str, dataset_name: str
     ) -> List[Dict]:
-        """Helper to load JSON annotations and find corresponding images."""
+        """Helper to load JSON annotations (LayoutLMv3 format) and find corresponding images."""
         dataset_dir = Path(dataset_path)
         if not dataset_dir.exists():
-            print(
+            logger.warning(
                 f"Dataset directory {dataset_path} for {dataset_name} does not exist."
             )
             return []
@@ -96,8 +213,9 @@ class DataPreparationUtils:
         annotations_dir = dataset_dir / "annotations"
 
         if not images_dir.exists() or not annotations_dir.exists():
-            print(
-                f"Required subdirectories 'images' and 'annotations' not found in {dataset_path} for {dataset_name}."
+            logger.warning(
+                f"Required subdirectories 'images' and 'annotations' not found in {dataset_path} for {dataset_name}. "
+                "Ensure your dataset structure matches the expected format (e.g., 'dataset_name/images/' and 'dataset_name/annotations/')."
             )
             return []
 
@@ -113,7 +231,7 @@ class DataPreparationUtils:
                 with open(ann_file, "r", encoding="utf-8") as f:
                     annotation_data = json.load(f)
 
-                # Find corresponding image file (assuming same stem, different extensions)
+                # Find corresponding image file
                 image_extensions = [".jpg", ".jpeg", ".png", ".tiff", ".bmp"]
                 image_path = None
                 for ext in image_extensions:
@@ -128,34 +246,36 @@ class DataPreparationUtils:
                     )
                     continue
 
-                # Extract words, boxes, and ner_tags. Your Kaggle format has these directly.
+                # Extract required fields for LayoutLMv3 training
                 words = annotation_data.get("words")
                 boxes = annotation_data.get("boxes")
                 ner_tags = annotation_data.get("ner_tags")
 
                 if not words or not boxes or not ner_tags:
                     logger.warning(
-                        f"Skipping {ann_file.name} in {dataset_name}: missing 'words', 'boxes', or 'ner_tags'."
+                        f"Skipping {ann_file.name} in {dataset_name}: missing 'words', 'boxes', or 'ner_tags'. These are critical for LayoutLMv3."
                     )
                     continue
 
-                # Basic consistency check
+                # Consistency check
                 if not (len(words) == len(boxes) == len(ner_tags)):
                     logger.warning(
-                        f"Skipping {ann_file.name} in {dataset_name}: inconsistent lengths of words, boxes, or ner_tags."
+                        f"Skipping {ann_file.name} in {dataset_name}: inconsistent lengths of words, boxes, or ner_tags. All must match."
                     )
                     continue
+                
+                # Normalize bounding boxes to 0-1000 range if they are not already
+                # (LayoutLMv3 expects 0-1000). This requires knowing original image dimensions.
+                # Assuming `normalize_bbox` would be called elsewhere if needed, or that data is already normalized.
 
                 processed_sample = {
                     "image_path": str(image_path),
                     "words": words,
                     "boxes": boxes,
                     "ner_tags": ner_tags,
-                    "relations": annotation_data.get(
-                        "relations", []
-                    ),  # Include relations if present
-                    "dataset_source": dataset_name,  # Track original dataset
-                    "annotation_data": annotation_data,  # Keep original data for reference if needed
+                    "relations": annotation_data.get("relations", []), # Keep relations if available
+                    "dataset_source": dataset_name,
+                    # Optionally store more annotation data or derived labels here for LayoutLMv3 if needed
                 }
 
                 processed_samples.append(processed_sample)
@@ -170,358 +290,204 @@ class DataPreparationUtils:
         return processed_samples
 
     def load_kaggle_invoice_dataset(self, dataset_path: str) -> List[Dict]:
-        """Load Kaggle invoice dataset (images and JSON annotations)."""
-        return self._load_json_annotations_with_images(dataset_path, "KAGGLE_INVOICE")
+        """Load Kaggle invoice dataset (images and JSON annotations in LayoutLM format)."""
+        return self.load_json_annotations_with_images(dataset_path, "KAGGLE_INVOICE")
 
     def load_synthetic_invoice_dataset(self, dataset_path: str) -> List[Dict]:
-        """Load synthetic invoice dataset (images and JSON annotations), assuming same format as Kaggle."""
-        return self._load_json_annotations_with_images(
+        """Load synthetic invoice dataset (images and JSON annotations in LayoutLM format)."""
+        return self.load_json_annotations_with_images(
             dataset_path, "SYNTHETIC_INVOICE"
         )
 
-    def load_cord_dataset(self, split: str = "train") -> List[Dict]:
-        """Load CORD dataset via Hugging Face datasets library."""
-        try:
-            dataset = load_dataset("naver-clova-ix/cord-v2", split=split)
-            processed_samples = []
-
-            for sample in dataset:
-                image = sample["image"]  # PIL Image object
-                ground_truth = sample["ground_truth"]
-
-                words = []
-                boxes = []
-                ner_tags = []
-
-                for line in ground_truth["valid_line"]:
-                    for word_info in line.get("words", []):
-                        words.append(word_info.get("text", ""))
-                        quad = word_info.get("quad", {})
-                        if quad:
-                            x_coords = [quad.get(f"x{i}", 0) for i in range(1, 5)]
-                            y_coords = [quad.get(f"y{i}", 0) for i in range(1, 5)]
-                            bbox = [
-                                min(x_coords),
-                                min(y_coords),
-                                max(x_coords),
-                                max(y_coords),
-                            ]
-                            boxes.append(bbox)
-                        else:
-                            boxes.append([0, 0, 0, 0])  # Default if box is missing
-
-                        ner_tags.append(word_info.get("label", "O"))
-
-                # Check for empty samples after parsing (e.g., if no valid words)
-                if not words:
-                    logger.warning(
-                        f"Skipping CORD sample with no words in split {split}."
-                    )
-                    continue
-
-                processed_samples.append(
-                    {
-                        "image": image,  # Keep PIL image object for CORD
-                        "words": words,
-                        "boxes": boxes,
-                        "ner_tags": ner_tags,
-                        "relations": [],  # CORD doesn't have explicit relations
-                        "dataset_source": "CORD",
-                    }
-                )
-
-            logger.info(
-                f"Loaded {len(processed_samples)} samples from CORD {split} split."
-            )
-            return processed_samples
-
-        except Exception as e:
-            logger.error(f"Error loading CORD dataset: {e}")
-            return []
-
-    def load_funsd_dataset(self, funsd_path: str) -> List[Dict]:
-        """Load FUNSD dataset from local directory."""
-        try:
-            funsd_dir = Path(funsd_path)
-            annotation_files = list(
-                funsd_dir.glob("**/annotations/*.json")
-            )  # Ensure correct glob pattern
-            processed_samples = []
-
-            for ann_file in annotation_files:
-                with open(ann_file, "r", encoding="utf-8") as f:
-                    annotation_data = json.load(f)
-
-                # Find corresponding image
-                img_name = ann_file.stem + ".png"
-                img_path = (
-                    ann_file.parent.parent / "images" / ann_file.parent.name / img_name
-                )  # Adjust path to images
-
-                if not img_path.exists():
-                    logger.warning(
-                        f"Image {img_path} not found for FUNSD annotation {ann_file.name}. Skipping."
-                    )
-                    continue
-
-                words = []
-                boxes = []
-                ner_tags = []
-                relations = []
-
-                # Parse FUNSD annotation format - this is entity-level, will need conversion to token-level
-                for form_entry in annotation_data.get("form", []):
-                    entity_label = form_entry.get("label", "O")
-                    entity_words = form_entry.get("words", [])
-
-                    for i, word_info in enumerate(entity_words):
-                        words.append(word_info.get("text", ""))
-                        boxes.append(word_info.get("box", [0, 0, 0, 0]))
-
-                        # Apply B-I-O tagging based on the entity_label
-                        if i == 0:
-                            ner_tags.append(
-                                f"B-{entity_label}" if entity_label != "O" else "O"
-                            )
-                        else:
-                            ner_tags.append(
-                                f"I-{entity_label}" if entity_label != "O" else "O"
-                            )
-
-                    # Extract linking information
-                    for link in form_entry.get("linking", []):
-                        relations.append(link)
-
-                if not words:
-                    logger.warning(
-                        f"Skipping FUNSD annotation {ann_file.name}: no words extracted."
-                    )
-                    continue
-
-                processed_samples.append(
-                    {
-                        "image_path": str(img_path),
-                        "words": words,
-                        "boxes": boxes,
-                        "ner_tags": ner_tags,
-                        "relations": relations,
-                        "dataset_source": "FUNSD",
-                    }
-                )
-
-            logger.info(f"Loaded {len(processed_samples)} samples from FUNSD.")
-            return processed_samples
-
-        except Exception as e:
-            logger.error(f"Error loading FUNSD dataset: {e}")
-            return []
-
-    def load_sroie_dataset(self, sroie_path: str) -> List[Dict]:
-        """Load SROIE dataset from local directory with original annotations."""
-        try:
-            sroie_dir = Path(sroie_path)
-            processed_samples = []
-
-            # SROIE has separate text and entity files
-            # Look for .txt files that are NOT _box.txt
-            text_files = [
-                f for f in sroie_dir.glob("**/*.txt") if not f.stem.endswith("_box")
-            ]
-
-            for txt_file in text_files:
-                # Load text and boxes from the .txt file directly
-                # SROIE format: x1,y1,x2,y2,x3,y3,x4,y4,text
-                with open(txt_file, "r", encoding="utf-8") as f:
-                    lines = f.readlines()
-
-                words = []
-                boxes = []
-                # SROIE's main file doesn't have NER tags; these would be derived from _entities.txt
-                # For basic NER, we default to "O" or you'd need a separate parser for _entities.txt
-                ner_tags = ["O"] * len(lines)  # Default labels to "O" for all tokens
-
-                for line in lines:
-                    parts = line.strip().split(
-                        ",", 8
-                    )  # Split up to 8 times for coords, rest is text
-                    if len(parts) == 9:  # x1,y1,x2,y2,x3,y3,x4,y4,text
-                        # Extract bounding box (convert from quad to bbox)
-                        try:
-                            coords = [int(x) for x in parts[:8]]
-                            x_coords = coords[::2]
-                            y_coords = coords[1::2]
-                            bbox = [
-                                min(x_coords),
-                                min(y_coords),
-                                max(x_coords),
-                                max(y_coords),
-                            ]
-                        except ValueError:
-                            logger.warning(
-                                f"Invalid coordinates in SROIE file {txt_file.name}: {parts[:8]}. Skipping line."
-                            )
-                            continue
-
-                        text = parts[8].strip()
-                        words.append(text)
-                        boxes.append(bbox)
-                    elif (
-                        len(parts) > 1
-                    ):  # Handle cases where a line might just be text, no box
-                        words.append(parts[-1].strip())
-                        boxes.append([0, 0, 0, 0])  # Placeholder box
-                    else:
-                        logger.warning(
-                            f"Skipping malformed line in SROIE file {txt_file.name}: {line.strip()}"
-                        )
-
-                # Find corresponding image
-                img_name = txt_file.stem + ".jpg"  # SROIE images are typically JPG
-                img_path = txt_file.parent / img_name
-
-                if not img_path.exists():
-                    logger.warning(
-                        f"Image {img_path} not found for SROIE text file {txt_file.name}. Skipping."
-                    )
-                    continue
-
-                if not words:
-                    logger.warning(
-                        f"Skipping SROIE file {txt_file.name}: no words extracted."
-                    )
-                    continue
-
-                processed_samples.append(
-                    {
-                        "image_path": str(img_path),
-                        "words": words,
-                        "boxes": boxes,
-                        "ner_tags": ner_tags,  # These are mostly "O" unless _entities.txt is parsed
-                        "relations": [],
-                        "dataset_source": "SROIE",
-                    }
-                )
-
-            logger.info(f"Loaded {len(processed_samples)} samples from SROIE.")
-            return processed_samples
-
-        except Exception as e:
-            logger.error(f"Error loading SROIE dataset: {e}")
-            return []
-
-    def unify_dataset_format(self, samples: List[Dict]) -> List[Dict]:
-        """Convert all dataset samples to unified format for LayoutLMv2 training.
-        Ensures 'image_path', 'words', 'boxes', 'ner_tags' are present and clean.
+    def unify_invoice_dataset_format(self, samples: List[Dict]) -> List[Dict]:
+        """
+        Ensures all invoice annotation samples (e.g., from Kaggle or Synthetic) conform
+        to a unified format expected by the LayoutLMv3 trainer.
+        This step is crucial for consistent input to the LayoutLMDataset.
         """
         unified_samples = []
         for sample in samples:
-            # Ensure essential fields are present with defaults
             image_path = sample.get("image_path")
-            if not image_path and "image" in sample:  # Handle CORD's PIL Image object
-                # If image is a PIL object, save it temporarily or handle in Dataset
-                # For LayoutLMv2Processor, it expects a path or the PIL object directly in __getitem__
-                # For unification, let's prioritize path for consistency.
-                # This is a simplification; for production, consider saving PIL to temp file.
-                logger.warning(
-                    f"PIL Image object encountered from {sample.get('dataset_source')}. LayoutLMDataset needs a path. Skipping for now or enhance handling."
-                )
-                continue  # Skip samples with only PIL image for now if no path provided
-
             words = sample.get("words", [])
             boxes = sample.get("boxes", [])
             ner_tags = sample.get("ner_tags", [])
 
-            # Basic validation after unification
-            if not (
-                words
-                and boxes
-                and ner_tags
-                and len(words) == len(boxes) == len(ner_tags)
-            ):
+            # Basic validation
+            if not (image_path and words and boxes and ner_tags and len(words) == len(boxes) == len(ner_tags)):
                 logger.warning(
-                    f"Skipping malformed sample from {sample.get('dataset_source')}: inconsistent or missing words/boxes/ner_tags."
+                    f"Skipping malformed invoice sample from {sample.get('dataset_source', 'unknown')}: "
+                    "missing essential fields or inconsistent lengths."
                 )
                 continue
 
-            # Ensure boxes are integers
+            # Ensure boxes are integers and within expected range (e.g., 0-1000 for LayoutLMv3)
+            # This logic should ideally be applied during initial data loading or a dedicated normalization step.
+            # Assuming boxes are already normalized by the `synthetic_data_generator` or external prep.
             cleaned_boxes = []
             for box in boxes:
-                if len(box) == 4 and all(isinstance(c, (int, float)) for c in box):
-                    cleaned_boxes.append([int(coord) for coord in box])
+                # LayoutLMv3 expects [x0, y0, x1, y1] for each word
+                if len(box) == 4 and all(isinstance(coord, (int, float)) for coord in box):
+                    cleaned_boxes.append([int(c) for c in box])
                 else:
-                    logger.warning(
-                        f"Invalid box format found: {box}. Using default [0,0,0,0]."
-                    )
-                    cleaned_boxes.append([0, 0, 0, 0])  # Fallback for malformed boxes
+                    logger.warning(f"Invalid box format found: {box}. Replacing with [0,0,0,0].")
+                    cleaned_boxes.append([0,0,0,0]) # Fallback for malformed boxes
 
             unified_sample = {
                 "image_path": image_path,
                 "words": words,
                 "boxes": cleaned_boxes,
-                "ner_tags": ner_tags,  # These are the token-level string tags
-                "relations": sample.get("relations", []),
+                "ner_tags": ner_tags,
+                "relations": sample.get("relations", []), # Relations are optional but good to keep
                 "dataset_source": sample.get("dataset_source", "unknown"),
             }
             unified_samples.append(unified_sample)
-
+        logger.info(f"Unified {len(unified_samples)} invoice samples.")
         return unified_samples
 
-    def get_psc_by_description(self, description: str) -> Optional[Dict]:
-        """Find best matching PSC based on item description.
-        This is a simple keyword matching for quick demos.
-        For actual inference, the trained PSC model should be used.
+
+    def prepare_training_data(
+        self,
+        data_df: pd.DataFrame,
+        text_column: str = 'searchable_text', # Use searchable_text for model input
+        label_column: str = 'class_name', # Target is UNSPSC Class Name
+    ) -> pd.DataFrame:
         """
-        if not self.psc_data or not self.psc_data.get("psc_mapping"):
-            print(
-                "PSC data not loaded or mapping not available for description lookup."
+        Prepares UNSPSC data for item categorization training.
+        Creates unique numerical labels and mappings based on the chosen label_column.
+        Stores label_to_idx and idx_to_label internally.
+        """
+        if data_df.empty:
+            logger.error("Input DataFrame is empty, cannot prepare training data.")
+            return pd.DataFrame()
+
+        # Create unique numerical labels for each target class name
+        unique_labels = data_df[label_column].unique()
+        self.unspsc_label_to_idx = {label: i for i, label in enumerate(unique_labels)}
+        self.unspsc_idx_to_label = {i: label for label, i in self.unspsc_label_to_idx.items()}
+
+        data_df['label'] = data_df[label_column].map(self.unspsc_label_to_idx)
+
+        # Shuffle the DataFrame for randomness during training
+        data_df = data_df.sample(frac=1, random_state=42).reset_index(drop=True)
+        
+        logger.info(f"Prepared {len(data_df)} training samples for {len(unique_labels)} unique classes.")
+        logger.info(f"Sample distribution (top 10 target classes):\n{data_df[label_column].value_counts().head(10)}")
+
+        return data_df[[text_column, 'label', label_column]]
+
+
+    def get_unspsc_by_description(
+        self, description: str, top_k: int = 1, min_similarity: float = 0.1
+    ) -> Optional[List[Dict]]:
+        """Find best matching UNSPSC entries based on item description using semantic search."""
+        if not self.unspsc_data or not self.vectorizer or self.unspsc_vectors is None:
+            logger.warning(
+                "UNSPSC data not loaded or vectorizer not initialized for description lookup. Attempting to load."
             )
+            # Try to load if not already
+            if self.unspsc_data is None:
+                self.load_unspsc_data()
+            if self.unspsc_data is None or self.vectorizer is None or self.unspsc_vectors is None:
+                logger.error("Failed to load UNSPSC data for description lookup. Cannot perform search.")
+                return None
+
+        try:
+            # Clean and preprocess the description
+            description_clean = self._clean_text(description)
+            
+            # Vectorize the input description
+            desc_vector = self.vectorizer.transform([description_clean])
+            
+            # Calculate cosine similarities
+            similarities = cosine_similarity(desc_vector, self.unspsc_vectors).flatten()
+            
+            # Get top matches
+            top_indices = similarities.argsort()[-top_k:][::-1]
+            
+            results = []
+            # Get list of all UNSPSC entries to map back by index
+            unspsc_entries_list = self.unspsc_data["processed_df"].to_dict(orient='records') # Use processed_df for direct access to generated searchable_text etc.
+            
+            for idx in top_indices:
+                similarity_score = similarities[idx]
+                if similarity_score >= min_similarity:
+                    entry = unspsc_entries_list[idx].copy()
+                    entry["similarity_score"] = float(similarity_score)
+                    results.append(entry)
+            
+            return results if results else None
+            
+        except Exception as e:
+            logger.error(f"Error in semantic UNSPSC search for '{description}': {e}")
+            # Fallback to keyword-based search if semantic search fails
+            return self._fallback_keyword_search(description, top_k)
+
+    def _clean_text(self, text: str) -> str:
+        """Clean text for better matching."""
+        # Convert to lowercase and remove non-alphanumeric characters (keep spaces)
+        text = re.sub(r'[^\w\s]', ' ', text.lower())
+        # Replace multiple spaces with a single space and strip leading/trailing whitespace
+        text = ' '.join(text.split()).strip()
+        return text
+
+    def _fallback_keyword_search(self, description: str, top_k: int = 1) -> Optional[List[Dict]]:
+        """Fallback keyword-based search when semantic search fails or is not applicable."""
+        if not self.unspsc_data or not self.unspsc_data.get("processed_df"):
             return None
 
-        description_lower = description.lower()
-        best_match = None
-        max_score = 0
+        description_lower = self._clean_text(description)
+        desc_words = set(description_lower.split())
+        
+        matches = []
+        
+        # Iterate through the processed DataFrame for keyword search
+        for idx, unspsc_info in self.unspsc_data["processed_df"].iterrows():
+            searchable_text = unspsc_info["searchable_text"]
+            text_words = set(searchable_text.split())
+            
+            # Calculate word overlap score (Jaccard similarity)
+            intersection = desc_words.intersection(text_words)
+            union = desc_words.union(text_words)
+            
+            if union: # Avoid division by zero
+                score = len(intersection) / len(union)
+            else:
+                score = 0.0 # No common words and empty combined set
 
-        for psc_code, psc_info in self.psc_data["psc_mapping"].items():
-            short_name = psc_info["shortName"].lower()
-            category = psc_info["spendCategoryTitle"].lower()
-            long_name = psc_info.get("longName", "").lower()
+            if score > 0: # Only add if there's some overlap
+                match_entry = unspsc_info.to_dict() # Convert Series to dict
+                match_entry["similarity_score"] = score
+                matches.append(match_entry)
+        
+        # Sort by score and return top matches
+        matches.sort(key=lambda x: x["similarity_score"], reverse=True)
+        return matches[:top_k] if matches else None
 
-            score = 0
-            # Prioritize exact short name match
-            if short_name == description_lower:
-                score += 10
-            elif short_name in description_lower:
-                score += 5
-            elif description_lower in short_name:
-                score += 4
-
-            # Fuzzy match with words
-            desc_words = set(description_lower.split())
-            short_name_words = set(short_name.split())
-            category_words = set(category.split())
-            long_name_words = set(long_name.split())
-
-            score += len(desc_words.intersection(short_name_words)) * 2
-            score += len(desc_words.intersection(category_words)) * 1
-            score += len(desc_words.intersection(long_name_words)) * 0.5
-
-            if score > max_score:
-                max_score = score
-                best_match = psc_info
-
-            # If perfect match found, no need to continue
-            if max_score >= 10:  # Perfect match for short name
-                break
-
-        return (
-            best_match if best_match and max_score > 0 else None
-        )  # Return None if no reasonable match
+    def get_classification_by_level(self, level: str, value: str) -> List[str]:
+        """Get all UNSPSC unique IDs that match a specific level name and value."""
+        if not self.unspsc_data:
+            logger.warning("UNSPSC data not loaded.")
+            return []
+        
+        level_mapping_keys = {
+            "segment": "segment_mapping",
+            "family": "family_mapping", 
+            "class": "class_mapping",
+            "commodity": "commodity_mapping"
+        }
+        
+        mapping_key = level_mapping_keys.get(level.lower())
+        if not mapping_key:
+            logger.warning(f"Invalid level: {level}. Valid levels are: {list(level_mapping_keys.keys())}")
+            return []
+        
+        mapping = self.unspsc_data.get(mapping_key, {})
+        return mapping.get(value, []) # Returns a list of unspsc_ids
 
     def create_training_split(
         self, samples: List[Dict], train_ratio: float = 0.8
     ) -> Tuple[List[Dict], List[Dict]]:
         """Split dataset into training and validation sets."""
-        # Use sklearn's train_test_split for more robust splitting
         if len(samples) < 2:
             logger.warning(
                 "Not enough samples for splitting. Returning all samples as train, empty as validation."
@@ -538,55 +504,83 @@ class DataPreparationUtils:
         return train_samples, val_samples
 
     def save_processed_data(self, data: Any, filename: str):
-        """Save processed data to disk."""
+        """Save processed data to disk efficiently."""
         filepath = self.data_dir / filename
 
-        if isinstance(data, pd.DataFrame):
-            data.to_csv(filepath, index=False)
-        elif isinstance(data, (dict, list)):
-            with open(filepath, "w", encoding="utf-8") as f:
-                json.dump(data, f, indent=2, ensure_ascii=False)
-        else:
-            # For other types, use pickle
-            import pickle
-
-            with open(filepath, "wb") as f:
-                pickle.dump(data, f)
-
-        print(f"Data saved to {filepath}")
+        try:
+            if isinstance(data, pd.DataFrame):
+                # Use efficient compression for large datasets
+                if len(data) > 10000 and filepath.suffix != '.csv': # Use parquet for large DFs unless CSV is explicitly needed
+                    data.to_parquet(filepath.with_suffix('.parquet'), index=False)
+                    logger.info(f"Large dataset saved as Parquet to {filepath.with_suffix('.parquet')}")
+                else:
+                    data.to_csv(filepath, index=False)
+                    logger.info(f"Data saved as CSV to {filepath}")
+            elif isinstance(data, (dict, list)):
+                with open(filepath, "w", encoding="utf-8") as f:
+                    json.dump(data, f, indent=2, ensure_ascii=False)
+                logger.info(f"JSON data saved to {filepath}")
+            else:
+                import pickle
+                with open(filepath.with_suffix('.pkl'), "wb") as f:
+                    pickle.dump(data, f, protocol=pickle.HIGHEST_PROTOCOL)
+                logger.info(f"Pickled data saved to {filepath.with_suffix('.pkl')}")
+                
+        except Exception as e:
+            logger.error(f"Error saving data to {filepath}: {e}")
 
     def load_processed_data(self, filename: str):
-        """Load processed data from disk."""
+        """Load processed data from disk efficiently."""
         filepath = self.data_dir / filename
 
         if not filepath.exists():
-            raise FileNotFoundError(f"File {filepath} not found")
+            # Try alternative extensions
+            alternative_paths = [
+                filepath.with_suffix('.parquet'),
+                filepath.with_suffix('.pkl'),
+                filepath.with_suffix('.json'),
+                filepath.with_suffix('.csv') # Try CSV last if not explicitly asked
+            ]
+            
+            for alt_path in alternative_paths:
+                if alt_path.exists():
+                    filepath = alt_path
+                    break
+            else:
+                raise FileNotFoundError(f"File {filepath} not found")
 
-        if filename.endswith(".csv"):
-            return pd.read_csv(filepath)
-        elif filename.endswith(".json"):
-            with open(filepath, "r", encoding="utf-8") as f:
-                return json.load(f)
-        else:
-            import pickle
+        try:
+            if filepath.suffix == '.csv':
+                return pd.read_csv(filepath)
+            elif filepath.suffix == '.parquet':
+                return pd.read_parquet(filepath)
+            elif filepath.suffix == '.json':
+                with open(filepath, "r", encoding="utf-8") as f:
+                    return json.load(f)
+            elif filepath.suffix == '.pkl':
+                import pickle
+                with open(filepath, "rb") as f:
+                    return pickle.load(f)
+            else:
+                logger.warning(f"Unknown file format for {filepath}. Attempting JSON load.")
+                with open(filepath, "r", encoding="utf-8") as f:
+                    return json.load(f)
+                    
+        except Exception as e:
+            logger.error(f"Error loading data from {filepath}: {e}")
+            raise
 
-            with open(filepath, "rb") as f:
-                return pickle.load(f)
+    def get_statistics(self) -> Dict:
+        """Get statistics about the loaded UNSPSC data."""
+        if not self.unspsc_data:
+            return {"error": "No UNSPSC data loaded"}
+        
+        return {
+            "total_entries": len(self.unspsc_data.get("unspsc_mapping", {})),
+            "segments": len(self.unspsc_data.get("all_segments", [])),
+            "families": len(self.unspsc_data.get("all_families", [])),
+            "classes": len(self.unspsc_data.get("all_classes", [])),
+            "commodities": len(self.unspsc_data.get("all_commodities", [])),
+            "vectorizer_initialized": self.vectorizer is not None
+        }
 
-
-# Usage example (moved outside class, often into a dedicated script or main entry)
-if __name__ == "__main__":
-    data_prep = DataPreparationUtils()
-    psc_data = data_prep.load_psc_data()
-    kaggle_invoice_samples = data_prep.load_kaggle_invoice_dataset(
-        "data/kaggle_invoices"
-    )
-    synthetic_invoice_samples = data_prep.load_synthetic_invoice_dataset(
-        "data/synthetic_invoices"
-    )
-    all_samples = kaggle_invoice_samples + synthetic_invoice_samples
-    unified_samples = data_prep.unify_dataset_format(all_samples)
-    train_samples, val_samples = data_prep.create_training_split(unified_samples)
-    data_prep.save_processed_data(train_samples, "train_samples.json")
-    data_prep.save_processed_data(val_samples, "val_samples.json")
-    print("Data preparation utilities ready for use.")

@@ -1,0 +1,631 @@
+{
+  "id": "synthetic_invoice_0013",
+  "image_filename": "synthetic_invoice_0013.png",
+  "words": [
+    "INVOICE",
+    "Invoice",
+    "No.:",
+    "INV-3E49FD6E",
+    "Date:",
+    "07/04/2024",
+    "Vendor:",
+    "Smith",
+    "Ltd",
+    "84359",
+    "Denise",
+    "Brooks,",
+    "Skinnerbury,",
+    "OR",
+    "05653",
+    "Bill",
+    "To:",
+    "William",
+    "Harper",
+    "134",
+    "Howard",
+    "Burg,",
+    "Amyburgh,",
+    "ND",
+    "91803",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Burgess,",
+    "Walker",
+    "Piperazine",
+    "estrone",
+    "sulfate",
+    "45Rw",
+    "3",
+    "$216.56",
+    "$649.68",
+    "Bismuth",
+    "subnitrate",
+    "4",
+    "$316.76",
+    "$1267.04",
+    "Canned",
+    "or",
+    "jarred",
+    "chandler",
+    "blueberries",
+    "49wP",
+    "9",
+    "$328.22",
+    "$2953.98",
+    "Frozen",
+    "Non",
+    "GMO",
+    "semil",
+    "43",
+    "avocados",
+    "03xU",
+    "10",
+    "$490.78",
+    "$4907.80",
+    "Subtotal:",
+    "$9778.50",
+    "Tax:",
+    "$684.50",
+    "TOTAL:",
+    "$10463.00"
+  ],
+  "boxes": [
+    [
+      426,
+      63,
+      573,
+      81
+    ],
+    [
+      75,
+      109,
+      158,
+      120
+    ],
+    [
+      170,
+      109,
+      217,
+      120
+    ],
+    [
+      230,
+      109,
+      373,
+      120
+    ],
+    [
+      75,
+      147,
+      135,
+      158
+    ],
+    [
+      146,
+      147,
+      266,
+      159
+    ],
+    [
+      75,
+      213,
+      158,
+      224
+    ],
+    [
+      170,
+      213,
+      230,
+      224
+    ],
+    [
+      241,
+      213,
+      277,
+      224
+    ],
+    [
+      75,
+      250,
+      120,
+      259
+    ],
+    [
+      128,
+      250,
+      182,
+      259
+    ],
+    [
+      191,
+      250,
+      253,
+      261
+    ],
+    [
+      262,
+      250,
+      370,
+      261
+    ],
+    [
+      378,
+      250,
+      396,
+      259
+    ],
+    [
+      405,
+      250,
+      450,
+      259
+    ],
+    [
+      75,
+      295,
+      122,
+      306
+    ],
+    [
+      135,
+      295,
+      171,
+      306
+    ],
+    [
+      182,
+      295,
+      266,
+      306
+    ],
+    [
+      277,
+      295,
+      350,
+      309
+    ],
+    [
+      75,
+      334,
+      102,
+      343
+    ],
+    [
+      110,
+      334,
+      163,
+      343
+    ],
+    [
+      172,
+      335,
+      217,
+      346
+    ],
+    [
+      226,
+      334,
+      307,
+      346
+    ],
+    [
+      316,
+      335,
+      333,
+      343
+    ],
+    [
+      342,
+      334,
+      387,
+      343
+    ],
+    [
+      75,
+      380,
+      207,
+      393
+    ],
+    [
+      500,
+      380,
+      536,
+      393
+    ],
+    [
+      668,
+      380,
+      728,
+      390
+    ],
+    [
+      797,
+      380,
+      857,
+      390
+    ],
+    [
+      75,
+      410,
+      147,
+      421
+    ],
+    [
+      155,
+      410,
+      208,
+      419
+    ],
+    [
+      217,
+      410,
+      307,
+      421
+    ],
+    [
+      316,
+      410,
+      378,
+      419
+    ],
+    [
+      387,
+      410,
+      450,
+      419
+    ],
+    [
+      458,
+      410,
+      495,
+      419
+    ],
+    [
+      500,
+      410,
+      508,
+      419
+    ],
+    [
+      668,
+      409,
+      731,
+      420
+    ],
+    [
+      797,
+      409,
+      860,
+      420
+    ],
+    [
+      75,
+      440,
+      137,
+      449
+    ],
+    [
+      146,
+      440,
+      236,
+      449
+    ],
+    [
+      500,
+      440,
+      508,
+      449
+    ],
+    [
+      668,
+      439,
+      731,
+      450
+    ],
+    [
+      797,
+      439,
+      870,
+      450
+    ],
+    [
+      75,
+      470,
+      128,
+      479
+    ],
+    [
+      137,
+      472,
+      155,
+      479
+    ],
+    [
+      163,
+      470,
+      217,
+      481
+    ],
+    [
+      226,
+      470,
+      298,
+      479
+    ],
+    [
+      306,
+      470,
+      405,
+      479
+    ],
+    [
+      413,
+      470,
+      450,
+      479
+    ],
+    [
+      500,
+      470,
+      508,
+      479
+    ],
+    [
+      668,
+      469,
+      731,
+      480
+    ],
+    [
+      797,
+      469,
+      870,
+      480
+    ],
+    [
+      75,
+      500,
+      128,
+      509
+    ],
+    [
+      137,
+      500,
+      165,
+      509
+    ],
+    [
+      172,
+      500,
+      200,
+      509
+    ],
+    [
+      207,
+      500,
+      252,
+      509
+    ],
+    [
+      261,
+      500,
+      278,
+      509
+    ],
+    [
+      287,
+      500,
+      360,
+      509
+    ],
+    [
+      367,
+      500,
+      403,
+      509
+    ],
+    [
+      500,
+      500,
+      517,
+      509
+    ],
+    [
+      668,
+      499,
+      731,
+      510
+    ],
+    [
+      797,
+      499,
+      870,
+      510
+    ],
+    [
+      585,
+      559,
+      692,
+      570
+    ],
+    [
+      705,
+      558,
+      801,
+      571
+    ],
+    [
+      585,
+      600,
+      632,
+      610
+    ],
+    [
+      645,
+      599,
+      728,
+      612
+    ],
+    [
+      585,
+      643,
+      683,
+      658
+    ],
+    [
+      700,
+      640,
+      848,
+      660
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 800,
+  "image_height": 1100,
+  "layout_type": "standard",
+  "total_words": 68,
+  "invoice_data": {
+    "invoice_number": "INV-3E49FD6E",
+    "invoice_date": "07/04/2024",
+    "vendor_name": "Smith Ltd",
+    "vendor_address": "84359 Denise Brooks, Skinnerbury, OR 05653",
+    "customer_name": "William Harper",
+    "customer_address": "134 Howard Burg, Amyburgh, ND 91803",
+    "line_items": [
+      {
+        "description": "Burgess, Walker Piperazine estrone sulfate 45Rw",
+        "quantity": 3,
+        "unit_price": 216.56,
+        "unspsc_details": {
+          "segment_name": "Drugs and Pharmaceutical Products",
+          "family_name": "Anthelmintics",
+          "class_name": "Anthelmintic piperazines",
+          "commodity_name": "Piperazine estrone sulfate",
+          "segment_code": "51000000",
+          "family_code": "51450000",
+          "class_code": "51453000",
+          "commodity_code": "51453010"
+        }
+      },
+      {
+        "description": "Bismuth subnitrate",
+        "quantity": 4,
+        "unit_price": 316.76,
+        "unspsc_details": {
+          "segment_name": "Drugs and Pharmaceutical Products",
+          "family_name": "Drugs affecting the gastrointestinal system",
+          "class_name": "Antacids and antiflatulents",
+          "commodity_name": "Bismuth subnitrate",
+          "segment_code": "51000000",
+          "family_code": "51170000",
+          "class_code": "51171500",
+          "commodity_code": "51171514"
+        }
+      },
+      {
+        "description": "Canned or jarred chandler blueberries 49wP",
+        "quantity": 9,
+        "unit_price": 328.22,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Canned or jarred fruit",
+          "class_name": "Canned or jarred blueberries",
+          "commodity_name": "Canned or jarred chandler blueberries",
+          "segment_code": "50000000",
+          "family_code": "50360000",
+          "class_code": "50362200",
+          "commodity_code": "50362204"
+        }
+      },
+      {
+        "description": "Frozen Non GMO semil 43 avocados 03xU",
+        "quantity": 10,
+        "unit_price": 490.78,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Frozen Non GMO vegetables",
+          "class_name": "Frozen Non GMO avocados",
+          "commodity_name": "Frozen Non GMO semil 43 avocados",
+          "segment_code": "50000000",
+          "family_code": "50600000",
+          "class_code": "50601700",
+          "commodity_code": "50601768"
+        }
+      }
+    ],
+    "subtotal": 9778.5,
+    "tax_amount": 684.5,
+    "total_amount": 10463.0
+  }
+}

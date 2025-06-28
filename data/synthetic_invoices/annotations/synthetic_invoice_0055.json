@@ -1,0 +1,568 @@
+{
+  "id": "synthetic_invoice_0055",
+  "image_filename": "synthetic_invoice_0055.png",
+  "words": [
+    "BILL",
+    "Invoice",
+    "No.:",
+    "INV-99AAEA79",
+    "Date:",
+    "03/08/2025",
+    "Vendor:",
+    "Kramer,",
+    "Williams",
+    "and",
+    "Rogers",
+    "USNV",
+    "Walton,",
+    "FPO",
+    "AE",
+    "35866",
+    "Bill",
+    "To:",
+    "Tanya",
+    "Henderson",
+    "19326",
+    "Harrison",
+    "Inlet,",
+    "North",
+    "Jerryburgh,",
+    "WV",
+    "69095",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Walker,",
+    "Evans",
+    "a",
+    "Ultra",
+    "violet",
+    "water",
+    "purification",
+    "units",
+    "7",
+    "$245.17",
+    "$1716.19",
+    "Organic",
+    "bailey",
+    "queensland",
+    "raspberry",
+    "pure",
+    "10",
+    "$328.62",
+    "$3286.20",
+    "Baker,",
+    "Morales",
+    "Hydrocodone/phenyltoloxamine",
+    "5",
+    "$174.02",
+    "$870.10",
+    "Subtotal:",
+    "$5872.49",
+    "Tax:",
+    "$587.25",
+    "TOTAL:",
+    "$6459.74"
+  ],
+  "boxes": [
+    [
+      457,
+      63,
+      541,
+      81
+    ],
+    [
+      75,
+      109,
+      158,
+      120
+    ],
+    [
+      170,
+      109,
+      217,
+      120
+    ],
+    [
+      230,
+      109,
+      373,
+      120
+    ],
+    [
+      75,
+      147,
+      135,
+      158
+    ],
+    [
+      146,
+      147,
+      266,
+      159
+    ],
+    [
+      75,
+      213,
+      158,
+      224
+    ],
+    [
+      170,
+      213,
+      253,
+      227
+    ],
+    [
+      265,
+      213,
+      361,
+      224
+    ],
+    [
+      372,
+      213,
+      408,
+      224
+    ],
+    [
+      420,
+      213,
+      492,
+      227
+    ],
+    [
+      75,
+      253,
+      111,
+      261
+    ],
+    [
+      120,
+      252,
+      182,
+      264
+    ],
+    [
+      191,
+      253,
+      218,
+      261
+    ],
+    [
+      226,
+      253,
+      243,
+      261
+    ],
+    [
+      252,
+      253,
+      297,
+      261
+    ],
+    [
+      75,
+      298,
+      122,
+      309
+    ],
+    [
+      135,
+      298,
+      171,
+      309
+    ],
+    [
+      182,
+      298,
+      242,
+      311
+    ],
+    [
+      253,
+      298,
+      361,
+      309
+    ],
+    [
+      75,
+      337,
+      120,
+      346
+    ],
+    [
+      128,
+      338,
+      201,
+      346
+    ],
+    [
+      208,
+      337,
+      262,
+      349
+    ],
+    [
+      271,
+      337,
+      316,
+      346
+    ],
+    [
+      325,
+      337,
+      423,
+      349
+    ],
+    [
+      432,
+      338,
+      450,
+      346
+    ],
+    [
+      75,
+      354,
+      120,
+      362
+    ],
+    [
+      75,
+      395,
+      207,
+      409
+    ],
+    [
+      500,
+      395,
+      536,
+      409
+    ],
+    [
+      668,
+      395,
+      728,
+      406
+    ],
+    [
+      797,
+      395,
+      857,
+      406
+    ],
+    [
+      75,
+      425,
+      137,
+      437
+    ],
+    [
+      146,
+      426,
+      191,
+      434
+    ],
+    [
+      200,
+      428,
+      208,
+      434
+    ],
+    [
+      217,
+      425,
+      262,
+      434
+    ],
+    [
+      271,
+      425,
+      325,
+      434
+    ],
+    [
+      333,
+      426,
+      378,
+      434
+    ],
+    [
+      387,
+      425,
+      495,
+      437
+    ],
+    [
+      75,
+      442,
+      120,
+      450
+    ],
+    [
+      500,
+      426,
+      508,
+      434
+    ],
+    [
+      668,
+      424,
+      731,
+      435
+    ],
+    [
+      797,
+      424,
+      870,
+      435
+    ],
+    [
+      75,
+      456,
+      137,
+      467
+    ],
+    [
+      146,
+      455,
+      200,
+      467
+    ],
+    [
+      208,
+      455,
+      298,
+      467
+    ],
+    [
+      307,
+      455,
+      388,
+      467
+    ],
+    [
+      397,
+      458,
+      433,
+      467
+    ],
+    [
+      500,
+      455,
+      517,
+      464
+    ],
+    [
+      668,
+      454,
+      731,
+      465
+    ],
+    [
+      797,
+      454,
+      870,
+      465
+    ],
+    [
+      75,
+      485,
+      128,
+      497
+    ],
+    [
+      137,
+      485,
+      200,
+      494
+    ],
+    [
+      208,
+      485,
+      461,
+      497
+    ],
+    [
+      500,
+      486,
+      508,
+      494
+    ],
+    [
+      668,
+      484,
+      731,
+      495
+    ],
+    [
+      797,
+      484,
+      860,
+      495
+    ],
+    [
+      585,
+      544,
+      692,
+      555
+    ],
+    [
+      705,
+      543,
+      801,
+      557
+    ],
+    [
+      585,
+      585,
+      632,
+      596
+    ],
+    [
+      645,
+      584,
+      728,
+      598
+    ],
+    [
+      585,
+      629,
+      683,
+      643
+    ],
+    [
+      700,
+      626,
+      832,
+      645
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    0,
+    0,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 800,
+  "image_height": 1100,
+  "layout_type": "standard",
+  "total_words": 62,
+  "invoice_data": {
+    "invoice_number": "INV-99AAEA79",
+    "invoice_date": "03/08/2025",
+    "vendor_name": "Kramer, Williams and Rogers",
+    "vendor_address": "USNV Walton, FPO AE 35866",
+    "customer_name": "Tanya Henderson",
+    "customer_address": "19326 Harrison Inlet, North Jerryburgh, WV 69095",
+    "line_items": [
+      {
+        "description": "Walker, Evans a Ultra violet water purification units",
+        "quantity": 7,
+        "unit_price": 245.17,
+        "unspsc_details": {
+          "segment_name": "Laboratory and Measuring and Observing and Testing Equipment",
+          "family_name": "Laboratory and scientific equipment",
+          "class_name": "Laboratory water purification equipment and supplies",
+          "commodity_name": "Ultra violet water purification units",
+          "segment_code": "41000000",
+          "family_code": "41100000",
+          "class_code": "41104200",
+          "commodity_code": "41104205"
+        }
+      },
+      {
+        "description": "Organic bailey queensland raspberry pure",
+        "quantity": 10,
+        "unit_price": 328.62,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Organic fresh fruit purees",
+          "class_name": "Organic raspberry purees",
+          "commodity_name": "Organic bailey queensland raspberry purees",
+          "segment_code": "50000000",
+          "family_code": "50390000",
+          "class_code": "50396300",
+          "commodity_code": "50396302"
+        }
+      },
+      {
+        "description": "Baker, Morales  Hydrocodone/phenyltoloxamine",
+        "quantity": 5,
+        "unit_price": 174.02,
+        "unspsc_details": {
+          "segment_name": "Drugs and Pharmaceutical Products",
+          "family_name": "Controlled substance analgesics",
+          "class_name": "Combination opioid-containing antitussives and expectorants",
+          "commodity_name": "Hydrocodone/phenyltoloxamine",
+          "segment_code": "51000000",
+          "family_code": "51370000",
+          "class_code": "51373400",
+          "commodity_code": "51373475"
+        }
+      }
+    ],
+    "subtotal": 5872.49,
+    "tax_amount": 587.25,
+    "total_amount": 6459.74
+  }
+}

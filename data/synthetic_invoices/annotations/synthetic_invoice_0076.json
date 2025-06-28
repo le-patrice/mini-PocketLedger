@@ -1,0 +1,465 @@
+{
+  "id": "synthetic_invoice_0076",
+  "image_filename": "synthetic_invoice_0076.png",
+  "words": [
+    "INVOICE",
+    "Invoice",
+    "No.:",
+    "INV-35DBCAB4",
+    "Date:",
+    "02/27/2025",
+    "Vendor:",
+    "Mckinney,",
+    "Quinn",
+    "and",
+    "Lewis",
+    "435",
+    "Wilson",
+    "Tunnel,",
+    "New",
+    "Markton,",
+    "ME",
+    "66854",
+    "Bill",
+    "To:",
+    "Timothy",
+    "Gonzalez",
+    "22648",
+    "Hancock",
+    "Orchard,",
+    "Lake",
+    "Dustinview,",
+    "MD",
+    "10139",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Bupivacaine/epinephrine",
+    "9",
+    "$74.27",
+    "$668.43",
+    "Moore,",
+    "Horton",
+    "a",
+    "Noedo",
+    "10qt",
+    "6",
+    "$121.37",
+    "$728.22",
+    "Subtotal:",
+    "$1396.65",
+    "Tax:",
+    "$139.67",
+    "TOTAL:",
+    "$1536.32"
+  ],
+  "boxes": [
+    [
+      401,
+      55,
+      598,
+      77
+    ],
+    [
+      66,
+      100,
+      178,
+      113
+    ],
+    [
+      193,
+      100,
+      256,
+      113
+    ],
+    [
+      273,
+      100,
+      465,
+      113
+    ],
+    [
+      66,
+      141,
+      146,
+      154
+    ],
+    [
+      161,
+      141,
+      321,
+      155
+    ],
+    [
+      66,
+      205,
+      178,
+      218
+    ],
+    [
+      193,
+      205,
+      336,
+      222
+    ],
+    [
+      353,
+      205,
+      433,
+      221
+    ],
+    [
+      448,
+      205,
+      496,
+      218
+    ],
+    [
+      66,
+      227,
+      146,
+      241
+    ],
+    [
+      66,
+      267,
+      103,
+      277
+    ],
+    [
+      113,
+      266,
+      185,
+      277
+    ],
+    [
+      196,
+      266,
+      280,
+      281
+    ],
+    [
+      291,
+      267,
+      328,
+      277
+    ],
+    [
+      338,
+      266,
+      435,
+      281
+    ],
+    [
+      445,
+      267,
+      468,
+      277
+    ],
+    [
+      66,
+      287,
+      126,
+      297
+    ],
+    [
+      66,
+      326,
+      130,
+      340
+    ],
+    [
+      146,
+      326,
+      195,
+      340
+    ],
+    [
+      210,
+      326,
+      323,
+      343
+    ],
+    [
+      336,
+      326,
+      465,
+      340
+    ],
+    [
+      66,
+      370,
+      126,
+      380
+    ],
+    [
+      138,
+      368,
+      221,
+      380
+    ],
+    [
+      233,
+      368,
+      330,
+      383
+    ],
+    [
+      340,
+      368,
+      388,
+      380
+    ],
+    [
+      66,
+      390,
+      198,
+      403
+    ],
+    [
+      210,
+      390,
+      233,
+      400
+    ],
+    [
+      245,
+      388,
+      305,
+      400
+    ],
+    [
+      66,
+      433,
+      243,
+      450
+    ],
+    [
+      500,
+      433,
+      548,
+      450
+    ],
+    [
+      673,
+      433,
+      753,
+      446
+    ],
+    [
+      803,
+      433,
+      883,
+      446
+    ],
+    [
+      66,
+      470,
+      343,
+      484
+    ],
+    [
+      500,
+      471,
+      511,
+      481
+    ],
+    [
+      673,
+      468,
+      745,
+      482
+    ],
+    [
+      803,
+      468,
+      886,
+      482
+    ],
+    [
+      66,
+      502,
+      138,
+      515
+    ],
+    [
+      150,
+      502,
+      221,
+      512
+    ],
+    [
+      233,
+      504,
+      245,
+      512
+    ],
+    [
+      256,
+      501,
+      316,
+      512
+    ],
+    [
+      328,
+      501,
+      376,
+      515
+    ],
+    [
+      500,
+      502,
+      511,
+      512
+    ],
+    [
+      673,
+      500,
+      756,
+      513
+    ],
+    [
+      803,
+      500,
+      886,
+      513
+    ],
+    [
+      586,
+      556,
+      730,
+      570
+    ],
+    [
+      746,
+      555,
+      875,
+      572
+    ],
+    [
+      586,
+      601,
+      650,
+      614
+    ],
+    [
+      666,
+      600,
+      778,
+      616
+    ],
+    [
+      586,
+      648,
+      718,
+      666
+    ],
+    [
+      586,
+      668,
+      763,
+      692
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    0,
+    0,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 600,
+  "image_height": 900,
+  "layout_type": "receipt",
+  "total_words": 51,
+  "invoice_data": {
+    "invoice_number": "INV-35DBCAB4",
+    "invoice_date": "02/27/2025",
+    "vendor_name": "Mckinney, Quinn and Lewis",
+    "vendor_address": "435 Wilson Tunnel, New Markton, ME 66854",
+    "customer_name": "Timothy Gonzalez",
+    "customer_address": "22648 Hancock Orchard, Lake Dustinview, MD 10139",
+    "line_items": [
+      {
+        "description": "Bupivacaine/epinephrine",
+        "quantity": 9,
+        "unit_price": 74.27,
+        "unspsc_details": {
+          "segment_name": "Drugs and Pharmaceutical Products",
+          "family_name": "Anaesthetic drugs and related adjuncts and analeptics",
+          "class_name": "Combination anesthetics and adjuncts",
+          "commodity_name": "Bupivacaine/epinephrine",
+          "segment_code": "51000000",
+          "family_code": "51270000",
+          "class_code": "51273900",
+          "commodity_code": "51273923"
+        }
+      },
+      {
+        "description": "Moore, Horton a Noedo 10qt",
+        "quantity": 6,
+        "unit_price": 121.37,
+        "unspsc_details": {
+          "segment_name": "Musical Instruments and Games and Toys and Arts and Crafts and Educational Equipment and Materials and Accessories and Supplies",
+          "family_name": "Musical Instruments and parts and accessories",
+          "class_name": "Percussion instruments",
+          "commodity_name": "Noedo",
+          "segment_code": "60000000",
+          "family_code": "60130000",
+          "class_code": "60131400",
+          "commodity_code": "60131433"
+        }
+      }
+    ],
+    "subtotal": 1396.65,
+    "tax_amount": 139.67,
+    "total_amount": 1536.32
+  }
+}

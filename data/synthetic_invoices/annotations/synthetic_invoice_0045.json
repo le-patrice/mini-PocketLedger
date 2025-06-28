@@ -1,0 +1,473 @@
+{
+  "id": "synthetic_invoice_0045",
+  "image_filename": "synthetic_invoice_0045.png",
+  "words": [
+    "BILL",
+    "Invoice",
+    "No.:",
+    "INV-077CD3BF",
+    "Date:",
+    "04/21/2025",
+    "Vendor:",
+    "Fitzgerald-Sullivan",
+    "Unit",
+    "7811",
+    "Box",
+    "8377,",
+    "DPO",
+    "AA",
+    "48671",
+    "Bill",
+    "To:",
+    "Monique",
+    "Stephenson",
+    "5868",
+    "Lewis",
+    "Dale,",
+    "East",
+    "Davidbury,",
+    "MH",
+    "96300",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Canned",
+    "or",
+    "jarred",
+    "black",
+    "giant",
+    "plums",
+    "5",
+    "$390.46",
+    "$1952.30",
+    "Ayala",
+    "PLC",
+    "Circulating",
+    "pumps",
+    "9",
+    "$280.25",
+    "$2522.25",
+    "Subtotal:",
+    "$4474.55",
+    "Tax:",
+    "$313.22",
+    "TOTAL:",
+    "$4787.77"
+  ],
+  "boxes": [
+    [
+      457,
+      63,
+      541,
+      81
+    ],
+    [
+      75,
+      109,
+      158,
+      120
+    ],
+    [
+      170,
+      109,
+      217,
+      120
+    ],
+    [
+      230,
+      109,
+      373,
+      120
+    ],
+    [
+      75,
+      147,
+      135,
+      158
+    ],
+    [
+      146,
+      147,
+      266,
+      159
+    ],
+    [
+      75,
+      213,
+      158,
+      224
+    ],
+    [
+      170,
+      213,
+      398,
+      227
+    ],
+    [
+      75,
+      253,
+      111,
+      261
+    ],
+    [
+      120,
+      252,
+      156,
+      261
+    ],
+    [
+      165,
+      253,
+      192,
+      261
+    ],
+    [
+      200,
+      253,
+      245,
+      264
+    ],
+    [
+      253,
+      253,
+      281,
+      261
+    ],
+    [
+      288,
+      253,
+      306,
+      261
+    ],
+    [
+      315,
+      252,
+      360,
+      261
+    ],
+    [
+      75,
+      298,
+      122,
+      309
+    ],
+    [
+      135,
+      298,
+      171,
+      309
+    ],
+    [
+      182,
+      298,
+      266,
+      311
+    ],
+    [
+      277,
+      298,
+      397,
+      311
+    ],
+    [
+      75,
+      338,
+      111,
+      346
+    ],
+    [
+      120,
+      338,
+      165,
+      346
+    ],
+    [
+      173,
+      337,
+      218,
+      349
+    ],
+    [
+      227,
+      338,
+      263,
+      346
+    ],
+    [
+      272,
+      337,
+      362,
+      349
+    ],
+    [
+      371,
+      338,
+      388,
+      346
+    ],
+    [
+      397,
+      338,
+      442,
+      346
+    ],
+    [
+      75,
+      382,
+      207,
+      396
+    ],
+    [
+      500,
+      382,
+      536,
+      396
+    ],
+    [
+      668,
+      382,
+      728,
+      393
+    ],
+    [
+      797,
+      382,
+      857,
+      393
+    ],
+    [
+      75,
+      412,
+      128,
+      421
+    ],
+    [
+      137,
+      415,
+      155,
+      421
+    ],
+    [
+      163,
+      412,
+      217,
+      424
+    ],
+    [
+      226,
+      412,
+      271,
+      421
+    ],
+    [
+      280,
+      413,
+      325,
+      424
+    ],
+    [
+      333,
+      412,
+      378,
+      424
+    ],
+    [
+      500,
+      413,
+      508,
+      421
+    ],
+    [
+      668,
+      411,
+      731,
+      422
+    ],
+    [
+      797,
+      411,
+      870,
+      422
+    ],
+    [
+      75,
+      442,
+      120,
+      454
+    ],
+    [
+      128,
+      443,
+      156,
+      451
+    ],
+    [
+      163,
+      442,
+      262,
+      454
+    ],
+    [
+      271,
+      445,
+      316,
+      454
+    ],
+    [
+      500,
+      443,
+      508,
+      451
+    ],
+    [
+      668,
+      441,
+      731,
+      452
+    ],
+    [
+      797,
+      441,
+      870,
+      452
+    ],
+    [
+      585,
+      501,
+      692,
+      512
+    ],
+    [
+      705,
+      500,
+      801,
+      514
+    ],
+    [
+      585,
+      542,
+      632,
+      553
+    ],
+    [
+      645,
+      541,
+      728,
+      555
+    ],
+    [
+      585,
+      586,
+      683,
+      600
+    ],
+    [
+      700,
+      583,
+      832,
+      602
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 800,
+  "image_height": 1100,
+  "layout_type": "standard",
+  "total_words": 52,
+  "invoice_data": {
+    "invoice_number": "INV-077CD3BF",
+    "invoice_date": "04/21/2025",
+    "vendor_name": "Fitzgerald-Sullivan",
+    "vendor_address": "Unit 7811 Box 8377, DPO AA 48671",
+    "customer_name": "Monique Stephenson",
+    "customer_address": "5868 Lewis Dale, East Davidbury, MH 96300",
+    "line_items": [
+      {
+        "description": "Canned or jarred black giant plums",
+        "quantity": 5,
+        "unit_price": 390.46,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Canned or jarred fruit",
+          "class_name": "Canned or jarred plums",
+          "commodity_name": "Canned or jarred black giant plums",
+          "segment_code": "50000000",
+          "family_code": "50360000",
+          "class_code": "50365800",
+          "commodity_code": "50365813"
+        }
+      },
+      {
+        "description": "Ayala PLC Circulating pumps",
+        "quantity": 9,
+        "unit_price": 280.25,
+        "unspsc_details": {
+          "segment_name": "Distribution and Conditioning Systems and Equipment and Components",
+          "family_name": "Industrial pumps and compressors",
+          "class_name": "Pumps",
+          "commodity_name": "Circulating pumps",
+          "segment_code": "40000000",
+          "family_code": "40150000",
+          "class_code": "40151500",
+          "commodity_code": "40151504"
+        }
+      }
+    ],
+    "subtotal": 4474.55,
+    "tax_amount": 313.22,
+    "total_amount": 4787.77
+  }
+}

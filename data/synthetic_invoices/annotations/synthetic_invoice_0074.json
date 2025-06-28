@@ -1,0 +1,465 @@
+{
+  "id": "synthetic_invoice_0074",
+  "image_filename": "synthetic_invoice_0074.png",
+  "words": [
+    "RECEIPT",
+    "Invoice",
+    "No.:",
+    "INV-DFD2212F",
+    "Date:",
+    "10/26/2024",
+    "Vendor:",
+    "Johnson",
+    "LLC",
+    "69688",
+    "James",
+    "Flats,",
+    "South",
+    "Holly,",
+    "OH",
+    "08375",
+    "Bill",
+    "To:",
+    "Betty",
+    "Allen",
+    "81813",
+    "Daniel",
+    "Stravenue,",
+    "Gregoryside,",
+    "SC",
+    "34354",
+    "Description",
+    "Qty",
+    "Price",
+    "Total",
+    "Frozen",
+    "non",
+    "GMO",
+    "red",
+    "currants",
+    "9",
+    "$449.82",
+    "$4048.38",
+    "Plucker",
+    "or",
+    "hide",
+    "puller",
+    "7",
+    "$411.24",
+    "$2878.68",
+    "Subtotal:",
+    "$6927.06",
+    "Tax:",
+    "$346.35",
+    "TOTAL:",
+    "$7273.41"
+  ],
+  "boxes": [
+    [
+      421,
+      60,
+      578,
+      80
+    ],
+    [
+      66,
+      105,
+      156,
+      117
+    ],
+    [
+      168,
+      105,
+      218,
+      117
+    ],
+    [
+      232,
+      105,
+      385,
+      117
+    ],
+    [
+      66,
+      144,
+      130,
+      156
+    ],
+    [
+      142,
+      144,
+      270,
+      157
+    ],
+    [
+      66,
+      209,
+      156,
+      221
+    ],
+    [
+      168,
+      209,
+      257,
+      221
+    ],
+    [
+      269,
+      209,
+      308,
+      221
+    ],
+    [
+      66,
+      247,
+      114,
+      256
+    ],
+    [
+      124,
+      247,
+      172,
+      256
+    ],
+    [
+      181,
+      246,
+      238,
+      259
+    ],
+    [
+      248,
+      246,
+      296,
+      256
+    ],
+    [
+      305,
+      246,
+      362,
+      259
+    ],
+    [
+      372,
+      247,
+      390,
+      256
+    ],
+    [
+      400,
+      247,
+      448,
+      256
+    ],
+    [
+      66,
+      291,
+      117,
+      303
+    ],
+    [
+      130,
+      291,
+      169,
+      303
+    ],
+    [
+      181,
+      291,
+      245,
+      306
+    ],
+    [
+      257,
+      291,
+      321,
+      303
+    ],
+    [
+      66,
+      331,
+      114,
+      341
+    ],
+    [
+      124,
+      331,
+      181,
+      341
+    ],
+    [
+      190,
+      332,
+      286,
+      344
+    ],
+    [
+      296,
+      331,
+      410,
+      344
+    ],
+    [
+      420,
+      332,
+      438,
+      341
+    ],
+    [
+      448,
+      332,
+      496,
+      341
+    ],
+    [
+      66,
+      376,
+      208,
+      391
+    ],
+    [
+      500,
+      376,
+      538,
+      391
+    ],
+    [
+      672,
+      376,
+      736,
+      388
+    ],
+    [
+      802,
+      376,
+      866,
+      388
+    ],
+    [
+      66,
+      410,
+      124,
+      419
+    ],
+    [
+      133,
+      412,
+      162,
+      419
+    ],
+    [
+      170,
+      410,
+      200,
+      419
+    ],
+    [
+      208,
+      409,
+      237,
+      419
+    ],
+    [
+      245,
+      410,
+      322,
+      419
+    ],
+    [
+      500,
+      410,
+      509,
+      419
+    ],
+    [
+      672,
+      408,
+      738,
+      420
+    ],
+    [
+      802,
+      408,
+      880,
+      420
+    ],
+    [
+      66,
+      439,
+      133,
+      449
+    ],
+    [
+      142,
+      442,
+      161,
+      449
+    ],
+    [
+      170,
+      439,
+      209,
+      449
+    ],
+    [
+      218,
+      439,
+      276,
+      452
+    ],
+    [
+      500,
+      440,
+      509,
+      449
+    ],
+    [
+      672,
+      438,
+      738,
+      450
+    ],
+    [
+      802,
+      438,
+      880,
+      450
+    ],
+    [
+      586,
+      496,
+      701,
+      508
+    ],
+    [
+      714,
+      495,
+      817,
+      510
+    ],
+    [
+      586,
+      538,
+      637,
+      550
+    ],
+    [
+      650,
+      537,
+      740,
+      552
+    ],
+    [
+      586,
+      583,
+      692,
+      599
+    ],
+    [
+      709,
+      580,
+      850,
+      601
+    ]
+  ],
+  "ner_tags": [
+    31,
+    1,
+    0,
+    0,
+    3,
+    0,
+    7,
+    0,
+    0,
+    9,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    11,
+    0,
+    0,
+    0,
+    13,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    15,
+    0,
+    0,
+    0,
+    17,
+    19,
+    21,
+    23,
+    0,
+    25,
+    0,
+    27,
+    0
+  ],
+  "image_width": 750,
+  "image_height": 1000,
+  "layout_type": "compact",
+  "total_words": 51,
+  "invoice_data": {
+    "invoice_number": "INV-DFD2212F",
+    "invoice_date": "10/26/2024",
+    "vendor_name": "Johnson LLC",
+    "vendor_address": "69688 James Flats, South Holly, OH 08375",
+    "customer_name": "Betty Allen",
+    "customer_address": "81813 Daniel Stravenue, Gregoryside, SC 34354",
+    "line_items": [
+      {
+        "description": "Frozen non GMO red currants",
+        "quantity": 9,
+        "unit_price": 449.82,
+        "unspsc_details": {
+          "segment_name": "Food Beverage and Tobacco Products",
+          "family_name": "Frozen non GMO fruits",
+          "class_name": "Frozen non GMO currants",
+          "commodity_name": "Frozen non GMO red currants",
+          "segment_code": "50000000",
+          "family_code": "50540000",
+          "class_code": "50542800",
+          "commodity_code": "50542805"
+        }
+      },
+      {
+        "description": "Plucker or hide puller",
+        "quantity": 7,
+        "unit_price": 411.24,
+        "unspsc_details": {
+          "segment_name": "Industrial Manufacturing and Processing Machinery and Accessories",
+          "family_name": "Chicken processing machinery and equipment",
+          "class_name": "Killing and defeathering department machinery and equipment",
+          "commodity_name": "Plucker or hide puller",
+          "segment_code": "23000000",
+          "family_code": "23220000",
+          "class_code": "23221100",
+          "commodity_code": "23221103"
+        }
+      }
+    ],
+    "subtotal": 6927.06,
+    "tax_amount": 346.35,
+    "total_amount": 7273.41
+  }
+}
