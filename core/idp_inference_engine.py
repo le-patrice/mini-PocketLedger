@@ -1,11 +1,11 @@
-import torch
+import torch #type: ignore
 import json
 from pathlib import Path
 from PIL import Image
 from typing import Dict, List, Any, Optional, Tuple, Union
 import numpy as np
-import cv2
-import easyocr
+import cv2 #type: ignore
+import easyocr #type: ignore
 from datetime import datetime
 import re
 import logging
@@ -59,7 +59,7 @@ class ModelLoader:
     def _load_dependencies(self):
         """Dynamically import ML dependencies."""
         try:
-            from transformers import LayoutLMv3Processor, LayoutLMv3ForTokenClassification
+            from transformers import LayoutLMv3Processor, LayoutLMv3ForTokenClassification #type: ignore
             self.LayoutLMv3Processor = LayoutLMv3Processor
             self.LayoutLMv3ForTokenClassification = LayoutLMv3ForTokenClassification
             logger.info("LayoutLMv3 components imported successfully")
